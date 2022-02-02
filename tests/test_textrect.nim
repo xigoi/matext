@@ -1,9 +1,8 @@
 include matextpkg/textrect
 import std/unittest
 
-const rectStrings = ["hello", "ma\nth", "1234567\nqwertyu\nasdfghj\nzxcvbnm"]
-
 test "conversion to/from string":
+  const rectStrings = ["hello", "ma\nth", "1234567\nqwertyu\nasdfghj\nzxcvbnm"]
   for s in rectStrings:
     check $s.toTextRect == s
   const nonRectStrings = ["", "12\n3", "1234567\nqwertyu\nasdfghjk\nzxcvbnm"]
@@ -11,12 +10,13 @@ test "conversion to/from string":
     expect ValueError:
       discard s.toTextRect
 
+const
+  hello = "hello".toTextRect
+  world = "world".toTextRect
+  math0 = "ma\nth".toTextRect(0)
+  math1 = "ma\nth".toTextRect(1)
+
 test "horizontal joining":
-  const
-    hello = "hello".toTextRect
-    world = "world".toTextRect
-    math0 = "ma\nth".toTextRect(0)
-    math1 = "ma\nth".toTextRect(1)
   check $(hello & world) == "helloworld"
   check $(hello & math0) == "helloma\n     th"
   check $(hello & math1) == "     ma\nhelloth"
@@ -26,3 +26,17 @@ test "horizontal joining":
   check $(math1 & math1) == "mama\nthth"
   check $(math0 & math1) == "  ma\nmath\nth  "
   check $(math1 & math0) == "ma  \nthma\n  th"
+
+test "vertical joining":
+  for rect in [hello, world, math0, math1]:
+    for alignment in StackAlignment:
+      check $stack(rect, 0, alignment) == $rect
+  for alignment in StackAlignment:
+    check $stack(hello, world, 0, alignment) == "hello\nworld"
+  check $stack(hello, math0, 0, saCenter) == "hello\n ma  \n th  "
+  check $stack(hello, math0, 0, saLeft)   == "hello\nma   \nth   "
+  check $stack(hello, math0, 0, saRight)  == "hello\n   ma\n   th"
+  check $stack(math0, world, 0, saCenter) == " ma  \n th  \nworld"
+  check $stack(math0, world, 0, saLeft)   == "ma   \nth   \nworld"
+  check $stack(math0, world, 0, saRight)  == "   ma\n   th\nworld"
+  check $stack(hello, math0 & math1, hello & world, 0, saCenter) == "  hello   \n     ma   \n   math   \n   th     \nhelloworld"

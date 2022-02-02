@@ -1,10 +1,15 @@
 import std/sequtils
 import std/strutils
+import std/sugar
 
 type
   TextRect* = object
     rows: seq[string]
     baseline: Natural
+  StackAlignment* = enum
+    saCenter
+    saLeft
+    saRight
 
 using rect: TextRect
 
@@ -48,3 +53,14 @@ func `&`*(left, right: TextRect): TextRect =
   for i, row in result.rows.mpairs:
     row = left2.rows[i] & right2.rows[i]
   result.baseline = left2.baseline
+
+func stack*(rects: varargs[TextRect], baseline: Natural, alignment: StackAlignment): TextRect =
+  let width = max(rects.map(width))
+  let alignFunc = case alignment
+    of saCenter: (s: string) => s.center(width)
+    of saLeft:   (s: string) => s.alignLeft(width)
+    of saRight:  (s: string) => s.align(width)
+  for rect in rects:
+    for row in rect.rows:
+      result.rows.add alignFunc(row)
+  result.baseline = baseline
