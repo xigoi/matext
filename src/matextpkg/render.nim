@@ -111,11 +111,9 @@ atom.become (atom1 & ((superscript & subscript) | (subscript & superscript) | su
 ))
 let completeExpr = expr << eof
 
-proc transform*(latex: string): string =
+proc render*(latex: string): string =
   let parsed = completeExpr.parse(latex)
   if parsed.kind == success:
     $parsed.value
   else:
     raise newException(ValueError, "Can't parse expression")
-
-echo transform"x + x_1 + x^2 + x_1^2 + x^2_1"

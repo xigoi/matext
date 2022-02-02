@@ -13,4 +13,5 @@ bin           = @["matext"]
 
 requires "nim >= 1.6.0"
 
+requires "cligen >= 1.5.21"
 requires "honeycomb >= 0.1.1"
