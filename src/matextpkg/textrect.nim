@@ -56,6 +56,8 @@ func join*(rects: varargs[TextRect]): TextRect =
   rects.keepItIf(not it.isEmpty)
   if rects == @[]:
     return
+  if rects.len == 1:
+    return rects[0]
   for rect in rects.mitems:
     if rect.flag == trfOperator:
       rect.rows[0] = " " & rect.rows[0] & " "

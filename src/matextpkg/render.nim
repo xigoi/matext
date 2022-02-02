@@ -62,8 +62,15 @@ let binaryOp = binaryOperators.map(it => s(it[0]).result(it[1])).foldr(a | b).ma
 let frac = s"\frac" >> (atom & atom).map(fraction => (
   let numerator = fraction[0]
   let denominator = fraction[1]
-  let fractionLine = "─".repeat(max(numerator.width, denominator.width)).toTextRect
-  stack(numerator, fractionLine, denominator, numerator.height, saCenter)
+  let width = max(numerator.width, denominator.width)
+  var fractionLine = "─".repeat(width)
+  var flag = trfFraction
+  if (numerator.flag == trfFraction and numerator.width == width) or
+     (denominator.flag == trfFraction and denominator.width == width):
+    fractionLine = "╶" & fractionLine & "╴"
+    flag = trfNone
+  result = stack(numerator, fractionLine.toTextRect, denominator, numerator.height, saCenter)
+  result.flag = flag
 ))
 let delimiter = delimiters.map(it => s(it[0]).result(it[1])).foldr(a | b).map(s => s.toTextRect)
 let leftright = (s"\left" >> delimiter & expr & (s"\right" >> delimiter)).map(things => (
@@ -84,7 +91,8 @@ let pow = (atom1 & (c('^') >> atom)).map(operands => (
   exponent.flag = trfNone
   base & exponent
 ))
-atom.become pow | atom1
+# atom.become pow | atom1
+atom.become atom1
 let completeExpr = expr << eof
 
 proc transform*(latex: string): string =
@@ -94,4 +102,4 @@ proc transform*(latex: string): string =
   else:
     raise newException(ValueError, "Can't parse expression")
 
-echo transform"\left(1+\frac{1}{n}\right)^n"
+echo transform"\frac{\frac{\frac{1}{2}}{3}}{\frac{5}{6}}"
