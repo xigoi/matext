@@ -9,9 +9,11 @@ type
     trfNone
     trfOperator
     trfFraction
+    trfSub
+    trfSup
   TextRect* = object
     rows*: seq[string]
-    baseline*: Natural
+    baseline*: int
     width*: Natural
     flag*: TextRectFlag
   StackAlignment* = enum
@@ -30,7 +32,7 @@ func height*(rect): Natural =
 func isEmpty(rect): bool =
   rect.height == 0
 
-func toTextRect*(s: string, baseline: Natural = 0, flag = trfNone): TextRect =
+func toTextRect*(s: string, baseline: int = 0, flag = trfNone): TextRect =
   if s == "":
     return
   result.rows = s.split("\n")
@@ -85,7 +87,7 @@ func center(s: string, width: Natural, padding = ' '.Rune): string =
     let right = diff - left
     padding.repeat(left) & s & padding.repeat(right)
 
-func stack*(rects: varargs[TextRect], baseline: Natural, alignment: StackAlignment): TextRect =
+func stack*(rects: varargs[TextRect], baseline: int, alignment: StackAlignment): TextRect =
   let width = max(rects.mapIt(it.width))
   let alignFunc = case alignment
     of saCenter: (s: string) => s.center(width)
@@ -96,3 +98,7 @@ func stack*(rects: varargs[TextRect], baseline: Natural, alignment: StackAlignme
       result.rows.add alignFunc(row)
   result.baseline = baseline
   result.width = width
+
+func withFlag*(rect; flag: TextRectFlag): TextRect =
+  result = rect
+  result.flag = flag

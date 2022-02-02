@@ -84,15 +84,31 @@ let leftright = (s"\left" >> delimiter & expr & (s"\right" >> delimiter)).map(th
 ))
 let bracedExpr = c('{') >> expr << c('}')
 let atom1 = (bracedExpr | leftright | oneChar | binaryOp | frac) << ws
-let pow = (atom1 & (c('^') >> atom)).map(operands => (
+let superscript = (c('^') >> atom1).map(sup => sup.withFlag(trfSup))
+let subscript = (c('_') >> atom1).map(sub => sub.withFlag(trfSub))
+atom.become (atom1 & ((superscript & subscript) | (subscript & superscript) | superscript.asSeq | subscript.asSeq).optional).map(operands => (
   let base = operands[0]
-  var exponent = operands[1]
-  exponent.baseline = exponent.height + base.baseline
-  exponent.flag = trfNone
-  base & exponent
+  case operands.len
+  of 1:
+    base
+  of 2:
+    var script = operands[1]
+    script.baseline =
+      if script.flag == trfSup:
+        base.baseline + script.height
+      else:
+        base.baseline - base.height
+    base & script
+  of 3:
+    let (sup, sub) =
+      if operands[1].flag == trfSup:
+        (operands[1], operands[2])
+      else:
+        (operands[2], operands[1])
+    base & stack(sup.extendDown(base.height), sub, base.baseline + sup.height, saLeft)
+  else:
+    TextRect()
 ))
-# atom.become pow | atom1
-atom.become atom1
 let completeExpr = expr << eof
 
 proc transform*(latex: string): string =
@@ -102,4 +118,4 @@ proc transform*(latex: string): string =
   else:
     raise newException(ValueError, "Can't parse expression")
 
-echo transform"\frac{\frac{\frac{1}{2}}{3}}{\frac{5}{6}}"
+echo transform"x + x_1 + x^2 + x_1^2 + x^2_1"
