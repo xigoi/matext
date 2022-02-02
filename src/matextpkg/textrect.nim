@@ -11,7 +11,7 @@ type
     trfFraction
   TextRect* = object
     rows: seq[string]
-    baseline: Natural
+    baseline*: Natural
     width*: Natural
     flag*: TextRectFlag
   StackAlignment* = enum
@@ -41,12 +41,12 @@ func toTextRect*(s: string, baseline: Natural = 0, flag = trfNone): TextRect =
   result.baseline = baseline
   result.flag = flag
 
-func extendUp(rect; num: Natural): TextRect =
+func extendUp*(rect; num: Natural): TextRect =
   result.rows = sequtils.repeat(' '.repeat(rect.width), num) & rect.rows
   result.baseline = rect.baseline + num
   result.width = rect.width
 
-func extendDown(rect; num: Natural): TextRect =
+func extendDown*(rect; num: Natural): TextRect =
   result.rows = rect.rows & sequtils.repeat(' '.repeat(rect.width), num)
   result.baseline = rect.baseline
   result.width = rect.width

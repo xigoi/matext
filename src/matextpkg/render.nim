@@ -24,19 +24,35 @@ const binaryOperators = {
   "cap": "∩", "doublecup": "⋓", "pm": "±", "plusmn": "±", "wr": "≀",
 }.mapIt((cmd: "\\" & it[0], op: it[1]))
 
+let ws = whitespace.many
 var atom = fwdcl[TextRect]()
-let expr = atom.atLeast(1).map(atoms => atoms.join)
+let expr = atom.many.map(atoms => atoms.join)
 let oneChar = alphanumeric.map(ch => ($ch).toTextRect)
 let binaryOp = (
   c"+-*/".map(ch => $ch) |
   binaryOperators.map(it => s(it.cmd).result(it.op)).foldr(a | b)
 ).map(s => s.toTextRect(flag = trfOperator))
-let frac = s"\frac" >> (atom & atom).map((fraction: seq[TextRect]) => (
+let frac = s"\frac" >> (atom & atom).map(fraction => (
   let numerator = fraction[0]
   let denominator = fraction[1]
   let fractionLine = "─".repeat(max(numerator.width, denominator.width)).toTextRect
   stack(numerator, fractionLine, denominator, numerator.height, saCenter)
 ))
 let bracedExpr = c('{') >> expr << c('}')
-atom.become (bracedExpr | oneChar | binaryOp | frac) << whitespace.many
-echo expr.parse("\\frac{11 \\cdot 2}{3 + 4}").value
+let atom1 = (bracedExpr | oneChar | binaryOp | frac) << ws
+let pow = (atom1 & (c('^') >> atom)).map(operands => (
+  let base = operands[0]
+  var exponent = operands[1]
+  exponent.baseline = exponent.height + base.height - 1
+  exponent.flag = trfNone
+  base & exponent
+))
+atom.become pow | atom1
+let completeExpr = expr << eof
+
+proc transform*(latex: string): string =
+  let parsed = completeExpr.parse(latex)
+  if parsed.kind == success:
+    $parsed.value
+  else:
+    raise newException(ValueError, "Can't parse expression")
