@@ -27,6 +27,15 @@ test "horizontal joining":
   check $(math0 & math1) == "  ma\nmath\nth  "
   check $(math1 & math0) == "ma  \nthma\n  th"
 
+test "custom center func":
+  let abc = "ábč"
+  for width in 0..3:
+    check abc.center(width) == abc
+  check abc.center(4) == "ábč "
+  check abc.center(5) == " ábč "
+  check abc.center(6) == " ábč  "
+  check abc.center(7) == "  ábč  "
+
 test "vertical joining":
   for rect in [hello, world, math0, math1]:
     for alignment in StackAlignment:

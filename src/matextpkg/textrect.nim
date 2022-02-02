@@ -1,11 +1,13 @@
+from std/strutils import join, repeat, split
 import std/sequtils
-import std/strutils
 import std/sugar
+import std/unicode
 
 type
   TextRect* = object
     rows: seq[string]
     baseline: Natural
+    width*: Natural
   StackAlignment* = enum
     saCenter
     saLeft
@@ -16,9 +18,6 @@ using rect: TextRect
 func `$`*(rect): string =
   rect.rows.join("\n")
 
-func width*(rect): Natural =
-  rect.rows[0].len
-
 func height*(rect): Natural =
   rect.rows.len
 
@@ -26,19 +25,21 @@ func toTextRect*(s: string, baseline: Natural = 0): TextRect =
   if s == "":
     raise newException(ValueError, "A TextRect must not be empty")
   result.rows = s.split("\n")
-  let width = result.width
+  result.width = result.rows[0].runeLen
   for row in result.rows:
-    if row.len != width:
+    if row.runeLen != result.width:
       raise newException(ValueError, "All rows of a TextRect must be the same width")
   result.baseline = baseline
 
 func extendUp(rect; num: Natural): TextRect =
   result.rows = sequtils.repeat(' '.repeat(rect.width), num) & rect.rows
   result.baseline = rect.baseline + num
+  result.width = rect.width
 
 func extendDown(rect; num: Natural): TextRect =
   result.rows = rect.rows & sequtils.repeat(' '.repeat(rect.width), num)
   result.baseline = rect.baseline
+  result.width = rect.width
 
 func `&`*(left, right: TextRect): TextRect =
   let diff1 = left.baseline - right.baseline
@@ -53,9 +54,20 @@ func `&`*(left, right: TextRect): TextRect =
   for i, row in result.rows.mpairs:
     row = left2.rows[i] & right2.rows[i]
   result.baseline = left2.baseline
+  result.width = left.width + right.width
+
+func center(s: string, width: Natural, padding = ' '.Rune): string =
+  let sLen = s.runeLen
+  if sLen >= width:
+    s
+  else:
+    let diff = width - sLen
+    let left = diff div 2
+    let right = diff - left
+    padding.repeat(left) & s & padding.repeat(right)
 
 func stack*(rects: varargs[TextRect], baseline: Natural, alignment: StackAlignment): TextRect =
-  let width = max(rects.map(width))
+  let width = max(rects.mapIt(it.width))
   let alignFunc = case alignment
     of saCenter: (s: string) => s.center(width)
     of saLeft:   (s: string) => s.alignLeft(width)
