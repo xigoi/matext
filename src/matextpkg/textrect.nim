@@ -10,7 +10,7 @@ type
     trfOperator
     trfFraction
   TextRect* = object
-    rows: seq[string]
+    rows*: seq[string]
     baseline*: Natural
     width*: Natural
     flag*: TextRectFlag
@@ -68,7 +68,7 @@ func join*(rects: varargs[TextRect]): TextRect =
   for i, row in result.rows.mpairs:
     row = rects.mapIt(it.rows[i]).join
   result.baseline = rects[0].baseline
-  result.width = rects.mapIt(it.width).sum
+  result.width = rects.mapIt((it.width)).sum
 
 func `&`*(left, right: TextRect): TextRect =
   join(left, right)
@@ -93,3 +93,4 @@ func stack*(rects: varargs[TextRect], baseline: Natural, alignment: StackAlignme
     for row in rect.rows:
       result.rows.add alignFunc(row)
   result.baseline = baseline
+  result.width = width
