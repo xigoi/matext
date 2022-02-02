@@ -25,13 +25,12 @@ const binaryOperators = {
 }.mapIt((cmd: "\\" & it[0], op: it[1]))
 
 var atom = fwdcl[TextRect]()
-let expr = atom.atLeast(1).map(atoms => atoms.foldl(a & b))
+let expr = atom.atLeast(1).map(atoms => atoms.join)
 let oneChar = alphanumeric.map(ch => ($ch).toTextRect)
-let binaryOp = oneOf(
-  c"+-*/".map(ch => $ch),
-  !nop[string](),
-  binaryOperators.map(it => s(it.cmd).result(it.op))
-).map(s => (" " & s & " ").toTextRect)
+let binaryOp = (
+  c"+-*/".map(ch => $ch) |
+  binaryOperators.map(it => s(it.cmd).result(it.op)).foldr(a | b)
+).map(s => s.toTextRect(flag = trfOperator))
 let frac = s"\frac" >> (atom & atom).map((fraction: seq[TextRect]) => (
   let numerator = fraction[0]
   let denominator = fraction[1]

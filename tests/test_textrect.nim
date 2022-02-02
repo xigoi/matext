@@ -2,10 +2,10 @@ include matextpkg/textrect
 import std/unittest
 
 test "conversion to/from string":
-  const rectStrings = ["hello", "ma\nth", "1234567\nqwertyu\nasdfghj\nzxcvbnm"]
+  const rectStrings = ["", "hello", "ma\nth", "1234567\nqwertyu\nasdfghj\nzxcvbnm"]
   for s in rectStrings:
     check $s.toTextRect == s
-  const nonRectStrings = ["", "12\n3", "1234567\nqwertyu\nasdfghjk\nzxcvbnm"]
+  const nonRectStrings = ["12\n3", "1234567\nqwertyu\nasdfghjk\nzxcvbnm"]
   for s in nonRectStrings:
     expect ValueError:
       discard s.toTextRect
