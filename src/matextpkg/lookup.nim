@@ -60,3 +60,18 @@ const delimiters* = {
   "\\{": "{",
   "\\}": "}",
 }
+const textOperators* = {
+  "\\arcsin": "arcsin", "\\cosec": "cosec", "\\deg": "deg", "\\sec": "sec",
+  "\\arccos": "arccos", "\\cosh": "cosh", "\\dim": "dim", "\\sin": "sin",
+  "\\arctan": "arctan", "\\cot": "cot", "\\exp": "exp", "\\sinh": "sinh",
+  "\\arctg": "arctg", "\\cotg": "cotg", "\\hom": "hom", "\\sh": "sh",
+  "\\arcctg": "arcctg", "\\coth": "coth", "\\ker": "ker", "\\tan": "tan",
+  "\\arg": "arg", "\\csc": "csc", "\\lg": "lg", "\\tanh": "tanh",
+  "\\ch": "ch", "\\ctg": "ctg", "\\ln": "ln", "\\tg": "tg",
+  "\\cos": "cos", "\\cth": "cth", "\\log": "log", "\\th": "th",
+  "\\argmax": "arg max", "\\injlim": "inj lim", "\\min": "min",
+  "\\argmin": "arg min", "\\lim": "lim", "\\plim": "plim",
+  "\\det": "det", "\\liminf": "lim inf", "\\Pr": "Pr",
+  "\\gcd": "gcd", "\\limsup": "lim sup", "\\projlim": "proj lim",
+  "\\inf": "inf", "\\max": "max", "\\sup": "sup",
+}

@@ -7,7 +7,9 @@ import std/unicode
 type
   TextRectFlag* = enum
     trfNone
+    trfAlnum
     trfOperator
+    trfWord
     trfFraction
     trfSub
     trfSup
@@ -60,10 +62,20 @@ func join*(rects: varargs[TextRect]): TextRect =
     return
   if rects.len == 1:
     return rects[0]
-  for rect in rects.mitems:
-    if rect.flag == trfOperator:
+  for i, rect in rects.mpairs:
+    case rect.flag
+    of trfOperator:
       rect.rows[0] = " " & rect.rows[0] & " "
       rect.width += 2
+    of trfWord:
+      if i != rects.high and rects[i + 1].flag in {trfAlnum, trfWord}:
+        rect.rows[0] &= " "
+        rect.width += 1
+      if i != rects.high and rects[i - 1].flag in {trfAlnum}:
+        rect.rows[0] = " " & rect.rows[0]
+        rect.width += 1
+    else:
+      discard
   let maxBaseline = rects.mapIt(it.baseline).max
   rects.applyIt(it.extendUp(maxBaseline - it.baseline))
   let maxHeight = rects.mapIt(it.height).max

@@ -29,9 +29,11 @@ func bigDelimiter(delimiter: string, height, baseline: Natural): TextRect =
 let ws = whitespace.many
 var atom = fwdcl[TextRect]()
 let expr = atom.many.map(atoms => atoms.join)
-let oneChar = alphanumeric.map(ch => ($ch).toTextRect)
+let oneChar = alphanumeric.map(ch => ($ch).toTextRect(0, trfAlnum))
 let binaryOp = binaryOperators.map(it => s(it[0]).result(it[1])).foldr(a | b).map(s => s.toTextRect(flag = trfOperator))
+let delimiter = delimiters.map(it => s(it[0]).result(it[1])).foldr(a | b).map(s => s.toTextRect)
 let relation = relations.map(it => s(it[0]).result(it[1])).foldr(a | b).map(s => s.toTextRect(flag = trfOperator))
+let textOp = textOperators.map(it => s(it[0]).result(it[1])).foldr(a | b).map(s => s.toTextRect(flag = trfWord))
 let frac = s"\frac" >> (atom & atom).map(fraction => (
   let numerator = fraction[0]
   let denominator = fraction[1]
@@ -56,7 +58,6 @@ let sqrt = s"\sqrt" >> atom.map(arg => (
       )
   join(symbol, stack(overbar, arg, arg.baseline + 1, saLeft))
 ))
-let delimiter = delimiters.map(it => s(it[0]).result(it[1])).foldr(a | b).map(s => s.toTextRect)
 let leftright = (s"\left" >> delimiter & expr & (s"\right" >> delimiter)).map(things => (
   let inside = things[1]
   var left = things[0]
@@ -67,12 +68,12 @@ let leftright = (s"\left" >> delimiter & expr & (s"\right" >> delimiter)).map(th
   join(left, inside, right)
 ))
 let bracedExpr = c('{') >> expr << c('}')
-let atom1 = (bracedExpr | leftright | oneChar | binaryOp | relation | frac | sqrt) << ws
+let atom1 = (bracedExpr | leftright | oneChar | binaryOp | delimiter | relation | textOp | frac | sqrt) << ws
 let superscript = (c('^') >> atom1).map(sup => sup.withFlag(trfSup))
 let subscript = (c('_') >> atom1).map(sub => sub.withFlag(trfSub))
 atom.become (atom1 & ((superscript & subscript) | (subscript & superscript) | superscript.asSeq | subscript.asSeq).optional).map(operands => (
   let base = operands[0]
-  case operands.len
+  result = case operands.len
   of 1:
     base
   of 2:
@@ -92,6 +93,8 @@ atom.become (atom1 & ((superscript & subscript) | (subscript & superscript) | su
     base & stack(sup.extendDown(base.height), sub, base.baseline + sup.height, saLeft)
   else:
     TextRect()
+  if base.flag in {trfAlnum, trfWord}:
+    result.flag = base.flag
 ))
 let completeExpr = expr << eof
 

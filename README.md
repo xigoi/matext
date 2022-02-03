@@ -51,7 +51,7 @@ echo latex.matext
 The goal is to match [KaTeX's list of supported functions](https://katex.org/docs/supported.html).
 
 - digits, English letters
-- binary operators, relations
+- binary operators, relations, text operators
 - fraction
 - square root
 - superscript, subscript
