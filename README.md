@@ -45,3 +45,14 @@ echo latex.matext
 # │1 + ─│
 # ╰    n╯
 ```
+
+## Currently supported features
+
+The goal is to match [KaTeX's list of supported functions](https://katex.org/docs/supported.html).
+
+- digits, English letters
+- binary operators, relations
+- fraction
+- square root
+- superscript, subscript
+- some delimiters, with \left\right
