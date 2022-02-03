@@ -74,7 +74,7 @@ let leftright = (s"\left" >> delimiter & expr & (s"\right" >> delimiter)).map(th
   join(left, inside, right)
 ))
 let bracedExpr = c('{') >> expr << c('}')
-let atom1 = (digit | latinLetter | binaryOp | delimiter | relation | textOp | frac | sqrt | bracedExpr | leftright ) << ws
+let atom1 = (bracedExpr | leftright | digit | latinLetter | binaryOp | delimiter | relation | textOp | frac | sqrt) << ws
 let superscript = (c('^') >> atom1).map(sup => sup.withFlag(trfSup))
 let subscript = (c('_') >> atom1).map(sub => sub.withFlag(trfSub))
 atom.become (atom1 & ((superscript & subscript) | (subscript & superscript) | superscript.asSeq | subscript.asSeq).optional).map(operands => (

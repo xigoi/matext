@@ -20,18 +20,18 @@ Simply invoke `matext` and give it LaTeX math, either on STDIN or in a command l
 
 ```
 $ matext '\left(1 + \frac{1}{n}\right)^n'
-       n
+       𝑛
 ╭    1╮
 │1 + ─│
-╰    n╯
+╰    𝑛╯
 
 $ matext << END
 \left(1 + \frac{1}{n}\right)^n
 END
-       n
+       𝑛
 ╭    1╮
 │1 + ─│
-╰    n╯
+╰    𝑛╯
 ```
 
 ### Nim library
@@ -40,10 +40,10 @@ END
 import matext
 let latex = "\\left(1 + \\frac{1}{n}\\right)^n"
 echo latex.matext
-#        n
+#        𝑛
 # ╭    1╮
 # │1 + ─│
-# ╰    n╯
+# ╰    𝑛╯
 ```
 
 ## Currently supported features
