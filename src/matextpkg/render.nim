@@ -44,6 +44,18 @@ let frac = s"\frac" >> (atom & atom).map(fraction => (
     flag = trfNone
   stack(numerator, fractionLine.toTextRect, denominator, numerator.height, saCenter).withFlag(flag)
 ))
+let sqrt = s"\sqrt" >> atom.map(arg => (
+  let overbar = "_".repeat(arg.width).toTextRect
+  let symbol =
+    if arg.height == 1:
+      "√".toTextRect
+    else:
+      join(
+        countdown(arg.height div 2, 1).toSeq.mapIt("╲".toTextRect(arg.baseline - arg.height + it)) &
+        countup(1, arg.height).toSeq.mapIt("╱".toTextRect(arg.baseline - arg.height + it))
+      )
+  join(symbol, stack(overbar, arg, arg.baseline + 1, saLeft))
+))
 let delimiter = delimiters.map(it => s(it[0]).result(it[1])).foldr(a | b).map(s => s.toTextRect)
 let leftright = (s"\left" >> delimiter & expr & (s"\right" >> delimiter)).map(things => (
   let inside = things[1]
@@ -55,7 +67,7 @@ let leftright = (s"\left" >> delimiter & expr & (s"\right" >> delimiter)).map(th
   join(left, inside, right)
 ))
 let bracedExpr = c('{') >> expr << c('}')
-let atom1 = (bracedExpr | leftright | oneChar | binaryOp | relation | frac) << ws
+let atom1 = (bracedExpr | leftright | oneChar | binaryOp | relation | frac | sqrt) << ws
 let superscript = (c('^') >> atom1).map(sup => sup.withFlag(trfSup))
 let subscript = (c('_') >> atom1).map(sub => sub.withFlag(trfSub))
 atom.become (atom1 & ((superscript & subscript) | (subscript & superscript) | superscript.asSeq | subscript.asSeq).optional).map(operands => (
