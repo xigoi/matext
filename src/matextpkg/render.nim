@@ -26,14 +26,17 @@ func bigDelimiter(delimiter: string, height, baseline: Natural): TextRect =
     result.width = 1
   result.baseline = baseline
 
+func lookupTableParser(table: openArray[(string, string)], flag = trfNone): Parser[TextRect] =
+  table.map(it => s(it[0]).result(it[1])).foldr(a | b).map(s => s.toTextRect(flag = flag))
+
 let ws = whitespace.many
 var atom = fwdcl[TextRect]()
 let expr = atom.many.map(atoms => atoms.join)
 let oneChar = alphanumeric.map(ch => ($ch).toTextRect(0, trfAlnum))
-let binaryOp = binaryOperators.map(it => s(it[0]).result(it[1])).foldr(a | b).map(s => s.toTextRect(flag = trfOperator))
-let delimiter = delimiters.map(it => s(it[0]).result(it[1])).foldr(a | b).map(s => s.toTextRect)
-let relation = relations.map(it => s(it[0]).result(it[1])).foldr(a | b).map(s => s.toTextRect(flag = trfOperator))
-let textOp = textOperators.map(it => s(it[0]).result(it[1])).foldr(a | b).map(s => s.toTextRect(flag = trfWord))
+let binaryOp = binaryOperators.lookupTableParser(trfOperator)
+let delimiter = delimiters.lookupTableParser
+let relation = relations.lookupTableParser(trfOperator)
+let textOp = textOperators.lookupTableParser(trfWord)
 let frac = s"\frac" >> (atom & atom).map(fraction => (
   let numerator = fraction[0]
   let denominator = fraction[1]
