@@ -71,7 +71,7 @@ func join*(rects: varargs[TextRect]): TextRect =
       if i != rects.high and rects[i + 1].flag in {trfAlnum, trfWord}:
         rect.rows[0] &= " "
         rect.width += 1
-      if i != rects.high and rects[i - 1].flag in {trfAlnum}:
+      if i != rects.low and rects[i - 1].flag in {trfAlnum}:
         rect.rows[0] = " " & rect.rows[0]
         rect.width += 1
     else:

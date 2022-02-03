@@ -5,6 +5,7 @@ import std/sequtils
 import std/strutils
 import std/sugar
 import std/tables
+import std/unicode
 
 func bigDelimiter(delimiter: string, height, baseline: Natural): TextRect =
   const delimiterParts = {
@@ -32,7 +33,9 @@ func lookupTableParser(table: openArray[(string, string)], flag = trfNone): Pars
 let ws = whitespace.many
 var atom = fwdcl[TextRect]()
 let expr = atom.many.map(atoms => atoms.join)
-let oneChar = alphanumeric.map(ch => ($ch).toTextRect(0, trfAlnum))
+let digit = c('0'..'9').map(ch => ($ch).toTextRect(0, trfAlnum))
+let latinLetter = c('A'..'Z').map(ch => ($(ch.int + 119795).Rune).toTextRect(0, trfAlnum)) |
+                  c('a'..'z').map(ch => ($(ch.int + 119789).Rune).toTextRect(0, trfAlnum))
 let binaryOp = binaryOperators.lookupTableParser(trfOperator)
 let delimiter = delimiters.lookupTableParser
 let relation = relations.lookupTableParser(trfOperator)
@@ -71,7 +74,7 @@ let leftright = (s"\left" >> delimiter & expr & (s"\right" >> delimiter)).map(th
   join(left, inside, right)
 ))
 let bracedExpr = c('{') >> expr << c('}')
-let atom1 = (bracedExpr | leftright | oneChar | binaryOp | delimiter | relation | textOp | frac | sqrt) << ws
+let atom1 = (digit | latinLetter | binaryOp | delimiter | relation | textOp | frac | sqrt | bracedExpr | leftright ) << ws
 let superscript = (c('^') >> atom1).map(sup => sup.withFlag(trfSup))
 let subscript = (c('_') >> atom1).map(sub => sub.withFlag(trfSub))
 atom.become (atom1 & ((superscript & subscript) | (subscript & superscript) | superscript.asSeq | subscript.asSeq).optional).map(operands => (
