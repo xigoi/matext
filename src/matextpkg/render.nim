@@ -1,38 +1,10 @@
+import ./lookup
 import ./textrect
 import honeycomb
 import std/sequtils
 import std/strutils
 import std/sugar
 import std/tables
-
-const binaryOperators = {
-  "+": "+", "-": "−", "*": "∗", "/": "/",
-  "\\cdot": "⋅", "\\gtrdot": "⋗",
-  "\\cdotp": "⋅", "\\intercal": "⊺",
-  "\\centerdot": "⋅", "\\land": "∧", "\\rhd": "⊳",
-  "\\circ": "∘", "\\leftthreetimes": "⋋", "\\rightthreetimes": "⋌",
-  "\\amalg": "⨿", "\\circledast": "⊛", "\\ldotp": ".", "\\rtimes": "⋊",
-  "\\And": "&", "\\circledcirc": "⊚", "\\lor": "∨", "\\setminus": "∖",
-  "\\ast": "∗", "\\circleddash": "⊝", "\\lessdot": "⋖", "\\smallsetminus": "∖",
-  "\\barwedge": "⊼", "\\Cup": "⋓", "\\lhd": "⊲", "\\sqcap": "⊓",
-  "\\bigcirc": "◯", "\\cup": "∪", "\\ltimes": "⋉", "\\sqcup": "⊔",
-  "\\mod": "bmod", "\\curlyvee": "⋎", "\\times": "×",
-  "\\boxdot": "⊡", "\\curlywedge": "⋏", "\\mp": "∓", "\\unlhd": "⊴",
-  "\\boxminus": "⊟", "\\div": "÷", "\\odot": "⊙", "\\unrhd": "⊵",
-  "\\boxplus": "⊞", "\\divideontimes": "⋇", "\\ominus": "⊖", "\\uplus": "⊎",
-  "\\boxtimes": "⊠", "\\dotplus": "∔", "\\oplus": "⊕", "\\vee": "∨",
-  "\\bullet": "∙", "\\doublebarwedge": "⩞", "\\otimes": "⊗", "\\veebar": "⊻",
-  "\\Cap": "⋒", "\\doublecap": "⋒", "\\oslash": "⊘", "\\wedge": "∧",
-  "\\cap": "∩", "\\doublecup": "⋓", "\\pm": "±", "\\plusmn": "±", "\\wr": "≀",
-}
-const delimiters = {
-  "(": "(",
-  ")": ")",
-  "[": "[",
-  "]": "]",
-  "\\{": "{",
-  "\\}": "}",
-}
 
 func bigDelimiter(delimiter: string, height, baseline: Natural): TextRect =
   const delimiterParts = {
@@ -59,6 +31,7 @@ var atom = fwdcl[TextRect]()
 let expr = atom.many.map(atoms => atoms.join)
 let oneChar = alphanumeric.map(ch => ($ch).toTextRect)
 let binaryOp = binaryOperators.map(it => s(it[0]).result(it[1])).foldr(a | b).map(s => s.toTextRect(flag = trfOperator))
+let relation = relations.map(it => s(it[0]).result(it[1])).foldr(a | b).map(s => s.toTextRect(flag = trfOperator))
 let frac = s"\frac" >> (atom & atom).map(fraction => (
   let numerator = fraction[0]
   let denominator = fraction[1]
@@ -69,8 +42,7 @@ let frac = s"\frac" >> (atom & atom).map(fraction => (
      (denominator.flag == trfFraction and denominator.width == width):
     fractionLine = "╶" & fractionLine & "╴"
     flag = trfNone
-  result = stack(numerator, fractionLine.toTextRect, denominator, numerator.height, saCenter)
-  result.flag = flag
+  stack(numerator, fractionLine.toTextRect, denominator, numerator.height, saCenter).withFlag(flag)
 ))
 let delimiter = delimiters.map(it => s(it[0]).result(it[1])).foldr(a | b).map(s => s.toTextRect)
 let leftright = (s"\left" >> delimiter & expr & (s"\right" >> delimiter)).map(things => (
@@ -80,10 +52,10 @@ let leftright = (s"\left" >> delimiter & expr & (s"\right" >> delimiter)).map(th
   if inside.height > 1:
     left = left.rows[0].bigDelimiter(inside.height, inside.baseline)
     right = right.rows[0].bigDelimiter(inside.height, inside.baseline)
-  join(@[left, inside, right])
+  join(left, inside, right)
 ))
 let bracedExpr = c('{') >> expr << c('}')
-let atom1 = (bracedExpr | leftright | oneChar | binaryOp | frac) << ws
+let atom1 = (bracedExpr | leftright | oneChar | binaryOp | relation | frac) << ws
 let superscript = (c('^') >> atom1).map(sup => sup.withFlag(trfSup))
 let subscript = (c('_') >> atom1).map(sub => sub.withFlag(trfSub))
 atom.become (atom1 & ((superscript & subscript) | (subscript & superscript) | superscript.asSeq | subscript.asSeq).optional).map(operands => (
