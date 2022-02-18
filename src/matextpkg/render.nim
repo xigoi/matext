@@ -9,23 +9,41 @@ import std/unicode
 
 func bigDelimiter(delimiter: string, height, baseline: Natural): TextRect =
   const delimiterParts = {
-    "(": ("╭", "│", "╰"),
-    ")": ("╮", "│", "╯"),
+    "(": ("⎛", "⎜", "⎝"),
+    ")": ("⎞", "⎟", "⎠"),
     "[": ("┌", "│", "└"),
     "]": ("┐", "│", "┘"),
   }.toTable
+  result.rows = newSeq[string](height)
+  result.width = 1
+  result.baseline = baseline
   case delimiter
   of "{":
-    discard
+    if height == 2:
+      result.rows[0] = "⎰"
+      result.rows[1] = "⎱"
+    else:
+      result.rows[0] = "⎧"
+      for i in 1 ..< height - 1:
+        result.rows[i] = "⎪"
+      result.rows[height div 2] = "⎨"
+      result.rows[^1] = "⎩"
+  of "}":
+    if height == 2:
+      result.rows[0] = "⎱"
+      result.rows[1] = "⎰"
+    else:
+      result.rows[0] = "⎫"
+      for i in 1 ..< height - 1:
+        result.rows[i] = "⎪"
+      result.rows[height div 2] = "⎬"
+      result.rows[^1] = "⎭"
   else:
     let (top, mid, bottom) = delimiterParts[delimiter]
-    result.rows = newSeq[string](height)
     result.rows[0] = top
     for i in 1 ..< height - 1:
       result.rows[i] = mid
     result.rows[^1] = bottom
-    result.width = 1
-  result.baseline = baseline
 
 func lookupTableParser(table: openArray[(string, string)], flag = trfNone): Parser[TextRect] =
   table.map(it => s(it[0]).result(it[1])).foldr(a | b).map(s => s.toTextRect(flag = flag))
@@ -77,7 +95,7 @@ let bracedExpr = c('{') >> expr << c('}')
 let atom1 = (bracedExpr | leftright | digit | latinLetter | binaryOp | delimiter | relation | textOp | frac | sqrt) << ws
 let superscript = (c('^') >> atom1).map(sup => sup.withFlag(trfSup))
 let subscript = (c('_') >> atom1).map(sub => sub.withFlag(trfSub))
-atom.become (atom1 & ((superscript & subscript) | (subscript & superscript) | superscript.asSeq | subscript.asSeq).optional).map(operands => (
+atom.become (atom1 & ((superscript & subscript.optional) | (subscript & superscript.optional)).optional).map(operands => (
   let base = operands[0]
   result = case operands.len
   of 1:
