@@ -59,6 +59,12 @@ const delimiters* = {
   "]": "]",
   "\\{": "{",
   "\\}": "}",
+  "⟨": "⟨",
+  "\\langle": "⟨",
+  "\\lang": "⟨",
+  "⟩": "⟩",
+  "\\rangle": "⟩",
+  "\\rang": "⟩",
 }
 const textOperators* = {
   "\\arcsin": "arcsin", "\\cosec": "cosec", "\\deg": "deg", "\\sec": "sec",

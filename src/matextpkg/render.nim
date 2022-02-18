@@ -11,8 +11,8 @@ func bigDelimiter(delimiter: string, height, baseline: Natural): TextRect =
   const delimiterParts = {
     "(": ("⎛", "⎜", "⎝"),
     ")": ("⎞", "⎟", "⎠"),
-    "[": ("┌", "│", "└"),
-    "]": ("┐", "│", "┘"),
+    "[": ("⎡", "⎢", "⎣"),
+    "]": ("⎤", "⎥", "⎦"),
   }.toTable
   result.rows = newSeq[string](height)
   result.width = 1
@@ -38,6 +38,22 @@ func bigDelimiter(delimiter: string, height, baseline: Natural): TextRect =
         result.rows[i] = "⎪"
       result.rows[height div 2] = "⎬"
       result.rows[^1] = "⎭"
+  of "⟨":
+    result.width = (height + 1) div 2
+    let widthDec = result.width - 1
+    if height mod 2 == 1:
+      result.rows[height div 2] = "⟨" & " ".repeat(height div 2)
+    for i in 0..<height div 2:
+      result.rows[i] = " ".repeat(widthDec - i) & "╱" & " ".repeat(i)
+      result.rows[height - 1 - i] = " ".repeat(widthDec - i) & "╲" & " ".repeat(i)
+  of "⟩":
+    result.width = (height + 1) div 2
+    let widthDec = result.width - 1
+    if height mod 2 == 1:
+      result.rows[height div 2] = " ".repeat(height div 2) & "⟩"
+    for i in 0..<height div 2:
+      result.rows[i] = " ".repeat(i) & "╲" & " ".repeat(widthDec - i)
+      result.rows[height - 1 - i] = " ".repeat(i) & "╱" & " ".repeat(widthDec - i)
   else:
     let (top, mid, bottom) = delimiterParts[delimiter]
     result.rows[0] = top
