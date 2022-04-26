@@ -46,46 +46,51 @@ echo latex.matext
 # ⎝    𝑛⎠
 ```
 
-## Currently supported features
+## Supported features
 
-The goal is to match [KaTeX's list of supported functions](https://katex.org/docs/supported.html).
+The goal is to mostly match [KaTeX's list of supported functions](https://katex.org/docs/supported.html). Features which are not planned to be supported are marked with a cross.
 
-- [x] digits, English letters
-- [ ] accents
-- [ ] delimiters
-  - [x] \left \right
-  - [ ] \big, etc.
-- [ ] environments
-  - [ ] array, matrix
-  - [ ] cases
-  - [ ] equation, align, gather
-  - [ ] CD
-- [ ] Greek and other letters
-- [ ] fonts
-- [ ] layout
-  - [ ] \cancel, \sout
-  - [ ] \tag
-  - [ ] \overbrace, \underbrace
-  - [ ] \not
-  - [ ] \boxed
-- [ ] vertical layout
-  - [x] superscript, subscript
-  - [ ] \stackrel, \overset, \underset, \atop
-- [ ] spaces
-- [ ] logic & set theory
-- [ ] macros
-- [ ] operators
-  - [ ] big operators
-  - [x] binary operators
-  - [x] fractions
-  - [ ] binomials
-  - [x] text operators
-  - [x] square root
-    - [ ] n-th square root
-  - [x] relations
-  - [ ] negated relations
-  - [ ] arrows
-    - [ ] extensible arrows
-  - [ ] bra-ket
-- [ ] text mode
-  - [ ] punctuation
+- ☑ digits, English letters
+- ☐ accents
+- ☐ delimiters
+  - ☑ \left \right
+  - ☒ \big, etc.
+- ☐ environments
+  - ☐ array, matrix
+  - ☐ cases
+  - ☐ equation, align, gather
+  - ☐ CD
+- ☐ Greek and other letters
+- ☐ fonts
+- ☐ layout
+  - ☐ \cancel, \sout
+  - ☐ \tag
+  - ☐ \overbrace, \underbrace
+  - ☐ \not
+  - ☐ \boxed
+- ☐ line breaks
+- ☐ vertical layout
+  - ☑ superscript, subscript
+  - ☐ \stackrel, \overset, \underset, \atop
+- ☐ spaces
+- ☐ logic & set theory
+- ☐ macros
+- ☐ operators
+  - ☐ big operators
+  - ☑ binary operators
+  - ☑ fractions
+  - ☐ binomials
+  - ☑ text operators
+  - ☑ square root
+    - ☐ n-th square root
+  - ☑ relations
+  - ☐ negated relations
+  - ☐ arrows
+    - ☐ extensible arrows
+  - ☐ bra-ket
+- ☒ color
+- ☒ font size
+- ☐ display style
+- ☐ text mode
+  - ☐ punctuation
+- ☒ units
