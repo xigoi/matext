@@ -50,9 +50,42 @@ echo latex.matext
 
 The goal is to match [KaTeX's list of supported functions](https://katex.org/docs/supported.html).
 
-- digits, English letters
-- binary operators, relations, text operators
-- fraction
-- square root
-- superscript, subscript
-- some delimiters, with \left\right
+- [x] digits, English letters
+- [ ] accents
+- [ ] delimiters
+  - [x] \left \right
+  - [ ] \big, etc.
+- [ ] environments
+  - [ ] array, matrix
+  - [ ] cases
+  - [ ] equation, align, gather
+  - [ ] CD
+- [ ] Greek and other letters
+- [ ] fonts
+- [ ] layout
+  - [ ] \cancel, \sout
+  - [ ] \tag
+  - [ ] \overbrace, \underbrace
+  - [ ] \not
+  - [ ] \boxed
+- [ ] vertical layout
+  - [x] superscript, subscript
+  - [ ] \stackrel, \overset, \underset, \atop
+- [ ] spaces
+- [ ] logic & set theory
+- [ ] macros
+- [ ] operators
+  - [ ] big operators
+  - [x] binary operators
+  - [x] fractions
+  - [ ] binomials
+  - [x] text operators
+  - [x] square root
+    - [ ] n-th square root
+  - [x] relations
+  - [ ] negated relations
+  - [ ] arrows
+    - [ ] extensible arrows
+  - [ ] bra-ket
+- [ ] text mode
+  - [ ] punctuation
