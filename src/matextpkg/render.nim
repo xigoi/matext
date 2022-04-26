@@ -70,6 +70,7 @@ let expr = atom.many.map(atoms => atoms.join)
 let digit = c('0'..'9').map(ch => ($ch).toTextRect(0, trfAlnum))
 let latinLetter = c('A'..'Z').map(ch => ($(ch.int + 119795).Rune).toTextRect(0, trfAlnum)) |
                   c('a'..'z').map(ch => ($(ch.int + 119789).Rune).toTextRect(0, trfAlnum))
+let otherLetter = letters.lookupTableParser
 let binaryOp = binaryOperators.lookupTableParser(trfOperator)
 let delimiter = delimiters.lookupTableParser
 let relation = relations.lookupTableParser(trfOperator)
@@ -108,7 +109,19 @@ let leftright = (s"\left" >> delimiter & expr & (s"\right" >> delimiter)).map(th
   join(left, inside, right)
 ))
 let bracedExpr = c('{') >> expr << c('}')
-let atom1 = (bracedExpr | leftright | digit | latinLetter | binaryOp | delimiter | relation | textOp | frac | sqrt) << ws
+let atom1 = (
+  bracedExpr |
+  leftright |
+  digit |
+  latinLetter |
+  otherLetter |
+  binaryOp |
+  delimiter |
+  relation |
+  textOp |
+  frac |
+  sqrt
+) << ws
 let superscript = (c('^') >> atom1).map(sup => sup.withFlag(trfSup))
 let subscript = (c('_') >> atom1).map(sub => sub.withFlag(trfSub))
 atom.become (atom1 & ((superscript & subscript.optional) | (subscript & superscript.optional)).optional).map(operands => (

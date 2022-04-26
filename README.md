@@ -60,7 +60,7 @@ The goal is to mostly match [KaTeX's list of supported functions](https://katex.
   - ☐ cases
   - ☐ equation, align, gather
   - ☐ CD
-- ☐ Greek and other letters
+- ☑ Greek and other letters
 - ☐ fonts
 - ☐ layout
   - ☐ \cancel, \sout
