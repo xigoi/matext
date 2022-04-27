@@ -78,7 +78,7 @@ let digit = c('0'..'9').map(ch => ($ch).toTextRect(0, trfAlnum))
 let latinLetter = c('A'..'Z').map(ch => ($(ch.int + 119795).Rune).toTextRect(0, trfAlnum)) |
                   c('a'..'z').map(ch => ($(ch.int + 119789).Rune).toTextRect(0, trfAlnum))
 
-let otherLetter = letters.lookupTableParser
+let otherLetter = letters.lookupTableParser(trfAlnum)
 let binaryOp = binaryOperators.lookupTableParser(trfOperator)
 let delimiter = delimiters.lookupTableParser
 let relation = relations.lookupTableParser(trfOperator)
@@ -106,6 +106,23 @@ let binom = (s"\binom" | s"\tbinom" | s"\dbinom" | s"\cbinom") >> (atom & atom).
     inside,
     bigDelimiter(")", inside.height, inside.baseline),
   )
+))
+
+let boxed = s"\boxed" >> atom.map(arg => (
+  let horizontal = "─".repeat(arg.width).toTextRect
+  let sandwich = stack(horizontal, arg, horizontal, arg.baseline + 1, saLeft)
+  var left: TextRect
+  left.rows = newSeq[string](sandwich.height)
+  left.width = 1
+  left.baseline = sandwich.baseline
+  for i in 1 ..< sandwich.height - 1:
+    left.rows[i] = "│"
+  var right = left
+  left.rows[0] = "┌"
+  left.rows[^1] = "└"
+  right.rows[0] = "┐"
+  right.rows[^1] = "┘"
+  join(left, sandwich, right)
 ))
 
 let sqrt = s"\sqrt" >> atom.map(arg => (
@@ -144,7 +161,8 @@ let atom1 = (
   textOp |
   frac |
   binom |
-  sqrt
+  sqrt |
+  boxed
 ) << ws
 
 let superscript = (c('^') >> atom1).map(sup => sup.withFlag(trfSup))
