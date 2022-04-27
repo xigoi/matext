@@ -7,7 +7,7 @@ A program and Nim library for rendering LaTeX math as multiline Unicode text
 ### From source
 
 ```sh
-git clone https://github.com/xigoi/matext/
+git clone https://git.sr.ht/~xigoi/matext
 cd matext
 nimble install
 ```
