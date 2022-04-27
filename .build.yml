@@ -1,0 +1,9 @@
+image: alpine/edge
+packages:
+  - nim
+  - nimble
+  - pcre
+tasks:
+  - test: |
+      cd matext
+      nimble test -y
