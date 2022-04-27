@@ -75,11 +75,11 @@ The goal is to mostly match [KaTeX's list of supported functions](https://katex.
   - ☑ superscript, subscript
   - ☐ \stackrel, \overset, \underset, \atop
 - ☐ spaces
-- ☐ logic & set theory
 - ☐ macros
 - ☐ operators
   - ☐ big operators
   - ☑ binary operators
+  - ☑ logic & set theory
   - ☑ fractions
   - ☐ binomials
   - ☑ text operators
