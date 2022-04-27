@@ -13,6 +13,12 @@ func bigDelimiter(delimiter: string, height, baseline: Natural): TextRect =
     ")": ("⎞", "⎟", "⎠"),
     "[": ("⎡", "⎢", "⎣"),
     "]": ("⎤", "⎥", "⎦"),
+    "∣": ("│", "│", "│"),
+    "∥": ("║", "║", "║"),
+    "⌈": ("⎡", "⎢", "⎢"),
+    "⌉": ("⎤", "⎥", "⎥"),
+    "⌊": ("⎢", "⎢", "⎣"),
+    "⌋": ("⎥", "⎥", "⎦"),
   }.toTable
   result.rows = newSeq[string](height)
   result.width = 1
@@ -99,7 +105,7 @@ let sqrt = s"\sqrt" >> atom.map(arg => (
       )
   join(symbol, stack(overbar, arg, arg.baseline + 1, saLeft))
 ))
-let leftright = (s"\left" >> delimiter & expr & (s"\right" >> delimiter)).map(things => (
+let leftright = (s"\left" >> ws >> delimiter & (ws >> expr) & (s"\right" >> ws >> delimiter)).map(things => (
   let inside = things[1]
   var left = things[0]
   var right = things[2]
