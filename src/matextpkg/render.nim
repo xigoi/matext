@@ -73,15 +73,18 @@ func lookupTableParser(table: openArray[(string, string)], flag = trfNone): Pars
 let ws = whitespace.many
 var atom = fwdcl[TextRect]()
 let expr = atom.many.map(atoms => atoms.join)
+
 let digit = c('0'..'9').map(ch => ($ch).toTextRect(0, trfAlnum))
 let latinLetter = c('A'..'Z').map(ch => ($(ch.int + 119795).Rune).toTextRect(0, trfAlnum)) |
                   c('a'..'z').map(ch => ($(ch.int + 119789).Rune).toTextRect(0, trfAlnum))
+
 let otherLetter = letters.lookupTableParser
 let binaryOp = binaryOperators.lookupTableParser(trfOperator)
 let delimiter = delimiters.lookupTableParser
 let relation = relations.lookupTableParser(trfOperator)
 let textOp = textOperators.lookupTableParser(trfWord)
-let frac = s"\frac" >> (atom & atom).map(fraction => (
+
+let frac = (s"\frac" | s"\tfrac" | s"\dfrac" | s"\cfrac") >> (atom & atom).map(fraction => (
   let numerator = fraction[0]
   let denominator = fraction[1]
   let width = max(numerator.width, denominator.width)
@@ -93,6 +96,18 @@ let frac = s"\frac" >> (atom & atom).map(fraction => (
     flag = trfNone
   stack(numerator, fractionLine.toTextRect, denominator, numerator.height, saCenter).withFlag(flag)
 ))
+
+let binom = (s"\binom" | s"\tbinom" | s"\dbinom" | s"\cbinom") >> (atom & atom).map(nk => (
+  let n = nk[0]
+  let k = nk[1]
+  let inside = stack(n, k, n.height, saCenter)
+  join(
+    bigDelimiter("(", inside.height, inside.baseline),
+    inside,
+    bigDelimiter(")", inside.height, inside.baseline),
+  )
+))
+
 let sqrt = s"\sqrt" >> atom.map(arg => (
   let overbar = "_".repeat(arg.width).toTextRect
   let symbol =
@@ -105,6 +120,7 @@ let sqrt = s"\sqrt" >> atom.map(arg => (
       )
   join(symbol, stack(overbar, arg, arg.baseline + 1, saLeft))
 ))
+
 let leftright = (s"\left" >> ws >> delimiter & (ws >> expr) & (s"\right" >> ws >> delimiter)).map(things => (
   let inside = things[1]
   var left = things[0]
@@ -114,6 +130,7 @@ let leftright = (s"\left" >> ws >> delimiter & (ws >> expr) & (s"\right" >> ws >
     right = right.rows[0].bigDelimiter(inside.height, inside.baseline)
   join(left, inside, right)
 ))
+
 let bracedExpr = c('{') >> expr << c('}')
 let atom1 = (
   bracedExpr |
@@ -126,8 +143,10 @@ let atom1 = (
   relation |
   textOp |
   frac |
+  binom |
   sqrt
 ) << ws
+
 let superscript = (c('^') >> atom1).map(sup => sup.withFlag(trfSup))
 let subscript = (c('_') >> atom1).map(sub => sub.withFlag(trfSub))
 atom.become (atom1 & ((superscript & subscript.optional) | (subscript & superscript.optional)).optional).map(operands => (
@@ -155,6 +174,7 @@ atom.become (atom1 & ((superscript & subscript.optional) | (subscript & superscr
   if base.flag in {trfAlnum, trfWord}:
     result.flag = base.flag
 ))
+
 let completeExpr = expr << eof
 
 proc render*(latex: string): string =

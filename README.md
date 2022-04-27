@@ -57,34 +57,33 @@ The goal is to mostly match [KaTeX's list of supported functions](https://katex.
 - ☐ delimiters
   - ☑ \left \right
   - ☒ \big, etc.
-- ☐ environments
+- environments
   - ☐ array, matrix
   - ☐ cases
   - ☐ equation, align, gather
   - ☐ CD
 - ☑ Greek and other letters
 - ☐ fonts
-- ☐ layout
+- layout
   - ☐ \cancel, \sout
   - ☐ \tag
   - ☐ \overbrace, \underbrace
   - ☐ \not
   - ☐ \boxed
-- ☐ line breaks
-- ☐ vertical layout
+  - ☐ line breaks
   - ☑ superscript, subscript
   - ☐ \stackrel, \overset, \underset, \atop
 - ☐ spaces
 - ☐ macros
-- ☐ operators
+- operators
   - ☐ big operators
   - ☑ binary operators
   - ☑ logic & set theory
-  - ☑ fractions
-  - ☐ binomials
+  - ☑ fractions, binomials
+    - ☐ \over, \choose
   - ☑ text operators
   - ☑ square root
-    - ☐ n-th square root
+    - ☐ n-th root
   - ☑ relations
   - ☐ negated relations
   - ☐ arrows

@@ -27,3 +27,9 @@ test "Quadratic formula":
   𝑥 = ──────────────────
               2𝑎
   """
+
+test "Pascal's triangle":
+  checkRender r"\binom{n+1}{k+1} = \binom{n}{k} + \binom{n}{k+1}", """
+  ⎛𝑛 + 1⎞   ⎛𝑛⎞   ⎛  𝑛  ⎞
+  ⎝𝑘 + 1⎠ = ⎝𝑘⎠ + ⎝𝑘 + 1⎠
+  """
