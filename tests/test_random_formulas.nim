@@ -13,7 +13,7 @@ proc checkRender(latex: string, output: string) =
       .join("\n")
   check render(latex).canonize == output.canonize
 
-test "Pythagorean Theorem":
+test "Pythagorean theorem":
   checkRender r"a^2 + b^2 = c^2", """
    2    2    2
   𝑎  + 𝑏  = 𝑐
@@ -21,11 +21,11 @@ test "Pythagorean Theorem":
 
 test "Quadratic formula":
   checkRender r"x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}", """
-                ________
-               ╱ 2
-       − 𝑏 ± ╲╱ 𝑏  − 4𝑎𝑐
-  𝑥 = ──────────────────
-              2𝑎
+               ________
+              ╱ 2
+      − 𝑏 ± ╲╱ 𝑏  − 4𝑎𝑐
+  𝑥 = ─────────────────
+             2𝑎
   """
 
 test "Pascal's triangle":
@@ -40,4 +40,18 @@ test "Euler's formula boxed":
   │ 𝑖φ                  │
   │𝑒   = cos φ + 𝑖 sin φ│
   └─────────────────────┘
+  """
+
+test "Binomial formula":
+  checkRender r"\left(A + B\right)^n = \sum_{k=0}^n \binom{n}{k} A^k B^{n-k}", """
+         𝑛     𝑛   ⎛𝑛⎞ 𝑘 𝑛 − 𝑘
+  (𝐴 + 𝐵)  =   ∑   ⎝𝑘⎠𝐴 𝐵
+             𝑘 = 0
+  """
+
+test "Stokes' theorem":
+  checkRender r"\iint_\Sigma \left(\nabla \times F\right) \cdot d^2 \Sigma = \oint_{\partial \Sigma} F \cdot d\Gamma", """
+               2
+  ∬ (∇ × 𝐹) ⋅ 𝑑 Σ = ∮  𝐹 ⋅ 𝑑Γ
+  Σ                 ∂Σ
   """

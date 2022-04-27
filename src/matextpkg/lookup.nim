@@ -1,3 +1,11 @@
+const bigOperators* = {
+  "\\sum": "∑", "\\prod": "∏", "\\bigotimes": "⨂", "\\bigvee": "⋁",
+  "\\int": "∫", "\\coprod": "∐", "\\bigoplus": "⨁", "\\bigwedge": "⋀",
+  "\\iint": "∬", "\\intop": "∫", "\\bigodot": "⨀", "\\bigcap": "⋂",
+  "\\iiint": "∭", "\\smallint": "∫", "\\biguplus": "⨄", "\\bigcup": "⋃",
+  "\\oint": "∮", "\\oiint": "∯", "\\oiiint": "∰", "\\bigsqcup": "⨆",
+}
+
 const binaryOperators* = {
   "+": "+", "-": "−", "*": "∗", "/": "/",
   "\\cdot": "⋅", "\\gtrdot": "⋗",

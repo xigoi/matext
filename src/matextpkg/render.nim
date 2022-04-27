@@ -68,7 +68,13 @@ func bigDelimiter(delimiter: string, height, baseline: Natural): TextRect =
     result.rows[^1] = bottom
 
 func lookupTableParser(table: openArray[(string, string)], flag = trfNone): Parser[TextRect] =
-  table.map(it => s(it[0]).result(it[1])).foldr(a | b).map(s => s.toTextRect(flag = flag))
+  table.map(entry => (
+    let (key, val) = entry
+    if key[0] == '\\':
+      (s(key) << !letter).result(val)
+    else:
+      s(key).result(val))
+  ).foldr(a | b).map(s => s.toTextRect(flag = flag))
 
 let ws = whitespace.many
 var atom = fwdcl[TextRect]()
@@ -79,6 +85,7 @@ let latinLetter = c('A'..'Z').map(ch => ($(ch.int + 119795).Rune).toTextRect(0, 
                   c('a'..'z').map(ch => ($(ch.int + 119789).Rune).toTextRect(0, trfAlnum))
 
 let otherLetter = letters.lookupTableParser(trfAlnum)
+let bigOp = bigOperators.lookupTableParser(trfBigOperator)
 let binaryOp = binaryOperators.lookupTableParser(trfOperator)
 let delimiter = delimiters.lookupTableParser
 let relation = relations.lookupTableParser(trfOperator)
@@ -155,6 +162,7 @@ let atom1 = (
   digit |
   latinLetter |
   otherLetter |
+  bigOp |
   binaryOp |
   delimiter |
   relation |
@@ -168,29 +176,41 @@ let atom1 = (
 let superscript = (c('^') >> atom1).map(sup => sup.withFlag(trfSup))
 let subscript = (c('_') >> atom1).map(sub => sub.withFlag(trfSub))
 atom.become (atom1 & ((superscript & subscript.optional) | (subscript & superscript.optional)).optional).map(operands => (
-  let base = operands[0]
-  result = case operands.len
+  var base = operands[0]
+  let flag = base.flag
+  base.flag = trfNone
+  case operands.len
   of 1:
-    base
+    result = base
   of 2:
     var script = operands[1]
-    script.baseline =
-      if script.flag == trfSup:
-        base.baseline + script.height
-      else:
-        base.baseline - base.height
-    base & script
+    if flag == trfBigOperator:
+      result =
+        if script.flag == trfSup:
+          stack(script, base, base.baseline + script.height, saCenter)
+        else:
+          stack(base, script, base.baseline, saCenter)
+    else:
+      script.baseline =
+        if script.flag == trfSup:
+          base.baseline + script.height
+        else:
+          base.baseline - base.height
+      result = base & script
   of 3:
     let (sup, sub) =
       if operands[1].flag == trfSup:
         (operands[1], operands[2])
       else:
         (operands[2], operands[1])
-    base & stack(sup.extendDown(base.height), sub, base.baseline + sup.height, saLeft)
+    if flag == trfBigOperator:
+      result = stack(sup, base, sub, base.baseline + sup.height, saCenter)
+    else:
+      result = base & stack(sup.extendDown(base.height), sub, base.baseline + sup.height, saLeft)
   else:
-    TextRect()
-  if base.flag in {trfAlnum, trfWord}:
-    result.flag = base.flag
+    discard
+  if flag in {trfAlnum, trfWord, trfOperator, trfBigOperator}:
+    result.flag = flag
 ))
 
 let completeExpr = expr << eof

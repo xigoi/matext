@@ -69,14 +69,14 @@ The goal is to mostly match [KaTeX's list of supported functions](https://katex.
   - ☐ \tag
   - ☐ \overbrace, \underbrace
   - ☐ \not
-  - ☐ \boxed
+  - ☑ \boxed
   - ☐ line breaks
   - ☑ superscript, subscript
   - ☐ \stackrel, \overset, \underset, \atop
 - ☐ spaces
 - ☐ macros
 - operators
-  - ☐ big operators
+  - ☑ big operators
   - ☑ binary operators
   - ☑ logic & set theory
   - ☑ fractions, binomials

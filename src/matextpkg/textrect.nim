@@ -9,6 +9,7 @@ type
     trfNone
     trfAlnum
     trfOperator
+    trfBigOperator
     trfWord
     trfFraction
     trfSub
@@ -55,6 +56,14 @@ func extendDown*(rect; num: Natural): TextRect =
   result.baseline = rect.baseline
   result.width = rect.width
 
+func extendLeft(rect: var TextRect) =
+  for row in rect.rows.mitems:
+    row = " " & row
+
+func extendRight(rect: var TextRect) =
+  for row in rect.rows.mitems:
+    row &= " "
+
 func join*(rects: varargs[TextRect]): TextRect =
   var rects = rects.toSeq
   rects.keepItIf(not it.isEmpty)
@@ -64,15 +73,19 @@ func join*(rects: varargs[TextRect]): TextRect =
     return rects[0]
   for i, rect in rects.mpairs:
     case rect.flag
-    of trfOperator:
-      rect.rows[0] = " " & rect.rows[0] & " "
-      rect.width += 2
+    of trfOperator, trfBigOperator:
+      if i != rects.high:
+        rect.extendRight
+        rect.width += 1
+      if i != rects.low and rects[i - 1].flag notin {trfOperator, trfBigOperator}:
+        rect.extendLeft
+        rect.width += 1
     of trfWord:
       if i != rects.high and rects[i + 1].flag in {trfAlnum, trfWord}:
-        rect.rows[0] &= " "
+        rect.extendRight
         rect.width += 1
       if i != rects.low and rects[i - 1].flag in {trfAlnum}:
-        rect.rows[0] = " " & rect.rows[0]
+        rect.extendLeft
         rect.width += 1
     else:
       discard
