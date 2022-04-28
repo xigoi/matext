@@ -8,7 +8,7 @@ A program and Nim library for rendering LaTeX math as multiline Unicode text
 
 ### From source
 
-```sh
+```bash
 git clone https://git.sr.ht/~xigoi/matext
 cd matext
 nimble install
@@ -20,7 +20,7 @@ nimble install
 
 Simply invoke `matext` and give it LaTeX math, either on STDIN or in a command line argument:
 
-```
+```bash
 $ matext '\left(1 + \frac{1}{n}\right)^n'
        𝑛
 ⎛    1⎞
@@ -86,12 +86,13 @@ The goal is to mostly match [KaTeX's list of supported functions](https://katex.
     - ☐ n-th root
   - ☑ relations
   - ☐ negated relations
-  - ☐ arrows
+  - ☑ arrows
     - ☐ extensible arrows
   - ☐ bra-ket
 - ☒ color
 - ☒ font size
 - ☐ display style
+- ☑ symbols
 - ☐ text mode
-  - ☐ punctuation
+  - ☑ punctuation
 - ☒ units

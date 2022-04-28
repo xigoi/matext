@@ -55,3 +55,11 @@ test "Stokes' theorem":
   ∬ (∇ × 𝐹) ⋅ 𝑑 Σ = ∮  𝐹 ⋅ 𝑑Γ
   Σ                 ∂Σ
   """
+
+test "Definition of Euler's number":
+  checkRender r"e = \lim_{n \to \infty} \left(1 + \frac1n \right)^n", """
+                  𝑛
+           ⎛    1⎞
+  𝑒 =  lim ⎜1 + ─⎟
+      𝑛 → ∞⎝    𝑛⎠
+  """

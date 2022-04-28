@@ -84,11 +84,11 @@ let digit = c('0'..'9').map(ch => ($ch).toTextRect(0, trfAlnum))
 let latinLetter = c('A'..'Z').map(ch => ($(ch.int + 119795).Rune).toTextRect(0, trfAlnum)) |
                   c('a'..'z').map(ch => ($(ch.int + 119789).Rune).toTextRect(0, trfAlnum))
 
-let otherLetter = letters.lookupTableParser(trfAlnum)
 let bigOp = bigOperators.lookupTableParser(trfBigOperator)
 let binaryOp = binaryOperators.lookupTableParser(trfOperator)
 let delimiter = delimiters.lookupTableParser
-let relation = relations.lookupTableParser(trfOperator)
+let otherLetter = letters.lookupTableParser(trfAlnum)
+let symbol = symbols.lookupTableParser
 let textOp = textOperators.lookupTableParser(trfWord)
 
 let frac = (s"\frac" | s"\tfrac" | s"\dfrac" | s"\cfrac") >> (atom & atom).map(fraction => (
@@ -165,7 +165,7 @@ let atom1 = (
   bigOp |
   binaryOp |
   delimiter |
-  relation |
+  symbol |
   textOp |
   frac |
   binom |
@@ -184,7 +184,7 @@ atom.become (atom1 & ((superscript & subscript.optional) | (subscript & superscr
     result = base
   of 2:
     var script = operands[1]
-    if flag == trfBigOperator:
+    if flag in {trfBigOperator, trfWord}:
       result =
         if script.flag == trfSup:
           stack(script, base, base.baseline + script.height, saCenter)
@@ -203,7 +203,7 @@ atom.become (atom1 & ((superscript & subscript.optional) | (subscript & superscr
         (operands[1], operands[2])
       else:
         (operands[2], operands[1])
-    if flag == trfBigOperator:
+    if flag in {trfBigOperator, trfWord}:
       result = stack(sup, base, sub, base.baseline + sup.height, saCenter)
     else:
       result = base & stack(sup.extendDown(base.height), sub, base.baseline + sup.height, saLeft)
