@@ -81,8 +81,11 @@ var atom = fwdcl[TextRect]()
 let expr = atom.many.map(atoms => atoms.join)
 
 let digit = c('0'..'9').map(ch => ($ch).toTextRect(0, trfAlnum))
-let latinLetter = c('A'..'Z').map(ch => ($(ch.int + 119795).Rune).toTextRect(0, trfAlnum)) |
-                  c('a'..'z').map(ch => ($(ch.int + 119789).Rune).toTextRect(0, trfAlnum))
+# For some reason, there's no Mathematical Italic Small H,
+# so we use a Mathematical Sans-Serif Italic Small H instead
+let latinLetter = c('h').map(_ => "𝘩".toTextRect(0, trfAlnum)) |
+  c('A'..'Z').map(ch => ($(ch.int + 119795).Rune).toTextRect(0, trfAlnum)) |
+  c('a'..'z').map(ch => ($(ch.int + 119789).Rune).toTextRect(0, trfAlnum))
 
 let bigOp = bigOperators.lookupTableParser(trfBigOperator)
 let binaryOp = binaryOperators.lookupTableParser(trfOperator)
@@ -173,7 +176,8 @@ let atom1 = (
   boxed
 ) << ws
 
-let superscript = (c('^') >> atom1).map(sup => sup.withFlag(trfSup))
+let superscript = (c('^') >> atom1).map(sup => sup.withFlag(trfSup)) |
+  c('\'').atLeast(1).map(primes => "′".repeat(primes.len).toTextRect.withFlag(trfSup))
 let subscript = (c('_') >> atom1).map(sub => sub.withFlag(trfSub))
 atom.become (atom1 & ((superscript & subscript.optional) | (subscript & superscript.optional)).optional).map(operands => (
   var base = operands[0]

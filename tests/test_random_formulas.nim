@@ -63,3 +63,10 @@ test "Definition of Euler's number":
   𝑒 =  lim ⎜1 + ─⎟
       𝑛 → ∞⎝    𝑛⎠
   """
+
+test "Definition of derivative":
+  checkRender r"f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}h", """
+   ′           𝑓(𝑥 + 𝘩) − 𝑓(𝑥)
+  𝑓 (𝑥) =  lim ───────────────
+          𝘩 → 0       𝘩
+  """
