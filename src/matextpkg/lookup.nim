@@ -171,6 +171,7 @@ const simpleDiacritics* = {
   "\\grave": (combining: "\u0300", low: "ˎ"),
   "\\hat": (combining: "\u0302", low: "ꞈ"),
   "\\tilde": (combining: "\u0303", low: "˷"),
+  "\\vec": (combining: "\u20D7", low: "→")
 }
 
 const symbols* = {

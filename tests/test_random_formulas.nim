@@ -70,3 +70,9 @@ test "Definition of derivative":
   𝑓 (𝑥) =  lim ───────────────
           𝘩 → 0       𝘩
   """
+
+test "Definition of scalar product":
+  checkREnder r"\vec x \cdot \vec y = \sum_i x_i y_i", """
+  𝑥⃗ ⋅ 𝑦⃗ = ∑ 𝑥 𝑦
+          𝑖  𝑖 𝑖
+  """
