@@ -161,6 +161,18 @@ const letters* = {
   "\\eth": "ð", "\\hslash": "ℏ", "\\reals": "R", "\\oe": "œ",
 }
 
+const simpleDiacritics* = {
+  "\\acute": (combining: "\u0301", low: "ˏ"),
+  "\\bar": (combining: "\u0304", low: "_"),
+  "\\breve": (combining: "\u0306", low: "⏑"),
+  "\\check": (combining: "\u030C", low: "ˇ"),
+  "\\dot": (combining: "\u0307", low: "."),
+  "\\ddot": (combining: "\u0308", low: "¨"),
+  "\\grave": (combining: "\u0300", low: "ˎ"),
+  "\\hat": (combining: "\u0302", low: "ꞈ"),
+  "\\tilde": (combining: "\u0303", low: "˷"),
+}
+
 const symbols* = {
   "\\dots": "…","\\KaTeX": "K T X\n A E ",
   "\\%": "%", "\\cdots": "⋯", "\\LaTeX": "L T X\n A E ",

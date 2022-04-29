@@ -94,6 +94,18 @@ let otherLetter = letters.lookupTableParser(trfAlnum)
 let symbol = symbols.lookupTableParser
 let textOp = textOperators.lookupTableParser(trfWord)
 
+let simpleDiacritic = simpleDiacritics.map(entry => (
+  let (key, val) = entry
+  (s(key) >> !letter >> ws >> atom).map(rect => (
+    var rect = rect
+    if rect.width == 1 and rect.height == 1:
+      rect.rows[0] &= val.combining
+      rect
+    else:
+      stack(val.low.toTextRect, rect, 1 + rect.baseline, saCenter)
+  ))
+  )).foldr(a | b)
+
 let frac = (s"\frac" | s"\tfrac" | s"\dfrac" | s"\cfrac") >> (atom & atom).map(fraction => (
   let numerator = fraction[0]
   let denominator = fraction[1]
@@ -170,6 +182,7 @@ let atom1 = (
   delimiter |
   symbol |
   textOp |
+  simpleDiacritic |
   frac |
   binom |
   sqrt |
