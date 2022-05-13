@@ -19,6 +19,8 @@ func bigDelimiter(delimiter: string, height, baseline: Natural): TextRect =
     "⌉": ("⎤", "⎥", "⎥"),
     "⌊": ("⎢", "⎢", "⎣"),
     "⌋": ("⎥", "⎥", "⎦"),
+    "⟦": ("╓", "║", "╙"),
+    "⟧": ("╖", "║", "╜"),
   }.toTable
   result.rows = newSeq[string](height)
   result.width = 1

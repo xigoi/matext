@@ -128,6 +128,10 @@ const delimiters* = {
   "\\lfloor": "⌊",
   "⌋": "⌋",
   "\\rfloor": "⌋",
+  "⟦": "⟦",
+  "\\llbracket": "⟦",
+  "⟧": "⟧",
+  "\\rrbracket": "⟧",
 }
 
 # TODO: make Greek letters italic
