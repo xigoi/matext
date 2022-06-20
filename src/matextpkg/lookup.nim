@@ -105,6 +105,21 @@ const binaryOperators* = {
   "\\dblcolon": "∷", "\coloncolon": "∷", "\\leq": "≤", "\\simeq": "≃", "\\vDash": "⊨",
   "\\doteq": "≐", "\\leqq": "≦", "\\smallfrown": "⌢", "\\Vdash": "⊩",
   "\\Doteq": "≑", "\\leqslant": "⩽", "\\smallsmile": "⌣", "\\Vvdash": "⊪",
+  "\\gnapprox": "⪊", "\\ngeqslant": "≱", "\\nsubseteq": "⊈", "\\precneqq": "⪵",
+  "\\gneq": "⪈", "\\ngtr": "≯", "\\nsubseteqq": "⊈", "\\precnsim": "⋨",
+  "\\gneqq": "≩", "\\nleq": "≰", "\\nsucc": "⊁", "\\subsetneq": "⊊",
+  "\\gnsim": "⋧", "\\nleqq": "≰", "\\nsucceq": "⋡", "\\subsetneqq": "⫋",
+  "\\gvertneqq": "≩", "\\nleqslant": "≰", "\\nsupseteq": "⊉", "\\succnapprox": "⪺",
+  "\\lnapprox": "⪉", "\\nless": "≮", "\\nsupseteqq": "⊉", "\\succneqq": "⪶",
+  "\\lneq": "⪇", "\\nmid": "∤", "\\ntriangleleft": "⋪", "\\succnsim": "⋩",
+  "\\lneqq": "≨", "\\notin": "∉", "\\ntrianglelefteq": "⋬", "\\supsetneq": "⊋",
+  "\\lnsim": "⋦", "\\notni": "∌", "\\ntriangleright": "⋫", "\\supsetneqq": "⫌",
+  "\\lvertneqq": "≨", "\\nparallel": "∦", "\\ntrianglerighteq": "⋭", "\\varsubsetneq": "⊊",
+  "\\ncong": "≆", "\\nprec": "⊀", "\\nvdash": "⊬", "\\varsubsetneqq": "⫋",
+  "\\ne": "≠", "\\npreceq": "⋠", "\\nvDash": "⊭", "\\varsupsetneq": "⊋",
+  "\\neq": "≠", "\\nshortmid": "∤", "\\nVDash": "⊯", "\\varsupsetneqq": "⫌",
+  "\\ngeq": "≱", "\\nshortparallel": "∦", "\\nVdash": "⊮",
+  "\\ngeqq": "≱", "\\nsim": "≁", "\\precnapprox": "⪹",
 }
 
 const delimiters* = {
@@ -246,6 +261,7 @@ const simpleDiacritics* = {
   "\\ddot": (combining: "\u0308", low: "¨"),
   "\\grave": (combining: "\u0300", low: "ˎ"),
   "\\hat": (combining: "\u0302", low: "ꞈ"),
+  "\\not": (combining: "\u0338", low: "/"),
   "\\tilde": (combining: "\u0303", low: "˷"),
   "\\vec": (combining: "\u20D7", low: "→")
 }

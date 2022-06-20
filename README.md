@@ -68,7 +68,7 @@ The goal is to mostly match [KaTeX's list of supported functions](https://katex.
   - ☐ \cancel, \sout
   - ☐ \tag
   - ☐ \overbrace, \underbrace
-  - ☐ \not
+  - ☑ \not
   - ☑ \boxed
   - ☐ line breaks
   - ☑ superscript, subscript
@@ -85,13 +85,13 @@ The goal is to mostly match [KaTeX's list of supported functions](https://katex.
   - ☑ square root
     - ☐ n-th root
   - ☑ relations
-  - ☐ negated relations
+  - ☑ negated relations
   - ☑ arrows
     - ☐ extensible arrows
   - ☐ bra-ket
 - ☒ color
 - ☒ font size
-- ☐ display style
+- ☒ display style
 - ☑ symbols
 - ☐ text mode
   - ☑ punctuation
