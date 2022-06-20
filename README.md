@@ -6,6 +6,14 @@ A program and Nim library for rendering LaTeX math as multiline Unicode text
 
 ## Installation
 
+You need to have [Nim](https://nim-lang.org/) and Nimble installed.
+
+### From [Nimble](https://nimble.directory/)
+
+```bash
+nimble install matext
+```
+
 ### From source
 
 ```bash
