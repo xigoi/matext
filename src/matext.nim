@@ -1,7 +1,7 @@
-import cligen
 import matextpkg/render
 
 when isMainModule:
+  import cligen
   proc matext(args: seq[string]): string =
     try:
       for arg in args:
@@ -11,6 +11,10 @@ when isMainModule:
     except ValueError:
       stderr.writeLine "matext: error: " & getCurrentExceptionMsg()
   dispatch matext
+elif defined(js):
+  proc matext*(latex: cstring): cstring {.exportc.} =
+    latex.render
+  {.emit: "export default matext;".}
 else:
   proc matext*(latex: string): string =
     latex.render
