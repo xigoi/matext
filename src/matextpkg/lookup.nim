@@ -1,3 +1,13 @@
+import std/unicode
+
+type
+  Font* = enum
+    fItalic
+    fBold
+    fScript
+    fFraktur
+    fDoubleStruck
+
 const bigOperators* = {
   "\\sum": "∑", "\\prod": "∏", "\\bigotimes": "⨂", "\\bigvee": "⋁",
   "\\int": "∫", "\\coprod": "∐", "\\bigoplus": "⨁", "\\bigwedge": "⋀",
@@ -134,6 +144,63 @@ const delimiters* = {
   "\\rrbracket": "⟧",
 }
 
+const fontsByName* = {
+  "\\mathit": fItalic,
+  "\\mathbf": fBold,
+  "\\mathcal": fScript,
+  "\\mathfrak": fFraktur,
+  "\\mathbb": fDoubleStruck,
+}
+
+const fontStarts* = [
+  fItalic: 119860,
+  fBold: 119808,
+  fScript: 119964,
+  fFraktur: 120068,
+  fDoubleStruck: 120120,
+]
+
+const fontExceptions* = [
+  fItalic: @{'h': "ℎ"},
+  fBold: @[],
+  fScript: @{
+    'B': "ℬ",
+    'E': "ℰ",
+    'F': "ℱ",
+    'H': "ℋ",
+    'I': "ℐ",
+    'L': "ℒ",
+    'M': "ℳ",
+    'R': "ℛ",
+    'e': "ℯ",
+    'g': "ℊ",
+    'o': "ℴ",
+  },
+  fFraktur: @{
+    'C': "ℭ",
+    'H': "ℌ",
+    'I': "ℑ",
+    'R': "ℜ",
+    'Z': "ℨ",
+  },
+  fDoubleStruck: @{
+    'C': "ℂ",
+    'H': "ℍ",
+    'N': "ℕ",
+    'P': "ℙ",
+    'Q': "ℚ",
+    'R': "ℝ",
+    'Z': "ℤ",
+  },
+]
+
+func inFont*(letter: char, font: Font): string =
+  for (lhs, rhs) in fontExceptions[font]:
+    if letter == lhs:
+      return rhs
+  let shift = if letter in 'A'..'Z': 65 else: 71
+  return $Rune(fontStarts[font] + letter.ord - shift)
+
 # TODO: make Greek letters italic
 const letters* = {
   "\\Alpha": "A", "\\Beta": "B", "\\Gamma": "Γ", "\\Delta": "Δ",
@@ -165,6 +232,11 @@ const letters* = {
   "\\eth": "ð", "\\hslash": "ℏ", "\\reals": "R", "\\oe": "œ",
 }
 
+const punctuation* = {
+  ",": ",",
+  ":": ":",
+}
+
 const simpleDiacritics* = {
   "\\acute": (combining: "\u0301", low: "ˏ"),
   "\\bar": (combining: "\u0304", low: "_"),
@@ -179,7 +251,7 @@ const simpleDiacritics* = {
 }
 
 const symbols* = {
-  "\\dots": "…","\\KaTeX": "K T X\n A E ",
+  "\\dots": "…", "\\KaTeX": "K T X\n A E ",
   "\\%": "%", "\\cdots": "⋯", "\\LaTeX": "L T X\n A E ",
   "\\#": "#", "\\ddots": "⋱", "\\TeX": "T X\n E ",
   "\\&": "&", "\\ldots": "…", "\\nabla": "∇",

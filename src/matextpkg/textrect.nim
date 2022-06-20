@@ -14,6 +14,7 @@ type
     trfFraction
     trfSub
     trfSup
+    trfPunctuation
   TextRect* = object
     rows*: seq[string]
     baseline*: int
@@ -59,10 +60,12 @@ func extendDown*(rect; num: Natural): TextRect =
 func extendLeft(rect: var TextRect) =
   for row in rect.rows.mitems:
     row = " " & row
+  rect.width.inc
 
 func extendRight(rect: var TextRect) =
   for row in rect.rows.mitems:
     row &= " "
+  rect.width.inc
 
 func join*(rects: varargs[TextRect]): TextRect =
   var rects = rects.toSeq
@@ -73,20 +76,19 @@ func join*(rects: varargs[TextRect]): TextRect =
     return rects[0]
   for i, rect in rects.mpairs:
     case rect.flag
+    of trfPunctuation:
+      if i != rects.high:
+        rect.extendRight
     of trfOperator, trfBigOperator:
       if i != rects.high:
         rect.extendRight
-        rect.width += 1
-      if i != rects.low and rects[i - 1].flag notin {trfOperator, trfBigOperator}:
+      if i != rects.low and rects[i - 1].flag notin {trfOperator, trfBigOperator, trfPunctuation}:
         rect.extendLeft
-        rect.width += 1
     of trfWord:
       if i != rects.high and rects[i + 1].flag in {trfAlnum, trfWord}:
         rect.extendRight
-        rect.width += 1
       if i != rects.low and rects[i - 1].flag in {trfAlnum}:
         rect.extendLeft
-        rect.width += 1
     else:
       discard
   let maxBaseline = rects.mapIt(it.baseline).max

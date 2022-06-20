@@ -66,13 +66,20 @@ test "Definition of Euler's number":
 
 test "Definition of derivative":
   checkRender r"f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}h", """
-   ′           𝑓(𝑥 + 𝘩) − 𝑓(𝑥)
+   ′           𝑓(𝑥 + ℎ) − 𝑓(𝑥)
   𝑓 (𝑥) =  lim ───────────────
-          𝘩 → 0       𝘩
+          ℎ → 0       ℎ
   """
 
 test "Definition of scalar product":
   checkREnder r"\vec x \cdot \vec y = \sum_i x_i y_i", """
   𝑥⃗ ⋅ 𝑦⃗ = ∑ 𝑥 𝑦
           𝑖  𝑖 𝑖
+  """
+
+test "Limit of a sequence":
+  checkRender r"\forall \varepsilon \in \mathbb{R}^+, \exists n_0 \in \mathbb N, \forall n \in \mathbb { N } , n \ge n_0: a_n \in \left(A - \varepsilon, A + \varepsilon\right)", """
+         +
+  ∀ ε ∈ ℝ , ∃ 𝑛  ∈ ℕ, ∀ 𝑛 ∈ ℕ, 𝑛 ≥ 𝑛 : 𝑎  ∈ (𝐴 − ε, 𝐴 + ε)
+               0                    0   𝑛
   """

@@ -5,7 +5,6 @@ import std/sequtils
 import std/strutils
 import std/sugar
 import std/tables
-import std/unicode
 
 func bigDelimiter(delimiter: string, height, baseline: Natural): TextRect =
   const delimiterParts = {
@@ -81,18 +80,22 @@ func lookupTableParser(table: openArray[(string, string)], flag = trfNone): Pars
 let ws = whitespace.many
 var atom = fwdcl[TextRect]()
 let expr = atom.many.map(atoms => atoms.join)
+let alpha = c('A'..'Z') | c('a'..'z')
 
 let digit = c('0'..'9').map(ch => ($ch).toTextRect(0, trfAlnum))
-# For some reason, there's no Mathematical Italic Small H,
-# so we use a Mathematical Sans-Serif Italic Small H instead
-let latinLetter = c('h').map(_ => "𝘩".toTextRect(0, trfAlnum)) |
-  c('A'..'Z').map(ch => ($(ch.int + 119795).Rune).toTextRect(0, trfAlnum)) |
-  c('a'..'z').map(ch => ($(ch.int + 119789).Rune).toTextRect(0, trfAlnum))
+let latinLetter = alpha.map(letter => letter.inFont(fItalic).toTextRect(0, trfAlnum)) |
+  fontsByName.map(pair => (
+    let (name, font) = pair
+    ((s(name) >> ws >> c('{') >> ws >> alpha << ws << c('}')) |
+     (s(name) >> whitespace.atLeast(1) >> alpha))
+    .map(letter => letter.inFont(font).toTextRect(0, trfAlnum))
+  )).foldl(a | b)
 
 let bigOp = bigOperators.lookupTableParser(trfBigOperator)
 let binaryOp = binaryOperators.lookupTableParser(trfOperator)
 let delimiter = delimiters.lookupTableParser
 let otherLetter = letters.lookupTableParser(trfAlnum)
+let punct = punctuation.lookupTableParser(trfPunctuation)
 let symbol = symbols.lookupTableParser
 let textOp = textOperators.lookupTableParser(trfWord)
 
@@ -182,6 +185,7 @@ let atom1 = (
   bigOp |
   binaryOp |
   delimiter |
+  punct |
   symbol |
   textOp |
   simpleDiacritic |
@@ -228,7 +232,7 @@ atom.become (atom1 & ((superscript & subscript.optional) | (subscript & superscr
       result = base & stack(sup.extendDown(base.height), sub, base.baseline + sup.height, saLeft)
   else:
     discard
-  if flag in {trfAlnum, trfWord, trfOperator, trfBigOperator}:
+  if flag in {trfAlnum, trfWord, trfOperator, trfBigOperator, trfPunctuation}:
     result.flag = flag
 ))
 

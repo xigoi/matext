@@ -63,7 +63,7 @@ The goal is to mostly match [KaTeX's list of supported functions](https://katex.
   - ☐ equation, align, gather
   - ☐ CD
 - ☑ Greek and other letters
-- ☐ fonts
+- ☑ fonts (only for one letter)
 - layout
   - ☐ \cancel, \sout
   - ☐ \tag
