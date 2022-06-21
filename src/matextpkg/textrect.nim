@@ -114,15 +114,18 @@ func center(s: string, width: Natural, padding = ' '.Rune): string =
     let right = diff - left
     padding.repeat(left) & s & padding.repeat(right)
 
-func stack*(rects: varargs[TextRect], baseline: int, alignment: StackAlignment): TextRect =
+const alignFuncs = [
+  saCenter: (s: string, width: int) => s.center(width),
+  saLeft:   (s: string, width: int) => s.alignLeft(width),
+  saRight:  (s: string, width: int) => s.align(width),
+]
+
+proc stack*(rects: varargs[TextRect], baseline: int, alignment: StackAlignment): TextRect =
   let width = max(rects.mapIt(it.width))
-  let alignFunc = case alignment
-    of saCenter: (s: string) => s.center(width)
-    of saLeft:   (s: string) => s.alignLeft(width)
-    of saRight:  (s: string) => s.align(width)
+  let alignFunc = alignFuncs[alignment]
   for rect in rects:
     for row in rect.rows:
-      result.rows.add alignFunc(row)
+      result.rows.add alignFunc(row, width)
   result.baseline = baseline
   result.width = width
 

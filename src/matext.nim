@@ -1,7 +1,11 @@
-import cligen
 import matextpkg/render
 
-when isMainModule:
+when defined(js):
+  proc matext*(latex: cstring): cstring {.exportc.} =
+    render($latex)
+  {.emit: "export default matext;".}
+elif isMainModule:
+  import cligen
   proc matext(args: seq[string]): string =
     try:
       for arg in args:
