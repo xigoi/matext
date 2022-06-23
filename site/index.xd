@@ -180,3 +180,7 @@ echo latex.matext
     [x units]
   ]
 ]
+
+[section Source code;
+  matext is available on [link SourceHut; https://sr.ht/~xigoi/matext/] and [link GitHub; https://github.com/xigoi/matext] under the GNU General Public Licence 3. (SourceHut is strongly preferred because [link it is important for free software to use free software infrastructure; https://drewdevault.com/2022/03/29/free-software-free-infrastructure.html].)
+]
