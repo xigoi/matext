@@ -2,12 +2,12 @@
 [set-syntax-highlighting-theme funky-x]
 [style
   [rule @font-face;
-    [: font-family; DejaVu Sans Mono]
-    [: src; url("dejavu-sans-mono.woff")]
+    [: font-family; Fira Code Regular]
+    [: src; url("FiraCode-Regular.woff2")]
   ]
   [var serif; Constantia,"Lucida Bright",Lucidabright,"Lucida Serif",Lucida,"DejaVu Serif","Bitstream Vera Serif","Liberation Serif",Georgia,serif]
   [var sans-serif; -apple-system,BlinkMacSystemFont,"Avenir Next",Avenir,"Nimbus Sans L",Roboto,Noto,"Segoe UI",Arial,Helvetica,"Helvetica Neue",sans-serif]
-  [var monospace; DejaVu Sans Mono, Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, Andale Mono, Ubuntu Mono, monospace]
+  [var monospace; Fira Code Regular, DejaVu Sans Mono, Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, Andale Mono, Ubuntu Mono, monospace]
   [var matext-color; #7e3]
   [rule a;
     [: color; [var matext-color]]
