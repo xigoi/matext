@@ -121,11 +121,17 @@ echo latex.matext
   [p The goal is to mostly match [link KaTeX's list of supported functions; https://katex.org/docs/supported.html]. Features which are not planned to be supported are marked with a cross.]
   [checkboxes
     [v digits, English letters]
-    [- accents]
-    [- delimiters
+    [<li> accents
       [checkboxes
-        [v \left \right]
-        [x \big, etc.]
+        [v simple accents]
+        [- long accents]
+    ]]
+    [<li> delimiters
+      [checkboxes
+        [v most important delimiters]
+        [- less important delimiters]
+        [v [code latex; \left] [code latex; \right]]
+        [x [code latex; \big], etc.]
     ]]
     [<li> environments
       [checkboxes
@@ -135,17 +141,16 @@ echo latex.matext
         [- CD]
     ]]
     [v Greek and other letters]
-    [v fonts (only for one letter)]
     [<li> layout
       [checkboxes
-        [- \cancel, \sout]
-        [- \tag]
-        [- \overbrace, \underbrace]
-        [v \not]
-        [v \boxed]
+        [- [code latex; \cancel], [code latex; \sout]]
+        [- [code latex; \tag]]
+        [- [code latex; \overbrace], [code latex; \underbrace]]
+        [v [code latex; \not]]
+        [v [code latex; \boxed]]
         [- line breaks]
         [v superscript, subscript]
-        [- \stackrel, \overset, \underset, \atop]
+        [- [code latex; \stackrel], [code latex; \overset], [code latex; \underset], [code latex; \atop]]
     ]]
     [- spaces]
     [- macros]
@@ -154,31 +159,24 @@ echo latex.matext
         [v big operators]
         [v binary operators]
         [v logic & set theory]
-        [v fractions, binomials
-          [checkboxes
-            [- \over, \choose]
-        ]]
+        [v [code latex; \frac], [code latex; \binom]
+        [- [code latex; \over], [code latex; \choose]]
         [v text operators]
-        [v square root
-          [checkboxes
-            [- n-th root]
-        ]]
+        [v square root]
+        [- n-th root]
         [v relations]
         [v negated relations]
-        [v arrows
-          [checkboxes
-            [- extensible arrows]
-        ]]
-        [- bra-ket]
-    ]]
+        [v simple arrows]
+        [- extensible arrows]
+        [- bra-ket notation]
+    ]]]
     [x color]
+    [v fonts (only for one letter)]
     [x font size]
-    [- display style]
+    [x display style]
     [v symbols]
-    [- text mode
-      [checkboxes
-        [v punctuation]
-    ]]
+    [- text mode]
+    [v punctuation]
     [x units]
   ]
 ]
