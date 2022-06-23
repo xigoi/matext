@@ -227,8 +227,7 @@ atom.become (atom1 & ((superscript & subscript.optional) | (subscript & superscr
       result = base & stack(sup.extendDown(base.height), sub, base.baseline + sup.height, saLeft)
   else:
     discard
-  if flag in {trfAlnum, trfWord, trfOperator, trfBigOperator, trfPunctuation}:
-    result.flag = flag
+  result.flag = flag
 ))
 
 let completeExpr = expr << eof
