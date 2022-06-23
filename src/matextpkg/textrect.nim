@@ -38,12 +38,22 @@ func isEmpty(rect): bool =
 
 func toTextRect*(s: string, baseline: int = 0, flag = trfNone): TextRect =
   if s == "":
+    result.flag = flag
     return
   result.rows = s.split("\n")
   result.width = result.rows[0].runeLen
   for row in result.rows:
     if row.runeLen != result.width:
       raise newException(ValueError, "All rows of a TextRect must be the same width")
+  result.baseline = baseline
+  result.flag = flag
+
+func toTextRectOneLine*(s: string, baseline: int = 0, flag = trfNone): TextRect =
+  if s == "":
+    result.flag = flag
+    return
+  result.rows = @[s]
+  result.width = s.runeLen
   result.baseline = baseline
   result.flag = flag
 

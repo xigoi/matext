@@ -64,11 +64,7 @@
     } catch {
     }
   }
-  let timeout;
-  latex.addEventListener("input", () => {
-    clearTimeout(timeout);
-    timeout = setTimeout(update, 500);
-  });
+  latex.addEventListener("input", update);
   update();
 ]]
 

@@ -1,3 +1,6 @@
+import ./textrect
+import std/sequtils
+import std/tables
 import std/unicode
 
 type
@@ -8,15 +11,18 @@ type
     fFraktur
     fDoubleStruck
 
-const bigOperators* = {
+func textRects(flag: TextRectFlag, table: openArray[(string, string)]): seq[(string, TextRect)] =
+  table.mapIt((it[0], it[1].toTextRect(flag = flag)))
+
+const bigOperators* = textRects(trfBigOperator, {
   "\\sum": "∑", "\\prod": "∏", "\\bigotimes": "⨂", "\\bigvee": "⋁",
   "\\int": "∫", "\\coprod": "∐", "\\bigoplus": "⨁", "\\bigwedge": "⋀",
   "\\iint": "∬", "\\intop": "∫", "\\bigodot": "⨀", "\\bigcap": "⋂",
   "\\iiint": "∭", "\\smallint": "∫", "\\biguplus": "⨄", "\\bigcup": "⋃",
   "\\oint": "∮", "\\oiint": "∯", "\\oiiint": "∰", "\\bigsqcup": "⨆",
-}
+})
 
-const binaryOperators* = {
+const binaryOperators* = textRects(trfOperator, {
   "+": "+", "-": "−", "*": "∗", "/": "/",
   "\\cdot": "⋅", "\\gtrdot": "⋗",
   "\\cdotp": "⋅", "\\intercal": "⊺",
@@ -120,9 +126,9 @@ const binaryOperators* = {
   "\\neq": "≠", "\\nshortmid": "∤", "\\nVDash": "⊯", "\\varsupsetneqq": "⫌",
   "\\ngeq": "≱", "\\nshortparallel": "∦", "\\nVdash": "⊮",
   "\\ngeqq": "≱", "\\nsim": "≁", "\\precnapprox": "⪹",
-}
+})
 
-const delimiters* = {
+const delimiters* = textRects(trfNone, {
   "(": "(",
   "\\lparen": "(",
   ")": ")",
@@ -157,7 +163,7 @@ const delimiters* = {
   "\\llbracket": "⟦",
   "⟧": "⟧",
   "\\rrbracket": "⟧",
-}
+})
 
 const fontsByName* = {
   "\\mathit": fItalic,
@@ -217,7 +223,7 @@ func inFont*(letter: char, font: Font): string =
   return $Rune(fontStarts[font] + letter.ord - shift)
 
 # TODO: make Greek letters italic
-const letters* = {
+const letters* = textRects(trfAlnum, {
   "\\Alpha": "A", "\\Beta": "B", "\\Gamma": "Γ", "\\Delta": "Δ",
   "\\Epsilon": "E", "\\Zeta": "Z", "\\Eta": "H", "\\Theta": "Θ",
   "\\Iota": "I", "\\Kappa": "K", "\\Lambda": "Λ", "\\Mu": "M",
@@ -245,12 +251,12 @@ const letters* = {
   "\\gimel": "ℷ", "\\ell": "ℓ", "\\Re": "ℜ", "\\ae": "æ",
   "\\daleth": "ℸ", "\\hbar": "ℏ", "\\real": "ℜ", "\\AE": "Æ",
   "\\eth": "ð", "\\hslash": "ℏ", "\\reals": "R", "\\oe": "œ",
-}
+})
 
-const punctuation* = {
+const punctuation* = textRects(trfPunctuation, {
   ",": ",",
   ":": ":",
-}
+})
 
 const simpleDiacritics* = {
   "\\acute": (combining: "\u0301", low: "ˏ"),
@@ -266,7 +272,7 @@ const simpleDiacritics* = {
   "\\vec": (combining: "\u20D7", low: "→")
 }
 
-const symbols* = {
+const symbols* = textRects(trfNone, {
   "\\dots": "…", "\\KaTeX": "K T X\n A E ",
   "\\%": "%", "\\cdots": "⋯", "\\LaTeX": "L T X\n A E ",
   "\\#": "#", "\\ddots": "⋱", "\\TeX": "T X\n E ",
@@ -305,9 +311,9 @@ const symbols* = {
   "\\textregistered": "®", "\\diamonds": "♢", "\\hearts": "♡",
   "\\circledS": "Ⓢ", "\\spadesuit": "♠", "\\spades": "♠",
   "\\maltese": "✠", "\\minuso": "⦵",
-}
+})
 
-const textOperators* = {
+const textOperators* = textRects(trfWord, {
   "\\arcsin": "arcsin", "\\cosec": "cosec", "\\deg": "deg", "\\sec": "sec",
   "\\arccos": "arccos", "\\cosh": "cosh", "\\dim": "dim", "\\sin": "sin",
   "\\arctan": "arctan", "\\cot": "cot", "\\exp": "exp", "\\sinh": "sinh",
@@ -321,4 +327,34 @@ const textOperators* = {
   "\\det": "det", "\\liminf": "lim inf", "\\Pr": "Pr",
   "\\gcd": "gcd", "\\limsup": "lim sup", "\\projlim": "proj lim",
   "\\inf": "inf", "\\max": "max", "\\sup": "sup",
-}
+})
+
+const commands* = block:
+  var commands = initTable[string, TextRect]()
+  proc extractCommands(table: openArray[(string, TextRect)]) =
+    for (key, val) in table:
+      if key[0] == '\\':
+        commands[key[1..^1]] = val
+  extractCommands bigOperators
+  extractCommands binaryOperators
+  extractCommands delimiters
+  extractCommands letters
+  extractCommands punctuation
+  extractCommands symbols
+  extractCommands textOperators
+  commands
+
+const nonCommands* = block:
+  var nonCommands = newSeq[(string, TextRect)]()
+  proc extractNonCommands(table: openArray[(string, TextRect)]) =
+    for (key, val) in table:
+      if key[0] != '\\':
+        nonCommands.add((key, val))
+  extractNonCommands bigOperators
+  extractNonCommands binaryOperators
+  extractNonCommands delimiters
+  extractNonCommands letters
+  extractNonCommands punctuation
+  extractNonCommands symbols
+  extractNonCommands textOperators
+  nonCommands

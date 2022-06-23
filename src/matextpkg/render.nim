@@ -68,36 +68,36 @@ func bigDelimiter(delimiter: string, height, baseline: Natural): TextRect =
       result.rows[i] = mid
     result.rows[^1] = bottom
 
-func lookupTableParser(table: openArray[(string, string)], flag = trfNone): Parser[TextRect] =
-  table.map(entry => (
-    let (key, val) = entry
-    if key[0] == '\\':
-      (s(key) << !letter).result(val)
-    else:
-      s(key).result(val))
-  ).foldr(a | b).map(s => s.toTextRect(flag = flag))
-
 let ws = whitespace.many
 var atom = fwdcl[TextRect]()
 let expr = atom.many.map(atoms => atoms.join)
 let alpha = c('A'..'Z') | c('a'..'z')
 
-let digit = c('0'..'9').map(ch => ($ch).toTextRect(0, trfAlnum))
-let latinLetter = alpha.map(letter => letter.inFont(fItalic).toTextRect(0, trfAlnum)) |
+let digit = c('0'..'9').map(ch => ($ch).toTextRectOneLine(0, trfAlnum))
+let latinLetter = alpha.map(letter => letter.inFont(fItalic).toTextRectOneLine(0, trfAlnum)) |
   fontsByName.map(pair => (
     let (name, font) = pair
     ((s(name) >> ws >> c('{') >> ws >> alpha << ws << c('}')) |
      (s(name) >> whitespace.atLeast(1) >> alpha))
-    .map(letter => letter.inFont(font).toTextRect(0, trfAlnum))
+    .map(letter => letter.inFont(font).toTextRectOneLine(0, trfAlnum))
   )).foldl(a | b)
 
-let bigOp = bigOperators.lookupTableParser(trfBigOperator)
-let binaryOp = binaryOperators.lookupTableParser(trfOperator)
-let delimiter = delimiters.lookupTableParser
-let otherLetter = letters.lookupTableParser(trfAlnum)
-let punct = punctuation.lookupTableParser(trfPunctuation)
-let symbol = symbols.lookupTableParser
-let textOp = textOperators.lookupTableParser(trfWord)
+let delimiter =
+  delimiters.map(entry => (
+    let (key, val) = entry
+    if key[0] == '\\':
+      (s(key) << !letter).result(val)
+    else:
+      s(key).result(val))
+  ).foldr(a | b)
+
+
+let command = (c('\\') >> letter.atLeast(1)).map(chars => chars.join).validate(name => name in commands, "a command").map(name => commands[name])
+let nonCommand =
+  nonCommands.map(entry => (
+    let (key, val) = entry
+    s(key).result(val))
+  ).foldr(a | b)
 
 let simpleDiacritic = simpleDiacritics.map(entry => (
   let (key, val) = entry
@@ -107,7 +107,7 @@ let simpleDiacritic = simpleDiacritics.map(entry => (
       rect.rows[0] &= val.combining
       rect
     else:
-      stack(val.low.toTextRect, rect, 1 + rect.baseline, saCenter)
+      stack(val.low.toTextRectOneLine, rect, 1 + rect.baseline, saCenter)
   ))
   )).foldr(a | b)
 
@@ -121,7 +121,7 @@ let frac = (s"\frac" | s"\tfrac" | s"\dfrac" | s"\cfrac") >> (atom & atom).map(f
      (denominator.flag == trfFraction and denominator.width == width):
     fractionLine = "╶" & fractionLine & "╴"
     flag = trfNone
-  stack(numerator, fractionLine.toTextRect, denominator, numerator.height, saCenter).withFlag(flag)
+  stack(numerator, fractionLine.toTextRectOneLine, denominator, numerator.height, saCenter).withFlag(flag)
 ))
 
 let binom = (s"\binom" | s"\tbinom" | s"\dbinom" | s"\cbinom") >> (atom & atom).map(nk => (
@@ -136,7 +136,7 @@ let binom = (s"\binom" | s"\tbinom" | s"\dbinom" | s"\cbinom") >> (atom & atom).
 ))
 
 let boxed = s"\boxed" >> atom.map(arg => (
-  let horizontal = "─".repeat(arg.width).toTextRect
+  let horizontal = "─".repeat(arg.width).toTextRectOneLine
   let sandwich = stack(horizontal, arg, horizontal, arg.baseline + 1, saLeft)
   var left: TextRect
   left.rows = newSeq[string](sandwich.height)
@@ -153,10 +153,10 @@ let boxed = s"\boxed" >> atom.map(arg => (
 ))
 
 let sqrt = s"\sqrt" >> atom.map(arg => (
-  let overbar = "_".repeat(arg.width).toTextRect
+  let overbar = "_".repeat(arg.width).toTextRectOneLine
   let symbol =
     if arg.height == 1:
-      "√".toTextRect
+      "√".toTextRectOneLine
     else:
       join(
         countdown(arg.height div 2, 1).toSeq.mapIt("╲".toTextRect(arg.baseline - arg.height + it)) &
@@ -181,13 +181,8 @@ let atom1 = (
   leftright |
   digit |
   latinLetter |
-  otherLetter |
-  bigOp |
-  binaryOp |
-  delimiter |
-  punct |
-  symbol |
-  textOp |
+  command |
+  nonCommand |
   simpleDiacritic |
   frac |
   binom |
@@ -196,7 +191,7 @@ let atom1 = (
 ) << ws
 
 let superscript = (c('^') >> atom1).map(sup => sup.withFlag(trfSup)) |
-  c('\'').atLeast(1).map(primes => "′".repeat(primes.len).toTextRect.withFlag(trfSup))
+  c('\'').atLeast(1).map(primes => "′".repeat(primes.len).toTextRectOneLine.withFlag(trfSup))
 let subscript = (c('_') >> atom1).map(sub => sub.withFlag(trfSub))
 atom.become (atom1 & ((superscript & subscript.optional) | (subscript & superscript.optional)).optional).map(operands => (
   var base = operands[0]

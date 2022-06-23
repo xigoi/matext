@@ -2,138 +2,141 @@
 var framePtr = null;
 var excHandler = 0;
 var lastJSError = null;
-var NTI620764823 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620764784 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI620764288 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620764072 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763499 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763753 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763747 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763595 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763562 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763141 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763343 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763337 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763297 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763254 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763185 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763152 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763707 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763664 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763945 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763939 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763549 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763555 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI620764143 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620764049 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763103 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763109 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI620764210 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620763034 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620762822 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620762883 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620762736 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620761708 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI738197511 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
-var NTI620762413 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620765373 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620765334 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI620764838 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620764760 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620764354 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620764172 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620764233 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620764086 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620763069 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI704643079 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
+var NTI620763763 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI671089002 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI671089014 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI385876137 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
-var NTI620762358 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI33555126 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI620763708 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI620756998 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI620761738 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620761732 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620761847 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620763099 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620763093 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620762893 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620763208 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620762661 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620762727 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620762806 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI637535032 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI637535031 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI637534222 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI33555126 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555121 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI620761345 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620761411 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620761490 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI637534910 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI637534909 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI620758124 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620757880 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620757925 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620758015 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620757833 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI620758196 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI1090519298 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI1090519206 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620760573 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620760695 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620760634 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620760761 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620760822 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620762155 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761582 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761836 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761830 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761678 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761645 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761224 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761426 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761420 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761380 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761337 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761268 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761235 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761790 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761747 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620762028 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620762022 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761632 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761638 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI620762226 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620762132 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620762273 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761186 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761192 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI620762364 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620762445 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620760975 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761020 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620761098 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI637534217 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI1191182594 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI1191182502 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620760208 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620760330 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620760269 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620760396 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620760457 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI637534211 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
-var NTI637534600 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI620761276 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI704643434 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI704643446 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620760493 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620760276 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759706 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759960 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759954 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759802 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759769 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759343 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759550 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759544 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759493 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759450 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759381 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759354 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759914 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759871 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620760152 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620760146 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759756 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759762 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI620760347 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI687866058 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759294 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759300 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI620760412 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620757844 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI687865859 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
+var NTI637534724 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI620760911 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620760128 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620759887 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620759317 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620759571 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620759565 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620759413 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620759380 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758946 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620759161 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620759155 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620759096 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620759053 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758984 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758957 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620759525 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620759482 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620759763 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620759757 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620759367 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620759373 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI620759958 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI654311636 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758897 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758903 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI620760023 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758888 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI654311427 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
 var NTI33555088 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
 var NTI33555081 = {size: 0, kind: 20, base: null, node: null, finalizer: null};
-var NTI687865863 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI687865860 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI654311431 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI654311428 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI33555124 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI687865915 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620758642 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620758896 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620758890 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620758738 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620758705 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620758302 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620758486 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620758480 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620758440 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI1090519234 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620758340 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620758313 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620758850 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620758807 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759088 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620759082 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620758692 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620758698 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI620759262 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620758253 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI620758259 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI654311493 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758234 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758488 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758482 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758330 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758297 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620757882 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758078 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758072 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758020 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI654311478 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620757920 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620757893 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758442 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758399 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758680 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758674 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758284 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620758290 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI620758854 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620757833 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620757839 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI452985127 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI637534749 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI1090519451 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI637534854 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI1191182747 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI33555129 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI1090520179 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI654313427 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI1191183475 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI721420349 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI33555114 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555125 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI1090519046 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI1090519514 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI1191182342 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI1191182810 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI33554456 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
-var NTI654321353 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
-var NTI654321832 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI905969736 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
+var NTI905969743 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI33555128 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555130 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555083 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
@@ -144,30 +147,30 @@ var NTI33555112 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555113 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555120 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555122 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI1090520117 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI1191183413 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI33554438 = {size: 0,kind: 2,base: null,node: null,finalizer: null};
-var NTI1090519270 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI1090520083 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI1090519075 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI1090519061 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
-var NTI1090519172 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI1191182566 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI1191183379 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI1191182371 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI1191182357 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
+var NTI1191182468 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI33554439 = {size: 0,kind: 28,base: null,node: null,finalizer: null};
-var NNI1090519061 = {kind: 2, offset: 0, typ: null, name: null, len: 2, sons: {"0": {kind: 1, offset: 0, typ: NTI1090519061, name: "success", len: 0, sons: null}, 
-"1": {kind: 1, offset: 1, typ: NTI1090519061, name: "failure", len: 0, sons: null}}};
-NTI1090519061.node = NNI1090519061;
-NTI1090519075.base = NTI33554439;
-var NNI1090519172 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 3, offset: "kind", len: 2, typ: NTI1090519061, name: "kind", sons: [[setConstr(0), {kind: 1, offset: "value", len: 0, typ: NTI33554439, name: "value", sons: null}], 
-[setConstr(1), {kind: 1, offset: "expected", len: 0, typ: NTI1090519075, name: "expected", sons: null}]]}, 
+var NNI1191182357 = {kind: 2, offset: 0, typ: null, name: null, len: 2, sons: {"0": {kind: 1, offset: 0, typ: NTI1191182357, name: "success", len: 0, sons: null}, 
+"1": {kind: 1, offset: 1, typ: NTI1191182357, name: "failure", len: 0, sons: null}}};
+NTI1191182357.node = NNI1191182357;
+NTI1191182371.base = NTI33554439;
+var NNI1191182468 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 3, offset: "kind", len: 2, typ: NTI1191182357, name: "kind", sons: [[setConstr(0), {kind: 1, offset: "value", len: 0, typ: NTI33554439, name: "value", sons: null}], 
+[setConstr(1), {kind: 1, offset: "expected", len: 0, typ: NTI1191182371, name: "expected", sons: null}]]}, 
 {kind: 1, offset: "tail", len: 0, typ: NTI33554439, name: "tail", sons: null}, 
 {kind: 1, offset: "fromInput", len: 0, typ: NTI33554439, name: "fromInput", sons: null}]};
-NTI1090519172.node = NNI1090519172;
-NTI1090520083.base = NTI33554439;
-var NNI1090519270 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 3, offset: "kind", len: 2, typ: NTI1090519061, name: "kind", sons: [[setConstr(0), {kind: 1, offset: "value", len: 0, typ: NTI33554438, name: "value", sons: null}], 
-[setConstr(1), {kind: 1, offset: "expected", len: 0, typ: NTI1090519075, name: "expected", sons: null}]]}, 
+NTI1191182468.node = NNI1191182468;
+NTI1191183379.base = NTI33554439;
+var NNI1191182566 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 3, offset: "kind", len: 2, typ: NTI1191182357, name: "kind", sons: [[setConstr(0), {kind: 1, offset: "value", len: 0, typ: NTI33554438, name: "value", sons: null}], 
+[setConstr(1), {kind: 1, offset: "expected", len: 0, typ: NTI1191182371, name: "expected", sons: null}]]}, 
 {kind: 1, offset: "tail", len: 0, typ: NTI33554439, name: "tail", sons: null}, 
 {kind: 1, offset: "fromInput", len: 0, typ: NTI33554439, name: "fromInput", sons: null}]};
-NTI1090519270.node = NNI1090519270;
-NTI1090520117.base = NTI33554439;
+NTI1191182566.node = NNI1191182566;
+NTI1191183413.base = NTI33554439;
 var NNI33555122 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555122.node = NNI33555122;
 var NNI33555120 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
@@ -194,212 +197,217 @@ NTI33555130.base = NTI33555113;
 var NNI33555128 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555128.node = NNI33555128;
 NTI33555128.base = NTI33555113;
-var NNI654321832 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI654321353, name: "a", sons: null}, 
+var NNI905969743 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI905969736, name: "a", sons: null}, 
 {kind: 1, offset: "b", len: 0, typ: NTI33554456, name: "b", sons: null}]};
-NTI654321832.node = NNI654321832;
-NTI1090519514.base = NTI33554439;
-var NNI1090519046 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI33554456, name: "Field0", sons: null}, 
+NTI905969743.node = NNI905969743;
+NTI1191182810.base = NTI33554439;
+var NNI1191182342 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI33554456, name: "Field0", sons: null}, 
 {kind: 1, offset: "Field1", len: 0, typ: NTI33554456, name: "Field1", sons: null}]};
-NTI1090519046.node = NNI1090519046;
+NTI1191182342.node = NNI1191182342;
 var NNI33555125 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555125.node = NNI33555125;
 var NNI33555114 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555114.node = NNI33555114;
 NTI33555114.base = NTI33555112;
 NTI33555125.base = NTI33555114;
-var NNI654313427 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI33554456, name: "a", sons: null}, 
+var NNI721420349 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI33554456, name: "a", sons: null}, 
 {kind: 1, offset: "b", len: 0, typ: NTI33554456, name: "b", sons: null}]};
-NTI654313427.node = NNI654313427;
-NTI1090520179.base = NTI33554439;
+NTI721420349.node = NNI721420349;
+NTI1191183475.base = NTI33554439;
 var NNI33555129 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555129.node = NNI33555129;
 NTI33555129.base = NTI33555113;
-NTI1090519451.base = NTI33554439;
-var NNI637534749 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI33554438, name: "a", sons: null}, 
+NTI1191182747.base = NTI33554439;
+var NNI637534854 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI33554438, name: "a", sons: null}, 
 {kind: 1, offset: "b", len: 0, typ: NTI33554438, name: "b", sons: null}]};
-NTI637534749.node = NNI637534749;
+NTI637534854.node = NNI637534854;
 NTI452985127.base = NTI33554439;
-NTI620758253.base = NTI33554439;
-var NNI620758259 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 3, offset: "kind", len: 2, typ: NTI1090519061, name: "kind", sons: [[setConstr(0), {kind: 1, offset: "value", len: 0, typ: NTI620758253, name: "value", sons: null}], 
-[setConstr(1), {kind: 1, offset: "expected", len: 0, typ: NTI1090519075, name: "expected", sons: null}]]}, 
+NTI620757833.base = NTI33554439;
+var NNI620757839 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 3, offset: "kind", len: 2, typ: NTI1191182357, name: "kind", sons: [[setConstr(0), {kind: 1, offset: "value", len: 0, typ: NTI620757833, name: "value", sons: null}], 
+[setConstr(1), {kind: 1, offset: "expected", len: 0, typ: NTI1191182371, name: "expected", sons: null}]]}, 
 {kind: 1, offset: "tail", len: 0, typ: NTI33554439, name: "tail", sons: null}, 
 {kind: 1, offset: "fromInput", len: 0, typ: NTI33554439, name: "fromInput", sons: null}]};
-NTI620758259.node = NNI620758259;
-NTI620759262.base = NTI33554439;
-NTI620758692.base = NTI620758253;
-var NNI620758698 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 3, offset: "kind", len: 2, typ: NTI1090519061, name: "kind", sons: [[setConstr(0), {kind: 1, offset: "value", len: 0, typ: NTI620758692, name: "value", sons: null}], 
-[setConstr(1), {kind: 1, offset: "expected", len: 0, typ: NTI1090519075, name: "expected", sons: null}]]}, 
+NTI620757839.node = NNI620757839;
+NTI620758854.base = NTI33554439;
+NTI620758284.base = NTI620757833;
+var NNI620758290 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 3, offset: "kind", len: 2, typ: NTI1191182357, name: "kind", sons: [[setConstr(0), {kind: 1, offset: "value", len: 0, typ: NTI620758284, name: "value", sons: null}], 
+[setConstr(1), {kind: 1, offset: "expected", len: 0, typ: NTI1191182371, name: "expected", sons: null}]]}, 
 {kind: 1, offset: "tail", len: 0, typ: NTI33554439, name: "tail", sons: null}, 
 {kind: 1, offset: "fromInput", len: 0, typ: NTI33554439, name: "fromInput", sons: null}]};
-NTI620758698.node = NNI620758698;
-NTI620759082.base = NTI620758253;
-NTI620759088.base = NTI33554439;
-NTI620758807.base = NTI620758253;
-NTI620758850.base = NTI33554439;
-NTI620758313.base = NTI33554439;
-NTI620758340.base = NTI33554439;
-NTI1090519234.base = NTI33554439;
-NTI620758440.base = NTI33554439;
-NTI620758480.base = NTI33554439;
-NTI620758486.base = NTI33554439;
-NTI620758302.base = NTI33554439;
-NTI620758705.base = NTI620758253;
-NTI620758738.base = NTI33554439;
-NTI620758890.base = NTI620758253;
-NTI620758896.base = NTI33554439;
-NTI620758642.base = NTI33554439;
-NTI687865915.base = NTI33554439;
+NTI620758290.node = NNI620758290;
+NTI620758674.base = NTI620757833;
+NTI620758680.base = NTI33554439;
+NTI620758399.base = NTI620757833;
+NTI620758442.base = NTI33554439;
+NTI620757893.base = NTI33554439;
+NTI620757920.base = NTI33554439;
+NTI654311478.base = NTI33554439;
+NTI620758020.base = NTI33554439;
+NTI620758072.base = NTI33554439;
+NTI620758078.base = NTI33554439;
+NTI620757882.base = NTI33554439;
+NTI620758297.base = NTI620757833;
+NTI620758330.base = NTI33554439;
+NTI620758482.base = NTI620757833;
+NTI620758488.base = NTI33554439;
+NTI620758234.base = NTI33554439;
+NTI654311493.base = NTI33554439;
 var NNI33555124 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555124.node = NNI33555124;
 NTI33555124.base = NTI33555113;
-NTI687865863.base = NTI33554439;
+NTI654311431.base = NTI33554439;
 NTI33555081.base = NTI33555088;
-var NNI687865859 = {kind: 2, offset: 0, typ: null, name: null, len: 9, sons: {"0": {kind: 1, offset: 0, typ: NTI687865859, name: "trfNone", len: 0, sons: null}, 
-"1": {kind: 1, offset: 1, typ: NTI687865859, name: "trfAlnum", len: 0, sons: null}, 
-"2": {kind: 1, offset: 2, typ: NTI687865859, name: "trfOperator", len: 0, sons: null}, 
-"3": {kind: 1, offset: 3, typ: NTI687865859, name: "trfBigOperator", len: 0, sons: null}, 
-"4": {kind: 1, offset: 4, typ: NTI687865859, name: "trfWord", len: 0, sons: null}, 
-"5": {kind: 1, offset: 5, typ: NTI687865859, name: "trfFraction", len: 0, sons: null}, 
-"6": {kind: 1, offset: 6, typ: NTI687865859, name: "trfSub", len: 0, sons: null}, 
-"7": {kind: 1, offset: 7, typ: NTI687865859, name: "trfSup", len: 0, sons: null}, 
-"8": {kind: 1, offset: 8, typ: NTI687865859, name: "trfPunctuation", len: 0, sons: null}}};
-NTI687865859.node = NNI687865859;
-var NNI687865860 = {kind: 2, len: 4, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "rows", len: 0, typ: NTI687865863, name: "rows", sons: null}, 
+var NNI654311427 = {kind: 2, offset: 0, typ: null, name: null, len: 9, sons: {"0": {kind: 1, offset: 0, typ: NTI654311427, name: "trfNone", len: 0, sons: null}, 
+"1": {kind: 1, offset: 1, typ: NTI654311427, name: "trfAlnum", len: 0, sons: null}, 
+"2": {kind: 1, offset: 2, typ: NTI654311427, name: "trfOperator", len: 0, sons: null}, 
+"3": {kind: 1, offset: 3, typ: NTI654311427, name: "trfBigOperator", len: 0, sons: null}, 
+"4": {kind: 1, offset: 4, typ: NTI654311427, name: "trfWord", len: 0, sons: null}, 
+"5": {kind: 1, offset: 5, typ: NTI654311427, name: "trfFraction", len: 0, sons: null}, 
+"6": {kind: 1, offset: 6, typ: NTI654311427, name: "trfSub", len: 0, sons: null}, 
+"7": {kind: 1, offset: 7, typ: NTI654311427, name: "trfSup", len: 0, sons: null}, 
+"8": {kind: 1, offset: 8, typ: NTI654311427, name: "trfPunctuation", len: 0, sons: null}}};
+NTI654311427.node = NNI654311427;
+var NNI654311428 = {kind: 2, len: 4, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "rows", len: 0, typ: NTI654311431, name: "rows", sons: null}, 
 {kind: 1, offset: "baseline", len: 0, typ: NTI33554456, name: "baseline", sons: null}, 
 {kind: 1, offset: "width", len: 0, typ: NTI33555081, name: "width", sons: null}, 
-{kind: 1, offset: "flag", len: 0, typ: NTI687865859, name: "flag", sons: null}]};
-NTI687865860.node = NNI687865860;
-var NNI620757844 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 3, offset: "kind", len: 2, typ: NTI1090519061, name: "kind", sons: [[setConstr(0), {kind: 1, offset: "value", len: 0, typ: NTI687865860, name: "value", sons: null}], 
-[setConstr(1), {kind: 1, offset: "expected", len: 0, typ: NTI1090519075, name: "expected", sons: null}]]}, 
+{kind: 1, offset: "flag", len: 0, typ: NTI654311427, name: "flag", sons: null}]};
+NTI654311428.node = NNI654311428;
+var NNI620758888 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 3, offset: "kind", len: 2, typ: NTI1191182357, name: "kind", sons: [[setConstr(0), {kind: 1, offset: "value", len: 0, typ: NTI654311428, name: "value", sons: null}], 
+[setConstr(1), {kind: 1, offset: "expected", len: 0, typ: NTI1191182371, name: "expected", sons: null}]]}, 
 {kind: 1, offset: "tail", len: 0, typ: NTI33554439, name: "tail", sons: null}, 
 {kind: 1, offset: "fromInput", len: 0, typ: NTI33554439, name: "fromInput", sons: null}]};
-NTI620757844.node = NNI620757844;
-NTI620760412.base = NTI33554439;
-NTI620759294.base = NTI687865860;
-var NNI620759300 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 3, offset: "kind", len: 2, typ: NTI1090519061, name: "kind", sons: [[setConstr(0), {kind: 1, offset: "value", len: 0, typ: NTI620759294, name: "value", sons: null}], 
-[setConstr(1), {kind: 1, offset: "expected", len: 0, typ: NTI1090519075, name: "expected", sons: null}]]}, 
+NTI620758888.node = NNI620758888;
+NTI620760023.base = NTI33554439;
+NTI620758897.base = NTI654311428;
+var NNI620758903 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 3, offset: "kind", len: 2, typ: NTI1191182357, name: "kind", sons: [[setConstr(0), {kind: 1, offset: "value", len: 0, typ: NTI620758897, name: "value", sons: null}], 
+[setConstr(1), {kind: 1, offset: "expected", len: 0, typ: NTI1191182371, name: "expected", sons: null}]]}, 
 {kind: 1, offset: "tail", len: 0, typ: NTI33554439, name: "tail", sons: null}, 
 {kind: 1, offset: "fromInput", len: 0, typ: NTI33554439, name: "fromInput", sons: null}]};
-NTI620759300.node = NNI620759300;
-NTI687866058.base = NTI687865860;
-NTI620760347.base = NTI33554439;
-NTI620759756.base = NTI620759294;
-var NNI620759762 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 3, offset: "kind", len: 2, typ: NTI1090519061, name: "kind", sons: [[setConstr(0), {kind: 1, offset: "value", len: 0, typ: NTI620759756, name: "value", sons: null}], 
-[setConstr(1), {kind: 1, offset: "expected", len: 0, typ: NTI1090519075, name: "expected", sons: null}]]}, 
+NTI620758903.node = NNI620758903;
+NTI654311636.base = NTI654311428;
+NTI620759958.base = NTI33554439;
+NTI620759367.base = NTI620758897;
+var NNI620759373 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 3, offset: "kind", len: 2, typ: NTI1191182357, name: "kind", sons: [[setConstr(0), {kind: 1, offset: "value", len: 0, typ: NTI620759367, name: "value", sons: null}], 
+[setConstr(1), {kind: 1, offset: "expected", len: 0, typ: NTI1191182371, name: "expected", sons: null}]]}, 
 {kind: 1, offset: "tail", len: 0, typ: NTI33554439, name: "tail", sons: null}, 
 {kind: 1, offset: "fromInput", len: 0, typ: NTI33554439, name: "fromInput", sons: null}]};
-NTI620759762.node = NNI620759762;
-NTI620760146.base = NTI620759294;
-NTI620760152.base = NTI33554439;
-NTI620759871.base = NTI620759294;
-NTI620759914.base = NTI33554439;
-NTI620759354.base = NTI687865860;
-NTI620759381.base = NTI33554439;
-NTI620759450.base = NTI687865860;
-NTI620759493.base = NTI33554439;
-NTI620759544.base = NTI687865860;
-NTI620759550.base = NTI33554439;
-NTI620759343.base = NTI687865860;
-NTI620759769.base = NTI620759294;
-NTI620759802.base = NTI33554439;
-NTI620759954.base = NTI620759294;
-NTI620759960.base = NTI33554439;
-NTI620759706.base = NTI33554439;
-NTI620760276.base = NTI687865860;
-NTI620760493.base = NTI33554439;
-NTI704643446.base = NTI33554439;
-NTI704643434.base = NTI33554439;
-NTI620761276.base = NTI33554439;
+NTI620759373.node = NNI620759373;
+NTI620759757.base = NTI620758897;
+NTI620759763.base = NTI33554439;
+NTI620759482.base = NTI620758897;
+NTI620759525.base = NTI33554439;
+NTI620758957.base = NTI654311428;
+NTI620758984.base = NTI33554439;
+NTI620759053.base = NTI654311428;
+NTI620759096.base = NTI33554439;
+NTI620759155.base = NTI654311428;
+NTI620759161.base = NTI33554439;
+NTI620758946.base = NTI654311428;
+NTI620759380.base = NTI620758897;
+NTI620759413.base = NTI33554439;
+NTI620759565.base = NTI620758897;
+NTI620759571.base = NTI33554439;
+NTI620759317.base = NTI33554439;
+NTI620759887.base = NTI654311428;
+NTI620760128.base = NTI33554439;
+NTI620760911.base = NTI33554439;
 var NNI637534211 = {kind: 2, offset: 0, typ: null, name: null, len: 5, sons: {"0": {kind: 1, offset: 0, typ: NTI637534211, name: "fItalic", len: 0, sons: null}, 
 "1": {kind: 1, offset: 1, typ: NTI637534211, name: "fBold", len: 0, sons: null}, 
 "2": {kind: 1, offset: 2, typ: NTI637534211, name: "fScript", len: 0, sons: null}, 
 "3": {kind: 1, offset: 3, typ: NTI637534211, name: "fFraktur", len: 0, sons: null}, 
 "4": {kind: 1, offset: 4, typ: NTI637534211, name: "fDoubleStruck", len: 0, sons: null}}};
 NTI637534211.node = NNI637534211;
-var NNI637534600 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI33554439, name: "Field0", sons: null}, 
+var NNI637534724 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI33554439, name: "Field0", sons: null}, 
 {kind: 1, offset: "Field1", len: 0, typ: NTI637534211, name: "Field1", sons: null}]};
-NTI637534600.node = NNI637534600;
-NTI620760822.base = NTI33554439;
-NTI620760761.base = NTI33554439;
-NTI620760634.base = NTI33554439;
-NTI620760695.base = NTI33554439;
-NTI620760573.base = NTI33554439;
-NTI1090519206.base = NTI33554439;
-NTI1090519298.base = NTI33554439;
-NTI620758196.base = NTI33554439;
-var NNI620757833 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI33554439, name: "Field0", sons: null}, 
-{kind: 1, offset: "Field1", len: 0, typ: NTI33554439, name: "Field1", sons: null}]};
-NTI620757833.node = NNI620757833;
-NTI620758015.base = NTI33554439;
-NTI620757925.base = NTI33554439;
-NTI620757880.base = NTI33554439;
-NTI620758124.base = NTI33554439;
-var NNI637534910 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI33554439, name: "Field0", sons: null}, 
-{kind: 1, offset: "Field1", len: 0, typ: NTI33554439, name: "Field1", sons: null}]};
-NTI637534910.node = NNI637534910;
-var NNI637534909 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI33554439, name: "Field0", sons: null}, 
-{kind: 1, offset: "Field1", len: 0, typ: NTI637534910, name: "Field1", sons: null}]};
-NTI637534909.node = NNI637534909;
-NTI620761490.base = NTI33554439;
-NTI620761411.base = NTI33554439;
-NTI620761345.base = NTI33554439;
+NTI637534724.node = NNI637534724;
+NTI620760457.base = NTI33554439;
+NTI620760396.base = NTI33554439;
+NTI620760269.base = NTI33554439;
+NTI620760330.base = NTI33554439;
+NTI620760208.base = NTI33554439;
+NTI1191182502.base = NTI33554439;
+NTI1191182594.base = NTI33554439;
+var NNI637534217 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI33554439, name: "Field0", sons: null}, 
+{kind: 1, offset: "Field1", len: 0, typ: NTI654311428, name: "Field1", sons: null}]};
+NTI637534217.node = NNI637534217;
+NTI620761098.base = NTI33554439;
+NTI620761020.base = NTI33554439;
+NTI620760975.base = NTI33554439;
+NTI620762445.base = NTI33554439;
+NTI620762364.base = NTI33554439;
+NTI620761186.base = NTI33554438;
+var NNI620761192 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 3, offset: "kind", len: 2, typ: NTI1191182357, name: "kind", sons: [[setConstr(0), {kind: 1, offset: "value", len: 0, typ: NTI620761186, name: "value", sons: null}], 
+[setConstr(1), {kind: 1, offset: "expected", len: 0, typ: NTI1191182371, name: "expected", sons: null}]]}, 
+{kind: 1, offset: "tail", len: 0, typ: NTI33554439, name: "tail", sons: null}, 
+{kind: 1, offset: "fromInput", len: 0, typ: NTI33554439, name: "fromInput", sons: null}]};
+NTI620761192.node = NNI620761192;
+NTI620762273.base = NTI33554439;
+NTI620762132.base = NTI33554438;
+NTI620762226.base = NTI33554439;
+NTI620761632.base = NTI620761186;
+var NNI620761638 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 3, offset: "kind", len: 2, typ: NTI1191182357, name: "kind", sons: [[setConstr(0), {kind: 1, offset: "value", len: 0, typ: NTI620761632, name: "value", sons: null}], 
+[setConstr(1), {kind: 1, offset: "expected", len: 0, typ: NTI1191182371, name: "expected", sons: null}]]}, 
+{kind: 1, offset: "tail", len: 0, typ: NTI33554439, name: "tail", sons: null}, 
+{kind: 1, offset: "fromInput", len: 0, typ: NTI33554439, name: "fromInput", sons: null}]};
+NTI620761638.node = NNI620761638;
+NTI620762022.base = NTI620761186;
+NTI620762028.base = NTI33554439;
+NTI620761747.base = NTI620761186;
+NTI620761790.base = NTI33554439;
+NTI620761235.base = NTI33554438;
+NTI620761268.base = NTI33554439;
+NTI620761337.base = NTI33554438;
+NTI620761380.base = NTI33554439;
+NTI620761420.base = NTI33554438;
+NTI620761426.base = NTI33554439;
+NTI620761224.base = NTI33554438;
+NTI620761645.base = NTI620761186;
+NTI620761678.base = NTI33554439;
+NTI620761830.base = NTI620761186;
+NTI620761836.base = NTI33554439;
+NTI620761582.base = NTI33554439;
+NTI620762155.base = NTI33554438;
 var NNI33555121 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555121.node = NNI33555121;
 NTI33555121.base = NTI33555120;
-NTI620761847.base = NTI33554439;
-NTI620761732.base = NTI687865860;
-NTI620761738.base = NTI33554439;
+var NNI33555126 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI33555126.node = NNI33555126;
+NTI33555126.base = NTI33555125;
+var NNI637534222 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI33554439, name: "Field0", sons: null}, 
+{kind: 1, offset: "Field1", len: 0, typ: NTI654311428, name: "Field1", sons: null}]};
+NTI637534222.node = NNI637534222;
+var NNI637535032 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI33554439, name: "Field0", sons: null}, 
+{kind: 1, offset: "Field1", len: 0, typ: NTI33554439, name: "Field1", sons: null}]};
+NTI637535032.node = NNI637535032;
+var NNI637535031 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI33554439, name: "Field0", sons: null}, 
+{kind: 1, offset: "Field1", len: 0, typ: NTI637535032, name: "Field1", sons: null}]};
+NTI637535031.node = NNI637535031;
+NTI620762806.base = NTI33554439;
+NTI620762727.base = NTI33554439;
+NTI620762661.base = NTI33554439;
+NTI620763208.base = NTI33554439;
+NTI620762893.base = NTI33554439;
+NTI620763093.base = NTI654311428;
+NTI620763099.base = NTI33554439;
 var NNI620756998 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI33554439, name: "Field0", sons: null}, 
 {kind: 1, offset: "Field1", len: 0, typ: NTI33554439, name: "Field1", sons: null}, 
 {kind: 1, offset: "Field2", len: 0, typ: NTI33554439, name: "Field2", sons: null}]};
 NTI620756998.node = NNI620756998;
-var NNI33555126 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
-NTI33555126.node = NNI33555126;
-NTI33555126.base = NTI33555125;
-NTI620762358.base = NTI385876137;
-NTI620762413.base = NTI738197511;
-NTI620761708.base = NTI687865860;
-NTI620762736.base = NTI33554439;
-NTI620762883.base = NTI33554439;
-NTI620762822.base = NTI33554439;
-NTI620763034.base = NTI33554439;
-NTI620764210.base = NTI33554439;
-NTI620763103.base = NTI33554438;
-var NNI620763109 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 3, offset: "kind", len: 2, typ: NTI1090519061, name: "kind", sons: [[setConstr(0), {kind: 1, offset: "value", len: 0, typ: NTI620763103, name: "value", sons: null}], 
-[setConstr(1), {kind: 1, offset: "expected", len: 0, typ: NTI1090519075, name: "expected", sons: null}]]}, 
-{kind: 1, offset: "tail", len: 0, typ: NTI33554439, name: "tail", sons: null}, 
-{kind: 1, offset: "fromInput", len: 0, typ: NTI33554439, name: "fromInput", sons: null}]};
-NTI620763109.node = NNI620763109;
-NTI620764049.base = NTI33554438;
-NTI620764143.base = NTI33554439;
-NTI620763549.base = NTI620763103;
-var NNI620763555 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 3, offset: "kind", len: 2, typ: NTI1090519061, name: "kind", sons: [[setConstr(0), {kind: 1, offset: "value", len: 0, typ: NTI620763549, name: "value", sons: null}], 
-[setConstr(1), {kind: 1, offset: "expected", len: 0, typ: NTI1090519075, name: "expected", sons: null}]]}, 
-{kind: 1, offset: "tail", len: 0, typ: NTI33554439, name: "tail", sons: null}, 
-{kind: 1, offset: "fromInput", len: 0, typ: NTI33554439, name: "fromInput", sons: null}]};
-NTI620763555.node = NNI620763555;
-NTI620763939.base = NTI620763103;
-NTI620763945.base = NTI33554439;
-NTI620763664.base = NTI620763103;
-NTI620763707.base = NTI33554439;
-NTI620763152.base = NTI33554438;
-NTI620763185.base = NTI33554439;
-NTI620763254.base = NTI33554438;
-NTI620763297.base = NTI33554439;
-NTI620763337.base = NTI33554438;
-NTI620763343.base = NTI33554439;
-NTI620763141.base = NTI33554438;
-NTI620763562.base = NTI620763103;
-NTI620763595.base = NTI33554439;
-NTI620763747.base = NTI620763103;
-NTI620763753.base = NTI33554439;
-NTI620763499.base = NTI33554439;
-NTI620764072.base = NTI33554438;
-NTI620764288.base = NTI33554439;
-var NNI620764784 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI687865860, name: "Field0", sons: null}, 
-{kind: 1, offset: "Field1", len: 0, typ: NTI687865860, name: "Field1", sons: null}]};
-NTI620764784.node = NNI620764784;
-NTI620764823.base = NTI33554439;
+NTI620763708.base = NTI385876137;
+NTI671089014.base = NTI33554439;
+NTI671089002.base = NTI33554439;
+NTI620763763.base = NTI704643079;
+NTI620763069.base = NTI654311428;
+NTI620764086.base = NTI33554439;
+NTI620764233.base = NTI33554439;
+NTI620764172.base = NTI33554439;
+NTI620764354.base = NTI33554439;
+NTI620764760.base = NTI33554439;
+NTI620764838.base = NTI33554439;
+var NNI620765334 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI654311428, name: "Field0", sons: null}, 
+{kind: 1, offset: "Field1", len: 0, typ: NTI654311428, name: "Field1", sons: null}]};
+NTI620765334.node = NNI620765334;
+NTI620765373.base = NTI33554439;
 
 function setConstr() {
         var result = {};
@@ -868,9 +876,9 @@ var ConstSet54 = setConstr(1);
 var ConstSet55 = setConstr(0);
 var ConstSet56 = setConstr(1);
 var ConstSet57 = setConstr(1);
-      var fontExceptions_637534244 = [[{Field0: 104, Field1: makeNimstrLit("\xE2\x84\x8E")}], [], [{Field0: 66, Field1: makeNimstrLit("\xE2\x84\xAC")}, {Field0: 69, Field1: makeNimstrLit("\xE2\x84\xB0")}, {Field0: 70, Field1: makeNimstrLit("\xE2\x84\xB1")}, {Field0: 72, Field1: makeNimstrLit("\xE2\x84\x8B")}, {Field0: 73, Field1: makeNimstrLit("\xE2\x84\x90")}, {Field0: 76, Field1: makeNimstrLit("\xE2\x84\x92")}, {Field0: 77, Field1: makeNimstrLit("\xE2\x84\xB3")}, {Field0: 82, Field1: makeNimstrLit("\xE2\x84\x9B")}, {Field0: 101, Field1: makeNimstrLit("\xE2\x84\xAF")}, {Field0: 103, Field1: makeNimstrLit("\xE2\x84\x8A")}, {Field0: 111, Field1: makeNimstrLit("\xE2\x84\xB4")}], [{Field0: 67, Field1: makeNimstrLit("\xE2\x84\xAD")}, {Field0: 72, Field1: makeNimstrLit("\xE2\x84\x8C")}, {Field0: 73, Field1: makeNimstrLit("\xE2\x84\x91")}, {Field0: 82, Field1: makeNimstrLit("\xE2\x84\x9C")}, {Field0: 90, Field1: makeNimstrLit("\xE2\x84\xA8")}], [{Field0: 67, Field1: makeNimstrLit("\xE2\x84\x82")}, {Field0: 72, Field1: makeNimstrLit("\xE2\x84\x8D")}, {Field0: 78, Field1: makeNimstrLit("\xE2\x84\x95")}, {Field0: 80, Field1: makeNimstrLit("\xE2\x84\x99")}, {Field0: 81, Field1: makeNimstrLit("\xE2\x84\x9A")}, {Field0: 82, Field1: makeNimstrLit("\xE2\x84\x9D")}, {Field0: 90, Field1: makeNimstrLit("\xE2\x84\xA4")}]];
-    var fontStarts_637534223 = new Int32Array([119860, 119808, 119964, 120068, 120120]);
-var fontsByName_637534222 = [{Field0: makeNimstrLit("\\mathit"), Field1: 0}, {Field0: makeNimstrLit("\\mathbf"), Field1: 1}, {Field0: makeNimstrLit("\\mathcal"), Field1: 2}, {Field0: makeNimstrLit("\\mathfrak"), Field1: 3}, {Field0: makeNimstrLit("\\mathbb"), Field1: 4}];
+      var fontExceptions_637534346 = [[{Field0: 104, Field1: makeNimstrLit("\xE2\x84\x8E")}], [], [{Field0: 66, Field1: makeNimstrLit("\xE2\x84\xAC")}, {Field0: 69, Field1: makeNimstrLit("\xE2\x84\xB0")}, {Field0: 70, Field1: makeNimstrLit("\xE2\x84\xB1")}, {Field0: 72, Field1: makeNimstrLit("\xE2\x84\x8B")}, {Field0: 73, Field1: makeNimstrLit("\xE2\x84\x90")}, {Field0: 76, Field1: makeNimstrLit("\xE2\x84\x92")}, {Field0: 77, Field1: makeNimstrLit("\xE2\x84\xB3")}, {Field0: 82, Field1: makeNimstrLit("\xE2\x84\x9B")}, {Field0: 101, Field1: makeNimstrLit("\xE2\x84\xAF")}, {Field0: 103, Field1: makeNimstrLit("\xE2\x84\x8A")}, {Field0: 111, Field1: makeNimstrLit("\xE2\x84\xB4")}], [{Field0: 67, Field1: makeNimstrLit("\xE2\x84\xAD")}, {Field0: 72, Field1: makeNimstrLit("\xE2\x84\x8C")}, {Field0: 73, Field1: makeNimstrLit("\xE2\x84\x91")}, {Field0: 82, Field1: makeNimstrLit("\xE2\x84\x9C")}, {Field0: 90, Field1: makeNimstrLit("\xE2\x84\xA8")}], [{Field0: 67, Field1: makeNimstrLit("\xE2\x84\x82")}, {Field0: 72, Field1: makeNimstrLit("\xE2\x84\x8D")}, {Field0: 78, Field1: makeNimstrLit("\xE2\x84\x95")}, {Field0: 80, Field1: makeNimstrLit("\xE2\x84\x99")}, {Field0: 81, Field1: makeNimstrLit("\xE2\x84\x9A")}, {Field0: 82, Field1: makeNimstrLit("\xE2\x84\x9D")}, {Field0: 90, Field1: makeNimstrLit("\xE2\x84\xA4")}]];
+    var fontStarts_637534325 = new Int32Array([119860, 119808, 119964, 120068, 120120]);
+var fontsByName_637534324 = [{Field0: makeNimstrLit("\\mathit"), Field1: 0}, {Field0: makeNimstrLit("\\mathbf"), Field1: 1}, {Field0: makeNimstrLit("\\mathcal"), Field1: 2}, {Field0: makeNimstrLit("\\mathfrak"), Field1: 3}, {Field0: makeNimstrLit("\\mathbb"), Field1: 4}];
 var ConstSet58 = setConstr(1);
 var ConstSet59 = setConstr(1);
 var ConstSet60 = setConstr(0);
@@ -886,31 +894,38 @@ var ConstSet69 = setConstr(0);
 var ConstSet70 = setConstr(1);
 var ConstSet71 = setConstr(1);
 var ConstSet72 = setConstr(0);
+var delimiters_637534323 = [{Field0: makeNimstrLit("("), Field1: {rows: [makeNimstrLit("(")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\lparen"), Field1: {rows: [makeNimstrLit("(")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit(")"), Field1: {rows: [makeNimstrLit(")")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\rparen"), Field1: {rows: [makeNimstrLit(")")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("["), Field1: {rows: [makeNimstrLit("[")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\lbrack"), Field1: {rows: [makeNimstrLit("[")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("]"), Field1: {rows: [makeNimstrLit("]")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\rbrack"), Field1: {rows: [makeNimstrLit("]")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\{"), Field1: {rows: [makeNimstrLit("{")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\lbrace"), Field1: {rows: [makeNimstrLit("{")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\}"), Field1: {rows: [makeNimstrLit("}")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\rbrace"), Field1: {rows: [makeNimstrLit("}")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\xE2\x9F\xA8"), Field1: {rows: [makeNimstrLit("\xE2\x9F\xA8")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\langle"), Field1: {rows: [makeNimstrLit("\xE2\x9F\xA8")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\lang"), Field1: {rows: [makeNimstrLit("\xE2\x9F\xA8")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\xE2\x9F\xA9"), Field1: {rows: [makeNimstrLit("\xE2\x9F\xA9")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\rangle"), Field1: {rows: [makeNimstrLit("\xE2\x9F\xA9")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\rang"), Field1: {rows: [makeNimstrLit("\xE2\x9F\xA9")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("|"), Field1: {rows: [makeNimstrLit("\xE2\x88\xA3")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\vert"), Field1: {rows: [makeNimstrLit("\xE2\x88\xA3")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\|"), Field1: {rows: [makeNimstrLit("\xE2\x88\xA5")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\Vert"), Field1: {rows: [makeNimstrLit("\xE2\x88\xA5")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\xE2\x8C\x88"), Field1: {rows: [makeNimstrLit("\xE2\x8C\x88")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\lceil"), Field1: {rows: [makeNimstrLit("\xE2\x8C\x88")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\xE2\x8C\x89"), Field1: {rows: [makeNimstrLit("\xE2\x8C\x89")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\rceil"), Field1: {rows: [makeNimstrLit("\xE2\x8C\x89")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\xE2\x8C\x8A"), Field1: {rows: [makeNimstrLit("\xE2\x8C\x8A")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\lfloor"), Field1: {rows: [makeNimstrLit("\xE2\x8C\x8A")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\xE2\x8C\x8B"), Field1: {rows: [makeNimstrLit("\xE2\x8C\x8B")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\rfloor"), Field1: {rows: [makeNimstrLit("\xE2\x8C\x8B")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\xE2\x9F\xA6"), Field1: {rows: [makeNimstrLit("\xE2\x9F\xA6")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\llbracket"), Field1: {rows: [makeNimstrLit("\xE2\x9F\xA6")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\xE2\x9F\xA7"), Field1: {rows: [makeNimstrLit("\xE2\x9F\xA7")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\\rrbracket"), Field1: {rows: [makeNimstrLit("\xE2\x9F\xA7")], baseline: 0, width: 1, flag: 0}}];
 var ConstSet73 = setConstr(1);
 var ConstSet74 = setConstr(0);
 var ConstSet75 = setConstr(1);
-var ConstSet76 = setConstr(0);
-var ConstSet77 = setConstr(1);
-var ConstSet78 = setConstr(1);
-var ConstSet79 = setConstr(0);
-var ConstSet80 = setConstr(1);
+var ConstSet76 = setConstr(1);
+var ConstSet77 = setConstr(0);
+var ConstSet78 = setConstr(0);
+var ConstSet79 = setConstr(1);
+var ConstSet80 = setConstr(0);
 var ConstSet81 = setConstr(1);
-var bigOperators_637534219 = [{Field0: makeNimstrLit("\\sum"), Field1: makeNimstrLit("\xE2\x88\x91")}, {Field0: makeNimstrLit("\\prod"), Field1: makeNimstrLit("\xE2\x88\x8F")}, {Field0: makeNimstrLit("\\bigotimes"), Field1: makeNimstrLit("\xE2\xA8\x82")}, {Field0: makeNimstrLit("\\bigvee"), Field1: makeNimstrLit("\xE2\x8B\x81")}, {Field0: makeNimstrLit("\\int"), Field1: makeNimstrLit("\xE2\x88\xAB")}, {Field0: makeNimstrLit("\\coprod"), Field1: makeNimstrLit("\xE2\x88\x90")}, {Field0: makeNimstrLit("\\bigoplus"), Field1: makeNimstrLit("\xE2\xA8\x81")}, {Field0: makeNimstrLit("\\bigwedge"), Field1: makeNimstrLit("\xE2\x8B\x80")}, {Field0: makeNimstrLit("\\iint"), Field1: makeNimstrLit("\xE2\x88\xAC")}, {Field0: makeNimstrLit("\\intop"), Field1: makeNimstrLit("\xE2\x88\xAB")}, {Field0: makeNimstrLit("\\bigodot"), Field1: makeNimstrLit("\xE2\xA8\x80")}, {Field0: makeNimstrLit("\\bigcap"), Field1: makeNimstrLit("\xE2\x8B\x82")}, {Field0: makeNimstrLit("\\iiint"), Field1: makeNimstrLit("\xE2\x88\xAD")}, {Field0: makeNimstrLit("\\smallint"), Field1: makeNimstrLit("\xE2\x88\xAB")}, {Field0: makeNimstrLit("\\biguplus"), Field1: makeNimstrLit("\xE2\xA8\x84")}, {Field0: makeNimstrLit("\\bigcup"), Field1: makeNimstrLit("\xE2\x8B\x83")}, {Field0: makeNimstrLit("\\oint"), Field1: makeNimstrLit("\xE2\x88\xAE")}, {Field0: makeNimstrLit("\\oiint"), Field1: makeNimstrLit("\xE2\x88\xAF")}, {Field0: makeNimstrLit("\\oiiint"), Field1: makeNimstrLit("\xE2\x88\xB0")}, {Field0: makeNimstrLit("\\bigsqcup"), Field1: makeNimstrLit("\xE2\xA8\x86")}];
-var binaryOperators_637534220 = [{Field0: makeNimstrLit("+"), Field1: makeNimstrLit("+")}, {Field0: makeNimstrLit("-"), Field1: makeNimstrLit("\xE2\x88\x92")}, {Field0: makeNimstrLit("*"), Field1: makeNimstrLit("\xE2\x88\x97")}, {Field0: makeNimstrLit("/"), Field1: makeNimstrLit("/")}, {Field0: makeNimstrLit("\\cdot"), Field1: makeNimstrLit("\xE2\x8B\x85")}, {Field0: makeNimstrLit("\\gtrdot"), Field1: makeNimstrLit("\xE2\x8B\x97")}, {Field0: makeNimstrLit("\\cdotp"), Field1: makeNimstrLit("\xE2\x8B\x85")}, {Field0: makeNimstrLit("\\intercal"), Field1: makeNimstrLit("\xE2\x8A\xBA")}, {Field0: makeNimstrLit("\\centerdot"), Field1: makeNimstrLit("\xE2\x8B\x85")}, {Field0: makeNimstrLit("\\land"), Field1: makeNimstrLit("\xE2\x88\xA7")}, {Field0: makeNimstrLit("\\rhd"), Field1: makeNimstrLit("\xE2\x8A\xB3")}, {Field0: makeNimstrLit("\\circ"), Field1: makeNimstrLit("\xE2\x88\x98")}, {Field0: makeNimstrLit("\\leftthreetimes"), Field1: makeNimstrLit("\xE2\x8B\x8B")}, {Field0: makeNimstrLit("\\rightthreetimes"), Field1: makeNimstrLit("\xE2\x8B\x8C")}, {Field0: makeNimstrLit("\\amalg"), Field1: makeNimstrLit("\xE2\xA8\xBF")}, {Field0: makeNimstrLit("\\circledast"), Field1: makeNimstrLit("\xE2\x8A\x9B")}, {Field0: makeNimstrLit("\\ldotp"), Field1: makeNimstrLit(".")}, {Field0: makeNimstrLit("\\rtimes"), Field1: makeNimstrLit("\xE2\x8B\x8A")}, {Field0: makeNimstrLit("\\And"), Field1: makeNimstrLit("&")}, {Field0: makeNimstrLit("\\circledcirc"), Field1: makeNimstrLit("\xE2\x8A\x9A")}, {Field0: makeNimstrLit("\\lor"), Field1: makeNimstrLit("\xE2\x88\xA8")}, {Field0: makeNimstrLit("\\setminus"), Field1: makeNimstrLit("\xE2\x88\x96")}, {Field0: makeNimstrLit("\\ast"), Field1: makeNimstrLit("\xE2\x88\x97")}, {Field0: makeNimstrLit("\\circleddash"), Field1: makeNimstrLit("\xE2\x8A\x9D")}, {Field0: makeNimstrLit("\\lessdot"), Field1: makeNimstrLit("\xE2\x8B\x96")}, {Field0: makeNimstrLit("\\smallsetminus"), Field1: makeNimstrLit("\xE2\x88\x96")}, {Field0: makeNimstrLit("\\barwedge"), Field1: makeNimstrLit("\xE2\x8A\xBC")}, {Field0: makeNimstrLit("\\Cup"), Field1: makeNimstrLit("\xE2\x8B\x93")}, {Field0: makeNimstrLit("\\lhd"), Field1: makeNimstrLit("\xE2\x8A\xB2")}, {Field0: makeNimstrLit("\\sqcap"), Field1: makeNimstrLit("\xE2\x8A\x93")}, {Field0: makeNimstrLit("\\bigcirc"), Field1: makeNimstrLit("\xE2\x97\xAF")}, {Field0: makeNimstrLit("\\cup"), Field1: makeNimstrLit("\xE2\x88\xAA")}, {Field0: makeNimstrLit("\\ltimes"), Field1: makeNimstrLit("\xE2\x8B\x89")}, {Field0: makeNimstrLit("\\sqcup"), Field1: makeNimstrLit("\xE2\x8A\x94")}, {Field0: makeNimstrLit("\\mod"), Field1: makeNimstrLit("bmod")}, {Field0: makeNimstrLit("\\curlyvee"), Field1: makeNimstrLit("\xE2\x8B\x8E")}, {Field0: makeNimstrLit("\\times"), Field1: makeNimstrLit("\xC3\x97")}, {Field0: makeNimstrLit("\\boxdot"), Field1: makeNimstrLit("\xE2\x8A\xA1")}, {Field0: makeNimstrLit("\\curlywedge"), Field1: makeNimstrLit("\xE2\x8B\x8F")}, {Field0: makeNimstrLit("\\mp"), Field1: makeNimstrLit("\xE2\x88\x93")}, {Field0: makeNimstrLit("\\unlhd"), Field1: makeNimstrLit("\xE2\x8A\xB4")}, {Field0: makeNimstrLit("\\boxminus"), Field1: makeNimstrLit("\xE2\x8A\x9F")}, {Field0: makeNimstrLit("\\div"), Field1: makeNimstrLit("\xC3\xB7")}, {Field0: makeNimstrLit("\\odot"), Field1: makeNimstrLit("\xE2\x8A\x99")}, {Field0: makeNimstrLit("\\unrhd"), Field1: makeNimstrLit("\xE2\x8A\xB5")}, {Field0: makeNimstrLit("\\boxplus"), Field1: makeNimstrLit("\xE2\x8A\x9E")}, {Field0: makeNimstrLit("\\divideontimes"), Field1: makeNimstrLit("\xE2\x8B\x87")}, {Field0: makeNimstrLit("\\ominus"), Field1: makeNimstrLit("\xE2\x8A\x96")}, {Field0: makeNimstrLit("\\uplus"), Field1: makeNimstrLit("\xE2\x8A\x8E")}, {Field0: makeNimstrLit("\\boxtimes"), Field1: makeNimstrLit("\xE2\x8A\xA0")}, {Field0: makeNimstrLit("\\dotplus"), Field1: makeNimstrLit("\xE2\x88\x94")}, {Field0: makeNimstrLit("\\oplus"), Field1: makeNimstrLit("\xE2\x8A\x95")}, {Field0: makeNimstrLit("\\vee"), Field1: makeNimstrLit("\xE2\x88\xA8")}, {Field0: makeNimstrLit("\\bullet"), Field1: makeNimstrLit("\xE2\x88\x99")}, {Field0: makeNimstrLit("\\doublebarwedge"), Field1: makeNimstrLit("\xE2\xA9\x9E")}, {Field0: makeNimstrLit("\\otimes"), Field1: makeNimstrLit("\xE2\x8A\x97")}, {Field0: makeNimstrLit("\\veebar"), Field1: makeNimstrLit("\xE2\x8A\xBB")}, {Field0: makeNimstrLit("\\Cap"), Field1: makeNimstrLit("\xE2\x8B\x92")}, {Field0: makeNimstrLit("\\doublecap"), Field1: makeNimstrLit("\xE2\x8B\x92")}, {Field0: makeNimstrLit("\\oslash"), Field1: makeNimstrLit("\xE2\x8A\x98")}, {Field0: makeNimstrLit("\\wedge"), Field1: makeNimstrLit("\xE2\x88\xA7")}, {Field0: makeNimstrLit("\\cap"), Field1: makeNimstrLit("\xE2\x88\xA9")}, {Field0: makeNimstrLit("\\doublecup"), Field1: makeNimstrLit("\xE2\x8B\x93")}, {Field0: makeNimstrLit("\\pm"), Field1: makeNimstrLit("\xC2\xB1")}, {Field0: makeNimstrLit("\\plusmn"), Field1: makeNimstrLit("\xC2\xB1")}, {Field0: makeNimstrLit("\\wr"), Field1: makeNimstrLit("\xE2\x89\x80")}, {Field0: makeNimstrLit("\\forall"), Field1: makeNimstrLit("\xE2\x88\x80")}, {Field0: makeNimstrLit("\\complement"), Field1: makeNimstrLit("\xE2\x88\x81")}, {Field0: makeNimstrLit("\\therefore"), Field1: makeNimstrLit("\xE2\x88\xB4")}, {Field0: makeNimstrLit("\\emptyset"), Field1: makeNimstrLit("\xE2\x88\x85")}, {Field0: makeNimstrLit("\\exists"), Field1: makeNimstrLit("\xE2\x88\x83")}, {Field0: makeNimstrLit("\\subset"), Field1: makeNimstrLit("\xE2\x8A\x82")}, {Field0: makeNimstrLit("\\because"), Field1: makeNimstrLit("\xE2\x88\xB5")}, {Field0: makeNimstrLit("\\empty"), Field1: makeNimstrLit("\xE2\x88\x85")}, {Field0: makeNimstrLit("\\exist"), Field1: makeNimstrLit("\xE2\x88\x83")}, {Field0: makeNimstrLit("\\supset"), Field1: makeNimstrLit("\xE2\x8A\x83")}, {Field0: makeNimstrLit("\\mapsto"), Field1: makeNimstrLit("\xE2\x86\xA6")}, {Field0: makeNimstrLit("\\varnothing"), Field1: makeNimstrLit("\xE2\x88\x85")}, {Field0: makeNimstrLit("\\nexists"), Field1: makeNimstrLit("\xE2\x88\x84")}, {Field0: makeNimstrLit("\\mid"), Field1: makeNimstrLit("\xE2\x88\xA3")}, {Field0: makeNimstrLit("\\to"), Field1: makeNimstrLit("\xE2\x86\x92")}, {Field0: makeNimstrLit("\\implies"), Field1: makeNimstrLit("\xE2\x9F\xB9")}, {Field0: makeNimstrLit("\\in"), Field1: makeNimstrLit("\xE2\x88\x88")}, {Field0: makeNimstrLit("\\land"), Field1: makeNimstrLit("\xE2\x88\xA7")}, {Field0: makeNimstrLit("\\gets"), Field1: makeNimstrLit("\xE2\x86\x90")}, {Field0: makeNimstrLit("\\impliedby"), Field1: makeNimstrLit("\xE2\x9F\xB8")}, {Field0: makeNimstrLit("\\isin"), Field1: makeNimstrLit("\xE2\x88\x88")}, {Field0: makeNimstrLit("\\lor"), Field1: makeNimstrLit("\xE2\x88\xA8")}, {Field0: makeNimstrLit("\\leftrightarrow"), Field1: makeNimstrLit("\xE2\x86\x94")}, {Field0: makeNimstrLit("\\iff"), Field1: makeNimstrLit("\xE2\x9F\xBA")}, {Field0: makeNimstrLit("\\notin"), Field1: makeNimstrLit("\xE2\x88\x89")}, {Field0: makeNimstrLit("\\ni"), Field1: makeNimstrLit("\xE2\x88\x8B")}, {Field0: makeNimstrLit("\\notni"), Field1: makeNimstrLit("\xE2\x88\x8C")}, {Field0: makeNimstrLit("\\neg"), Field1: makeNimstrLit("\xC2\xAC")}, {Field0: makeNimstrLit("\\lnot"), Field1: makeNimstrLit("\xC2\xAC")}, {Field0: makeNimstrLit("\\circlearrowleft"), Field1: makeNimstrLit("\xE2\x86\xBA")}, {Field0: makeNimstrLit("\\leftharpoonup"), Field1: makeNimstrLit("\xE2\x86\xBC")}, {Field0: makeNimstrLit("\\rArr"), Field1: makeNimstrLit("\xE2\x87\x92")}, {Field0: makeNimstrLit("\\circlearrowright"), Field1: makeNimstrLit("\xE2\x86\xBB")}, {Field0: makeNimstrLit("\\leftleftarrows"), Field1: makeNimstrLit("\xE2\x87\x87")}, {Field0: makeNimstrLit("\\rarr"), Field1: makeNimstrLit("\xE2\x86\x92")}, {Field0: makeNimstrLit("\\curvearrowleft"), Field1: makeNimstrLit("\xE2\x86\xB6")}, {Field0: makeNimstrLit("\\leftrightarrow"), Field1: makeNimstrLit("\xE2\x86\x94")}, {Field0: makeNimstrLit("\\restriction"), Field1: makeNimstrLit("\xE2\x86\xBE")}, {Field0: makeNimstrLit("\\curvearrowright"), Field1: makeNimstrLit("\xE2\x86\xB7")}, {Field0: makeNimstrLit("\\Leftrightarrow"), Field1: makeNimstrLit("\xE2\x87\x94")}, {Field0: makeNimstrLit("\\rightarrow"), Field1: makeNimstrLit("\xE2\x86\x92")}, {Field0: makeNimstrLit("\\Darr"), Field1: makeNimstrLit("\xE2\x87\x93")}, {Field0: makeNimstrLit("\\leftrightarrows"), Field1: makeNimstrLit("\xE2\x87\x86")}, {Field0: makeNimstrLit("\\Rightarrow"), Field1: makeNimstrLit("\xE2\x87\x92")}, {Field0: makeNimstrLit("\\dArr"), Field1: makeNimstrLit("\xE2\x87\x93")}, {Field0: makeNimstrLit("\\leftrightharpoons"), Field1: makeNimstrLit("\xE2\x87\x8B")}, {Field0: makeNimstrLit("\\rightarrowtail"), Field1: makeNimstrLit("\xE2\x86\xA3")}, {Field0: makeNimstrLit("\\darr"), Field1: makeNimstrLit("\xE2\x86\x93")}, {Field0: makeNimstrLit("\\leftrightsquigarrow"), Field1: makeNimstrLit("\xE2\x86\xAD")}, {Field0: makeNimstrLit("\\rightharpoondown"), Field1: makeNimstrLit("\xE2\x87\x81")}, {Field0: makeNimstrLit("\\dashleftarrow"), Field1: makeNimstrLit("\xE2\x87\xA0")}, {Field0: makeNimstrLit("\\Lleftarrow"), Field1: makeNimstrLit("\xE2\x87\x9A")}, {Field0: makeNimstrLit("\\rightharpoonup"), Field1: makeNimstrLit("\xE2\x87\x80")}, {Field0: makeNimstrLit("\\dashrightarrow"), Field1: makeNimstrLit("\xE2\x87\xA2")}, {Field0: makeNimstrLit("\\longleftarrow"), Field1: makeNimstrLit("\xE2\x9F\xB5")}, {Field0: makeNimstrLit("\\rightleftarrows"), Field1: makeNimstrLit("\xE2\x87\x84")}, {Field0: makeNimstrLit("\\downarrow"), Field1: makeNimstrLit("\xE2\x86\x93")}, {Field0: makeNimstrLit("\\Longleftarrow"), Field1: makeNimstrLit("\xE2\x9F\xB8")}, {Field0: makeNimstrLit("\\rightleftharpoons"), Field1: makeNimstrLit("\xE2\x87\x8C")}, {Field0: makeNimstrLit("\\Downarrow"), Field1: makeNimstrLit("\xE2\x87\x93")}, {Field0: makeNimstrLit("\\longleftrightarrow"), Field1: makeNimstrLit("\xE2\x9F\xB7")}, {Field0: makeNimstrLit("\\rightrightarrows"), Field1: makeNimstrLit("\xE2\x87\x89")}, {Field0: makeNimstrLit("\\downdownarrows"), Field1: makeNimstrLit("\xE2\x87\x8A")}, {Field0: makeNimstrLit("\\Longleftrightarrow"), Field1: makeNimstrLit("\xE2\x9F\xBA")}, {Field0: makeNimstrLit("\\rightsquigarrow"), Field1: makeNimstrLit("\xE2\x87\x9D")}, {Field0: makeNimstrLit("\\downharpoonleft"), Field1: makeNimstrLit("\xE2\x87\x83")}, {Field0: makeNimstrLit("\\longmapsto"), Field1: makeNimstrLit("\xE2\x9F\xBC")}, {Field0: makeNimstrLit("\\Rrightarrow"), Field1: makeNimstrLit("\xE2\x87\x9B")}, {Field0: makeNimstrLit("\\downharpoonright"), Field1: makeNimstrLit("\xE2\x87\x82")}, {Field0: makeNimstrLit("\\longrightarrow"), Field1: makeNimstrLit("\xE2\x9F\xB6")}, {Field0: makeNimstrLit("\\Rsh"), Field1: makeNimstrLit("\xE2\x86\xB1")}, {Field0: makeNimstrLit("\\gets"), Field1: makeNimstrLit("\xE2\x86\x90")}, {Field0: makeNimstrLit("\\Longrightarrow"), Field1: makeNimstrLit("\xE2\x9F\xB9")}, {Field0: makeNimstrLit("\\searrow"), Field1: makeNimstrLit("\xE2\x86\x98")}, {Field0: makeNimstrLit("\\Harr"), Field1: makeNimstrLit("\xE2\x87\x94")}, {Field0: makeNimstrLit("\\looparrowleft"), Field1: makeNimstrLit("\xE2\x86\xAB")}, {Field0: makeNimstrLit("\\swarrow"), Field1: makeNimstrLit("\xE2\x86\x99")}, {Field0: makeNimstrLit("\\hArr"), Field1: makeNimstrLit("\xE2\x87\x94")}, {Field0: makeNimstrLit("\\looparrowright"), Field1: makeNimstrLit("\xE2\x86\xAC")}, {Field0: makeNimstrLit("\\to"), Field1: makeNimstrLit("\xE2\x86\x92")}, {Field0: makeNimstrLit("\\harr"), Field1: makeNimstrLit("\xE2\x86\x94")}, {Field0: makeNimstrLit("\\Lrarr"), Field1: makeNimstrLit("\xE2\x87\x94")}, {Field0: makeNimstrLit("\\twoheadleftarrow"), Field1: makeNimstrLit("\xE2\x86\x9E")}, {Field0: makeNimstrLit("\\hookleftarrow"), Field1: makeNimstrLit("\xE2\x86\xA9")}, {Field0: makeNimstrLit("\\lrArr"), Field1: makeNimstrLit("\xE2\x87\x94")}, {Field0: makeNimstrLit("\\twoheadrightarrow"), Field1: makeNimstrLit("\xE2\x86\xA0")}, {Field0: makeNimstrLit("\\hookrightarrow"), Field1: makeNimstrLit("\xE2\x86\xAA")}, {Field0: makeNimstrLit("\\lrarr"), Field1: makeNimstrLit("\xE2\x86\x94")}, {Field0: makeNimstrLit("\\Uarr"), Field1: makeNimstrLit("\xE2\x87\x91")}, {Field0: makeNimstrLit("\\Lsh"), Field1: makeNimstrLit("\xE2\x86\xB0")}, {Field0: makeNimstrLit("\\uArr"), Field1: makeNimstrLit("\xE2\x87\x91")}, {Field0: makeNimstrLit("\\mapsto"), Field1: makeNimstrLit("\xE2\x86\xA6")}, {Field0: makeNimstrLit("\\uarr"), Field1: makeNimstrLit("\xE2\x86\x91")}, {Field0: makeNimstrLit("\\nearrow"), Field1: makeNimstrLit("\xE2\x86\x97")}, {Field0: makeNimstrLit("\\uparrow"), Field1: makeNimstrLit("\xE2\x86\x91")}, {Field0: makeNimstrLit("\\Larr"), Field1: makeNimstrLit("\xE2\x87\x90")}, {Field0: makeNimstrLit("\\nleftarrow"), Field1: makeNimstrLit("\xE2\x86\x9A")}, {Field0: makeNimstrLit("\\Uparrow"), Field1: makeNimstrLit("\xE2\x87\x91")}, {Field0: makeNimstrLit("\\lArr"), Field1: makeNimstrLit("\xE2\x87\x90")}, {Field0: makeNimstrLit("\\nLeftarrow"), Field1: makeNimstrLit("\xE2\x87\x8D")}, {Field0: makeNimstrLit("\\updownarrow"), Field1: makeNimstrLit("\xE2\x86\x95")}, {Field0: makeNimstrLit("\\larr"), Field1: makeNimstrLit("\xE2\x86\x90")}, {Field0: makeNimstrLit("\\nleftrightarrow"), Field1: makeNimstrLit("\xE2\x86\xAE")}, {Field0: makeNimstrLit("\\Updownarrow"), Field1: makeNimstrLit("\xE2\x87\x95")}, {Field0: makeNimstrLit("\\leadsto"), Field1: makeNimstrLit("\xE2\x87\x9D")}, {Field0: makeNimstrLit("\\nLeftrightarrow"), Field1: makeNimstrLit("\xE2\x87\x8E")}, {Field0: makeNimstrLit("\\upharpoonleft"), Field1: makeNimstrLit("\xE2\x86\xBF")}, {Field0: makeNimstrLit("\\leftarrow"), Field1: makeNimstrLit("\xE2\x86\x90")}, {Field0: makeNimstrLit("\\nrightarrow"), Field1: makeNimstrLit("\xE2\x86\x9B")}, {Field0: makeNimstrLit("\\upharpoonright"), Field1: makeNimstrLit("\xE2\x86\xBE")}, {Field0: makeNimstrLit("\\Leftarrow"), Field1: makeNimstrLit("\xE2\x87\x90")}, {Field0: makeNimstrLit("\\nRightarrow"), Field1: makeNimstrLit("\xE2\x87\x8F")}, {Field0: makeNimstrLit("\\upuparrows"), Field1: makeNimstrLit("\xE2\x87\x88")}, {Field0: makeNimstrLit("\\leftarrowtail"), Field1: makeNimstrLit("\xE2\x86\xA2")}, {Field0: makeNimstrLit("\\nwarrow"), Field1: makeNimstrLit("\xE2\x86\x96")}, {Field0: makeNimstrLit("\\leftharpoondown"), Field1: makeNimstrLit("\xE2\x86\xBD")}, {Field0: makeNimstrLit("\\Rarr"), Field1: makeNimstrLit("\xE2\x87\x92")}, {Field0: makeNimstrLit("="), Field1: makeNimstrLit("=")}, {Field0: makeNimstrLit("\\doteqdot"), Field1: makeNimstrLit("\xE2\x89\x91")}, {Field0: makeNimstrLit("\\lessapprox"), Field1: makeNimstrLit("\xE2\xAA\x85")}, {Field0: makeNimstrLit("\\smile"), Field1: makeNimstrLit("\xE2\x8C\xA3")}, {Field0: makeNimstrLit("<"), Field1: makeNimstrLit("<")}, {Field0: makeNimstrLit("\\eqcirc"), Field1: makeNimstrLit("\xE2\x89\x96")}, {Field0: makeNimstrLit("\\lesseqgtr"), Field1: makeNimstrLit("\xE2\x8B\x9A")}, {Field0: makeNimstrLit("\\sqsubset"), Field1: makeNimstrLit("\xE2\x8A\x8F")}, {Field0: makeNimstrLit("\\eqcolon"), Field1: makeNimstrLit(">>> >, \xE2\x88\xB9")}, {Field0: makeNimstrLit("\\minuscolon"), Field1: makeNimstrLit("\xE2\x88\xB9")}, {Field0: makeNimstrLit(">"), Field1: makeNimstrLit(">")}, {Field0: makeNimstrLit("\\lesseqqgtr"), Field1: makeNimstrLit("\xE2\xAA\x8B")}, {Field0: makeNimstrLit("\\sqsubseteq"), Field1: makeNimstrLit("\xE2\x8A\x91")}, {Field0: makeNimstrLit("\\Eqcolon"), Field1: makeNimstrLit("::: :, \xE2\x88\x92\xE2\x88\xB7")}, {Field0: makeNimstrLit("\\minuscoloncolon"), Field1: makeNimstrLit("::: :, \xE2\x88\x92\xE2\x88\xB7")}, {Field0: makeNimstrLit("\\lessgtr"), Field1: makeNimstrLit("\xE2\x89\xB6")}, {Field0: makeNimstrLit("\\sqsupset"), Field1: makeNimstrLit("\xE2\x8A\x90")}, {Field0: makeNimstrLit("\\eqqcolon"), Field1: makeNimstrLit("\xE2\x89\x95")}, {Field0: makeNimstrLit("\\equalscolon"), Field1: makeNimstrLit("\xE2\x89\x95")}, {Field0: makeNimstrLit("\\approx"), Field1: makeNimstrLit("\xE2\x89\x88")}, {Field0: makeNimstrLit("\\lesssim"), Field1: makeNimstrLit("\xE2\x89\xB2")}, {Field0: makeNimstrLit("\\sqsupseteq"), Field1: makeNimstrLit("\xE2\x8A\x92")}, {Field0: makeNimstrLit("\\Eqqcolon"), Field1: makeNimstrLit("=\xE2\x88\xB7")}, {Field0: makeNimstrLit("\x1Bqualscoloncolon"), Field1: makeNimstrLit("=\xE2\x88\xB7")}, {Field0: makeNimstrLit("\\approxcolon"), Field1: makeNimstrLit("\xE2\x89\x88:")}, {Field0: makeNimstrLit("\\ll"), Field1: makeNimstrLit("\xE2\x89\xAA")}, {Field0: makeNimstrLit("\\Subset"), Field1: makeNimstrLit("\xE2\x8B\x90")}, {Field0: makeNimstrLit("\x07pproxcoloncolon"), Field1: makeNimstrLit("\xE2\x89\x88\xE2\x88\xB7")}, {Field0: makeNimstrLit("\\eqsim"), Field1: makeNimstrLit("\xE2\x89\x82")}, {Field0: makeNimstrLit("\\lll"), Field1: makeNimstrLit("\xE2\x8B\x98")}, {Field0: makeNimstrLit("\\subset"), Field1: makeNimstrLit("\xE2\x8A\x82")}, {Field0: makeNimstrLit("\\sub"), Field1: makeNimstrLit("\xE2\x8A\x82")}, {Field0: makeNimstrLit("\\approxeq"), Field1: makeNimstrLit("\xE2\x89\x8A")}, {Field0: makeNimstrLit("\\eqslantgtr"), Field1: makeNimstrLit("\xE2\xAA\x96")}, {Field0: makeNimstrLit("\\llless"), Field1: makeNimstrLit("\xE2\x8B\x98")}, {Field0: makeNimstrLit("\\subseteq"), Field1: makeNimstrLit("\xE2\x8A\x86")}, {Field0: makeNimstrLit("\\sube"), Field1: makeNimstrLit("\xE2\x8A\x86")}, {Field0: makeNimstrLit("\\asymp"), Field1: makeNimstrLit("\xE2\x89\x8D")}, {Field0: makeNimstrLit("\\eqslantless"), Field1: makeNimstrLit("\xE2\xAA\x95")}, {Field0: makeNimstrLit("\\lt"), Field1: makeNimstrLit("<")}, {Field0: makeNimstrLit("\\subseteqq"), Field1: makeNimstrLit("\xE2\xAB\x85")}, {Field0: makeNimstrLit("\\backepsilon"), Field1: makeNimstrLit("\xE2\x88\x8D")}, {Field0: makeNimstrLit("\\equiv"), Field1: makeNimstrLit("\xE2\x89\xA1")}, {Field0: makeNimstrLit("\\mid"), Field1: makeNimstrLit("\xE2\x88\xA3")}, {Field0: makeNimstrLit("\\succ"), Field1: makeNimstrLit("\xE2\x89\xBB")}, {Field0: makeNimstrLit("\\backsim"), Field1: makeNimstrLit("\xE2\x88\xBD")}, {Field0: makeNimstrLit("\\fallingdotseq"), Field1: makeNimstrLit("\xE2\x89\x92")}, {Field0: makeNimstrLit("\\models"), Field1: makeNimstrLit("\xE2\x8A\xA8")}, {Field0: makeNimstrLit("\\succapprox"), Field1: makeNimstrLit("\xE2\xAA\xB8")}, {Field0: makeNimstrLit("\\backsimeq"), Field1: makeNimstrLit("\xE2\x8B\x8D")}, {Field0: makeNimstrLit("\\frown"), Field1: makeNimstrLit("\xE2\x8C\xA2")}, {Field0: makeNimstrLit("\\multimap"), Field1: makeNimstrLit("\xE2\x8A\xB8")}, {Field0: makeNimstrLit("\\succcurlyeq"), Field1: makeNimstrLit("\xE2\x89\xBD")}, {Field0: makeNimstrLit("\\between"), Field1: makeNimstrLit("\xE2\x89\xAC")}, {Field0: makeNimstrLit("\\ge"), Field1: makeNimstrLit("\xE2\x89\xA5")}, {Field0: makeNimstrLit("\\origof"), Field1: makeNimstrLit("\xE2\x8A\xB6")}, {Field0: makeNimstrLit("\\succeq"), Field1: makeNimstrLit("\xE2\xAA\xB0")}, {Field0: makeNimstrLit("\\bowtie"), Field1: makeNimstrLit("\xE2\x8B\x88")}, {Field0: makeNimstrLit("\\geq"), Field1: makeNimstrLit("\xE2\x89\xA5")}, {Field0: makeNimstrLit("\\owns"), Field1: makeNimstrLit("\xE2\x88\x8B")}, {Field0: makeNimstrLit("\\succsim"), Field1: makeNimstrLit("\xE2\x89\xBF")}, {Field0: makeNimstrLit("\\bumpeq"), Field1: makeNimstrLit("\xE2\x89\x8F")}, {Field0: makeNimstrLit("\\geqq"), Field1: makeNimstrLit("\xE2\x89\xA7")}, {Field0: makeNimstrLit("\\parallel"), Field1: makeNimstrLit("\xE2\x88\xA5")}, {Field0: makeNimstrLit("\\Supset"), Field1: makeNimstrLit("\xE2\x8B\x91")}, {Field0: makeNimstrLit("\\Bumpeq"), Field1: makeNimstrLit("\xE2\x89\x8E")}, {Field0: makeNimstrLit("\\geqslant"), Field1: makeNimstrLit("\xE2\xA9\xBE")}, {Field0: makeNimstrLit("\\perp"), Field1: makeNimstrLit("\xE2\x8A\xA5")}, {Field0: makeNimstrLit("\\supset"), Field1: makeNimstrLit("\xE2\x8A\x83")}, {Field0: makeNimstrLit("\\circeq"), Field1: makeNimstrLit("\xE2\x89\x97")}, {Field0: makeNimstrLit("\\gg"), Field1: makeNimstrLit("\xE2\x89\xAB")}, {Field0: makeNimstrLit("\\pitchfork"), Field1: makeNimstrLit("\xE2\x8B\x94")}, {Field0: makeNimstrLit("\\supseteq"), Field1: makeNimstrLit("\xE2\x8A\x87")}, {Field0: makeNimstrLit("\\supe"), Field1: makeNimstrLit("\xE2\x8A\x87")}, {Field0: makeNimstrLit("\\colonapprox"), Field1: makeNimstrLit(":\xE2\x89\x88")}, {Field0: makeNimstrLit("\\ggg"), Field1: makeNimstrLit("\xE2\x8B\x99")}, {Field0: makeNimstrLit("\\prec"), Field1: makeNimstrLit("\xE2\x89\xBA")}, {Field0: makeNimstrLit("\\supseteqq"), Field1: makeNimstrLit("\xE2\xAB\x86")}, {Field0: makeNimstrLit("\\Colonapprox"), Field1: makeNimstrLit("\xE2\x88\xB7\xE2\x89\x88")}, {Field0: makeNimstrLit("\x0Doloncolonapprox"), Field1: makeNimstrLit("\xE2\x88\xB7\xE2\x89\x88")}, {Field0: makeNimstrLit("\\gggtr"), Field1: makeNimstrLit("\xE2\x8B\x99")}, {Field0: makeNimstrLit("\\precapprox"), Field1: makeNimstrLit("\xE2\xAA\xB7")}, {Field0: makeNimstrLit("\\thickapprox"), Field1: makeNimstrLit("\xE2\x89\x88")}, {Field0: makeNimstrLit("\\coloneq"), Field1: makeNimstrLit(":\xE2\x88\x92")}, {Field0: makeNimstrLit("\\colonminus"), Field1: makeNimstrLit(":\xE2\x88\x92")}, {Field0: makeNimstrLit("\\gt"), Field1: makeNimstrLit(">")}, {Field0: makeNimstrLit("\\preccurlyeq"), Field1: makeNimstrLit("\xE2\x89\xBC")}, {Field0: makeNimstrLit("\\thicksim"), Field1: makeNimstrLit("\xE2\x88\xBC")}, {Field0: makeNimstrLit("\\Coloneq"), Field1: makeNimstrLit("\xE2\x88\xB7\xE2\x88\x92")}, {Field0: makeNimstrLit("\x0Doloncolonminus"), Field1: makeNimstrLit("\xE2\x88\xB7\xE2\x88\x92")}, {Field0: makeNimstrLit("\\gtrapprox"), Field1: makeNimstrLit("\xE2\xAA\x86")}, {Field0: makeNimstrLit("\\preceq"), Field1: makeNimstrLit("\xE2\xAA\xAF")}, {Field0: makeNimstrLit("\\trianglelefteq"), Field1: makeNimstrLit("\xE2\x8A\xB4")}, {Field0: makeNimstrLit("\\coloneqq"), Field1: makeNimstrLit("\xE2\x89\x94")}, {Field0: makeNimstrLit("\x0Dolonequals"), Field1: makeNimstrLit("\xE2\x89\x94")}, {Field0: makeNimstrLit("\\gtreqless"), Field1: makeNimstrLit("\xE2\x8B\x9B")}, {Field0: makeNimstrLit("\\precsim"), Field1: makeNimstrLit("\xE2\x89\xBE")}, {Field0: makeNimstrLit("\\triangleq"), Field1: makeNimstrLit("\xE2\x89\x9C")}, {Field0: makeNimstrLit("\\Coloneqq"), Field1: makeNimstrLit("\xE2\x88\xB7=")}, {Field0: makeNimstrLit("\x0Doloncolonequals"), Field1: makeNimstrLit("\xE2\x88\xB7=")}, {Field0: makeNimstrLit("\\gtreqqless"), Field1: makeNimstrLit("\xE2\xAA\x8C")}, {Field0: makeNimstrLit("\\propto"), Field1: makeNimstrLit("\xE2\x88\x9D")}, {Field0: makeNimstrLit("\\trianglerighteq"), Field1: makeNimstrLit("\xE2\x8A\xB5")}, {Field0: makeNimstrLit("\\colonsim"), Field1: makeNimstrLit(":\xE2\x88\xBC")}, {Field0: makeNimstrLit("\\gtrless"), Field1: makeNimstrLit("\xE2\x89\xB7")}, {Field0: makeNimstrLit("\\risingdotseq"), Field1: makeNimstrLit("\xE2\x89\x93")}, {Field0: makeNimstrLit("\\varpropto"), Field1: makeNimstrLit("\xE2\x88\x9D")}, {Field0: makeNimstrLit("\\Colonsim"), Field1: makeNimstrLit("\xE2\x88\xB7\xE2\x88\xBC")}, {Field0: makeNimstrLit("\x0Doloncolonsim"), Field1: makeNimstrLit("\xE2\x88\xB7\xE2\x88\xBC")}, {Field0: makeNimstrLit("\\gtrsim"), Field1: makeNimstrLit("\xE2\x89\xB3")}, {Field0: makeNimstrLit("\\shortmid"), Field1: makeNimstrLit("\xE2\x88\xA3")}, {Field0: makeNimstrLit("\\vartriangle"), Field1: makeNimstrLit("\xE2\x96\xB3")}, {Field0: makeNimstrLit("\\cong"), Field1: makeNimstrLit("\xE2\x89\x85")}, {Field0: makeNimstrLit("\\imageof"), Field1: makeNimstrLit("\xE2\x8A\xB7")}, {Field0: makeNimstrLit("\\shortparallel"), Field1: makeNimstrLit("\xE2\x88\xA5")}, {Field0: makeNimstrLit("\\vartriangleleft"), Field1: makeNimstrLit("\xE2\x8A\xB2")}, {Field0: makeNimstrLit("\\curlyeqprec"), Field1: makeNimstrLit("\xE2\x8B\x9E")}, {Field0: makeNimstrLit("\\in"), Field1: makeNimstrLit("\xE2\x88\x88")}, {Field0: makeNimstrLit("\\isin"), Field1: makeNimstrLit("\xE2\x88\x88")}, {Field0: makeNimstrLit("\\sim"), Field1: makeNimstrLit("\xE2\x88\xBC")}, {Field0: makeNimstrLit("\\vartriangleright"), Field1: makeNimstrLit("\xE2\x8A\xB3")}, {Field0: makeNimstrLit("\\curlyeqsucc"), Field1: makeNimstrLit("\xE2\x8B\x9F")}, {Field0: makeNimstrLit("\\Join"), Field1: makeNimstrLit("\xE2\x8B\x88")}, {Field0: makeNimstrLit("\\simcolon"), Field1: makeNimstrLit("\xE2\x88\xBC:")}, {Field0: makeNimstrLit("\\vcentcolon"), Field1: makeNimstrLit(":")}, {Field0: makeNimstrLit("\\ratio"), Field1: makeNimstrLit(":")}, {Field0: makeNimstrLit("\\dashv"), Field1: makeNimstrLit("\xE2\x8A\xA3")}, {Field0: makeNimstrLit("\\le"), Field1: makeNimstrLit("\xE2\x89\xA4")}, {Field0: makeNimstrLit("\\simcoloncolon"), Field1: makeNimstrLit("\xE2\x88\xBC\xE2\x88\xB7")}, {Field0: makeNimstrLit("\\vdash"), Field1: makeNimstrLit("\xE2\x8A\xA2")}, {Field0: makeNimstrLit("\\dblcolon"), Field1: makeNimstrLit("\xE2\x88\xB7")}, {Field0: makeNimstrLit("\x0Doloncolon"), Field1: makeNimstrLit("\xE2\x88\xB7")}, {Field0: makeNimstrLit("\\leq"), Field1: makeNimstrLit("\xE2\x89\xA4")}, {Field0: makeNimstrLit("\\simeq"), Field1: makeNimstrLit("\xE2\x89\x83")}, {Field0: makeNimstrLit("\\vDash"), Field1: makeNimstrLit("\xE2\x8A\xA8")}, {Field0: makeNimstrLit("\\doteq"), Field1: makeNimstrLit("\xE2\x89\x90")}, {Field0: makeNimstrLit("\\leqq"), Field1: makeNimstrLit("\xE2\x89\xA6")}, {Field0: makeNimstrLit("\\smallfrown"), Field1: makeNimstrLit("\xE2\x8C\xA2")}, {Field0: makeNimstrLit("\\Vdash"), Field1: makeNimstrLit("\xE2\x8A\xA9")}, {Field0: makeNimstrLit("\\Doteq"), Field1: makeNimstrLit("\xE2\x89\x91")}, {Field0: makeNimstrLit("\\leqslant"), Field1: makeNimstrLit("\xE2\xA9\xBD")}, {Field0: makeNimstrLit("\\smallsmile"), Field1: makeNimstrLit("\xE2\x8C\xA3")}, {Field0: makeNimstrLit("\\Vvdash"), Field1: makeNimstrLit("\xE2\x8A\xAA")}];
-var delimiters_637534221 = [{Field0: makeNimstrLit("("), Field1: makeNimstrLit("(")}, {Field0: makeNimstrLit("\\lparen"), Field1: makeNimstrLit("(")}, {Field0: makeNimstrLit(")"), Field1: makeNimstrLit(")")}, {Field0: makeNimstrLit("\\rparen"), Field1: makeNimstrLit(")")}, {Field0: makeNimstrLit("["), Field1: makeNimstrLit("[")}, {Field0: makeNimstrLit("\\lbrack"), Field1: makeNimstrLit("[")}, {Field0: makeNimstrLit("]"), Field1: makeNimstrLit("]")}, {Field0: makeNimstrLit("\\rbrack"), Field1: makeNimstrLit("]")}, {Field0: makeNimstrLit("\\{"), Field1: makeNimstrLit("{")}, {Field0: makeNimstrLit("\\lbrace"), Field1: makeNimstrLit("{")}, {Field0: makeNimstrLit("\\}"), Field1: makeNimstrLit("}")}, {Field0: makeNimstrLit("\\rbrace"), Field1: makeNimstrLit("}")}, {Field0: makeNimstrLit("\xE2\x9F\xA8"), Field1: makeNimstrLit("\xE2\x9F\xA8")}, {Field0: makeNimstrLit("\\langle"), Field1: makeNimstrLit("\xE2\x9F\xA8")}, {Field0: makeNimstrLit("\\lang"), Field1: makeNimstrLit("\xE2\x9F\xA8")}, {Field0: makeNimstrLit("\xE2\x9F\xA9"), Field1: makeNimstrLit("\xE2\x9F\xA9")}, {Field0: makeNimstrLit("\\rangle"), Field1: makeNimstrLit("\xE2\x9F\xA9")}, {Field0: makeNimstrLit("\\rang"), Field1: makeNimstrLit("\xE2\x9F\xA9")}, {Field0: makeNimstrLit("|"), Field1: makeNimstrLit("\xE2\x88\xA3")}, {Field0: makeNimstrLit("\\vert"), Field1: makeNimstrLit("\xE2\x88\xA3")}, {Field0: makeNimstrLit("\\|"), Field1: makeNimstrLit("\xE2\x88\xA5")}, {Field0: makeNimstrLit("\\Vert"), Field1: makeNimstrLit("\xE2\x88\xA5")}, {Field0: makeNimstrLit("\xE2\x8C\x88"), Field1: makeNimstrLit("\xE2\x8C\x88")}, {Field0: makeNimstrLit("\\lceil"), Field1: makeNimstrLit("\xE2\x8C\x88")}, {Field0: makeNimstrLit("\xE2\x8C\x89"), Field1: makeNimstrLit("\xE2\x8C\x89")}, {Field0: makeNimstrLit("\\rceil"), Field1: makeNimstrLit("\xE2\x8C\x89")}, {Field0: makeNimstrLit("\xE2\x8C\x8A"), Field1: makeNimstrLit("\xE2\x8C\x8A")}, {Field0: makeNimstrLit("\\lfloor"), Field1: makeNimstrLit("\xE2\x8C\x8A")}, {Field0: makeNimstrLit("\xE2\x8C\x8B"), Field1: makeNimstrLit("\xE2\x8C\x8B")}, {Field0: makeNimstrLit("\\rfloor"), Field1: makeNimstrLit("\xE2\x8C\x8B")}, {Field0: makeNimstrLit("\xE2\x9F\xA6"), Field1: makeNimstrLit("\xE2\x9F\xA6")}, {Field0: makeNimstrLit("\\llbracket"), Field1: makeNimstrLit("\xE2\x9F\xA6")}, {Field0: makeNimstrLit("\xE2\x9F\xA7"), Field1: makeNimstrLit("\xE2\x9F\xA7")}, {Field0: makeNimstrLit("\\rrbracket"), Field1: makeNimstrLit("\xE2\x9F\xA7")}];
-var letters_637534412 = [{Field0: makeNimstrLit("\\Alpha"), Field1: makeNimstrLit("A")}, {Field0: makeNimstrLit("\\Beta"), Field1: makeNimstrLit("B")}, {Field0: makeNimstrLit("\\Gamma"), Field1: makeNimstrLit("\xCE\x93")}, {Field0: makeNimstrLit("\\Delta"), Field1: makeNimstrLit("\xCE\x94")}, {Field0: makeNimstrLit("\\Epsilon"), Field1: makeNimstrLit("E")}, {Field0: makeNimstrLit("\\Zeta"), Field1: makeNimstrLit("Z")}, {Field0: makeNimstrLit("\\Eta"), Field1: makeNimstrLit("H")}, {Field0: makeNimstrLit("\\Theta"), Field1: makeNimstrLit("\xCE\x98")}, {Field0: makeNimstrLit("\\Iota"), Field1: makeNimstrLit("I")}, {Field0: makeNimstrLit("\\Kappa"), Field1: makeNimstrLit("K")}, {Field0: makeNimstrLit("\\Lambda"), Field1: makeNimstrLit("\xCE\x9B")}, {Field0: makeNimstrLit("\\Mu"), Field1: makeNimstrLit("M")}, {Field0: makeNimstrLit("\\Nu"), Field1: makeNimstrLit("N")}, {Field0: makeNimstrLit("\\Xi"), Field1: makeNimstrLit("\xCE\x9E")}, {Field0: makeNimstrLit("\\Omicron"), Field1: makeNimstrLit("O")}, {Field0: makeNimstrLit("\\Pi"), Field1: makeNimstrLit("\xCE\xA0")}, {Field0: makeNimstrLit("\\Rho"), Field1: makeNimstrLit("P")}, {Field0: makeNimstrLit("\\Sigma"), Field1: makeNimstrLit("\xCE\xA3")}, {Field0: makeNimstrLit("\\Tau"), Field1: makeNimstrLit("T")}, {Field0: makeNimstrLit("\\Upsilon"), Field1: makeNimstrLit("\xCE\xA5")}, {Field0: makeNimstrLit("\\Phi"), Field1: makeNimstrLit("\xCE\xA6")}, {Field0: makeNimstrLit("\\Chi"), Field1: makeNimstrLit("X")}, {Field0: makeNimstrLit("\\Psi"), Field1: makeNimstrLit("\xCE\xA8")}, {Field0: makeNimstrLit("\\Omega"), Field1: makeNimstrLit("\xCE\xA9")}, {Field0: makeNimstrLit("\\varGamma"), Field1: makeNimstrLit("\xCE\x93")}, {Field0: makeNimstrLit("\\varDelta"), Field1: makeNimstrLit("\xCE\x94")}, {Field0: makeNimstrLit("\\varTheta"), Field1: makeNimstrLit("\xCE\x98")}, {Field0: makeNimstrLit("\\varLambda"), Field1: makeNimstrLit("\xCE\x9B")}, {Field0: makeNimstrLit("\\varXi"), Field1: makeNimstrLit("\xCE\x9E")}, {Field0: makeNimstrLit("\\varPi"), Field1: makeNimstrLit("\xCE\xA0")}, {Field0: makeNimstrLit("\\varSigma"), Field1: makeNimstrLit("\xCE\xA3")}, {Field0: makeNimstrLit("\\varUpsilon"), Field1: makeNimstrLit("\xCE\xA5")}, {Field0: makeNimstrLit("\\varPhi"), Field1: makeNimstrLit("\xCE\xA6")}, {Field0: makeNimstrLit("\\varPsi"), Field1: makeNimstrLit("\xCE\xA8")}, {Field0: makeNimstrLit("\\varOmega"), Field1: makeNimstrLit("\xCE\xA9")}, {Field0: makeNimstrLit("\\alpha"), Field1: makeNimstrLit("\xCE\xB1")}, {Field0: makeNimstrLit("\\beta"), Field1: makeNimstrLit("\xCE\xB2")}, {Field0: makeNimstrLit("\\gamma"), Field1: makeNimstrLit("\xCE\xB3")}, {Field0: makeNimstrLit("\\delta"), Field1: makeNimstrLit("\xCE\xB4")}, {Field0: makeNimstrLit("\\epsilon"), Field1: makeNimstrLit("\xCF\xB5")}, {Field0: makeNimstrLit("\\zeta"), Field1: makeNimstrLit("\xCE\xB6")}, {Field0: makeNimstrLit("\\eta"), Field1: makeNimstrLit("\xCE\xB7")}, {Field0: makeNimstrLit("\\theta"), Field1: makeNimstrLit("\xCE\xB8")}, {Field0: makeNimstrLit("\\iota"), Field1: makeNimstrLit("\xCE\xB9")}, {Field0: makeNimstrLit("\\kappa"), Field1: makeNimstrLit("\xCE\xBA")}, {Field0: makeNimstrLit("\\lambda"), Field1: makeNimstrLit("\xCE\xBB")}, {Field0: makeNimstrLit("\\mu"), Field1: makeNimstrLit("\xCE\xBC")}, {Field0: makeNimstrLit("\\nu"), Field1: makeNimstrLit("\xCE\xBD")}, {Field0: makeNimstrLit("\\xi"), Field1: makeNimstrLit("\xCE\xBE")}, {Field0: makeNimstrLit("\\omicron"), Field1: makeNimstrLit("\xCE\xBF")}, {Field0: makeNimstrLit("\\pi"), Field1: makeNimstrLit("\xCF\x80")}, {Field0: makeNimstrLit("\\rho"), Field1: makeNimstrLit("\xCF\x81")}, {Field0: makeNimstrLit("\\sigma"), Field1: makeNimstrLit("\xCF\x83")}, {Field0: makeNimstrLit("\\tau"), Field1: makeNimstrLit("\xCF\x84")}, {Field0: makeNimstrLit("\\upsilon"), Field1: makeNimstrLit("\xCF\x85")}, {Field0: makeNimstrLit("\\phi"), Field1: makeNimstrLit("\xCF\x95")}, {Field0: makeNimstrLit("\\chi"), Field1: makeNimstrLit("\xCF\x87")}, {Field0: makeNimstrLit("\\psi"), Field1: makeNimstrLit("\xCF\x88")}, {Field0: makeNimstrLit("\\omega"), Field1: makeNimstrLit("\xCF\x89")}, {Field0: makeNimstrLit("\\varepsilon"), Field1: makeNimstrLit("\xCE\xB5")}, {Field0: makeNimstrLit("\\varkappa"), Field1: makeNimstrLit("\xCF\xB0")}, {Field0: makeNimstrLit("\\vartheta"), Field1: makeNimstrLit("\xCF\x91")}, {Field0: makeNimstrLit("\\thetasym"), Field1: makeNimstrLit("\xCF\x91")}, {Field0: makeNimstrLit("\\varpi"), Field1: makeNimstrLit("\xCF\x96")}, {Field0: makeNimstrLit("\\varrho"), Field1: makeNimstrLit("\xCF\xB1")}, {Field0: makeNimstrLit("\\varsigma"), Field1: makeNimstrLit("\xCF\x82")}, {Field0: makeNimstrLit("\\varphi"), Field1: makeNimstrLit("\xCF\x86")}, {Field0: makeNimstrLit("\\digamma"), Field1: makeNimstrLit("\xCF\x9D")}, {Field0: makeNimstrLit("\\imath"), Field1: makeNimstrLit("\xEE\x84\xB1")}, {Field0: makeNimstrLit("\\nabla"), Field1: makeNimstrLit("\xE2\x88\x87")}, {Field0: makeNimstrLit("\\Im"), Field1: makeNimstrLit("\xE2\x84\x91")}, {Field0: makeNimstrLit("\\Reals"), Field1: makeNimstrLit("R")}, {Field0: makeNimstrLit("\\OE"), Field1: makeNimstrLit("\xC5\x92")}, {Field0: makeNimstrLit("\\jmath"), Field1: makeNimstrLit("\xC8\xB7")}, {Field0: makeNimstrLit("\\partial"), Field1: makeNimstrLit("\xE2\x88\x82")}, {Field0: makeNimstrLit("\\image"), Field1: makeNimstrLit("\xE2\x84\x91")}, {Field0: makeNimstrLit("\\wp"), Field1: makeNimstrLit("\xE2\x84\x98")}, {Field0: makeNimstrLit("\\o"), Field1: makeNimstrLit("\xC3\xB8")}, {Field0: makeNimstrLit("\\aleph"), Field1: makeNimstrLit("\xE2\x84\xB5")}, {Field0: makeNimstrLit("\\Game"), Field1: makeNimstrLit("\xE2\x85\x81")}, {Field0: makeNimstrLit("\\Bbbk"), Field1: makeNimstrLit("k")}, {Field0: makeNimstrLit("\\weierp"), Field1: makeNimstrLit("\xE2\x84\x98")}, {Field0: makeNimstrLit("\\O"), Field1: makeNimstrLit("\xC3\x98")}, {Field0: makeNimstrLit("\\alef"), Field1: makeNimstrLit("\xE2\x84\xB5")}, {Field0: makeNimstrLit("\\Finv"), Field1: makeNimstrLit("\xE2\x84\xB2")}, {Field0: makeNimstrLit("\\N"), Field1: makeNimstrLit("N")}, {Field0: makeNimstrLit("\\Z"), Field1: makeNimstrLit("Z")}, {Field0: makeNimstrLit("\\ss"), Field1: makeNimstrLit("\xC3\x9F")}, {Field0: makeNimstrLit("\\alefsym"), Field1: makeNimstrLit("\xE2\x84\xB5")}, {Field0: makeNimstrLit("\\cnums"), Field1: makeNimstrLit("C")}, {Field0: makeNimstrLit("\\natnums"), Field1: makeNimstrLit("N")}, {Field0: makeNimstrLit("\\aa"), Field1: makeNimstrLit("\xC3\xA5")}, {Field0: makeNimstrLit("\\i"), Field1: makeNimstrLit("\xC4\xB1")}, {Field0: makeNimstrLit("\\beth"), Field1: makeNimstrLit("\xE2\x84\xB6")}, {Field0: makeNimstrLit("\\Complex"), Field1: makeNimstrLit("C")}, {Field0: makeNimstrLit("\\R"), Field1: makeNimstrLit("R")}, {Field0: makeNimstrLit("\\AA"), Field1: makeNimstrLit("\xC3\x85")}, {Field0: makeNimstrLit("\\j"), Field1: makeNimstrLit("\xC8\xB7")}, {Field0: makeNimstrLit("\\gimel"), Field1: makeNimstrLit("\xE2\x84\xB7")}, {Field0: makeNimstrLit("\\ell"), Field1: makeNimstrLit("\xE2\x84\x93")}, {Field0: makeNimstrLit("\\Re"), Field1: makeNimstrLit("\xE2\x84\x9C")}, {Field0: makeNimstrLit("\\ae"), Field1: makeNimstrLit("\xC3\xA6")}, {Field0: makeNimstrLit("\\daleth"), Field1: makeNimstrLit("\xE2\x84\xB8")}, {Field0: makeNimstrLit("\\hbar"), Field1: makeNimstrLit("\xE2\x84\x8F")}, {Field0: makeNimstrLit("\\real"), Field1: makeNimstrLit("\xE2\x84\x9C")}, {Field0: makeNimstrLit("\\AE"), Field1: makeNimstrLit("\xC3\x86")}, {Field0: makeNimstrLit("\\eth"), Field1: makeNimstrLit("\xC3\xB0")}, {Field0: makeNimstrLit("\\hslash"), Field1: makeNimstrLit("\xE2\x84\x8F")}, {Field0: makeNimstrLit("\\reals"), Field1: makeNimstrLit("R")}, {Field0: makeNimstrLit("\\oe"), Field1: makeNimstrLit("\xC5\x93")}];
-var punctuation_637534413 = [{Field0: makeNimstrLit(","), Field1: makeNimstrLit(",")}, {Field0: makeNimstrLit(":"), Field1: makeNimstrLit(":")}];
-var symbols_637534435 = [{Field0: makeNimstrLit("\\dots"), Field1: makeNimstrLit("\xE2\x80\xA6")}, {Field0: makeNimstrLit("\\KaTeX"), Field1: makeNimstrLit("K T X\x0A A E ")}, {Field0: makeNimstrLit("\\%"), Field1: makeNimstrLit("%")}, {Field0: makeNimstrLit("\\cdots"), Field1: makeNimstrLit("\xE2\x8B\xAF")}, {Field0: makeNimstrLit("\\LaTeX"), Field1: makeNimstrLit("L T X\x0A A E ")}, {Field0: makeNimstrLit("\\#"), Field1: makeNimstrLit("#")}, {Field0: makeNimstrLit("\\ddots"), Field1: makeNimstrLit("\xE2\x8B\xB1")}, {Field0: makeNimstrLit("\\TeX"), Field1: makeNimstrLit("T X\x0A E ")}, {Field0: makeNimstrLit("\\&"), Field1: makeNimstrLit("&")}, {Field0: makeNimstrLit("\\ldots"), Field1: makeNimstrLit("\xE2\x80\xA6")}, {Field0: makeNimstrLit("\\nabla"), Field1: makeNimstrLit("\xE2\x88\x87")}, {Field0: makeNimstrLit("\\_"), Field1: makeNimstrLit("_")}, {Field0: makeNimstrLit("\\vdots"), Field1: makeNimstrLit("\xE2\x8B\xAE")}, {Field0: makeNimstrLit("\\infty"), Field1: makeNimstrLit("\xE2\x88\x9E")}, {Field0: makeNimstrLit("\\textunderscore"), Field1: makeNimstrLit("_")}, {Field0: makeNimstrLit("\\dotsb"), Field1: makeNimstrLit("\xE2\x8B\xAF")}, {Field0: makeNimstrLit("\\infin"), Field1: makeNimstrLit("\xE2\x88\x9E")}, {Field0: makeNimstrLit("\\--"), Field1: makeNimstrLit("\xE2\x80\x93")}, {Field0: makeNimstrLit("\\dotsc"), Field1: makeNimstrLit("\xE2\x80\xA6")}, {Field0: makeNimstrLit("\\checkmark"), Field1: makeNimstrLit("\xE2\x9C\x93")}, {Field0: makeNimstrLit("\\textendash"), Field1: makeNimstrLit("\xE2\x80\x93")}, {Field0: makeNimstrLit("\\dotsi"), Field1: makeNimstrLit("\xE2\x8B\xAF")}, {Field0: makeNimstrLit("\\dag"), Field1: makeNimstrLit("\xE2\x80\xA0")}, {Field0: makeNimstrLit("\\---"), Field1: makeNimstrLit("\xE2\x80\x94")}, {Field0: makeNimstrLit("\\dotsm"), Field1: makeNimstrLit("\xE2\x8B\xAF")}, {Field0: makeNimstrLit("\\dagger"), Field1: makeNimstrLit("\xE2\x80\xA0")}, {Field0: makeNimstrLit("\\textemdash"), Field1: makeNimstrLit("\xE2\x80\x94")}, {Field0: makeNimstrLit("\\dotso"), Field1: makeNimstrLit("\xE2\x80\xA6")}, {Field0: makeNimstrLit("\\textdagger"), Field1: makeNimstrLit("\xE2\x80\xA0")}, {Field0: makeNimstrLit("\\textasciitilde"), Field1: makeNimstrLit("~")}, {Field0: makeNimstrLit("\\sdot"), Field1: makeNimstrLit("\xE2\x8B\x85")}, {Field0: makeNimstrLit("\\ddag"), Field1: makeNimstrLit("\xE2\x80\xA1")}, {Field0: makeNimstrLit("\\textasciicircum"), Field1: makeNimstrLit("^")}, {Field0: makeNimstrLit("\\mathellipsis"), Field1: makeNimstrLit("\xE2\x80\xA6")}, {Field0: makeNimstrLit("\\ddagger"), Field1: makeNimstrLit("\xE2\x80\xA1")}, {Field0: makeNimstrLit("`"), Field1: makeNimstrLit("\xE2\x80\x98")}, {Field0: makeNimstrLit("\\textellipsis"), Field1: makeNimstrLit("\xE2\x80\xA6")}, {Field0: makeNimstrLit("\\textdaggerdbl"), Field1: makeNimstrLit("\xE2\x80\xA1")}, {Field0: makeNimstrLit("\\textquoteleft"), Field1: makeNimstrLit("\xE2\x80\x98")}, {Field0: makeNimstrLit("\\Box"), Field1: makeNimstrLit("\xE2\x96\xA1")}, {Field0: makeNimstrLit("\\Dagger"), Field1: makeNimstrLit("\xE2\x80\xA1")}, {Field0: makeNimstrLit("\\lq"), Field1: makeNimstrLit("\xE2\x80\x98")}, {Field0: makeNimstrLit("\\square"), Field1: makeNimstrLit("\xE2\x96\xA1")}, {Field0: makeNimstrLit("\\angle"), Field1: makeNimstrLit("\xE2\x88\xA0")}, {Field0: makeNimstrLit("\\textquoteright"), Field1: makeNimstrLit("\xE2\x80\x99")}, {Field0: makeNimstrLit("\\blacksquare"), Field1: makeNimstrLit("\xE2\x96\xA0")}, {Field0: makeNimstrLit("\\measuredangle"), Field1: makeNimstrLit("\xE2\x88\xA1")}, {Field0: makeNimstrLit("\\rq"), Field1: makeNimstrLit("\xE2\x80\xB2")}, {Field0: makeNimstrLit("\\triangle"), Field1: makeNimstrLit("\xE2\x96\xB3")}, {Field0: makeNimstrLit("\\sphericalangle"), Field1: makeNimstrLit("\xE2\x88\xA2")}, {Field0: makeNimstrLit("\\textquotedblleft"), Field1: makeNimstrLit("\xE2\x80\x9C")}, {Field0: makeNimstrLit("\\triangledown"), Field1: makeNimstrLit("\xE2\x96\xBD")}, {Field0: makeNimstrLit("\\top"), Field1: makeNimstrLit("\xE2\x8A\xA4")}, {Field0: makeNimstrLit("\""), Field1: makeNimstrLit("\"")}, {Field0: makeNimstrLit("\\triangleleft"), Field1: makeNimstrLit("\xE2\x97\x83")}, {Field0: makeNimstrLit("\\bot"), Field1: makeNimstrLit("\xE2\x8A\xA5")}, {Field0: makeNimstrLit("\\textquotedblright"), Field1: makeNimstrLit("\xE2\x80\x9D")}, {Field0: makeNimstrLit("\\triangleright"), Field1: makeNimstrLit("\xE2\x96\xB9")}, {Field0: makeNimstrLit("\\$"), Field1: makeNimstrLit("$")}, {Field0: makeNimstrLit("\\colon"), Field1: makeNimstrLit(":")}, {Field0: makeNimstrLit("\\bigtriangledown"), Field1: makeNimstrLit("\xE2\x96\xBD")}, {Field0: makeNimstrLit("\\textdollar"), Field1: makeNimstrLit("$")}, {Field0: makeNimstrLit("\\backprime"), Field1: makeNimstrLit("\xE2\x80\xB5")}, {Field0: makeNimstrLit("\\bigtriangleup"), Field1: makeNimstrLit("\xE2\x96\xB3")}, {Field0: makeNimstrLit("\\pounds"), Field1: makeNimstrLit("\xC2\xA3")}, {Field0: makeNimstrLit("\\prime"), Field1: makeNimstrLit("\xE2\x80\xB2")}, {Field0: makeNimstrLit("\\blacktriangle"), Field1: makeNimstrLit("\xE2\x96\xB2")}, {Field0: makeNimstrLit("\\mathsterling"), Field1: makeNimstrLit("\xC2\xA3")}, {Field0: makeNimstrLit("\\textless"), Field1: makeNimstrLit("<")}, {Field0: makeNimstrLit("\\blacktriangledown"), Field1: makeNimstrLit("\xE2\x96\xBC")}, {Field0: makeNimstrLit("\\textsterling"), Field1: makeNimstrLit("\xC2\xA3")}, {Field0: makeNimstrLit("\\textgreater"), Field1: makeNimstrLit(">")}, {Field0: makeNimstrLit("\\blacktriangleleft"), Field1: makeNimstrLit("\xE2\x97\x80")}, {Field0: makeNimstrLit("\\yen"), Field1: makeNimstrLit("\xC2\xA5")}, {Field0: makeNimstrLit("\\textbar"), Field1: makeNimstrLit("|")}, {Field0: makeNimstrLit("\\blacktriangleright"), Field1: makeNimstrLit("\xE2\x96\xB6")}, {Field0: makeNimstrLit("\\surd"), Field1: makeNimstrLit("\xE2\x88\x9A")}, {Field0: makeNimstrLit("\\textbardbl"), Field1: makeNimstrLit("\xE2\x88\xA5")}, {Field0: makeNimstrLit("\\diamond"), Field1: makeNimstrLit("\xE2\x8B\x84")}, {Field0: makeNimstrLit("\\degree"), Field1: makeNimstrLit("\xC2\xB0")}, {Field0: makeNimstrLit("\\textbraceleft"), Field1: makeNimstrLit("{")}, {Field0: makeNimstrLit("\\Diamond"), Field1: makeNimstrLit("\xE2\x97\x8A")}, {Field0: makeNimstrLit("\\textdegree"), Field1: makeNimstrLit("\xC2\xB0")}, {Field0: makeNimstrLit("\\textbraceright"), Field1: makeNimstrLit("}")}, {Field0: makeNimstrLit("\\lozenge"), Field1: makeNimstrLit("\xE2\x97\x8A")}, {Field0: makeNimstrLit("\\mho"), Field1: makeNimstrLit("\xE2\x84\xA7")}, {Field0: makeNimstrLit("\\textbackslash"), Field1: makeNimstrLit("\\")}, {Field0: makeNimstrLit("\\blacklozenge"), Field1: makeNimstrLit("\xE2\xA7\xAB")}, {Field0: makeNimstrLit("\\diagdown"), Field1: makeNimstrLit("\xE2\x95\xB2")}, {Field0: makeNimstrLit("\\P"), Field1: makeNimstrLit("\xC2\xB6")}, {Field0: makeNimstrLit("\\star"), Field1: makeNimstrLit("\xE2\x8B\x86")}, {Field0: makeNimstrLit("\\diagup"), Field1: makeNimstrLit("\xE2\x95\xB1")}, {Field0: makeNimstrLit("\\S"), Field1: makeNimstrLit("\xC2\xA7")}, {Field0: makeNimstrLit("\\bigstar"), Field1: makeNimstrLit("\xE2\x98\x85")}, {Field0: makeNimstrLit("\\flat"), Field1: makeNimstrLit("\xE2\x99\xAD")}, {Field0: makeNimstrLit("\\sect"), Field1: makeNimstrLit("\xC2\xA7")}, {Field0: makeNimstrLit("\\clubsuit"), Field1: makeNimstrLit("\xE2\x99\xA3")}, {Field0: makeNimstrLit("\\natural"), Field1: makeNimstrLit("\xE2\x99\xAE")}, {Field0: makeNimstrLit("\\copyright"), Field1: makeNimstrLit("\xC2\xA9")}, {Field0: makeNimstrLit("\\clubs"), Field1: makeNimstrLit("\xE2\x99\xA3")}, {Field0: makeNimstrLit("\\sharp"), Field1: makeNimstrLit("\xE2\x99\xAF")}, {Field0: makeNimstrLit("\\circledR"), Field1: makeNimstrLit("\xC2\xAE")}, {Field0: makeNimstrLit("\\diamondsuit"), Field1: makeNimstrLit("\xE2\x99\xA2")}, {Field0: makeNimstrLit("\\heartsuit"), Field1: makeNimstrLit("\xE2\x99\xA1")}, {Field0: makeNimstrLit("\\textregistered"), Field1: makeNimstrLit("\xC2\xAE")}, {Field0: makeNimstrLit("\\diamonds"), Field1: makeNimstrLit("\xE2\x99\xA2")}, {Field0: makeNimstrLit("\\hearts"), Field1: makeNimstrLit("\xE2\x99\xA1")}, {Field0: makeNimstrLit("\\circledS"), Field1: makeNimstrLit("\xE2\x93\x88")}, {Field0: makeNimstrLit("\\spadesuit"), Field1: makeNimstrLit("\xE2\x99\xA0")}, {Field0: makeNimstrLit("\\spades"), Field1: makeNimstrLit("\xE2\x99\xA0")}, {Field0: makeNimstrLit("\\maltese"), Field1: makeNimstrLit("\xE2\x9C\xA0")}, {Field0: makeNimstrLit("\\minuso"), Field1: makeNimstrLit("\xE2\xA6\xB5")}];
-var textOperators_637534436 = [{Field0: makeNimstrLit("\\arcsin"), Field1: makeNimstrLit("arcsin")}, {Field0: makeNimstrLit("\\cosec"), Field1: makeNimstrLit("cosec")}, {Field0: makeNimstrLit("\\deg"), Field1: makeNimstrLit("deg")}, {Field0: makeNimstrLit("\\sec"), Field1: makeNimstrLit("sec")}, {Field0: makeNimstrLit("\\arccos"), Field1: makeNimstrLit("arccos")}, {Field0: makeNimstrLit("\\cosh"), Field1: makeNimstrLit("cosh")}, {Field0: makeNimstrLit("\\dim"), Field1: makeNimstrLit("dim")}, {Field0: makeNimstrLit("\\sin"), Field1: makeNimstrLit("sin")}, {Field0: makeNimstrLit("\\arctan"), Field1: makeNimstrLit("arctan")}, {Field0: makeNimstrLit("\\cot"), Field1: makeNimstrLit("cot")}, {Field0: makeNimstrLit("\\exp"), Field1: makeNimstrLit("exp")}, {Field0: makeNimstrLit("\\sinh"), Field1: makeNimstrLit("sinh")}, {Field0: makeNimstrLit("\\arctg"), Field1: makeNimstrLit("arctg")}, {Field0: makeNimstrLit("\\cotg"), Field1: makeNimstrLit("cotg")}, {Field0: makeNimstrLit("\\hom"), Field1: makeNimstrLit("hom")}, {Field0: makeNimstrLit("\\sh"), Field1: makeNimstrLit("sh")}, {Field0: makeNimstrLit("\\arcctg"), Field1: makeNimstrLit("arcctg")}, {Field0: makeNimstrLit("\\coth"), Field1: makeNimstrLit("coth")}, {Field0: makeNimstrLit("\\ker"), Field1: makeNimstrLit("ker")}, {Field0: makeNimstrLit("\\tan"), Field1: makeNimstrLit("tan")}, {Field0: makeNimstrLit("\\arg"), Field1: makeNimstrLit("arg")}, {Field0: makeNimstrLit("\\csc"), Field1: makeNimstrLit("csc")}, {Field0: makeNimstrLit("\\lg"), Field1: makeNimstrLit("lg")}, {Field0: makeNimstrLit("\\tanh"), Field1: makeNimstrLit("tanh")}, {Field0: makeNimstrLit("\\ch"), Field1: makeNimstrLit("ch")}, {Field0: makeNimstrLit("\\ctg"), Field1: makeNimstrLit("ctg")}, {Field0: makeNimstrLit("\\ln"), Field1: makeNimstrLit("ln")}, {Field0: makeNimstrLit("\\tg"), Field1: makeNimstrLit("tg")}, {Field0: makeNimstrLit("\\cos"), Field1: makeNimstrLit("cos")}, {Field0: makeNimstrLit("\\cth"), Field1: makeNimstrLit("cth")}, {Field0: makeNimstrLit("\\log"), Field1: makeNimstrLit("log")}, {Field0: makeNimstrLit("\\th"), Field1: makeNimstrLit("th")}, {Field0: makeNimstrLit("\\argmax"), Field1: makeNimstrLit("arg\xE2\x80\x89max")}, {Field0: makeNimstrLit("\\injlim"), Field1: makeNimstrLit("inj\xE2\x80\x89lim")}, {Field0: makeNimstrLit("\\min"), Field1: makeNimstrLit("min")}, {Field0: makeNimstrLit("\\argmin"), Field1: makeNimstrLit("arg\xE2\x80\x89min")}, {Field0: makeNimstrLit("\\lim"), Field1: makeNimstrLit("lim")}, {Field0: makeNimstrLit("\\plim"), Field1: makeNimstrLit("plim")}, {Field0: makeNimstrLit("\\det"), Field1: makeNimstrLit("det")}, {Field0: makeNimstrLit("\\liminf"), Field1: makeNimstrLit("lim inf")}, {Field0: makeNimstrLit("\\Pr"), Field1: makeNimstrLit("Pr")}, {Field0: makeNimstrLit("\\gcd"), Field1: makeNimstrLit("gcd")}, {Field0: makeNimstrLit("\\limsup"), Field1: makeNimstrLit("lim sup")}, {Field0: makeNimstrLit("\\projlim"), Field1: makeNimstrLit("proj lim")}, {Field0: makeNimstrLit("\\inf"), Field1: makeNimstrLit("inf")}, {Field0: makeNimstrLit("\\max"), Field1: makeNimstrLit("max")}, {Field0: makeNimstrLit("\\sup"), Field1: makeNimstrLit("sup")}];
-var simpleDiacritics_637534434 = [{Field0: makeNimstrLit("\\acute"), Field1: {Field0: makeNimstrLit("\xCC\x81"), Field1: makeNimstrLit("\xCB\x8F")}}, {Field0: makeNimstrLit("\\bar"), Field1: {Field0: makeNimstrLit("\xCC\x84"), Field1: makeNimstrLit("_")}}, {Field0: makeNimstrLit("\\breve"), Field1: {Field0: makeNimstrLit("\xCC\x86"), Field1: makeNimstrLit("\xE2\x8F\x91")}}, {Field0: makeNimstrLit("\\check"), Field1: {Field0: makeNimstrLit("\xCC\x8C"), Field1: makeNimstrLit("\xCB\x87")}}, {Field0: makeNimstrLit("\\dot"), Field1: {Field0: makeNimstrLit("\xCC\x87"), Field1: makeNimstrLit(".")}}, {Field0: makeNimstrLit("\\ddot"), Field1: {Field0: makeNimstrLit("\xCC\x88"), Field1: makeNimstrLit("\xC2\xA8")}}, {Field0: makeNimstrLit("\\grave"), Field1: {Field0: makeNimstrLit("\xCC\x80"), Field1: makeNimstrLit("\xCB\x8E")}}, {Field0: makeNimstrLit("\\hat"), Field1: {Field0: makeNimstrLit("\xCC\x82"), Field1: makeNimstrLit("\xEA\x9E\x88")}}, {Field0: makeNimstrLit("\\tilde"), Field1: {Field0: makeNimstrLit("\xCC\x83"), Field1: makeNimstrLit("\xCB\xB7")}}, {Field0: makeNimstrLit("\\vec"), Field1: {Field0: makeNimstrLit("\xE2\x83\x97"), Field1: makeNimstrLit("\xE2\x86\x92")}}];
 var ConstSet82 = setConstr(1);
 var ConstSet83 = setConstr(0);
 var ConstSet84 = setConstr(1);
-var ConstSet85 = setConstr(1);
-var ConstSet86 = setConstr(0);
+var ConstSet85 = setConstr(0);
+var ConstSet86 = setConstr(1);
 var ConstSet87 = setConstr(1);
-var ConstSet88 = setConstr(1);
+var ConstSet88 = setConstr(0);
 var ConstSet89 = setConstr(0);
+var ConstSet90 = setConstr(1);
+var ConstSet91 = setConstr(0);
+var ConstSet92 = setConstr(1);
+var ConstSet93 = setConstr(0);
+var ConstSet94 = setConstr(1);
+var ConstSet95 = setConstr(0);
+var ConstSet96 = setConstr(1);
+var ConstSet97 = setConstr(0);
+var ConstSet98 = setConstr(1);
+var ConstSet99 = setConstr(0);
+var ConstSet100 = setConstr(1);
+var ConstSet101 = setConstr(0);
+var ConstSet102 = setConstr(1);
+var ConstSet103 = setConstr(1);
 
 function divInt(a_33556953, b_33556954) {
         if (b_33556954 == 0) raiseDivByZero();
@@ -920,14 +935,6 @@ function divInt(a_33556953, b_33556954) {
 
   
 }
-    var alignFuncs_687866765 = [HEX3Aanonymous_687866753, HEX3Aanonymous_687866757, HEX3Aanonymous_687866761];
-var ConstSet90 = setConstr(1);
-var ConstSet91 = setConstr(1);
-var ConstSet92 = setConstr(0);
-var ConstSet93 = setConstr(1);
-var ConstSet94 = setConstr(1);
-var ConstSet95 = setConstr(0);
-var ConstSet96 = setConstr(0);
 
 function modInt(a_33556957, b_33556958) {
         if (b_33556958 == 0) raiseDivByZero();
@@ -937,48 +944,49 @@ function modInt(a_33556957, b_33556958) {
 
   
 }
-      var delimiterParts_620758385 = {data: [{Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 132032417, Field1: makeNimstrLit("\xE2\x88\xA5"), Field2: {Field0: makeNimstrLit("\xE2\x95\x91"), Field1: makeNimstrLit("\xE2\x95\x91"), Field2: makeNimstrLit("\xE2\x95\x91")}}, {Field0: 1632932802, Field1: makeNimstrLit("["), Field2: {Field0: makeNimstrLit("\xE2\x8E\xA1"), Field1: makeNimstrLit("\xE2\x8E\xA2"), Field2: makeNimstrLit("\xE2\x8E\xA3")}}, {Field0: -289087198, Field1: makeNimstrLit("\xE2\x9F\xA7"), Field2: {Field0: makeNimstrLit("\xE2\x95\x96"), Field1: makeNimstrLit("\xE2\x95\x91"), Field2: makeNimstrLit("\xE2\x95\x9C")}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: -436772347, Field1: makeNimstrLit(")"), Field2: {Field0: makeNimstrLit("\xE2\x8E\x9E"), Field1: makeNimstrLit("\xE2\x8E\x9F"), Field2: makeNimstrLit("\xE2\x8E\xA0")}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: -1827680438, Field1: makeNimstrLit("\xE2\x8C\x88"), Field2: {Field0: makeNimstrLit("\xE2\x8E\xA1"), Field1: makeNimstrLit("\xE2\x8E\xA2"), Field2: makeNimstrLit("\xE2\x8E\xA2")}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 501150701, Field1: makeNimstrLit("("), Field2: {Field0: makeNimstrLit("\xE2\x8E\x9B"), Field1: makeNimstrLit("\xE2\x8E\x9C"), Field2: makeNimstrLit("\xE2\x8E\x9D")}}, {Field0: 243936301, Field1: makeNimstrLit("\xE2\x8C\x8A"), Field2: {Field0: makeNimstrLit("\xE2\x8E\xA2"), Field1: makeNimstrLit("\xE2\x8E\xA2"), Field2: makeNimstrLit("\xE2\x8E\xA3")}}, {Field0: 1380037103, Field1: makeNimstrLit("\xE2\x9F\xA6"), Field2: {Field0: makeNimstrLit("\xE2\x95\x93"), Field1: makeNimstrLit("\xE2\x95\x91"), Field2: makeNimstrLit("\xE2\x95\x99")}}, {Field0: 1862135120, Field1: makeNimstrLit("]"), Field2: {Field0: makeNimstrLit("\xE2\x8E\xA4"), Field1: makeNimstrLit("\xE2\x8E\xA5"), Field2: makeNimstrLit("\xE2\x8E\xA6")}}, {Field0: -696588431, Field1: makeNimstrLit("\xE2\x8C\x8B"), Field2: {Field0: makeNimstrLit("\xE2\x8E\xA5"), Field1: makeNimstrLit("\xE2\x8E\xA5"), Field2: makeNimstrLit("\xE2\x8E\xA6")}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: -1377921419, Field1: makeNimstrLit("\xE2\x88\xA3"), Field2: {Field0: makeNimstrLit("\xE2\x94\x82"), Field1: makeNimstrLit("\xE2\x94\x82"), Field2: makeNimstrLit("\xE2\x94\x82")}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: -2091933701, Field1: makeNimstrLit("\xE2\x8C\x89"), Field2: {Field0: makeNimstrLit("\xE2\x8E\xA4"), Field1: makeNimstrLit("\xE2\x8E\xA5"), Field2: makeNimstrLit("\xE2\x8E\xA5")}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}], counter: 12};
-var ConstSet97 = setConstr(1);
-var ConstSet98 = setConstr(1);
-var ConstSet99 = setConstr(0);
-var ConstSet100 = setConstr(1);
-var ConstSet101 = setConstr(1);
-var ConstSet102 = setConstr(0);
-var ConstSet103 = setConstr(1);
+    var commands_637535932 = {data: [{Field0: 773313536, Field1: makeNimstrLit("between"), Field2: {rows: [makeNimstrLit("\xE2\x89\xAC")], baseline: 0, width: 1, flag: 2}}, {Field0: -1275910144, Field1: makeNimstrLit("varsupsetneq"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x8B")], baseline: 0, width: 1, flag: 2}}, {Field0: -1044255742, Field1: makeNimstrLit("boxdot"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xA1")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1805090809, Field1: makeNimstrLit("Complex"), Field2: {rows: [makeNimstrLit("C")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1296414729, Field1: makeNimstrLit("ddag"), Field2: {rows: [makeNimstrLit("\xE2\x80\xA1")], baseline: 0, width: 1, flag: 0}}, {Field0: -2143612919, Field1: makeNimstrLit("Box"), Field2: {rows: [makeNimstrLit("\xE2\x96\xA1")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 690548749, Field1: makeNimstrLit("tau"), Field2: {rows: [makeNimstrLit("\xCF\x84")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -949300208, Field1: makeNimstrLit("rho"), Field2: {rows: [makeNimstrLit("\xCF\x81")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 374125587, Field1: makeNimstrLit("nearrow"), Field2: {rows: [makeNimstrLit("\xE2\x86\x97")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1939687445, Field1: makeNimstrLit("hookrightarrow"), Field2: {rows: [makeNimstrLit("\xE2\x86\xAA")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -262745065, Field1: makeNimstrLit("bigstar"), Field2: {rows: [makeNimstrLit("\xE2\x98\x85")], baseline: 0, width: 1, flag: 0}}, {Field0: 638361624, Field1: makeNimstrLit("smallint"), Field2: {rows: [makeNimstrLit("\xE2\x88\xAB")], baseline: 0, width: 1, flag: 3}}, {Field0: 1181947928, Field1: makeNimstrLit("searrow"), Field2: {rows: [makeNimstrLit("\xE2\x86\x98")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1376556004, Field1: makeNimstrLit("LaTeX"), Field2: {rows: [makeNimstrLit("L T X"), makeNimstrLit(" A E ")], baseline: 0, width: 5, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1177595934, Field1: makeNimstrLit("oint"), Field2: {rows: [makeNimstrLit("\xE2\x88\xAE")], baseline: 0, width: 1, flag: 3}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -522425310, Field1: makeNimstrLit("geq"), Field2: {rows: [makeNimstrLit("\xE2\x89\xA5")], baseline: 0, width: 1, flag: 2}}, {Field0: 482634787, Field1: makeNimstrLit("neg"), Field2: {rows: [makeNimstrLit("\xC2\xAC")], baseline: 0, width: 1, flag: 2}}, {Field0: 699467812, Field1: makeNimstrLit("nvdash"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xAC")], baseline: 0, width: 1, flag: 2}}, {Field0: 385061925, Field1: makeNimstrLit("nabla"), Field2: {rows: [makeNimstrLit("\xE2\x88\x87")], baseline: 0, width: 1, flag: 0}}, {Field0: 1299890214, Field1: makeNimstrLit("subset"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x82")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1847849000, Field1: makeNimstrLit("varUpsilon"), Field2: {rows: [makeNimstrLit("\xCE\xA5")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -2128973781, Field1: makeNimstrLit("i"), Field2: {rows: [makeNimstrLit("\xC4\xB1")], baseline: 0, width: 1, flag: 1}}, {Field0: 1474680876, Field1: makeNimstrLit("uarr"), Field2: {rows: [makeNimstrLit("\xE2\x86\x91")], baseline: 0, width: 1, flag: 2}}, {Field0: -1454298068, Field1: makeNimstrLit("nprec"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x80")], baseline: 0, width: 1, flag: 2}}, {Field0: 598008878, Field1: makeNimstrLit("eqsim"), Field2: {rows: [makeNimstrLit("\xE2\x89\x82")], baseline: 0, width: 1, flag: 2}}, {Field0: 1714570287, Field1: makeNimstrLit("emptyset"), Field2: {rows: [makeNimstrLit("\xE2\x88\x85")], baseline: 0, width: 1, flag: 2}}, {Field0: 1088214061, Field1: makeNimstrLit("nu"), Field2: {rows: [makeNimstrLit("\xCE\xBD")], baseline: 0, width: 1, flag: 1}}, {Field0: 181399601, Field1: makeNimstrLit("circledcirc"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x9A")], baseline: 0, width: 1, flag: 2}}, {Field0: 444384306, Field1: makeNimstrLit("rightsquigarrow"), Field2: {rows: [makeNimstrLit("\xE2\x87\x9D")], baseline: 0, width: 1, flag: 2}}, {Field0: 174735408, Field1: makeNimstrLit("textdaggerdbl"), Field2: {rows: [makeNimstrLit("\xE2\x80\xA1")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -612250570, Field1: makeNimstrLit("Gamma"), Field2: {rows: [makeNimstrLit("\xCE\x93")], baseline: 0, width: 1, flag: 1}}, {Field0: 340107318, Field1: makeNimstrLit("argmin"), Field2: {rows: [makeNimstrLit("arg\xE2\x80\x89min")], baseline: 0, width: 7, flag: 4}}, {Field0: -1880859592, Field1: makeNimstrLit("Phi"), Field2: {rows: [makeNimstrLit("\xCE\xA6")], baseline: 0, width: 1, flag: 1}}, {Field0: -601339847, Field1: makeNimstrLit("prec"), Field2: {rows: [makeNimstrLit("\xE2\x89\xBA")], baseline: 0, width: 1, flag: 2}}, {Field0: 644534329, Field1: makeNimstrLit("omega"), Field2: {rows: [makeNimstrLit("\xCF\x89")], baseline: 0, width: 1, flag: 1}}, {Field0: 299158587, Field1: makeNimstrLit("looparrowright"), Field2: {rows: [makeNimstrLit("\xE2\x86\xAC")], baseline: 0, width: 1, flag: 2}}, {Field0: 1695671356, Field1: makeNimstrLit("mid"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA3")], baseline: 0, width: 1, flag: 2}}, {Field0: -1661594566, Field1: makeNimstrLit("lozenge"), Field2: {rows: [makeNimstrLit("\xE2\x97\x8A")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -965019585, Field1: makeNimstrLit("dotsb"), Field2: {rows: [makeNimstrLit("\xE2\x8B\xAF")], baseline: 0, width: 1, flag: 0}}, {Field0: -353695681, Field1: makeNimstrLit("cos"), Field2: {rows: [makeNimstrLit("cos")], baseline: 0, width: 3, flag: 4}}, {Field0: -337936319, Field1: makeNimstrLit("xi"), Field2: {rows: [makeNimstrLit("\xCE\xBE")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -482070460, Field1: makeNimstrLit("triangleq"), Field2: {rows: [makeNimstrLit("\xE2\x89\x9C")], baseline: 0, width: 1, flag: 2}}, {Field0: 1865025605, Field1: makeNimstrLit("upharpoonright"), Field2: {rows: [makeNimstrLit("\xE2\x86\xBE")], baseline: 0, width: 1, flag: 2}}, {Field0: -99402684, Field1: makeNimstrLit("llbracket"), Field2: {rows: [makeNimstrLit("\xE2\x9F\xA6")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -595749816, Field1: makeNimstrLit("Rrightarrow"), Field2: {rows: [makeNimstrLit("\xE2\x87\x9B")], baseline: 0, width: 1, flag: 2}}, {Field0: 444818505, Field1: makeNimstrLit("twoheadleftarrow"), Field2: {rows: [makeNimstrLit("\xE2\x86\x9E")], baseline: 0, width: 1, flag: 2}}, {Field0: 949833801, Field1: makeNimstrLit("dashv"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xA3")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 731926604, Field1: makeNimstrLit("Rho"), Field2: {rows: [makeNimstrLit("P")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -152946609, Field1: makeNimstrLit("Lrarr"), Field2: {rows: [makeNimstrLit("\xE2\x87\x94")], baseline: 0, width: 1, flag: 2}}, {Field0: 999038032, Field1: makeNimstrLit("models"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xA8")], baseline: 0, width: 1, flag: 2}}, {Field0: 856149071, Field1: makeNimstrLit("liminf"), Field2: {rows: [makeNimstrLit("lim inf")], baseline: 0, width: 7, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 260524116, Field1: makeNimstrLit("div"), Field2: {rows: [makeNimstrLit("\xC3\xB7")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1743740842, Field1: makeNimstrLit("varsigma"), Field2: {rows: [makeNimstrLit("\xCF\x82")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 152217691, Field1: makeNimstrLit("to"), Field2: {rows: [makeNimstrLit("\xE2\x86\x92")], baseline: 0, width: 1, flag: 2}}, {Field0: -232435621, Field1: makeNimstrLit("leftrightarrows"), Field2: {rows: [makeNimstrLit("\xE2\x87\x86")], baseline: 0, width: 1, flag: 2}}, {Field0: -1894549413, Field1: makeNimstrLit("gimel"), Field2: {rows: [makeNimstrLit("\xE2\x84\xB7")], baseline: 0, width: 1, flag: 1}}, {Field0: -977484706, Field1: makeNimstrLit("textunderscore"), Field2: {rows: [makeNimstrLit("_")], baseline: 0, width: 1, flag: 0}}, {Field0: -653542309, Field1: makeNimstrLit("hom"), Field2: {rows: [makeNimstrLit("hom")], baseline: 0, width: 3, flag: 4}}, {Field0: -836744096, Field1: makeNimstrLit("leftleftarrows"), Field2: {rows: [makeNimstrLit("\xE2\x87\x87")], baseline: 0, width: 1, flag: 2}}, {Field0: 778788961, Field1: makeNimstrLit("bigvee"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x81")], baseline: 0, width: 1, flag: 3}}, {Field0: 213332064, Field1: makeNimstrLit("precsim"), Field2: {rows: [makeNimstrLit("\xE2\x89\xBE")], baseline: 0, width: 1, flag: 2}}, {Field0: 727641187, Field1: makeNimstrLit("minuscoloncolon"), Field2: {rows: [makeNimstrLit("::: :, \xE2\x88\x92\xE2\x88\xB7")], baseline: 0, width: 9, flag: 2}}, {Field0: -561121181, Field1: makeNimstrLit("backsim"), Field2: {rows: [makeNimstrLit("\xE2\x88\xBD")], baseline: 0, width: 1, flag: 2}}, {Field0: 282381413, Field1: makeNimstrLit("gneq"), Field2: {rows: [makeNimstrLit("\xE2\xAA\x88")], baseline: 0, width: 1, flag: 2}}, {Field0: 460405857, Field1: makeNimstrLit("Vert"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA5")], baseline: 0, width: 1, flag: 0}}, {Field0: 1072275553, Field1: makeNimstrLit("AA"), Field2: {rows: [makeNimstrLit("\xC3\x85")], baseline: 0, width: 1, flag: 1}}, {Field0: 259182696, Field1: makeNimstrLit("gt"), Field2: {rows: [makeNimstrLit(">")], baseline: 0, width: 1, flag: 2}}, {Field0: -510372764, Field1: makeNimstrLit("---"), Field2: {rows: [makeNimstrLit("\xE2\x80\x94")], baseline: 0, width: 1, flag: 0}}, {Field0: 1338973290, Field1: makeNimstrLit("vdots"), Field2: {rows: [makeNimstrLit("\xE2\x8B\xAE")], baseline: 0, width: 1, flag: 0}}, {Field0: 749951083, Field1: makeNimstrLit("eta"), Field2: {rows: [makeNimstrLit("\xCE\xB7")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1938319251, Field1: makeNimstrLit("oiiint"), Field2: {rows: [makeNimstrLit("\xE2\x88\xB0")], baseline: 0, width: 1, flag: 3}}, {Field0: 1672714350, Field1: makeNimstrLit("unrhd"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xB5")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -587095952, Field1: makeNimstrLit("ntrianglelefteq"), Field2: {rows: [makeNimstrLit("\xE2\x8B\xAC")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1364552818, Field1: makeNimstrLit("notin"), Field2: {rows: [makeNimstrLit("\xE2\x88\x89")], baseline: 0, width: 1, flag: 2}}, {Field0: -718976910, Field1: makeNimstrLit("Sigma"), Field2: {rows: [makeNimstrLit("\xCE\xA3")], baseline: 0, width: 1, flag: 1}}, {Field0: -331592588, Field1: makeNimstrLit("lbrace"), Field2: {rows: [makeNimstrLit("{")], baseline: 0, width: 1, flag: 0}}, {Field0: -2046516107, Field1: makeNimstrLit("rArr"), Field2: {rows: [makeNimstrLit("\xE2\x87\x92")], baseline: 0, width: 1, flag: 2}}, {Field0: -1988400011, Field1: makeNimstrLit("gnapprox"), Field2: {rows: [makeNimstrLit("\xE2\xAA\x8A")], baseline: 0, width: 1, flag: 2}}, {Field0: 1748272243, Field1: makeNimstrLit("o"), Field2: {rows: [makeNimstrLit("\xC3\xB8")], baseline: 0, width: 1, flag: 1}}, {Field0: 312313973, Field1: makeNimstrLit("dotsi"), Field2: {rows: [makeNimstrLit("\xE2\x8B\xAF")], baseline: 0, width: 1, flag: 0}}, {Field0: 19161209, Field1: makeNimstrLit("ddagger"), Field2: {rows: [makeNimstrLit("\xE2\x80\xA1")], baseline: 0, width: 1, flag: 0}}, {Field0: -1893200774, Field1: makeNimstrLit("ln"), Field2: {rows: [makeNimstrLit("ln")], baseline: 0, width: 2, flag: 4}}, {Field0: -100797317, Field1: makeNimstrLit("downdownarrows"), Field2: {rows: [makeNimstrLit("\xE2\x87\x8A")], baseline: 0, width: 1, flag: 2}}, {Field0: -1755413380, Field1: makeNimstrLit("subsetneqq"), Field2: {rows: [makeNimstrLit("\xE2\xAB\x8B")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -2084440962, Field1: makeNimstrLit("parallel"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA5")], baseline: 0, width: 1, flag: 2}}, {Field0: 977130622, Field1: makeNimstrLit("gamma"), Field2: {rows: [makeNimstrLit("\xCE\xB3")], baseline: 0, width: 1, flag: 1}}, {Field0: 1135297664, Field1: makeNimstrLit("uArr"), Field2: {rows: [makeNimstrLit("\xE2\x87\x91")], baseline: 0, width: 1, flag: 2}}, {Field0: -296721281, Field1: makeNimstrLit("ddots"), Field2: {rows: [makeNimstrLit("\xE2\x8B\xB1")], baseline: 0, width: 1, flag: 0}}, {Field0: -222212994, Field1: makeNimstrLit("clubs"), Field2: {rows: [makeNimstrLit("\xE2\x99\xA3")], baseline: 0, width: 1, flag: 0}}, {Field0: -1164247933, Field1: makeNimstrLit("boxplus"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x9E")], baseline: 0, width: 1, flag: 2}}, {Field0: 1514094724, Field1: makeNimstrLit("dagger"), Field2: {rows: [makeNimstrLit("\xE2\x80\xA0")], baseline: 0, width: 1, flag: 0}}, {Field0: 1311469697, Field1: makeNimstrLit("cotg"), Field2: {rows: [makeNimstrLit("cotg")], baseline: 0, width: 4, flag: 4}}, {Field0: 490725510, Field1: makeNimstrLit("because"), Field2: {rows: [makeNimstrLit("\xE2\x88\xB5")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 966588552, Field1: makeNimstrLit("leftarrow"), Field2: {rows: [makeNimstrLit("\xE2\x86\x90")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -999892852, Field1: makeNimstrLit("ne"), Field2: {rows: [makeNimstrLit("\xE2\x89\xA0")], baseline: 0, width: 1, flag: 2}}, {Field0: -1858303860, Field1: makeNimstrLit("iota"), Field2: {rows: [makeNimstrLit("\xCE\xB9")], baseline: 0, width: 1, flag: 1}}, {Field0: 1746366604, Field1: makeNimstrLit("rq"), Field2: {rows: [makeNimstrLit("\xE2\x80\xB2")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 619178129, Field1: makeNimstrLit("&"), Field2: {rows: [makeNimstrLit("&")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 732241043, Field1: makeNimstrLit("doteq"), Field2: {rows: [makeNimstrLit("\xE2\x89\x90")], baseline: 0, width: 1, flag: 2}}, {Field0: 58222740, Field1: makeNimstrLit("sh"), Field2: {rows: [makeNimstrLit("sh")], baseline: 0, width: 2, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -797167466, Field1: makeNimstrLit("gtreqqless"), Field2: {rows: [makeNimstrLit("\xE2\xAA\x8C")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1171929957, Field1: makeNimstrLit("--"), Field2: {rows: [makeNimstrLit("\xE2\x80\x93")], baseline: 0, width: 1, flag: 0}}, {Field0: -1089103717, Field1: makeNimstrLit("blacktriangleleft"), Field2: {rows: [makeNimstrLit("\xE2\x97\x80")], baseline: 0, width: 1, flag: 0}}, {Field0: 1035649181, Field1: makeNimstrLit("Z"), Field2: {rows: [makeNimstrLit("Z")], baseline: 0, width: 1, flag: 1}}, {Field0: -2091908962, Field1: makeNimstrLit("gtreqless"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x9B")], baseline: 0, width: 1, flag: 2}}, {Field0: 965928095, Field1: makeNimstrLit("Delta"), Field2: {rows: [makeNimstrLit("\xCE\x94")], baseline: 0, width: 1, flag: 1}}, {Field0: -420720480, Field1: makeNimstrLit("textasciitilde"), Field2: {rows: [makeNimstrLit("~")], baseline: 0, width: 1, flag: 0}}, {Field0: -778712927, Field1: makeNimstrLit("Join"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x88")], baseline: 0, width: 1, flag: 2}}, {Field0: -1789499230, Field1: makeNimstrLit("Leftarrow"), Field2: {rows: [makeNimstrLit("\xE2\x87\x90")], baseline: 0, width: 1, flag: 2}}, {Field0: 1590319267, Field1: makeNimstrLit("ominus"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x96")], baseline: 0, width: 1, flag: 2}}, {Field0: 1997743268, Field1: makeNimstrLit("lt"), Field2: {rows: [makeNimstrLit("<")], baseline: 0, width: 1, flag: 2}}, {Field0: -1355677533, Field1: makeNimstrLit("reals"), Field2: {rows: [makeNimstrLit("R")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -523187031, Field1: makeNimstrLit("iint"), Field2: {rows: [makeNimstrLit("\xE2\x88\xAC")], baseline: 0, width: 1, flag: 3}}, {Field0: -1036495703, Field1: makeNimstrLit("bigsqcup"), Field2: {rows: [makeNimstrLit("\xE2\xA8\x86")], baseline: 0, width: 1, flag: 3}}, {Field0: 128442538, Field1: makeNimstrLit("cosh"), Field2: {rows: [makeNimstrLit("cosh")], baseline: 0, width: 4, flag: 4}}, {Field0: -2114553684, Field1: makeNimstrLit("textellipsis"), Field2: {rows: [makeNimstrLit("\xE2\x80\xA6")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1448098991, Field1: makeNimstrLit("lessapprox"), Field2: {rows: [makeNimstrLit("\xE2\xAA\x85")], baseline: 0, width: 1, flag: 2}}, {Field0: -1900930897, Field1: makeNimstrLit("precnapprox"), Field2: {rows: [makeNimstrLit("\xE2\xAA\xB9")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1279032140, Field1: makeNimstrLit("mapsto"), Field2: {rows: [makeNimstrLit("\xE2\x86\xA6")], baseline: 0, width: 1, flag: 2}}, {Field0: 659410101, Field1: makeNimstrLit("biguplus"), Field2: {rows: [makeNimstrLit("\xE2\xA8\x84")], baseline: 0, width: 1, flag: 3}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 561724599, Field1: makeNimstrLit("lesseqqgtr"), Field2: {rows: [makeNimstrLit("\xE2\xAA\x8B")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1809787065, Field1: makeNimstrLit("amalg"), Field2: {rows: [makeNimstrLit("\xE2\xA8\xBF")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -37402437, Field1: makeNimstrLit("sum"), Field2: {rows: [makeNimstrLit("\xE2\x88\x91")], baseline: 0, width: 1, flag: 3}}, {Field0: 1885254844, Field1: makeNimstrLit("lor"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA8")], baseline: 0, width: 1, flag: 2}}, {Field0: -1271205699, Field1: makeNimstrLit("harr"), Field2: {rows: [makeNimstrLit("\xE2\x86\x94")], baseline: 0, width: 1, flag: 2}}, {Field0: -9535301, Field1: makeNimstrLit("rrbracket"), Field2: {rows: [makeNimstrLit("\xE2\x9F\xA7")], baseline: 0, width: 1, flag: 0}}, {Field0: 784871615, Field1: makeNimstrLit("nleftrightarrow"), Field2: {rows: [makeNimstrLit("\xE2\x86\xAE")], baseline: 0, width: 1, flag: 2}}, {Field0: 1326387387, Field1: makeNimstrLit("csc"), Field2: {rows: [makeNimstrLit("csc")], baseline: 0, width: 3, flag: 4}}, {Field0: -1490766655, Field1: makeNimstrLit("textquoteleft"), Field2: {rows: [makeNimstrLit("\xE2\x80\x98")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -422736700, Field1: makeNimstrLit("oslash"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x98")], baseline: 0, width: 1, flag: 2}}, {Field0: 1286160581, Field1: makeNimstrLit("bigcirc"), Field2: {rows: [makeNimstrLit("\xE2\x97\xAF")], baseline: 0, width: 1, flag: 2}}, {Field0: 239622342, Field1: makeNimstrLit("twoheadrightarrow"), Field2: {rows: [makeNimstrLit("\xE2\x86\xA0")], baseline: 0, width: 1, flag: 2}}, {Field0: -142582585, Field1: makeNimstrLit("land"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA7")], baseline: 0, width: 1, flag: 2}}, {Field0: -108495675, Field1: makeNimstrLit("upuparrows"), Field2: {rows: [makeNimstrLit("\xE2\x87\x88")], baseline: 0, width: 1, flag: 2}}, {Field0: 1882464453, Field1: makeNimstrLit("pitchfork"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x94")], baseline: 0, width: 1, flag: 2}}, {Field0: 695680199, Field1: makeNimstrLit("nsucc"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x81")], baseline: 0, width: 1, flag: 2}}, {Field0: 1379611846, Field1: makeNimstrLit("nsupseteq"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x89")], baseline: 0, width: 1, flag: 2}}, {Field0: 1519946951, Field1: makeNimstrLit("dotso"), Field2: {rows: [makeNimstrLit("\xE2\x80\xA6")], baseline: 0, width: 1, flag: 0}}, {Field0: 1121218765, Field1: makeNimstrLit("rightthreetimes"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x8C")], baseline: 0, width: 1, flag: 2}}, {Field0: -1661306674, Field1: makeNimstrLit("Bumpeq"), Field2: {rows: [makeNimstrLit("\xE2\x89\x8E")], baseline: 0, width: 1, flag: 2}}, {Field0: -1584718641, Field1: makeNimstrLit("Doteq"), Field2: {rows: [makeNimstrLit("\xE2\x89\x91")], baseline: 0, width: 1, flag: 2}}, {Field0: 2014841039, Field1: makeNimstrLit("succneqq"), Field2: {rows: [makeNimstrLit("\xE2\xAA\xB6")], baseline: 0, width: 1, flag: 2}}, {Field0: -159647535, Field1: makeNimstrLit("upsilon"), Field2: {rows: [makeNimstrLit("\xCF\x85")], baseline: 0, width: 1, flag: 1}}, {Field0: 1363198162, Field1: makeNimstrLit("curlyeqsucc"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x9F")], baseline: 0, width: 1, flag: 2}}, {Field0: -884689710, Field1: makeNimstrLit("vartheta"), Field2: {rows: [makeNimstrLit("\xCF\x91")], baseline: 0, width: 1, flag: 1}}, {Field0: -1843728178, Field1: makeNimstrLit("colon"), Field2: {rows: [makeNimstrLit(":")], baseline: 0, width: 1, flag: 0}}, {Field0: -1445616431, Field1: makeNimstrLit("surd"), Field2: {rows: [makeNimstrLit("\xE2\x88\x9A")], baseline: 0, width: 1, flag: 0}}, {Field0: 457960649, Field1: makeNimstrLit("textbackslash"), Field2: {rows: [makeNimstrLit("\\")], baseline: 0, width: 1, flag: 0}}, {Field0: -435545897, Field1: makeNimstrLit("longrightarrow"), Field2: {rows: [makeNimstrLit("\xE2\x9F\xB6")], baseline: 0, width: 1, flag: 2}}, {Field0: -1222909744, Field1: makeNimstrLit("sect"), Field2: {rows: [makeNimstrLit("\xC2\xA7")], baseline: 0, width: 1, flag: 0}}, {Field0: -2121057065, Field1: makeNimstrLit("sin"), Field2: {rows: [makeNimstrLit("sin")], baseline: 0, width: 3, flag: 4}}, {Field0: -1726815019, Field1: makeNimstrLit("cth"), Field2: {rows: [makeNimstrLit("cth")], baseline: 0, width: 3, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 979290334, Field1: makeNimstrLit("dots"), Field2: {rows: [makeNimstrLit("\xE2\x80\xA6")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1312209120, Field1: makeNimstrLit("ldotp"), Field2: {rows: [makeNimstrLit(".")], baseline: 0, width: 1, flag: 2}}, {Field0: 861523169, Field1: makeNimstrLit("approxcolon"), Field2: {rows: [makeNimstrLit("\xE2\x89\x88:")], baseline: 0, width: 2, flag: 2}}, {Field0: 2048828642, Field1: makeNimstrLit("upharpoonleft"), Field2: {rows: [makeNimstrLit("\xE2\x86\xBF")], baseline: 0, width: 1, flag: 2}}, {Field0: -1199991581, Field1: makeNimstrLit("tg"), Field2: {rows: [makeNimstrLit("tg")], baseline: 0, width: 2, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1893927147, Field1: makeNimstrLit("gtrdot"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x97")], baseline: 0, width: 1, flag: 2}}, {Field0: -1959936789, Field1: makeNimstrLit("succeq"), Field2: {rows: [makeNimstrLit("\xE2\xAA\xB0")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 2132660463, Field1: makeNimstrLit("lrarr"), Field2: {rows: [makeNimstrLit("\xE2\x86\x94")], baseline: 0, width: 1, flag: 2}}, {Field0: 488165615, Field1: makeNimstrLit("top"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xA4")], baseline: 0, width: 1, flag: 0}}, {Field0: -606145295, Field1: makeNimstrLit("ll"), Field2: {rows: [makeNimstrLit("\xE2\x89\xAA")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1807494389, Field1: makeNimstrLit("diamonds"), Field2: {rows: [makeNimstrLit("\xE2\x99\xA2")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 192740599, Field1: makeNimstrLit("succapprox"), Field2: {rows: [makeNimstrLit("\xE2\xAA\xB8")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -560628486, Field1: makeNimstrLit("min"), Field2: {rows: [makeNimstrLit("min")], baseline: 0, width: 3, flag: 4}}, {Field0: 1285704955, Field1: makeNimstrLit("longleftrightarrow"), Field2: {rows: [makeNimstrLit("\xE2\x9F\xB7")], baseline: 0, width: 1, flag: 2}}, {Field0: 1234765051, Field1: makeNimstrLit("inf"), Field2: {rows: [makeNimstrLit("inf")], baseline: 0, width: 3, flag: 4}}, {Field0: -978306819, Field1: makeNimstrLit("projlim"), Field2: {rows: [makeNimstrLit("proj lim")], baseline: 0, width: 8, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1846918907, Field1: makeNimstrLit("impliedby"), Field2: {rows: [makeNimstrLit("\xE2\x9F\xB8")], baseline: 0, width: 1, flag: 2}}, {Field0: -1475488507, Field1: makeNimstrLit("Lleftarrow"), Field2: {rows: [makeNimstrLit("\xE2\x87\x9A")], baseline: 0, width: 1, flag: 2}}, {Field0: 1549492486, Field1: makeNimstrLit("equalscolon"), Field2: {rows: [makeNimstrLit("\xE2\x89\x95")], baseline: 0, width: 1, flag: 2}}, {Field0: -1609219833, Field1: makeNimstrLit("blacksquare"), Field2: {rows: [makeNimstrLit("\xE2\x96\xA0")], baseline: 0, width: 1, flag: 0}}, {Field0: 1089001737, Field1: makeNimstrLit("Supset"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x91")], baseline: 0, width: 1, flag: 2}}, {Field0: -989102838, Field1: makeNimstrLit("preceq"), Field2: {rows: [makeNimstrLit("\xE2\xAA\xAF")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1645364493, Field1: makeNimstrLit("rightarrow"), Field2: {rows: [makeNimstrLit("\xE2\x86\x92")], baseline: 0, width: 1, flag: 2}}, {Field0: -1458530034, Field1: makeNimstrLit("vartriangleright"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xB3")], baseline: 0, width: 1, flag: 2}}, {Field0: 1612016911, Field1: makeNimstrLit("bigoplus"), Field2: {rows: [makeNimstrLit("\xE2\xA8\x81")], baseline: 0, width: 1, flag: 3}}, {Field0: 491266320, Field1: makeNimstrLit("lessdot"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x96")], baseline: 0, width: 1, flag: 2}}, {Field0: 131900689, Field1: makeNimstrLit("in"), Field2: {rows: [makeNimstrLit("\xE2\x88\x88")], baseline: 0, width: 1, flag: 2}}, {Field0: -359701233, Field1: makeNimstrLit("dag"), Field2: {rows: [makeNimstrLit("\xE2\x80\xA0")], baseline: 0, width: 1, flag: 0}}, {Field0: -187569904, Field1: makeNimstrLit("cot"), Field2: {rows: [makeNimstrLit("cot")], baseline: 0, width: 3, flag: 4}}, {Field0: -1545899756, Field1: makeNimstrLit("Game"), Field2: {rows: [makeNimstrLit("\xE2\x85\x81")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1835041046, Field1: makeNimstrLit("ntrianglerighteq"), Field2: {rows: [makeNimstrLit("\xE2\x8B\xAD")], baseline: 0, width: 1, flag: 2}}, {Field0: 1895304471, Field1: makeNimstrLit("gg"), Field2: {rows: [makeNimstrLit("\xE2\x89\xAB")], baseline: 0, width: 1, flag: 2}}, {Field0: -1002856168, Field1: makeNimstrLit("exists"), Field2: {rows: [makeNimstrLit("\xE2\x88\x83")], baseline: 0, width: 1, flag: 2}}, {Field0: 1855977753, Field1: makeNimstrLit("barwedge"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xBC")], baseline: 0, width: 1, flag: 2}}, {Field0: -13362922, Field1: makeNimstrLit("varPhi"), Field2: {rows: [makeNimstrLit("\xCE\xA6")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1924908771, Field1: makeNimstrLit("Colonsim"), Field2: {rows: [makeNimstrLit("\xE2\x88\xB7\xE2\x88\xBC")], baseline: 0, width: 2, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1350079776, Field1: makeNimstrLit("ctg"), Field2: {rows: [makeNimstrLit("ctg")], baseline: 0, width: 3, flag: 4}}, {Field0: -419504863, Field1: makeNimstrLit("rightarrowtail"), Field2: {rows: [makeNimstrLit("\xE2\x86\xA3")], baseline: 0, width: 1, flag: 2}}, {Field0: -1088790238, Field1: makeNimstrLit("pm"), Field2: {rows: [makeNimstrLit("\xC2\xB1")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1071612201, Field1: makeNimstrLit("oiint"), Field2: {rows: [makeNimstrLit("\xE2\x88\xAF")], baseline: 0, width: 1, flag: 3}}, {Field0: -1023749846, Field1: makeNimstrLit("leq"), Field2: {rows: [makeNimstrLit("\xE2\x89\xA4")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -2009879247, Field1: makeNimstrLit("unlhd"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xB4")], baseline: 0, width: 1, flag: 2}}, {Field0: 627659057, Field1: makeNimstrLit("Lambda"), Field2: {rows: [makeNimstrLit("\xCE\x9B")], baseline: 0, width: 1, flag: 1}}, {Field0: -1787755213, Field1: makeNimstrLit("oplus"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x95")], baseline: 0, width: 1, flag: 2}}, {Field0: -184680143, Field1: makeNimstrLit("triangleright"), Field2: {rows: [makeNimstrLit("\xE2\x96\xB9")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1440444105, Field1: makeNimstrLit("bigwedge"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x80")], baseline: 0, width: 1, flag: 3}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -760926919, Field1: makeNimstrLit("diagdown"), Field2: {rows: [makeNimstrLit("\xE2\x95\xB2")], baseline: 0, width: 1, flag: 0}}, {Field0: 535853370, Field1: makeNimstrLit("iiint"), Field2: {rows: [makeNimstrLit("\xE2\x88\xAD")], baseline: 0, width: 1, flag: 3}}, {Field0: 1989892411, Field1: makeNimstrLit("cap"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA9")], baseline: 0, width: 1, flag: 2}}, {Field0: -1078095557, Field1: makeNimstrLit("ngeqslant"), Field2: {rows: [makeNimstrLit("\xE2\x89\xB1")], baseline: 0, width: 1, flag: 2}}, {Field0: -407561924, Field1: makeNimstrLit("arcsin"), Field2: {rows: [makeNimstrLit("arcsin")], baseline: 0, width: 6, flag: 4}}, {Field0: -490111682, Field1: makeNimstrLit("curlywedge"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x8F")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1772874048, Field1: makeNimstrLit("mod"), Field2: {rows: [makeNimstrLit("bmod")], baseline: 0, width: 4, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1858042554, Field1: makeNimstrLit("square"), Field2: {rows: [makeNimstrLit("\xE2\x96\xA1")], baseline: 0, width: 1, flag: 0}}, {Field0: -1357095609, Field1: makeNimstrLit("uparrow"), Field2: {rows: [makeNimstrLit("\xE2\x86\x91")], baseline: 0, width: 1, flag: 2}}, {Field0: -52651705, Field1: makeNimstrLit("Diamond"), Field2: {rows: [makeNimstrLit("\xE2\x97\x8A")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -817700533, Field1: makeNimstrLit("sqsupseteq"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x92")], baseline: 0, width: 1, flag: 2}}, {Field0: -1135570613, Field1: makeNimstrLit("multimap"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xB8")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -30619314, Field1: makeNimstrLit("therefore"), Field2: {rows: [makeNimstrLit("\xE2\x88\xB4")], baseline: 0, width: 1, flag: 2}}, {Field0: 55854415, Field1: makeNimstrLit("smallsmile"), Field2: {rows: [makeNimstrLit("\xE2\x8C\xA3")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 468669778, Field1: makeNimstrLit("isin"), Field2: {rows: [makeNimstrLit("\xE2\x88\x88")], baseline: 0, width: 1, flag: 2}}, {Field0: -1293458094, Field1: makeNimstrLit("restriction"), Field2: {rows: [makeNimstrLit("\xE2\x86\xBE")], baseline: 0, width: 1, flag: 2}}, {Field0: 179645778, Field1: makeNimstrLit("Longleftarrow"), Field2: {rows: [makeNimstrLit("\xE2\x9F\xB8")], baseline: 0, width: 1, flag: 2}}, {Field0: -970868397, Field1: makeNimstrLit("sube"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x86")], baseline: 0, width: 1, flag: 2}}, {Field0: 125073749, Field1: makeNimstrLit("nsupseteqq"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x89")], baseline: 0, width: 1, flag: 2}}, {Field0: 353154387, Field1: makeNimstrLit("ntriangleleft"), Field2: {rows: [makeNimstrLit("\xE2\x8B\xAA")], baseline: 0, width: 1, flag: 2}}, {Field0: -1536889512, Field1: makeNimstrLit("succsim"), Field2: {rows: [makeNimstrLit("\xE2\x89\xBF")], baseline: 0, width: 1, flag: 2}}, {Field0: -1381979816, Field1: makeNimstrLit("neq"), Field2: {rows: [makeNimstrLit("\xE2\x89\xA0")], baseline: 0, width: 1, flag: 2}}, {Field0: 9375058, Field1: makeNimstrLit("Re"), Field2: {rows: [makeNimstrLit("\xE2\x84\x9C")], baseline: 0, width: 1, flag: 1}}, {Field0: -1778153125, Field1: makeNimstrLit("And"), Field2: {rows: [makeNimstrLit("&")], baseline: 0, width: 1, flag: 2}}, {Field0: 2108854619, Field1: makeNimstrLit("aleph"), Field2: {rows: [makeNimstrLit("\xE2\x84\xB5")], baseline: 0, width: 1, flag: 1}}, {Field0: -727795363, Field1: makeNimstrLit("boxtimes"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xA0")], baseline: 0, width: 1, flag: 2}}, {Field0: 1245973854, Field1: makeNimstrLit("Larr"), Field2: {rows: [makeNimstrLit("\xE2\x87\x90")], baseline: 0, width: 1, flag: 2}}, {Field0: -1574408866, Field1: makeNimstrLit("lArr"), Field2: {rows: [makeNimstrLit("\xE2\x87\x90")], baseline: 0, width: 1, flag: 2}}, {Field0: -722184869, Field1: makeNimstrLit("AE"), Field2: {rows: [makeNimstrLit("\xC3\x86")], baseline: 0, width: 1, flag: 1}}, {Field0: -996418216, Field1: makeNimstrLit("infin"), Field2: {rows: [makeNimstrLit("\xE2\x88\x9E")], baseline: 0, width: 1, flag: 0}}, {Field0: 940000598, Field1: makeNimstrLit("Dagger"), Field2: {rows: [makeNimstrLit("\xE2\x80\xA1")], baseline: 0, width: 1, flag: 0}}, {Field0: 432784739, Field1: makeNimstrLit("varDelta"), Field2: {rows: [makeNimstrLit("\xCE\x94")], baseline: 0, width: 1, flag: 1}}, {Field0: 1717310812, Field1: makeNimstrLit("yen"), Field2: {rows: [makeNimstrLit("\xC2\xA5")], baseline: 0, width: 1, flag: 0}}, {Field0: 1287358821, Field1: makeNimstrLit("varTheta"), Field2: {rows: [makeNimstrLit("\xCE\x98")], baseline: 0, width: 1, flag: 1}}, {Field0: -140368539, Field1: makeNimstrLit("blacktriangle"), Field2: {rows: [makeNimstrLit("\xE2\x96\xB2")], baseline: 0, width: 1, flag: 0}}, {Field0: 1128273242, Field1: makeNimstrLit("degree"), Field2: {rows: [makeNimstrLit("\xC2\xB0")], baseline: 0, width: 1, flag: 0}}, {Field0: 1182784865, Field1: makeNimstrLit("sup"), Field2: {rows: [makeNimstrLit("sup")], baseline: 0, width: 3, flag: 4}}, {Field0: 118212969, Field1: makeNimstrLit("eth"), Field2: {rows: [makeNimstrLit("\xC3\xB0")], baseline: 0, width: 1, flag: 1}}, {Field0: -970887830, Field1: makeNimstrLit("nsucceq"), Field2: {rows: [makeNimstrLit("\xE2\x8B\xA1")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -69842580, Field1: makeNimstrLit("flat"), Field2: {rows: [makeNimstrLit("\xE2\x99\xAD")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1415733615, Field1: makeNimstrLit("colonsim"), Field2: {rows: [makeNimstrLit(":\xE2\x88\xBC")], baseline: 0, width: 2, flag: 2}}, {Field0: 1135244656, Field1: makeNimstrLit("nsim"), Field2: {rows: [makeNimstrLit("\xE2\x89\x81")], baseline: 0, width: 1, flag: 2}}, {Field0: -857002639, Field1: makeNimstrLit("Lsh"), Field2: {rows: [makeNimstrLit("\xE2\x86\xB0")], baseline: 0, width: 1, flag: 2}}, {Field0: 1069478258, Field1: makeNimstrLit("vert"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA3")], baseline: 0, width: 1, flag: 0}}, {Field0: 1989233008, Field1: makeNimstrLit("thetasym"), Field2: {rows: [makeNimstrLit("\xCF\x91")], baseline: 0, width: 1, flag: 1}}, {Field0: 1164383599, Field1: makeNimstrLit("ldots"), Field2: {rows: [makeNimstrLit("\xE2\x80\xA6")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 222810489, Field1: makeNimstrLit("sim"), Field2: {rows: [makeNimstrLit("\xE2\x88\xBC")], baseline: 0, width: 1, flag: 2}}, {Field0: 1532834170, Field1: makeNimstrLit("nparallel"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA6")], baseline: 0, width: 1, flag: 2}}, {Field0: 597902715, Field1: makeNimstrLit("ge"), Field2: {rows: [makeNimstrLit("\xE2\x89\xA5")], baseline: 0, width: 1, flag: 2}}, {Field0: -1771227780, Field1: makeNimstrLit("centerdot"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x85")], baseline: 0, width: 1, flag: 2}}, {Field0: 742864253, Field1: makeNimstrLit("sqsupset"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x90")], baseline: 0, width: 1, flag: 2}}, {Field0: -1658382981, Field1: makeNimstrLit("Epsilon"), Field2: {rows: [makeNimstrLit("E")], baseline: 0, width: 1, flag: 1}}, {Field0: -650839681, Field1: makeNimstrLit("thickapprox"), Field2: {rows: [makeNimstrLit("\xE2\x89\x88")], baseline: 0, width: 1, flag: 2}}, {Field0: -1698018951, Field1: makeNimstrLit("Chi"), Field2: {rows: [makeNimstrLit("X")], baseline: 0, width: 1, flag: 1}}, {Field0: 428323201, Field1: makeNimstrLit("longmapsto"), Field2: {rows: [makeNimstrLit("\xE2\x9F\xBC")], baseline: 0, width: 1, flag: 2}}, {Field0: 1829878146, Field1: makeNimstrLit("textregistered"), Field2: {rows: [makeNimstrLit("\xC2\xAE")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -967296636, Field1: makeNimstrLit("lbrack"), Field2: {rows: [makeNimstrLit("[")], baseline: 0, width: 1, flag: 0}}, {Field0: -862051963, Field1: makeNimstrLit("nleq"), Field2: {rows: [makeNimstrLit("\xE2\x89\xB0")], baseline: 0, width: 1, flag: 2}}, {Field0: 1726809478, Field1: makeNimstrLit("colonminus"), Field2: {rows: [makeNimstrLit(":\xE2\x88\x92")], baseline: 0, width: 2, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1240069752, Field1: makeNimstrLit("divideontimes"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x87")], baseline: 0, width: 1, flag: 2}}, {Field0: -1122236023, Field1: makeNimstrLit("perp"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xA5")], baseline: 0, width: 1, flag: 2}}, {Field0: 448181641, Field1: makeNimstrLit("prime"), Field2: {rows: [makeNimstrLit("\xE2\x80\xB2")], baseline: 0, width: 1, flag: 0}}, {Field0: -1049345653, Field1: makeNimstrLit("supsetneq"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x8B")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -186772081, Field1: makeNimstrLit("lnot"), Field2: {rows: [makeNimstrLit("\xC2\xAC")], baseline: 0, width: 1, flag: 2}}, {Field0: 1143282064, Field1: makeNimstrLit("doublecup"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x93")], baseline: 0, width: 1, flag: 2}}, {Field0: -1355421295, Field1: makeNimstrLit("forall"), Field2: {rows: [makeNimstrLit("\xE2\x88\x80")], baseline: 0, width: 1, flag: 2}}, {Field0: 780416399, Field1: makeNimstrLit("leftharpoondown"), Field2: {rows: [makeNimstrLit("\xE2\x86\xBD")], baseline: 0, width: 1, flag: 2}}, {Field0: 851116435, Field1: makeNimstrLit("coloneqq"), Field2: {rows: [makeNimstrLit("\xE2\x89\x94")], baseline: 0, width: 1, flag: 2}}, {Field0: -2076267116, Field1: makeNimstrLit("leadsto"), Field2: {rows: [makeNimstrLit("\xE2\x87\x9D")], baseline: 0, width: 1, flag: 2}}, {Field0: -1095375470, Field1: makeNimstrLit("ncong"), Field2: {rows: [makeNimstrLit("\xE2\x89\x86")], baseline: 0, width: 1, flag: 2}}, {Field0: 1902103956, Field1: makeNimstrLit("varPi"), Field2: {rows: [makeNimstrLit("\xCE\xA0")], baseline: 0, width: 1, flag: 1}}, {Field0: -1114860145, Field1: makeNimstrLit("chi"), Field2: {rows: [makeNimstrLit("\xCF\x87")], baseline: 0, width: 1, flag: 1}}, {Field0: -137865835, Field1: makeNimstrLit("maltese"), Field2: {rows: [makeNimstrLit("\xE2\x9C\xA0")], baseline: 0, width: 1, flag: 0}}, {Field0: 1222922649, Field1: makeNimstrLit("dblcolon"), Field2: {rows: [makeNimstrLit("\xE2\x88\xB7")], baseline: 0, width: 1, flag: 2}}, {Field0: 142935450, Field1: makeNimstrLit("succ"), Field2: {rows: [makeNimstrLit("\xE2\x89\xBB")], baseline: 0, width: 1, flag: 2}}, {Field0: -235331173, Field1: makeNimstrLit("smallsetminus"), Field2: {rows: [makeNimstrLit("\xE2\x88\x96")], baseline: 0, width: 1, flag: 2}}, {Field0: 153636250, Field1: makeNimstrLit("det"), Field2: {rows: [makeNimstrLit("det")], baseline: 0, width: 3, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -534911583, Field1: makeNimstrLit("dashleftarrow"), Field2: {rows: [makeNimstrLit("\xE2\x87\xA0")], baseline: 0, width: 1, flag: 2}}, {Field0: 331403682, Field1: makeNimstrLit("leqq"), Field2: {rows: [makeNimstrLit("\xE2\x89\xA6")], baseline: 0, width: 1, flag: 2}}, {Field0: 309436835, Field1: makeNimstrLit("textquoteright"), Field2: {rows: [makeNimstrLit("\xE2\x80\x99")], baseline: 0, width: 1, flag: 0}}, {Field0: 183010724, Field1: makeNimstrLit("doteqdot"), Field2: {rows: [makeNimstrLit("\xE2\x89\x91")], baseline: 0, width: 1, flag: 2}}, {Field0: -140396123, Field1: makeNimstrLit("geqslant"), Field2: {rows: [makeNimstrLit("\xE2\xA9\xBE")], baseline: 0, width: 1, flag: 2}}, {Field0: -822921819, Field1: makeNimstrLit("textquotedblleft"), Field2: {rows: [makeNimstrLit("\xE2\x80\x9C")], baseline: 0, width: 1, flag: 0}}, {Field0: 1216695713, Field1: makeNimstrLit("diagup"), Field2: {rows: [makeNimstrLit("\xE2\x95\xB1")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 2022730153, Field1: makeNimstrLit("beta"), Field2: {rows: [makeNimstrLit("\xCE\xB2")], baseline: 0, width: 1, flag: 1}}, {Field0: 923832745, Field1: makeNimstrLit("aa"), Field2: {rows: [makeNimstrLit("\xC3\xA5")], baseline: 0, width: 1, flag: 1}}, {Field0: 483458475, Field1: makeNimstrLit("rbrack"), Field2: {rows: [makeNimstrLit("]")], baseline: 0, width: 1, flag: 0}}, {Field0: -701556308, Field1: makeNimstrLit("curvearrowleft"), Field2: {rows: [makeNimstrLit("\xE2\x86\xB6")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -495585874, Field1: makeNimstrLit("sigma"), Field2: {rows: [makeNimstrLit("\xCF\x83")], baseline: 0, width: 1, flag: 1}}, {Field0: 937655727, Field1: makeNimstrLit("geqq"), Field2: {rows: [makeNimstrLit("\xE2\x89\xA7")], baseline: 0, width: 1, flag: 2}}, {Field0: -1858229842, Field1: makeNimstrLit("arctan"), Field2: {rows: [makeNimstrLit("arctan")], baseline: 0, width: 6, flag: 4}}, {Field0: -212827727, Field1: makeNimstrLit("larr"), Field2: {rows: [makeNimstrLit("\xE2\x86\x90")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1177094581, Field1: makeNimstrLit("bigcup"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x83")], baseline: 0, width: 1, flag: 3}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 744779191, Field1: makeNimstrLit("le"), Field2: {rows: [makeNimstrLit("\xE2\x89\xA4")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -189880903, Field1: makeNimstrLit("lll"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x98")], baseline: 0, width: 1, flag: 2}}, {Field0: -665286215, Field1: makeNimstrLit("varepsilon"), Field2: {rows: [makeNimstrLit("\xCE\xB5")], baseline: 0, width: 1, flag: 1}}, {Field0: 1679721915, Field1: makeNimstrLit("ratio"), Field2: {rows: [makeNimstrLit(":")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 438242753, Field1: makeNimstrLit("lfloor"), Field2: {rows: [makeNimstrLit("\xE2\x8C\x8A")], baseline: 0, width: 1, flag: 0}}, {Field0: -991056446, Field1: makeNimstrLit("smallfrown"), Field2: {rows: [makeNimstrLit("\xE2\x8C\xA2")], baseline: 0, width: 1, flag: 2}}, {Field0: -1690050109, Field1: makeNimstrLit("bullet"), Field2: {rows: [makeNimstrLit("\xE2\x88\x99")], baseline: 0, width: 1, flag: 2}}, {Field0: -1543983676, Field1: makeNimstrLit("doublecap"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x92")], baseline: 0, width: 1, flag: 2}}, {Field0: -1111792189, Field1: makeNimstrLit("varsupsetneqq"), Field2: {rows: [makeNimstrLit("\xE2\xAB\x8C")], baseline: 0, width: 1, flag: 2}}, {Field0: 1936615876, Field1: makeNimstrLit("Alpha"), Field2: {rows: [makeNimstrLit("A")], baseline: 0, width: 1, flag: 1}}, {Field0: -204029499, Field1: makeNimstrLit("epsilon"), Field2: {rows: [makeNimstrLit("\xCF\xB5")], baseline: 0, width: 1, flag: 1}}, {Field0: 2041800129, Field1: makeNimstrLit("R"), Field2: {rows: [makeNimstrLit("R")], baseline: 0, width: 1, flag: 1}}, {Field0: -1642090039, Field1: makeNimstrLit("wp"), Field2: {rows: [makeNimstrLit("\xE2\x84\x98")], baseline: 0, width: 1, flag: 1}}, {Field0: 1401058759, Field1: makeNimstrLit("arcctg"), Field2: {rows: [makeNimstrLit("arcctg")], baseline: 0, width: 6, flag: 4}}, {Field0: 1577711051, Field1: makeNimstrLit("textbraceright"), Field2: {rows: [makeNimstrLit("}")], baseline: 0, width: 1, flag: 0}}, {Field0: -769423932, Field1: makeNimstrLit("arg"), Field2: {rows: [makeNimstrLit("arg")], baseline: 0, width: 3, flag: 4}}, {Field0: 1246567885, Field1: makeNimstrLit("pounds"), Field2: {rows: [makeNimstrLit("\xC2\xA3")], baseline: 0, width: 1, flag: 0}}, {Field0: -1440281138, Field1: makeNimstrLit("otimes"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x97")], baseline: 0, width: 1, flag: 2}}, {Field0: 311781838, Field1: makeNimstrLit("copyright"), Field2: {rows: [makeNimstrLit("\xC2\xA9")], baseline: 0, width: 1, flag: 0}}, {Field0: -61369904, Field1: makeNimstrLit("intop"), Field2: {rows: [makeNimstrLit("\xE2\x88\xAB")], baseline: 0, width: 1, flag: 3}}, {Field0: 492728785, Field1: makeNimstrLit("supset"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x83")], baseline: 0, width: 1, flag: 2}}, {Field0: -610245166, Field1: makeNimstrLit("Coloneqq"), Field2: {rows: [makeNimstrLit("\xE2\x88\xB7=")], baseline: 0, width: 2, flag: 2}}, {Field0: -337772077, Field1: makeNimstrLit("nmid"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA4")], baseline: 0, width: 1, flag: 2}}, {Field0: 1533272532, Field1: makeNimstrLit("varsubsetneqq"), Field2: {rows: [makeNimstrLit("\xE2\xAB\x8B")], baseline: 0, width: 1, flag: 2}}, {Field0: -481215022, Field1: makeNimstrLit("lceil"), Field2: {rows: [makeNimstrLit("\xE2\x8C\x88")], baseline: 0, width: 1, flag: 0}}, {Field0: 2059920854, Field1: makeNimstrLit("downarrow"), Field2: {rows: [makeNimstrLit("\xE2\x86\x93")], baseline: 0, width: 1, flag: 2}}, {Field0: -332135977, Field1: makeNimstrLit("exist"), Field2: {rows: [makeNimstrLit("\xE2\x88\x83")], baseline: 0, width: 1, flag: 2}}, {Field0: -883057194, Field1: makeNimstrLit("imageof"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xB7")], baseline: 0, width: 1, flag: 2}}, {Field0: 1847278041, Field1: makeNimstrLit("origof"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xB6")], baseline: 0, width: 1, flag: 2}}, {Field0: -2116573739, Field1: makeNimstrLit("textdegree"), Field2: {rows: [makeNimstrLit("\xC2\xB0")], baseline: 0, width: 1, flag: 0}}, {Field0: -799040039, Field1: makeNimstrLit("spadesuit"), Field2: {rows: [makeNimstrLit("\xE2\x99\xA0")], baseline: 0, width: 1, flag: 0}}, {Field0: -221915691, Field1: makeNimstrLit("exp"), Field2: {rows: [makeNimstrLit("exp")], baseline: 0, width: 3, flag: 4}}, {Field0: 665108957, Field1: makeNimstrLit("coprod"), Field2: {rows: [makeNimstrLit("\xE2\x88\x90")], baseline: 0, width: 1, flag: 3}}, {Field0: 1630840286, Field1: makeNimstrLit("mho"), Field2: {rows: [makeNimstrLit("\xE2\x84\xA7")], baseline: 0, width: 1, flag: 0}}, {Field0: -830267937, Field1: makeNimstrLit("int"), Field2: {rows: [makeNimstrLit("\xE2\x88\xAB")], baseline: 0, width: 1, flag: 3}}, {Field0: -2139331129, Field1: makeNimstrLit("limsup"), Field2: {rows: [makeNimstrLit("lim sup")], baseline: 0, width: 7, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1610263010, Field1: makeNimstrLit("leftthreetimes"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x8B")], baseline: 0, width: 1, flag: 2}}, {Field0: 1114208738, Field1: makeNimstrLit("varnothing"), Field2: {rows: [makeNimstrLit("\xE2\x88\x85")], baseline: 0, width: 1, flag: 2}}, {Field0: 1077534179, Field1: makeNimstrLit("owns"), Field2: {rows: [makeNimstrLit("\xE2\x88\x8B")], baseline: 0, width: 1, flag: 2}}, {Field0: 212498914, Field1: makeNimstrLit("Vdash"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xA9")], baseline: 0, width: 1, flag: 2}}, {Field0: -927282717, Field1: makeNimstrLit("gneqq"), Field2: {rows: [makeNimstrLit("\xE2\x89\xA9")], baseline: 0, width: 1, flag: 2}}, {Field0: 1208823271, Field1: makeNimstrLit("swarrow"), Field2: {rows: [makeNimstrLit("\xE2\x86\x99")], baseline: 0, width: 1, flag: 2}}, {Field0: 1831684584, Field1: makeNimstrLit("lparen"), Field2: {rows: [makeNimstrLit("(")], baseline: 0, width: 1, flag: 0}}, {Field0: -1218212375, Field1: makeNimstrLit("curlyeqprec"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x9E")], baseline: 0, width: 1, flag: 2}}, {Field0: 1897493989, Field1: makeNimstrLit("Nu"), Field2: {rows: [makeNimstrLit("N")], baseline: 0, width: 1, flag: 1}}, {Field0: -695635477, Field1: makeNimstrLit("dashrightarrow"), Field2: {rows: [makeNimstrLit("\xE2\x87\xA2")], baseline: 0, width: 1, flag: 2}}, {Field0: -1443886612, Field1: makeNimstrLit("succnapprox"), Field2: {rows: [makeNimstrLit("\xE2\xAA\xBA")], baseline: 0, width: 1, flag: 2}}, {Field0: 1807167981, Field1: makeNimstrLit("rang"), Field2: {rows: [makeNimstrLit("\xE2\x9F\xA9")], baseline: 0, width: 1, flag: 0}}, {Field0: 1580248552, Field1: makeNimstrLit("lambda"), Field2: {rows: [makeNimstrLit("\xCE\xBB")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -133512720, Field1: makeNimstrLit("iff"), Field2: {rows: [makeNimstrLit("\xE2\x9F\xBA")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 371297779, Field1: makeNimstrLit("circleddash"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x9D")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1649025525, Field1: makeNimstrLit("backepsilon"), Field2: {rows: [makeNimstrLit("\xE2\x88\x8D")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -102348297, Field1: makeNimstrLit("circ"), Field2: {rows: [makeNimstrLit("\xE2\x88\x98")], baseline: 0, width: 1, flag: 2}}, {Field0: 738677240, Field1: makeNimstrLit("Leftrightarrow"), Field2: {rows: [makeNimstrLit("\xE2\x87\x94")], baseline: 0, width: 1, flag: 2}}, {Field0: -991826440, Field1: makeNimstrLit("nwarrow"), Field2: {rows: [makeNimstrLit("\xE2\x86\x96")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1333410309, Field1: makeNimstrLit("hookleftarrow"), Field2: {rows: [makeNimstrLit("\xE2\x86\xA9")], baseline: 0, width: 1, flag: 2}}, {Field0: -879801861, Field1: makeNimstrLit("risingdotseq"), Field2: {rows: [makeNimstrLit("\xE2\x89\x93")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 383633919, Field1: makeNimstrLit("preccurlyeq"), Field2: {rows: [makeNimstrLit("\xE2\x89\xBC")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 317083140, Field1: makeNimstrLit("bigodot"), Field2: {rows: [makeNimstrLit("\xE2\xA8\x80")], baseline: 0, width: 1, flag: 3}}, {Field0: 1446722052, Field1: makeNimstrLit("sqcap"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x93")], baseline: 0, width: 1, flag: 2}}, {Field0: -1995516410, Field1: makeNimstrLit("gets"), Field2: {rows: [makeNimstrLit("\xE2\x86\x90")], baseline: 0, width: 1, flag: 2}}, {Field0: -1374693881, Field1: makeNimstrLit("P"), Field2: {rows: [makeNimstrLit("\xC2\xB6")], baseline: 0, width: 1, flag: 0}}, {Field0: -943235580, Field1: makeNimstrLit("ker"), Field2: {rows: [makeNimstrLit("ker")], baseline: 0, width: 3, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1626003955, Field1: makeNimstrLit("prod"), Field2: {rows: [makeNimstrLit("\xE2\x88\x8F")], baseline: 0, width: 1, flag: 3}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1262346769, Field1: makeNimstrLit("leftarrowtail"), Field2: {rows: [makeNimstrLit("\xE2\x86\xA2")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1225410029, Field1: makeNimstrLit("checkmark"), Field2: {rows: [makeNimstrLit("\xE2\x9C\x93")], baseline: 0, width: 1, flag: 0}}, {Field0: -926707180, Field1: makeNimstrLit("image"), Field2: {rows: [makeNimstrLit("\xE2\x84\x91")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -925142501, Field1: makeNimstrLit("curvearrowright"), Field2: {rows: [makeNimstrLit("\xE2\x86\xB7")], baseline: 0, width: 1, flag: 2}}, {Field0: -110310885, Field1: makeNimstrLit("equiv"), Field2: {rows: [makeNimstrLit("\xE2\x89\xA1")], baseline: 0, width: 1, flag: 2}}, {Field0: 286669341, Field1: makeNimstrLit("Eqcolon"), Field2: {rows: [makeNimstrLit("::: :, \xE2\x88\x92\xE2\x88\xB7")], baseline: 0, width: 9, flag: 2}}, {Field0: -1745527269, Field1: makeNimstrLit("bot"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xA5")], baseline: 0, width: 1, flag: 0}}, {Field0: 1511302685, Field1: makeNimstrLit("mathsterling"), Field2: {rows: [makeNimstrLit("\xC2\xA3")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1146067423, Field1: makeNimstrLit("hbar"), Field2: {rows: [makeNimstrLit("\xE2\x84\x8F")], baseline: 0, width: 1, flag: 1}}, {Field0: -2105364958, Field1: makeNimstrLit("subseteqq"), Field2: {rows: [makeNimstrLit("\xE2\xAB\x85")], baseline: 0, width: 1, flag: 2}}, {Field0: 891442723, Field1: makeNimstrLit("Theta"), Field2: {rows: [makeNimstrLit("\xCE\x98")], baseline: 0, width: 1, flag: 1}}, {Field0: -77740508, Field1: makeNimstrLit("backsimeq"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x8D")], baseline: 0, width: 1, flag: 2}}, {Field0: 1783373347, Field1: makeNimstrLit("backprime"), Field2: {rows: [makeNimstrLit("\xE2\x80\xB5")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1891844648, Field1: makeNimstrLit("Zeta"), Field2: {rows: [makeNimstrLit("Z")], baseline: 0, width: 1, flag: 1}}, {Field0: 656361001, Field1: makeNimstrLit("darr"), Field2: {rows: [makeNimstrLit("\xE2\x86\x93")], baseline: 0, width: 1, flag: 2}}, {Field0: -1435107798, Field1: makeNimstrLit("succnsim"), Field2: {rows: [makeNimstrLit("\xE2\x8B\xA9")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 26894892, Field1: makeNimstrLit("Iota"), Field2: {rows: [makeNimstrLit("I")], baseline: 0, width: 1, flag: 1}}, {Field0: 1836716588, Field1: makeNimstrLit("zeta"), Field2: {rows: [makeNimstrLit("\xCE\xB6")], baseline: 0, width: 1, flag: 1}}, {Field0: -1691615698, Field1: makeNimstrLit("Longleftrightarrow"), Field2: {rows: [makeNimstrLit("\xE2\x9F\xBA")], baseline: 0, width: 1, flag: 2}}, {Field0: 891450927, Field1: makeNimstrLit("rightleftharpoons"), Field2: {rows: [makeNimstrLit("\xE2\x87\x8C")], baseline: 0, width: 1, flag: 2}}, {Field0: -1635509713, Field1: makeNimstrLit("Kappa"), Field2: {rows: [makeNimstrLit("K")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1001673268, Field1: makeNimstrLit("blacktriangleright"), Field2: {rows: [makeNimstrLit("\xE2\x96\xB6")], baseline: 0, width: 1, flag: 0}}, {Field0: 1501875765, Field1: makeNimstrLit("Tau"), Field2: {rows: [makeNimstrLit("T")], baseline: 0, width: 1, flag: 1}}, {Field0: 1552782902, Field1: makeNimstrLit("frown"), Field2: {rows: [makeNimstrLit("\xE2\x8C\xA2")], baseline: 0, width: 1, flag: 2}}, {Field0: -1521156553, Field1: makeNimstrLit("nleqslant"), Field2: {rows: [makeNimstrLit("\xE2\x89\xB0")], baseline: 0, width: 1, flag: 2}}, {Field0: 136607286, Field1: makeNimstrLit("}"), Field2: {rows: [makeNimstrLit("}")], baseline: 0, width: 1, flag: 0}}, {Field0: -326324681, Field1: makeNimstrLit("varXi"), Field2: {rows: [makeNimstrLit("\xCE\x9E")], baseline: 0, width: 1, flag: 1}}, {Field0: -898344391, Field1: makeNimstrLit("j"), Field2: {rows: [makeNimstrLit("\xC8\xB7")], baseline: 0, width: 1, flag: 1}}, {Field0: -503503303, Field1: makeNimstrLit("sdot"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x85")], baseline: 0, width: 1, flag: 0}}, {Field0: 1284465212, Field1: makeNimstrLit("infty"), Field2: {rows: [makeNimstrLit("\xE2\x88\x9E")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1178661438, Field1: makeNimstrLit("alef"), Field2: {rows: [makeNimstrLit("\xE2\x84\xB5")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1269727808, Field1: makeNimstrLit("textbardbl"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA5")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -2085733821, Field1: makeNimstrLit("times"), Field2: {rows: [makeNimstrLit("\xC3\x97")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 561956424, Field1: makeNimstrLit("eqslantgtr"), Field2: {rows: [makeNimstrLit("\xE2\xAA\x96")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 919873098, Field1: makeNimstrLit("leftharpoonup"), Field2: {rows: [makeNimstrLit("\xE2\x86\xBC")], baseline: 0, width: 1, flag: 2}}, {Field0: 468909643, Field1: makeNimstrLit("supe"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x87")], baseline: 0, width: 1, flag: 2}}, {Field0: -1482317238, Field1: makeNimstrLit("nsubseteqq"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x88")], baseline: 0, width: 1, flag: 2}}, {Field0: 1515227725, Field1: makeNimstrLit("Cap"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x92")], baseline: 0, width: 1, flag: 2}}, {Field0: -1300055474, Field1: makeNimstrLit("circlearrowright"), Field2: {rows: [makeNimstrLit("\xE2\x86\xBB")], baseline: 0, width: 1, flag: 2}}, {Field0: -2128052658, Field1: makeNimstrLit("Harr"), Field2: {rows: [makeNimstrLit("\xE2\x87\x94")], baseline: 0, width: 1, flag: 2}}, {Field0: 1337989708, Field1: makeNimstrLit("nshortmid"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA4")], baseline: 0, width: 1, flag: 2}}, {Field0: -1105456559, Field1: makeNimstrLit("sqsubseteq"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x91")], baseline: 0, width: 1, flag: 2}}, {Field0: -2146981297, Field1: makeNimstrLit("ngeq"), Field2: {rows: [makeNimstrLit("\xE2\x89\xB1")], baseline: 0, width: 1, flag: 2}}, {Field0: -1793030581, Field1: makeNimstrLit("KaTeX"), Field2: {rows: [makeNimstrLit("K T X"), makeNimstrLit(" A E ")], baseline: 0, width: 5, flag: 0}}, {Field0: 1056518736, Field1: makeNimstrLit("measuredangle"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA1")], baseline: 0, width: 1, flag: 0}}, {Field0: -507666860, Field1: makeNimstrLit("textsterling"), Field2: {rows: [makeNimstrLit("\xC2\xA3")], baseline: 0, width: 1, flag: 0}}, {Field0: 1070808661, Field1: makeNimstrLit("lg"), Field2: {rows: [makeNimstrLit("lg")], baseline: 0, width: 2, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1870681688, Field1: makeNimstrLit("heartsuit"), Field2: {rows: [makeNimstrLit("\xE2\x99\xA1")], baseline: 0, width: 1, flag: 0}}, {Field0: 19948121, Field1: makeNimstrLit("sqsubset"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x8F")], baseline: 0, width: 1, flag: 2}}, {Field0: 193524313, Field1: makeNimstrLit("gvertneqq"), Field2: {rows: [makeNimstrLit("\xE2\x89\xA9")], baseline: 0, width: 1, flag: 2}}, {Field0: 2123680347, Field1: makeNimstrLit("ast"), Field2: {rows: [makeNimstrLit("\xE2\x88\x97")], baseline: 0, width: 1, flag: 2}}, {Field0: -1287315876, Field1: makeNimstrLit("Omega"), Field2: {rows: [makeNimstrLit("\xCE\xA9")], baseline: 0, width: 1, flag: 1}}, {Field0: 1827362397, Field1: makeNimstrLit("veebar"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xBB")], baseline: 0, width: 1, flag: 2}}, {Field0: 699052638, Field1: makeNimstrLit("jmath"), Field2: {rows: [makeNimstrLit("\xC8\xB7")], baseline: 0, width: 1, flag: 1}}, {Field0: -1798255009, Field1: makeNimstrLit("ngtr"), Field2: {rows: [makeNimstrLit("\xE2\x89\xAF")], baseline: 0, width: 1, flag: 2}}, {Field0: -1932101027, Field1: makeNimstrLit("textbraceleft"), Field2: {rows: [makeNimstrLit("{")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1924743581, Field1: makeNimstrLit("Im"), Field2: {rows: [makeNimstrLit("\xE2\x84\x91")], baseline: 0, width: 1, flag: 1}}, {Field0: 1990097508, Field1: makeNimstrLit("vartriangleleft"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xB2")], baseline: 0, width: 1, flag: 2}}, {Field0: -414576028, Field1: makeNimstrLit("lim"), Field2: {rows: [makeNimstrLit("lim")], baseline: 0, width: 3, flag: 4}}, {Field0: -1006869914, Field1: makeNimstrLit("sec"), Field2: {rows: [makeNimstrLit("sec")], baseline: 0, width: 3, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1552102808, Field1: makeNimstrLit("hearts"), Field2: {rows: [makeNimstrLit("\xE2\x99\xA1")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1000346218, Field1: makeNimstrLit("wedge"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA7")], baseline: 0, width: 1, flag: 2}}, {Field0: 587550314, Field1: makeNimstrLit("rfloor"), Field2: {rows: [makeNimstrLit("\xE2\x8C\x8B")], baseline: 0, width: 1, flag: 0}}, {Field0: 729784939, Field1: makeNimstrLit("Reals"), Field2: {rows: [makeNimstrLit("R")], baseline: 0, width: 1, flag: 1}}, {Field0: 152785517, Field1: makeNimstrLit("vDash"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xA8")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 793982576, Field1: makeNimstrLit("gcd"), Field2: {rows: [makeNimstrLit("gcd")], baseline: 0, width: 3, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 458373746, Field1: makeNimstrLit("Rightarrow"), Field2: {rows: [makeNimstrLit("\xE2\x87\x92")], baseline: 0, width: 1, flag: 2}}, {Field0: -468514189, Field1: makeNimstrLit("nLeftarrow"), Field2: {rows: [makeNimstrLit("\xE2\x87\x8D")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1771689589, Field1: makeNimstrLit("textasciicircum"), Field2: {rows: [makeNimstrLit("^")], baseline: 0, width: 1, flag: 0}}, {Field0: 1260526198, Field1: makeNimstrLit("trianglerighteq"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xB5")], baseline: 0, width: 1, flag: 2}}, {Field0: 208938615, Field1: makeNimstrLit("theta"), Field2: {rows: [makeNimstrLit("\xCE\xB8")], baseline: 0, width: 1, flag: 1}}, {Field0: 910490232, Field1: makeNimstrLit("coloneq"), Field2: {rows: [makeNimstrLit(":\xE2\x88\x92")], baseline: 0, width: 2, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1997622910, Field1: makeNimstrLit("leqslant"), Field2: {rows: [makeNimstrLit("\xE2\xA9\xBD")], baseline: 0, width: 1, flag: 2}}, {Field0: -918172033, Field1: makeNimstrLit("looparrowleft"), Field2: {rows: [makeNimstrLit("\xE2\x86\xAB")], baseline: 0, width: 1, flag: 2}}, {Field0: 1684372096, Field1: makeNimstrLit("precneqq"), Field2: {rows: [makeNimstrLit("\xE2\xAA\xB5")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -425875838, Field1: makeNimstrLit("nsubseteq"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x88")], baseline: 0, width: 1, flag: 2}}, {Field0: -1122263421, Field1: makeNimstrLit("imath"), Field2: {rows: [makeNimstrLit("\xEE\x84\xB1")], baseline: 0, width: 1, flag: 1}}, {Field0: 1607821956, Field1: makeNimstrLit("Vvdash"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xAA")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1635205767, Field1: makeNimstrLit("bigotimes"), Field2: {rows: [makeNimstrLit("\xE2\xA8\x82")], baseline: 0, width: 1, flag: 3}}, {Field0: 2111140487, Field1: makeNimstrLit("eqcirc"), Field2: {rows: [makeNimstrLit("\xE2\x89\x96")], baseline: 0, width: 1, flag: 2}}, {Field0: 860426889, Field1: makeNimstrLit("shortparallel"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA5")], baseline: 0, width: 1, flag: 2}}, {Field0: 1892319880, Field1: makeNimstrLit("omicron"), Field2: {rows: [makeNimstrLit("\xCE\xBF")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1703044749, Field1: makeNimstrLit("nshortparallel"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA6")], baseline: 0, width: 1, flag: 2}}, {Field0: 845622926, Field1: makeNimstrLit("beth"), Field2: {rows: [makeNimstrLit("\xE2\x84\xB6")], baseline: 0, width: 1, flag: 1}}, {Field0: 1257085583, Field1: makeNimstrLit("gtrsim"), Field2: {rows: [makeNimstrLit("\xE2\x89\xB3")], baseline: 0, width: 1, flag: 2}}, {Field0: -1417107824, Field1: makeNimstrLit("lesssim"), Field2: {rows: [makeNimstrLit("\xE2\x89\xB2")], baseline: 0, width: 1, flag: 2}}, {Field0: 1990401680, Field1: makeNimstrLit("varSigma"), Field2: {rows: [makeNimstrLit("\xCE\xA3")], baseline: 0, width: 1, flag: 1}}, {Field0: 382401167, Field1: makeNimstrLit("textdagger"), Field2: {rows: [makeNimstrLit("\xE2\x80\xA0")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -143540585, Field1: makeNimstrLit("eqslantless"), Field2: {rows: [makeNimstrLit("\xE2\xAA\x95")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -315963751, Field1: makeNimstrLit("Psi"), Field2: {rows: [makeNimstrLit("\xCE\xA8")], baseline: 0, width: 1, flag: 1}}, {Field0: -49342823, Field1: makeNimstrLit("spades"), Field2: {rows: [makeNimstrLit("\xE2\x99\xA0")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1618291044, Field1: makeNimstrLit("natnums"), Field2: {rows: [makeNimstrLit("N")], baseline: 0, width: 1, flag: 1}}, {Field0: -188891491, Field1: makeNimstrLit("varpropto"), Field2: {rows: [makeNimstrLit("\xE2\x88\x9D")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1256799583, Field1: makeNimstrLit("Coloneq"), Field2: {rows: [makeNimstrLit("\xE2\x88\xB7\xE2\x88\x92")], baseline: 0, width: 2, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1476694365, Field1: makeNimstrLit("rightleftarrows"), Field2: {rows: [makeNimstrLit("\xE2\x87\x84")], baseline: 0, width: 1, flag: 2}}, {Field0: 90499748, Field1: makeNimstrLit("gtrapprox"), Field2: {rows: [makeNimstrLit("\xE2\xAA\x86")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1630717273, Field1: makeNimstrLit("textless"), Field2: {rows: [makeNimstrLit("<")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 626711210, Field1: makeNimstrLit("dotsm"), Field2: {rows: [makeNimstrLit("\xE2\x8B\xAF")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -282832210, Field1: makeNimstrLit("mathellipsis"), Field2: {rows: [makeNimstrLit("\xE2\x80\xA6")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1055529648, Field1: makeNimstrLit("colonapprox"), Field2: {rows: [makeNimstrLit(":\xE2\x89\x88")], baseline: 0, width: 2, flag: 2}}, {Field0: -839167311, Field1: makeNimstrLit("{"), Field2: {rows: [makeNimstrLit("{")], baseline: 0, width: 1, flag: 0}}, {Field0: 1306761904, Field1: makeNimstrLit("lq"), Field2: {rows: [makeNimstrLit("\xE2\x80\x98")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 198273717, Field1: makeNimstrLit("textendash"), Field2: {rows: [makeNimstrLit("\xE2\x80\x93")], baseline: 0, width: 1, flag: 0}}, {Field0: -436731210, Field1: makeNimstrLit("lhd"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xB2")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 867351226, Field1: makeNimstrLit("vdash"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xA2")], baseline: 0, width: 1, flag: 2}}, {Field0: 77870779, Field1: makeNimstrLit("Finv"), Field2: {rows: [makeNimstrLit("\xE2\x84\xB2")], baseline: 0, width: 1, flag: 1}}, {Field0: -1633238340, Field1: makeNimstrLit("sqcup"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x94")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1012737726, Field1: makeNimstrLit("setminus"), Field2: {rows: [makeNimstrLit("\xE2\x88\x96")], baseline: 0, width: 1, flag: 2}}, {Field0: 1166910142, Field1: makeNimstrLit("O"), Field2: {rows: [makeNimstrLit("\xC3\x98")], baseline: 0, width: 1, flag: 1}}, {Field0: -788264256, Field1: makeNimstrLit("lrArr"), Field2: {rows: [makeNimstrLit("\xE2\x87\x94")], baseline: 0, width: 1, flag: 2}}, {Field0: 1404075712, Field1: makeNimstrLit("succcurlyeq"), Field2: {rows: [makeNimstrLit("\xE2\x89\xBD")], baseline: 0, width: 1, flag: 2}}, {Field0: -708164930, Field1: makeNimstrLit("real"), Field2: {rows: [makeNimstrLit("\xE2\x84\x9C")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1582218556, Field1: makeNimstrLit("rbrace"), Field2: {rows: [makeNimstrLit("}")], baseline: 0, width: 1, flag: 0}}, {Field0: -1623751995, Field1: makeNimstrLit("rhd"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xB3")], baseline: 0, width: 1, flag: 2}}, {Field0: 2118272708, Field1: makeNimstrLit("rangle"), Field2: {rows: [makeNimstrLit("\xE2\x9F\xA9")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 2128061129, Field1: makeNimstrLit("implies"), Field2: {rows: [makeNimstrLit("\xE2\x9F\xB9")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -128053556, Field1: makeNimstrLit("rarr"), Field2: {rows: [makeNimstrLit("\xE2\x86\x92")], baseline: 0, width: 1, flag: 2}}, {Field0: 1485563597, Field1: makeNimstrLit("intercal"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xBA")], baseline: 0, width: 1, flag: 2}}, {Field0: -1783832884, Field1: makeNimstrLit("tan"), Field2: {rows: [makeNimstrLit("tan")], baseline: 0, width: 3, flag: 4}}, {Field0: -508692785, Field1: makeNimstrLit("natural"), Field2: {rows: [makeNimstrLit("\xE2\x99\xAE")], baseline: 0, width: 1, flag: 0}}, {Field0: -1571214640, Field1: makeNimstrLit("simeq"), Field2: {rows: [makeNimstrLit("\xE2\x89\x83")], baseline: 0, width: 1, flag: 2}}, {Field0: 1649711825, Field1: makeNimstrLit("sphericalangle"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA2")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 968579795, Field1: makeNimstrLit("arctg"), Field2: {rows: [makeNimstrLit("arctg")], baseline: 0, width: 5, flag: 4}}, {Field0: -2087052588, Field1: makeNimstrLit("S"), Field2: {rows: [makeNimstrLit("\xC2\xA7")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1940638425, Field1: makeNimstrLit("triangledown"), Field2: {rows: [makeNimstrLit("\xE2\x96\xBD")], baseline: 0, width: 1, flag: 0}}, {Field0: 444881626, Field1: makeNimstrLit("nRightarrow"), Field2: {rows: [makeNimstrLit("\xE2\x87\x8F")], baseline: 0, width: 1, flag: 2}}, {Field0: 151659227, Field1: makeNimstrLit("complement"), Field2: {rows: [makeNimstrLit("\xE2\x88\x81")], baseline: 0, width: 1, flag: 2}}, {Field0: -1693292837, Field1: makeNimstrLit("downharpoonleft"), Field2: {rows: [makeNimstrLit("\xE2\x87\x83")], baseline: 0, width: 1, flag: 2}}, {Field0: -4439333, Field1: makeNimstrLit("nLeftrightarrow"), Field2: {rows: [makeNimstrLit("\xE2\x87\x8E")], baseline: 0, width: 1, flag: 2}}, {Field0: -1212450082, Field1: makeNimstrLit("ch"), Field2: {rows: [makeNimstrLit("ch")], baseline: 0, width: 2, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1868119328, Field1: makeNimstrLit("nrightarrow"), Field2: {rows: [makeNimstrLit("\xE2\x86\x9B")], baseline: 0, width: 1, flag: 2}}, {Field0: -318407968, Field1: makeNimstrLit("thicksim"), Field2: {rows: [makeNimstrLit("\xE2\x88\xBC")], baseline: 0, width: 1, flag: 2}}, {Field0: 345991905, Field1: makeNimstrLit("Pi"), Field2: {rows: [makeNimstrLit("\xCE\xA0")], baseline: 0, width: 1, flag: 1}}, {Field0: 631217891, Field1: makeNimstrLit("eqcolon"), Field2: {rows: [makeNimstrLit(">>> >, \xE2\x88\xB9")], baseline: 0, width: 8, flag: 2}}, {Field0: 1697382115, Field1: makeNimstrLit("varkappa"), Field2: {rows: [makeNimstrLit("\xCF\xB0")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 497549031, Field1: makeNimstrLit("ell"), Field2: {rows: [makeNimstrLit("\xE2\x84\x93")], baseline: 0, width: 1, flag: 1}}, {Field0: -1187357976, Field1: makeNimstrLit("mu"), Field2: {rows: [makeNimstrLit("\xCE\xBC")], baseline: 0, width: 1, flag: 1}}, {Field0: -1972195609, Field1: makeNimstrLit("dim"), Field2: {rows: [makeNimstrLit("dim")], baseline: 0, width: 3, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1516935444, Field1: makeNimstrLit("lnapprox"), Field2: {rows: [makeNimstrLit("\xE2\xAA\x89")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1945859345, Field1: makeNimstrLit("OE"), Field2: {rows: [makeNimstrLit("\xC5\x92")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1631707890, Field1: makeNimstrLit("textbar"), Field2: {rows: [makeNimstrLit("|")], baseline: 0, width: 1, flag: 0}}, {Field0: 156381939, Field1: makeNimstrLit("TeX"), Field2: {rows: [makeNimstrLit("T X"), makeNimstrLit(" E ")], baseline: 0, width: 3, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -737534219, Field1: makeNimstrLit("ltimes"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x89")], baseline: 0, width: 1, flag: 2}}, {Field0: -567946507, Field1: makeNimstrLit("Rarr"), Field2: {rows: [makeNimstrLit("\xE2\x87\x92")], baseline: 0, width: 1, flag: 2}}, {Field0: -189001994, Field1: makeNimstrLit("vartriangle"), Field2: {rows: [makeNimstrLit("\xE2\x96\xB3")], baseline: 0, width: 1, flag: 2}}, {Field0: 1167593205, Field1: makeNimstrLit("varPsi"), Field2: {rows: [makeNimstrLit("\xCE\xA8")], baseline: 0, width: 1, flag: 1}}, {Field0: 820849399, Field1: makeNimstrLit("psi"), Field2: {rows: [makeNimstrLit("\xCF\x88")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -728388867, Field1: makeNimstrLit("npreceq"), Field2: {rows: [makeNimstrLit("\xE2\x8B\xA0")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1786403073, Field1: makeNimstrLit("lneqq"), Field2: {rows: [makeNimstrLit("\xE2\x89\xA8")], baseline: 0, width: 1, flag: 2}}, {Field0: -44866816, Field1: makeNimstrLit("Eta"), Field2: {rows: [makeNimstrLit("H")], baseline: 0, width: 1, flag: 1}}, {Field0: -1857517823, Field1: makeNimstrLit("gtrless"), Field2: {rows: [makeNimstrLit("\xE2\x89\xB7")], baseline: 0, width: 1, flag: 2}}, {Field0: 398077695, Field1: makeNimstrLit("%"), Field2: {rows: [makeNimstrLit("%")], baseline: 0, width: 1, flag: 0}}, {Field0: 892005123, Field1: makeNimstrLit("_"), Field2: {rows: [makeNimstrLit("_")], baseline: 0, width: 1, flag: 0}}, {Field0: 233755396, Field1: makeNimstrLit("Bbbk"), Field2: {rows: [makeNimstrLit("k")], baseline: 0, width: 1, flag: 1}}, {Field0: -1970031867, Field1: makeNimstrLit("vee"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA8")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 839637767, Field1: makeNimstrLit("lang"), Field2: {rows: [makeNimstrLit("\xE2\x9F\xA8")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1432461559, Field1: makeNimstrLit("vcentcolon"), Field2: {rows: [makeNimstrLit(":")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -944697589, Field1: makeNimstrLit("varrho"), Field2: {rows: [makeNimstrLit("\xCF\xB1")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1484265230, Field1: makeNimstrLit("varpi"), Field2: {rows: [makeNimstrLit("\xCF\x96")], baseline: 0, width: 1, flag: 1}}, {Field0: 93506319, Field1: makeNimstrLit("hslash"), Field2: {rows: [makeNimstrLit("\xE2\x84\x8F")], baseline: 0, width: 1, flag: 1}}, {Field0: 723635984, Field1: makeNimstrLit("sinh"), Field2: {rows: [makeNimstrLit("sinh")], baseline: 0, width: 4, flag: 4}}, {Field0: -808573167, Field1: makeNimstrLit("mp"), Field2: {rows: [makeNimstrLit("\xE2\x88\x93")], baseline: 0, width: 1, flag: 2}}, {Field0: -831156463, Field1: makeNimstrLit("nVdash"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xAE")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1011195116, Field1: makeNimstrLit("leftrightarrow"), Field2: {rows: [makeNimstrLit("\xE2\x86\x94")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -316506345, Field1: makeNimstrLit("rceil"), Field2: {rows: [makeNimstrLit("\xE2\x8C\x89")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1905710309, Field1: makeNimstrLit("Rsh"), Field2: {rows: [makeNimstrLit("\xE2\x86\xB1")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1628249312, Field1: makeNimstrLit("Colonapprox"), Field2: {rows: [makeNimstrLit("\xE2\x88\xB7\xE2\x89\x88")], baseline: 0, width: 2, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -2032217310, Field1: makeNimstrLit("shortmid"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA3")], baseline: 0, width: 1, flag: 2}}, {Field0: -1282881757, Field1: makeNimstrLit("wr"), Field2: {rows: [makeNimstrLit("\xE2\x89\x80")], baseline: 0, width: 1, flag: 2}}, {Field0: 201751332, Field1: makeNimstrLit("circledR"), Field2: {rows: [makeNimstrLit("\xC2\xAE")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1853396185, Field1: makeNimstrLit("ni"), Field2: {rows: [makeNimstrLit("\xE2\x88\x8B")], baseline: 0, width: 1, flag: 2}}, {Field0: -1194945752, Field1: makeNimstrLit("Updownarrow"), Field2: {rows: [makeNimstrLit("\xE2\x87\x95")], baseline: 0, width: 1, flag: 2}}, {Field0: -2121473240, Field1: makeNimstrLit("cosec"), Field2: {rows: [makeNimstrLit("cosec")], baseline: 0, width: 5, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -418823380, Field1: makeNimstrLit("delta"), Field2: {rows: [makeNimstrLit("\xCE\xB4")], baseline: 0, width: 1, flag: 1}}, {Field0: 64160556, Field1: makeNimstrLit("diamondsuit"), Field2: {rows: [makeNimstrLit("\xE2\x99\xA2")], baseline: 0, width: 1, flag: 0}}, {Field0: 1405992750, Field1: makeNimstrLit("eqqcolon"), Field2: {rows: [makeNimstrLit("\xE2\x89\x95")], baseline: 0, width: 1, flag: 2}}, {Field0: 1068375855, Field1: makeNimstrLit("Uarr"), Field2: {rows: [makeNimstrLit("\xE2\x87\x91")], baseline: 0, width: 1, flag: 2}}, {Field0: 1201711918, Field1: makeNimstrLit("lvertneqq"), Field2: {rows: [makeNimstrLit("\xE2\x89\xA8")], baseline: 0, width: 1, flag: 2}}, {Field0: 129810225, Field1: makeNimstrLit("sub"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x82")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -616156365, Field1: makeNimstrLit("Upsilon"), Field2: {rows: [makeNimstrLit("\xCE\xA5")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 965596985, Field1: makeNimstrLit("Cup"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x93")], baseline: 0, width: 1, flag: 2}}, {Field0: 377626426, Field1: makeNimstrLit("dotplus"), Field2: {rows: [makeNimstrLit("\xE2\x88\x94")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1447029955, Field1: makeNimstrLit("alpha"), Field2: {rows: [makeNimstrLit("\xCE\xB1")], baseline: 0, width: 1, flag: 1}}, {Field0: 1388739390, Field1: makeNimstrLit("cdot"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x85")], baseline: 0, width: 1, flag: 2}}, {Field0: -1317677249, Field1: makeNimstrLit("weierp"), Field2: {rows: [makeNimstrLit("\xE2\x84\x98")], baseline: 0, width: 1, flag: 1}}, {Field0: 126402368, Field1: makeNimstrLit("boxminus"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x9F")], baseline: 0, width: 1, flag: 2}}, {Field0: 927969088, Field1: makeNimstrLit("supseteqq"), Field2: {rows: [makeNimstrLit("\xE2\xAB\x86")], baseline: 0, width: 1, flag: 2}}, {Field0: -978777278, Field1: makeNimstrLit("propto"), Field2: {rows: [makeNimstrLit("\xE2\x88\x9D")], baseline: 0, width: 1, flag: 2}}, {Field0: 2044716865, Field1: makeNimstrLit("ss"), Field2: {rows: [makeNimstrLit("\xC3\x9F")], baseline: 0, width: 1, flag: 1}}, {Field0: -838084796, Field1: makeNimstrLit("lessgtr"), Field2: {rows: [makeNimstrLit("\xE2\x89\xB6")], baseline: 0, width: 1, flag: 2}}, {Field0: -829358270, Field1: makeNimstrLit("textquotedblright"), Field2: {rows: [makeNimstrLit("\xE2\x80\x9D")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 711529291, Field1: makeNimstrLit("|"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA5")], baseline: 0, width: 1, flag: 0}}, {Field0: -389900469, Field1: makeNimstrLit("textdollar"), Field2: {rows: [makeNimstrLit("$")], baseline: 0, width: 1, flag: 0}}, {Field0: 598895437, Field1: makeNimstrLit("minuscolon"), Field2: {rows: [makeNimstrLit("\xE2\x88\xB9")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1151690575, Field1: makeNimstrLit("#"), Field2: {rows: [makeNimstrLit("#")], baseline: 0, width: 1, flag: 0}}, {Field0: -582685872, Field1: makeNimstrLit("Darr"), Field2: {rows: [makeNimstrLit("\xE2\x87\x93")], baseline: 0, width: 1, flag: 2}}, {Field0: 1181199183, Field1: makeNimstrLit("triangleleft"), Field2: {rows: [makeNimstrLit("\xE2\x97\x83")], baseline: 0, width: 1, flag: 0}}, {Field0: -1009115312, Field1: makeNimstrLit("minuso"), Field2: {rows: [makeNimstrLit("\xE2\xA6\xB5")], baseline: 0, width: 1, flag: 0}}, {Field0: 499530577, Field1: makeNimstrLit("plim"), Field2: {rows: [makeNimstrLit("plim")], baseline: 0, width: 4, flag: 4}}, {Field0: -114982060, Field1: makeNimstrLit("nleftarrow"), Field2: {rows: [makeNimstrLit("\xE2\x86\x9A")], baseline: 0, width: 1, flag: 2}}, {Field0: -1058309292, Field1: makeNimstrLit("smile"), Field2: {rows: [makeNimstrLit("\xE2\x8C\xA3")], baseline: 0, width: 1, flag: 2}}, {Field0: 437992278, Field1: makeNimstrLit("precapprox"), Field2: {rows: [makeNimstrLit("\xE2\xAA\xB7")], baseline: 0, width: 1, flag: 2}}, {Field0: 1034010455, Field1: makeNimstrLit("hArr"), Field2: {rows: [makeNimstrLit("\xE2\x87\x94")], baseline: 0, width: 1, flag: 2}}, {Field0: 1814794072, Field1: makeNimstrLit("nexists"), Field2: {rows: [makeNimstrLit("\xE2\x88\x84")], baseline: 0, width: 1, flag: 2}}, {Field0: -848168103, Field1: makeNimstrLit("simcoloncolon"), Field2: {rows: [makeNimstrLit("\xE2\x88\xBC\xE2\x88\xB7")], baseline: 0, width: 2, flag: 2}}, {Field0: -2083237030, Field1: makeNimstrLit("trianglelefteq"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xB4")], baseline: 0, width: 1, flag: 2}}, {Field0: 624996184, Field1: makeNimstrLit("nVDash"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xAF")], baseline: 0, width: 1, flag: 2}}, {Field0: -508762280, Field1: makeNimstrLit("varGamma"), Field2: {rows: [makeNimstrLit("\xCE\x93")], baseline: 0, width: 1, flag: 1}}, {Field0: -582062244, Field1: makeNimstrLit("pi"), Field2: {rows: [makeNimstrLit("\xCF\x80")], baseline: 0, width: 1, flag: 1}}, {Field0: 485069654, Field1: makeNimstrLit("triangle"), Field2: {rows: [makeNimstrLit("\xE2\x96\xB3")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1089835168, Field1: makeNimstrLit("approxeq"), Field2: {rows: [makeNimstrLit("\xE2\x89\x8A")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1376821406, Field1: makeNimstrLit("bigtriangledown"), Field2: {rows: [makeNimstrLit("\xE2\x96\xBD")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1165389980, Field1: makeNimstrLit("downharpoonright"), Field2: {rows: [makeNimstrLit("\xE2\x87\x82")], baseline: 0, width: 1, flag: 2}}, {Field0: -498708635, Field1: makeNimstrLit("supseteq"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x87")], baseline: 0, width: 1, flag: 2}}, {Field0: 1390254950, Field1: makeNimstrLit("varOmega"), Field2: {rows: [makeNimstrLit("\xCE\xA9")], baseline: 0, width: 1, flag: 1}}, {Field0: 113278823, Field1: makeNimstrLit("cup"), Field2: {rows: [makeNimstrLit("\xE2\x88\xAA")], baseline: 0, width: 1, flag: 2}}, {Field0: 775896934, Field1: makeNimstrLit("cnums"), Field2: {rows: [makeNimstrLit("C")], baseline: 0, width: 1, flag: 1}}, {Field0: -1421636764, Field1: makeNimstrLit("angle"), Field2: {rows: [makeNimstrLit("\xE2\x88\xA0")], baseline: 0, width: 1, flag: 0}}, {Field0: 1368969066, Field1: makeNimstrLit("Omicron"), Field2: {rows: [makeNimstrLit("O")], baseline: 0, width: 1, flag: 1}}, {Field0: -1825022101, Field1: makeNimstrLit("dotsc"), Field2: {rows: [makeNimstrLit("\xE2\x80\xA6")], baseline: 0, width: 1, flag: 0}}, {Field0: 1049816935, Field1: makeNimstrLit("sharp"), Field2: {rows: [makeNimstrLit("\xE2\x99\xAF")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -660215953, Field1: makeNimstrLit("blacktriangledown"), Field2: {rows: [makeNimstrLit("\xE2\x96\xBC")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 701244274, Field1: makeNimstrLit("empty"), Field2: {rows: [makeNimstrLit("\xE2\x88\x85")], baseline: 0, width: 1, flag: 2}}, {Field0: -164919438, Field1: makeNimstrLit("gnsim"), Field2: {rows: [makeNimstrLit("\xE2\x8B\xA7")], baseline: 0, width: 1, flag: 2}}, {Field0: -1450188941, Field1: makeNimstrLit("star"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x86")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1706303621, Field1: makeNimstrLit("dArr"), Field2: {rows: [makeNimstrLit("\xE2\x87\x93")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -250139779, Field1: makeNimstrLit("textemdash"), Field2: {rows: [makeNimstrLit("\xE2\x80\x94")], baseline: 0, width: 1, flag: 0}}, {Field0: 1726374782, Field1: makeNimstrLit("circledS"), Field2: {rows: [makeNimstrLit("\xE2\x93\x88")], baseline: 0, width: 1, flag: 0}}, {Field0: 268964735, Field1: makeNimstrLit("circledast"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x9B")], baseline: 0, width: 1, flag: 2}}, {Field0: -722765953, Field1: makeNimstrLit("fallingdotseq"), Field2: {rows: [makeNimstrLit("\xE2\x89\x92")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 978164610, Field1: makeNimstrLit("nless"), Field2: {rows: [makeNimstrLit("\xE2\x89\xAE")], baseline: 0, width: 1, flag: 2}}, {Field0: 1202677635, Field1: makeNimstrLit("rparen"), Field2: {rows: [makeNimstrLit(")")], baseline: 0, width: 1, flag: 0}}, {Field0: 1073095556, Field1: makeNimstrLit("phi"), Field2: {rows: [makeNimstrLit("\xCF\x95")], baseline: 0, width: 1, flag: 1}}, {Field0: 450942853, Field1: makeNimstrLit("$"), Field2: {rows: [makeNimstrLit("$")], baseline: 0, width: 1, flag: 0}}, {Field0: 104139654, Field1: makeNimstrLit("doublebarwedge"), Field2: {rows: [makeNimstrLit("\xE2\xA9\x9E")], baseline: 0, width: 1, flag: 2}}, {Field0: -902326395, Field1: makeNimstrLit("arccos"), Field2: {rows: [makeNimstrLit("arccos")], baseline: 0, width: 6, flag: 4}}, {Field0: -296343675, Field1: makeNimstrLit("tanh"), Field2: {rows: [makeNimstrLit("tanh")], baseline: 0, width: 4, flag: 4}}, {Field0: -1878301815, Field1: makeNimstrLit("rightharpoonup"), Field2: {rows: [makeNimstrLit("\xE2\x87\x80")], baseline: 0, width: 1, flag: 2}}, {Field0: 1586769802, Field1: makeNimstrLit("llless"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x98")], baseline: 0, width: 1, flag: 2}}, {Field0: 1991520139, Field1: makeNimstrLit("alefsym"), Field2: {rows: [makeNimstrLit("\xE2\x84\xB5")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 773731214, Field1: makeNimstrLit("subsetneq"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x8A")], baseline: 0, width: 1, flag: 2}}, {Field0: 1642151823, Field1: makeNimstrLit("supsetneqq"), Field2: {rows: [makeNimstrLit("\xE2\xAB\x8C")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -399796335, Field1: makeNimstrLit("curlyvee"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x8E")], baseline: 0, width: 1, flag: 2}}, {Field0: 1863581586, Field1: makeNimstrLit("clubsuit"), Field2: {rows: [makeNimstrLit("\xE2\x99\xA3")], baseline: 0, width: 1, flag: 0}}, {Field0: 1089098643, Field1: makeNimstrLit("circeq"), Field2: {rows: [makeNimstrLit("\xE2\x89\x97")], baseline: 0, width: 1, flag: 2}}, {Field0: -983711852, Field1: makeNimstrLit("bumpeq"), Field2: {rows: [makeNimstrLit("\xE2\x89\x8F")], baseline: 0, width: 1, flag: 2}}, {Field0: 626165651, Field1: makeNimstrLit("cdots"), Field2: {rows: [makeNimstrLit("\xE2\x8B\xAF")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -135784553, Field1: makeNimstrLit("rightrightarrows"), Field2: {rows: [makeNimstrLit("\xE2\x87\x89")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -347878501, Field1: makeNimstrLit("rightharpoondown"), Field2: {rows: [makeNimstrLit("\xE2\x87\x81")], baseline: 0, width: 1, flag: 2}}, {Field0: 1961500571, Field1: makeNimstrLit("Subset"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x90")], baseline: 0, width: 1, flag: 2}}, {Field0: -1325636708, Field1: makeNimstrLit("partial"), Field2: {rows: [makeNimstrLit("\xE2\x88\x82")], baseline: 0, width: 1, flag: 1}}, {Field0: -1030514789, Field1: makeNimstrLit("max"), Field2: {rows: [makeNimstrLit("max")], baseline: 0, width: 3, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -647533664, Field1: makeNimstrLit("circlearrowleft"), Field2: {rows: [makeNimstrLit("\xE2\x86\xBA")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 2088133539, Field1: makeNimstrLit("notni"), Field2: {rows: [makeNimstrLit("\xE2\x88\x8C")], baseline: 0, width: 1, flag: 2}}, {Field0: -1130670173, Field1: makeNimstrLit("Uparrow"), Field2: {rows: [makeNimstrLit("\xE2\x87\x91")], baseline: 0, width: 1, flag: 2}}, {Field0: 1251576741, Field1: makeNimstrLit("asymp"), Field2: {rows: [makeNimstrLit("\xE2\x89\x8D")], baseline: 0, width: 1, flag: 2}}, {Field0: -949496923, Field1: makeNimstrLit("varLambda"), Field2: {rows: [makeNimstrLit("\xCE\x9B")], baseline: 0, width: 1, flag: 1}}, {Field0: 508142500, Field1: makeNimstrLit("textgreater"), Field2: {rows: [makeNimstrLit(">")], baseline: 0, width: 1, flag: 0}}, {Field0: -1519553629, Field1: makeNimstrLit("blacklozenge"), Field2: {rows: [makeNimstrLit("\xE2\xA7\xAB")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -902478933, Field1: makeNimstrLit("longleftarrow"), Field2: {rows: [makeNimstrLit("\xE2\x9F\xB5")], baseline: 0, width: 1, flag: 2}}, {Field0: 2018705324, Field1: makeNimstrLit("digamma"), Field2: {rows: [makeNimstrLit("\xCF\x9D")], baseline: 0, width: 1, flag: 1}}, {Field0: -1187603539, Field1: makeNimstrLit("bigcap"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x82")], baseline: 0, width: 1, flag: 3}}, {Field0: 1543318445, Field1: makeNimstrLit("daleth"), Field2: {rows: [makeNimstrLit("\xE2\x84\xB8")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -433189967, Field1: makeNimstrLit("N"), Field2: {rows: [makeNimstrLit("N")], baseline: 0, width: 1, flag: 1}}, {Field0: 924587953, Field1: makeNimstrLit("diamond"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x84")], baseline: 0, width: 1, flag: 0}}, {Field0: 1813402546, Field1: makeNimstrLit("coth"), Field2: {rows: [makeNimstrLit("coth")], baseline: 0, width: 4, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -817291339, Field1: makeNimstrLit("updownarrow"), Field2: {rows: [makeNimstrLit("\xE2\x86\x95")], baseline: 0, width: 1, flag: 2}}, {Field0: -769796170, Field1: makeNimstrLit("kappa"), Field2: {rows: [makeNimstrLit("\xCE\xBA")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1976659016, Field1: makeNimstrLit("rtimes"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x8A")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1928334405, Field1: makeNimstrLit("varsubsetneq"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x8A")], baseline: 0, width: 1, flag: 2}}, {Field0: -31274052, Field1: makeNimstrLit("Eqqcolon"), Field2: {rows: [makeNimstrLit("=\xE2\x88\xB7")], baseline: 0, width: 2, flag: 2}}, {Field0: 1465733053, Field1: makeNimstrLit("approx"), Field2: {rows: [makeNimstrLit("\xE2\x89\x88")], baseline: 0, width: 1, flag: 2}}, {Field0: -166071362, Field1: makeNimstrLit("subseteq"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x86")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1005448255, Field1: makeNimstrLit("ae"), Field2: {rows: [makeNimstrLit("\xC3\xA6")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -774891575, Field1: makeNimstrLit("Downarrow"), Field2: {rows: [makeNimstrLit("\xE2\x87\x93")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 886597579, Field1: makeNimstrLit("deg"), Field2: {rows: [makeNimstrLit("deg")], baseline: 0, width: 3, flag: 4}}, {Field0: 747939788, Field1: makeNimstrLit("argmax"), Field2: {rows: [makeNimstrLit("arg\xE2\x80\x89max")], baseline: 0, width: 7, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 2054813647, Field1: makeNimstrLit("bigtriangleup"), Field2: {rows: [makeNimstrLit("\xE2\x96\xB3")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -288939055, Field1: makeNimstrLit("gggtr"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x99")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -996883499, Field1: makeNimstrLit("nleqq"), Field2: {rows: [makeNimstrLit("\xE2\x89\xB0")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 1772959704, Field1: makeNimstrLit("lneq"), Field2: {rows: [makeNimstrLit("\xE2\xAA\x87")], baseline: 0, width: 1, flag: 2}}, {Field0: 1375335385, Field1: makeNimstrLit("leftrightsquigarrow"), Field2: {rows: [makeNimstrLit("\xE2\x86\xAD")], baseline: 0, width: 1, flag: 2}}, {Field0: 1312613338, Field1: makeNimstrLit("nvDash"), Field2: {rows: [makeNimstrLit("\xE2\x8A\xAD")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 846101468, Field1: makeNimstrLit("ntriangleright"), Field2: {rows: [makeNimstrLit("\xE2\x8B\xAB")], baseline: 0, width: 1, flag: 2}}, {Field0: -2075499555, Field1: makeNimstrLit("precnsim"), Field2: {rows: [makeNimstrLit("\xE2\x8B\xA8")], baseline: 0, width: 1, flag: 2}}, {Field0: -2025091106, Field1: makeNimstrLit("cdotp"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x85")], baseline: 0, width: 1, flag: 2}}, {Field0: -606648354, Field1: makeNimstrLit("Longrightarrow"), Field2: {rows: [makeNimstrLit("\xE2\x9F\xB9")], baseline: 0, width: 1, flag: 2}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1515557918, Field1: makeNimstrLit("uplus"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x8E")], baseline: 0, width: 1, flag: 2}}, {Field0: 1908426722, Field1: makeNimstrLit("Mu"), Field2: {rows: [makeNimstrLit("M")], baseline: 0, width: 1, flag: 1}}, {Field0: -2045698077, Field1: makeNimstrLit("Pr"), Field2: {rows: [makeNimstrLit("Pr")], baseline: 0, width: 2, flag: 4}}, {Field0: -757661723, Field1: makeNimstrLit("th"), Field2: {rows: [makeNimstrLit("th")], baseline: 0, width: 2, flag: 4}}, {Field0: 1227092966, Field1: makeNimstrLit("lnsim"), Field2: {rows: [makeNimstrLit("\xE2\x8B\xA6")], baseline: 0, width: 1, flag: 2}}, {Field0: -573794331, Field1: makeNimstrLit("injlim"), Field2: {rows: [makeNimstrLit("inj\xE2\x80\x89lim")], baseline: 0, width: 7, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -810559509, Field1: makeNimstrLit("cong"), Field2: {rows: [makeNimstrLit("\xE2\x89\x85")], baseline: 0, width: 1, flag: 2}}, {Field0: 1662921708, Field1: makeNimstrLit("Xi"), Field2: {rows: [makeNimstrLit("\xCE\x9E")], baseline: 0, width: 1, flag: 1}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -753883154, Field1: makeNimstrLit("varphi"), Field2: {rows: [makeNimstrLit("\xCF\x86")], baseline: 0, width: 1, flag: 1}}, {Field0: 783613935, Field1: makeNimstrLit("leftrightharpoons"), Field2: {rows: [makeNimstrLit("\xE2\x87\x8B")], baseline: 0, width: 1, flag: 2}}, {Field0: -826565649, Field1: makeNimstrLit("lesseqgtr"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x9A")], baseline: 0, width: 1, flag: 2}}, {Field0: -2057048081, Field1: makeNimstrLit("ggg"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x99")], baseline: 0, width: 1, flag: 2}}, {Field0: -1661005840, Field1: makeNimstrLit("simcolon"), Field2: {rows: [makeNimstrLit("\xE2\x88\xBC:")], baseline: 0, width: 2, flag: 2}}, {Field0: 816394223, Field1: makeNimstrLit("ngeqq"), Field2: {rows: [makeNimstrLit("\xE2\x89\xB1")], baseline: 0, width: 1, flag: 2}}, {Field0: 1170508784, Field1: makeNimstrLit("langle"), Field2: {rows: [makeNimstrLit("\xE2\x9F\xA8")], baseline: 0, width: 1, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}, {Field0: -1927886855, Field1: makeNimstrLit("Beta"), Field2: {rows: [makeNimstrLit("B")], baseline: 0, width: 1, flag: 1}}, {Field0: -1420442630, Field1: makeNimstrLit("bowtie"), Field2: {rows: [makeNimstrLit("\xE2\x8B\x88")], baseline: 0, width: 1, flag: 2}}, {Field0: -1390482437, Field1: makeNimstrLit("odot"), Field2: {rows: [makeNimstrLit("\xE2\x8A\x99")], baseline: 0, width: 1, flag: 2}}, {Field0: 1269585915, Field1: makeNimstrLit("plusmn"), Field2: {rows: [makeNimstrLit("\xC2\xB1")], baseline: 0, width: 1, flag: 2}}, {Field0: 1408007165, Field1: makeNimstrLit("oe"), Field2: {rows: [makeNimstrLit("\xC5\x93")], baseline: 0, width: 1, flag: 1}}, {Field0: 1811268606, Field1: makeNimstrLit("log"), Field2: {rows: [makeNimstrLit("log")], baseline: 0, width: 3, flag: 4}}, {Field0: 0, Field1: [], Field2: {rows: [], baseline: 0, width: 0, flag: 0}}], counter: 663};
+var nonCommands_637535956 = [{Field0: makeNimstrLit("+"), Field1: {rows: [makeNimstrLit("+")], baseline: 0, width: 1, flag: 2}}, {Field0: makeNimstrLit("-"), Field1: {rows: [makeNimstrLit("\xE2\x88\x92")], baseline: 0, width: 1, flag: 2}}, {Field0: makeNimstrLit("*"), Field1: {rows: [makeNimstrLit("\xE2\x88\x97")], baseline: 0, width: 1, flag: 2}}, {Field0: makeNimstrLit("/"), Field1: {rows: [makeNimstrLit("/")], baseline: 0, width: 1, flag: 2}}, {Field0: makeNimstrLit("="), Field1: {rows: [makeNimstrLit("=")], baseline: 0, width: 1, flag: 2}}, {Field0: makeNimstrLit("<"), Field1: {rows: [makeNimstrLit("<")], baseline: 0, width: 1, flag: 2}}, {Field0: makeNimstrLit(">"), Field1: {rows: [makeNimstrLit(">")], baseline: 0, width: 1, flag: 2}}, {Field0: makeNimstrLit("\x1Bqualscoloncolon"), Field1: {rows: [makeNimstrLit("=\xE2\x88\xB7")], baseline: 0, width: 2, flag: 2}}, {Field0: makeNimstrLit("\x07pproxcoloncolon"), Field1: {rows: [makeNimstrLit("\xE2\x89\x88\xE2\x88\xB7")], baseline: 0, width: 2, flag: 2}}, {Field0: makeNimstrLit("\x0Doloncolonapprox"), Field1: {rows: [makeNimstrLit("\xE2\x88\xB7\xE2\x89\x88")], baseline: 0, width: 2, flag: 2}}, {Field0: makeNimstrLit("\x0Doloncolonminus"), Field1: {rows: [makeNimstrLit("\xE2\x88\xB7\xE2\x88\x92")], baseline: 0, width: 2, flag: 2}}, {Field0: makeNimstrLit("\x0Dolonequals"), Field1: {rows: [makeNimstrLit("\xE2\x89\x94")], baseline: 0, width: 1, flag: 2}}, {Field0: makeNimstrLit("\x0Doloncolonequals"), Field1: {rows: [makeNimstrLit("\xE2\x88\xB7=")], baseline: 0, width: 2, flag: 2}}, {Field0: makeNimstrLit("\x0Doloncolonsim"), Field1: {rows: [makeNimstrLit("\xE2\x88\xB7\xE2\x88\xBC")], baseline: 0, width: 2, flag: 2}}, {Field0: makeNimstrLit("\x0Doloncolon"), Field1: {rows: [makeNimstrLit("\xE2\x88\xB7")], baseline: 0, width: 1, flag: 2}}, {Field0: makeNimstrLit("("), Field1: {rows: [makeNimstrLit("(")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit(")"), Field1: {rows: [makeNimstrLit(")")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("["), Field1: {rows: [makeNimstrLit("[")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("]"), Field1: {rows: [makeNimstrLit("]")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\xE2\x9F\xA8"), Field1: {rows: [makeNimstrLit("\xE2\x9F\xA8")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\xE2\x9F\xA9"), Field1: {rows: [makeNimstrLit("\xE2\x9F\xA9")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("|"), Field1: {rows: [makeNimstrLit("\xE2\x88\xA3")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\xE2\x8C\x88"), Field1: {rows: [makeNimstrLit("\xE2\x8C\x88")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\xE2\x8C\x89"), Field1: {rows: [makeNimstrLit("\xE2\x8C\x89")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\xE2\x8C\x8A"), Field1: {rows: [makeNimstrLit("\xE2\x8C\x8A")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\xE2\x8C\x8B"), Field1: {rows: [makeNimstrLit("\xE2\x8C\x8B")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\xE2\x9F\xA6"), Field1: {rows: [makeNimstrLit("\xE2\x9F\xA6")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\xE2\x9F\xA7"), Field1: {rows: [makeNimstrLit("\xE2\x9F\xA7")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit(","), Field1: {rows: [makeNimstrLit(",")], baseline: 0, width: 1, flag: 8}}, {Field0: makeNimstrLit(":"), Field1: {rows: [makeNimstrLit(":")], baseline: 0, width: 1, flag: 8}}, {Field0: makeNimstrLit("`"), Field1: {rows: [makeNimstrLit("\xE2\x80\x98")], baseline: 0, width: 1, flag: 0}}, {Field0: makeNimstrLit("\""), Field1: {rows: [makeNimstrLit("\"")], baseline: 0, width: 1, flag: 0}}];
+var simpleDiacritics_637534551 = [{Field0: makeNimstrLit("\\acute"), Field1: {Field0: makeNimstrLit("\xCC\x81"), Field1: makeNimstrLit("\xCB\x8F")}}, {Field0: makeNimstrLit("\\bar"), Field1: {Field0: makeNimstrLit("\xCC\x84"), Field1: makeNimstrLit("_")}}, {Field0: makeNimstrLit("\\breve"), Field1: {Field0: makeNimstrLit("\xCC\x86"), Field1: makeNimstrLit("\xE2\x8F\x91")}}, {Field0: makeNimstrLit("\\check"), Field1: {Field0: makeNimstrLit("\xCC\x8C"), Field1: makeNimstrLit("\xCB\x87")}}, {Field0: makeNimstrLit("\\dot"), Field1: {Field0: makeNimstrLit("\xCC\x87"), Field1: makeNimstrLit(".")}}, {Field0: makeNimstrLit("\\ddot"), Field1: {Field0: makeNimstrLit("\xCC\x88"), Field1: makeNimstrLit("\xC2\xA8")}}, {Field0: makeNimstrLit("\\grave"), Field1: {Field0: makeNimstrLit("\xCC\x80"), Field1: makeNimstrLit("\xCB\x8E")}}, {Field0: makeNimstrLit("\\hat"), Field1: {Field0: makeNimstrLit("\xCC\x82"), Field1: makeNimstrLit("\xEA\x9E\x88")}}, {Field0: makeNimstrLit("\\not"), Field1: {Field0: makeNimstrLit("\xCC\xB8"), Field1: makeNimstrLit("/")}}, {Field0: makeNimstrLit("\\tilde"), Field1: {Field0: makeNimstrLit("\xCC\x83"), Field1: makeNimstrLit("\xCB\xB7")}}, {Field0: makeNimstrLit("\\vec"), Field1: {Field0: makeNimstrLit("\xE2\x83\x97"), Field1: makeNimstrLit("\xE2\x86\x92")}}];
 var ConstSet104 = setConstr(1);
 var ConstSet105 = setConstr(0);
 var ConstSet106 = setConstr(1);
 var ConstSet107 = setConstr(1);
 var ConstSet108 = setConstr(0);
 var ConstSet109 = setConstr(1);
-var ConstSet110 = setConstr(0);
-var ConstSet111 = setConstr(1);
-var ConstSet112 = setConstr(0);
+var ConstSet110 = setConstr(1);
+var ConstSet111 = setConstr(0);
+    var alignFuncs_654312342 = [HEX3Aanonymous_654312330, HEX3Aanonymous_654312334, HEX3Aanonymous_654312338];
+var ConstSet112 = setConstr(1);
 var ConstSet113 = setConstr(1);
-var ConstSet114 = setConstr(1);
-var ConstSet115 = setConstr(0);
-var ConstSet116 = setConstr(0);
+var ConstSet114 = setConstr(0);
+var ConstSet115 = setConstr(1);
+var ConstSet116 = setConstr(1);
 var ConstSet117 = setConstr(1);
-var ConstSet118 = setConstr(0);
-var ConstSet119 = setConstr(1);
+var ConstSet118 = setConstr(1);
+var ConstSet119 = setConstr(0);
 var ConstSet120 = setConstr(0);
+      var delimiterParts_620758385 = {data: [{Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 132032417, Field1: makeNimstrLit("\xE2\x88\xA5"), Field2: {Field0: makeNimstrLit("\xE2\x95\x91"), Field1: makeNimstrLit("\xE2\x95\x91"), Field2: makeNimstrLit("\xE2\x95\x91")}}, {Field0: 1632932802, Field1: makeNimstrLit("["), Field2: {Field0: makeNimstrLit("\xE2\x8E\xA1"), Field1: makeNimstrLit("\xE2\x8E\xA2"), Field2: makeNimstrLit("\xE2\x8E\xA3")}}, {Field0: -289087198, Field1: makeNimstrLit("\xE2\x9F\xA7"), Field2: {Field0: makeNimstrLit("\xE2\x95\x96"), Field1: makeNimstrLit("\xE2\x95\x91"), Field2: makeNimstrLit("\xE2\x95\x9C")}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: -436772347, Field1: makeNimstrLit(")"), Field2: {Field0: makeNimstrLit("\xE2\x8E\x9E"), Field1: makeNimstrLit("\xE2\x8E\x9F"), Field2: makeNimstrLit("\xE2\x8E\xA0")}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: -1827680438, Field1: makeNimstrLit("\xE2\x8C\x88"), Field2: {Field0: makeNimstrLit("\xE2\x8E\xA1"), Field1: makeNimstrLit("\xE2\x8E\xA2"), Field2: makeNimstrLit("\xE2\x8E\xA2")}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 501150701, Field1: makeNimstrLit("("), Field2: {Field0: makeNimstrLit("\xE2\x8E\x9B"), Field1: makeNimstrLit("\xE2\x8E\x9C"), Field2: makeNimstrLit("\xE2\x8E\x9D")}}, {Field0: 243936301, Field1: makeNimstrLit("\xE2\x8C\x8A"), Field2: {Field0: makeNimstrLit("\xE2\x8E\xA2"), Field1: makeNimstrLit("\xE2\x8E\xA2"), Field2: makeNimstrLit("\xE2\x8E\xA3")}}, {Field0: 1380037103, Field1: makeNimstrLit("\xE2\x9F\xA6"), Field2: {Field0: makeNimstrLit("\xE2\x95\x93"), Field1: makeNimstrLit("\xE2\x95\x91"), Field2: makeNimstrLit("\xE2\x95\x99")}}, {Field0: 1862135120, Field1: makeNimstrLit("]"), Field2: {Field0: makeNimstrLit("\xE2\x8E\xA4"), Field1: makeNimstrLit("\xE2\x8E\xA5"), Field2: makeNimstrLit("\xE2\x8E\xA6")}}, {Field0: -696588431, Field1: makeNimstrLit("\xE2\x8C\x8B"), Field2: {Field0: makeNimstrLit("\xE2\x8E\xA5"), Field1: makeNimstrLit("\xE2\x8E\xA5"), Field2: makeNimstrLit("\xE2\x8E\xA6")}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: -1377921419, Field1: makeNimstrLit("\xE2\x88\xA3"), Field2: {Field0: makeNimstrLit("\xE2\x94\x82"), Field1: makeNimstrLit("\xE2\x94\x82"), Field2: makeNimstrLit("\xE2\x94\x82")}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: -2091933701, Field1: makeNimstrLit("\xE2\x8C\x89"), Field2: {Field0: makeNimstrLit("\xE2\x8E\xA4"), Field1: makeNimstrLit("\xE2\x8E\xA5"), Field2: makeNimstrLit("\xE2\x8E\xA5")}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}, {Field0: 0, Field1: [], Field2: {Field0: [], Field1: [], Field2: []}}], counter: 12};
 var ConstSet121 = setConstr(1);
-var ConstSet122 = setConstr(0);
-var ConstSet123 = setConstr(1);
-var ConstSet124 = setConstr(0);
+var ConstSet122 = setConstr(1);
+var ConstSet123 = setConstr(0);
+var ConstSet124 = setConstr(1);
 var ConstSet125 = setConstr(1);
 var ConstSet126 = setConstr(0);
 var ConstSet127 = setConstr(1);
-var ConstSet128 = setConstr(0);
-var ConstSet129 = setConstr(1);
+var ConstSet128 = setConstr(1);
+var ConstSet129 = setConstr(0);
 var ConstSet130 = setConstr(1);
-var ConstSet131 = setConstr(3, 4);
-var ConstSet132 = setConstr(3, 4);
-var ConstSet133 = setConstr(1, 4, 2, 3, 8);
-var ConstSet134 = setConstr(1);
-var ConstSet135 = setConstr(1);
-var ConstSet136 = setConstr(0);
-var ConstSet137 = setConstr(0);
+var ConstSet131 = setConstr(1);
+var ConstSet132 = setConstr(0);
+var ConstSet133 = setConstr(1);
+var ConstSet134 = setConstr(0);
+var ConstSet135 = setConstr(3, 4);
+var ConstSet136 = setConstr(3, 4);
+var ConstSet137 = setConstr(1, 4, 2, 3, 8);
+var ConstSet138 = setConstr(1);
+var ConstSet139 = setConstr(1);
+var ConstSet140 = setConstr(0);
+var ConstSet141 = setConstr(0);
 if (!Math.trunc) {
   Math.trunc = function(v) {
     v = +v;
@@ -987,7 +995,7 @@ if (!Math.trunc) {
   };
 }
 
-var objectID_1140850850 = [0];
+var objectID_1107296418 = [0];
 
 function isFatPointer_33557132(ti_33557133) {
   var result_33557134 = false;
@@ -1027,39 +1035,39 @@ function nimCopyAux(dest_33557145, src_33557146, n_33557147) {
   
 }
 
-function succeedImpl_1090520053(inputInHEX60gensym43_1090520054, valueInHEX60gensym43_1090520055, tailInHEX60gensym43_1090520056) {
-  var result_1090520058 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function succeedImpl_1191183349(inputInHEX60gensym43_1191183350, valueInHEX60gensym43_1191183351, tailInHEX60gensym43_1191183352) {
+  var result_1191183354 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_1090520058 = nimCopy(result_1090520058, {kind: 0, value: nimCopy(null, valueInHEX60gensym43_1090520055, NTI33554439), tail: nimCopy(null, tailInHEX60gensym43_1090520056, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym43_1090520054, NTI33554439), expected: []}, NTI1090519172);
+    result_1191183354 = nimCopy(result_1191183354, {kind: 0, value: nimCopy(null, valueInHEX60gensym43_1191183351, NTI33554439), tail: nimCopy(null, tailInHEX60gensym43_1191183352, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym43_1191183350, NTI33554439), expected: []}, NTI1191182468);
 
-  return result_1090520058;
-
-}
-
-function failImpl_1090520060(inputInHEX60gensym43_1090520061, expectedInHEX60gensym43_1090520062, tailInHEX60gensym43_1090520063) {
-  var result_1090520065 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_1090520065 = nimCopy(result_1090520065, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym43_1090520062, NTI1090520083), tail: nimCopy(null, tailInHEX60gensym43_1090520063, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym43_1090520061, NTI33554439), value: []}, NTI1090519172);
-
-  return result_1090520065;
+  return result_1191183354;
 
 }
 
-function succeedImpl_1090520089(inputInHEX60gensym45_1090520090, valueInHEX60gensym45_1090520091, tailInHEX60gensym45_1090520092) {
-  var result_1090520094 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+function failImpl_1191183356(inputInHEX60gensym43_1191183357, expectedInHEX60gensym43_1191183358, tailInHEX60gensym43_1191183359) {
+  var result_1191183361 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_1090520094 = nimCopy(result_1090520094, {kind: 0, value: valueInHEX60gensym45_1090520091, tail: nimCopy(null, tailInHEX60gensym45_1090520092, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym45_1090520090, NTI33554439), expected: []}, NTI1090519270);
+    result_1191183361 = nimCopy(result_1191183361, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym43_1191183358, NTI1191183379), tail: nimCopy(null, tailInHEX60gensym43_1191183359, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym43_1191183357, NTI33554439), value: []}, NTI1191182468);
 
-  return result_1090520094;
+  return result_1191183361;
 
 }
 
-function failImpl_1090520096(inputInHEX60gensym45_1090520097, expectedInHEX60gensym45_1090520098, tailInHEX60gensym45_1090520099) {
-  var result_1090520101 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+function succeedImpl_1191183385(inputInHEX60gensym45_1191183386, valueInHEX60gensym45_1191183387, tailInHEX60gensym45_1191183388) {
+  var result_1191183390 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
 
-    result_1090520101 = nimCopy(result_1090520101, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym45_1090520098, NTI1090520117), tail: nimCopy(null, tailInHEX60gensym45_1090520099, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym45_1090520097, NTI33554439), value: 0}, NTI1090519270);
+    result_1191183390 = nimCopy(result_1191183390, {kind: 0, value: valueInHEX60gensym45_1191183387, tail: nimCopy(null, tailInHEX60gensym45_1191183388, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym45_1191183386, NTI33554439), expected: []}, NTI1191182566);
 
-  return result_1090520101;
+  return result_1191183390;
+
+}
+
+function failImpl_1191183392(inputInHEX60gensym45_1191183393, expectedInHEX60gensym45_1191183394, tailInHEX60gensym45_1191183395) {
+  var result_1191183397 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+
+    result_1191183397 = nimCopy(result_1191183397, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym45_1191183394, NTI1191183413), tail: nimCopy(null, tailInHEX60gensym45_1191183395, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym45_1191183393, NTI33554439), value: 0}, NTI1191182566);
+
+  return result_1191183397;
 
 }
 
@@ -1133,13 +1141,13 @@ function addChars_251658415(result_251658417, result_251658417_Idx, x_251658418,
     (result_251658417[result_251658417_Idx].length = chckRange(addInt(old_251658421, n_251658420), 0, 2147483647));
     Label1: do {
       var iHEX60gensym4_251658435 = 0;
-      var i_1090520272 = 0;
+      var i_1191183568 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(i_1090520272 < n_251658420)) break Label3;
-            iHEX60gensym4_251658435 = i_1090520272;
+          if (!(i_1191183568 < n_251658420)) break Label3;
+            iHEX60gensym4_251658435 = i_1191183568;
             result_251658417[result_251658417_Idx][chckIndx(addInt(old_251658421, iHEX60gensym4_251658435), 0, (result_251658417[result_251658417_Idx]).length - 1)] = x_251658418.charCodeAt(chckIndx(addInt(start_251658419, iHEX60gensym4_251658435), 0, (x_251658418).length - 1));
-            i_1090520272 = addInt(i_1090520272, 1);
+            i_1191183568 = addInt(i_1191183568, 1);
           }
       } while (false);
     } while (false);
@@ -1189,105 +1197,105 @@ function raiseIndexError(i_33556755, a_33556756, b_33556757) {
   
 }
 
-function HEX5BHEX5D_654314667(s_654314670, x_654314671) {
-  var result_654314672 = [];
+function HEX5BHEX5D_973081754(s_973081757, x_973081758) {
+  var result_973081759 = [];
 
-    var a_654314674 = x_654314671.a;
-    var L_654314676 = addInt(subInt(subInt((s_654314670).length, x_654314671.b), a_654314674), 1);
-    result_654314672 = nimCopy(null, mnewString(chckRange(L_654314676, 0, 2147483647)), NTI33554439);
+    var a_973081761 = x_973081758.a;
+    var L_973081763 = addInt(subInt(subInt((s_973081757).length, x_973081758.b), a_973081761), 1);
+    result_973081759 = nimCopy(null, mnewString(chckRange(L_973081763, 0, 2147483647)), NTI33554439);
     Label1: do {
-      var i_654314681 = 0;
-      var i_1090520277 = 0;
+      var i_973081768 = 0;
+      var i_637535921 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(i_1090520277 < L_654314676)) break Label3;
-            i_654314681 = i_1090520277;
-            result_654314672[chckIndx(i_654314681, 0, (result_654314672).length - 1)] = s_654314670[chckIndx(addInt(i_654314681, a_654314674), 0, (s_654314670).length - 1)];
-            i_1090520277 = addInt(i_1090520277, 1);
+          if (!(i_637535921 < L_973081763)) break Label3;
+            i_973081768 = i_637535921;
+            result_973081759[chckIndx(i_973081768, 0, (result_973081759).length - 1)] = s_973081757[chckIndx(addInt(i_973081768, a_973081761), 0, (s_973081757).length - 1)];
+            i_637535921 = addInt(i_637535921, 1);
           }
       } while (false);
     } while (false);
 
-  return result_654314672;
+  return result_973081759;
 
 }
 
-function HEX2EHEX2E_654314640(a_654314643, b_654314644) {
-  var result_654314647 = ({a: 0, b: 0});
+function HEX2EHEX2E_905969744(a_905969747, b_905969748) {
+  var result_905969751 = ({a: 0, b: 0});
 
-    result_654314647 = nimCopy(result_654314647, {a: a_654314643, b: b_654314644}, NTI654321832);
+    result_905969751 = nimCopy(result_905969751, {a: a_905969747, b: b_905969748}, NTI905969743);
 
-  return result_654314647;
+  return result_905969751;
 
 }
 
-function nsuFindChar(s_704644597, sub_704644598, start_704644599, last_704644600) {
+function nsuFindChar(s_671090165, sub_671090166, start_671090167, last_671090168) {
     var Temporary1;
 
-  var result_704644601 = 0;
+  var result_671090169 = 0;
 
   BeforeRet: do {
-    if ((last_704644600 == 0)) {
-    Temporary1 = (s_704644597).length - 1;
+    if ((last_671090168 == 0)) {
+    Temporary1 = (s_671090165).length - 1;
     }
     else {
-    Temporary1 = last_704644600;
+    Temporary1 = last_671090168;
     }
     
-    var last_704644602 = Temporary1;
+    var last_671090170 = Temporary1;
     Label2: do {
-      var i_704644612 = 0;
-      var colontmp__1090520289 = 0;
-      colontmp__1090520289 = start_704644599;
-      var res_1090520290 = colontmp__1090520289;
+      var i_671090180 = 0;
+      var colontmp__1191183582 = 0;
+      colontmp__1191183582 = start_671090167;
+      var res_1191183583 = colontmp__1191183582;
       Label3: do {
           Label4: while (true) {
-          if (!(res_1090520290 <= last_704644602)) break Label4;
-            i_704644612 = res_1090520290;
-            if ((sub_704644598 == s_704644597[chckIndx(i_704644612, 0, (s_704644597).length - 1)])) {
-            result_704644601 = i_704644612;
+          if (!(res_1191183583 <= last_671090170)) break Label4;
+            i_671090180 = res_1191183583;
+            if ((sub_671090166 == s_671090165[chckIndx(i_671090180, 0, (s_671090165).length - 1)])) {
+            result_671090169 = i_671090180;
             break BeforeRet;
             }
             
-            res_1090520290 = addInt(res_1090520290, 1);
+            res_1191183583 = addInt(res_1191183583, 1);
           }
       } while (false);
     } while (false);
-    result_704644601 = -1;
+    result_671090169 = -1;
     break BeforeRet;
   } while (false);
 
-  return result_704644601;
+  return result_671090169;
 
 }
 
-function fill_704644539(a_704644541, value_704644542) {
-    var xHEX60gensym166_704644548 = 0;
+function fill_671090107(a_671090109, value_671090110) {
+    var xHEX60gensym166_671090116 = 0;
     Label1: do {
         Label2: while (true) {
-        if (!(xHEX60gensym166_704644548 <= (a_704644541).length - 1)) break Label2;
-          a_704644541[chckIndx(xHEX60gensym166_704644548, 0, (a_704644541).length - 1)] = value_704644542;
-          xHEX60gensym166_704644548 = addInt(xHEX60gensym166_704644548, 1);
+        if (!(xHEX60gensym166_671090116 <= (a_671090109).length - 1)) break Label2;
+          a_671090109[chckIndx(xHEX60gensym166_671090116, 0, (a_671090109).length - 1)] = value_671090110;
+          xHEX60gensym166_671090116 = addInt(xHEX60gensym166_671090116, 1);
         }
     } while (false);
 
   
 }
 
-function nsuInitSkipTable(a_704644536, sub_704644537) {
-    var m_704644538 = (sub_704644537).length;
-    fill_704644539(a_704644536, m_704644538);
+function nsuInitSkipTable(a_671090104, sub_671090105) {
+    var m_671090106 = (sub_671090105).length;
+    fill_671090107(a_671090104, m_671090106);
     Label1: do {
-      var i_704644557 = 0;
-      var colontmp__1090520293 = 0;
-      colontmp__1090520293 = subInt(m_704644538, 1);
-      var i_1090520294 = 0;
+      var i_671090125 = 0;
+      var colontmp__1191183586 = 0;
+      colontmp__1191183586 = subInt(m_671090106, 1);
+      var i_1191183587 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(i_1090520294 < colontmp__1090520293)) break Label3;
-            i_704644557 = i_1090520294;
-            a_704644536[chckIndx(sub_704644537[chckIndx(i_704644557, 0, (sub_704644537).length - 1)], 0, (a_704644536).length - 1)] = subInt(subInt(m_704644538, 1), i_704644557);
-            i_1090520294 = addInt(i_1090520294, 1);
+          if (!(i_1191183587 < colontmp__1191183586)) break Label3;
+            i_671090125 = i_1191183587;
+            a_671090104[chckIndx(sub_671090105[chckIndx(i_671090125, 0, (sub_671090105).length - 1)], 0, (a_671090104).length - 1)] = subInt(subInt(m_671090106, 1), i_671090125);
+            i_1191183587 = addInt(i_1191183587, 1);
           }
       } while (false);
     } while (false);
@@ -1295,100 +1303,100 @@ function nsuInitSkipTable(a_704644536, sub_704644537) {
   
 }
 
-function nsuFindStrA(a_704644577, s_704644578, sub_704644579, start_704644580, last_704644581) {
+function nsuFindStrA(a_671090145, s_671090146, sub_671090147, start_671090148, last_671090149) {
     var Temporary1;
 
-  var result_704644582 = 0;
+  var result_671090150 = 0;
 
   BeforeRet: do {
-    if ((last_704644581 == 0)) {
-    Temporary1 = (s_704644578).length - 1;
+    if ((last_671090149 == 0)) {
+    Temporary1 = (s_671090146).length - 1;
     }
     else {
-    Temporary1 = last_704644581;
+    Temporary1 = last_671090149;
     }
     
-    var last_704644583 = Temporary1;
-    var subLast_704644584 = subInt((sub_704644579).length, 1);
-    if ((subLast_704644584 == -1)) {
-    result_704644582 = start_704644580;
+    var last_671090151 = Temporary1;
+    var subLast_671090152 = subInt((sub_671090147).length, 1);
+    if ((subLast_671090152 == -1)) {
+    result_671090150 = start_671090148;
     break BeforeRet;
     }
     
-    var skip_704644585 = start_704644580;
+    var skip_671090153 = start_671090148;
     Label2: do {
         Label3: while (true) {
-        if (!(subLast_704644584 <= subInt(last_704644583, skip_704644585))) break Label3;
-          var i_704644586 = subLast_704644584;
+        if (!(subLast_671090152 <= subInt(last_671090151, skip_671090153))) break Label3;
+          var i_671090154 = subLast_671090152;
           Label4: do {
               Label5: while (true) {
-              if (!(s_704644578[chckIndx(addInt(skip_704644585, i_704644586), 0, (s_704644578).length - 1)] == sub_704644579[chckIndx(i_704644586, 0, (sub_704644579).length - 1)])) break Label5;
-                if ((i_704644586 == 0)) {
-                result_704644582 = skip_704644585;
+              if (!(s_671090146[chckIndx(addInt(skip_671090153, i_671090154), 0, (s_671090146).length - 1)] == sub_671090147[chckIndx(i_671090154, 0, (sub_671090147).length - 1)])) break Label5;
+                if ((i_671090154 == 0)) {
+                result_671090150 = skip_671090153;
                 break BeforeRet;
                 }
                 
-                i_704644586 = subInt(i_704644586, 1);
+                i_671090154 = subInt(i_671090154, 1);
               }
           } while (false);
-          skip_704644585 = addInt(skip_704644585, a_704644577[chckIndx(s_704644578[chckIndx(addInt(skip_704644585, subLast_704644584), 0, (s_704644578).length - 1)], 0, (a_704644577).length - 1)]);
+          skip_671090153 = addInt(skip_671090153, a_671090145[chckIndx(s_671090146[chckIndx(addInt(skip_671090153, subLast_671090152), 0, (s_671090146).length - 1)], 0, (a_671090145).length - 1)]);
         }
     } while (false);
-    result_704644582 = -1;
+    result_671090150 = -1;
     break BeforeRet;
   } while (false);
 
-  return result_704644582;
+  return result_671090150;
 
 }
 
-function nsuFindStr(s_704644630, sub_704644631, start_704644632, last_704644633) {
-  var result_704644634 = 0;
+function nsuFindStr(s_671090198, sub_671090199, start_671090200, last_671090201) {
+  var result_671090202 = 0;
 
   BeforeRet: do {
-    if ((subInt((s_704644630).length, start_704644632) < (sub_704644631).length)) {
-    result_704644634 = -1;
+    if ((subInt((s_671090198).length, start_671090200) < (sub_671090199).length)) {
+    result_671090202 = -1;
     break BeforeRet;
     }
     
-    if (((sub_704644631).length == 1)) {
-    result_704644634 = nsuFindChar(s_704644630, sub_704644631[chckIndx(0, 0, (sub_704644631).length - 1)], start_704644632, last_704644633);
+    if (((sub_671090199).length == 1)) {
+    result_671090202 = nsuFindChar(s_671090198, sub_671090199[chckIndx(0, 0, (sub_671090199).length - 1)], start_671090200, last_671090201);
     break BeforeRet;
     }
     
-    var a_704644636 = [new Int32Array(256)];
-    nsuInitSkipTable(a_704644636[0], sub_704644631);
-    result_704644634 = nsuFindStrA(a_704644636[0], s_704644630, sub_704644631, start_704644632, last_704644633);
+    var a_671090204 = [new Int32Array(256)];
+    nsuInitSkipTable(a_671090204[0], sub_671090199);
+    result_671090202 = nsuFindStrA(a_671090204[0], s_671090198, sub_671090199, start_671090200, last_671090201);
   } while (false);
 
-  return result_704644634;
+  return result_671090202;
 
 }
 
-function findBounds_1090519048(s_1090519049, r_1090519050) {
-  var result_1090519051 = {Field0: 0, Field1: 0};
+function findBounds_1191182344(s_1191182345, r_1191182346) {
+  var result_1191182347 = {Field0: 0, Field1: 0};
 
   BeforeRet: do {
-    var m_1090519052 = toJSStr(s_1090519049).match(r_1090519050);
-    if (!(((m_1090519052) == null))) {
-    var start_1090519060 = nsuFindStr(s_1090519049, cstrToNimstr(m_1090519052[chckIndx(0, 0, (m_1090519052).length - 1)]), 0, 0);
-    var colontmp__1090520280 = start_1090519060;
-    var colontmp__1090520281 = subInt(addInt(start_1090519060, ((m_1090519052[chckIndx(0, 0, (m_1090519052).length - 1)]) == null ? 0 : (m_1090519052[chckIndx(0, 0, (m_1090519052).length - 1)]).length)), 1);
-    result_1090519051 = nimCopy(result_1090519051, {Field0: colontmp__1090520280, Field1: colontmp__1090520281}, NTI1090519046);
+    var m_1191182348 = toJSStr(s_1191182345).match(r_1191182346);
+    if (!(((m_1191182348) == null))) {
+    var start_1191182356 = nsuFindStr(s_1191182345, cstrToNimstr(m_1191182348[chckIndx(0, 0, (m_1191182348).length - 1)]), 0, 0);
+    var colontmp__1191183573 = start_1191182356;
+    var colontmp__1191183574 = subInt(addInt(start_1191182356, ((m_1191182348[chckIndx(0, 0, (m_1191182348).length - 1)]) == null ? 0 : (m_1191182348[chckIndx(0, 0, (m_1191182348).length - 1)]).length)), 1);
+    result_1191182347 = nimCopy(result_1191182347, {Field0: colontmp__1191183573, Field1: colontmp__1191183574}, NTI1191182342);
     break BeforeRet;
     }
     
-    var colontmp__1090520282 = -1;
-    var colontmp__1090520283 = 0;
-    result_1090519051 = nimCopy(result_1090519051, {Field0: colontmp__1090520282, Field1: colontmp__1090520283}, NTI1090519046);
+    var colontmp__1191183575 = -1;
+    var colontmp__1191183576 = 0;
+    result_1191182347 = nimCopy(result_1191182347, {Field0: colontmp__1191183575, Field1: colontmp__1191183576}, NTI1191182342);
     break BeforeRet;
   } while (false);
 
-  return result_1090519051;
+  return result_1191182347;
 
 }
 
-function invalidFormatString_704645197() {
+function invalidFormatString_671090765() {
     raiseException({message: makeNimstrLit("invalid format string"), parent: null, m_type: NTI33555125, name: null, trace: [], up: null}, "ValueError");
 
   
@@ -1409,99 +1417,99 @@ function toLowerAscii_1006632961(c_1006632962) {
 
 }
 
-function nsuCmpIgnoreStyle(a_704643262, b_704643263) {
+function nsuCmpIgnoreStyle(a_671088830, b_671088831) {
           var Temporary7;
           var Temporary8;
 
-  var result_704643264 = 0;
+  var result_671088832 = 0;
 
   BeforeRet: do {
-    var aLenHEX60gensym25_704643273 = (a_704643262).length;
-    var bLenHEX60gensym25_704643274 = (b_704643263).length;
-    var iHEX60gensym25_704643275 = 0;
-    var jHEX60gensym25_704643276 = 0;
+    var aLenHEX60gensym25_671088841 = (a_671088830).length;
+    var bLenHEX60gensym25_671088842 = (b_671088831).length;
+    var iHEX60gensym25_671088843 = 0;
+    var jHEX60gensym25_671088844 = 0;
     Label1: do {
         Label2: while (true) {
         if (!true) break Label2;
           Label3: do {
               Label4: while (true) {
-              if (!((iHEX60gensym25_704643275 < aLenHEX60gensym25_704643273) && (a_704643262[iHEX60gensym25_704643275] == 95))) break Label4;
-                iHEX60gensym25_704643275 += 1;
+              if (!((iHEX60gensym25_671088843 < aLenHEX60gensym25_671088841) && (a_671088830[iHEX60gensym25_671088843] == 95))) break Label4;
+                iHEX60gensym25_671088843 += 1;
               }
           } while (false);
           Label5: do {
               Label6: while (true) {
-              if (!((jHEX60gensym25_704643276 < bLenHEX60gensym25_704643274) && (b_704643263[jHEX60gensym25_704643276] == 95))) break Label6;
-                jHEX60gensym25_704643276 += 1;
+              if (!((jHEX60gensym25_671088844 < bLenHEX60gensym25_671088842) && (b_671088831[jHEX60gensym25_671088844] == 95))) break Label6;
+                jHEX60gensym25_671088844 += 1;
               }
           } while (false);
-          if ((iHEX60gensym25_704643275 < aLenHEX60gensym25_704643273)) {
-          Temporary7 = toLowerAscii_1006632961(a_704643262[iHEX60gensym25_704643275]);
+          if ((iHEX60gensym25_671088843 < aLenHEX60gensym25_671088841)) {
+          Temporary7 = toLowerAscii_1006632961(a_671088830[iHEX60gensym25_671088843]);
           }
           else {
           Temporary7 = 0;
           }
           
-          var aaHEX60gensym25_704643285 = Temporary7;
-          if ((jHEX60gensym25_704643276 < bLenHEX60gensym25_704643274)) {
-          Temporary8 = toLowerAscii_1006632961(b_704643263[jHEX60gensym25_704643276]);
+          var aaHEX60gensym25_671088853 = Temporary7;
+          if ((jHEX60gensym25_671088844 < bLenHEX60gensym25_671088842)) {
+          Temporary8 = toLowerAscii_1006632961(b_671088831[jHEX60gensym25_671088844]);
           }
           else {
           Temporary8 = 0;
           }
           
-          var bbHEX60gensym25_704643286 = Temporary8;
-          result_704643264 = (aaHEX60gensym25_704643285 - bbHEX60gensym25_704643286);
-          if (!((result_704643264 == 0))) {
+          var bbHEX60gensym25_671088854 = Temporary8;
+          result_671088832 = (aaHEX60gensym25_671088853 - bbHEX60gensym25_671088854);
+          if (!((result_671088832 == 0))) {
           break BeforeRet;
           }
           
-          if ((aLenHEX60gensym25_704643273 <= iHEX60gensym25_704643275)) {
-          if ((bLenHEX60gensym25_704643274 <= jHEX60gensym25_704643276)) {
-          result_704643264 = 0;
+          if ((aLenHEX60gensym25_671088841 <= iHEX60gensym25_671088843)) {
+          if ((bLenHEX60gensym25_671088842 <= jHEX60gensym25_671088844)) {
+          result_671088832 = 0;
           break BeforeRet;
           }
           
-          result_704643264 = -1;
+          result_671088832 = -1;
           break BeforeRet;
           }
           else {
-          if ((bLenHEX60gensym25_704643274 <= jHEX60gensym25_704643276)) {
-          result_704643264 = 1;
+          if ((bLenHEX60gensym25_671088842 <= jHEX60gensym25_671088844)) {
+          result_671088832 = 1;
           break BeforeRet;
           }
           }
-          iHEX60gensym25_704643275 += 1;
-          jHEX60gensym25_704643276 += 1;
+          iHEX60gensym25_671088843 += 1;
+          jHEX60gensym25_671088844 += 1;
         }
     } while (false);
   } while (false);
 
-  return result_704643264;
+  return result_671088832;
 
 }
 
-function findNormalized_704645185(x_704645186, inArray_704645187) {
-  var result_704645188 = 0;
+function findNormalized_671090753(x_671090754, inArray_671090755) {
+  var result_671090756 = 0;
 
   BeforeRet: do {
-    var i_704645189 = 0;
+    var i_671090757 = 0;
     Label1: do {
         Label2: while (true) {
-        if (!(i_704645189 < (inArray_704645187).length - 1)) break Label2;
-          if ((nsuCmpIgnoreStyle(x_704645186, inArray_704645187[chckIndx(i_704645189, 0, (inArray_704645187).length - 1)]) == 0)) {
-          result_704645188 = i_704645189;
+        if (!(i_671090757 < (inArray_671090755).length - 1)) break Label2;
+          if ((nsuCmpIgnoreStyle(x_671090754, inArray_671090755[chckIndx(i_671090757, 0, (inArray_671090755).length - 1)]) == 0)) {
+          result_671090756 = i_671090757;
           break BeforeRet;
           }
           
-          i_704645189 = addInt(i_704645189, 2);
+          i_671090757 = addInt(i_671090757, 2);
         }
     } while (false);
-    result_704645188 = -1;
+    result_671090756 = -1;
     break BeforeRet;
   } while (false);
 
-  return result_704645188;
+  return result_671090756;
 
 }
 
@@ -1513,15 +1521,15 @@ function substr_33557922(s_33557923, first_33557924, last_33557925) {
     result_33557926 = nimCopy(null, mnewString(chckRange(L_33557928, 0, 2147483647)), NTI33554439);
     Label1: do {
       var i_33557933 = 0;
-      var colontmp__1090520308 = 0;
-      colontmp__1090520308 = subInt(L_33557928, 1);
-      var res_1090520309 = 0;
+      var colontmp__637534317 = 0;
+      colontmp__637534317 = subInt(L_33557928, 1);
+      var res_637534318 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(res_1090520309 <= colontmp__1090520308)) break Label3;
-            i_33557933 = res_1090520309;
+          if (!(res_637534318 <= colontmp__637534317)) break Label3;
+            i_33557933 = res_637534318;
             result_33557926[chckIndx(i_33557933, 0, (result_33557926).length - 1)] = s_33557923[chckIndx(addInt(i_33557933, first_33557927), 0, (s_33557923).length - 1)];
-            res_1090520309 = addInt(res_1090520309, 1);
+            res_637534318 = addInt(res_637534318, 1);
           }
       } while (false);
     } while (false);
@@ -1530,7 +1538,7 @@ function substr_33557922(s_33557923, first_33557924, last_33557925) {
 
 }
 
-function nsuAddf(s_704645200, s_704645200_Idx, formatstr_704645201, a_704645202) {
+function nsuAddf(s_671090768, s_671090768_Idx, formatstr_671090769, a_671090770) {
                   var Temporary5;
             var Temporary6;
               var Temporary7;
@@ -1540,25 +1548,25 @@ function nsuAddf(s_704645200, s_704645200_Idx, formatstr_704645201, a_704645202)
                   var Temporary15;
               var Temporary16;
 
-    var i_704645204 = 0;
-    var num_704645205 = 0;
+    var i_671090772 = 0;
+    var num_671090773 = 0;
     Label1: do {
         Label2: while (true) {
-        if (!(i_704645204 < (formatstr_704645201).length)) break Label2;
-          if (((formatstr_704645201[chckIndx(i_704645204, 0, (formatstr_704645201).length - 1)] == 36) && (addInt(i_704645204, 1) < (formatstr_704645201).length))) {
-          switch (formatstr_704645201[chckIndx(addInt(i_704645204, 1), 0, (formatstr_704645201).length - 1)]) {
+        if (!(i_671090772 < (formatstr_671090769).length)) break Label2;
+          if (((formatstr_671090769[chckIndx(i_671090772, 0, (formatstr_671090769).length - 1)] == 36) && (addInt(i_671090772, 1) < (formatstr_671090769).length))) {
+          switch (formatstr_671090769[chckIndx(addInt(i_671090772, 1), 0, (formatstr_671090769).length - 1)]) {
           case 35:
-            if (((a_704645202).length - 1 < num_704645205)) {
-            invalidFormatString_704645197();
+            if (((a_671090770).length - 1 < num_671090773)) {
+            invalidFormatString_671090765();
             }
             
-            s_704645200[s_704645200_Idx].push.apply(s_704645200[s_704645200_Idx], a_704645202[chckIndx(num_704645205, 0, (a_704645202).length - 1)]);;
-            i_704645204 = addInt(i_704645204, 2);
-            num_704645205 = addInt(num_704645205, 1);
+            s_671090768[s_671090768_Idx].push.apply(s_671090768[s_671090768_Idx], a_671090770[chckIndx(num_671090773, 0, (a_671090770).length - 1)]);;
+            i_671090772 = addInt(i_671090772, 2);
+            num_671090773 = addInt(num_671090773, 1);
             break;
           case 36:
-            addChar(s_704645200[s_704645200_Idx], 36);;
-            i_704645204 = addInt(i_704645204, 2);
+            addChar(s_671090768[s_671090768_Idx], 36);;
+            i_671090772 = addInt(i_671090772, 2);
             break;
           case 49:
           case 50:
@@ -1570,87 +1578,87 @@ function nsuAddf(s_704645200, s_704645200_Idx, formatstr_704645201, a_704645202)
           case 56:
           case 57:
           case 45:
-            var j_704645221 = 0;
-            i_704645204 = addInt(i_704645204, 1);
-            var negative_704645226 = (formatstr_704645201[chckIndx(i_704645204, 0, (formatstr_704645201).length - 1)] == 45);
-            if (negative_704645226) {
-            i_704645204 = addInt(i_704645204, 1);
+            var j_671090789 = 0;
+            i_671090772 = addInt(i_671090772, 1);
+            var negative_671090794 = (formatstr_671090769[chckIndx(i_671090772, 0, (formatstr_671090769).length - 1)] == 45);
+            if (negative_671090794) {
+            i_671090772 = addInt(i_671090772, 1);
             }
             
             Label3: do {
                 Label4: while (true) {
-                  if (!(i_704645204 < (formatstr_704645201).length)) Temporary5 = false; else {                    Temporary5 = (ConstSet2[formatstr_704645201[chckIndx(i_704645204, 0, (formatstr_704645201).length - 1)]] != undefined);                  }                if (!Temporary5) break Label4;
-                  j_704645221 = subInt(addInt(mulInt(j_704645221, 10), formatstr_704645201[chckIndx(i_704645204, 0, (formatstr_704645201).length - 1)]), 48);
-                  i_704645204 = addInt(i_704645204, 1);
+                  if (!(i_671090772 < (formatstr_671090769).length)) Temporary5 = false; else {                    Temporary5 = (ConstSet2[formatstr_671090769[chckIndx(i_671090772, 0, (formatstr_671090769).length - 1)]] != undefined);                  }                if (!Temporary5) break Label4;
+                  j_671090789 = subInt(addInt(mulInt(j_671090789, 10), formatstr_671090769[chckIndx(i_671090772, 0, (formatstr_671090769).length - 1)]), 48);
+                  i_671090772 = addInt(i_671090772, 1);
                 }
             } while (false);
-            if (!(negative_704645226)) {
-            Temporary6 = subInt(j_704645221, 1);
+            if (!(negative_671090794)) {
+            Temporary6 = subInt(j_671090789, 1);
             }
             else {
-            Temporary6 = subInt((a_704645202).length, j_704645221);
+            Temporary6 = subInt((a_671090770).length, j_671090789);
             }
             
-            var idx_704645249 = Temporary6;
-              if ((idx_704645249 < 0)) Temporary7 = true; else {                Temporary7 = ((a_704645202).length - 1 < idx_704645249);              }            if (Temporary7) {
-            invalidFormatString_704645197();
+            var idx_671090817 = Temporary6;
+              if ((idx_671090817 < 0)) Temporary7 = true; else {                Temporary7 = ((a_671090770).length - 1 < idx_671090817);              }            if (Temporary7) {
+            invalidFormatString_671090765();
             }
             
-            s_704645200[s_704645200_Idx].push.apply(s_704645200[s_704645200_Idx], a_704645202[chckIndx(idx_704645249, 0, (a_704645202).length - 1)]);;
+            s_671090768[s_671090768_Idx].push.apply(s_671090768[s_671090768_Idx], a_671090770[chckIndx(idx_671090817, 0, (a_671090770).length - 1)]);;
             break;
           case 123:
-            var j_704645253 = addInt(i_704645204, 2);
-            var k_704645254 = 0;
-            var negative_704645255 = (formatstr_704645201[chckIndx(j_704645253, 0, (formatstr_704645201).length - 1)] == 45);
-            if (negative_704645255) {
-            j_704645253 = addInt(j_704645253, 1);
+            var j_671090821 = addInt(i_671090772, 2);
+            var k_671090822 = 0;
+            var negative_671090823 = (formatstr_671090769[chckIndx(j_671090821, 0, (formatstr_671090769).length - 1)] == 45);
+            if (negative_671090823) {
+            j_671090821 = addInt(j_671090821, 1);
             }
             
-            var isNumber_704645260 = 0;
+            var isNumber_671090828 = 0;
             Label8: do {
                 Label9: while (true) {
-                if (!((j_704645253 < (formatstr_704645201).length) && !((ConstSet3[formatstr_704645201[chckIndx(j_704645253, 0, (formatstr_704645201).length - 1)]] != undefined)))) break Label9;
-                  if ((ConstSet4[formatstr_704645201[chckIndx(j_704645253, 0, (formatstr_704645201).length - 1)]] != undefined)) {
-                  k_704645254 = subInt(addInt(mulInt(k_704645254, 10), formatstr_704645201[chckIndx(j_704645253, 0, (formatstr_704645201).length - 1)]), 48);
-                  if ((isNumber_704645260 == 0)) {
-                  isNumber_704645260 = 1;
+                if (!((j_671090821 < (formatstr_671090769).length) && !((ConstSet3[formatstr_671090769[chckIndx(j_671090821, 0, (formatstr_671090769).length - 1)]] != undefined)))) break Label9;
+                  if ((ConstSet4[formatstr_671090769[chckIndx(j_671090821, 0, (formatstr_671090769).length - 1)]] != undefined)) {
+                  k_671090822 = subInt(addInt(mulInt(k_671090822, 10), formatstr_671090769[chckIndx(j_671090821, 0, (formatstr_671090769).length - 1)]), 48);
+                  if ((isNumber_671090828 == 0)) {
+                  isNumber_671090828 = 1;
                   }
                   
                   }
                   else {
-                    isNumber_704645260 = -1;
+                    isNumber_671090828 = -1;
                   }
                   
-                  j_704645253 = addInt(j_704645253, 1);
+                  j_671090821 = addInt(j_671090821, 1);
                 }
             } while (false);
-            if ((isNumber_704645260 == 1)) {
-            if (!(negative_704645255)) {
-            Temporary10 = subInt(k_704645254, 1);
+            if ((isNumber_671090828 == 1)) {
+            if (!(negative_671090823)) {
+            Temporary10 = subInt(k_671090822, 1);
             }
             else {
-            Temporary10 = subInt((a_704645202).length, k_704645254);
+            Temporary10 = subInt((a_671090770).length, k_671090822);
             }
             
-            var idx_704645282 = Temporary10;
-              if ((idx_704645282 < 0)) Temporary11 = true; else {                Temporary11 = ((a_704645202).length - 1 < idx_704645282);              }            if (Temporary11) {
-            invalidFormatString_704645197();
+            var idx_671090850 = Temporary10;
+              if ((idx_671090850 < 0)) Temporary11 = true; else {                Temporary11 = ((a_671090770).length - 1 < idx_671090850);              }            if (Temporary11) {
+            invalidFormatString_671090765();
             }
             
-            s_704645200[s_704645200_Idx].push.apply(s_704645200[s_704645200_Idx], a_704645202[chckIndx(idx_704645282, 0, (a_704645202).length - 1)]);;
+            s_671090768[s_671090768_Idx].push.apply(s_671090768[s_671090768_Idx], a_671090770[chckIndx(idx_671090850, 0, (a_671090770).length - 1)]);;
             }
             else {
-              var x_704645286 = findNormalized_704645185(substr_33557922(formatstr_704645201, addInt(i_704645204, 2), subInt(j_704645253, 1)), a_704645202);
-                if (!(0 <= x_704645286)) Temporary12 = false; else {                  Temporary12 = (x_704645286 < (a_704645202).length - 1);                }              if (Temporary12) {
-              s_704645200[s_704645200_Idx].push.apply(s_704645200[s_704645200_Idx], a_704645202[chckIndx(addInt(x_704645286, 1), 0, (a_704645202).length - 1)]);;
+              var x_671090854 = findNormalized_671090753(substr_33557922(formatstr_671090769, addInt(i_671090772, 2), subInt(j_671090821, 1)), a_671090770);
+                if (!(0 <= x_671090854)) Temporary12 = false; else {                  Temporary12 = (x_671090854 < (a_671090770).length - 1);                }              if (Temporary12) {
+              s_671090768[s_671090768_Idx].push.apply(s_671090768[s_671090768_Idx], a_671090770[chckIndx(addInt(x_671090854, 1), 0, (a_671090770).length - 1)]);;
               }
               else {
-              invalidFormatString_704645197();
+              invalidFormatString_671090765();
               }
               
             }
             
-            i_704645204 = addInt(j_704645253, 1);
+            i_671090772 = addInt(j_671090821, 1);
             break;
           case 97:
           case 98:
@@ -1833,31 +1841,31 @@ function nsuAddf(s_704645200, s_704645200_Idx, formatstr_704645201, a_704645202)
           case 254:
           case 255:
           case 95:
-            var j_704645290 = addInt(i_704645204, 1);
+            var j_671090858 = addInt(i_671090772, 1);
             Label13: do {
                 Label14: while (true) {
-                  if (!(j_704645290 < (formatstr_704645201).length)) Temporary15 = false; else {                    Temporary15 = (ConstSet6[formatstr_704645201[chckIndx(j_704645290, 0, (formatstr_704645201).length - 1)]] != undefined);                  }                if (!Temporary15) break Label14;
-                  j_704645290 = addInt(j_704645290, 1);
+                  if (!(j_671090858 < (formatstr_671090769).length)) Temporary15 = false; else {                    Temporary15 = (ConstSet6[formatstr_671090769[chckIndx(j_671090858, 0, (formatstr_671090769).length - 1)]] != undefined);                  }                if (!Temporary15) break Label14;
+                  j_671090858 = addInt(j_671090858, 1);
                 }
             } while (false);
-            var x_704645299 = findNormalized_704645185(substr_33557922(formatstr_704645201, addInt(i_704645204, 1), subInt(j_704645290, 1)), a_704645202);
-              if (!(0 <= x_704645299)) Temporary16 = false; else {                Temporary16 = (x_704645299 < (a_704645202).length - 1);              }            if (Temporary16) {
-            s_704645200[s_704645200_Idx].push.apply(s_704645200[s_704645200_Idx], a_704645202[chckIndx(addInt(x_704645299, 1), 0, (a_704645202).length - 1)]);;
+            var x_671090867 = findNormalized_671090753(substr_33557922(formatstr_671090769, addInt(i_671090772, 1), subInt(j_671090858, 1)), a_671090770);
+              if (!(0 <= x_671090867)) Temporary16 = false; else {                Temporary16 = (x_671090867 < (a_671090770).length - 1);              }            if (Temporary16) {
+            s_671090768[s_671090768_Idx].push.apply(s_671090768[s_671090768_Idx], a_671090770[chckIndx(addInt(x_671090867, 1), 0, (a_671090770).length - 1)]);;
             }
             else {
-            invalidFormatString_704645197();
+            invalidFormatString_671090765();
             }
             
-            i_704645204 = j_704645290;
+            i_671090772 = j_671090858;
             break;
           default: 
-            invalidFormatString_704645197();
+            invalidFormatString_671090765();
             break;
           }
           }
           else {
-            addChar(s_704645200[s_704645200_Idx], formatstr_704645201[chckIndx(i_704645204, 0, (formatstr_704645201).length - 1)]);;
-            i_704645204 = addInt(i_704645204, 1);
+            addChar(s_671090768[s_671090768_Idx], formatstr_671090769[chckIndx(i_671090772, 0, (formatstr_671090769).length - 1)]);;
+            i_671090772 = addInt(i_671090772, 1);
           }
           
         }
@@ -1866,148 +1874,148 @@ function nsuAddf(s_704645200, s_704645200_Idx, formatstr_704645201, a_704645202)
   
 }
 
-function nsuFormatSingleElem(formatstr_704645319, a_704645320) {
-  var result_704645321 = [[]];
+function nsuFormatSingleElem(formatstr_671090887, a_671090888) {
+  var result_671090889 = [[]];
 
-    result_704645321[0] = nimCopy(null, mnewString(0), NTI33554439);
-    nsuAddf(result_704645321, 0, formatstr_704645319, [nimCopy(null, a_704645320, NTI33554439)]);
+    result_671090889[0] = nimCopy(null, mnewString(0), NTI33554439);
+    nsuAddf(result_671090889, 0, formatstr_671090887, [nimCopy(null, a_671090888, NTI33554439)]);
 
-  return result_704645321[0];
+  return result_671090889[0];
 
 }
 
-function HEX5BHEX5D_654312302(s_654312305, x_654312306) {
-  var result_654312307 = [];
+function HEX5BHEX5D_973079404(s_973079407, x_973079408) {
+  var result_973079409 = [];
 
-    var a_654312309 = x_654312306.a;
-    var L_654312311 = addInt(subInt(x_654312306.b, a_654312309), 1);
-    result_654312307 = nimCopy(null, mnewString(chckRange(L_654312311, 0, 2147483647)), NTI33554439);
+    var a_973079411 = x_973079408.a;
+    var L_973079413 = addInt(subInt(x_973079408.b, a_973079411), 1);
+    result_973079409 = nimCopy(null, mnewString(chckRange(L_973079413, 0, 2147483647)), NTI33554439);
     Label1: do {
-      var i_654312316 = 0;
-      var i_1090520312 = 0;
+      var i_973079418 = 0;
+      var i_1191183601 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(i_1090520312 < L_654312311)) break Label3;
-            i_654312316 = i_1090520312;
-            result_654312307[chckIndx(i_654312316, 0, (result_654312307).length - 1)] = s_654312305[chckIndx(addInt(i_654312316, a_654312309), 0, (s_654312305).length - 1)];
-            i_1090520312 = addInt(i_1090520312, 1);
+          if (!(i_1191183601 < L_973079413)) break Label3;
+            i_973079418 = i_1191183601;
+            result_973079409[chckIndx(i_973079418, 0, (result_973079409).length - 1)] = s_973079407[chckIndx(addInt(i_973079418, a_973079411), 0, (s_973079407).length - 1)];
+            i_1191183601 = addInt(i_1191183601, 1);
           }
       } while (false);
     } while (false);
 
-  return result_654312307;
+  return result_973079409;
 
 }
 
-function HEX2EHEX2E_654312275(a_654312278, b_654312279) {
-  var result_654312282 = ({a: 0, b: 0});
+function HEX2EHEX2E_973079379(a_973079382, b_973079383) {
+  var result_973079384 = ({a: 0, b: 0});
 
-    result_654312282 = nimCopy(result_654312282, {a: a_654312278, b: b_654312279}, NTI654313427);
+    result_973079384 = nimCopy(result_973079384, {a: a_973079382, b: b_973079383}, NTI721420349);
 
-  return result_654312282;
-
-}
-
-function regex_1090519554(expect_1090519555) {
-
-function succeedImpl_1090519569(inputInHEX60gensym20_1090519570, valueInHEX60gensym20_1090519571, tailInHEX60gensym20_1090519572) {
-  var result_1090519574 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_1090519574 = nimCopy(result_1090519574, {kind: 0, value: nimCopy(null, valueInHEX60gensym20_1090519571, NTI33554439), tail: nimCopy(null, tailInHEX60gensym20_1090519572, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym20_1090519570, NTI33554439), expected: []}, NTI1090519172);
-
-  return result_1090519574;
+  return result_973079384;
 
 }
 
-function failImpl_1090519576(inputInHEX60gensym20_1090519577, expectedInHEX60gensym20_1090519578, tailInHEX60gensym20_1090519579) {
-  var result_1090519581 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function regex_1191182850(expect_1191182851) {
 
-    result_1090519581 = nimCopy(result_1090519581, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym20_1090519578, NTI1090519514), tail: nimCopy(null, tailInHEX60gensym20_1090519579, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym20_1090519577, NTI33554439), value: []}, NTI1090519172);
+function succeedImpl_1191182865(inputInHEX60gensym20_1191182866, valueInHEX60gensym20_1191182867, tailInHEX60gensym20_1191182868) {
+  var result_1191182870 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-  return result_1090519581;
+    result_1191182870 = nimCopy(result_1191182870, {kind: 0, value: nimCopy(null, valueInHEX60gensym20_1191182867, NTI33554439), tail: nimCopy(null, tailInHEX60gensym20_1191182868, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym20_1191182866, NTI33554439), expected: []}, NTI1191182468);
+
+  return result_1191182870;
 
 }
-      expect_1090519555 = nimCopy(null, expect_1090519555, NTI33554439);
+
+function failImpl_1191182872(inputInHEX60gensym20_1191182873, expectedInHEX60gensym20_1191182874, tailInHEX60gensym20_1191182875) {
+  var result_1191182877 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_1191182877 = nimCopy(result_1191182877, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym20_1191182874, NTI1191182810), tail: nimCopy(null, tailInHEX60gensym20_1191182875, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym20_1191182873, NTI33554439), value: []}, NTI1191182468);
+
+  return result_1191182877;
+
+}
+      expect_1191182851 = nimCopy(null, expect_1191182851, NTI33554439);
       
-function HEX3Aanonymous_1090519584(input_1090519585) {
-        var result_1090519587 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function HEX3Aanonymous_1191182880(input_1191182881) {
+        var result_1191182883 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_1090519588 = succeedImpl_1090519569;
-          var fail_1090519589 = failImpl_1090519576;
-          var bounds_1090519590 = findBounds_1090519048(input_1090519585, expreg_1090519558);
-          if (!((bounds_1090519590["Field0"] == 0))) {
-          result_1090519587 = nimCopy(result_1090519587, fail_1090519589(input_1090519585, [nsuFormatSingleElem(makeNimstrLit("match for regex \'$1\'"), expect_1090519555)], input_1090519585), NTI1090519172);
+          var succeed_1191182884 = succeedImpl_1191182865;
+          var fail_1191182885 = failImpl_1191182872;
+          var bounds_1191182886 = findBounds_1191182344(input_1191182881, expreg_1191182854);
+          if (!((bounds_1191182886["Field0"] == 0))) {
+          result_1191182883 = nimCopy(result_1191182883, fail_1191182885(input_1191182881, [nsuFormatSingleElem(makeNimstrLit("match for regex \'$1\'"), expect_1191182851)], input_1191182881), NTI1191182468);
           break BeforeRet;
           }
           
-          result_1090519587 = nimCopy(result_1090519587, succeed_1090519588(input_1090519585, HEX5BHEX5D_654312302(input_1090519585, HEX2EHEX2E_654312275(0, bounds_1090519590["Field1"])), HEX5BHEX5D_654314667(input_1090519585, HEX2EHEX2E_654314640(addInt(bounds_1090519590["Field1"], 1), 1))), NTI1090519172);
+          result_1191182883 = nimCopy(result_1191182883, succeed_1191182884(input_1191182881, HEX5BHEX5D_973079404(input_1191182881, HEX2EHEX2E_973079379(0, bounds_1191182886["Field1"])), HEX5BHEX5D_973081754(input_1191182881, HEX2EHEX2E_905969744(addInt(bounds_1191182886["Field1"], 1), 1))), NTI1191182468);
         } while (false);
 
-        return result_1090519587;
+        return result_1191182883;
 
       }
 
-  var result_1090519557 = null;
+  var result_1191182853 = null;
 
-    var expreg_1090519558 = new RegExp(toJSStr(expect_1090519555));
+    var expreg_1191182854 = new RegExp(toJSStr(expect_1191182851));
     Label1: do {
     } while (false);
-    result_1090519557 = {body: HEX3Aanonymous_1090519584};
+    result_1191182853 = {body: HEX3Aanonymous_1191182880};
 
-  return result_1090519557;
+  return result_1191182853;
 
 }
 
-function parse_1090520010(p_1090520012, input_1090520013) {
-  var result_1090520014 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+function parse_1191183306(p_1191183308, input_1191183309) {
+  var result_1191183310 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
 
   BeforeRet: do {
-    if ((p_1090520012.body == null)) {
-    result_1090520014 = nimCopy(result_1090520014, {kind: 1, expected: [makeNimstrLit("forward-declared parser to be initialized with .become(Parser)")], tail: nimCopy(null, input_1090520013, NTI33554439), fromInput: nimCopy(null, input_1090520013, NTI33554439), value: 0}, NTI1090519270);
+    if ((p_1191183308.body == null)) {
+    result_1191183310 = nimCopy(result_1191183310, {kind: 1, expected: [makeNimstrLit("forward-declared parser to be initialized with .become(Parser)")], tail: nimCopy(null, input_1191183309, NTI33554439), fromInput: nimCopy(null, input_1191183309, NTI33554439), value: 0}, NTI1191182566);
     break BeforeRet;
     }
     
-    result_1090520014 = nimCopy(result_1090520014, p_1090520012.body(input_1090520013), NTI1090519270);
+    result_1191183310 = nimCopy(result_1191183310, p_1191183308.body(input_1191183309), NTI1191182566);
   } while (false);
 
-  return result_1090520014;
+  return result_1191183310;
 
 }
 
-function HEX26_687865962(x_687865964, y_687865965) {
-  var result_687865966 = [];
+function HEX26_654311539(x_654311541, y_654311542) {
+  var result_654311543 = [];
 
-    result_687865966 = new Array(chckRange(addInt((x_687865964).length, (y_687865965).length), 0, 2147483647)); for (var i = 0 ; i < chckRange(addInt((x_687865964).length, (y_687865965).length), 0, 2147483647) ; ++i) { result_687865966[i] = []; }    Label1: do {
-      var i_687865984 = 0;
-      var colontmp__1090520316 = 0;
-      colontmp__1090520316 = subInt((x_687865964).length, 1);
-      var res_1090520317 = 0;
+    result_654311543 = new Array(chckRange(addInt((x_654311541).length, (y_654311542).length), 0, 2147483647)); for (var i = 0 ; i < chckRange(addInt((x_654311541).length, (y_654311542).length), 0, 2147483647) ; ++i) { result_654311543[i] = []; }    Label1: do {
+      var i_654311561 = 0;
+      var colontmp__1191183605 = 0;
+      colontmp__1191183605 = subInt((x_654311541).length, 1);
+      var res_1191183606 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(res_1090520317 <= colontmp__1090520316)) break Label3;
-            i_687865984 = res_1090520317;
-            result_687865966[chckIndx(i_687865984, 0, (result_687865966).length - 1)] = nimCopy(null, x_687865964[chckIndx(i_687865984, 0, (x_687865964).length - 1)], NTI33554439);
-            res_1090520317 = addInt(res_1090520317, 1);
+          if (!(res_1191183606 <= colontmp__1191183605)) break Label3;
+            i_654311561 = res_1191183606;
+            result_654311543[chckIndx(i_654311561, 0, (result_654311543).length - 1)] = nimCopy(null, x_654311541[chckIndx(i_654311561, 0, (x_654311541).length - 1)], NTI33554439);
+            res_1191183606 = addInt(res_1191183606, 1);
           }
       } while (false);
     } while (false);
     Label4: do {
-      var i_687865992 = 0;
-      var colontmp__1090520320 = 0;
-      colontmp__1090520320 = subInt((y_687865965).length, 1);
-      var res_1090520321 = 0;
+      var i_654311569 = 0;
+      var colontmp__1191183609 = 0;
+      colontmp__1191183609 = subInt((y_654311542).length, 1);
+      var res_1191183610 = 0;
       Label5: do {
           Label6: while (true) {
-          if (!(res_1090520321 <= colontmp__1090520320)) break Label6;
-            i_687865992 = res_1090520321;
-            result_687865966[chckIndx(addInt(i_687865992, (x_687865964).length), 0, (result_687865966).length - 1)] = nimCopy(null, y_687865965[chckIndx(i_687865992, 0, (y_687865965).length - 1)], NTI33554439);
-            res_1090520321 = addInt(res_1090520321, 1);
+          if (!(res_1191183610 <= colontmp__1191183609)) break Label6;
+            i_654311569 = res_1191183610;
+            result_654311543[chckIndx(addInt(i_654311569, (x_654311541).length), 0, (result_654311543).length - 1)] = nimCopy(null, y_654311542[chckIndx(i_654311569, 0, (y_654311542).length - 1)], NTI33554439);
+            res_1191183610 = addInt(res_1191183610, 1);
           }
       } while (false);
     } while (false);
 
-  return result_687865966;
+  return result_654311543;
 
 }
 
@@ -2029,913 +2037,913 @@ function reprEnum(e_33557401, typ_33557402) {
 
 }
 
-function HEX7C_1090520154(a_1090520156, b_1090520157) {
+function HEX7C_1191183450(a_1191183452, b_1191183453) {
 
-function succeedImpl_1090520169(inputInHEX60gensym49_1090520170, valueInHEX60gensym49_1090520171, tailInHEX60gensym49_1090520172) {
-  var result_1090520174 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+function succeedImpl_1191183465(inputInHEX60gensym49_1191183466, valueInHEX60gensym49_1191183467, tailInHEX60gensym49_1191183468) {
+  var result_1191183470 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
 
-    result_1090520174 = nimCopy(result_1090520174, {kind: 0, value: valueInHEX60gensym49_1090520171, tail: nimCopy(null, tailInHEX60gensym49_1090520172, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym49_1090520170, NTI33554439), expected: []}, NTI1090519270);
+    result_1191183470 = nimCopy(result_1191183470, {kind: 0, value: valueInHEX60gensym49_1191183467, tail: nimCopy(null, tailInHEX60gensym49_1191183468, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym49_1191183466, NTI33554439), expected: []}, NTI1191182566);
 
-  return result_1090520174;
+  return result_1191183470;
 
 }
 
-function failImpl_1090520176(inputInHEX60gensym49_1090520177, expectedInHEX60gensym49_1090520178, tailInHEX60gensym49_1090520179) {
-  var result_1090520181 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+function failImpl_1191183472(inputInHEX60gensym49_1191183473, expectedInHEX60gensym49_1191183474, tailInHEX60gensym49_1191183475) {
+  var result_1191183477 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
 
-    result_1090520181 = nimCopy(result_1090520181, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym49_1090520178, NTI1090520179), tail: nimCopy(null, tailInHEX60gensym49_1090520179, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym49_1090520177, NTI33554439), value: 0}, NTI1090519270);
+    result_1191183477 = nimCopy(result_1191183477, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym49_1191183474, NTI1191183475), tail: nimCopy(null, tailInHEX60gensym49_1191183475, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym49_1191183473, NTI33554439), value: 0}, NTI1191182566);
 
-  return result_1090520181;
+  return result_1191183477;
 
 }
       
-function HEX3Aanonymous_1090520184(input_1090520185) {
+function HEX3Aanonymous_1191183480(input_1191183481) {
           var Temporary1;
           var Temporary2;
 
-        var result_1090520187 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+        var result_1191183483 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_1090520188 = succeedImpl_1090520169;
-          var fail_1090520189 = failImpl_1090520176;
-          var result1_1090520202 = parse_1090520010(a_1090520156, input_1090520185);
-          if ((result1_1090520202.kind == 0)) {
-          result_1090520187 = nimCopy(result_1090520187, result1_1090520202, NTI1090519270);
+          var succeed_1191183484 = succeedImpl_1191183465;
+          var fail_1191183485 = failImpl_1191183472;
+          var result1_1191183498 = parse_1191183306(a_1191183452, input_1191183481);
+          if ((result1_1191183498.kind == 0)) {
+          result_1191183483 = nimCopy(result_1191183483, result1_1191183498, NTI1191182566);
           break BeforeRet;
           }
           
-          var result2_1090520219 = parse_1090520010(b_1090520157, input_1090520185);
-          if ((result2_1090520219.kind == 0)) {
-          result_1090520187 = nimCopy(result_1090520187, result2_1090520219, NTI1090519270);
+          var result2_1191183515 = parse_1191183306(b_1191183453, input_1191183481);
+          if ((result2_1191183515.kind == 0)) {
+          result_1191183483 = nimCopy(result_1191183483, result2_1191183515, NTI1191182566);
           break BeforeRet;
           }
           
-          var Temporary1 = result1_1090520202;
-          if (ConstSet7[Temporary1.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary1.kind, NTI1090519061)); }
-          var Temporary2 = result2_1090520219;
-          if (ConstSet8[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-          result_1090520187 = nimCopy(result_1090520187, fail_1090520189(input_1090520185, HEX26_687865962(Temporary1.expected, Temporary2.expected), input_1090520185), NTI1090519270);
+          var Temporary1 = result1_1191183498;
+          if (ConstSet7[Temporary1.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary1.kind, NTI1191182357)); }
+          var Temporary2 = result2_1191183515;
+          if (ConstSet8[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+          result_1191183483 = nimCopy(result_1191183483, fail_1191183485(input_1191183481, HEX26_654311539(Temporary1.expected, Temporary2.expected), input_1191183481), NTI1191182566);
         } while (false);
 
-        return result_1090520187;
+        return result_1191183483;
 
       }
 
-  var result_1090520158 = null;
+  var result_1191183454 = null;
 
     Label1: do {
     } while (false);
-    result_1090520158 = {body: HEX3Aanonymous_1090520184};
+    result_1191183454 = {body: HEX3Aanonymous_1191183480};
 
-  return result_1090520158;
-
-}
-
-function contains_637534374(s_637534378, value_637534379) {
-  var result_637534380 = false;
-
-    result_637534380 = ((s_637534378.a <= value_637534379) && (value_637534379 <= s_637534378.b));
-
-  return result_637534380;
+  return result_1191183454;
 
 }
 
-function nsuFormatOpenArray(formatstr_704645308, a_704645309) {
-  var result_704645310 = [[]];
+function contains_637534489(s_637534493, value_637534494) {
+  var result_637534495 = false;
 
-    result_704645310[0] = nimCopy(null, mnewString(0), NTI33554439);
-    nsuAddf(result_704645310, 0, formatstr_704645308, a_704645309);
+    result_637534495 = ((s_637534493.a <= value_637534494) && (value_637534494 <= s_637534493.b));
 
-  return result_704645310[0];
-
-}
-
-function c_1090519479(expect_1090519481) {
-
-function succeedImpl_1090519494(inputInHEX60gensym14_1090519495, valueInHEX60gensym14_1090519496, tailInHEX60gensym14_1090519497) {
-  var result_1090519499 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
-
-    result_1090519499 = nimCopy(result_1090519499, {kind: 0, value: valueInHEX60gensym14_1090519496, tail: nimCopy(null, tailInHEX60gensym14_1090519497, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym14_1090519495, NTI33554439), expected: []}, NTI1090519270);
-
-  return result_1090519499;
+  return result_637534495;
 
 }
 
-function failImpl_1090519501(inputInHEX60gensym14_1090519502, expectedInHEX60gensym14_1090519503, tailInHEX60gensym14_1090519504) {
-  var result_1090519506 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+function nsuFormatOpenArray(formatstr_671090876, a_671090877) {
+  var result_671090878 = [[]];
 
-    result_1090519506 = nimCopy(result_1090519506, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym14_1090519503, NTI1090519451), tail: nimCopy(null, tailInHEX60gensym14_1090519504, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym14_1090519502, NTI33554439), value: 0}, NTI1090519270);
+    result_671090878[0] = nimCopy(null, mnewString(0), NTI33554439);
+    nsuAddf(result_671090878, 0, formatstr_671090876, a_671090877);
 
-  return result_1090519506;
+  return result_671090878[0];
 
 }
-      expect_1090519481 = nimCopy(null, expect_1090519481, NTI637534749);
+
+function c_1191182775(expect_1191182777) {
+
+function succeedImpl_1191182790(inputInHEX60gensym14_1191182791, valueInHEX60gensym14_1191182792, tailInHEX60gensym14_1191182793) {
+  var result_1191182795 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+
+    result_1191182795 = nimCopy(result_1191182795, {kind: 0, value: valueInHEX60gensym14_1191182792, tail: nimCopy(null, tailInHEX60gensym14_1191182793, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym14_1191182791, NTI33554439), expected: []}, NTI1191182566);
+
+  return result_1191182795;
+
+}
+
+function failImpl_1191182797(inputInHEX60gensym14_1191182798, expectedInHEX60gensym14_1191182799, tailInHEX60gensym14_1191182800) {
+  var result_1191182802 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+
+    result_1191182802 = nimCopy(result_1191182802, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym14_1191182799, NTI1191182747), tail: nimCopy(null, tailInHEX60gensym14_1191182800, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym14_1191182798, NTI33554439), value: 0}, NTI1191182566);
+
+  return result_1191182802;
+
+}
+      expect_1191182777 = nimCopy(null, expect_1191182777, NTI637534854);
       
-function HEX3Aanonymous_1090519509(input_1090519510) {
+function HEX3Aanonymous_1191182805(input_1191182806) {
             var Temporary1;
 
-        var result_1090519512 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+        var result_1191182808 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_1090519513 = succeedImpl_1090519494;
-          var fail_1090519514 = failImpl_1090519501;
-            if (!(0 < (input_1090519510).length)) Temporary1 = false; else {              Temporary1 = contains_637534374(expect_1090519481, input_1090519510[chckIndx(0, 0, (input_1090519510).length - 1)]);            }          if (Temporary1) {
-          result_1090519512 = nimCopy(result_1090519512, succeed_1090519513(input_1090519510, input_1090519510[chckIndx(0, 0, (input_1090519510).length - 1)], HEX5BHEX5D_654314667(input_1090519510, HEX2EHEX2E_654314640(1, 1))), NTI1090519270);
+          var succeed_1191182809 = succeedImpl_1191182790;
+          var fail_1191182810 = failImpl_1191182797;
+            if (!(0 < (input_1191182806).length)) Temporary1 = false; else {              Temporary1 = contains_637534489(expect_1191182777, input_1191182806[chckIndx(0, 0, (input_1191182806).length - 1)]);            }          if (Temporary1) {
+          result_1191182808 = nimCopy(result_1191182808, succeed_1191182809(input_1191182806, input_1191182806[chckIndx(0, 0, (input_1191182806).length - 1)], HEX5BHEX5D_973081754(input_1191182806, HEX2EHEX2E_905969744(1, 1))), NTI1191182566);
           break BeforeRet;
           }
           
-          result_1090519512 = nimCopy(result_1090519512, fail_1090519514(input_1090519510, [nsuFormatOpenArray(makeNimstrLit("character from $1..$2"), [nimCharToStr(expect_1090519481.a), nimCharToStr(expect_1090519481.b)])], input_1090519510), NTI1090519270);
+          result_1191182808 = nimCopy(result_1191182808, fail_1191182810(input_1191182806, [nsuFormatOpenArray(makeNimstrLit("character from $1..$2"), [nimCharToStr(expect_1191182777.a), nimCharToStr(expect_1191182777.b)])], input_1191182806), NTI1191182566);
         } while (false);
 
-        return result_1090519512;
+        return result_1191182808;
 
       }
 
-  var result_1090519483 = null;
+  var result_1191182779 = null;
 
     Label1: do {
     } while (false);
-    result_1090519483 = {body: HEX3Aanonymous_1090519509};
+    result_1191182779 = {body: HEX3Aanonymous_1191182805};
 
-  return result_1090519483;
-
-}
-
-function HEX2EHEX2E_637534344(a_637534347, b_637534348) {
-  var result_637534351 = ({a: 0, b: 0});
-
-    result_637534351 = nimCopy(result_637534351, {a: a_637534347, b: b_637534348}, NTI637534749);
-
-  return result_637534351;
+  return result_1191182779;
 
 }
 
-function HEX3Aanonymous_1090520068(input_1090520069) {
-  var result_1090520071 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function HEX2EHEX2E_637534419(a_637534422, b_637534423) {
+  var result_637534426 = ({a: 0, b: 0});
+
+    result_637534426 = nimCopy(result_637534426, {a: a_637534422, b: b_637534423}, NTI637534854);
+
+  return result_637534426;
+
+}
+
+function HEX3Aanonymous_1191183364(input_1191183365) {
+  var result_1191183367 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
   BeforeRet: do {
-    var succeed_1090520072 = succeedImpl_1090520053;
-    var fail_1090520073 = failImpl_1090520060;
-    if ((0 < (input_1090520069).length)) {
-    result_1090520071 = nimCopy(result_1090520071, fail_1090520073(input_1090520069, [makeNimstrLit("EOF")], input_1090520069), NTI1090519172);
+    var succeed_1191183368 = succeedImpl_1191183349;
+    var fail_1191183369 = failImpl_1191183356;
+    if ((0 < (input_1191183365).length)) {
+    result_1191183367 = nimCopy(result_1191183367, fail_1191183369(input_1191183365, [makeNimstrLit("EOF")], input_1191183365), NTI1191182468);
     break BeforeRet;
     }
     
-    result_1090520071 = nimCopy(result_1090520071, succeed_1090520072(input_1090520069, [], []), NTI1090519172);
+    result_1191183367 = nimCopy(result_1191183367, succeed_1191183368(input_1191183365, [], []), NTI1191182468);
   } while (false);
 
-  return result_1090520071;
+  return result_1191183367;
 
 }
 
-function HEX3Aanonymous_1090520104(input_1090520105) {
-  var result_1090520107 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+function HEX3Aanonymous_1191183400(input_1191183401) {
+  var result_1191183403 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
 
   BeforeRet: do {
-    var succeed_1090520108 = succeedImpl_1090520089;
-    var fail_1090520109 = failImpl_1090520096;
-    if ((0 < (input_1090520105).length)) {
-    result_1090520107 = nimCopy(result_1090520107, succeed_1090520108(input_1090520105, input_1090520105[chckIndx(0, 0, (input_1090520105).length - 1)], HEX5BHEX5D_654314667(input_1090520105, HEX2EHEX2E_654314640(1, 1))), NTI1090519270);
+    var succeed_1191183404 = succeedImpl_1191183385;
+    var fail_1191183405 = failImpl_1191183392;
+    if ((0 < (input_1191183401).length)) {
+    result_1191183403 = nimCopy(result_1191183403, succeed_1191183404(input_1191183401, input_1191183401[chckIndx(0, 0, (input_1191183401).length - 1)], HEX5BHEX5D_973081754(input_1191183401, HEX2EHEX2E_905969744(1, 1))), NTI1191182566);
     break BeforeRet;
     }
     
-    result_1090520107 = nimCopy(result_1090520107, fail_1090520109(input_1090520105, [makeNimstrLit("any character")], input_1090520105), NTI1090519270);
+    result_1191183403 = nimCopy(result_1191183403, fail_1191183405(input_1191183401, [makeNimstrLit("any character")], input_1191183401), NTI1191182566);
   } while (false);
 
-  return result_1090520107;
+  return result_1191183403;
 
 }
 Label1: do {
 } while (false);
-var eofImpl_1090520078 = {body: HEX3Aanonymous_1090520068};
+var eofImpl_1191183374 = {body: HEX3Aanonymous_1191183364};
 Label2: do {
 } while (false);
-var anyCharImpl_1090520132 = {body: HEX3Aanonymous_1090520104};
-var eof_1090520133 = eofImpl_1090520078;
-var anyChar_1090520134 = anyCharImpl_1090520132;
-var whitespace_1090520135 = regex_1090519554(makeNimstrLit("\\s+"));
-var letter_1090520228 = HEX7C_1090520154(c_1090519479(HEX2EHEX2E_637534344(97, 122)), c_1090519479(HEX2EHEX2E_637534344(65, 90)));
-var digit_1090520234 = c_1090519479(HEX2EHEX2E_637534344(48, 57));
-var alphanumeric_1090520247 = HEX7C_1090520154(letter_1090520228, digit_1090520234);
+var anyCharImpl_1191183428 = {body: HEX3Aanonymous_1191183400};
+var eof_1191183429 = eofImpl_1191183374;
+var anyChar_1191183430 = anyCharImpl_1191183428;
+var whitespace_1191183431 = regex_1191182850(makeNimstrLit("\\s+"));
+var letter_1191183524 = HEX7C_1191183450(c_1191182775(HEX2EHEX2E_637534419(97, 122)), c_1191182775(HEX2EHEX2E_637534419(65, 90)));
+var digit_1191183530 = c_1191182775(HEX2EHEX2E_637534419(48, 57));
+var alphanumeric_1191183543 = HEX7C_1191183450(letter_1191183524, digit_1191183530);
 
-function parse_620760120(p_620760122, input_620760123) {
-  var result_620760124 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function parse_620759536(p_620759538, input_620759539) {
+  var result_620759540 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
   BeforeRet: do {
-    if ((p_620760122.body == null)) {
-    result_620760124 = nimCopy(result_620760124, {kind: 1, expected: [makeNimstrLit("forward-declared parser to be initialized with .become(Parser)")], tail: nimCopy(null, input_620760123, NTI33554439), fromInput: nimCopy(null, input_620760123, NTI33554439), value: []}, NTI620758698);
+    if ((p_620759538.body == null)) {
+    result_620759540 = nimCopy(result_620759540, {kind: 1, expected: [makeNimstrLit("forward-declared parser to be initialized with .become(Parser)")], tail: nimCopy(null, input_620759539, NTI33554439), fromInput: nimCopy(null, input_620759539, NTI33554439), value: []}, NTI620758290);
     break BeforeRet;
     }
     
-    result_620760124 = nimCopy(result_620760124, p_620760122.body(input_620760123), NTI620758698);
+    result_620759540 = nimCopy(result_620759540, p_620759538.body(input_620759539), NTI620758290);
   } while (false);
 
-  return result_620760124;
+  return result_620759540;
 
 }
 
-function map_620760294(a_620760297, fn_620760299) {
+function map_620759710(a_620759713, fn_620759715) {
 
-function succeedImpl_620760311(inputInHEX60gensym54_620760312, valueInHEX60gensym54_620760313, tailInHEX60gensym54_620760314) {
-  var result_620760316 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function succeedImpl_620759727(inputInHEX60gensym43_620759728, valueInHEX60gensym43_620759729, tailInHEX60gensym43_620759730) {
+  var result_620759732 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620760316 = nimCopy(result_620760316, {kind: 0, value: nimCopy(null, valueInHEX60gensym54_620760313, NTI452985127), tail: nimCopy(null, tailInHEX60gensym54_620760314, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym54_620760312, NTI33554439), expected: []}, NTI620758259);
+    result_620759732 = nimCopy(result_620759732, {kind: 0, value: nimCopy(null, valueInHEX60gensym43_620759729, NTI452985127), tail: nimCopy(null, tailInHEX60gensym43_620759730, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym43_620759728, NTI33554439), expected: []}, NTI620757839);
 
-  return result_620760316;
+  return result_620759732;
 
 }
 
-function failImpl_620760318(inputInHEX60gensym54_620760319, expectedInHEX60gensym54_620760320, tailInHEX60gensym54_620760321) {
-  var result_620760323 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function failImpl_620759734(inputInHEX60gensym43_620759735, expectedInHEX60gensym43_620759736, tailInHEX60gensym43_620759737) {
+  var result_620759739 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620760323 = nimCopy(result_620760323, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym54_620760320, NTI620759262), tail: nimCopy(null, tailInHEX60gensym54_620760321, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym54_620760319, NTI33554439), value: []}, NTI620758259);
+    result_620759739 = nimCopy(result_620759739, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym43_620759736, NTI620758854), tail: nimCopy(null, tailInHEX60gensym43_620759737, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym43_620759735, NTI33554439), value: []}, NTI620757839);
 
-  return result_620760323;
+  return result_620759739;
 
 }
       
-function HEX3Aanonymous_620760326(input_620760327) {
+function HEX3Aanonymous_620759742(input_620759743) {
             var Temporary2;
           var Temporary3;
 
-        var result_620760329 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+        var result_620759745 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620760330 = succeedImpl_620760311;
-          var fail_620760331 = failImpl_620760318;
+          var succeed_620759746 = succeedImpl_620759727;
+          var fail_620759747 = failImpl_620759734;
           Label1: do {
-            var tempHEX60gensym24_620760344 = parse_620760120(a_620760297, input_620760327);
-            if ((tempHEX60gensym24_620760344.kind == 1)) {
-            var Temporary2 = tempHEX60gensym24_620760344;
-            if (ConstSet9[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620760329 = nimCopy(result_620760329, {kind: 1, fromInput: nimCopy(null, input_620760327, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym24_620760344.tail, NTI33554439), value: []}, NTI620758259);
+            var tempHEX60gensym24_620759760 = parse_620759536(a_620759713, input_620759743);
+            if ((tempHEX60gensym24_620759760.kind == 1)) {
+            var Temporary2 = tempHEX60gensym24_620759760;
+            if (ConstSet9[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620759745 = nimCopy(result_620759745, {kind: 1, fromInput: nimCopy(null, input_620759743, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym24_620759760.tail, NTI33554439), value: []}, NTI620757839);
             break BeforeRet;
             }
             
           } while (false);
-          var result1_620760350 = nimCopy(null, tempHEX60gensym24_620760344, NTI620758698);
-          var Temporary3 = result1_620760350;
-          if (ConstSet10[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-          result_620760329 = nimCopy(result_620760329, succeed_620760330(input_620760327, fn_620760299(Temporary3.value), result1_620760350.tail), NTI620758259);
+          var result1_620759766 = nimCopy(null, tempHEX60gensym24_620759760, NTI620758290);
+          var Temporary3 = result1_620759766;
+          if (ConstSet10[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+          result_620759745 = nimCopy(result_620759745, succeed_620759746(input_620759743, fn_620759715(Temporary3.value), result1_620759766.tail), NTI620757839);
           break BeforeRet;
         } while (false);
 
-        return result_620760329;
+        return result_620759745;
 
       }
 
-  var result_620760300 = null;
+  var result_620759716 = null;
 
     Label1: do {
     } while (false);
-    result_620760300 = {body: HEX3Aanonymous_620760326};
+    result_620759716 = {body: HEX3Aanonymous_620759742};
 
-  return result_620760300;
+  return result_620759716;
 
 }
 
-function HEX26_620760162(x_620760164, y_620760165) {
-  var result_620760166 = [];
+function HEX26_620759578(x_620759580, y_620759581) {
+  var result_620759582 = [];
 
-    result_620760166 = new Array(chckRange(addInt((x_620760164).length, (y_620760165).length), 0, 2147483647)); for (var i = 0 ; i < chckRange(addInt((x_620760164).length, (y_620760165).length), 0, 2147483647) ; ++i) { result_620760166[i] = []; }    Label1: do {
-      var i_620760185 = 0;
-      var colontmp__620767384 = 0;
-      colontmp__620767384 = subInt((x_620760164).length, 1);
-      var res_620767385 = 0;
+    result_620759582 = new Array(chckRange(addInt((x_620759580).length, (y_620759581).length), 0, 2147483647)); for (var i = 0 ; i < chckRange(addInt((x_620759580).length, (y_620759581).length), 0, 2147483647) ; ++i) { result_620759582[i] = []; }    Label1: do {
+      var i_620759601 = 0;
+      var colontmp__620768172 = 0;
+      colontmp__620768172 = subInt((x_620759580).length, 1);
+      var res_620768173 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(res_620767385 <= colontmp__620767384)) break Label3;
-            i_620760185 = res_620767385;
-            result_620760166[chckIndx(i_620760185, 0, (result_620760166).length - 1)] = nimCopy(null, x_620760164[chckIndx(i_620760185, 0, (x_620760164).length - 1)], NTI620758253);
-            res_620767385 = addInt(res_620767385, 1);
+          if (!(res_620768173 <= colontmp__620768172)) break Label3;
+            i_620759601 = res_620768173;
+            result_620759582[chckIndx(i_620759601, 0, (result_620759582).length - 1)] = nimCopy(null, x_620759580[chckIndx(i_620759601, 0, (x_620759580).length - 1)], NTI620757833);
+            res_620768173 = addInt(res_620768173, 1);
           }
       } while (false);
     } while (false);
     Label4: do {
-      var i_620760193 = 0;
-      var colontmp__620767388 = 0;
-      colontmp__620767388 = subInt((y_620760165).length, 1);
-      var res_620767389 = 0;
+      var i_620759609 = 0;
+      var colontmp__620768176 = 0;
+      colontmp__620768176 = subInt((y_620759581).length, 1);
+      var res_620768177 = 0;
       Label5: do {
           Label6: while (true) {
-          if (!(res_620767389 <= colontmp__620767388)) break Label6;
-            i_620760193 = res_620767389;
-            result_620760166[chckIndx(addInt(i_620760193, (x_620760164).length), 0, (result_620760166).length - 1)] = nimCopy(null, y_620760165[chckIndx(i_620760193, 0, (y_620760165).length - 1)], NTI620758253);
-            res_620767389 = addInt(res_620767389, 1);
+          if (!(res_620768177 <= colontmp__620768176)) break Label6;
+            i_620759609 = res_620768177;
+            result_620759582[chckIndx(addInt(i_620759609, (x_620759580).length), 0, (result_620759582).length - 1)] = nimCopy(null, y_620759581[chckIndx(i_620759609, 0, (y_620759581).length - 1)], NTI620757833);
+            res_620768177 = addInt(res_620768177, 1);
           }
       } while (false);
     } while (false);
 
-  return result_620760166;
+  return result_620759582;
 
 }
 
-function HEX26_620760067(a_620760072, b_620760076) {
+function HEX26_620759483(a_620759488, b_620759492) {
 
-function succeedImpl_620760091(inputInHEX60gensym48_620760092, valueInHEX60gensym48_620760093, tailInHEX60gensym48_620760094) {
-  var result_620760096 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function succeedImpl_620759507(inputInHEX60gensym37_620759508, valueInHEX60gensym37_620759509, tailInHEX60gensym37_620759510) {
+  var result_620759512 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620760096 = nimCopy(result_620760096, {kind: 0, value: nimCopy(null, valueInHEX60gensym48_620760093, NTI620759082), tail: nimCopy(null, tailInHEX60gensym48_620760094, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym48_620760092, NTI33554439), expected: []}, NTI620758698);
+    result_620759512 = nimCopy(result_620759512, {kind: 0, value: nimCopy(null, valueInHEX60gensym37_620759509, NTI620758674), tail: nimCopy(null, tailInHEX60gensym37_620759510, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym37_620759508, NTI33554439), expected: []}, NTI620758290);
 
-  return result_620760096;
+  return result_620759512;
 
 }
 
-function failImpl_620760098(inputInHEX60gensym48_620760099, expectedInHEX60gensym48_620760100, tailInHEX60gensym48_620760101) {
-  var result_620760103 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function failImpl_620759514(inputInHEX60gensym37_620759515, expectedInHEX60gensym37_620759516, tailInHEX60gensym37_620759517) {
+  var result_620759519 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620760103 = nimCopy(result_620760103, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym48_620760100, NTI620759088), tail: nimCopy(null, tailInHEX60gensym48_620760101, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym48_620760099, NTI33554439), value: []}, NTI620758698);
+    result_620759519 = nimCopy(result_620759519, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym37_620759516, NTI620758680), tail: nimCopy(null, tailInHEX60gensym37_620759517, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym37_620759515, NTI33554439), value: []}, NTI620758290);
 
-  return result_620760103;
+  return result_620759519;
 
 }
       
-function HEX3Aanonymous_620760106(input_620760107) {
+function HEX3Aanonymous_620759522(input_620759523) {
             var Temporary2;
             var Temporary4;
           var Temporary5;
           var Temporary6;
 
-        var result_620760109 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+        var result_620759525 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620760110 = succeedImpl_620760091;
-          var fail_620760111 = failImpl_620760098;
+          var succeed_620759526 = succeedImpl_620759507;
+          var fail_620759527 = failImpl_620759514;
           Label1: do {
-            var tempHEX60gensym26_620760136 = parse_620760120(a_620760072, input_620760107);
-            if ((tempHEX60gensym26_620760136.kind == 1)) {
-            var Temporary2 = tempHEX60gensym26_620760136;
-            if (ConstSet11[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620760109 = nimCopy(result_620760109, {kind: 1, fromInput: nimCopy(null, input_620760107, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym26_620760136.tail, NTI33554439), value: []}, NTI620758698);
+            var tempHEX60gensym26_620759552 = parse_620759536(a_620759488, input_620759523);
+            if ((tempHEX60gensym26_620759552.kind == 1)) {
+            var Temporary2 = tempHEX60gensym26_620759552;
+            if (ConstSet11[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620759525 = nimCopy(result_620759525, {kind: 1, fromInput: nimCopy(null, input_620759523, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym26_620759552.tail, NTI33554439), value: []}, NTI620758290);
             break BeforeRet;
             }
             
           } while (false);
-          var result1_620760142 = nimCopy(null, tempHEX60gensym26_620760136, NTI620758698);
+          var result1_620759558 = nimCopy(null, tempHEX60gensym26_620759552, NTI620758290);
           Label3: do {
-            var tempHEX60gensym28_620760155 = parse_620760120(b_620760076, result1_620760142.tail);
-            if ((tempHEX60gensym28_620760155.kind == 1)) {
-            var Temporary4 = tempHEX60gensym28_620760155;
-            if (ConstSet12[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1090519061)); }
-            result_620760109 = nimCopy(result_620760109, {kind: 1, fromInput: nimCopy(null, input_620760107, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym28_620760155.tail, NTI33554439), value: []}, NTI620758698);
+            var tempHEX60gensym28_620759571 = parse_620759536(b_620759492, result1_620759558.tail);
+            if ((tempHEX60gensym28_620759571.kind == 1)) {
+            var Temporary4 = tempHEX60gensym28_620759571;
+            if (ConstSet12[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620759525 = nimCopy(result_620759525, {kind: 1, fromInput: nimCopy(null, input_620759523, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym28_620759571.tail, NTI33554439), value: []}, NTI620758290);
             break BeforeRet;
             }
             
           } while (false);
-          var result2_620760161 = nimCopy(null, tempHEX60gensym28_620760155, NTI620758698);
-          var Temporary5 = result1_620760142;
-          if (ConstSet13[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1090519061)); }
-          var Temporary6 = result2_620760161;
-          if (ConstSet14[Temporary6.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary6.kind, NTI1090519061)); }
-          result_620760109 = nimCopy(result_620760109, succeed_620760110(input_620760107, HEX26_620760162(Temporary5.value, Temporary6.value), result2_620760161.tail), NTI620758698);
+          var result2_620759577 = nimCopy(null, tempHEX60gensym28_620759571, NTI620758290);
+          var Temporary5 = result1_620759558;
+          if (ConstSet13[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          var Temporary6 = result2_620759577;
+          if (ConstSet14[Temporary6.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary6.kind, NTI1191182357)); }
+          result_620759525 = nimCopy(result_620759525, succeed_620759526(input_620759523, HEX26_620759578(Temporary5.value, Temporary6.value), result2_620759577.tail), NTI620758290);
           break BeforeRet;
         } while (false);
 
-        return result_620760109;
+        return result_620759525;
 
       }
 
-  var result_620760080 = null;
+  var result_620759496 = null;
 
     Label1: do {
     } while (false);
-    result_620760080 = {body: HEX3Aanonymous_620760106};
+    result_620759496 = {body: HEX3Aanonymous_620759522};
 
-  return result_620760080;
+  return result_620759496;
 
 }
 
-function parse_620759604(p_620759606, input_620759607) {
-  var result_620759608 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function parse_620759020(p_620759022, input_620759023) {
+  var result_620759024 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
   BeforeRet: do {
-    if ((p_620759606.body == null)) {
-    result_620759608 = nimCopy(result_620759608, {kind: 1, expected: [makeNimstrLit("forward-declared parser to be initialized with .become(Parser)")], tail: nimCopy(null, input_620759607, NTI33554439), fromInput: nimCopy(null, input_620759607, NTI33554439), value: []}, NTI620758259);
+    if ((p_620759022.body == null)) {
+    result_620759024 = nimCopy(result_620759024, {kind: 1, expected: [makeNimstrLit("forward-declared parser to be initialized with .become(Parser)")], tail: nimCopy(null, input_620759023, NTI33554439), fromInput: nimCopy(null, input_620759023, NTI33554439), value: []}, NTI620757839);
     break BeforeRet;
     }
     
-    result_620759608 = nimCopy(result_620759608, p_620759606.body(input_620759607), NTI620758259);
+    result_620759024 = nimCopy(result_620759024, p_620759022.body(input_620759023), NTI620757839);
   } while (false);
 
-  return result_620759608;
+  return result_620759024;
 
 }
 
-function map_620759830(a_620759833, fn_620759835) {
+function map_620759246(a_620759249, fn_620759251) {
 
-function succeedImpl_620759847(inputInHEX60gensym44_620759848, valueInHEX60gensym44_620759849, tailInHEX60gensym44_620759850) {
-  var result_620759852 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function succeedImpl_620759263(inputInHEX60gensym33_620759264, valueInHEX60gensym33_620759265, tailInHEX60gensym33_620759266) {
+  var result_620759268 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620759852 = nimCopy(result_620759852, {kind: 0, value: nimCopy(null, valueInHEX60gensym44_620759849, NTI620758807), tail: nimCopy(null, tailInHEX60gensym44_620759850, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym44_620759848, NTI33554439), expected: []}, NTI620758698);
+    result_620759268 = nimCopy(result_620759268, {kind: 0, value: nimCopy(null, valueInHEX60gensym33_620759265, NTI620758399), tail: nimCopy(null, tailInHEX60gensym33_620759266, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym33_620759264, NTI33554439), expected: []}, NTI620758290);
 
-  return result_620759852;
+  return result_620759268;
 
 }
 
-function failImpl_620759854(inputInHEX60gensym44_620759855, expectedInHEX60gensym44_620759856, tailInHEX60gensym44_620759857) {
-  var result_620759859 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function failImpl_620759270(inputInHEX60gensym33_620759271, expectedInHEX60gensym33_620759272, tailInHEX60gensym33_620759273) {
+  var result_620759275 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620759859 = nimCopy(result_620759859, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym44_620759856, NTI620758850), tail: nimCopy(null, tailInHEX60gensym44_620759857, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym44_620759855, NTI33554439), value: []}, NTI620758698);
+    result_620759275 = nimCopy(result_620759275, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym33_620759272, NTI620758442), tail: nimCopy(null, tailInHEX60gensym33_620759273, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym33_620759271, NTI33554439), value: []}, NTI620758290);
 
-  return result_620759859;
+  return result_620759275;
 
 }
       
-function HEX3Aanonymous_620759862(input_620759863) {
+function HEX3Aanonymous_620759278(input_620759279) {
             var Temporary2;
           var Temporary3;
 
-        var result_620759865 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+        var result_620759281 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620759866 = succeedImpl_620759847;
-          var fail_620759867 = failImpl_620759854;
+          var succeed_620759282 = succeedImpl_620759263;
+          var fail_620759283 = failImpl_620759270;
           Label1: do {
-            var tempHEX60gensym24_620759880 = parse_620759604(a_620759833, input_620759863);
-            if ((tempHEX60gensym24_620759880.kind == 1)) {
-            var Temporary2 = tempHEX60gensym24_620759880;
-            if (ConstSet15[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620759865 = nimCopy(result_620759865, {kind: 1, fromInput: nimCopy(null, input_620759863, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym24_620759880.tail, NTI33554439), value: []}, NTI620758698);
+            var tempHEX60gensym24_620759296 = parse_620759020(a_620759249, input_620759279);
+            if ((tempHEX60gensym24_620759296.kind == 1)) {
+            var Temporary2 = tempHEX60gensym24_620759296;
+            if (ConstSet15[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620759281 = nimCopy(result_620759281, {kind: 1, fromInput: nimCopy(null, input_620759279, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym24_620759296.tail, NTI33554439), value: []}, NTI620758290);
             break BeforeRet;
             }
             
           } while (false);
-          var result1_620759886 = nimCopy(null, tempHEX60gensym24_620759880, NTI620758259);
-          var Temporary3 = result1_620759886;
-          if (ConstSet16[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-          result_620759865 = nimCopy(result_620759865, succeed_620759866(input_620759863, fn_620759835(Temporary3.value), result1_620759886.tail), NTI620758698);
+          var result1_620759302 = nimCopy(null, tempHEX60gensym24_620759296, NTI620757839);
+          var Temporary3 = result1_620759302;
+          if (ConstSet16[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+          result_620759281 = nimCopy(result_620759281, succeed_620759282(input_620759279, fn_620759251(Temporary3.value), result1_620759302.tail), NTI620758290);
           break BeforeRet;
         } while (false);
 
-        return result_620759865;
+        return result_620759281;
 
       }
 
-  var result_620759836 = null;
+  var result_620759252 = null;
 
     Label1: do {
     } while (false);
-    result_620759836 = {body: HEX3Aanonymous_620759862};
+    result_620759252 = {body: HEX3Aanonymous_620759278};
 
-  return result_620759836;
-
-}
-
-function nop_620759212() {
-
-function succeedImpl_620759225(inputInHEX60gensym34_620759226, valueInHEX60gensym34_620759227, tailInHEX60gensym34_620759228) {
-  var result_620759230 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620759230 = nimCopy(result_620759230, {kind: 0, value: nimCopy(null, valueInHEX60gensym34_620759227, NTI620758313), tail: nimCopy(null, tailInHEX60gensym34_620759228, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym34_620759226, NTI33554439), expected: []}, NTI620758259);
-
-  return result_620759230;
+  return result_620759252;
 
 }
 
-function failImpl_620759244(inputInHEX60gensym34_620759245, expectedInHEX60gensym34_620759246, tailInHEX60gensym34_620759247) {
-  var result_620759249 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function nop_620758616() {
 
-    result_620759249 = nimCopy(result_620759249, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym34_620759246, NTI620758340), tail: nimCopy(null, tailInHEX60gensym34_620759247, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym34_620759245, NTI33554439), value: []}, NTI620758259);
+function succeedImpl_620758629(inputInHEX60gensym23_620758630, valueInHEX60gensym23_620758631, tailInHEX60gensym23_620758632) {
+  var result_620758634 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-  return result_620759249;
+    result_620758634 = nimCopy(result_620758634, {kind: 0, value: nimCopy(null, valueInHEX60gensym23_620758631, NTI620757893), tail: nimCopy(null, tailInHEX60gensym23_620758632, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym23_620758630, NTI33554439), expected: []}, NTI620757839);
+
+  return result_620758634;
+
+}
+
+function failImpl_620758648(inputInHEX60gensym23_620758649, expectedInHEX60gensym23_620758650, tailInHEX60gensym23_620758651) {
+  var result_620758653 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620758653 = nimCopy(result_620758653, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym23_620758650, NTI620757920), tail: nimCopy(null, tailInHEX60gensym23_620758651, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym23_620758649, NTI33554439), value: []}, NTI620757839);
+
+  return result_620758653;
 
 }
       
-function HEX3Aanonymous_620759252(input_620759253) {
-        var result_620759255 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function HEX3Aanonymous_620758656(input_620758657) {
+        var result_620758659 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-          var succeed_620759256 = succeedImpl_620759225;
-          var fail_620759257 = failImpl_620759244;
-          result_620759255 = nimCopy(result_620759255, succeed_620759256(input_620759253, [], input_620759253), NTI620758259);
+          var succeed_620758660 = succeedImpl_620758629;
+          var fail_620758661 = failImpl_620758648;
+          result_620758659 = nimCopy(result_620758659, succeed_620758660(input_620758657, [], input_620758657), NTI620757839);
 
-        return result_620759255;
+        return result_620758659;
 
       }
 
-  var result_620759214 = null;
+  var result_620758618 = null;
 
     Label1: do {
     } while (false);
-    result_620759214 = {body: HEX3Aanonymous_620759252};
+    result_620758618 = {body: HEX3Aanonymous_620758656};
 
-  return result_620759214;
+  return result_620758618;
 
 }
 
-function parse_620758704(p_620758706, input_620758707) {
-  var result_620758708 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function parse_620758790(p_620758792, input_620758793) {
+  var result_620758794 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
   BeforeRet: do {
-    if ((p_620758706.body == null)) {
-    result_620758708 = nimCopy(result_620758708, {kind: 1, expected: [makeNimstrLit("forward-declared parser to be initialized with .become(Parser)")], tail: nimCopy(null, input_620758707, NTI33554439), fromInput: nimCopy(null, input_620758707, NTI33554439), value: []}, NTI1090519172);
+    if ((p_620758792.body == null)) {
+    result_620758794 = nimCopy(result_620758794, {kind: 1, expected: [makeNimstrLit("forward-declared parser to be initialized with .become(Parser)")], tail: nimCopy(null, input_620758793, NTI33554439), fromInput: nimCopy(null, input_620758793, NTI33554439), value: []}, NTI1191182468);
     break BeforeRet;
     }
     
-    result_620758708 = nimCopy(result_620758708, p_620758706.body(input_620758707), NTI1090519172);
+    result_620758794 = nimCopy(result_620758794, p_620758792.body(input_620758793), NTI1191182468);
   } while (false);
 
-  return result_620758708;
+  return result_620758794;
 
 }
 
-function map_620759340(a_620759343, fn_620759345) {
+function map_620758744(a_620758747, fn_620758749) {
 
-function succeedImpl_620759357(inputInHEX60gensym36_620759358, valueInHEX60gensym36_620759359, tailInHEX60gensym36_620759360) {
-  var result_620759362 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function succeedImpl_620758761(inputInHEX60gensym25_620758762, valueInHEX60gensym25_620758763, tailInHEX60gensym25_620758764) {
+  var result_620758766 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620759362 = nimCopy(result_620759362, {kind: 0, value: nimCopy(null, valueInHEX60gensym36_620759359, NTI1090519234), tail: nimCopy(null, tailInHEX60gensym36_620759360, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym36_620759358, NTI33554439), expected: []}, NTI620758259);
+    result_620758766 = nimCopy(result_620758766, {kind: 0, value: nimCopy(null, valueInHEX60gensym25_620758763, NTI654311478), tail: nimCopy(null, tailInHEX60gensym25_620758764, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym25_620758762, NTI33554439), expected: []}, NTI620757839);
 
-  return result_620759362;
+  return result_620758766;
 
 }
 
-function failImpl_620759364(inputInHEX60gensym36_620759365, expectedInHEX60gensym36_620759366, tailInHEX60gensym36_620759367) {
-  var result_620759369 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function failImpl_620758768(inputInHEX60gensym25_620758769, expectedInHEX60gensym25_620758770, tailInHEX60gensym25_620758771) {
+  var result_620758773 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620759369 = nimCopy(result_620759369, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym36_620759366, NTI620758440), tail: nimCopy(null, tailInHEX60gensym36_620759367, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym36_620759365, NTI33554439), value: []}, NTI620758259);
+    result_620758773 = nimCopy(result_620758773, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym25_620758770, NTI620758020), tail: nimCopy(null, tailInHEX60gensym25_620758771, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym25_620758769, NTI33554439), value: []}, NTI620757839);
 
-  return result_620759369;
+  return result_620758773;
 
 }
       
-function HEX3Aanonymous_620759372(input_620759373) {
+function HEX3Aanonymous_620758776(input_620758777) {
             var Temporary2;
           var Temporary3;
 
-        var result_620759375 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+        var result_620758779 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620759376 = succeedImpl_620759357;
-          var fail_620759377 = failImpl_620759364;
+          var succeed_620758780 = succeedImpl_620758761;
+          var fail_620758781 = failImpl_620758768;
           Label1: do {
-            var tempHEX60gensym24_620759390 = parse_620758704(a_620759343, input_620759373);
-            if ((tempHEX60gensym24_620759390.kind == 1)) {
-            var Temporary2 = tempHEX60gensym24_620759390;
-            if (ConstSet17[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620759375 = nimCopy(result_620759375, {kind: 1, fromInput: nimCopy(null, input_620759373, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym24_620759390.tail, NTI33554439), value: []}, NTI620758259);
+            var tempHEX60gensym24_620758806 = parse_620758790(a_620758747, input_620758777);
+            if ((tempHEX60gensym24_620758806.kind == 1)) {
+            var Temporary2 = tempHEX60gensym24_620758806;
+            if (ConstSet17[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620758779 = nimCopy(result_620758779, {kind: 1, fromInput: nimCopy(null, input_620758777, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym24_620758806.tail, NTI33554439), value: []}, NTI620757839);
             break BeforeRet;
             }
             
           } while (false);
-          var result1_620759396 = nimCopy(null, tempHEX60gensym24_620759390, NTI1090519172);
-          var Temporary3 = result1_620759396;
-          if (ConstSet18[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-          result_620759375 = nimCopy(result_620759375, succeed_620759376(input_620759373, fn_620759345(Temporary3.value), result1_620759396.tail), NTI620758259);
+          var result1_620758812 = nimCopy(null, tempHEX60gensym24_620758806, NTI1191182468);
+          var Temporary3 = result1_620758812;
+          if (ConstSet18[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+          result_620758779 = nimCopy(result_620758779, succeed_620758780(input_620758777, fn_620758749(Temporary3.value), result1_620758812.tail), NTI620757839);
           break BeforeRet;
         } while (false);
 
-        return result_620759375;
+        return result_620758779;
 
       }
 
-  var result_620759346 = null;
+  var result_620758750 = null;
 
     Label1: do {
     } while (false);
-    result_620759346 = {body: HEX3Aanonymous_620759372};
+    result_620758750 = {body: HEX3Aanonymous_620758776};
 
-  return result_620759346;
+  return result_620758750;
 
 }
 
-function HEX2A_620759204(a_620759206, n_620759207) {
+function HEX2A_620758608(a_620758610, n_620758611) {
     var Temporary1;
       
-function HEX3Aanonymous_620759311(x_620759331) {
-        var result_620759334 = [];
+function HEX3Aanonymous_620758715(x_620758735) {
+        var result_620758738 = [];
 
-          result_620759334 = nimCopy(null, [nimCopy(null, x_620759331, NTI33554439)], NTI1090519234);
+          result_620758738 = nimCopy(null, [nimCopy(null, x_620758735, NTI33554439)], NTI654311478);
 
-        return result_620759334;
+        return result_620758738;
 
       }
 
-function succeedImpl_620759407(inputInHEX60gensym37_620759408, valueInHEX60gensym37_620759409, tailInHEX60gensym37_620759410) {
-  var result_620759412 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function succeedImpl_620758823(inputInHEX60gensym26_620758824, valueInHEX60gensym26_620758825, tailInHEX60gensym26_620758826) {
+  var result_620758828 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620759412 = nimCopy(result_620759412, {kind: 0, value: nimCopy(null, valueInHEX60gensym37_620759409, NTI620758480), tail: nimCopy(null, tailInHEX60gensym37_620759410, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym37_620759408, NTI33554439), expected: []}, NTI620758259);
+    result_620758828 = nimCopy(result_620758828, {kind: 0, value: nimCopy(null, valueInHEX60gensym26_620758825, NTI620758072), tail: nimCopy(null, tailInHEX60gensym26_620758826, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym26_620758824, NTI33554439), expected: []}, NTI620757839);
 
-  return result_620759412;
+  return result_620758828;
 
 }
 
-function failImpl_620759414(inputInHEX60gensym37_620759415, expectedInHEX60gensym37_620759416, tailInHEX60gensym37_620759417) {
-  var result_620759419 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function failImpl_620758830(inputInHEX60gensym26_620758831, expectedInHEX60gensym26_620758832, tailInHEX60gensym26_620758833) {
+  var result_620758835 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620759419 = nimCopy(result_620759419, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym37_620759416, NTI620758486), tail: nimCopy(null, tailInHEX60gensym37_620759417, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym37_620759415, NTI33554439), value: []}, NTI620758259);
+    result_620758835 = nimCopy(result_620758835, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym26_620758832, NTI620758078), tail: nimCopy(null, tailInHEX60gensym26_620758833, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym26_620758831, NTI33554439), value: []}, NTI620757839);
 
-  return result_620759419;
+  return result_620758835;
 
 }
         
-function HEX3Aanonymous_620759422(input_620759423) {
+function HEX3Aanonymous_620758838(input_620758839) {
               var Temporary2;
             var Temporary3;
                       var Temporary8;
                     var Temporary9;
 
-          var result_620759425 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+          var result_620758841 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
           BeforeRet: do {
-            var succeed_620759426 = succeedImpl_620759407;
-            var fail_620759427 = failImpl_620759414;
+            var succeed_620758842 = succeedImpl_620758823;
+            var fail_620758843 = failImpl_620758830;
             Label1: do {
-              var tempHEX60gensym38_620759440 = parse_620758704(a_620759206, input_620759423);
-              if ((tempHEX60gensym38_620759440.kind == 1)) {
-              var Temporary2 = tempHEX60gensym38_620759440;
-              if (ConstSet19[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-              result_620759425 = nimCopy(result_620759425, {kind: 1, fromInput: nimCopy(null, input_620759423, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym38_620759440.tail, NTI33554439), value: []}, NTI620758259);
+              var tempHEX60gensym38_620758856 = parse_620758790(a_620758610, input_620758839);
+              if ((tempHEX60gensym38_620758856.kind == 1)) {
+              var Temporary2 = tempHEX60gensym38_620758856;
+              if (ConstSet19[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+              result_620758841 = nimCopy(result_620758841, {kind: 1, fromInput: nimCopy(null, input_620758839, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym38_620758856.tail, NTI33554439), value: []}, NTI620757839);
               break BeforeRet;
               }
               
             } while (false);
-            var result1_620759446 = nimCopy(null, tempHEX60gensym38_620759440, NTI1090519172);
-            var Temporary3 = result1_620759446;
-            if (ConstSet20[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-            var outputs_620759451 = [nimCopy(null, Temporary3.value, NTI33554439)];
-            var lastTail_620759452 = nimCopy(null, result1_620759446.tail, NTI33554439);
+            var result1_620758862 = nimCopy(null, tempHEX60gensym38_620758856, NTI1191182468);
+            var Temporary3 = result1_620758862;
+            if (ConstSet20[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+            var outputs_620758867 = [nimCopy(null, Temporary3.value, NTI33554439)];
+            var lastTail_620758868 = nimCopy(null, result1_620758862.tail, NTI33554439);
             Label4: do {
-              var i_620759458 = 0;
-              var res_620767398 = 2;
+              var i_620758874 = 0;
+              var res_620768185 = 2;
               Label5: do {
                   Label6: while (true) {
-                  if (!(res_620767398 <= n_620759207)) break Label6;
-                    i_620759458 = res_620767398;
+                  if (!(res_620768185 <= n_620758611)) break Label6;
+                    i_620758874 = res_620768185;
                     Label7: do {
-                      var tempHEX60gensym40_620759471 = parse_620758704(a_620759206, result1_620759446.tail);
-                      if ((tempHEX60gensym40_620759471.kind == 1)) {
-                      var Temporary8 = tempHEX60gensym40_620759471;
-                      if (ConstSet21[Temporary8.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary8.kind, NTI1090519061)); }
-                      result_620759425 = nimCopy(result_620759425, {kind: 1, fromInput: nimCopy(null, input_620759423, NTI33554439), expected: nimCopy(null, Temporary8.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym40_620759471.tail, NTI33554439), value: []}, NTI620758259);
+                      var tempHEX60gensym40_620758887 = parse_620758790(a_620758610, result1_620758862.tail);
+                      if ((tempHEX60gensym40_620758887.kind == 1)) {
+                      var Temporary8 = tempHEX60gensym40_620758887;
+                      if (ConstSet21[Temporary8.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary8.kind, NTI1191182357)); }
+                      result_620758841 = nimCopy(result_620758841, {kind: 1, fromInput: nimCopy(null, input_620758839, NTI33554439), expected: nimCopy(null, Temporary8.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym40_620758887.tail, NTI33554439), value: []}, NTI620757839);
                       break BeforeRet;
                       }
                       
                     } while (false);
-                    result1_620759446 = nimCopy(result1_620759446, tempHEX60gensym40_620759471, NTI1090519172);
-                    if (eqStrings(result1_620759446.tail, lastTail_620759452)) {
+                    result1_620758862 = nimCopy(result1_620758862, tempHEX60gensym40_620758887, NTI1191182468);
+                    if (eqStrings(result1_620758862.tail, lastTail_620758868)) {
                     break Label4;
                     }
                     
-                    lastTail_620759452 = nimCopy(null, result1_620759446.tail, NTI33554439);
-                    var Temporary9 = result1_620759446;
-                    if (ConstSet22[Temporary9.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary9.kind, NTI1090519061)); }
+                    lastTail_620758868 = nimCopy(null, result1_620758862.tail, NTI33554439);
+                    var Temporary9 = result1_620758862;
+                    if (ConstSet22[Temporary9.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary9.kind, NTI1191182357)); }
                     var Temporary10 = nimCopy(null, Temporary9.value, NTI33554439);
-                    outputs_620759451.push(Temporary10);;
-                    res_620767398 = addInt(res_620767398, 1);
+                    outputs_620758867.push(Temporary10);;
+                    res_620768185 = addInt(res_620768185, 1);
                   }
               } while (false);
             } while (false);
-            result_620759425 = nimCopy(result_620759425, succeed_620759426(input_620759423, outputs_620759451, result1_620759446.tail), NTI620758259);
+            result_620758841 = nimCopy(result_620758841, succeed_620758842(input_620758839, outputs_620758867, result1_620758862.tail), NTI620757839);
           } while (false);
 
-          return result_620759425;
+          return result_620758841;
 
         }
 
-  var result_620759211 = null;
+  var result_620758615 = null;
 
   BeforeRet: do {
-    switch (n_620759207) {
+    switch (n_620758611) {
     case 0:
-      result_620759211 = nop_620759212();
+      result_620758615 = nop_620758616();
       break BeforeRet;
       break;
     case 1:
-      result_620759211 = map_620759340(a_620759206, HEX3Aanonymous_620759311);
+      result_620758615 = map_620758744(a_620758610, HEX3Aanonymous_620758715);
       break BeforeRet;
       break;
     default: 
       Label2: do {
       } while (false);
-      Temporary1 = {body: HEX3Aanonymous_620759422};
+      Temporary1 = {body: HEX3Aanonymous_620758838};
       break;
     }
-    result_620759211 = Temporary1;
+    result_620758615 = Temporary1;
   } while (false);
 
-  return result_620759211;
+  return result_620758615;
 
 }
 
-function nop_620759675() {
+function nop_620759091() {
 
-function succeedImpl_620759688(inputInHEX60gensym42_620759689, valueInHEX60gensym42_620759690, tailInHEX60gensym42_620759691) {
-  var result_620759693 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function succeedImpl_620759104(inputInHEX60gensym31_620759105, valueInHEX60gensym31_620759106, tailInHEX60gensym31_620759107) {
+  var result_620759109 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620759693 = nimCopy(result_620759693, {kind: 0, value: nimCopy(null, valueInHEX60gensym42_620759690, NTI620758705), tail: nimCopy(null, tailInHEX60gensym42_620759691, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym42_620759689, NTI33554439), expected: []}, NTI620758698);
+    result_620759109 = nimCopy(result_620759109, {kind: 0, value: nimCopy(null, valueInHEX60gensym31_620759106, NTI620758297), tail: nimCopy(null, tailInHEX60gensym31_620759107, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym31_620759105, NTI33554439), expected: []}, NTI620758290);
 
-  return result_620759693;
+  return result_620759109;
 
 }
 
-function failImpl_620759716(inputInHEX60gensym42_620759717, expectedInHEX60gensym42_620759718, tailInHEX60gensym42_620759719) {
-  var result_620759721 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function failImpl_620759132(inputInHEX60gensym31_620759133, expectedInHEX60gensym31_620759134, tailInHEX60gensym31_620759135) {
+  var result_620759137 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620759721 = nimCopy(result_620759721, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym42_620759718, NTI620758738), tail: nimCopy(null, tailInHEX60gensym42_620759719, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym42_620759717, NTI33554439), value: []}, NTI620758698);
+    result_620759137 = nimCopy(result_620759137, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym31_620759134, NTI620758330), tail: nimCopy(null, tailInHEX60gensym31_620759135, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym31_620759133, NTI33554439), value: []}, NTI620758290);
 
-  return result_620759721;
+  return result_620759137;
 
 }
       
-function HEX3Aanonymous_620759724(input_620759725) {
-        var result_620759727 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function HEX3Aanonymous_620759140(input_620759141) {
+        var result_620759143 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-          var succeed_620759728 = succeedImpl_620759688;
-          var fail_620759729 = failImpl_620759716;
-          result_620759727 = nimCopy(result_620759727, succeed_620759728(input_620759725, [], input_620759725), NTI620758698);
+          var succeed_620759144 = succeedImpl_620759104;
+          var fail_620759145 = failImpl_620759132;
+          result_620759143 = nimCopy(result_620759143, succeed_620759144(input_620759141, [], input_620759141), NTI620758290);
 
-        return result_620759727;
+        return result_620759143;
 
       }
 
-  var result_620759677 = null;
+  var result_620759093 = null;
 
     Label1: do {
     } while (false);
-    result_620759677 = {body: HEX3Aanonymous_620759724};
+    result_620759093 = {body: HEX3Aanonymous_620759140};
 
-  return result_620759677;
+  return result_620759093;
 
 }
 
-function HEX2A_620759662(a_620759664, n_620759665) {
+function HEX2A_620759078(a_620759080, n_620759081) {
     var Temporary1;
       
-function HEX3Aanonymous_620759792(x_620759821) {
-        var result_620759824 = [];
+function HEX3Aanonymous_620759208(x_620759237) {
+        var result_620759240 = [];
 
-          result_620759824 = nimCopy(null, [nimCopy(null, x_620759821, NTI620758253)], NTI620758807);
+          result_620759240 = nimCopy(null, [nimCopy(null, x_620759237, NTI620757833)], NTI620758399);
 
-        return result_620759824;
+        return result_620759240;
 
       }
 
-function succeedImpl_620759897(inputInHEX60gensym45_620759898, valueInHEX60gensym45_620759899, tailInHEX60gensym45_620759900) {
-  var result_620759902 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function succeedImpl_620759313(inputInHEX60gensym34_620759314, valueInHEX60gensym34_620759315, tailInHEX60gensym34_620759316) {
+  var result_620759318 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620759902 = nimCopy(result_620759902, {kind: 0, value: nimCopy(null, valueInHEX60gensym45_620759899, NTI620758890), tail: nimCopy(null, tailInHEX60gensym45_620759900, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym45_620759898, NTI33554439), expected: []}, NTI620758698);
+    result_620759318 = nimCopy(result_620759318, {kind: 0, value: nimCopy(null, valueInHEX60gensym34_620759315, NTI620758482), tail: nimCopy(null, tailInHEX60gensym34_620759316, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym34_620759314, NTI33554439), expected: []}, NTI620758290);
 
-  return result_620759902;
+  return result_620759318;
 
 }
 
-function failImpl_620759904(inputInHEX60gensym45_620759905, expectedInHEX60gensym45_620759906, tailInHEX60gensym45_620759907) {
-  var result_620759909 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function failImpl_620759320(inputInHEX60gensym34_620759321, expectedInHEX60gensym34_620759322, tailInHEX60gensym34_620759323) {
+  var result_620759325 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620759909 = nimCopy(result_620759909, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym45_620759906, NTI620758896), tail: nimCopy(null, tailInHEX60gensym45_620759907, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym45_620759905, NTI33554439), value: []}, NTI620758698);
+    result_620759325 = nimCopy(result_620759325, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym34_620759322, NTI620758488), tail: nimCopy(null, tailInHEX60gensym34_620759323, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym34_620759321, NTI33554439), value: []}, NTI620758290);
 
-  return result_620759909;
+  return result_620759325;
 
 }
         
-function HEX3Aanonymous_620759912(input_620759913) {
+function HEX3Aanonymous_620759328(input_620759329) {
               var Temporary2;
             var Temporary3;
                       var Temporary8;
                     var Temporary9;
 
-          var result_620759915 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+          var result_620759331 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
           BeforeRet: do {
-            var succeed_620759916 = succeedImpl_620759897;
-            var fail_620759917 = failImpl_620759904;
+            var succeed_620759332 = succeedImpl_620759313;
+            var fail_620759333 = failImpl_620759320;
             Label1: do {
-              var tempHEX60gensym38_620759930 = parse_620759604(a_620759664, input_620759913);
-              if ((tempHEX60gensym38_620759930.kind == 1)) {
-              var Temporary2 = tempHEX60gensym38_620759930;
-              if (ConstSet23[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-              result_620759915 = nimCopy(result_620759915, {kind: 1, fromInput: nimCopy(null, input_620759913, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym38_620759930.tail, NTI33554439), value: []}, NTI620758698);
+              var tempHEX60gensym38_620759346 = parse_620759020(a_620759080, input_620759329);
+              if ((tempHEX60gensym38_620759346.kind == 1)) {
+              var Temporary2 = tempHEX60gensym38_620759346;
+              if (ConstSet23[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+              result_620759331 = nimCopy(result_620759331, {kind: 1, fromInput: nimCopy(null, input_620759329, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym38_620759346.tail, NTI33554439), value: []}, NTI620758290);
               break BeforeRet;
               }
               
             } while (false);
-            var result1_620759936 = nimCopy(null, tempHEX60gensym38_620759930, NTI620758259);
-            var Temporary3 = result1_620759936;
-            if (ConstSet24[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-            var outputs_620759941 = [nimCopy(null, Temporary3.value, NTI620758253)];
-            var lastTail_620759942 = nimCopy(null, result1_620759936.tail, NTI33554439);
+            var result1_620759352 = nimCopy(null, tempHEX60gensym38_620759346, NTI620757839);
+            var Temporary3 = result1_620759352;
+            if (ConstSet24[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+            var outputs_620759357 = [nimCopy(null, Temporary3.value, NTI620757833)];
+            var lastTail_620759358 = nimCopy(null, result1_620759352.tail, NTI33554439);
             Label4: do {
-              var i_620759948 = 0;
-              var res_620767407 = 2;
+              var i_620759364 = 0;
+              var res_620768194 = 2;
               Label5: do {
                   Label6: while (true) {
-                  if (!(res_620767407 <= n_620759665)) break Label6;
-                    i_620759948 = res_620767407;
+                  if (!(res_620768194 <= n_620759081)) break Label6;
+                    i_620759364 = res_620768194;
                     Label7: do {
-                      var tempHEX60gensym40_620759961 = parse_620759604(a_620759664, result1_620759936.tail);
-                      if ((tempHEX60gensym40_620759961.kind == 1)) {
-                      var Temporary8 = tempHEX60gensym40_620759961;
-                      if (ConstSet25[Temporary8.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary8.kind, NTI1090519061)); }
-                      result_620759915 = nimCopy(result_620759915, {kind: 1, fromInput: nimCopy(null, input_620759913, NTI33554439), expected: nimCopy(null, Temporary8.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym40_620759961.tail, NTI33554439), value: []}, NTI620758698);
+                      var tempHEX60gensym40_620759377 = parse_620759020(a_620759080, result1_620759352.tail);
+                      if ((tempHEX60gensym40_620759377.kind == 1)) {
+                      var Temporary8 = tempHEX60gensym40_620759377;
+                      if (ConstSet25[Temporary8.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary8.kind, NTI1191182357)); }
+                      result_620759331 = nimCopy(result_620759331, {kind: 1, fromInput: nimCopy(null, input_620759329, NTI33554439), expected: nimCopy(null, Temporary8.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym40_620759377.tail, NTI33554439), value: []}, NTI620758290);
                       break BeforeRet;
                       }
                       
                     } while (false);
-                    result1_620759936 = nimCopy(result1_620759936, tempHEX60gensym40_620759961, NTI620758259);
-                    if (eqStrings(result1_620759936.tail, lastTail_620759942)) {
+                    result1_620759352 = nimCopy(result1_620759352, tempHEX60gensym40_620759377, NTI620757839);
+                    if (eqStrings(result1_620759352.tail, lastTail_620759358)) {
                     break Label4;
                     }
                     
-                    lastTail_620759942 = nimCopy(null, result1_620759936.tail, NTI33554439);
-                    var Temporary9 = result1_620759936;
-                    if (ConstSet26[Temporary9.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary9.kind, NTI1090519061)); }
-                    var Temporary10 = nimCopy(null, Temporary9.value, NTI620758253);
-                    outputs_620759941.push(Temporary10);;
-                    res_620767407 = addInt(res_620767407, 1);
+                    lastTail_620759358 = nimCopy(null, result1_620759352.tail, NTI33554439);
+                    var Temporary9 = result1_620759352;
+                    if (ConstSet26[Temporary9.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary9.kind, NTI1191182357)); }
+                    var Temporary10 = nimCopy(null, Temporary9.value, NTI620757833);
+                    outputs_620759357.push(Temporary10);;
+                    res_620768194 = addInt(res_620768194, 1);
                   }
               } while (false);
             } while (false);
-            result_620759915 = nimCopy(result_620759915, succeed_620759916(input_620759913, outputs_620759941, result1_620759936.tail), NTI620758698);
+            result_620759331 = nimCopy(result_620759331, succeed_620759332(input_620759329, outputs_620759357, result1_620759352.tail), NTI620758290);
           } while (false);
 
-          return result_620759915;
+          return result_620759331;
 
         }
 
-  var result_620759674 = null;
+  var result_620759090 = null;
 
   BeforeRet: do {
-    switch (n_620759665) {
+    switch (n_620759081) {
     case 0:
-      result_620759674 = nop_620759675();
+      result_620759090 = nop_620759091();
       break BeforeRet;
       break;
     case 1:
-      result_620759674 = map_620759830(a_620759664, HEX3Aanonymous_620759792);
+      result_620759090 = map_620759246(a_620759080, HEX3Aanonymous_620759208);
       break BeforeRet;
       break;
     default: 
       Label2: do {
       } while (false);
-      Temporary1 = {body: HEX3Aanonymous_620759912};
+      Temporary1 = {body: HEX3Aanonymous_620759328};
       break;
     }
-    result_620759674 = Temporary1;
+    result_620759090 = Temporary1;
   } while (false);
 
-  return result_620759674;
+  return result_620759090;
 
 }
 
-function HEX7C_620759560(a_620759562, b_620759563) {
+function HEX7C_620758976(a_620758978, b_620758979) {
 
-function succeedImpl_620759575(inputInHEX60gensym41_620759576, valueInHEX60gensym41_620759577, tailInHEX60gensym41_620759578) {
-  var result_620759580 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function succeedImpl_620758991(inputInHEX60gensym30_620758992, valueInHEX60gensym30_620758993, tailInHEX60gensym30_620758994) {
+  var result_620758996 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620759580 = nimCopy(result_620759580, {kind: 0, value: nimCopy(null, valueInHEX60gensym41_620759577, NTI620758253), tail: nimCopy(null, tailInHEX60gensym41_620759578, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym41_620759576, NTI33554439), expected: []}, NTI620758259);
+    result_620758996 = nimCopy(result_620758996, {kind: 0, value: nimCopy(null, valueInHEX60gensym30_620758993, NTI620757833), tail: nimCopy(null, tailInHEX60gensym30_620758994, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym30_620758992, NTI33554439), expected: []}, NTI620757839);
 
-  return result_620759580;
+  return result_620758996;
 
 }
 
-function failImpl_620759582(inputInHEX60gensym41_620759583, expectedInHEX60gensym41_620759584, tailInHEX60gensym41_620759585) {
-  var result_620759587 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function failImpl_620758998(inputInHEX60gensym30_620758999, expectedInHEX60gensym30_620759000, tailInHEX60gensym30_620759001) {
+  var result_620759003 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620759587 = nimCopy(result_620759587, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym41_620759584, NTI620758642), tail: nimCopy(null, tailInHEX60gensym41_620759585, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym41_620759583, NTI33554439), value: []}, NTI620758259);
+    result_620759003 = nimCopy(result_620759003, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym30_620759000, NTI620758234), tail: nimCopy(null, tailInHEX60gensym30_620759001, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym30_620758999, NTI33554439), value: []}, NTI620757839);
 
-  return result_620759587;
+  return result_620759003;
 
 }
       
-function HEX3Aanonymous_620759590(input_620759591) {
+function HEX3Aanonymous_620759006(input_620759007) {
           var Temporary1;
           var Temporary2;
 
-        var result_620759593 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+        var result_620759009 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620759594 = succeedImpl_620759575;
-          var fail_620759595 = failImpl_620759582;
-          var result1_620759620 = parse_620759604(a_620759562, input_620759591);
-          if ((result1_620759620.kind == 0)) {
-          result_620759593 = nimCopy(result_620759593, result1_620759620, NTI620758259);
+          var succeed_620759010 = succeedImpl_620758991;
+          var fail_620759011 = failImpl_620758998;
+          var result1_620759036 = parse_620759020(a_620758978, input_620759007);
+          if ((result1_620759036.kind == 0)) {
+          result_620759009 = nimCopy(result_620759009, result1_620759036, NTI620757839);
           break BeforeRet;
           }
           
-          var result2_620759637 = parse_620759604(b_620759563, input_620759591);
-          if ((result2_620759637.kind == 0)) {
-          result_620759593 = nimCopy(result_620759593, result2_620759637, NTI620758259);
+          var result2_620759053 = parse_620759020(b_620758979, input_620759007);
+          if ((result2_620759053.kind == 0)) {
+          result_620759009 = nimCopy(result_620759009, result2_620759053, NTI620757839);
           break BeforeRet;
           }
           
-          var Temporary1 = result1_620759620;
-          if (ConstSet27[Temporary1.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary1.kind, NTI1090519061)); }
-          var Temporary2 = result2_620759637;
-          if (ConstSet28[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-          result_620759593 = nimCopy(result_620759593, fail_620759595(input_620759591, HEX26_687865962(Temporary1.expected, Temporary2.expected), input_620759591), NTI620758259);
+          var Temporary1 = result1_620759036;
+          if (ConstSet27[Temporary1.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary1.kind, NTI1191182357)); }
+          var Temporary2 = result2_620759053;
+          if (ConstSet28[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+          result_620759009 = nimCopy(result_620759009, fail_620759011(input_620759007, HEX26_654311539(Temporary1.expected, Temporary2.expected), input_620759007), NTI620757839);
         } while (false);
 
-        return result_620759593;
+        return result_620759009;
 
       }
 
-  var result_620759564 = null;
+  var result_620758980 = null;
 
     Label1: do {
     } while (false);
-    result_620759564 = {body: HEX3Aanonymous_620759590};
+    result_620758980 = {body: HEX3Aanonymous_620759006};
 
-  return result_620759564;
+  return result_620758980;
 
 }
 
@@ -2965,1318 +2973,1318 @@ function failedAssertImpl_218103864(msg_218103865) {
   
 }
 
-function parse_620760829(p_620760831, input_620760832) {
-  var result_620760833 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function parse_620760265(p_620760267, input_620760268) {
+  var result_620760269 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
   BeforeRet: do {
-    if ((p_620760831.body == null)) {
-    result_620760833 = nimCopy(result_620760833, {kind: 1, expected: [makeNimstrLit("forward-declared parser to be initialized with .become(Parser)")], tail: nimCopy(null, input_620760832, NTI33554439), fromInput: nimCopy(null, input_620760832, NTI33554439), value: []}, NTI620759300);
+    if ((p_620760267.body == null)) {
+    result_620760269 = nimCopy(result_620760269, {kind: 1, expected: [makeNimstrLit("forward-declared parser to be initialized with .become(Parser)")], tail: nimCopy(null, input_620760268, NTI33554439), fromInput: nimCopy(null, input_620760268, NTI33554439), value: []}, NTI620758903);
     break BeforeRet;
     }
     
-    result_620760833 = nimCopy(result_620760833, p_620760831.body(input_620760832), NTI620759300);
+    result_620760269 = nimCopy(result_620760269, p_620760267.body(input_620760268), NTI620758903);
   } while (false);
 
-  return result_620760833;
+  return result_620760269;
 
 }
 
-function map_620761635(a_620761638, fn_620761640) {
+function map_620761071(a_620761074, fn_620761076) {
 
-function succeedImpl_620761652(inputInHEX60gensym81_620761653, valueInHEX60gensym81_620761654, tailInHEX60gensym81_620761655) {
-  var result_620761657 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+function succeedImpl_620761088(inputInHEX60gensym70_620761089, valueInHEX60gensym70_620761090, tailInHEX60gensym70_620761091) {
+  var result_620761093 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
 
-    result_620761657 = nimCopy(result_620761657, {kind: 0, value: nimCopy(null, valueInHEX60gensym81_620761654, NTI687865860), tail: nimCopy(null, tailInHEX60gensym81_620761655, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym81_620761653, NTI33554439), expected: []}, NTI620757844);
+    result_620761093 = nimCopy(result_620761093, {kind: 0, value: nimCopy(null, valueInHEX60gensym70_620761090, NTI654311428), tail: nimCopy(null, tailInHEX60gensym70_620761091, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym70_620761089, NTI33554439), expected: []}, NTI620758888);
 
-  return result_620761657;
+  return result_620761093;
 
 }
 
-function failImpl_620761659(inputInHEX60gensym81_620761660, expectedInHEX60gensym81_620761661, tailInHEX60gensym81_620761662) {
-  var result_620761664 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+function failImpl_620761095(inputInHEX60gensym70_620761096, expectedInHEX60gensym70_620761097, tailInHEX60gensym70_620761098) {
+  var result_620761100 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
 
-    result_620761664 = nimCopy(result_620761664, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym81_620761661, NTI620760412), tail: nimCopy(null, tailInHEX60gensym81_620761662, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym81_620761660, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
+    result_620761100 = nimCopy(result_620761100, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym70_620761097, NTI620760023), tail: nimCopy(null, tailInHEX60gensym70_620761098, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym70_620761096, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
 
-  return result_620761664;
+  return result_620761100;
 
 }
       
-function HEX3Aanonymous_620761667(input_620761668) {
+function HEX3Aanonymous_620761103(input_620761104) {
             var Temporary2;
           var Temporary3;
 
-        var result_620761670 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+        var result_620761106 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620761671 = succeedImpl_620761652;
-          var fail_620761672 = failImpl_620761659;
+          var succeed_620761107 = succeedImpl_620761088;
+          var fail_620761108 = failImpl_620761095;
           Label1: do {
-            var tempHEX60gensym24_620761685 = parse_620760829(a_620761638, input_620761668);
-            if ((tempHEX60gensym24_620761685.kind == 1)) {
-            var Temporary2 = tempHEX60gensym24_620761685;
-            if (ConstSet29[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620761670 = nimCopy(result_620761670, {kind: 1, fromInput: nimCopy(null, input_620761668, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym24_620761685.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
+            var tempHEX60gensym24_620761121 = parse_620760265(a_620761074, input_620761104);
+            if ((tempHEX60gensym24_620761121.kind == 1)) {
+            var Temporary2 = tempHEX60gensym24_620761121;
+            if (ConstSet29[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620761106 = nimCopy(result_620761106, {kind: 1, fromInput: nimCopy(null, input_620761104, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym24_620761121.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
             break BeforeRet;
             }
             
           } while (false);
-          var result1_620761691 = nimCopy(null, tempHEX60gensym24_620761685, NTI620759300);
-          var Temporary3 = result1_620761691;
-          if (ConstSet30[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-          result_620761670 = nimCopy(result_620761670, succeed_620761671(input_620761668, fn_620761640(Temporary3.value), result1_620761691.tail), NTI620757844);
+          var result1_620761127 = nimCopy(null, tempHEX60gensym24_620761121, NTI620758903);
+          var Temporary3 = result1_620761127;
+          if (ConstSet30[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+          result_620761106 = nimCopy(result_620761106, succeed_620761107(input_620761104, fn_620761076(Temporary3.value), result1_620761127.tail), NTI620758888);
           break BeforeRet;
         } while (false);
 
-        return result_620761670;
+        return result_620761106;
 
       }
 
-  var result_620761641 = null;
+  var result_620761077 = null;
 
     Label1: do {
     } while (false);
-    result_620761641 = {body: HEX3Aanonymous_620761667};
-
-  return result_620761641;
-
-}
-
-function parse_620761345(p_620761347, input_620761348) {
-  var result_620761349 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-  BeforeRet: do {
-    if ((p_620761347.body == null)) {
-    result_620761349 = nimCopy(result_620761349, {kind: 1, expected: [makeNimstrLit("forward-declared parser to be initialized with .become(Parser)")], tail: nimCopy(null, input_620761348, NTI33554439), fromInput: nimCopy(null, input_620761348, NTI33554439), value: []}, NTI620759762);
-    break BeforeRet;
-    }
-    
-    result_620761349 = nimCopy(result_620761349, p_620761347.body(input_620761348), NTI620759762);
-  } while (false);
-
-  return result_620761349;
-
-}
-
-function map_620761549(a_620761552, fn_620761554) {
-
-function succeedImpl_620761566(inputInHEX60gensym80_620761567, valueInHEX60gensym80_620761568, tailInHEX60gensym80_620761569) {
-  var result_620761571 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620761571 = nimCopy(result_620761571, {kind: 0, value: nimCopy(null, valueInHEX60gensym80_620761568, NTI687866058), tail: nimCopy(null, tailInHEX60gensym80_620761569, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym80_620761567, NTI33554439), expected: []}, NTI620759300);
-
-  return result_620761571;
-
-}
-
-function failImpl_620761573(inputInHEX60gensym80_620761574, expectedInHEX60gensym80_620761575, tailInHEX60gensym80_620761576) {
-  var result_620761578 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620761578 = nimCopy(result_620761578, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym80_620761575, NTI620760347), tail: nimCopy(null, tailInHEX60gensym80_620761576, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym80_620761574, NTI33554439), value: []}, NTI620759300);
-
-  return result_620761578;
-
-}
-      
-function HEX3Aanonymous_620761581(input_620761582) {
-            var Temporary2;
-          var Temporary3;
-
-        var result_620761584 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-        BeforeRet: do {
-          var succeed_620761585 = succeedImpl_620761566;
-          var fail_620761586 = failImpl_620761573;
-          Label1: do {
-            var tempHEX60gensym24_620761599 = parse_620761345(a_620761552, input_620761582);
-            if ((tempHEX60gensym24_620761599.kind == 1)) {
-            var Temporary2 = tempHEX60gensym24_620761599;
-            if (ConstSet31[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620761584 = nimCopy(result_620761584, {kind: 1, fromInput: nimCopy(null, input_620761582, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym24_620761599.tail, NTI33554439), value: []}, NTI620759300);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result1_620761605 = nimCopy(null, tempHEX60gensym24_620761599, NTI620759762);
-          var Temporary3 = result1_620761605;
-          if (ConstSet32[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-          result_620761584 = nimCopy(result_620761584, succeed_620761585(input_620761582, fn_620761554(Temporary3.value), result1_620761605.tail), NTI620759300);
-          break BeforeRet;
-        } while (false);
-
-        return result_620761584;
-
-      }
-
-  var result_620761555 = null;
-
-    Label1: do {
-    } while (false);
-    result_620761555 = {body: HEX3Aanonymous_620761581};
-
-  return result_620761555;
-
-}
-
-function HEX26_620761387(x_620761389, y_620761390) {
-  var result_620761391 = [];
-
-    result_620761391 = new Array(chckRange(addInt((x_620761389).length, (y_620761390).length), 0, 2147483647)); for (var i = 0 ; i < chckRange(addInt((x_620761389).length, (y_620761390).length), 0, 2147483647) ; ++i) { result_620761391[i] = []; }    Label1: do {
-      var i_620761410 = 0;
-      var colontmp__620767424 = 0;
-      colontmp__620767424 = subInt((x_620761389).length, 1);
-      var res_620767425 = 0;
-      Label2: do {
-          Label3: while (true) {
-          if (!(res_620767425 <= colontmp__620767424)) break Label3;
-            i_620761410 = res_620767425;
-            result_620761391[chckIndx(i_620761410, 0, (result_620761391).length - 1)] = nimCopy(null, x_620761389[chckIndx(i_620761410, 0, (x_620761389).length - 1)], NTI620759294);
-            res_620767425 = addInt(res_620767425, 1);
-          }
-      } while (false);
-    } while (false);
-    Label4: do {
-      var i_620761418 = 0;
-      var colontmp__620767428 = 0;
-      colontmp__620767428 = subInt((y_620761390).length, 1);
-      var res_620767429 = 0;
-      Label5: do {
-          Label6: while (true) {
-          if (!(res_620767429 <= colontmp__620767428)) break Label6;
-            i_620761418 = res_620767429;
-            result_620761391[chckIndx(addInt(i_620761418, (x_620761389).length), 0, (result_620761391).length - 1)] = nimCopy(null, y_620761390[chckIndx(i_620761418, 0, (y_620761390).length - 1)], NTI620759294);
-            res_620767429 = addInt(res_620767429, 1);
-          }
-      } while (false);
-    } while (false);
-
-  return result_620761391;
-
-}
-
-function HEX26_620761292(a_620761297, b_620761301) {
-
-function succeedImpl_620761316(inputInHEX60gensym74_620761317, valueInHEX60gensym74_620761318, tailInHEX60gensym74_620761319) {
-  var result_620761321 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620761321 = nimCopy(result_620761321, {kind: 0, value: nimCopy(null, valueInHEX60gensym74_620761318, NTI620760146), tail: nimCopy(null, tailInHEX60gensym74_620761319, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym74_620761317, NTI33554439), expected: []}, NTI620759762);
-
-  return result_620761321;
-
-}
-
-function failImpl_620761323(inputInHEX60gensym74_620761324, expectedInHEX60gensym74_620761325, tailInHEX60gensym74_620761326) {
-  var result_620761328 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620761328 = nimCopy(result_620761328, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym74_620761325, NTI620760152), tail: nimCopy(null, tailInHEX60gensym74_620761326, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym74_620761324, NTI33554439), value: []}, NTI620759762);
-
-  return result_620761328;
-
-}
-      
-function HEX3Aanonymous_620761331(input_620761332) {
-            var Temporary2;
-            var Temporary4;
-          var Temporary5;
-          var Temporary6;
-
-        var result_620761334 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-        BeforeRet: do {
-          var succeed_620761335 = succeedImpl_620761316;
-          var fail_620761336 = failImpl_620761323;
-          Label1: do {
-            var tempHEX60gensym26_620761361 = parse_620761345(a_620761297, input_620761332);
-            if ((tempHEX60gensym26_620761361.kind == 1)) {
-            var Temporary2 = tempHEX60gensym26_620761361;
-            if (ConstSet33[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620761334 = nimCopy(result_620761334, {kind: 1, fromInput: nimCopy(null, input_620761332, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym26_620761361.tail, NTI33554439), value: []}, NTI620759762);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result1_620761367 = nimCopy(null, tempHEX60gensym26_620761361, NTI620759762);
-          Label3: do {
-            var tempHEX60gensym28_620761380 = parse_620761345(b_620761301, result1_620761367.tail);
-            if ((tempHEX60gensym28_620761380.kind == 1)) {
-            var Temporary4 = tempHEX60gensym28_620761380;
-            if (ConstSet34[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1090519061)); }
-            result_620761334 = nimCopy(result_620761334, {kind: 1, fromInput: nimCopy(null, input_620761332, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym28_620761380.tail, NTI33554439), value: []}, NTI620759762);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result2_620761386 = nimCopy(null, tempHEX60gensym28_620761380, NTI620759762);
-          var Temporary5 = result1_620761367;
-          if (ConstSet35[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1090519061)); }
-          var Temporary6 = result2_620761386;
-          if (ConstSet36[Temporary6.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary6.kind, NTI1090519061)); }
-          result_620761334 = nimCopy(result_620761334, succeed_620761335(input_620761332, HEX26_620761387(Temporary5.value, Temporary6.value), result2_620761386.tail), NTI620759762);
-          break BeforeRet;
-        } while (false);
-
-        return result_620761334;
-
-      }
-
-  var result_620761305 = null;
-
-    Label1: do {
-    } while (false);
-    result_620761305 = {body: HEX3Aanonymous_620761331};
-
-  return result_620761305;
-
-}
-
-function map_620761055(a_620761058, fn_620761060) {
-
-function succeedImpl_620761072(inputInHEX60gensym70_620761073, valueInHEX60gensym70_620761074, tailInHEX60gensym70_620761075) {
-  var result_620761077 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620761077 = nimCopy(result_620761077, {kind: 0, value: nimCopy(null, valueInHEX60gensym70_620761074, NTI620759871), tail: nimCopy(null, tailInHEX60gensym70_620761075, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym70_620761073, NTI33554439), expected: []}, NTI620759762);
+    result_620761077 = {body: HEX3Aanonymous_620761103};
 
   return result_620761077;
 
 }
 
-function failImpl_620761079(inputInHEX60gensym70_620761080, expectedInHEX60gensym70_620761081, tailInHEX60gensym70_620761082) {
-  var result_620761084 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620761084 = nimCopy(result_620761084, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym70_620761081, NTI620759914), tail: nimCopy(null, tailInHEX60gensym70_620761082, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym70_620761080, NTI33554439), value: []}, NTI620759762);
-
-  return result_620761084;
-
-}
-      
-function HEX3Aanonymous_620761087(input_620761088) {
-            var Temporary2;
-          var Temporary3;
-
-        var result_620761090 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-        BeforeRet: do {
-          var succeed_620761091 = succeedImpl_620761072;
-          var fail_620761092 = failImpl_620761079;
-          Label1: do {
-            var tempHEX60gensym24_620761105 = parse_620760829(a_620761058, input_620761088);
-            if ((tempHEX60gensym24_620761105.kind == 1)) {
-            var Temporary2 = tempHEX60gensym24_620761105;
-            if (ConstSet37[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620761090 = nimCopy(result_620761090, {kind: 1, fromInput: nimCopy(null, input_620761088, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym24_620761105.tail, NTI33554439), value: []}, NTI620759762);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result1_620761111 = nimCopy(null, tempHEX60gensym24_620761105, NTI620759300);
-          var Temporary3 = result1_620761111;
-          if (ConstSet38[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-          result_620761090 = nimCopy(result_620761090, succeed_620761091(input_620761088, fn_620761060(Temporary3.value), result1_620761111.tail), NTI620759762);
-          break BeforeRet;
-        } while (false);
-
-        return result_620761090;
-
-      }
-
-  var result_620761061 = null;
-
-    Label1: do {
-    } while (false);
-    result_620761061 = {body: HEX3Aanonymous_620761087};
-
-  return result_620761061;
-
-}
-
-function nop_620760407() {
-
-function succeedImpl_620760420(inputInHEX60gensym60_620760421, valueInHEX60gensym60_620760422, tailInHEX60gensym60_620760423) {
-  var result_620760425 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620760425 = nimCopy(result_620760425, {kind: 0, value: nimCopy(null, valueInHEX60gensym60_620760422, NTI620759354), tail: nimCopy(null, tailInHEX60gensym60_620760423, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym60_620760421, NTI33554439), expected: []}, NTI620759300);
-
-  return result_620760425;
-
-}
-
-function failImpl_620760439(inputInHEX60gensym60_620760440, expectedInHEX60gensym60_620760441, tailInHEX60gensym60_620760442) {
-  var result_620760444 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620760444 = nimCopy(result_620760444, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym60_620760441, NTI620759381), tail: nimCopy(null, tailInHEX60gensym60_620760442, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym60_620760440, NTI33554439), value: []}, NTI620759300);
-
-  return result_620760444;
-
-}
-      
-function HEX3Aanonymous_620760447(input_620760448) {
-        var result_620760450 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-          var succeed_620760451 = succeedImpl_620760420;
-          var fail_620760452 = failImpl_620760439;
-          result_620760450 = nimCopy(result_620760450, succeed_620760451(input_620760448, [], input_620760448), NTI620759300);
-
-        return result_620760450;
-
-      }
-
-  var result_620760409 = null;
-
-    Label1: do {
-    } while (false);
-    result_620760409 = {body: HEX3Aanonymous_620760447};
-
-  return result_620760409;
-
-}
-
-function parse_620760599(p_620760601, input_620760602) {
-  var result_620760603 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+function parse_620760781(p_620760783, input_620760784) {
+  var result_620760785 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
   BeforeRet: do {
-    if ((p_620760601.body == null)) {
-    result_620760603 = nimCopy(result_620760603, {kind: 1, expected: [makeNimstrLit("forward-declared parser to be initialized with .become(Parser)")], tail: nimCopy(null, input_620760602, NTI33554439), fromInput: nimCopy(null, input_620760602, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
+    if ((p_620760783.body == null)) {
+    result_620760785 = nimCopy(result_620760785, {kind: 1, expected: [makeNimstrLit("forward-declared parser to be initialized with .become(Parser)")], tail: nimCopy(null, input_620760784, NTI33554439), fromInput: nimCopy(null, input_620760784, NTI33554439), value: []}, NTI620759373);
     break BeforeRet;
     }
     
-    result_620760603 = nimCopy(result_620760603, p_620760601.body(input_620760602), NTI620757844);
+    result_620760785 = nimCopy(result_620760785, p_620760783.body(input_620760784), NTI620759373);
   } while (false);
 
-  return result_620760603;
+  return result_620760785;
 
 }
 
-function map_620760553(a_620760556, fn_620760558) {
+function map_620760985(a_620760988, fn_620760990) {
 
-function succeedImpl_620760570(inputInHEX60gensym62_620760571, valueInHEX60gensym62_620760572, tailInHEX60gensym62_620760573) {
-  var result_620760575 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function succeedImpl_620761002(inputInHEX60gensym69_620761003, valueInHEX60gensym69_620761004, tailInHEX60gensym69_620761005) {
+  var result_620761007 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620760575 = nimCopy(result_620760575, {kind: 0, value: nimCopy(null, valueInHEX60gensym62_620760572, NTI620759450), tail: nimCopy(null, tailInHEX60gensym62_620760573, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym62_620760571, NTI33554439), expected: []}, NTI620759300);
+    result_620761007 = nimCopy(result_620761007, {kind: 0, value: nimCopy(null, valueInHEX60gensym69_620761004, NTI654311636), tail: nimCopy(null, tailInHEX60gensym69_620761005, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym69_620761003, NTI33554439), expected: []}, NTI620758903);
 
-  return result_620760575;
+  return result_620761007;
 
 }
 
-function failImpl_620760577(inputInHEX60gensym62_620760578, expectedInHEX60gensym62_620760579, tailInHEX60gensym62_620760580) {
-  var result_620760582 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function failImpl_620761009(inputInHEX60gensym69_620761010, expectedInHEX60gensym69_620761011, tailInHEX60gensym69_620761012) {
+  var result_620761014 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620760582 = nimCopy(result_620760582, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym62_620760579, NTI620759493), tail: nimCopy(null, tailInHEX60gensym62_620760580, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym62_620760578, NTI33554439), value: []}, NTI620759300);
+    result_620761014 = nimCopy(result_620761014, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym69_620761011, NTI620759958), tail: nimCopy(null, tailInHEX60gensym69_620761012, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym69_620761010, NTI33554439), value: []}, NTI620758903);
 
-  return result_620760582;
+  return result_620761014;
 
 }
       
-function HEX3Aanonymous_620760585(input_620760586) {
+function HEX3Aanonymous_620761017(input_620761018) {
             var Temporary2;
           var Temporary3;
 
-        var result_620760588 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+        var result_620761020 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620760589 = succeedImpl_620760570;
-          var fail_620760590 = failImpl_620760577;
+          var succeed_620761021 = succeedImpl_620761002;
+          var fail_620761022 = failImpl_620761009;
           Label1: do {
-            var tempHEX60gensym24_620760615 = parse_620760599(a_620760556, input_620760586);
-            if ((tempHEX60gensym24_620760615.kind == 1)) {
-            var Temporary2 = tempHEX60gensym24_620760615;
-            if (ConstSet39[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620760588 = nimCopy(result_620760588, {kind: 1, fromInput: nimCopy(null, input_620760586, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym24_620760615.tail, NTI33554439), value: []}, NTI620759300);
+            var tempHEX60gensym24_620761035 = parse_620760781(a_620760988, input_620761018);
+            if ((tempHEX60gensym24_620761035.kind == 1)) {
+            var Temporary2 = tempHEX60gensym24_620761035;
+            if (ConstSet31[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620761020 = nimCopy(result_620761020, {kind: 1, fromInput: nimCopy(null, input_620761018, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym24_620761035.tail, NTI33554439), value: []}, NTI620758903);
             break BeforeRet;
             }
             
           } while (false);
-          var result1_620760621 = nimCopy(null, tempHEX60gensym24_620760615, NTI620757844);
-          var Temporary3 = result1_620760621;
-          if (ConstSet40[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-          result_620760588 = nimCopy(result_620760588, succeed_620760589(input_620760586, fn_620760558(Temporary3.value), result1_620760621.tail), NTI620759300);
+          var result1_620761041 = nimCopy(null, tempHEX60gensym24_620761035, NTI620759373);
+          var Temporary3 = result1_620761041;
+          if (ConstSet32[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+          result_620761020 = nimCopy(result_620761020, succeed_620761021(input_620761018, fn_620760990(Temporary3.value), result1_620761041.tail), NTI620758903);
           break BeforeRet;
         } while (false);
 
-        return result_620760588;
+        return result_620761020;
 
       }
 
-  var result_620760559 = null;
+  var result_620760991 = null;
 
     Label1: do {
     } while (false);
-    result_620760559 = {body: HEX3Aanonymous_620760585};
+    result_620760991 = {body: HEX3Aanonymous_620761017};
 
-  return result_620760559;
+  return result_620760991;
 
 }
 
-function HEX2A_620760399(a_620760401, n_620760402) {
-    var Temporary1;
+function HEX26_620760823(x_620760825, y_620760826) {
+  var result_620760827 = [];
+
+    result_620760827 = new Array(chckRange(addInt((x_620760825).length, (y_620760826).length), 0, 2147483647)); for (var i = 0 ; i < chckRange(addInt((x_620760825).length, (y_620760826).length), 0, 2147483647) ; ++i) { result_620760827[i] = []; }    Label1: do {
+      var i_620760846 = 0;
+      var colontmp__620768211 = 0;
+      colontmp__620768211 = subInt((x_620760825).length, 1);
+      var res_620768212 = 0;
+      Label2: do {
+          Label3: while (true) {
+          if (!(res_620768212 <= colontmp__620768211)) break Label3;
+            i_620760846 = res_620768212;
+            result_620760827[chckIndx(i_620760846, 0, (result_620760827).length - 1)] = nimCopy(null, x_620760825[chckIndx(i_620760846, 0, (x_620760825).length - 1)], NTI620758897);
+            res_620768212 = addInt(res_620768212, 1);
+          }
+      } while (false);
+    } while (false);
+    Label4: do {
+      var i_620760854 = 0;
+      var colontmp__620768215 = 0;
+      colontmp__620768215 = subInt((y_620760826).length, 1);
+      var res_620768216 = 0;
+      Label5: do {
+          Label6: while (true) {
+          if (!(res_620768216 <= colontmp__620768215)) break Label6;
+            i_620760854 = res_620768216;
+            result_620760827[chckIndx(addInt(i_620760854, (x_620760825).length), 0, (result_620760827).length - 1)] = nimCopy(null, y_620760826[chckIndx(i_620760854, 0, (y_620760826).length - 1)], NTI620758897);
+            res_620768216 = addInt(res_620768216, 1);
+          }
+      } while (false);
+    } while (false);
+
+  return result_620760827;
+
+}
+
+function HEX26_620760728(a_620760733, b_620760737) {
+
+function succeedImpl_620760752(inputInHEX60gensym63_620760753, valueInHEX60gensym63_620760754, tailInHEX60gensym63_620760755) {
+  var result_620760757 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620760757 = nimCopy(result_620760757, {kind: 0, value: nimCopy(null, valueInHEX60gensym63_620760754, NTI620759757), tail: nimCopy(null, tailInHEX60gensym63_620760755, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym63_620760753, NTI33554439), expected: []}, NTI620759373);
+
+  return result_620760757;
+
+}
+
+function failImpl_620760759(inputInHEX60gensym63_620760760, expectedInHEX60gensym63_620760761, tailInHEX60gensym63_620760762) {
+  var result_620760764 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620760764 = nimCopy(result_620760764, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym63_620760761, NTI620759763), tail: nimCopy(null, tailInHEX60gensym63_620760762, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym63_620760760, NTI33554439), value: []}, NTI620759373);
+
+  return result_620760764;
+
+}
       
-function HEX3Aanonymous_620760515(x_620760544) {
-        var result_620760547 = [];
+function HEX3Aanonymous_620760767(input_620760768) {
+            var Temporary2;
+            var Temporary4;
+          var Temporary5;
+          var Temporary6;
 
-          result_620760547 = nimCopy(null, [nimCopy(null, x_620760544, NTI687865860)], NTI620759450);
+        var result_620760770 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-        return result_620760547;
+        BeforeRet: do {
+          var succeed_620760771 = succeedImpl_620760752;
+          var fail_620760772 = failImpl_620760759;
+          Label1: do {
+            var tempHEX60gensym26_620760797 = parse_620760781(a_620760733, input_620760768);
+            if ((tempHEX60gensym26_620760797.kind == 1)) {
+            var Temporary2 = tempHEX60gensym26_620760797;
+            if (ConstSet33[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620760770 = nimCopy(result_620760770, {kind: 1, fromInput: nimCopy(null, input_620760768, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym26_620760797.tail, NTI33554439), value: []}, NTI620759373);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result1_620760803 = nimCopy(null, tempHEX60gensym26_620760797, NTI620759373);
+          Label3: do {
+            var tempHEX60gensym28_620760816 = parse_620760781(b_620760737, result1_620760803.tail);
+            if ((tempHEX60gensym28_620760816.kind == 1)) {
+            var Temporary4 = tempHEX60gensym28_620760816;
+            if (ConstSet34[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620760770 = nimCopy(result_620760770, {kind: 1, fromInput: nimCopy(null, input_620760768, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym28_620760816.tail, NTI33554439), value: []}, NTI620759373);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result2_620760822 = nimCopy(null, tempHEX60gensym28_620760816, NTI620759373);
+          var Temporary5 = result1_620760803;
+          if (ConstSet35[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          var Temporary6 = result2_620760822;
+          if (ConstSet36[Temporary6.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary6.kind, NTI1191182357)); }
+          result_620760770 = nimCopy(result_620760770, succeed_620760771(input_620760768, HEX26_620760823(Temporary5.value, Temporary6.value), result2_620760822.tail), NTI620759373);
+          break BeforeRet;
+        } while (false);
+
+        return result_620760770;
 
       }
 
-function succeedImpl_620760632(inputInHEX60gensym63_620760633, valueInHEX60gensym63_620760634, tailInHEX60gensym63_620760635) {
-  var result_620760637 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+  var result_620760741 = null;
 
-    result_620760637 = nimCopy(result_620760637, {kind: 0, value: nimCopy(null, valueInHEX60gensym63_620760634, NTI620759544), tail: nimCopy(null, tailInHEX60gensym63_620760635, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym63_620760633, NTI33554439), expected: []}, NTI620759300);
+    Label1: do {
+    } while (false);
+    result_620760741 = {body: HEX3Aanonymous_620760767};
 
-  return result_620760637;
+  return result_620760741;
 
 }
 
-function failImpl_620760639(inputInHEX60gensym63_620760640, expectedInHEX60gensym63_620760641, tailInHEX60gensym63_620760642) {
-  var result_620760644 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function map_620760491(a_620760494, fn_620760496) {
 
-    result_620760644 = nimCopy(result_620760644, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym63_620760641, NTI620759550), tail: nimCopy(null, tailInHEX60gensym63_620760642, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym63_620760640, NTI33554439), value: []}, NTI620759300);
+function succeedImpl_620760508(inputInHEX60gensym59_620760509, valueInHEX60gensym59_620760510, tailInHEX60gensym59_620760511) {
+  var result_620760513 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-  return result_620760644;
+    result_620760513 = nimCopy(result_620760513, {kind: 0, value: nimCopy(null, valueInHEX60gensym59_620760510, NTI620759482), tail: nimCopy(null, tailInHEX60gensym59_620760511, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym59_620760509, NTI33554439), expected: []}, NTI620759373);
+
+  return result_620760513;
+
+}
+
+function failImpl_620760515(inputInHEX60gensym59_620760516, expectedInHEX60gensym59_620760517, tailInHEX60gensym59_620760518) {
+  var result_620760520 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620760520 = nimCopy(result_620760520, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym59_620760517, NTI620759525), tail: nimCopy(null, tailInHEX60gensym59_620760518, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym59_620760516, NTI33554439), value: []}, NTI620759373);
+
+  return result_620760520;
+
+}
+      
+function HEX3Aanonymous_620760523(input_620760524) {
+            var Temporary2;
+          var Temporary3;
+
+        var result_620760526 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+        BeforeRet: do {
+          var succeed_620760527 = succeedImpl_620760508;
+          var fail_620760528 = failImpl_620760515;
+          Label1: do {
+            var tempHEX60gensym24_620760541 = parse_620760265(a_620760494, input_620760524);
+            if ((tempHEX60gensym24_620760541.kind == 1)) {
+            var Temporary2 = tempHEX60gensym24_620760541;
+            if (ConstSet37[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620760526 = nimCopy(result_620760526, {kind: 1, fromInput: nimCopy(null, input_620760524, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym24_620760541.tail, NTI33554439), value: []}, NTI620759373);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result1_620760547 = nimCopy(null, tempHEX60gensym24_620760541, NTI620758903);
+          var Temporary3 = result1_620760547;
+          if (ConstSet38[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+          result_620760526 = nimCopy(result_620760526, succeed_620760527(input_620760524, fn_620760496(Temporary3.value), result1_620760547.tail), NTI620759373);
+          break BeforeRet;
+        } while (false);
+
+        return result_620760526;
+
+      }
+
+  var result_620760497 = null;
+
+    Label1: do {
+    } while (false);
+    result_620760497 = {body: HEX3Aanonymous_620760523};
+
+  return result_620760497;
+
+}
+
+function nop_620759831() {
+
+function succeedImpl_620759844(inputInHEX60gensym49_620759845, valueInHEX60gensym49_620759846, tailInHEX60gensym49_620759847) {
+  var result_620759849 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620759849 = nimCopy(result_620759849, {kind: 0, value: nimCopy(null, valueInHEX60gensym49_620759846, NTI620758957), tail: nimCopy(null, tailInHEX60gensym49_620759847, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym49_620759845, NTI33554439), expected: []}, NTI620758903);
+
+  return result_620759849;
+
+}
+
+function failImpl_620759863(inputInHEX60gensym49_620759864, expectedInHEX60gensym49_620759865, tailInHEX60gensym49_620759866) {
+  var result_620759868 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620759868 = nimCopy(result_620759868, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym49_620759865, NTI620758984), tail: nimCopy(null, tailInHEX60gensym49_620759866, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym49_620759864, NTI33554439), value: []}, NTI620758903);
+
+  return result_620759868;
+
+}
+      
+function HEX3Aanonymous_620759871(input_620759872) {
+        var result_620759874 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+          var succeed_620759875 = succeedImpl_620759844;
+          var fail_620759876 = failImpl_620759863;
+          result_620759874 = nimCopy(result_620759874, succeed_620759875(input_620759872, [], input_620759872), NTI620758903);
+
+        return result_620759874;
+
+      }
+
+  var result_620759833 = null;
+
+    Label1: do {
+    } while (false);
+    result_620759833 = {body: HEX3Aanonymous_620759871};
+
+  return result_620759833;
+
+}
+
+function parse_620760023(p_620760025, input_620760026) {
+  var result_620760027 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+  BeforeRet: do {
+    if ((p_620760025.body == null)) {
+    result_620760027 = nimCopy(result_620760027, {kind: 1, expected: [makeNimstrLit("forward-declared parser to be initialized with .become(Parser)")], tail: nimCopy(null, input_620760026, NTI33554439), fromInput: nimCopy(null, input_620760026, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+    break BeforeRet;
+    }
+    
+    result_620760027 = nimCopy(result_620760027, p_620760025.body(input_620760026), NTI620758888);
+  } while (false);
+
+  return result_620760027;
+
+}
+
+function map_620759977(a_620759980, fn_620759982) {
+
+function succeedImpl_620759994(inputInHEX60gensym51_620759995, valueInHEX60gensym51_620759996, tailInHEX60gensym51_620759997) {
+  var result_620759999 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620759999 = nimCopy(result_620759999, {kind: 0, value: nimCopy(null, valueInHEX60gensym51_620759996, NTI620759053), tail: nimCopy(null, tailInHEX60gensym51_620759997, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym51_620759995, NTI33554439), expected: []}, NTI620758903);
+
+  return result_620759999;
+
+}
+
+function failImpl_620760001(inputInHEX60gensym51_620760002, expectedInHEX60gensym51_620760003, tailInHEX60gensym51_620760004) {
+  var result_620760006 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620760006 = nimCopy(result_620760006, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym51_620760003, NTI620759096), tail: nimCopy(null, tailInHEX60gensym51_620760004, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym51_620760002, NTI33554439), value: []}, NTI620758903);
+
+  return result_620760006;
+
+}
+      
+function HEX3Aanonymous_620760009(input_620760010) {
+            var Temporary2;
+          var Temporary3;
+
+        var result_620760012 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+        BeforeRet: do {
+          var succeed_620760013 = succeedImpl_620759994;
+          var fail_620760014 = failImpl_620760001;
+          Label1: do {
+            var tempHEX60gensym24_620760051 = parse_620760023(a_620759980, input_620760010);
+            if ((tempHEX60gensym24_620760051.kind == 1)) {
+            var Temporary2 = tempHEX60gensym24_620760051;
+            if (ConstSet39[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620760012 = nimCopy(result_620760012, {kind: 1, fromInput: nimCopy(null, input_620760010, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym24_620760051.tail, NTI33554439), value: []}, NTI620758903);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result1_620760057 = nimCopy(null, tempHEX60gensym24_620760051, NTI620758888);
+          var Temporary3 = result1_620760057;
+          if (ConstSet40[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+          result_620760012 = nimCopy(result_620760012, succeed_620760013(input_620760010, fn_620759982(Temporary3.value), result1_620760057.tail), NTI620758903);
+          break BeforeRet;
+        } while (false);
+
+        return result_620760012;
+
+      }
+
+  var result_620759983 = null;
+
+    Label1: do {
+    } while (false);
+    result_620759983 = {body: HEX3Aanonymous_620760009};
+
+  return result_620759983;
+
+}
+
+function HEX2A_620759823(a_620759825, n_620759826) {
+    var Temporary1;
+      
+function HEX3Aanonymous_620759939(x_620759968) {
+        var result_620759971 = [];
+
+          result_620759971 = nimCopy(null, [nimCopy(null, x_620759968, NTI654311428)], NTI620759053);
+
+        return result_620759971;
+
+      }
+
+function succeedImpl_620760068(inputInHEX60gensym52_620760069, valueInHEX60gensym52_620760070, tailInHEX60gensym52_620760071) {
+  var result_620760073 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620760073 = nimCopy(result_620760073, {kind: 0, value: nimCopy(null, valueInHEX60gensym52_620760070, NTI620759155), tail: nimCopy(null, tailInHEX60gensym52_620760071, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym52_620760069, NTI33554439), expected: []}, NTI620758903);
+
+  return result_620760073;
+
+}
+
+function failImpl_620760075(inputInHEX60gensym52_620760076, expectedInHEX60gensym52_620760077, tailInHEX60gensym52_620760078) {
+  var result_620760080 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620760080 = nimCopy(result_620760080, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym52_620760077, NTI620759161), tail: nimCopy(null, tailInHEX60gensym52_620760078, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym52_620760076, NTI33554439), value: []}, NTI620758903);
+
+  return result_620760080;
 
 }
         
-function HEX3Aanonymous_620760647(input_620760648) {
+function HEX3Aanonymous_620760083(input_620760084) {
               var Temporary2;
             var Temporary3;
                       var Temporary8;
                     var Temporary9;
 
-          var result_620760650 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+          var result_620760086 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
           BeforeRet: do {
-            var succeed_620760651 = succeedImpl_620760632;
-            var fail_620760652 = failImpl_620760639;
+            var succeed_620760087 = succeedImpl_620760068;
+            var fail_620760088 = failImpl_620760075;
             Label1: do {
-              var tempHEX60gensym38_620760665 = parse_620760599(a_620760401, input_620760648);
-              if ((tempHEX60gensym38_620760665.kind == 1)) {
-              var Temporary2 = tempHEX60gensym38_620760665;
-              if (ConstSet41[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-              result_620760650 = nimCopy(result_620760650, {kind: 1, fromInput: nimCopy(null, input_620760648, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym38_620760665.tail, NTI33554439), value: []}, NTI620759300);
+              var tempHEX60gensym38_620760101 = parse_620760023(a_620759825, input_620760084);
+              if ((tempHEX60gensym38_620760101.kind == 1)) {
+              var Temporary2 = tempHEX60gensym38_620760101;
+              if (ConstSet41[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+              result_620760086 = nimCopy(result_620760086, {kind: 1, fromInput: nimCopy(null, input_620760084, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym38_620760101.tail, NTI33554439), value: []}, NTI620758903);
               break BeforeRet;
               }
               
             } while (false);
-            var result1_620760671 = nimCopy(null, tempHEX60gensym38_620760665, NTI620757844);
-            var Temporary3 = result1_620760671;
-            if (ConstSet42[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-            var outputs_620760676 = [nimCopy(null, Temporary3.value, NTI687865860)];
-            var lastTail_620760677 = nimCopy(null, result1_620760671.tail, NTI33554439);
+            var result1_620760107 = nimCopy(null, tempHEX60gensym38_620760101, NTI620758888);
+            var Temporary3 = result1_620760107;
+            if (ConstSet42[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+            var outputs_620760112 = [nimCopy(null, Temporary3.value, NTI654311428)];
+            var lastTail_620760113 = nimCopy(null, result1_620760107.tail, NTI33554439);
             Label4: do {
-              var i_620760683 = 0;
-              var res_620767437 = 2;
+              var i_620760119 = 0;
+              var res_620768224 = 2;
               Label5: do {
                   Label6: while (true) {
-                  if (!(res_620767437 <= n_620760402)) break Label6;
-                    i_620760683 = res_620767437;
+                  if (!(res_620768224 <= n_620759826)) break Label6;
+                    i_620760119 = res_620768224;
                     Label7: do {
-                      var tempHEX60gensym40_620760696 = parse_620760599(a_620760401, result1_620760671.tail);
-                      if ((tempHEX60gensym40_620760696.kind == 1)) {
-                      var Temporary8 = tempHEX60gensym40_620760696;
-                      if (ConstSet43[Temporary8.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary8.kind, NTI1090519061)); }
-                      result_620760650 = nimCopy(result_620760650, {kind: 1, fromInput: nimCopy(null, input_620760648, NTI33554439), expected: nimCopy(null, Temporary8.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym40_620760696.tail, NTI33554439), value: []}, NTI620759300);
+                      var tempHEX60gensym40_620760132 = parse_620760023(a_620759825, result1_620760107.tail);
+                      if ((tempHEX60gensym40_620760132.kind == 1)) {
+                      var Temporary8 = tempHEX60gensym40_620760132;
+                      if (ConstSet43[Temporary8.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary8.kind, NTI1191182357)); }
+                      result_620760086 = nimCopy(result_620760086, {kind: 1, fromInput: nimCopy(null, input_620760084, NTI33554439), expected: nimCopy(null, Temporary8.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym40_620760132.tail, NTI33554439), value: []}, NTI620758903);
                       break BeforeRet;
                       }
                       
                     } while (false);
-                    result1_620760671 = nimCopy(result1_620760671, tempHEX60gensym40_620760696, NTI620757844);
-                    if (eqStrings(result1_620760671.tail, lastTail_620760677)) {
+                    result1_620760107 = nimCopy(result1_620760107, tempHEX60gensym40_620760132, NTI620758888);
+                    if (eqStrings(result1_620760107.tail, lastTail_620760113)) {
                     break Label4;
                     }
                     
-                    lastTail_620760677 = nimCopy(null, result1_620760671.tail, NTI33554439);
-                    var Temporary9 = result1_620760671;
-                    if (ConstSet44[Temporary9.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary9.kind, NTI1090519061)); }
-                    var Temporary10 = nimCopy(null, Temporary9.value, NTI687865860);
-                    outputs_620760676.push(Temporary10);;
-                    res_620767437 = addInt(res_620767437, 1);
+                    lastTail_620760113 = nimCopy(null, result1_620760107.tail, NTI33554439);
+                    var Temporary9 = result1_620760107;
+                    if (ConstSet44[Temporary9.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary9.kind, NTI1191182357)); }
+                    var Temporary10 = nimCopy(null, Temporary9.value, NTI654311428);
+                    outputs_620760112.push(Temporary10);;
+                    res_620768224 = addInt(res_620768224, 1);
                   }
               } while (false);
             } while (false);
-            result_620760650 = nimCopy(result_620760650, succeed_620760651(input_620760648, outputs_620760676, result1_620760671.tail), NTI620759300);
+            result_620760086 = nimCopy(result_620760086, succeed_620760087(input_620760084, outputs_620760112, result1_620760107.tail), NTI620758903);
           } while (false);
 
-          return result_620760650;
+          return result_620760086;
 
         }
 
-  var result_620760406 = null;
+  var result_620759830 = null;
 
   BeforeRet: do {
-    switch (n_620760402) {
+    switch (n_620759826) {
     case 0:
-      result_620760406 = nop_620760407();
+      result_620759830 = nop_620759831();
       break BeforeRet;
       break;
     case 1:
-      result_620760406 = map_620760553(a_620760401, HEX3Aanonymous_620760515);
+      result_620759830 = map_620759977(a_620759825, HEX3Aanonymous_620759939);
       break BeforeRet;
       break;
     default: 
       Label2: do {
       } while (false);
-      Temporary1 = {body: HEX3Aanonymous_620760647};
+      Temporary1 = {body: HEX3Aanonymous_620760083};
       break;
     }
-    result_620760406 = Temporary1;
+    result_620759830 = Temporary1;
   } while (false);
 
-  return result_620760406;
+  return result_620759830;
 
 }
 
-function nop_620760900() {
+function nop_620760336() {
 
-function succeedImpl_620760913(inputInHEX60gensym68_620760914, valueInHEX60gensym68_620760915, tailInHEX60gensym68_620760916) {
-  var result_620760918 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function succeedImpl_620760349(inputInHEX60gensym57_620760350, valueInHEX60gensym57_620760351, tailInHEX60gensym57_620760352) {
+  var result_620760354 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620760918 = nimCopy(result_620760918, {kind: 0, value: nimCopy(null, valueInHEX60gensym68_620760915, NTI620759769), tail: nimCopy(null, tailInHEX60gensym68_620760916, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym68_620760914, NTI33554439), expected: []}, NTI620759762);
+    result_620760354 = nimCopy(result_620760354, {kind: 0, value: nimCopy(null, valueInHEX60gensym57_620760351, NTI620759380), tail: nimCopy(null, tailInHEX60gensym57_620760352, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym57_620760350, NTI33554439), expected: []}, NTI620759373);
 
-  return result_620760918;
+  return result_620760354;
 
 }
 
-function failImpl_620760941(inputInHEX60gensym68_620760942, expectedInHEX60gensym68_620760943, tailInHEX60gensym68_620760944) {
-  var result_620760946 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function failImpl_620760377(inputInHEX60gensym57_620760378, expectedInHEX60gensym57_620760379, tailInHEX60gensym57_620760380) {
+  var result_620760382 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620760946 = nimCopy(result_620760946, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym68_620760943, NTI620759802), tail: nimCopy(null, tailInHEX60gensym68_620760944, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym68_620760942, NTI33554439), value: []}, NTI620759762);
+    result_620760382 = nimCopy(result_620760382, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym57_620760379, NTI620759413), tail: nimCopy(null, tailInHEX60gensym57_620760380, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym57_620760378, NTI33554439), value: []}, NTI620759373);
 
-  return result_620760946;
+  return result_620760382;
 
 }
       
-function HEX3Aanonymous_620760949(input_620760950) {
-        var result_620760952 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function HEX3Aanonymous_620760385(input_620760386) {
+        var result_620760388 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-          var succeed_620760953 = succeedImpl_620760913;
-          var fail_620760954 = failImpl_620760941;
-          result_620760952 = nimCopy(result_620760952, succeed_620760953(input_620760950, [], input_620760950), NTI620759762);
+          var succeed_620760389 = succeedImpl_620760349;
+          var fail_620760390 = failImpl_620760377;
+          result_620760388 = nimCopy(result_620760388, succeed_620760389(input_620760386, [], input_620760386), NTI620759373);
 
-        return result_620760952;
+        return result_620760388;
 
       }
 
-  var result_620760902 = null;
+  var result_620760338 = null;
 
     Label1: do {
     } while (false);
-    result_620760902 = {body: HEX3Aanonymous_620760949};
+    result_620760338 = {body: HEX3Aanonymous_620760385};
 
-  return result_620760902;
+  return result_620760338;
 
 }
 
-function HEX2A_620760887(a_620760889, n_620760890) {
+function HEX2A_620760323(a_620760325, n_620760326) {
     var Temporary1;
       
-function HEX3Aanonymous_620761017(x_620761046) {
-        var result_620761049 = [];
+function HEX3Aanonymous_620760453(x_620760482) {
+        var result_620760485 = [];
 
-          result_620761049 = nimCopy(null, [nimCopy(null, x_620761046, NTI620759294)], NTI620759871);
+          result_620760485 = nimCopy(null, [nimCopy(null, x_620760482, NTI620758897)], NTI620759482);
 
-        return result_620761049;
+        return result_620760485;
 
       }
 
-function succeedImpl_620761122(inputInHEX60gensym71_620761123, valueInHEX60gensym71_620761124, tailInHEX60gensym71_620761125) {
-  var result_620761127 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function succeedImpl_620760558(inputInHEX60gensym60_620760559, valueInHEX60gensym60_620760560, tailInHEX60gensym60_620760561) {
+  var result_620760563 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620761127 = nimCopy(result_620761127, {kind: 0, value: nimCopy(null, valueInHEX60gensym71_620761124, NTI620759954), tail: nimCopy(null, tailInHEX60gensym71_620761125, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym71_620761123, NTI33554439), expected: []}, NTI620759762);
+    result_620760563 = nimCopy(result_620760563, {kind: 0, value: nimCopy(null, valueInHEX60gensym60_620760560, NTI620759565), tail: nimCopy(null, tailInHEX60gensym60_620760561, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym60_620760559, NTI33554439), expected: []}, NTI620759373);
 
-  return result_620761127;
+  return result_620760563;
 
 }
 
-function failImpl_620761129(inputInHEX60gensym71_620761130, expectedInHEX60gensym71_620761131, tailInHEX60gensym71_620761132) {
-  var result_620761134 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function failImpl_620760565(inputInHEX60gensym60_620760566, expectedInHEX60gensym60_620760567, tailInHEX60gensym60_620760568) {
+  var result_620760570 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620761134 = nimCopy(result_620761134, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym71_620761131, NTI620759960), tail: nimCopy(null, tailInHEX60gensym71_620761132, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym71_620761130, NTI33554439), value: []}, NTI620759762);
+    result_620760570 = nimCopy(result_620760570, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym60_620760567, NTI620759571), tail: nimCopy(null, tailInHEX60gensym60_620760568, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym60_620760566, NTI33554439), value: []}, NTI620759373);
 
-  return result_620761134;
+  return result_620760570;
 
 }
         
-function HEX3Aanonymous_620761137(input_620761138) {
+function HEX3Aanonymous_620760573(input_620760574) {
               var Temporary2;
             var Temporary3;
                       var Temporary8;
                     var Temporary9;
 
-          var result_620761140 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+          var result_620760576 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
           BeforeRet: do {
-            var succeed_620761141 = succeedImpl_620761122;
-            var fail_620761142 = failImpl_620761129;
+            var succeed_620760577 = succeedImpl_620760558;
+            var fail_620760578 = failImpl_620760565;
             Label1: do {
-              var tempHEX60gensym38_620761155 = parse_620760829(a_620760889, input_620761138);
-              if ((tempHEX60gensym38_620761155.kind == 1)) {
-              var Temporary2 = tempHEX60gensym38_620761155;
-              if (ConstSet45[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-              result_620761140 = nimCopy(result_620761140, {kind: 1, fromInput: nimCopy(null, input_620761138, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym38_620761155.tail, NTI33554439), value: []}, NTI620759762);
+              var tempHEX60gensym38_620760591 = parse_620760265(a_620760325, input_620760574);
+              if ((tempHEX60gensym38_620760591.kind == 1)) {
+              var Temporary2 = tempHEX60gensym38_620760591;
+              if (ConstSet45[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+              result_620760576 = nimCopy(result_620760576, {kind: 1, fromInput: nimCopy(null, input_620760574, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym38_620760591.tail, NTI33554439), value: []}, NTI620759373);
               break BeforeRet;
               }
               
             } while (false);
-            var result1_620761161 = nimCopy(null, tempHEX60gensym38_620761155, NTI620759300);
-            var Temporary3 = result1_620761161;
-            if (ConstSet46[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-            var outputs_620761166 = [nimCopy(null, Temporary3.value, NTI620759294)];
-            var lastTail_620761167 = nimCopy(null, result1_620761161.tail, NTI33554439);
+            var result1_620760597 = nimCopy(null, tempHEX60gensym38_620760591, NTI620758903);
+            var Temporary3 = result1_620760597;
+            if (ConstSet46[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+            var outputs_620760602 = [nimCopy(null, Temporary3.value, NTI620758897)];
+            var lastTail_620760603 = nimCopy(null, result1_620760597.tail, NTI33554439);
             Label4: do {
-              var i_620761173 = 0;
-              var res_620767446 = 2;
+              var i_620760609 = 0;
+              var res_620768233 = 2;
               Label5: do {
                   Label6: while (true) {
-                  if (!(res_620767446 <= n_620760890)) break Label6;
-                    i_620761173 = res_620767446;
+                  if (!(res_620768233 <= n_620760326)) break Label6;
+                    i_620760609 = res_620768233;
                     Label7: do {
-                      var tempHEX60gensym40_620761186 = parse_620760829(a_620760889, result1_620761161.tail);
-                      if ((tempHEX60gensym40_620761186.kind == 1)) {
-                      var Temporary8 = tempHEX60gensym40_620761186;
-                      if (ConstSet47[Temporary8.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary8.kind, NTI1090519061)); }
-                      result_620761140 = nimCopy(result_620761140, {kind: 1, fromInput: nimCopy(null, input_620761138, NTI33554439), expected: nimCopy(null, Temporary8.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym40_620761186.tail, NTI33554439), value: []}, NTI620759762);
+                      var tempHEX60gensym40_620760622 = parse_620760265(a_620760325, result1_620760597.tail);
+                      if ((tempHEX60gensym40_620760622.kind == 1)) {
+                      var Temporary8 = tempHEX60gensym40_620760622;
+                      if (ConstSet47[Temporary8.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary8.kind, NTI1191182357)); }
+                      result_620760576 = nimCopy(result_620760576, {kind: 1, fromInput: nimCopy(null, input_620760574, NTI33554439), expected: nimCopy(null, Temporary8.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym40_620760622.tail, NTI33554439), value: []}, NTI620759373);
                       break BeforeRet;
                       }
                       
                     } while (false);
-                    result1_620761161 = nimCopy(result1_620761161, tempHEX60gensym40_620761186, NTI620759300);
-                    if (eqStrings(result1_620761161.tail, lastTail_620761167)) {
+                    result1_620760597 = nimCopy(result1_620760597, tempHEX60gensym40_620760622, NTI620758903);
+                    if (eqStrings(result1_620760597.tail, lastTail_620760603)) {
                     break Label4;
                     }
                     
-                    lastTail_620761167 = nimCopy(null, result1_620761161.tail, NTI33554439);
-                    var Temporary9 = result1_620761161;
-                    if (ConstSet48[Temporary9.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary9.kind, NTI1090519061)); }
-                    var Temporary10 = nimCopy(null, Temporary9.value, NTI620759294);
-                    outputs_620761166.push(Temporary10);;
-                    res_620767446 = addInt(res_620767446, 1);
+                    lastTail_620760603 = nimCopy(null, result1_620760597.tail, NTI33554439);
+                    var Temporary9 = result1_620760597;
+                    if (ConstSet48[Temporary9.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary9.kind, NTI1191182357)); }
+                    var Temporary10 = nimCopy(null, Temporary9.value, NTI620758897);
+                    outputs_620760602.push(Temporary10);;
+                    res_620768233 = addInt(res_620768233, 1);
                   }
               } while (false);
             } while (false);
-            result_620761140 = nimCopy(result_620761140, succeed_620761141(input_620761138, outputs_620761166, result1_620761161.tail), NTI620759762);
+            result_620760576 = nimCopy(result_620760576, succeed_620760577(input_620760574, outputs_620760602, result1_620760597.tail), NTI620759373);
           } while (false);
 
-          return result_620761140;
+          return result_620760576;
 
         }
 
-  var result_620760899 = null;
+  var result_620760335 = null;
 
   BeforeRet: do {
-    switch (n_620760890) {
+    switch (n_620760326) {
     case 0:
-      result_620760899 = nop_620760900();
+      result_620760335 = nop_620760336();
       break BeforeRet;
       break;
     case 1:
-      result_620760899 = map_620761055(a_620760889, HEX3Aanonymous_620761017);
+      result_620760335 = map_620760491(a_620760325, HEX3Aanonymous_620760453);
       break BeforeRet;
       break;
     default: 
       Label2: do {
       } while (false);
-      Temporary1 = {body: HEX3Aanonymous_620761137};
+      Temporary1 = {body: HEX3Aanonymous_620760573};
       break;
     }
-    result_620760899 = Temporary1;
+    result_620760335 = Temporary1;
   } while (false);
 
-  return result_620760899;
+  return result_620760335;
 
 }
 
-function HEX7C_620760785(a_620760787, b_620760788) {
+function HEX7C_620760221(a_620760223, b_620760224) {
 
-function succeedImpl_620760800(inputInHEX60gensym67_620760801, valueInHEX60gensym67_620760802, tailInHEX60gensym67_620760803) {
-  var result_620760805 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function succeedImpl_620760236(inputInHEX60gensym56_620760237, valueInHEX60gensym56_620760238, tailInHEX60gensym56_620760239) {
+  var result_620760241 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620760805 = nimCopy(result_620760805, {kind: 0, value: nimCopy(null, valueInHEX60gensym67_620760802, NTI620759294), tail: nimCopy(null, tailInHEX60gensym67_620760803, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym67_620760801, NTI33554439), expected: []}, NTI620759300);
+    result_620760241 = nimCopy(result_620760241, {kind: 0, value: nimCopy(null, valueInHEX60gensym56_620760238, NTI620758897), tail: nimCopy(null, tailInHEX60gensym56_620760239, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym56_620760237, NTI33554439), expected: []}, NTI620758903);
 
-  return result_620760805;
+  return result_620760241;
 
 }
 
-function failImpl_620760807(inputInHEX60gensym67_620760808, expectedInHEX60gensym67_620760809, tailInHEX60gensym67_620760810) {
-  var result_620760812 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function failImpl_620760243(inputInHEX60gensym56_620760244, expectedInHEX60gensym56_620760245, tailInHEX60gensym56_620760246) {
+  var result_620760248 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620760812 = nimCopy(result_620760812, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym67_620760809, NTI620759706), tail: nimCopy(null, tailInHEX60gensym67_620760810, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym67_620760808, NTI33554439), value: []}, NTI620759300);
+    result_620760248 = nimCopy(result_620760248, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym56_620760245, NTI620759317), tail: nimCopy(null, tailInHEX60gensym56_620760246, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym56_620760244, NTI33554439), value: []}, NTI620758903);
 
-  return result_620760812;
+  return result_620760248;
 
 }
       
-function HEX3Aanonymous_620760815(input_620760816) {
+function HEX3Aanonymous_620760251(input_620760252) {
           var Temporary1;
           var Temporary2;
 
-        var result_620760818 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+        var result_620760254 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620760819 = succeedImpl_620760800;
-          var fail_620760820 = failImpl_620760807;
-          var result1_620760845 = parse_620760829(a_620760787, input_620760816);
-          if ((result1_620760845.kind == 0)) {
-          result_620760818 = nimCopy(result_620760818, result1_620760845, NTI620759300);
+          var succeed_620760255 = succeedImpl_620760236;
+          var fail_620760256 = failImpl_620760243;
+          var result1_620760281 = parse_620760265(a_620760223, input_620760252);
+          if ((result1_620760281.kind == 0)) {
+          result_620760254 = nimCopy(result_620760254, result1_620760281, NTI620758903);
           break BeforeRet;
           }
           
-          var result2_620760862 = parse_620760829(b_620760788, input_620760816);
-          if ((result2_620760862.kind == 0)) {
-          result_620760818 = nimCopy(result_620760818, result2_620760862, NTI620759300);
+          var result2_620760298 = parse_620760265(b_620760224, input_620760252);
+          if ((result2_620760298.kind == 0)) {
+          result_620760254 = nimCopy(result_620760254, result2_620760298, NTI620758903);
           break BeforeRet;
           }
           
-          var Temporary1 = result1_620760845;
-          if (ConstSet49[Temporary1.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary1.kind, NTI1090519061)); }
-          var Temporary2 = result2_620760862;
-          if (ConstSet50[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-          result_620760818 = nimCopy(result_620760818, fail_620760820(input_620760816, HEX26_687865962(Temporary1.expected, Temporary2.expected), input_620760816), NTI620759300);
+          var Temporary1 = result1_620760281;
+          if (ConstSet49[Temporary1.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary1.kind, NTI1191182357)); }
+          var Temporary2 = result2_620760298;
+          if (ConstSet50[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+          result_620760254 = nimCopy(result_620760254, fail_620760256(input_620760252, HEX26_654311539(Temporary1.expected, Temporary2.expected), input_620760252), NTI620758903);
         } while (false);
 
-        return result_620760818;
+        return result_620760254;
 
       }
 
-  var result_620760789 = null;
+  var result_620760225 = null;
 
     Label1: do {
     } while (false);
-    result_620760789 = {body: HEX3Aanonymous_620760815};
+    result_620760225 = {body: HEX3Aanonymous_620760251};
 
-  return result_620760789;
-
-}
-
-function newSeq_687866191(len_687866193) {
-  var result_687866194 = [];
-
-    result_687866194 = new Array(len_687866193); for (var i = 0 ; i < len_687866193 ; ++i) { result_687866194[i] = ({rows: [], baseline: 0, width: 0, flag: 0}); }
-  return result_687866194;
+  return result_620760225;
 
 }
 
-function HEX26_620761473(x_620761475, y_620761476) {
-  var result_620761477 = [];
+function newSeq_654311768(len_654311770) {
+  var result_654311771 = [];
 
-    result_620761477 = new Array(chckRange(addInt((x_620761475).length, (y_620761476).length), 0, 2147483647)); for (var i = 0 ; i < chckRange(addInt((x_620761475).length, (y_620761476).length), 0, 2147483647) ; ++i) { result_620761477[i] = ({rows: [], baseline: 0, width: 0, flag: 0}); }    Label1: do {
-      var i_620761495 = 0;
-      var colontmp__620767456 = 0;
-      colontmp__620767456 = subInt((x_620761475).length, 1);
-      var res_620767457 = 0;
+    result_654311771 = new Array(len_654311770); for (var i = 0 ; i < len_654311770 ; ++i) { result_654311771[i] = ({rows: [], baseline: 0, width: 0, flag: 0}); }
+  return result_654311771;
+
+}
+
+function HEX26_620760909(x_620760911, y_620760912) {
+  var result_620760913 = [];
+
+    result_620760913 = new Array(chckRange(addInt((x_620760911).length, (y_620760912).length), 0, 2147483647)); for (var i = 0 ; i < chckRange(addInt((x_620760911).length, (y_620760912).length), 0, 2147483647) ; ++i) { result_620760913[i] = ({rows: [], baseline: 0, width: 0, flag: 0}); }    Label1: do {
+      var i_620760931 = 0;
+      var colontmp__620768243 = 0;
+      colontmp__620768243 = subInt((x_620760911).length, 1);
+      var res_620768244 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(res_620767457 <= colontmp__620767456)) break Label3;
-            i_620761495 = res_620767457;
-            result_620761477[chckIndx(i_620761495, 0, (result_620761477).length - 1)] = nimCopy(result_620761477[chckIndx(i_620761495, 0, (result_620761477).length - 1)], x_620761475[chckIndx(i_620761495, 0, (x_620761475).length - 1)], NTI687865860);
-            res_620767457 = addInt(res_620767457, 1);
+          if (!(res_620768244 <= colontmp__620768243)) break Label3;
+            i_620760931 = res_620768244;
+            result_620760913[chckIndx(i_620760931, 0, (result_620760913).length - 1)] = nimCopy(result_620760913[chckIndx(i_620760931, 0, (result_620760913).length - 1)], x_620760911[chckIndx(i_620760931, 0, (x_620760911).length - 1)], NTI654311428);
+            res_620768244 = addInt(res_620768244, 1);
           }
       } while (false);
     } while (false);
     Label4: do {
-      var i_620761503 = 0;
-      var colontmp__620767460 = 0;
-      colontmp__620767460 = subInt((y_620761476).length, 1);
-      var res_620767461 = 0;
+      var i_620760939 = 0;
+      var colontmp__620768247 = 0;
+      colontmp__620768247 = subInt((y_620760912).length, 1);
+      var res_620768248 = 0;
       Label5: do {
           Label6: while (true) {
-          if (!(res_620767461 <= colontmp__620767460)) break Label6;
-            i_620761503 = res_620767461;
-            result_620761477[chckIndx(addInt(i_620761503, (x_620761475).length), 0, (result_620761477).length - 1)] = nimCopy(result_620761477[chckIndx(addInt(i_620761503, (x_620761475).length), 0, (result_620761477).length - 1)], y_620761476[chckIndx(i_620761503, 0, (y_620761476).length - 1)], NTI687865860);
-            res_620767461 = addInt(res_620767461, 1);
+          if (!(res_620768248 <= colontmp__620768247)) break Label6;
+            i_620760939 = res_620768248;
+            result_620760913[chckIndx(addInt(i_620760939, (x_620760911).length), 0, (result_620760913).length - 1)] = nimCopy(result_620760913[chckIndx(addInt(i_620760939, (x_620760911).length), 0, (result_620760913).length - 1)], y_620760912[chckIndx(i_620760939, 0, (y_620760912).length - 1)], NTI654311428);
+            res_620768248 = addInt(res_620768248, 1);
           }
       } while (false);
     } while (false);
 
-  return result_620761477;
+  return result_620760913;
 
 }
 
-function height_687865900(rect_687865901) {
-  var result_687865902 = 0;
+function height_654311468(rect_654311469) {
+  var result_654311470 = 0;
 
-    result_687865902 = chckRange((rect_687865901.rows).length, 0, 2147483647);
+    result_654311470 = chckRange((rect_654311469.rows).length, 0, 2147483647);
 
-  return result_687865902;
-
-}
-
-function isEmpty_687865906(rect_687865907) {
-  var result_687865908 = false;
-
-    result_687865908 = (height_687865900(rect_687865907) == 0);
-
-  return result_687865908;
+  return result_654311470;
 
 }
 
-function HEX3DHEX3D_687866271(x_687866273, y_687866274) {
-  var result_687866275 = false;
+function isEmpty_654311474(rect_654311475) {
+  var result_654311476 = false;
+
+    result_654311476 = (height_654311468(rect_654311475) == 0);
+
+  return result_654311476;
+
+}
+
+function HEX3DHEX3D_654311848(x_654311850, y_654311851) {
+  var result_654311852 = false;
 
   BeforeRet: do {
-    var sameObject_687866282 = false;
-    sameObject_687866282 = x_687866273 === y_687866274
-    if (sameObject_687866282) {
-    result_687866275 = true;
+    var sameObject_654311859 = false;
+    sameObject_654311859 = x_654311850 === y_654311851
+    if (sameObject_654311859) {
+    result_654311852 = true;
     break BeforeRet;
     }
     
-    if (!(((x_687866273).length == (y_687866274).length))) {
-    result_687866275 = false;
+    if (!(((x_654311850).length == (y_654311851).length))) {
+    result_654311852 = false;
     break BeforeRet;
     }
     
     Label1: do {
-      var i_687866296 = 0;
-      var colontmp__620767516 = 0;
-      colontmp__620767516 = subInt((x_687866273).length, 1);
-      var res_620767517 = 0;
+      var i_654311873 = 0;
+      var colontmp__620768303 = 0;
+      colontmp__620768303 = subInt((x_654311850).length, 1);
+      var res_620768304 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(res_620767517 <= colontmp__620767516)) break Label3;
-            i_687866296 = res_620767517;
-            if (!(eqStrings(x_687866273[chckIndx(i_687866296, 0, (x_687866273).length - 1)], y_687866274[chckIndx(i_687866296, 0, (y_687866274).length - 1)]))) {
-            result_687866275 = false;
+          if (!(res_620768304 <= colontmp__620768303)) break Label3;
+            i_654311873 = res_620768304;
+            if (!(eqStrings(x_654311850[chckIndx(i_654311873, 0, (x_654311850).length - 1)], y_654311851[chckIndx(i_654311873, 0, (y_654311851).length - 1)]))) {
+            result_654311852 = false;
             break BeforeRet;
             }
             
-            res_620767517 = addInt(res_620767517, 1);
+            res_620768304 = addInt(res_620768304, 1);
           }
       } while (false);
     } while (false);
-    result_687866275 = true;
+    result_654311852 = true;
     break BeforeRet;
   } while (false);
 
-  return result_687866275;
+  return result_654311852;
 
 }
 
-function HEX3DHEX3D_687866261(x_687866263, y_687866264) {
-  var result_687866265 = false;
+function HEX3DHEX3D_654311838(x_654311840, y_654311841) {
+  var result_654311842 = false;
 
   BeforeRet: do {
-    if (!(HEX3DHEX3D_687866271(x_687866263.rows, y_687866264.rows))) {
-    result_687866265 = false;
+    if (!(HEX3DHEX3D_654311848(x_654311840.rows, y_654311841.rows))) {
+    result_654311842 = false;
     break BeforeRet;
     }
     
-    if (!((x_687866263.baseline == y_687866264.baseline))) {
-    result_687866265 = false;
+    if (!((x_654311840.baseline == y_654311841.baseline))) {
+    result_654311842 = false;
     break BeforeRet;
     }
     
-    if (!((x_687866263.width == y_687866264.width))) {
-    result_687866265 = false;
+    if (!((x_654311840.width == y_654311841.width))) {
+    result_654311842 = false;
     break BeforeRet;
     }
     
-    if (!((x_687866263.flag == y_687866264.flag))) {
-    result_687866265 = false;
+    if (!((x_654311840.flag == y_654311841.flag))) {
+    result_654311842 = false;
     break BeforeRet;
     }
     
-    result_687866265 = true;
+    result_654311842 = true;
     break BeforeRet;
   } while (false);
 
-  return result_687866265;
+  return result_654311842;
 
 }
 
-function HEX3DHEX3D_687866235(x_687866237, y_687866238) {
-  var result_687866239 = false;
+function HEX3DHEX3D_654311812(x_654311814, y_654311815) {
+  var result_654311816 = false;
 
   BeforeRet: do {
-    var sameObject_687866246 = false;
-    sameObject_687866246 = x_687866237 === y_687866238
-    if (sameObject_687866246) {
-    result_687866239 = true;
+    var sameObject_654311823 = false;
+    sameObject_654311823 = x_654311814 === y_654311815
+    if (sameObject_654311823) {
+    result_654311816 = true;
     break BeforeRet;
     }
     
-    if (!(((x_687866237).length == (y_687866238).length))) {
-    result_687866239 = false;
+    if (!(((x_654311814).length == (y_654311815).length))) {
+    result_654311816 = false;
     break BeforeRet;
     }
     
     Label1: do {
-      var i_687866260 = 0;
-      var colontmp__620767512 = 0;
-      colontmp__620767512 = subInt((x_687866237).length, 1);
-      var res_620767513 = 0;
+      var i_654311837 = 0;
+      var colontmp__620768299 = 0;
+      colontmp__620768299 = subInt((x_654311814).length, 1);
+      var res_620768300 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(res_620767513 <= colontmp__620767512)) break Label3;
-            i_687866260 = res_620767513;
-            if (!(HEX3DHEX3D_687866261(x_687866237[chckIndx(i_687866260, 0, (x_687866237).length - 1)], y_687866238[chckIndx(i_687866260, 0, (y_687866238).length - 1)]))) {
-            result_687866239 = false;
+          if (!(res_620768300 <= colontmp__620768299)) break Label3;
+            i_654311837 = res_620768300;
+            if (!(HEX3DHEX3D_654311838(x_654311814[chckIndx(i_654311837, 0, (x_654311814).length - 1)], y_654311815[chckIndx(i_654311837, 0, (y_654311815).length - 1)]))) {
+            result_654311816 = false;
             break BeforeRet;
             }
             
-            res_620767513 = addInt(res_620767513, 1);
+            res_620768300 = addInt(res_620768300, 1);
           }
       } while (false);
     } while (false);
-    result_687866239 = true;
+    result_654311816 = true;
     break BeforeRet;
   } while (false);
 
-  return result_687866239;
+  return result_654311816;
 
 }
 
-function extendRight_687866053(rect_687866054) {
+function extendRight_654311630(rect_654311631) {
     Label1: do {
-      var row_687866058 = null;
-      var row_687866058_Idx = 0;
-      var i_620767521 = 0;
-      var L_620767522 = (rect_687866054.rows).length;
+      var row_654311635 = null;
+      var row_654311635_Idx = 0;
+      var i_620768308 = 0;
+      var L_620768309 = (rect_654311631.rows).length;
       Label2: do {
           Label3: while (true) {
-          if (!(i_620767521 < L_620767522)) break Label3;
-            row_687866058 = rect_687866054.rows; row_687866058_Idx = chckIndx(i_620767521, 0, (rect_687866054.rows).length - 1);
-            row_687866058[row_687866058_Idx].push.apply(row_687866058[row_687866058_Idx], makeNimstrLit(" "));;
-            i_620767521 = addInt(i_620767521, 1);
-            if (!(((rect_687866054.rows).length == L_620767522))) {
+          if (!(i_620768308 < L_620768309)) break Label3;
+            row_654311635 = rect_654311631.rows; row_654311635_Idx = chckIndx(i_620768308, 0, (rect_654311631.rows).length - 1);
+            row_654311635[row_654311635_Idx].push.apply(row_654311635[row_654311635_Idx], makeNimstrLit(" "));;
+            i_620768308 = addInt(i_620768308, 1);
+            if (!(((rect_654311631.rows).length == L_620768309))) {
             failedAssertImpl_218103864(makeNimstrLit("iterators.nim(249, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
             
           }
       } while (false);
     } while (false);
-    rect_687866054.width = addInt(rect_687866054.width, 1);
+    rect_654311631.width = addInt(rect_654311631.width, 1);
 
   
 }
 
-function extendLeft_687866008(rect_687866009) {
+function extendLeft_654311585(rect_654311586) {
     Label1: do {
-      var row_687866030 = null;
-      var row_687866030_Idx = 0;
-      var i_620767525 = 0;
-      var L_620767526 = (rect_687866009.rows).length;
+      var row_654311607 = null;
+      var row_654311607_Idx = 0;
+      var i_620768312 = 0;
+      var L_620768313 = (rect_654311586.rows).length;
       Label2: do {
           Label3: while (true) {
-          if (!(i_620767525 < L_620767526)) break Label3;
-            row_687866030 = rect_687866009.rows; row_687866030_Idx = chckIndx(i_620767525, 0, (rect_687866009.rows).length - 1);
-            row_687866030[row_687866030_Idx] = nimCopy(null, (makeNimstrLit(" ") || []).concat(row_687866030[row_687866030_Idx] || []), NTI33554439);
-            i_620767525 = addInt(i_620767525, 1);
-            if (!(((rect_687866009.rows).length == L_620767526))) {
+          if (!(i_620768312 < L_620768313)) break Label3;
+            row_654311607 = rect_654311586.rows; row_654311607_Idx = chckIndx(i_620768312, 0, (rect_654311586.rows).length - 1);
+            row_654311607[row_654311607_Idx] = nimCopy(null, (makeNimstrLit(" ") || []).concat(row_654311607[row_654311607_Idx] || []), NTI33554439);
+            i_620768312 = addInt(i_620768312, 1);
+            if (!(((rect_654311586.rows).length == L_620768313))) {
             failedAssertImpl_218103864(makeNimstrLit("iterators.nim(249, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
             
           }
       } while (false);
     } while (false);
-    rect_687866009.width = addInt(rect_687866009.width, 1);
+    rect_654311586.width = addInt(rect_654311586.width, 1);
 
   
 }
 
-function max_687866443(x_687866445) {
-  var result_687866446 = 0;
+function max_654312020(x_654312022) {
+  var result_654312023 = 0;
 
-    result_687866446 = x_687866445[chckIndx(0, 0, (x_687866445).length - 1)];
+    result_654312023 = x_654312022[chckIndx(0, 0, (x_654312022).length - 1)];
     Label1: do {
-      var i_687866454 = 0;
-      var colontmp__620767529 = 0;
-      colontmp__620767529 = (x_687866445).length - 1;
-      var res_620767530 = 1;
+      var i_654312031 = 0;
+      var colontmp__620768316 = 0;
+      colontmp__620768316 = (x_654312022).length - 1;
+      var res_620768317 = 1;
       Label2: do {
           Label3: while (true) {
-          if (!(res_620767530 <= colontmp__620767529)) break Label3;
-            i_687866454 = res_620767530;
-            if ((result_687866446 < x_687866445[chckIndx(i_687866454, 0, (x_687866445).length - 1)])) {
-            result_687866446 = x_687866445[chckIndx(i_687866454, 0, (x_687866445).length - 1)];
+          if (!(res_620768317 <= colontmp__620768316)) break Label3;
+            i_654312031 = res_620768317;
+            if ((result_654312023 < x_654312022[chckIndx(i_654312031, 0, (x_654312022).length - 1)])) {
+            result_654312023 = x_654312022[chckIndx(i_654312031, 0, (x_654312022).length - 1)];
             }
             
-            res_620767530 = addInt(res_620767530, 1);
+            res_620768317 = addInt(res_620768317, 1);
           }
       } while (false);
     } while (false);
 
-  return result_687866446;
+  return result_654312023;
 
 }
 
-function newSeq_687866417(len_687866419) {
-  var result_687866420 = [];
+function newSeq_654311994(len_654311996) {
+  var result_654311997 = [];
 
-    result_687866420 = new Array(len_687866419); for (var i = 0 ; i < len_687866419 ; ++i) { result_687866420[i] = 0; }
-  return result_687866420;
+    result_654311997 = new Array(len_654311996); for (var i = 0 ; i < len_654311996 ; ++i) { result_654311997[i] = 0; }
+  return result_654311997;
 
 }
 
-function repeat_687865949(x_687865951, n_687865952) {
-  var result_687865953 = [];
+function repeat_654311526(x_654311528, n_654311529) {
+  var result_654311530 = [];
 
-    result_687865953 = nimCopy(null, newSeq_452985301(n_687865952), NTI452985127);
+    result_654311530 = nimCopy(null, newSeq_452985301(n_654311529), NTI452985127);
     Label1: do {
-      var i_687865961 = 0;
-      var colontmp__620767533 = 0;
-      colontmp__620767533 = n_687865952;
-      var i_620767534 = 0;
+      var i_654311538 = 0;
+      var colontmp__620768320 = 0;
+      colontmp__620768320 = n_654311529;
+      var i_620768321 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(i_620767534 < colontmp__620767533)) break Label3;
-            i_687865961 = i_620767534;
-            result_687865953[chckIndx(i_687865961, 0, (result_687865953).length - 1)] = nimCopy(null, x_687865951, NTI33554439);
-            i_620767534 = addInt(i_620767534, 1);
+          if (!(i_620768321 < colontmp__620768320)) break Label3;
+            i_654311538 = i_620768321;
+            result_654311530[chckIndx(i_654311538, 0, (result_654311530).length - 1)] = nimCopy(null, x_654311528, NTI33554439);
+            i_620768321 = addInt(i_620768321, 1);
           }
       } while (false);
     } while (false);
 
-  return result_687865953;
+  return result_654311530;
 
 }
 
-function nsuRepeatChar(c_704644091, count_704644092) {
-  var result_704644093 = [];
+function nsuRepeatChar(c_671089659, count_671089660) {
+  var result_671089661 = [];
 
-    result_704644093 = nimCopy(null, mnewString(count_704644092), NTI33554439);
+    result_671089661 = nimCopy(null, mnewString(count_671089660), NTI33554439);
     Label1: do {
-      var i_704644098 = 0;
-      var colontmp__620767537 = 0;
-      colontmp__620767537 = subInt(count_704644092, 1);
-      var res_620767538 = 0;
+      var i_671089666 = 0;
+      var colontmp__620768324 = 0;
+      colontmp__620768324 = subInt(count_671089660, 1);
+      var res_620768325 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(res_620767538 <= colontmp__620767537)) break Label3;
-            i_704644098 = res_620767538;
-            result_704644093[chckIndx(i_704644098, 0, (result_704644093).length - 1)] = c_704644091;
-            res_620767538 = addInt(res_620767538, 1);
+          if (!(res_620768325 <= colontmp__620768324)) break Label3;
+            i_671089666 = res_620768325;
+            result_671089661[chckIndx(i_671089666, 0, (result_671089661).length - 1)] = c_671089659;
+            res_620768325 = addInt(res_620768325, 1);
           }
       } while (false);
     } while (false);
 
-  return result_704644093;
+  return result_671089661;
 
 }
 
-function extendUp_687865945(rect_687865946, num_687865947) {
-  var result_687865948 = ({rows: [], baseline: 0, width: 0, flag: 0});
+function extendUp_654311522(rect_654311523, num_654311524) {
+  var result_654311525 = ({rows: [], baseline: 0, width: 0, flag: 0});
 
-    result_687865948.rows = nimCopy(null, HEX26_687865962(repeat_687865949(nsuRepeatChar(32, rect_687865946.width), num_687865947), rect_687865946.rows), NTI687865915);
-    result_687865948.baseline = addInt(rect_687865946.baseline, num_687865947);
-    result_687865948.width = rect_687865946.width;
+    result_654311525.rows = nimCopy(null, HEX26_654311539(repeat_654311526(nsuRepeatChar(32, rect_654311523.width), num_654311524), rect_654311523.rows), NTI654311493);
+    result_654311525.baseline = addInt(rect_654311523.baseline, num_654311524);
+    result_654311525.width = rect_654311523.width;
 
-  return result_687865948;
+  return result_654311525;
 
 }
 
-function max_687866520(x_687866522) {
-  var result_687866523 = 0;
+function max_654312097(x_654312099) {
+  var result_654312100 = 0;
 
-    result_687866523 = x_687866522[chckIndx(0, 0, (x_687866522).length - 1)];
+    result_654312100 = x_654312099[chckIndx(0, 0, (x_654312099).length - 1)];
     Label1: do {
-      var i_687866531 = 0;
-      var colontmp__620767541 = 0;
-      colontmp__620767541 = (x_687866522).length - 1;
-      var res_620767542 = 1;
+      var i_654312108 = 0;
+      var colontmp__620768328 = 0;
+      colontmp__620768328 = (x_654312099).length - 1;
+      var res_620768329 = 1;
       Label2: do {
           Label3: while (true) {
-          if (!(res_620767542 <= colontmp__620767541)) break Label3;
-            i_687866531 = res_620767542;
-            if ((result_687866523 < x_687866522[chckIndx(i_687866531, 0, (x_687866522).length - 1)])) {
-            result_687866523 = x_687866522[chckIndx(i_687866531, 0, (x_687866522).length - 1)];
+          if (!(res_620768329 <= colontmp__620768328)) break Label3;
+            i_654312108 = res_620768329;
+            if ((result_654312100 < x_654312099[chckIndx(i_654312108, 0, (x_654312099).length - 1)])) {
+            result_654312100 = x_654312099[chckIndx(i_654312108, 0, (x_654312099).length - 1)];
             }
             
-            res_620767542 = addInt(res_620767542, 1);
+            res_620768329 = addInt(res_620768329, 1);
           }
       } while (false);
     } while (false);
 
-  return result_687866523;
+  return result_654312100;
 
 }
 
-function newSeq_687866494(len_687866496) {
-  var result_687866497 = [];
+function newSeq_654312071(len_654312073) {
+  var result_654312074 = [];
 
-    result_687866497 = new Array(len_687866496); for (var i = 0 ; i < len_687866496 ; ++i) { result_687866497[i] = 0; }
-  return result_687866497;
-
-}
-
-function extendDown_687865996(rect_687865997, num_687865998) {
-  var result_687865999 = ({rows: [], baseline: 0, width: 0, flag: 0});
-
-    result_687865999.rows = nimCopy(null, HEX26_687865962(rect_687865997.rows, repeat_687865949(nsuRepeatChar(32, rect_687865997.width), num_687865998)), NTI687865915);
-    result_687865999.baseline = rect_687865997.baseline;
-    result_687865999.width = rect_687865997.width;
-
-  return result_687865999;
+    result_654312074 = new Array(len_654312073); for (var i = 0 ; i < len_654312073 ; ++i) { result_654312074[i] = 0; }
+  return result_654312074;
 
 }
 
-function nsuJoinSep(a_704644497, sep_704644498) {
-  var result_704644499 = [];
+function extendDown_654311573(rect_654311574, num_654311575) {
+  var result_654311576 = ({rows: [], baseline: 0, width: 0, flag: 0});
 
-    if ((0 < (a_704644497).length)) {
-    var L_704644506 = mulInt((sep_704644498).length, subInt((a_704644497).length, 1));
+    result_654311576.rows = nimCopy(null, HEX26_654311539(rect_654311574.rows, repeat_654311526(nsuRepeatChar(32, rect_654311574.width), num_654311575)), NTI654311493);
+    result_654311576.baseline = rect_654311574.baseline;
+    result_654311576.width = rect_654311574.width;
+
+  return result_654311576;
+
+}
+
+function nsuJoinSep(a_671090065, sep_671090066) {
+  var result_671090067 = [];
+
+    if ((0 < (a_671090065).length)) {
+    var L_671090074 = mulInt((sep_671090066).length, subInt((a_671090065).length, 1));
     Label1: do {
-      var i_704644514 = 0;
-      var colontmp__620767545 = 0;
-      colontmp__620767545 = (a_704644497).length - 1;
-      var res_620767546 = 0;
+      var i_671090082 = 0;
+      var colontmp__620768332 = 0;
+      colontmp__620768332 = (a_671090065).length - 1;
+      var res_620768333 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(res_620767546 <= colontmp__620767545)) break Label3;
-            i_704644514 = res_620767546;
-            L_704644506 = addInt(L_704644506, (a_704644497[chckIndx(i_704644514, 0, (a_704644497).length - 1)]).length);
-            res_620767546 = addInt(res_620767546, 1);
+          if (!(res_620768333 <= colontmp__620768332)) break Label3;
+            i_671090082 = res_620768333;
+            L_671090074 = addInt(L_671090074, (a_671090065[chckIndx(i_671090082, 0, (a_671090065).length - 1)]).length);
+            res_620768333 = addInt(res_620768333, 1);
           }
       } while (false);
     } while (false);
-    result_704644499 = nimCopy(null, mnewString(0), NTI33554439);
-    result_704644499.push.apply(result_704644499, a_704644497[chckIndx(0, 0, (a_704644497).length - 1)]);;
+    result_671090067 = nimCopy(null, mnewString(0), NTI33554439);
+    result_671090067.push.apply(result_671090067, a_671090065[chckIndx(0, 0, (a_671090065).length - 1)]);;
     Label4: do {
-      var i_704644526 = 0;
-      var colontmp__620767549 = 0;
-      colontmp__620767549 = (a_704644497).length - 1;
-      var res_620767550 = 1;
+      var i_671090094 = 0;
+      var colontmp__620768336 = 0;
+      colontmp__620768336 = (a_671090065).length - 1;
+      var res_620768337 = 1;
       Label5: do {
           Label6: while (true) {
-          if (!(res_620767550 <= colontmp__620767549)) break Label6;
-            i_704644526 = res_620767550;
-            result_704644499.push.apply(result_704644499, sep_704644498);;
-            result_704644499.push.apply(result_704644499, a_704644497[chckIndx(i_704644526, 0, (a_704644497).length - 1)]);;
-            res_620767550 = addInt(res_620767550, 1);
+          if (!(res_620768337 <= colontmp__620768336)) break Label6;
+            i_671090094 = res_620768337;
+            result_671090067.push.apply(result_671090067, sep_671090066);;
+            result_671090067.push.apply(result_671090067, a_671090065[chckIndx(i_671090094, 0, (a_671090065).length - 1)]);;
+            res_620768337 = addInt(res_620768337, 1);
           }
       } while (false);
     } while (false);
     }
     else {
-      result_704644499 = nimCopy(null, [], NTI33554439);
+      result_671090067 = nimCopy(null, [], NTI33554439);
     }
     
 
-  return result_704644499;
+  return result_671090067;
 
 }
 
-function sum_687866660(x_687866662) {
-  var result_687866663 = 0;
+function sum_654312237(x_654312239) {
+  var result_654312240 = 0;
 
     Label1: do {
-      var i_687866676 = 0;
-      var i_620767554 = 0;
+      var i_654312253 = 0;
+      var i_620768341 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(i_620767554 < (x_687866662).length)) break Label3;
-            i_687866676 = x_687866662[i_620767554];
-            result_687866663 = (result_687866663 + i_687866676);
-            i_620767554 += 1;
+          if (!(i_620768341 < (x_654312239).length)) break Label3;
+            i_654312253 = x_654312239[i_620768341];
+            result_654312240 = (result_654312240 + i_654312253);
+            i_620768341 += 1;
           }
       } while (false);
     } while (false);
 
-  return result_687866663;
+  return result_654312240;
 
 }
 
-function join_687866063(rects_687866064) {
+function join_654311640(rects_654311641) {
                 var Temporary11;
                 var Temporary12;
                 var Temporary13;
 
-  var result_687866065 = ({rows: [], baseline: 0, width: 0, flag: 0});
+  var result_654311642 = ({rows: [], baseline: 0, width: 0, flag: 0});
 
   BeforeRet: do {
     Label1: do {
-      var iHEX60gensym10_687866186 = 0;
-      var resultHEX60gensym10_687866199 = newSeq_687866191(chckRange((rects_687866064).length, 0, 2147483647));
+      var iHEX60gensym10_654311763 = 0;
+      var resultHEX60gensym10_654311776 = newSeq_654311768(chckRange((rects_654311641).length, 0, 2147483647));
       Label2: do {
-        var itHEX60gensym10_687866203 = ({rows: [], baseline: 0, width: 0, flag: 0});
-        var i_620767466 = 0;
+        var itHEX60gensym10_654311780 = ({rows: [], baseline: 0, width: 0, flag: 0});
+        var i_620768253 = 0;
         Label3: do {
             Label4: while (true) {
-            if (!(i_620767466 < (rects_687866064).length)) break Label4;
-              itHEX60gensym10_687866203 = rects_687866064[chckIndx(i_620767466, 0, (rects_687866064).length - 1)];
-              resultHEX60gensym10_687866199[chckIndx(iHEX60gensym10_687866186, 0, (resultHEX60gensym10_687866199).length - 1)] = nimCopy(resultHEX60gensym10_687866199[chckIndx(iHEX60gensym10_687866186, 0, (resultHEX60gensym10_687866199).length - 1)], itHEX60gensym10_687866203, NTI687865860);
-              iHEX60gensym10_687866186 = addInt(iHEX60gensym10_687866186, 1);
-              i_620767466 = addInt(i_620767466, 1);
+            if (!(i_620768253 < (rects_654311641).length)) break Label4;
+              itHEX60gensym10_654311780 = rects_654311641[chckIndx(i_620768253, 0, (rects_654311641).length - 1)];
+              resultHEX60gensym10_654311776[chckIndx(iHEX60gensym10_654311763, 0, (resultHEX60gensym10_654311776).length - 1)] = nimCopy(resultHEX60gensym10_654311776[chckIndx(iHEX60gensym10_654311763, 0, (resultHEX60gensym10_654311776).length - 1)], itHEX60gensym10_654311780, NTI654311428);
+              iHEX60gensym10_654311763 = addInt(iHEX60gensym10_654311763, 1);
+              i_620768253 = addInt(i_620768253, 1);
             }
         } while (false);
       } while (false);
     } while (false);
-    var rects_687866208 = [nimCopy(null, resultHEX60gensym10_687866199, NTI687866058)];
-    var posHEX60gensym13_687866212 = 0;
+    var rects_654311785 = [nimCopy(null, resultHEX60gensym10_654311776, NTI654311636)];
+    var posHEX60gensym13_654311789 = 0;
     Label5: do {
-      var iHEX60gensym13_687866221 = 0;
-      var colontmp__620767469 = 0;
-      colontmp__620767469 = (rects_687866208[0]).length;
-      var i_620767470 = 0;
+      var iHEX60gensym13_654311798 = 0;
+      var colontmp__620768256 = 0;
+      colontmp__620768256 = (rects_654311785[0]).length;
+      var i_620768257 = 0;
       Label6: do {
           Label7: while (true) {
-          if (!(i_620767470 < colontmp__620767469)) break Label7;
-            iHEX60gensym13_687866221 = i_620767470;
-            var it_687866222 = nimCopy(null, rects_687866208[0][chckIndx(iHEX60gensym13_687866221, 0, (rects_687866208[0]).length - 1)], NTI687865860);
-            if (!(isEmpty_687865906(it_687866222))) {
-            if (!((posHEX60gensym13_687866212 == iHEX60gensym13_687866221))) {
-            rects_687866208[0][chckIndx(posHEX60gensym13_687866212, 0, (rects_687866208[0]).length - 1)] = nimCopy(rects_687866208[0][chckIndx(posHEX60gensym13_687866212, 0, (rects_687866208[0]).length - 1)], rects_687866208[0][chckIndx(iHEX60gensym13_687866221, 0, (rects_687866208[0]).length - 1)], NTI687865860);
+          if (!(i_620768257 < colontmp__620768256)) break Label7;
+            iHEX60gensym13_654311798 = i_620768257;
+            var it_654311799 = nimCopy(null, rects_654311785[0][chckIndx(iHEX60gensym13_654311798, 0, (rects_654311785[0]).length - 1)], NTI654311428);
+            if (!(isEmpty_654311474(it_654311799))) {
+            if (!((posHEX60gensym13_654311789 == iHEX60gensym13_654311798))) {
+            rects_654311785[0][chckIndx(posHEX60gensym13_654311789, 0, (rects_654311785[0]).length - 1)] = nimCopy(rects_654311785[0][chckIndx(posHEX60gensym13_654311789, 0, (rects_654311785[0]).length - 1)], rects_654311785[0][chckIndx(iHEX60gensym13_654311798, 0, (rects_654311785[0]).length - 1)], NTI654311428);
             }
             
-            posHEX60gensym13_687866212 = addInt(posHEX60gensym13_687866212, 1);
+            posHEX60gensym13_654311789 = addInt(posHEX60gensym13_654311789, 1);
             }
             
-            i_620767470 = addInt(i_620767470, 1);
+            i_620768257 = addInt(i_620768257, 1);
           }
       } while (false);
     } while (false);
-    if (rects_687866208[0].length < chckRange(posHEX60gensym13_687866212, 0, 2147483647)) { for (var i = rects_687866208[0].length ; i < chckRange(posHEX60gensym13_687866212, 0, 2147483647) ; ++i) rects_687866208[0].push(({rows: [], baseline: 0, width: 0, flag: 0})); }
-               else { rects_687866208[0].length = chckRange(posHEX60gensym13_687866212, 0, 2147483647); };
-    if (HEX3DHEX3D_687866235(rects_687866208[0], [])) {
+    if (rects_654311785[0].length < chckRange(posHEX60gensym13_654311789, 0, 2147483647)) { for (var i = rects_654311785[0].length ; i < chckRange(posHEX60gensym13_654311789, 0, 2147483647) ; ++i) rects_654311785[0].push(({rows: [], baseline: 0, width: 0, flag: 0})); }
+               else { rects_654311785[0].length = chckRange(posHEX60gensym13_654311789, 0, 2147483647); };
+    if (HEX3DHEX3D_654311812(rects_654311785[0], [])) {
     break BeforeRet;
     }
     
-    if (((rects_687866208[0]).length == 1)) {
-    result_687866065 = nimCopy(result_687866065, rects_687866208[0][chckIndx(0, 0, (rects_687866208[0]).length - 1)], NTI687865860);
+    if (((rects_654311785[0]).length == 1)) {
+    result_654311642 = nimCopy(result_654311642, rects_654311785[0][chckIndx(0, 0, (rects_654311785[0]).length - 1)], NTI654311428);
     break BeforeRet;
     }
     
     Label8: do {
-      var i_687866345 = 0;
-      var rect_687866346 = null;
-      var i_620767474 = 0;
-      var L_620767475 = (rects_687866208[0]).length;
+      var i_654311922 = 0;
+      var rect_654311923 = null;
+      var i_620768261 = 0;
+      var L_620768262 = (rects_654311785[0]).length;
       Label9: do {
           Label10: while (true) {
-          if (!(i_620767474 < L_620767475)) break Label10;
-            i_687866345 = i_620767474;
-            rect_687866346 = rects_687866208[0][chckIndx(i_620767474, 0, (rects_687866208[0]).length - 1)];
-            switch (rect_687866346.flag) {
+          if (!(i_620768261 < L_620768262)) break Label10;
+            i_654311922 = i_620768261;
+            rect_654311923 = rects_654311785[0][chckIndx(i_620768261, 0, (rects_654311785[0]).length - 1)];
+            switch (rect_654311923.flag) {
             case 8:
-              if (!((i_687866345 == (rects_687866208[0]).length - 1))) {
-              extendRight_687866053(rect_687866346);
+              if (!((i_654311922 == (rects_654311785[0]).length - 1))) {
+              extendRight_654311630(rect_654311923);
               }
               
               break;
             case 2:
             case 3:
-              if (!((i_687866345 == (rects_687866208[0]).length - 1))) {
-              extendRight_687866053(rect_687866346);
+              if (!((i_654311922 == (rects_654311785[0]).length - 1))) {
+              extendRight_654311630(rect_654311923);
               }
               
-                if (!!((i_687866345 == 0))) Temporary11 = false; else {                  Temporary11 = !((ConstSet51[rects_687866208[0][chckIndx(subInt(i_687866345, 1), 0, (rects_687866208[0]).length - 1)].flag] != undefined));                }              if (Temporary11) {
-              extendLeft_687866008(rect_687866346);
+                if (!!((i_654311922 == 0))) Temporary11 = false; else {                  Temporary11 = !((ConstSet51[rects_654311785[0][chckIndx(subInt(i_654311922, 1), 0, (rects_654311785[0]).length - 1)].flag] != undefined));                }              if (Temporary11) {
+              extendLeft_654311585(rect_654311923);
               }
               
               break;
             case 4:
-                if (!!((i_687866345 == (rects_687866208[0]).length - 1))) Temporary12 = false; else {                  Temporary12 = (ConstSet52[rects_687866208[0][chckIndx(addInt(i_687866345, 1), 0, (rects_687866208[0]).length - 1)].flag] != undefined);                }              if (Temporary12) {
-              extendRight_687866053(rect_687866346);
+                if (!!((i_654311922 == (rects_654311785[0]).length - 1))) Temporary12 = false; else {                  Temporary12 = (ConstSet52[rects_654311785[0][chckIndx(addInt(i_654311922, 1), 0, (rects_654311785[0]).length - 1)].flag] != undefined);                }              if (Temporary12) {
+              extendRight_654311630(rect_654311923);
               }
               
-                if (!!((i_687866345 == 0))) Temporary13 = false; else {                  Temporary13 = (ConstSet53[rects_687866208[0][chckIndx(subInt(i_687866345, 1), 0, (rects_687866208[0]).length - 1)].flag] != undefined);                }              if (Temporary13) {
-              extendLeft_687866008(rect_687866346);
+                if (!!((i_654311922 == 0))) Temporary13 = false; else {                  Temporary13 = (ConstSet53[rects_654311785[0][chckIndx(subInt(i_654311922, 1), 0, (rects_654311785[0]).length - 1)].flag] != undefined);                }              if (Temporary13) {
+              extendLeft_654311585(rect_654311923);
               }
               
               break;
             default: 
               break;
             }
-            i_620767474 = addInt(i_620767474, 1);
-            if (!(((rects_687866208[0]).length == L_620767475))) {
+            i_620768261 = addInt(i_620768261, 1);
+            if (!(((rects_654311785[0]).length == L_620768262))) {
             failedAssertImpl_218103864(makeNimstrLit("iterators.nim(183, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
             
@@ -4284,20 +4292,20 @@ function join_687866063(rects_687866064) {
       } while (false);
     } while (false);
     Label14: do {
-      var iHEX60gensym25_687866413 = 0;
-      var resultHEX60gensym25_687866434 = newSeq_687866417(chckRange((rects_687866208[0]).length, 0, 2147483647));
+      var iHEX60gensym25_654311990 = 0;
+      var resultHEX60gensym25_654312011 = newSeq_654311994(chckRange((rects_654311785[0]).length, 0, 2147483647));
       Label15: do {
-        var it_687866438 = ({rows: [], baseline: 0, width: 0, flag: 0});
-        var i_620767480 = 0;
-        var L_620767481 = (rects_687866208[0]).length;
+        var it_654312015 = ({rows: [], baseline: 0, width: 0, flag: 0});
+        var i_620768267 = 0;
+        var L_620768268 = (rects_654311785[0]).length;
         Label16: do {
             Label17: while (true) {
-            if (!(i_620767480 < L_620767481)) break Label17;
-              it_687866438 = rects_687866208[0][chckIndx(i_620767480, 0, (rects_687866208[0]).length - 1)];
-              resultHEX60gensym25_687866434[chckIndx(iHEX60gensym25_687866413, 0, (resultHEX60gensym25_687866434).length - 1)] = it_687866438.baseline;
-              iHEX60gensym25_687866413 = addInt(iHEX60gensym25_687866413, 1);
-              i_620767480 = addInt(i_620767480, 1);
-              if (!(((rects_687866208[0]).length == L_620767481))) {
+            if (!(i_620768267 < L_620768268)) break Label17;
+              it_654312015 = rects_654311785[0][chckIndx(i_620768267, 0, (rects_654311785[0]).length - 1)];
+              resultHEX60gensym25_654312011[chckIndx(iHEX60gensym25_654311990, 0, (resultHEX60gensym25_654312011).length - 1)] = it_654312015.baseline;
+              iHEX60gensym25_654311990 = addInt(iHEX60gensym25_654311990, 1);
+              i_620768267 = addInt(i_620768267, 1);
+              if (!(((rects_654311785[0]).length == L_620768268))) {
               failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
               }
               
@@ -4305,37 +4313,37 @@ function join_687866063(rects_687866064) {
         } while (false);
       } while (false);
     } while (false);
-    var maxBaseline_687866455 = max_687866443(resultHEX60gensym25_687866434);
+    var maxBaseline_654312032 = max_654312020(resultHEX60gensym25_654312011);
     Label18: do {
-      var iHEX60gensym30_687866467 = 0;
-      var colontmp__620767484 = 0;
-      colontmp__620767484 = (rects_687866208[0]).length - 1;
-      var res_620767485 = 0;
+      var iHEX60gensym30_654312044 = 0;
+      var colontmp__620768271 = 0;
+      colontmp__620768271 = (rects_654311785[0]).length - 1;
+      var res_620768272 = 0;
       Label19: do {
           Label20: while (true) {
-          if (!(res_620767485 <= colontmp__620767484)) break Label20;
-            iHEX60gensym30_687866467 = res_620767485;
-            var it_687866468 = nimCopy(null, rects_687866208[0][chckIndx(iHEX60gensym30_687866467, 0, (rects_687866208[0]).length - 1)], NTI687865860);
-            rects_687866208[0][chckIndx(iHEX60gensym30_687866467, 0, (rects_687866208[0]).length - 1)] = nimCopy(rects_687866208[0][chckIndx(iHEX60gensym30_687866467, 0, (rects_687866208[0]).length - 1)], extendUp_687865945(it_687866468, chckRange(subInt(maxBaseline_687866455, it_687866468.baseline), 0, 2147483647)), NTI687865860);
-            res_620767485 = addInt(res_620767485, 1);
+          if (!(res_620768272 <= colontmp__620768271)) break Label20;
+            iHEX60gensym30_654312044 = res_620768272;
+            var it_654312045 = nimCopy(null, rects_654311785[0][chckIndx(iHEX60gensym30_654312044, 0, (rects_654311785[0]).length - 1)], NTI654311428);
+            rects_654311785[0][chckIndx(iHEX60gensym30_654312044, 0, (rects_654311785[0]).length - 1)] = nimCopy(rects_654311785[0][chckIndx(iHEX60gensym30_654312044, 0, (rects_654311785[0]).length - 1)], extendUp_654311522(it_654312045, chckRange(subInt(maxBaseline_654312032, it_654312045.baseline), 0, 2147483647)), NTI654311428);
+            res_620768272 = addInt(res_620768272, 1);
           }
       } while (false);
     } while (false);
     Label21: do {
-      var iHEX60gensym31_687866490 = 0;
-      var resultHEX60gensym31_687866511 = newSeq_687866494(chckRange((rects_687866208[0]).length, 0, 2147483647));
+      var iHEX60gensym31_654312067 = 0;
+      var resultHEX60gensym31_654312088 = newSeq_654312071(chckRange((rects_654311785[0]).length, 0, 2147483647));
       Label22: do {
-        var it_687866515 = ({rows: [], baseline: 0, width: 0, flag: 0});
-        var i_620767489 = 0;
-        var L_620767490 = (rects_687866208[0]).length;
+        var it_654312092 = ({rows: [], baseline: 0, width: 0, flag: 0});
+        var i_620768276 = 0;
+        var L_620768277 = (rects_654311785[0]).length;
         Label23: do {
             Label24: while (true) {
-            if (!(i_620767489 < L_620767490)) break Label24;
-              it_687866515 = rects_687866208[0][chckIndx(i_620767489, 0, (rects_687866208[0]).length - 1)];
-              resultHEX60gensym31_687866511[chckIndx(iHEX60gensym31_687866490, 0, (resultHEX60gensym31_687866511).length - 1)] = height_687865900(it_687866515);
-              iHEX60gensym31_687866490 = addInt(iHEX60gensym31_687866490, 1);
-              i_620767489 = addInt(i_620767489, 1);
-              if (!(((rects_687866208[0]).length == L_620767490))) {
+            if (!(i_620768276 < L_620768277)) break Label24;
+              it_654312092 = rects_654311785[0][chckIndx(i_620768276, 0, (rects_654311785[0]).length - 1)];
+              resultHEX60gensym31_654312088[chckIndx(iHEX60gensym31_654312067, 0, (resultHEX60gensym31_654312088).length - 1)] = height_654311468(it_654312092);
+              iHEX60gensym31_654312067 = addInt(iHEX60gensym31_654312067, 1);
+              i_620768276 = addInt(i_620768276, 1);
+              if (!(((rects_654311785[0]).length == L_620768277))) {
               failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
               }
               
@@ -4343,49 +4351,49 @@ function join_687866063(rects_687866064) {
         } while (false);
       } while (false);
     } while (false);
-    var maxHeight_687866532 = max_687866520(resultHEX60gensym31_687866511);
+    var maxHeight_654312109 = max_654312097(resultHEX60gensym31_654312088);
     Label25: do {
-      var iHEX60gensym34_687866544 = 0;
-      var colontmp__620767493 = 0;
-      colontmp__620767493 = (rects_687866208[0]).length - 1;
-      var res_620767494 = 0;
+      var iHEX60gensym34_654312121 = 0;
+      var colontmp__620768280 = 0;
+      colontmp__620768280 = (rects_654311785[0]).length - 1;
+      var res_620768281 = 0;
       Label26: do {
           Label27: while (true) {
-          if (!(res_620767494 <= colontmp__620767493)) break Label27;
-            iHEX60gensym34_687866544 = res_620767494;
-            var it_687866545 = nimCopy(null, rects_687866208[0][chckIndx(iHEX60gensym34_687866544, 0, (rects_687866208[0]).length - 1)], NTI687865860);
-            rects_687866208[0][chckIndx(iHEX60gensym34_687866544, 0, (rects_687866208[0]).length - 1)] = nimCopy(rects_687866208[0][chckIndx(iHEX60gensym34_687866544, 0, (rects_687866208[0]).length - 1)], extendDown_687865996(it_687866545, chckRange(subInt(maxHeight_687866532, height_687865900(it_687866545)), 0, 2147483647)), NTI687865860);
-            res_620767494 = addInt(res_620767494, 1);
+          if (!(res_620768281 <= colontmp__620768280)) break Label27;
+            iHEX60gensym34_654312121 = res_620768281;
+            var it_654312122 = nimCopy(null, rects_654311785[0][chckIndx(iHEX60gensym34_654312121, 0, (rects_654311785[0]).length - 1)], NTI654311428);
+            rects_654311785[0][chckIndx(iHEX60gensym34_654312121, 0, (rects_654311785[0]).length - 1)] = nimCopy(rects_654311785[0][chckIndx(iHEX60gensym34_654312121, 0, (rects_654311785[0]).length - 1)], extendDown_654311573(it_654312122, chckRange(subInt(maxHeight_654312109, height_654311468(it_654312122)), 0, 2147483647)), NTI654311428);
+            res_620768281 = addInt(res_620768281, 1);
           }
       } while (false);
     } while (false);
-    result_687866065.rows = nimCopy(null, newSeq_452985301(height_687865900(rects_687866208[0][chckIndx(0, 0, (rects_687866208[0]).length - 1)])), NTI452985127);
+    result_654311642.rows = nimCopy(null, newSeq_452985301(height_654311468(rects_654311785[0][chckIndx(0, 0, (rects_654311785[0]).length - 1)])), NTI452985127);
     Label28: do {
-      var i_687866584 = 0;
-      var row_687866585 = null;
-      var row_687866585_Idx = 0;
-      var i_620767503 = 0;
-      var L_620767504 = (result_687866065.rows).length;
+      var i_654312161 = 0;
+      var row_654312162 = null;
+      var row_654312162_Idx = 0;
+      var i_620768290 = 0;
+      var L_620768291 = (result_654311642.rows).length;
       Label29: do {
           Label30: while (true) {
-          if (!(i_620767503 < L_620767504)) break Label30;
-            i_687866584 = i_620767503;
-            row_687866585 = result_687866065.rows; row_687866585_Idx = chckIndx(i_620767503, 0, (result_687866065.rows).length - 1);
+          if (!(i_620768290 < L_620768291)) break Label30;
+            i_654312161 = i_620768290;
+            row_654312162 = result_654311642.rows; row_654312162_Idx = chckIndx(i_620768290, 0, (result_654311642.rows).length - 1);
             Label31: do {
-              var iHEX60gensym37_687866607 = 0;
-              var resultHEX60gensym37_687866614 = newSeq_452985301(chckRange((rects_687866208[0]).length, 0, 2147483647));
+              var iHEX60gensym37_654312184 = 0;
+              var resultHEX60gensym37_654312191 = newSeq_452985301(chckRange((rects_654311785[0]).length, 0, 2147483647));
               Label32: do {
-                var it_687866618 = ({rows: [], baseline: 0, width: 0, flag: 0});
-                var i_620767499 = 0;
-                var L_620767500 = (rects_687866208[0]).length;
+                var it_654312195 = ({rows: [], baseline: 0, width: 0, flag: 0});
+                var i_620768286 = 0;
+                var L_620768287 = (rects_654311785[0]).length;
                 Label33: do {
                     Label34: while (true) {
-                    if (!(i_620767499 < L_620767500)) break Label34;
-                      it_687866618 = rects_687866208[0][chckIndx(i_620767499, 0, (rects_687866208[0]).length - 1)];
-                      resultHEX60gensym37_687866614[chckIndx(iHEX60gensym37_687866607, 0, (resultHEX60gensym37_687866614).length - 1)] = nimCopy(null, it_687866618.rows[chckIndx(i_687866584, 0, (it_687866618.rows).length - 1)], NTI33554439);
-                      iHEX60gensym37_687866607 = addInt(iHEX60gensym37_687866607, 1);
-                      i_620767499 = addInt(i_620767499, 1);
-                      if (!(((rects_687866208[0]).length == L_620767500))) {
+                    if (!(i_620768286 < L_620768287)) break Label34;
+                      it_654312195 = rects_654311785[0][chckIndx(i_620768286, 0, (rects_654311785[0]).length - 1)];
+                      resultHEX60gensym37_654312191[chckIndx(iHEX60gensym37_654312184, 0, (resultHEX60gensym37_654312191).length - 1)] = nimCopy(null, it_654312195.rows[chckIndx(i_654312161, 0, (it_654312195.rows).length - 1)], NTI33554439);
+                      iHEX60gensym37_654312184 = addInt(iHEX60gensym37_654312184, 1);
+                      i_620768286 = addInt(i_620768286, 1);
+                      if (!(((rects_654311785[0]).length == L_620768287))) {
                       failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                       }
                       
@@ -4393,31 +4401,31 @@ function join_687866063(rects_687866064) {
                 } while (false);
               } while (false);
             } while (false);
-            row_687866585[row_687866585_Idx] = nimCopy(null, nsuJoinSep(resultHEX60gensym37_687866614, []), NTI33554439);
-            i_620767503 = addInt(i_620767503, 1);
-            if (!(((result_687866065.rows).length == L_620767504))) {
+            row_654312162[row_654312162_Idx] = nimCopy(null, nsuJoinSep(resultHEX60gensym37_654312191, []), NTI33554439);
+            i_620768290 = addInt(i_620768290, 1);
+            if (!(((result_654311642.rows).length == L_620768291))) {
             failedAssertImpl_218103864(makeNimstrLit("iterators.nim(183, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
             
           }
       } while (false);
     } while (false);
-    result_687866065.baseline = rects_687866208[0][chckIndx(0, 0, (rects_687866208[0]).length - 1)].baseline;
+    result_654311642.baseline = rects_654311785[0][chckIndx(0, 0, (rects_654311785[0]).length - 1)].baseline;
     Label35: do {
-      var iHEX60gensym40_687866644 = 0;
-      var resultHEX60gensym40_687866651 = newSeq_687866494(chckRange((rects_687866208[0]).length, 0, 2147483647));
+      var iHEX60gensym40_654312221 = 0;
+      var resultHEX60gensym40_654312228 = newSeq_654312071(chckRange((rects_654311785[0]).length, 0, 2147483647));
       Label36: do {
-        var it_687866655 = ({rows: [], baseline: 0, width: 0, flag: 0});
-        var i_620767508 = 0;
-        var L_620767509 = (rects_687866208[0]).length;
+        var it_654312232 = ({rows: [], baseline: 0, width: 0, flag: 0});
+        var i_620768295 = 0;
+        var L_620768296 = (rects_654311785[0]).length;
         Label37: do {
             Label38: while (true) {
-            if (!(i_620767508 < L_620767509)) break Label38;
-              it_687866655 = rects_687866208[0][chckIndx(i_620767508, 0, (rects_687866208[0]).length - 1)];
-              resultHEX60gensym40_687866651[chckIndx(iHEX60gensym40_687866644, 0, (resultHEX60gensym40_687866651).length - 1)] = it_687866655.width;
-              iHEX60gensym40_687866644 = addInt(iHEX60gensym40_687866644, 1);
-              i_620767508 = addInt(i_620767508, 1);
-              if (!(((rects_687866208[0]).length == L_620767509))) {
+            if (!(i_620768295 < L_620768296)) break Label38;
+              it_654312232 = rects_654311785[0][chckIndx(i_620768295, 0, (rects_654311785[0]).length - 1)];
+              resultHEX60gensym40_654312228[chckIndx(iHEX60gensym40_654312221, 0, (resultHEX60gensym40_654312228).length - 1)] = it_654312232.width;
+              iHEX60gensym40_654312221 = addInt(iHEX60gensym40_654312221, 1);
+              i_620768295 = addInt(i_620768295, 1);
+              if (!(((rects_654311785[0]).length == L_620768296))) {
               failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
               }
               
@@ -4425,276 +4433,194 @@ function join_687866063(rects_687866064) {
         } while (false);
       } while (false);
     } while (false);
-    result_687866065.width = sum_687866660(resultHEX60gensym40_687866651);
+    result_654311642.width = sum_654312237(resultHEX60gensym40_654312228);
   } while (false);
 
-  return result_687866065;
+  return result_654311642;
 
 }
 
-function map_620761750(a_620761753, fn_620761755) {
+function map_620761222(a_620761225, fn_620761227) {
 
-function succeedImpl_620761767(inputInHEX60gensym82_620761768, valueInHEX60gensym82_620761769, tailInHEX60gensym82_620761770) {
-  var result_620761772 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+function succeedImpl_620761239(inputInHEX60gensym71_620761240, valueInHEX60gensym71_620761241, tailInHEX60gensym71_620761242) {
+  var result_620761244 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
 
-    result_620761772 = nimCopy(result_620761772, {kind: 0, value: nimCopy(null, valueInHEX60gensym82_620761769, NTI687865860), tail: nimCopy(null, tailInHEX60gensym82_620761770, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym82_620761768, NTI33554439), expected: []}, NTI620757844);
+    result_620761244 = nimCopy(result_620761244, {kind: 0, value: nimCopy(null, valueInHEX60gensym71_620761241, NTI654311428), tail: nimCopy(null, tailInHEX60gensym71_620761242, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym71_620761240, NTI33554439), expected: []}, NTI620758888);
 
-  return result_620761772;
+  return result_620761244;
 
 }
 
-function failImpl_620761774(inputInHEX60gensym82_620761775, expectedInHEX60gensym82_620761776, tailInHEX60gensym82_620761777) {
-  var result_620761779 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+function failImpl_620761246(inputInHEX60gensym71_620761247, expectedInHEX60gensym71_620761248, tailInHEX60gensym71_620761249) {
+  var result_620761251 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
 
-    result_620761779 = nimCopy(result_620761779, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym82_620761776, NTI620760493), tail: nimCopy(null, tailInHEX60gensym82_620761777, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym82_620761775, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
+    result_620761251 = nimCopy(result_620761251, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym71_620761248, NTI620760128), tail: nimCopy(null, tailInHEX60gensym71_620761249, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym71_620761247, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
 
-  return result_620761779;
+  return result_620761251;
 
 }
       
-function HEX3Aanonymous_620761782(input_620761783) {
+function HEX3Aanonymous_620761254(input_620761255) {
             var Temporary2;
           var Temporary3;
 
-        var result_620761785 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+        var result_620761257 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620761786 = succeedImpl_620761767;
-          var fail_620761787 = failImpl_620761774;
+          var succeed_620761258 = succeedImpl_620761239;
+          var fail_620761259 = failImpl_620761246;
           Label1: do {
-            var tempHEX60gensym24_620761800 = parse_1090520010(a_620761753, input_620761783);
-            if ((tempHEX60gensym24_620761800.kind == 1)) {
-            var Temporary2 = tempHEX60gensym24_620761800;
-            if (ConstSet54[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620761785 = nimCopy(result_620761785, {kind: 1, fromInput: nimCopy(null, input_620761783, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym24_620761800.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
+            var tempHEX60gensym24_620761272 = parse_1191183306(a_620761225, input_620761255);
+            if ((tempHEX60gensym24_620761272.kind == 1)) {
+            var Temporary2 = tempHEX60gensym24_620761272;
+            if (ConstSet54[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620761257 = nimCopy(result_620761257, {kind: 1, fromInput: nimCopy(null, input_620761255, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym24_620761272.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
             break BeforeRet;
             }
             
           } while (false);
-          var result1_620761806 = nimCopy(null, tempHEX60gensym24_620761800, NTI1090519270);
-          var Temporary3 = result1_620761806;
-          if (ConstSet55[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-          result_620761785 = nimCopy(result_620761785, succeed_620761786(input_620761783, fn_620761755(Temporary3.value), result1_620761806.tail), NTI620757844);
+          var result1_620761278 = nimCopy(null, tempHEX60gensym24_620761272, NTI1191182566);
+          var Temporary3 = result1_620761278;
+          if (ConstSet55[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+          result_620761257 = nimCopy(result_620761257, succeed_620761258(input_620761255, fn_620761227(Temporary3.value), result1_620761278.tail), NTI620758888);
           break BeforeRet;
         } while (false);
 
-        return result_620761785;
+        return result_620761257;
 
       }
 
-  var result_620761756 = null;
+  var result_620761228 = null;
 
     Label1: do {
     } while (false);
-    result_620761756 = {body: HEX3Aanonymous_620761782};
+    result_620761228 = {body: HEX3Aanonymous_620761254};
 
-  return result_620761756;
+  return result_620761228;
 
 }
 
-function substrEq_704643301(s_704643302, pos_704643303, substr_704643304) {
-  var result_704643305 = false;
+function nucruneLen(s_973078538) {
+  var result_973078539 = 0;
 
-  BeforeRet: do {
-    var i_704643306 = 0;
-    var length_704643307 = (substr_704643304).length;
+    result_973078539 = 0;
+    var i_973078540 = 0;
     Label1: do {
         Label2: while (true) {
-        if (!(((i_704643306 < length_704643307) && (addInt(pos_704643303, i_704643306) < (s_704643302).length)) && (s_704643302[chckIndx(addInt(pos_704643303, i_704643306), 0, (s_704643302).length - 1)] == substr_704643304[chckIndx(i_704643306, 0, (substr_704643304).length - 1)]))) break Label2;
-          i_704643306 = addInt(i_704643306, 1);
-        }
-    } while (false);
-    result_704643305 = (i_704643306 == length_704643307);
-    break BeforeRet;
-  } while (false);
-
-  return result_704643305;
-
-}
-
-function nsuSplitString(s_704643593, sep_704643594, maxsplit_704643595) {
-  var result_704643596 = [];
-
-    if (!((0 < (sep_704643594).length))) {
-    failedAssertImpl_218103864(makeNimstrLit("strutils.nim(739, 11) `sep.len > 0` "));
-    }
-    
-    result_704643596 = nimCopy(null, [], NTI704643446);
-    Label1: do {
-      var xHEX60gensym72_704643607 = [];
-      var lastHEX60gensym41_620763985 = 0;
-      var splitsHEX60gensym41_620763986 = maxsplit_704643595;
-      Label2: do {
-          Label3: while (true) {
-          if (!(lastHEX60gensym41_620763985 <= (s_704643593).length)) break Label3;
-            var firstHEX60gensym41_620763988 = lastHEX60gensym41_620763985;
-            Label4: do {
-                Label5: while (true) {
-                if (!((lastHEX60gensym41_620763985 < (s_704643593).length) && !(substrEq_704643301(s_704643593, lastHEX60gensym41_620763985, sep_704643594)))) break Label5;
-                  lastHEX60gensym41_620763985 = addInt(lastHEX60gensym41_620763985, 1);
-                }
-            } while (false);
-            if ((splitsHEX60gensym41_620763986 == 0)) {
-            lastHEX60gensym41_620763985 = (s_704643593).length;
-            }
-            
-            xHEX60gensym72_704643607 = substr_33557922(s_704643593, firstHEX60gensym41_620763988, subInt(lastHEX60gensym41_620763985, 1));
-            var Temporary6 = nimCopy(null, xHEX60gensym72_704643607, NTI33554439);
-            result_704643596.push(Temporary6);;
-            if ((splitsHEX60gensym41_620763986 == 0)) {
-            break Label2;
-            }
-            
-            splitsHEX60gensym41_620763986 = subInt(splitsHEX60gensym41_620763986, 1);
-            lastHEX60gensym41_620763985 = addInt(lastHEX60gensym41_620763985, (sep_704643594).length);
-          }
-      } while (false);
-    } while (false);
-
-  return result_704643596;
-
-}
-
-function nucruneLen(s_654311434) {
-  var result_654311435 = 0;
-
-    result_654311435 = 0;
-    var i_654311436 = 0;
-    Label1: do {
-        Label2: while (true) {
-        if (!(i_654311436 < (s_654311434).length)) break Label2;
-          if ((s_654311434[chckIndx(i_654311436, 0, (s_654311434).length - 1)] <= 127)) {
-          i_654311436 = addInt(i_654311436, 1);
+        if (!(i_973078540 < (s_973078538).length)) break Label2;
+          if ((s_973078538[chckIndx(i_973078540, 0, (s_973078538).length - 1)] <= 127)) {
+          i_973078540 = addInt(i_973078540, 1);
           }
           else {
-          if (((s_654311434[chckIndx(i_654311436, 0, (s_654311434).length - 1)] >>> 5) == 6)) {
-          i_654311436 = addInt(i_654311436, 2);
+          if (((s_973078538[chckIndx(i_973078540, 0, (s_973078538).length - 1)] >>> 5) == 6)) {
+          i_973078540 = addInt(i_973078540, 2);
           }
           else {
-          if (((s_654311434[chckIndx(i_654311436, 0, (s_654311434).length - 1)] >>> 4) == 14)) {
-          i_654311436 = addInt(i_654311436, 3);
+          if (((s_973078538[chckIndx(i_973078540, 0, (s_973078538).length - 1)] >>> 4) == 14)) {
+          i_973078540 = addInt(i_973078540, 3);
           }
           else {
-          if (((s_654311434[chckIndx(i_654311436, 0, (s_654311434).length - 1)] >>> 3) == 30)) {
-          i_654311436 = addInt(i_654311436, 4);
+          if (((s_973078538[chckIndx(i_973078540, 0, (s_973078538).length - 1)] >>> 3) == 30)) {
+          i_973078540 = addInt(i_973078540, 4);
           }
           else {
-          if (((s_654311434[chckIndx(i_654311436, 0, (s_654311434).length - 1)] >>> 2) == 62)) {
-          i_654311436 = addInt(i_654311436, 5);
+          if (((s_973078538[chckIndx(i_973078540, 0, (s_973078538).length - 1)] >>> 2) == 62)) {
+          i_973078540 = addInt(i_973078540, 5);
           }
           else {
-          if (((s_654311434[chckIndx(i_654311436, 0, (s_654311434).length - 1)] >>> 1) == 126)) {
-          i_654311436 = addInt(i_654311436, 6);
+          if (((s_973078538[chckIndx(i_973078540, 0, (s_973078538).length - 1)] >>> 1) == 126)) {
+          i_973078540 = addInt(i_973078540, 6);
           }
           else {
-          i_654311436 = addInt(i_654311436, 1);
+          i_973078540 = addInt(i_973078540, 1);
           }
           }}}}}
-          result_654311435 = addInt(result_654311435, 1);
+          result_973078539 = addInt(result_973078539, 1);
         }
     } while (false);
 
-  return result_654311435;
+  return result_973078539;
 
 }
 
-function toTextRect_687865909(s_687865910, baseline_687865911, flag_687865912) {
-  var result_687865913 = ({rows: [], baseline: 0, width: 0, flag: 0});
+function toTextRectOneLine_654311513(s_654311514, baseline_654311515, flag_654311516) {
+  var result_654311517 = ({rows: [], baseline: 0, width: 0, flag: 0});
 
   BeforeRet: do {
-    if (eqStrings(s_687865910, [])) {
+    if (eqStrings(s_654311514, [])) {
+    result_654311517.flag = flag_654311516;
     break BeforeRet;
     }
     
-    result_687865913.rows = nimCopy(null, nsuSplitString(s_687865910, makeNimstrLit("\x0A"), -1), NTI704643434);
-    result_687865913.width = chckRange(nucruneLen(result_687865913.rows[chckIndx(0, 0, (result_687865913.rows).length - 1)]), 0, 2147483647);
-    Label1: do {
-      var row_687865934 = [];
-      var i_620763979 = 0;
-      var L_620763980 = (result_687865913.rows).length;
-      Label2: do {
-          Label3: while (true) {
-          if (!(i_620763979 < L_620763980)) break Label3;
-            row_687865934 = result_687865913.rows[chckIndx(i_620763979, 0, (result_687865913.rows).length - 1)];
-            if (!((nucruneLen(row_687865934) == result_687865913.width))) {
-            raiseException({message: makeNimstrLit("All rows of a TextRect must be the same width"), parent: null, m_type: NTI33555125, name: null, trace: [], up: null}, "ValueError");
-            }
-            
-            i_620763979 = addInt(i_620763979, 1);
-            if (!(((result_687865913.rows).length == L_620763980))) {
-            failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-            }
-            
-          }
-      } while (false);
-    } while (false);
-    result_687865913.baseline = baseline_687865911;
-    result_687865913.flag = flag_687865912;
+    result_654311517.rows = nimCopy(null, [nimCopy(null, s_654311514, NTI33554439)], NTI654311478);
+    result_654311517.width = chckRange(nucruneLen(s_654311514), 0, 2147483647);
+    result_654311517.baseline = baseline_654311515;
+    result_654311517.flag = flag_654311516;
   } while (false);
 
-  return result_687865913;
+  return result_654311517;
 
 }
 
-function HEX7C_620762766(a_620762768, b_620762769) {
+function HEX7C_620762238(a_620762240, b_620762241) {
 
-function succeedImpl_620762781(inputInHEX60gensym103_620762782, valueInHEX60gensym103_620762783, tailInHEX60gensym103_620762784) {
-  var result_620762786 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+function succeedImpl_620762253(inputInHEX60gensym92_620762254, valueInHEX60gensym92_620762255, tailInHEX60gensym92_620762256) {
+  var result_620762258 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
 
-    result_620762786 = nimCopy(result_620762786, {kind: 0, value: nimCopy(null, valueInHEX60gensym103_620762783, NTI687865860), tail: nimCopy(null, tailInHEX60gensym103_620762784, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym103_620762782, NTI33554439), expected: []}, NTI620757844);
+    result_620762258 = nimCopy(result_620762258, {kind: 0, value: nimCopy(null, valueInHEX60gensym92_620762255, NTI654311428), tail: nimCopy(null, tailInHEX60gensym92_620762256, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym92_620762254, NTI33554439), expected: []}, NTI620758888);
 
-  return result_620762786;
+  return result_620762258;
 
 }
 
-function failImpl_620762788(inputInHEX60gensym103_620762789, expectedInHEX60gensym103_620762790, tailInHEX60gensym103_620762791) {
-  var result_620762793 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+function failImpl_620762260(inputInHEX60gensym92_620762261, expectedInHEX60gensym92_620762262, tailInHEX60gensym92_620762263) {
+  var result_620762265 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
 
-    result_620762793 = nimCopy(result_620762793, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym103_620762790, NTI620761276), tail: nimCopy(null, tailInHEX60gensym103_620762791, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym103_620762789, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
+    result_620762265 = nimCopy(result_620762265, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym92_620762262, NTI620760911), tail: nimCopy(null, tailInHEX60gensym92_620762263, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym92_620762261, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
 
-  return result_620762793;
+  return result_620762265;
 
 }
       
-function HEX3Aanonymous_620762796(input_620762797) {
+function HEX3Aanonymous_620762268(input_620762269) {
           var Temporary1;
           var Temporary2;
 
-        var result_620762799 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+        var result_620762271 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620762800 = succeedImpl_620762781;
-          var fail_620762801 = failImpl_620762788;
-          var result1_620762814 = parse_620760599(a_620762768, input_620762797);
-          if ((result1_620762814.kind == 0)) {
-          result_620762799 = nimCopy(result_620762799, result1_620762814, NTI620757844);
+          var succeed_620762272 = succeedImpl_620762253;
+          var fail_620762273 = failImpl_620762260;
+          var result1_620762286 = parse_620760023(a_620762240, input_620762269);
+          if ((result1_620762286.kind == 0)) {
+          result_620762271 = nimCopy(result_620762271, result1_620762286, NTI620758888);
           break BeforeRet;
           }
           
-          var result2_620762831 = parse_620760599(b_620762769, input_620762797);
-          if ((result2_620762831.kind == 0)) {
-          result_620762799 = nimCopy(result_620762799, result2_620762831, NTI620757844);
+          var result2_620762303 = parse_620760023(b_620762241, input_620762269);
+          if ((result2_620762303.kind == 0)) {
+          result_620762271 = nimCopy(result_620762271, result2_620762303, NTI620758888);
           break BeforeRet;
           }
           
-          var Temporary1 = result1_620762814;
-          if (ConstSet56[Temporary1.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary1.kind, NTI1090519061)); }
-          var Temporary2 = result2_620762831;
-          if (ConstSet57[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-          result_620762799 = nimCopy(result_620762799, fail_620762801(input_620762797, HEX26_687865962(Temporary1.expected, Temporary2.expected), input_620762797), NTI620757844);
+          var Temporary1 = result1_620762286;
+          if (ConstSet56[Temporary1.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary1.kind, NTI1191182357)); }
+          var Temporary2 = result2_620762303;
+          if (ConstSet57[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+          result_620762271 = nimCopy(result_620762271, fail_620762273(input_620762269, HEX26_654311539(Temporary1.expected, Temporary2.expected), input_620762269), NTI620758888);
         } while (false);
 
-        return result_620762799;
+        return result_620762271;
 
       }
 
-  var result_620762770 = null;
+  var result_620762242 = null;
 
     Label1: do {
     } while (false);
-    result_620762770 = {body: HEX3Aanonymous_620762796};
+    result_620762242 = {body: HEX3Aanonymous_620762268};
 
-  return result_620762770;
+  return result_620762242;
 
 }
 
@@ -4707,1107 +4633,1721 @@ function HEX3CHEX3DHEX25_33555429(x_33555430, y_33555431) {
 
 }
 
-function nuctoUTF8(c_654311765) {
-  var result_654311766 = [];
+function nuctoUTF8(c_973078869) {
+  var result_973078870 = [];
 
-    result_654311766 = nimCopy(null, [], NTI33554439);
-    var iHEX60gensym49_654311768 = c_654311765;
-    if (HEX3CHEX3DHEX25_33555429(iHEX60gensym49_654311768, 127)) {
-    (result_654311766.length = 1);
-    result_654311766[chckIndx(0, 0, (result_654311766).length - 1)] = chckRange(iHEX60gensym49_654311768, 0, 255);
+    result_973078870 = nimCopy(null, [], NTI33554439);
+    var iHEX60gensym49_973078872 = c_973078869;
+    if (HEX3CHEX3DHEX25_33555429(iHEX60gensym49_973078872, 127)) {
+    (result_973078870.length = 1);
+    result_973078870[chckIndx(0, 0, (result_973078870).length - 1)] = chckRange(iHEX60gensym49_973078872, 0, 255);
     }
     else {
-    if (HEX3CHEX3DHEX25_33555429(iHEX60gensym49_654311768, 2047)) {
-    (result_654311766.length = 2);
-    result_654311766[chckIndx(0, 0, (result_654311766).length - 1)] = chckRange(((iHEX60gensym49_654311768 >> 6) | 192), 0, 255);
-    result_654311766[chckIndx(1, 0, (result_654311766).length - 1)] = chckRange(((iHEX60gensym49_654311768 & 63) | 128), 0, 255);
+    if (HEX3CHEX3DHEX25_33555429(iHEX60gensym49_973078872, 2047)) {
+    (result_973078870.length = 2);
+    result_973078870[chckIndx(0, 0, (result_973078870).length - 1)] = chckRange(((iHEX60gensym49_973078872 >> 6) | 192), 0, 255);
+    result_973078870[chckIndx(1, 0, (result_973078870).length - 1)] = chckRange(((iHEX60gensym49_973078872 & 63) | 128), 0, 255);
     }
     else {
-    if (HEX3CHEX3DHEX25_33555429(iHEX60gensym49_654311768, 65535)) {
-    (result_654311766.length = 3);
-    result_654311766[chckIndx(0, 0, (result_654311766).length - 1)] = chckRange(((iHEX60gensym49_654311768 >> 12) | 224), 0, 255);
-    result_654311766[chckIndx(1, 0, (result_654311766).length - 1)] = chckRange((((iHEX60gensym49_654311768 >> 6) & 63) | 128), 0, 255);
-    result_654311766[chckIndx(2, 0, (result_654311766).length - 1)] = chckRange(((iHEX60gensym49_654311768 & 63) | 128), 0, 255);
+    if (HEX3CHEX3DHEX25_33555429(iHEX60gensym49_973078872, 65535)) {
+    (result_973078870.length = 3);
+    result_973078870[chckIndx(0, 0, (result_973078870).length - 1)] = chckRange(((iHEX60gensym49_973078872 >> 12) | 224), 0, 255);
+    result_973078870[chckIndx(1, 0, (result_973078870).length - 1)] = chckRange((((iHEX60gensym49_973078872 >> 6) & 63) | 128), 0, 255);
+    result_973078870[chckIndx(2, 0, (result_973078870).length - 1)] = chckRange(((iHEX60gensym49_973078872 & 63) | 128), 0, 255);
     }
     else {
-    if (HEX3CHEX3DHEX25_33555429(iHEX60gensym49_654311768, 2097151)) {
-    (result_654311766.length = 4);
-    result_654311766[chckIndx(0, 0, (result_654311766).length - 1)] = chckRange(((iHEX60gensym49_654311768 >> 18) | 240), 0, 255);
-    result_654311766[chckIndx(1, 0, (result_654311766).length - 1)] = chckRange((((iHEX60gensym49_654311768 >> 12) & 63) | 128), 0, 255);
-    result_654311766[chckIndx(2, 0, (result_654311766).length - 1)] = chckRange((((iHEX60gensym49_654311768 >> 6) & 63) | 128), 0, 255);
-    result_654311766[chckIndx(3, 0, (result_654311766).length - 1)] = chckRange(((iHEX60gensym49_654311768 & 63) | 128), 0, 255);
+    if (HEX3CHEX3DHEX25_33555429(iHEX60gensym49_973078872, 2097151)) {
+    (result_973078870.length = 4);
+    result_973078870[chckIndx(0, 0, (result_973078870).length - 1)] = chckRange(((iHEX60gensym49_973078872 >> 18) | 240), 0, 255);
+    result_973078870[chckIndx(1, 0, (result_973078870).length - 1)] = chckRange((((iHEX60gensym49_973078872 >> 12) & 63) | 128), 0, 255);
+    result_973078870[chckIndx(2, 0, (result_973078870).length - 1)] = chckRange((((iHEX60gensym49_973078872 >> 6) & 63) | 128), 0, 255);
+    result_973078870[chckIndx(3, 0, (result_973078870).length - 1)] = chckRange(((iHEX60gensym49_973078872 & 63) | 128), 0, 255);
     }
     else {
-    if (HEX3CHEX3DHEX25_33555429(iHEX60gensym49_654311768, 67108863)) {
-    (result_654311766.length = 5);
-    result_654311766[chckIndx(0, 0, (result_654311766).length - 1)] = chckRange(((iHEX60gensym49_654311768 >> 24) | 248), 0, 255);
-    result_654311766[chckIndx(1, 0, (result_654311766).length - 1)] = chckRange((((iHEX60gensym49_654311768 >> 18) & 63) | 128), 0, 255);
-    result_654311766[chckIndx(2, 0, (result_654311766).length - 1)] = chckRange((((iHEX60gensym49_654311768 >> 12) & 63) | 128), 0, 255);
-    result_654311766[chckIndx(3, 0, (result_654311766).length - 1)] = chckRange((((iHEX60gensym49_654311768 >> 6) & 63) | 128), 0, 255);
-    result_654311766[chckIndx(4, 0, (result_654311766).length - 1)] = chckRange(((iHEX60gensym49_654311768 & 63) | 128), 0, 255);
+    if (HEX3CHEX3DHEX25_33555429(iHEX60gensym49_973078872, 67108863)) {
+    (result_973078870.length = 5);
+    result_973078870[chckIndx(0, 0, (result_973078870).length - 1)] = chckRange(((iHEX60gensym49_973078872 >> 24) | 248), 0, 255);
+    result_973078870[chckIndx(1, 0, (result_973078870).length - 1)] = chckRange((((iHEX60gensym49_973078872 >> 18) & 63) | 128), 0, 255);
+    result_973078870[chckIndx(2, 0, (result_973078870).length - 1)] = chckRange((((iHEX60gensym49_973078872 >> 12) & 63) | 128), 0, 255);
+    result_973078870[chckIndx(3, 0, (result_973078870).length - 1)] = chckRange((((iHEX60gensym49_973078872 >> 6) & 63) | 128), 0, 255);
+    result_973078870[chckIndx(4, 0, (result_973078870).length - 1)] = chckRange(((iHEX60gensym49_973078872 & 63) | 128), 0, 255);
     }
     else {
-    if (HEX3CHEX3DHEX25_33555429(iHEX60gensym49_654311768, 2147483647)) {
-    (result_654311766.length = 6);
-    result_654311766[chckIndx(0, 0, (result_654311766).length - 1)] = chckRange(((iHEX60gensym49_654311768 >> 30) | 252), 0, 255);
-    result_654311766[chckIndx(1, 0, (result_654311766).length - 1)] = chckRange((((iHEX60gensym49_654311768 >> 24) & 63) | 128), 0, 255);
-    result_654311766[chckIndx(2, 0, (result_654311766).length - 1)] = chckRange((((iHEX60gensym49_654311768 >> 18) & 63) | 128), 0, 255);
-    result_654311766[chckIndx(3, 0, (result_654311766).length - 1)] = chckRange((((iHEX60gensym49_654311768 >> 12) & 63) | 128), 0, 255);
-    result_654311766[chckIndx(4, 0, (result_654311766).length - 1)] = chckRange((((iHEX60gensym49_654311768 >> 6) & 63) | 128), 0, 255);
-    result_654311766[chckIndx(5, 0, (result_654311766).length - 1)] = chckRange(((iHEX60gensym49_654311768 & 63) | 128), 0, 255);
+    if (HEX3CHEX3DHEX25_33555429(iHEX60gensym49_973078872, 2147483647)) {
+    (result_973078870.length = 6);
+    result_973078870[chckIndx(0, 0, (result_973078870).length - 1)] = chckRange(((iHEX60gensym49_973078872 >> 30) | 252), 0, 255);
+    result_973078870[chckIndx(1, 0, (result_973078870).length - 1)] = chckRange((((iHEX60gensym49_973078872 >> 24) & 63) | 128), 0, 255);
+    result_973078870[chckIndx(2, 0, (result_973078870).length - 1)] = chckRange((((iHEX60gensym49_973078872 >> 18) & 63) | 128), 0, 255);
+    result_973078870[chckIndx(3, 0, (result_973078870).length - 1)] = chckRange((((iHEX60gensym49_973078872 >> 12) & 63) | 128), 0, 255);
+    result_973078870[chckIndx(4, 0, (result_973078870).length - 1)] = chckRange((((iHEX60gensym49_973078872 >> 6) & 63) | 128), 0, 255);
+    result_973078870[chckIndx(5, 0, (result_973078870).length - 1)] = chckRange(((iHEX60gensym49_973078872 & 63) | 128), 0, 255);
     }
     else {
     }
     }}}}}
 
-  return result_654311766;
+  return result_973078870;
 
 }
 
-function HEX24_654312015(rune_654312016) {
-  var result_654312017 = [];
+function HEX24_973079119(rune_973079120) {
+  var result_973079121 = [];
 
-    result_654312017 = nimCopy(null, nuctoUTF8(rune_654312016), NTI33554439);
+    result_973079121 = nimCopy(null, nuctoUTF8(rune_973079120), NTI33554439);
 
-  return result_654312017;
+  return result_973079121;
 
 }
 
-function inFont_637534317(letter_637534318, font_637534319) {
+function inFont_637534392(letter_637534393, font_637534394) {
     var Temporary4;
 
-  var result_637534320 = [];
+  var result_637534395 = [];
 
   BeforeRet: do {
     Label1: do {
-      var lhs_637534342 = 0;
-      var rhs_637534343 = [];
-      var colontmp__620767560 = [];
-      colontmp__620767560 = fontExceptions_637534244[chckIndx(font_637534319, 0, (fontExceptions_637534244).length - 1)];
-      var i_620767562 = 0;
-      var L_620767563 = (colontmp__620767560).length;
+      var lhs_637534417 = 0;
+      var rhs_637534418 = [];
+      var colontmp__620768347 = [];
+      colontmp__620768347 = fontExceptions_637534346[chckIndx(font_637534394, 0, (fontExceptions_637534346).length - 1)];
+      var i_620768349 = 0;
+      var L_620768350 = (colontmp__620768347).length;
       Label2: do {
           Label3: while (true) {
-          if (!(i_620767562 < L_620767563)) break Label3;
-            lhs_637534342 = colontmp__620767560[chckIndx(i_620767562, 0, (colontmp__620767560).length - 1)]["Field0"];
-            rhs_637534343 = colontmp__620767560[chckIndx(i_620767562, 0, (colontmp__620767560).length - 1)]["Field1"];
-            if ((letter_637534318 == lhs_637534342)) {
-            result_637534320 = nimCopy(null, rhs_637534343, NTI33554439);
+          if (!(i_620768349 < L_620768350)) break Label3;
+            lhs_637534417 = colontmp__620768347[chckIndx(i_620768349, 0, (colontmp__620768347).length - 1)]["Field0"];
+            rhs_637534418 = colontmp__620768347[chckIndx(i_620768349, 0, (colontmp__620768347).length - 1)]["Field1"];
+            if ((letter_637534393 == lhs_637534417)) {
+            result_637534395 = nimCopy(null, rhs_637534418, NTI33554439);
             break BeforeRet;
             }
             
-            i_620767562 = addInt(i_620767562, 1);
-            if (!(((colontmp__620767560).length == L_620767563))) {
+            i_620768349 = addInt(i_620768349, 1);
+            if (!(((colontmp__620768347).length == L_620768350))) {
             failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
             
           }
       } while (false);
     } while (false);
-    if (contains_637534374(HEX2EHEX2E_637534344(65, 90), letter_637534318)) {
+    if (contains_637534489(HEX2EHEX2E_637534419(65, 90), letter_637534393)) {
     Temporary4 = 65;
     }
     else {
     Temporary4 = 71;
     }
     
-    var shift_637534381 = Temporary4;
-    result_637534320 = nimCopy(null, HEX24_654312015(((subInt(addInt(fontStarts_637534223[chckIndx(font_637534319, 0, (fontStarts_637534223).length - 1)], letter_637534318), shift_637534381)) | 0)), NTI33554439);
+    var shift_637534496 = Temporary4;
+    result_637534395 = nimCopy(null, HEX24_973079119(((subInt(addInt(fontStarts_637534325[chckIndx(font_637534394, 0, (fontStarts_637534325).length - 1)], letter_637534393), shift_637534496)) | 0)), NTI33554439);
     break BeforeRet;
   } while (false);
 
-  return result_637534320;
+  return result_637534395;
 
 }
 
-function map_620762702(s_620762705, op_620762707) {
-  var result_620762708 = [];
+function map_620762174(s_620762177, op_620762179) {
+  var result_620762180 = [];
 
-    result_620762708 = new Array(chckRange((s_620762705).length, 0, 2147483647)); for (var i = 0 ; i < chckRange((s_620762705).length, 0, 2147483647) ; ++i) { result_620762708[i] = null; }    Label1: do {
-      var i_620762724 = 0;
-      var colontmp__620767566 = 0;
-      colontmp__620767566 = (s_620762705).length;
-      var i_620767567 = 0;
+    result_620762180 = new Array(chckRange((s_620762177).length, 0, 2147483647)); for (var i = 0 ; i < chckRange((s_620762177).length, 0, 2147483647) ; ++i) { result_620762180[i] = null; }    Label1: do {
+      var i_620762196 = 0;
+      var colontmp__620768353 = 0;
+      colontmp__620768353 = (s_620762177).length;
+      var i_620768354 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(i_620767567 < colontmp__620767566)) break Label3;
-            i_620762724 = i_620767567;
-            result_620762708[chckIndx(i_620762724, 0, (result_620762708).length - 1)] = op_620762707(s_620762705[chckIndx(i_620762724, 0, (s_620762705).length - 1)]);
-            i_620767567 = addInt(i_620767567, 1);
+          if (!(i_620768354 < colontmp__620768353)) break Label3;
+            i_620762196 = i_620768354;
+            result_620762180[chckIndx(i_620762196, 0, (result_620762180).length - 1)] = op_620762179(s_620762177[chckIndx(i_620762196, 0, (s_620762177).length - 1)]);
+            i_620768354 = addInt(i_620768354, 1);
           }
       } while (false);
     } while (false);
 
-  return result_620762708;
+  return result_620762180;
 
 }
 
-function HEX3CHEX3C_620762221(a_620762224, b_620762225) {
+function HEX3CHEX3C_620761693(a_620761696, b_620761697) {
 
-function succeedImpl_620762237(inputInHEX60gensym87_620762238, valueInHEX60gensym87_620762239, tailInHEX60gensym87_620762240) {
-  var result_620762242 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+function succeedImpl_620761709(inputInHEX60gensym76_620761710, valueInHEX60gensym76_620761711, tailInHEX60gensym76_620761712) {
+  var result_620761714 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
 
-    result_620762242 = nimCopy(result_620762242, {kind: 0, value: valueInHEX60gensym87_620762239, tail: nimCopy(null, tailInHEX60gensym87_620762240, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym87_620762238, NTI33554439), expected: []}, NTI1090519270);
+    result_620761714 = nimCopy(result_620761714, {kind: 0, value: valueInHEX60gensym76_620761711, tail: nimCopy(null, tailInHEX60gensym76_620761712, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym76_620761710, NTI33554439), expected: []}, NTI1191182566);
 
-  return result_620762242;
+  return result_620761714;
 
 }
 
-function failImpl_620762244(inputInHEX60gensym87_620762245, expectedInHEX60gensym87_620762246, tailInHEX60gensym87_620762247) {
-  var result_620762249 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+function failImpl_620761716(inputInHEX60gensym76_620761717, expectedInHEX60gensym76_620761718, tailInHEX60gensym76_620761719) {
+  var result_620761721 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
 
-    result_620762249 = nimCopy(result_620762249, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym87_620762246, NTI620760822), tail: nimCopy(null, tailInHEX60gensym87_620762247, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym87_620762245, NTI33554439), value: 0}, NTI1090519270);
+    result_620761721 = nimCopy(result_620761721, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym76_620761718, NTI620760457), tail: nimCopy(null, tailInHEX60gensym76_620761719, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym76_620761717, NTI33554439), value: 0}, NTI1191182566);
 
-  return result_620762249;
+  return result_620761721;
 
 }
       
-function HEX3Aanonymous_620762252(input_620762253) {
+function HEX3Aanonymous_620761724(input_620761725) {
             var Temporary2;
             var Temporary4;
           var Temporary5;
 
-        var result_620762255 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+        var result_620761727 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620762256 = succeedImpl_620762237;
-          var fail_620762257 = failImpl_620762244;
+          var succeed_620761728 = succeedImpl_620761709;
+          var fail_620761729 = failImpl_620761716;
           Label1: do {
-            var tempHEX60gensym30_620762270 = parse_1090520010(a_620762224, input_620762253);
-            if ((tempHEX60gensym30_620762270.kind == 1)) {
-            var Temporary2 = tempHEX60gensym30_620762270;
-            if (ConstSet58[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620762255 = nimCopy(result_620762255, {kind: 1, fromInput: nimCopy(null, input_620762253, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym30_620762270.tail, NTI33554439), value: 0}, NTI1090519270);
+            var tempHEX60gensym30_620761742 = parse_1191183306(a_620761696, input_620761725);
+            if ((tempHEX60gensym30_620761742.kind == 1)) {
+            var Temporary2 = tempHEX60gensym30_620761742;
+            if (ConstSet58[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620761727 = nimCopy(result_620761727, {kind: 1, fromInput: nimCopy(null, input_620761725, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym30_620761742.tail, NTI33554439), value: 0}, NTI1191182566);
             break BeforeRet;
             }
             
           } while (false);
-          var result1_620762276 = nimCopy(null, tempHEX60gensym30_620762270, NTI1090519270);
+          var result1_620761748 = nimCopy(null, tempHEX60gensym30_620761742, NTI1191182566);
           Label3: do {
-            var tempHEX60gensym32_620762289 = parse_1090520010(b_620762225, result1_620762276.tail);
-            if ((tempHEX60gensym32_620762289.kind == 1)) {
-            var Temporary4 = tempHEX60gensym32_620762289;
-            if (ConstSet59[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1090519061)); }
-            result_620762255 = nimCopy(result_620762255, {kind: 1, fromInput: nimCopy(null, input_620762253, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym32_620762289.tail, NTI33554439), value: 0}, NTI1090519270);
+            var tempHEX60gensym32_620761761 = parse_1191183306(b_620761697, result1_620761748.tail);
+            if ((tempHEX60gensym32_620761761.kind == 1)) {
+            var Temporary4 = tempHEX60gensym32_620761761;
+            if (ConstSet59[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620761727 = nimCopy(result_620761727, {kind: 1, fromInput: nimCopy(null, input_620761725, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym32_620761761.tail, NTI33554439), value: 0}, NTI1191182566);
             break BeforeRet;
             }
             
           } while (false);
-          var result2_620762295 = nimCopy(null, tempHEX60gensym32_620762289, NTI1090519270);
-          var Temporary5 = result1_620762276;
-          if (ConstSet60[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1090519061)); }
-          result_620762255 = nimCopy(result_620762255, succeed_620762256(input_620762253, Temporary5.value, result2_620762295.tail), NTI1090519270);
+          var result2_620761767 = nimCopy(null, tempHEX60gensym32_620761761, NTI1191182566);
+          var Temporary5 = result1_620761748;
+          if (ConstSet60[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          result_620761727 = nimCopy(result_620761727, succeed_620761728(input_620761725, Temporary5.value, result2_620761767.tail), NTI1191182566);
           break BeforeRet;
         } while (false);
 
-        return result_620762255;
+        return result_620761727;
 
       }
 
-  var result_620762226 = null;
+  var result_620761698 = null;
 
     Label1: do {
     } while (false);
-    result_620762226 = {body: HEX3Aanonymous_620762252};
+    result_620761698 = {body: HEX3Aanonymous_620761724};
 
-  return result_620762226;
-
-}
-
-function HEX3CHEX3C_620762138(a_620762141, b_620762142) {
-
-function succeedImpl_620762154(inputInHEX60gensym86_620762155, valueInHEX60gensym86_620762156, tailInHEX60gensym86_620762157) {
-  var result_620762159 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
-
-    result_620762159 = nimCopy(result_620762159, {kind: 0, value: valueInHEX60gensym86_620762156, tail: nimCopy(null, tailInHEX60gensym86_620762157, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym86_620762155, NTI33554439), expected: []}, NTI1090519270);
-
-  return result_620762159;
+  return result_620761698;
 
 }
 
-function failImpl_620762161(inputInHEX60gensym86_620762162, expectedInHEX60gensym86_620762163, tailInHEX60gensym86_620762164) {
-  var result_620762166 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+function HEX3CHEX3C_620761610(a_620761613, b_620761614) {
 
-    result_620762166 = nimCopy(result_620762166, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym86_620762163, NTI620760761), tail: nimCopy(null, tailInHEX60gensym86_620762164, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym86_620762162, NTI33554439), value: 0}, NTI1090519270);
+function succeedImpl_620761626(inputInHEX60gensym75_620761627, valueInHEX60gensym75_620761628, tailInHEX60gensym75_620761629) {
+  var result_620761631 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
 
-  return result_620762166;
+    result_620761631 = nimCopy(result_620761631, {kind: 0, value: valueInHEX60gensym75_620761628, tail: nimCopy(null, tailInHEX60gensym75_620761629, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym75_620761627, NTI33554439), expected: []}, NTI1191182566);
+
+  return result_620761631;
+
+}
+
+function failImpl_620761633(inputInHEX60gensym75_620761634, expectedInHEX60gensym75_620761635, tailInHEX60gensym75_620761636) {
+  var result_620761638 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+
+    result_620761638 = nimCopy(result_620761638, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym75_620761635, NTI620760396), tail: nimCopy(null, tailInHEX60gensym75_620761636, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym75_620761634, NTI33554439), value: 0}, NTI1191182566);
+
+  return result_620761638;
 
 }
       
-function HEX3Aanonymous_620762169(input_620762170) {
+function HEX3Aanonymous_620761641(input_620761642) {
             var Temporary2;
             var Temporary4;
           var Temporary5;
 
-        var result_620762172 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+        var result_620761644 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620762173 = succeedImpl_620762154;
-          var fail_620762174 = failImpl_620762161;
+          var succeed_620761645 = succeedImpl_620761626;
+          var fail_620761646 = failImpl_620761633;
           Label1: do {
-            var tempHEX60gensym30_620762187 = parse_1090520010(a_620762141, input_620762170);
-            if ((tempHEX60gensym30_620762187.kind == 1)) {
-            var Temporary2 = tempHEX60gensym30_620762187;
-            if (ConstSet61[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620762172 = nimCopy(result_620762172, {kind: 1, fromInput: nimCopy(null, input_620762170, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym30_620762187.tail, NTI33554439), value: 0}, NTI1090519270);
+            var tempHEX60gensym30_620761659 = parse_1191183306(a_620761613, input_620761642);
+            if ((tempHEX60gensym30_620761659.kind == 1)) {
+            var Temporary2 = tempHEX60gensym30_620761659;
+            if (ConstSet61[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620761644 = nimCopy(result_620761644, {kind: 1, fromInput: nimCopy(null, input_620761642, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym30_620761659.tail, NTI33554439), value: 0}, NTI1191182566);
             break BeforeRet;
             }
             
           } while (false);
-          var result1_620762193 = nimCopy(null, tempHEX60gensym30_620762187, NTI1090519270);
+          var result1_620761665 = nimCopy(null, tempHEX60gensym30_620761659, NTI1191182566);
           Label3: do {
-            var tempHEX60gensym32_620762206 = parse_620759604(b_620762142, result1_620762193.tail);
-            if ((tempHEX60gensym32_620762206.kind == 1)) {
-            var Temporary4 = tempHEX60gensym32_620762206;
-            if (ConstSet62[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1090519061)); }
-            result_620762172 = nimCopy(result_620762172, {kind: 1, fromInput: nimCopy(null, input_620762170, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym32_620762206.tail, NTI33554439), value: 0}, NTI1090519270);
+            var tempHEX60gensym32_620761678 = parse_620759020(b_620761614, result1_620761665.tail);
+            if ((tempHEX60gensym32_620761678.kind == 1)) {
+            var Temporary4 = tempHEX60gensym32_620761678;
+            if (ConstSet62[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620761644 = nimCopy(result_620761644, {kind: 1, fromInput: nimCopy(null, input_620761642, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym32_620761678.tail, NTI33554439), value: 0}, NTI1191182566);
             break BeforeRet;
             }
             
           } while (false);
-          var result2_620762212 = nimCopy(null, tempHEX60gensym32_620762206, NTI620758259);
-          var Temporary5 = result1_620762193;
-          if (ConstSet63[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1090519061)); }
-          result_620762172 = nimCopy(result_620762172, succeed_620762173(input_620762170, Temporary5.value, result2_620762212.tail), NTI1090519270);
+          var result2_620761684 = nimCopy(null, tempHEX60gensym32_620761678, NTI620757839);
+          var Temporary5 = result1_620761665;
+          if (ConstSet63[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          result_620761644 = nimCopy(result_620761644, succeed_620761645(input_620761642, Temporary5.value, result2_620761684.tail), NTI1191182566);
           break BeforeRet;
         } while (false);
 
-        return result_620762172;
+        return result_620761644;
 
       }
 
-  var result_620762143 = null;
+  var result_620761615 = null;
 
     Label1: do {
     } while (false);
-    result_620762143 = {body: HEX3Aanonymous_620762169};
+    result_620761615 = {body: HEX3Aanonymous_620761641};
 
-  return result_620762143;
-
-}
-
-function HEX3EHEX3E_620761959(a_620761962, b_620761963) {
-
-function succeedImpl_620761975(inputInHEX60gensym84_620761976, valueInHEX60gensym84_620761977, tailInHEX60gensym84_620761978) {
-  var result_620761980 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
-
-    result_620761980 = nimCopy(result_620761980, {kind: 0, value: valueInHEX60gensym84_620761977, tail: nimCopy(null, tailInHEX60gensym84_620761978, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym84_620761976, NTI33554439), expected: []}, NTI1090519270);
-
-  return result_620761980;
+  return result_620761615;
 
 }
 
-function failImpl_620761982(inputInHEX60gensym84_620761983, expectedInHEX60gensym84_620761984, tailInHEX60gensym84_620761985) {
-  var result_620761987 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+function HEX3EHEX3E_620761431(a_620761434, b_620761435) {
 
-    result_620761987 = nimCopy(result_620761987, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym84_620761984, NTI620760634), tail: nimCopy(null, tailInHEX60gensym84_620761985, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym84_620761983, NTI33554439), value: 0}, NTI1090519270);
+function succeedImpl_620761447(inputInHEX60gensym73_620761448, valueInHEX60gensym73_620761449, tailInHEX60gensym73_620761450) {
+  var result_620761452 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
 
-  return result_620761987;
+    result_620761452 = nimCopy(result_620761452, {kind: 0, value: valueInHEX60gensym73_620761449, tail: nimCopy(null, tailInHEX60gensym73_620761450, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym73_620761448, NTI33554439), expected: []}, NTI1191182566);
+
+  return result_620761452;
+
+}
+
+function failImpl_620761454(inputInHEX60gensym73_620761455, expectedInHEX60gensym73_620761456, tailInHEX60gensym73_620761457) {
+  var result_620761459 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+
+    result_620761459 = nimCopy(result_620761459, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym73_620761456, NTI620760269), tail: nimCopy(null, tailInHEX60gensym73_620761457, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym73_620761455, NTI33554439), value: 0}, NTI1191182566);
+
+  return result_620761459;
 
 }
       
-function HEX3Aanonymous_620761990(input_620761991) {
+function HEX3Aanonymous_620761462(input_620761463) {
             var Temporary2;
             var Temporary4;
           var Temporary5;
 
-        var result_620761993 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+        var result_620761465 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620761994 = succeedImpl_620761975;
-          var fail_620761995 = failImpl_620761982;
+          var succeed_620761466 = succeedImpl_620761447;
+          var fail_620761467 = failImpl_620761454;
           Label1: do {
-            var tempHEX60gensym34_620762008 = parse_620759604(a_620761962, input_620761991);
-            if ((tempHEX60gensym34_620762008.kind == 1)) {
-            var Temporary2 = tempHEX60gensym34_620762008;
-            if (ConstSet64[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620761993 = nimCopy(result_620761993, {kind: 1, fromInput: nimCopy(null, input_620761991, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym34_620762008.tail, NTI33554439), value: 0}, NTI1090519270);
+            var tempHEX60gensym34_620761480 = parse_620759020(a_620761434, input_620761463);
+            if ((tempHEX60gensym34_620761480.kind == 1)) {
+            var Temporary2 = tempHEX60gensym34_620761480;
+            if (ConstSet64[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620761465 = nimCopy(result_620761465, {kind: 1, fromInput: nimCopy(null, input_620761463, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym34_620761480.tail, NTI33554439), value: 0}, NTI1191182566);
             break BeforeRet;
             }
             
           } while (false);
-          var result1_620762014 = nimCopy(null, tempHEX60gensym34_620762008, NTI620758259);
+          var result1_620761486 = nimCopy(null, tempHEX60gensym34_620761480, NTI620757839);
           Label3: do {
-            var tempHEX60gensym36_620762027 = parse_1090520010(b_620761963, result1_620762014.tail);
-            if ((tempHEX60gensym36_620762027.kind == 1)) {
-            var Temporary4 = tempHEX60gensym36_620762027;
-            if (ConstSet65[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1090519061)); }
-            result_620761993 = nimCopy(result_620761993, {kind: 1, fromInput: nimCopy(null, input_620761991, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym36_620762027.tail, NTI33554439), value: 0}, NTI1090519270);
+            var tempHEX60gensym36_620761499 = parse_1191183306(b_620761435, result1_620761486.tail);
+            if ((tempHEX60gensym36_620761499.kind == 1)) {
+            var Temporary4 = tempHEX60gensym36_620761499;
+            if (ConstSet65[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620761465 = nimCopy(result_620761465, {kind: 1, fromInput: nimCopy(null, input_620761463, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym36_620761499.tail, NTI33554439), value: 0}, NTI1191182566);
             break BeforeRet;
             }
             
           } while (false);
-          var result2_620762033 = nimCopy(null, tempHEX60gensym36_620762027, NTI1090519270);
-          var Temporary5 = result2_620762033;
-          if (ConstSet66[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1090519061)); }
-          result_620761993 = nimCopy(result_620761993, succeed_620761994(input_620761991, Temporary5.value, result2_620762033.tail), NTI1090519270);
+          var result2_620761505 = nimCopy(null, tempHEX60gensym36_620761499, NTI1191182566);
+          var Temporary5 = result2_620761505;
+          if (ConstSet66[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          result_620761465 = nimCopy(result_620761465, succeed_620761466(input_620761463, Temporary5.value, result2_620761505.tail), NTI1191182566);
           break BeforeRet;
         } while (false);
 
-        return result_620761993;
+        return result_620761465;
 
       }
 
-  var result_620761964 = null;
+  var result_620761436 = null;
 
     Label1: do {
     } while (false);
-    result_620761964 = {body: HEX3Aanonymous_620761990};
+    result_620761436 = {body: HEX3Aanonymous_620761462};
 
-  return result_620761964;
-
-}
-
-function HEX3EHEX3E_620762042(a_620762045, b_620762046) {
-
-function succeedImpl_620762058(inputInHEX60gensym85_620762059, valueInHEX60gensym85_620762060, tailInHEX60gensym85_620762061) {
-  var result_620762063 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620762063 = nimCopy(result_620762063, {kind: 0, value: nimCopy(null, valueInHEX60gensym85_620762060, NTI620758253), tail: nimCopy(null, tailInHEX60gensym85_620762061, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym85_620762059, NTI33554439), expected: []}, NTI620758259);
-
-  return result_620762063;
+  return result_620761436;
 
 }
 
-function failImpl_620762065(inputInHEX60gensym85_620762066, expectedInHEX60gensym85_620762067, tailInHEX60gensym85_620762068) {
-  var result_620762070 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function HEX3EHEX3E_620761514(a_620761517, b_620761518) {
 
-    result_620762070 = nimCopy(result_620762070, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym85_620762067, NTI620760695), tail: nimCopy(null, tailInHEX60gensym85_620762068, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym85_620762066, NTI33554439), value: []}, NTI620758259);
+function succeedImpl_620761530(inputInHEX60gensym74_620761531, valueInHEX60gensym74_620761532, tailInHEX60gensym74_620761533) {
+  var result_620761535 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-  return result_620762070;
+    result_620761535 = nimCopy(result_620761535, {kind: 0, value: nimCopy(null, valueInHEX60gensym74_620761532, NTI620757833), tail: nimCopy(null, tailInHEX60gensym74_620761533, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym74_620761531, NTI33554439), expected: []}, NTI620757839);
+
+  return result_620761535;
+
+}
+
+function failImpl_620761537(inputInHEX60gensym74_620761538, expectedInHEX60gensym74_620761539, tailInHEX60gensym74_620761540) {
+  var result_620761542 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620761542 = nimCopy(result_620761542, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym74_620761539, NTI620760330), tail: nimCopy(null, tailInHEX60gensym74_620761540, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym74_620761538, NTI33554439), value: []}, NTI620757839);
+
+  return result_620761542;
 
 }
       
-function HEX3Aanonymous_620762073(input_620762074) {
+function HEX3Aanonymous_620761545(input_620761546) {
             var Temporary2;
             var Temporary4;
           var Temporary5;
 
-        var result_620762076 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+        var result_620761548 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620762077 = succeedImpl_620762058;
-          var fail_620762078 = failImpl_620762065;
+          var succeed_620761549 = succeedImpl_620761530;
+          var fail_620761550 = failImpl_620761537;
           Label1: do {
-            var tempHEX60gensym34_620762091 = parse_1090520010(a_620762045, input_620762074);
-            if ((tempHEX60gensym34_620762091.kind == 1)) {
-            var Temporary2 = tempHEX60gensym34_620762091;
-            if (ConstSet67[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620762076 = nimCopy(result_620762076, {kind: 1, fromInput: nimCopy(null, input_620762074, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym34_620762091.tail, NTI33554439), value: []}, NTI620758259);
+            var tempHEX60gensym34_620761563 = parse_1191183306(a_620761517, input_620761546);
+            if ((tempHEX60gensym34_620761563.kind == 1)) {
+            var Temporary2 = tempHEX60gensym34_620761563;
+            if (ConstSet67[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620761548 = nimCopy(result_620761548, {kind: 1, fromInput: nimCopy(null, input_620761546, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym34_620761563.tail, NTI33554439), value: []}, NTI620757839);
             break BeforeRet;
             }
             
           } while (false);
-          var result1_620762097 = nimCopy(null, tempHEX60gensym34_620762091, NTI1090519270);
+          var result1_620761569 = nimCopy(null, tempHEX60gensym34_620761563, NTI1191182566);
           Label3: do {
-            var tempHEX60gensym36_620762110 = parse_620759604(b_620762046, result1_620762097.tail);
-            if ((tempHEX60gensym36_620762110.kind == 1)) {
-            var Temporary4 = tempHEX60gensym36_620762110;
-            if (ConstSet68[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1090519061)); }
-            result_620762076 = nimCopy(result_620762076, {kind: 1, fromInput: nimCopy(null, input_620762074, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym36_620762110.tail, NTI33554439), value: []}, NTI620758259);
+            var tempHEX60gensym36_620761582 = parse_620759020(b_620761518, result1_620761569.tail);
+            if ((tempHEX60gensym36_620761582.kind == 1)) {
+            var Temporary4 = tempHEX60gensym36_620761582;
+            if (ConstSet68[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620761548 = nimCopy(result_620761548, {kind: 1, fromInput: nimCopy(null, input_620761546, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym36_620761582.tail, NTI33554439), value: []}, NTI620757839);
             break BeforeRet;
             }
             
           } while (false);
-          var result2_620762116 = nimCopy(null, tempHEX60gensym36_620762110, NTI620758259);
-          var Temporary5 = result2_620762116;
-          if (ConstSet69[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1090519061)); }
-          result_620762076 = nimCopy(result_620762076, succeed_620762077(input_620762074, Temporary5.value, result2_620762116.tail), NTI620758259);
+          var result2_620761588 = nimCopy(null, tempHEX60gensym36_620761582, NTI620757839);
+          var Temporary5 = result2_620761588;
+          if (ConstSet69[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          result_620761548 = nimCopy(result_620761548, succeed_620761549(input_620761546, Temporary5.value, result2_620761588.tail), NTI620757839);
           break BeforeRet;
         } while (false);
 
-        return result_620762076;
+        return result_620761548;
 
       }
 
-  var result_620762047 = null;
+  var result_620761519 = null;
 
     Label1: do {
     } while (false);
-    result_620762047 = {body: HEX3Aanonymous_620762073};
+    result_620761519 = {body: HEX3Aanonymous_620761545};
 
-  return result_620762047;
-
-}
-
-function HEX3EHEX3E_620761876(a_620761879, b_620761880) {
-
-function succeedImpl_620761892(inputInHEX60gensym83_620761893, valueInHEX60gensym83_620761894, tailInHEX60gensym83_620761895) {
-  var result_620761897 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620761897 = nimCopy(result_620761897, {kind: 0, value: nimCopy(null, valueInHEX60gensym83_620761894, NTI620758253), tail: nimCopy(null, tailInHEX60gensym83_620761895, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym83_620761893, NTI33554439), expected: []}, NTI620758259);
-
-  return result_620761897;
+  return result_620761519;
 
 }
 
-function failImpl_620761899(inputInHEX60gensym83_620761900, expectedInHEX60gensym83_620761901, tailInHEX60gensym83_620761902) {
-  var result_620761904 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function HEX3EHEX3E_620761348(a_620761351, b_620761352) {
 
-    result_620761904 = nimCopy(result_620761904, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym83_620761901, NTI620760573), tail: nimCopy(null, tailInHEX60gensym83_620761902, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym83_620761900, NTI33554439), value: []}, NTI620758259);
+function succeedImpl_620761364(inputInHEX60gensym72_620761365, valueInHEX60gensym72_620761366, tailInHEX60gensym72_620761367) {
+  var result_620761369 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-  return result_620761904;
+    result_620761369 = nimCopy(result_620761369, {kind: 0, value: nimCopy(null, valueInHEX60gensym72_620761366, NTI620757833), tail: nimCopy(null, tailInHEX60gensym72_620761367, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym72_620761365, NTI33554439), expected: []}, NTI620757839);
+
+  return result_620761369;
+
+}
+
+function failImpl_620761371(inputInHEX60gensym72_620761372, expectedInHEX60gensym72_620761373, tailInHEX60gensym72_620761374) {
+  var result_620761376 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620761376 = nimCopy(result_620761376, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym72_620761373, NTI620760208), tail: nimCopy(null, tailInHEX60gensym72_620761374, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym72_620761372, NTI33554439), value: []}, NTI620757839);
+
+  return result_620761376;
 
 }
       
-function HEX3Aanonymous_620761907(input_620761908) {
+function HEX3Aanonymous_620761379(input_620761380) {
             var Temporary2;
             var Temporary4;
           var Temporary5;
 
-        var result_620761910 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+        var result_620761382 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620761911 = succeedImpl_620761892;
-          var fail_620761912 = failImpl_620761899;
+          var succeed_620761383 = succeedImpl_620761364;
+          var fail_620761384 = failImpl_620761371;
           Label1: do {
-            var tempHEX60gensym34_620761925 = parse_620758704(a_620761879, input_620761908);
-            if ((tempHEX60gensym34_620761925.kind == 1)) {
-            var Temporary2 = tempHEX60gensym34_620761925;
-            if (ConstSet70[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620761910 = nimCopy(result_620761910, {kind: 1, fromInput: nimCopy(null, input_620761908, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym34_620761925.tail, NTI33554439), value: []}, NTI620758259);
+            var tempHEX60gensym34_620761397 = parse_620758790(a_620761351, input_620761380);
+            if ((tempHEX60gensym34_620761397.kind == 1)) {
+            var Temporary2 = tempHEX60gensym34_620761397;
+            if (ConstSet70[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620761382 = nimCopy(result_620761382, {kind: 1, fromInput: nimCopy(null, input_620761380, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym34_620761397.tail, NTI33554439), value: []}, NTI620757839);
             break BeforeRet;
             }
             
           } while (false);
-          var result1_620761931 = nimCopy(null, tempHEX60gensym34_620761925, NTI1090519172);
+          var result1_620761403 = nimCopy(null, tempHEX60gensym34_620761397, NTI1191182468);
           Label3: do {
-            var tempHEX60gensym36_620761944 = parse_620759604(b_620761880, result1_620761931.tail);
-            if ((tempHEX60gensym36_620761944.kind == 1)) {
-            var Temporary4 = tempHEX60gensym36_620761944;
-            if (ConstSet71[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1090519061)); }
-            result_620761910 = nimCopy(result_620761910, {kind: 1, fromInput: nimCopy(null, input_620761908, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym36_620761944.tail, NTI33554439), value: []}, NTI620758259);
+            var tempHEX60gensym36_620761416 = parse_620759020(b_620761352, result1_620761403.tail);
+            if ((tempHEX60gensym36_620761416.kind == 1)) {
+            var Temporary4 = tempHEX60gensym36_620761416;
+            if (ConstSet71[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620761382 = nimCopy(result_620761382, {kind: 1, fromInput: nimCopy(null, input_620761380, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym36_620761416.tail, NTI33554439), value: []}, NTI620757839);
             break BeforeRet;
             }
             
           } while (false);
-          var result2_620761950 = nimCopy(null, tempHEX60gensym36_620761944, NTI620758259);
-          var Temporary5 = result2_620761950;
-          if (ConstSet72[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1090519061)); }
-          result_620761910 = nimCopy(result_620761910, succeed_620761911(input_620761908, Temporary5.value, result2_620761950.tail), NTI620758259);
+          var result2_620761422 = nimCopy(null, tempHEX60gensym36_620761416, NTI620757839);
+          var Temporary5 = result2_620761422;
+          if (ConstSet72[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          result_620761382 = nimCopy(result_620761382, succeed_620761383(input_620761380, Temporary5.value, result2_620761422.tail), NTI620757839);
           break BeforeRet;
         } while (false);
 
-        return result_620761910;
+        return result_620761382;
 
       }
 
-  var result_620761881 = null;
+  var result_620761353 = null;
 
     Label1: do {
     } while (false);
-    result_620761881 = {body: HEX3Aanonymous_620761907};
+    result_620761353 = {body: HEX3Aanonymous_620761379};
 
-  return result_620761881;
+  return result_620761353;
 
 }
 
-function nsuStartsWith(s_704644385, prefix_704644386) {
+function nsuStartsWith(s_671089953, prefix_671089954) {
             var Temporary3;
 
-  var result_704644387 = false;
+  var result_671089955 = false;
 
   BeforeRet: do {
-    var prefixLenHEX60gensym141_704644392 = (prefix_704644386).length;
-    var sLenHEX60gensym141_704644393 = (s_704644385).length;
-    var iHEX60gensym141_704644394 = 0;
+    var prefixLenHEX60gensym141_671089960 = (prefix_671089954).length;
+    var sLenHEX60gensym141_671089961 = (s_671089953).length;
+    var iHEX60gensym141_671089962 = 0;
     Label1: do {
         Label2: while (true) {
         if (!true) break Label2;
-          if ((prefixLenHEX60gensym141_704644392 <= iHEX60gensym141_704644394)) {
-          result_704644387 = true;
+          if ((prefixLenHEX60gensym141_671089960 <= iHEX60gensym141_671089962)) {
+          result_671089955 = true;
           break BeforeRet;
           }
           
-            if ((sLenHEX60gensym141_704644393 <= iHEX60gensym141_704644394)) Temporary3 = true; else {              Temporary3 = !((s_704644385[chckIndx(iHEX60gensym141_704644394, 0, (s_704644385).length - 1)] == prefix_704644386[chckIndx(iHEX60gensym141_704644394, 0, (prefix_704644386).length - 1)]));            }          if (Temporary3) {
-          result_704644387 = false;
+            if ((sLenHEX60gensym141_671089961 <= iHEX60gensym141_671089962)) Temporary3 = true; else {              Temporary3 = !((s_671089953[chckIndx(iHEX60gensym141_671089962, 0, (s_671089953).length - 1)] == prefix_671089954[chckIndx(iHEX60gensym141_671089962, 0, (prefix_671089954).length - 1)]));            }          if (Temporary3) {
+          result_671089955 = false;
           break BeforeRet;
           }
           
-          iHEX60gensym141_704644394 = addInt(iHEX60gensym141_704644394, 1);
+          iHEX60gensym141_671089962 = addInt(iHEX60gensym141_671089962, 1);
         }
     } while (false);
   } while (false);
 
-  return result_704644387;
+  return result_671089955;
 
 }
 
-function s_1090519151(expect_1090519152) {
+function s_1191182447(expect_1191182448) {
 
-function succeedImpl_1090519173(inputInHEX60gensym2_1090519174, valueInHEX60gensym2_1090519175, tailInHEX60gensym2_1090519176) {
-  var result_1090519178 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function succeedImpl_1191182469(inputInHEX60gensym2_1191182470, valueInHEX60gensym2_1191182471, tailInHEX60gensym2_1191182472) {
+  var result_1191182474 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_1090519178 = nimCopy(result_1090519178, {kind: 0, value: nimCopy(null, valueInHEX60gensym2_1090519175, NTI33554439), tail: nimCopy(null, tailInHEX60gensym2_1090519176, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym2_1090519174, NTI33554439), expected: []}, NTI1090519172);
+    result_1191182474 = nimCopy(result_1191182474, {kind: 0, value: nimCopy(null, valueInHEX60gensym2_1191182471, NTI33554439), tail: nimCopy(null, tailInHEX60gensym2_1191182472, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym2_1191182470, NTI33554439), expected: []}, NTI1191182468);
 
-  return result_1090519178;
-
-}
-
-function failImpl_1090519201(inputInHEX60gensym2_1090519202, expectedInHEX60gensym2_1090519203, tailInHEX60gensym2_1090519204) {
-  var result_1090519206 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_1090519206 = nimCopy(result_1090519206, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym2_1090519203, NTI1090519206), tail: nimCopy(null, tailInHEX60gensym2_1090519204, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym2_1090519202, NTI33554439), value: []}, NTI1090519172);
-
-  return result_1090519206;
+  return result_1191182474;
 
 }
-      expect_1090519152 = nimCopy(null, expect_1090519152, NTI33554439);
+
+function failImpl_1191182497(inputInHEX60gensym2_1191182498, expectedInHEX60gensym2_1191182499, tailInHEX60gensym2_1191182500) {
+  var result_1191182502 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_1191182502 = nimCopy(result_1191182502, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym2_1191182499, NTI1191182502), tail: nimCopy(null, tailInHEX60gensym2_1191182500, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym2_1191182498, NTI33554439), value: []}, NTI1191182468);
+
+  return result_1191182502;
+
+}
+      expect_1191182448 = nimCopy(null, expect_1191182448, NTI33554439);
       
-function HEX3Aanonymous_1090519209(input_1090519210) {
-        var result_1090519212 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function HEX3Aanonymous_1191182505(input_1191182506) {
+        var result_1191182508 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_1090519213 = succeedImpl_1090519173;
-          var fail_1090519214 = failImpl_1090519201;
-          if (nsuStartsWith(input_1090519210, expect_1090519152)) {
-          result_1090519212 = nimCopy(result_1090519212, succeed_1090519213(input_1090519210, expect_1090519152, HEX5BHEX5D_654314667(input_1090519210, HEX2EHEX2E_654314640((expect_1090519152).length, 1))), NTI1090519172);
+          var succeed_1191182509 = succeedImpl_1191182469;
+          var fail_1191182510 = failImpl_1191182497;
+          if (nsuStartsWith(input_1191182506, expect_1191182448)) {
+          result_1191182508 = nimCopy(result_1191182508, succeed_1191182509(input_1191182506, expect_1191182448, HEX5BHEX5D_973081754(input_1191182506, HEX2EHEX2E_905969744((expect_1191182448).length, 1))), NTI1191182468);
           break BeforeRet;
           }
           
-          result_1090519212 = nimCopy(result_1090519212, fail_1090519214(input_1090519210, [nsuFormatSingleElem(makeNimstrLit("\'$1\'"), expect_1090519152)], input_1090519210), NTI1090519172);
+          result_1191182508 = nimCopy(result_1191182508, fail_1191182510(input_1191182506, [nsuFormatSingleElem(makeNimstrLit("\'$1\'"), expect_1191182448)], input_1191182506), NTI1191182468);
         } while (false);
 
-        return result_1090519212;
+        return result_1191182508;
 
       }
 
-  var result_1090519162 = null;
+  var result_1191182458 = null;
 
     Label1: do {
     } while (false);
-    result_1090519162 = {body: HEX3Aanonymous_1090519209};
+    result_1191182458 = {body: HEX3Aanonymous_1191182505};
 
-  return result_1090519162;
-
-}
-
-function c_1090519273(expect_1090519274) {
-
-function succeedImpl_1090519295(inputInHEX60gensym5_1090519296, valueInHEX60gensym5_1090519297, tailInHEX60gensym5_1090519298) {
-  var result_1090519300 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
-
-    result_1090519300 = nimCopy(result_1090519300, {kind: 0, value: valueInHEX60gensym5_1090519297, tail: nimCopy(null, tailInHEX60gensym5_1090519298, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym5_1090519296, NTI33554439), expected: []}, NTI1090519270);
-
-  return result_1090519300;
+  return result_1191182458;
 
 }
 
-function failImpl_1090519314(inputInHEX60gensym5_1090519315, expectedInHEX60gensym5_1090519316, tailInHEX60gensym5_1090519317) {
-  var result_1090519319 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+function c_1191182569(expect_1191182570) {
 
-    result_1090519319 = nimCopy(result_1090519319, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym5_1090519316, NTI1090519298), tail: nimCopy(null, tailInHEX60gensym5_1090519317, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym5_1090519315, NTI33554439), value: 0}, NTI1090519270);
+function succeedImpl_1191182591(inputInHEX60gensym5_1191182592, valueInHEX60gensym5_1191182593, tailInHEX60gensym5_1191182594) {
+  var result_1191182596 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
 
-  return result_1090519319;
+    result_1191182596 = nimCopy(result_1191182596, {kind: 0, value: valueInHEX60gensym5_1191182593, tail: nimCopy(null, tailInHEX60gensym5_1191182594, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym5_1191182592, NTI33554439), expected: []}, NTI1191182566);
+
+  return result_1191182596;
+
+}
+
+function failImpl_1191182610(inputInHEX60gensym5_1191182611, expectedInHEX60gensym5_1191182612, tailInHEX60gensym5_1191182613) {
+  var result_1191182615 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+
+    result_1191182615 = nimCopy(result_1191182615, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym5_1191182612, NTI1191182594), tail: nimCopy(null, tailInHEX60gensym5_1191182613, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym5_1191182611, NTI33554439), value: 0}, NTI1191182566);
+
+  return result_1191182615;
 
 }
       
-function HEX3Aanonymous_1090519322(input_1090519323) {
+function HEX3Aanonymous_1191182618(input_1191182619) {
             var Temporary1;
 
-        var result_1090519325 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+        var result_1191182621 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_1090519326 = succeedImpl_1090519295;
-          var fail_1090519327 = failImpl_1090519314;
-            if (!(0 < (input_1090519323).length)) Temporary1 = false; else {              Temporary1 = (input_1090519323[chckIndx(0, 0, (input_1090519323).length - 1)] == expect_1090519274);            }          if (Temporary1) {
-          result_1090519325 = nimCopy(result_1090519325, succeed_1090519326(input_1090519323, expect_1090519274, HEX5BHEX5D_654314667(input_1090519323, HEX2EHEX2E_654314640(1, 1))), NTI1090519270);
+          var succeed_1191182622 = succeedImpl_1191182591;
+          var fail_1191182623 = failImpl_1191182610;
+            if (!(0 < (input_1191182619).length)) Temporary1 = false; else {              Temporary1 = (input_1191182619[chckIndx(0, 0, (input_1191182619).length - 1)] == expect_1191182570);            }          if (Temporary1) {
+          result_1191182621 = nimCopy(result_1191182621, succeed_1191182622(input_1191182619, expect_1191182570, HEX5BHEX5D_973081754(input_1191182619, HEX2EHEX2E_905969744(1, 1))), NTI1191182566);
           break BeforeRet;
           }
           
-          result_1090519325 = nimCopy(result_1090519325, fail_1090519327(input_1090519323, [nsuFormatSingleElem(makeNimstrLit("\'$1\'"), nimCharToStr(expect_1090519274))], input_1090519323), NTI1090519270);
+          result_1191182621 = nimCopy(result_1191182621, fail_1191182623(input_1191182619, [nsuFormatSingleElem(makeNimstrLit("\'$1\'"), nimCharToStr(expect_1191182570))], input_1191182619), NTI1191182566);
         } while (false);
 
-        return result_1090519325;
+        return result_1191182621;
 
       }
 
-  var result_1090519284 = null;
+  var result_1191182580 = null;
 
     Label1: do {
     } while (false);
-    result_1090519284 = {body: HEX3Aanonymous_1090519322};
+    result_1191182580 = {body: HEX3Aanonymous_1191182618};
 
-  return result_1090519284;
-
-}
-
-function map_620759045(a_620759048, fn_620759050) {
-
-function succeedImpl_620759062(inputInHEX60gensym29_620759063, valueInHEX60gensym29_620759064, tailInHEX60gensym29_620759065) {
-  var result_620759067 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-    result_620759067 = nimCopy(result_620759067, {kind: 0, value: nimCopy(null, valueInHEX60gensym29_620759064, NTI687865860), tail: nimCopy(null, tailInHEX60gensym29_620759065, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym29_620759063, NTI33554439), expected: []}, NTI620757844);
-
-  return result_620759067;
+  return result_1191182580;
 
 }
 
-function failImpl_620759081(inputInHEX60gensym29_620759082, expectedInHEX60gensym29_620759083, tailInHEX60gensym29_620759084) {
-  var result_620759086 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+function map_620762609(s_620762612, op_620762614) {
+  var result_620762615 = [];
 
-    result_620759086 = nimCopy(result_620759086, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym29_620759083, NTI620758196), tail: nimCopy(null, tailInHEX60gensym29_620759084, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym29_620759082, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-
-  return result_620759086;
-
-}
-      
-function HEX3Aanonymous_620759089(input_620759090) {
-            var Temporary2;
-          var Temporary3;
-
-        var result_620759092 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-        BeforeRet: do {
-          var succeed_620759093 = succeedImpl_620759062;
-          var fail_620759094 = failImpl_620759081;
-          Label1: do {
-            var tempHEX60gensym24_620759107 = parse_620758704(a_620759048, input_620759090);
-            if ((tempHEX60gensym24_620759107.kind == 1)) {
-            var Temporary2 = tempHEX60gensym24_620759107;
-            if (ConstSet73[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620759092 = nimCopy(result_620759092, {kind: 1, fromInput: nimCopy(null, input_620759090, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym24_620759107.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result1_620759113 = nimCopy(null, tempHEX60gensym24_620759107, NTI1090519172);
-          var Temporary3 = result1_620759113;
-          if (ConstSet74[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-          result_620759092 = nimCopy(result_620759092, succeed_620759093(input_620759090, fn_620759050(Temporary3.value), result1_620759113.tail), NTI620757844);
-          break BeforeRet;
-        } while (false);
-
-        return result_620759092;
-
-      }
-
-  var result_620759051 = null;
-
-    Label1: do {
-    } while (false);
-    result_620759051 = {body: HEX3Aanonymous_620759089};
-
-  return result_620759051;
-
-}
-
-function map_620758881(s_620758884, op_620758886) {
-  var result_620758887 = [];
-
-    result_620758887 = new Array(chckRange((s_620758884).length, 0, 2147483647)); for (var i = 0 ; i < chckRange((s_620758884).length, 0, 2147483647) ; ++i) { result_620758887[i] = null; }    Label1: do {
-      var i_620758902 = 0;
-      var colontmp__620767599 = 0;
-      colontmp__620767599 = (s_620758884).length;
-      var i_620767600 = 0;
+    result_620762615 = new Array(chckRange((s_620762612).length, 0, 2147483647)); for (var i = 0 ; i < chckRange((s_620762612).length, 0, 2147483647) ; ++i) { result_620762615[i] = null; }    Label1: do {
+      var i_620762630 = 0;
+      var colontmp__620768380 = 0;
+      colontmp__620768380 = (s_620762612).length;
+      var i_620768381 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(i_620767600 < colontmp__620767599)) break Label3;
-            i_620758902 = i_620767600;
-            result_620758887[chckIndx(i_620758902, 0, (result_620758887).length - 1)] = op_620758886(s_620758884[chckIndx(i_620758902, 0, (s_620758884).length - 1)]);
-            i_620767600 = addInt(i_620767600, 1);
+          if (!(i_620768381 < colontmp__620768380)) break Label3;
+            i_620762630 = i_620768381;
+            result_620762615[chckIndx(i_620762630, 0, (result_620762615).length - 1)] = op_620762614(s_620762612[chckIndx(i_620762630, 0, (s_620762612).length - 1)]);
+            i_620768381 = addInt(i_620768381, 1);
           }
       } while (false);
     } while (false);
 
-  return result_620758887;
+  return result_620762615;
 
 }
 
-function map_620758777(a_620758780, fn_620758782) {
+function map_620762505(a_620762508, fn_620762510) {
 
-function succeedImpl_620758794(inputInHEX60gensym22_620758795, valueInHEX60gensym22_620758796, tailInHEX60gensym22_620758797) {
-  var result_620758799 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function succeedImpl_620762522(inputInHEX60gensym96_620762523, valueInHEX60gensym96_620762524, tailInHEX60gensym96_620762525) {
+  var result_620762527 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
 
-    result_620758799 = nimCopy(result_620758799, {kind: 0, value: nimCopy(null, valueInHEX60gensym22_620758796, NTI33554439), tail: nimCopy(null, tailInHEX60gensym22_620758797, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym22_620758795, NTI33554439), expected: []}, NTI1090519172);
+    result_620762527 = nimCopy(result_620762527, {kind: 0, value: nimCopy(null, valueInHEX60gensym96_620762524, NTI654311428), tail: nimCopy(null, tailInHEX60gensym96_620762525, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym96_620762523, NTI33554439), expected: []}, NTI620758888);
 
-  return result_620758799;
+  return result_620762527;
 
 }
 
-function failImpl_620758801(inputInHEX60gensym22_620758802, expectedInHEX60gensym22_620758803, tailInHEX60gensym22_620758804) {
-  var result_620758806 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function failImpl_620762529(inputInHEX60gensym96_620762530, expectedInHEX60gensym96_620762531, tailInHEX60gensym96_620762532) {
+  var result_620762534 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
 
-    result_620758806 = nimCopy(result_620758806, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym22_620758803, NTI620758015), tail: nimCopy(null, tailInHEX60gensym22_620758804, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym22_620758802, NTI33554439), value: []}, NTI1090519172);
+    result_620762534 = nimCopy(result_620762534, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym96_620762531, NTI620761098), tail: nimCopy(null, tailInHEX60gensym96_620762532, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym96_620762530, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
 
-  return result_620758806;
+  return result_620762534;
 
 }
       
-function HEX3Aanonymous_620758809(input_620758810) {
+function HEX3Aanonymous_620762537(input_620762538) {
             var Temporary2;
           var Temporary3;
 
-        var result_620758812 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+        var result_620762540 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620758813 = succeedImpl_620758794;
-          var fail_620758814 = failImpl_620758801;
+          var succeed_620762541 = succeedImpl_620762522;
+          var fail_620762542 = failImpl_620762529;
           Label1: do {
-            var tempHEX60gensym24_620758827 = parse_620758704(a_620758780, input_620758810);
-            if ((tempHEX60gensym24_620758827.kind == 1)) {
-            var Temporary2 = tempHEX60gensym24_620758827;
-            if (ConstSet75[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620758812 = nimCopy(result_620758812, {kind: 1, fromInput: nimCopy(null, input_620758810, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym24_620758827.tail, NTI33554439), value: []}, NTI1090519172);
+            var tempHEX60gensym24_620762555 = parse_620758790(a_620762508, input_620762538);
+            if ((tempHEX60gensym24_620762555.kind == 1)) {
+            var Temporary2 = tempHEX60gensym24_620762555;
+            if (ConstSet73[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620762540 = nimCopy(result_620762540, {kind: 1, fromInput: nimCopy(null, input_620762538, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym24_620762555.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
             break BeforeRet;
             }
             
           } while (false);
-          var result1_620758833 = nimCopy(null, tempHEX60gensym24_620758827, NTI1090519172);
-          var Temporary3 = result1_620758833;
-          if (ConstSet76[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-          result_620758812 = nimCopy(result_620758812, succeed_620758813(input_620758810, fn_620758782(Temporary3.value), result1_620758833.tail), NTI1090519172);
+          var result1_620762561 = nimCopy(null, tempHEX60gensym24_620762555, NTI1191182468);
+          var Temporary3 = result1_620762561;
+          if (ConstSet74[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+          result_620762540 = nimCopy(result_620762540, succeed_620762541(input_620762538, fn_620762510(Temporary3.value), result1_620762561.tail), NTI620758888);
           break BeforeRet;
         } while (false);
 
-        return result_620758812;
+        return result_620762540;
 
       }
 
-  var result_620758783 = null;
+  var result_620762511 = null;
 
     Label1: do {
     } while (false);
-    result_620758783 = {body: HEX3Aanonymous_620758809};
+    result_620762511 = {body: HEX3Aanonymous_620762537};
 
-  return result_620758783;
-
-}
-
-function HEX3CHEX3C_620758659(a_620758662, b_620758663) {
-
-function succeedImpl_620758675(inputInHEX60gensym20_620758676, valueInHEX60gensym20_620758677, tailInHEX60gensym20_620758678) {
-  var result_620758680 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620758680 = nimCopy(result_620758680, {kind: 0, value: nimCopy(null, valueInHEX60gensym20_620758677, NTI33554439), tail: nimCopy(null, tailInHEX60gensym20_620758678, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym20_620758676, NTI33554439), expected: []}, NTI1090519172);
-
-  return result_620758680;
+  return result_620762511;
 
 }
 
-function failImpl_620758682(inputInHEX60gensym20_620758683, expectedInHEX60gensym20_620758684, tailInHEX60gensym20_620758685) {
-  var result_620758687 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function HEX3CHEX3C_620762399(a_620762402, b_620762403) {
 
-    result_620758687 = nimCopy(result_620758687, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym20_620758684, NTI620757925), tail: nimCopy(null, tailInHEX60gensym20_620758685, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym20_620758683, NTI33554439), value: []}, NTI1090519172);
+function succeedImpl_620762415(inputInHEX60gensym94_620762416, valueInHEX60gensym94_620762417, tailInHEX60gensym94_620762418) {
+  var result_620762420 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-  return result_620758687;
+    result_620762420 = nimCopy(result_620762420, {kind: 0, value: nimCopy(null, valueInHEX60gensym94_620762417, NTI33554439), tail: nimCopy(null, tailInHEX60gensym94_620762418, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym94_620762416, NTI33554439), expected: []}, NTI1191182468);
+
+  return result_620762420;
+
+}
+
+function failImpl_620762422(inputInHEX60gensym94_620762423, expectedInHEX60gensym94_620762424, tailInHEX60gensym94_620762425) {
+  var result_620762427 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620762427 = nimCopy(result_620762427, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym94_620762424, NTI620761020), tail: nimCopy(null, tailInHEX60gensym94_620762425, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym94_620762423, NTI33554439), value: []}, NTI1191182468);
+
+  return result_620762427;
 
 }
       
-function HEX3Aanonymous_620758690(input_620758691) {
+function HEX3Aanonymous_620762430(input_620762431) {
             var Temporary2;
             var Temporary4;
           var Temporary5;
 
-        var result_620758693 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+        var result_620762433 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620758694 = succeedImpl_620758675;
-          var fail_620758695 = failImpl_620758682;
+          var succeed_620762434 = succeedImpl_620762415;
+          var fail_620762435 = failImpl_620762422;
           Label1: do {
-            var tempHEX60gensym30_620758720 = parse_620758704(a_620758662, input_620758691);
-            if ((tempHEX60gensym30_620758720.kind == 1)) {
-            var Temporary2 = tempHEX60gensym30_620758720;
-            if (ConstSet77[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620758693 = nimCopy(result_620758693, {kind: 1, fromInput: nimCopy(null, input_620758691, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym30_620758720.tail, NTI33554439), value: []}, NTI1090519172);
+            var tempHEX60gensym30_620762448 = parse_620758790(a_620762402, input_620762431);
+            if ((tempHEX60gensym30_620762448.kind == 1)) {
+            var Temporary2 = tempHEX60gensym30_620762448;
+            if (ConstSet75[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620762433 = nimCopy(result_620762433, {kind: 1, fromInput: nimCopy(null, input_620762431, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym30_620762448.tail, NTI33554439), value: []}, NTI1191182468);
             break BeforeRet;
             }
             
           } while (false);
-          var result1_620758726 = nimCopy(null, tempHEX60gensym30_620758720, NTI1090519172);
+          var result1_620762454 = nimCopy(null, tempHEX60gensym30_620762448, NTI1191182468);
           Label3: do {
-            var tempHEX60gensym32_620758739 = parse_1090520010(b_620758663, result1_620758726.tail);
-            if ((tempHEX60gensym32_620758739.kind == 1)) {
-            var Temporary4 = tempHEX60gensym32_620758739;
-            if (ConstSet78[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1090519061)); }
-            result_620758693 = nimCopy(result_620758693, {kind: 1, fromInput: nimCopy(null, input_620758691, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym32_620758739.tail, NTI33554439), value: []}, NTI1090519172);
+            var tempHEX60gensym32_620762467 = parse_1191183306(b_620762403, result1_620762454.tail);
+            if ((tempHEX60gensym32_620762467.kind == 1)) {
+            var Temporary4 = tempHEX60gensym32_620762467;
+            if (ConstSet76[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620762433 = nimCopy(result_620762433, {kind: 1, fromInput: nimCopy(null, input_620762431, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym32_620762467.tail, NTI33554439), value: []}, NTI1191182468);
             break BeforeRet;
             }
             
           } while (false);
-          var result2_620758745 = nimCopy(null, tempHEX60gensym32_620758739, NTI1090519270);
-          var Temporary5 = result1_620758726;
-          if (ConstSet79[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1090519061)); }
-          result_620758693 = nimCopy(result_620758693, succeed_620758694(input_620758691, Temporary5.value, result2_620758745.tail), NTI1090519172);
+          var result2_620762473 = nimCopy(null, tempHEX60gensym32_620762467, NTI1191182566);
+          var Temporary5 = result1_620762454;
+          if (ConstSet77[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          result_620762433 = nimCopy(result_620762433, succeed_620762434(input_620762431, Temporary5.value, result2_620762473.tail), NTI1191182468);
           break BeforeRet;
         } while (false);
 
-        return result_620758693;
+        return result_620762433;
 
       }
 
-  var result_620758664 = null;
+  var result_620762404 = null;
 
     Label1: do {
     } while (false);
-    result_620758664 = {body: HEX3Aanonymous_620758690};
+    result_620762404 = {body: HEX3Aanonymous_620762430};
 
-  return result_620758664;
-
-}
-
-function HEX21_620758602(a_620758604) {
-
-function succeedImpl_620758616(inputInHEX60gensym19_620758617, valueInHEX60gensym19_620758618, tailInHEX60gensym19_620758619) {
-  var result_620758621 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
-
-    result_620758621 = nimCopy(result_620758621, {kind: 0, value: valueInHEX60gensym19_620758618, tail: nimCopy(null, tailInHEX60gensym19_620758619, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym19_620758617, NTI33554439), expected: []}, NTI1090519270);
-
-  return result_620758621;
+  return result_620762404;
 
 }
 
-function failImpl_620758623(inputInHEX60gensym19_620758624, expectedInHEX60gensym19_620758625, tailInHEX60gensym19_620758626) {
-  var result_620758628 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+function HEX21_620762342(a_620762344) {
 
-    result_620758628 = nimCopy(result_620758628, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym19_620758625, NTI620757880), tail: nimCopy(null, tailInHEX60gensym19_620758626, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym19_620758624, NTI33554439), value: 0}, NTI1090519270);
+function succeedImpl_620762356(inputInHEX60gensym93_620762357, valueInHEX60gensym93_620762358, tailInHEX60gensym93_620762359) {
+  var result_620762361 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
 
-  return result_620758628;
+    result_620762361 = nimCopy(result_620762361, {kind: 0, value: valueInHEX60gensym93_620762358, tail: nimCopy(null, tailInHEX60gensym93_620762359, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym93_620762357, NTI33554439), expected: []}, NTI1191182566);
+
+  return result_620762361;
+
+}
+
+function failImpl_620762363(inputInHEX60gensym93_620762364, expectedInHEX60gensym93_620762365, tailInHEX60gensym93_620762366) {
+  var result_620762368 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+
+    result_620762368 = nimCopy(result_620762368, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym93_620762365, NTI620760975), tail: nimCopy(null, tailInHEX60gensym93_620762366, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym93_620762364, NTI33554439), value: 0}, NTI1191182566);
+
+  return result_620762368;
 
 }
       
-function HEX3Aanonymous_620758631(input_620758632) {
-        var result_620758634 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+function HEX3Aanonymous_620762371(input_620762372) {
+        var result_620762374 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620758635 = succeedImpl_620758616;
-          var fail_620758636 = failImpl_620758623;
-          var result1_620758649 = parse_1090520010(a_620758604, input_620758632);
-          switch (result1_620758649.kind) {
+          var succeed_620762375 = succeedImpl_620762356;
+          var fail_620762376 = failImpl_620762363;
+          var result1_620762389 = parse_1191183306(a_620762344, input_620762372);
+          switch (result1_620762389.kind) {
           case 0:
-            result_620758634 = nimCopy(result_620758634, fail_620758636(input_620758632, [makeNimstrLit("successful negative lookahead")], input_620758632), NTI1090519270);
+            result_620762374 = nimCopy(result_620762374, fail_620762376(input_620762372, [makeNimstrLit("successful negative lookahead")], input_620762372), NTI1191182566);
             break BeforeRet;
             break;
           case 1:
-            result_620758634 = nimCopy(result_620758634, succeed_620758635(input_620758632, 0, input_620758632), NTI1090519270);
+            result_620762374 = nimCopy(result_620762374, succeed_620762375(input_620762372, 0, input_620762372), NTI1191182566);
             break BeforeRet;
             break;
           }
         } while (false);
 
-        return result_620758634;
+        return result_620762374;
 
       }
 
-  var result_620758605 = null;
+  var result_620762345 = null;
 
     Label1: do {
     } while (false);
-    result_620758605 = {body: HEX3Aanonymous_620758631};
+    result_620762345 = {body: HEX3Aanonymous_620762371};
 
-  return result_620758605;
-
-}
-
-function HEX7C_620758944(a_620758946, b_620758947) {
-
-function succeedImpl_620758959(inputInHEX60gensym28_620758960, valueInHEX60gensym28_620758961, tailInHEX60gensym28_620758962) {
-  var result_620758964 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620758964 = nimCopy(result_620758964, {kind: 0, value: nimCopy(null, valueInHEX60gensym28_620758961, NTI33554439), tail: nimCopy(null, tailInHEX60gensym28_620758962, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym28_620758960, NTI33554439), expected: []}, NTI1090519172);
-
-  return result_620758964;
+  return result_620762345;
 
 }
 
-function failImpl_620758966(inputInHEX60gensym28_620758967, expectedInHEX60gensym28_620758968, tailInHEX60gensym28_620758969) {
-  var result_620758971 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function validate_620764187(p_620764189, fn_620764191, expected_620764192) {
 
-    result_620758971 = nimCopy(result_620758971, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym28_620758968, NTI620758124), tail: nimCopy(null, tailInHEX60gensym28_620758969, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym28_620758967, NTI33554439), value: []}, NTI1090519172);
+function succeedImpl_620764204(inputInHEX60gensym129_620764205, valueInHEX60gensym129_620764206, tailInHEX60gensym129_620764207) {
+  var result_620764209 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-  return result_620758971;
+    result_620764209 = nimCopy(result_620764209, {kind: 0, value: nimCopy(null, valueInHEX60gensym129_620764206, NTI33554439), tail: nimCopy(null, tailInHEX60gensym129_620764207, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym129_620764205, NTI33554439), expected: []}, NTI1191182468);
+
+  return result_620764209;
+
+}
+
+function failImpl_620764211(inputInHEX60gensym129_620764212, expectedInHEX60gensym129_620764213, tailInHEX60gensym129_620764214) {
+  var result_620764216 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620764216 = nimCopy(result_620764216, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym129_620764213, NTI620762445), tail: nimCopy(null, tailInHEX60gensym129_620764214, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym129_620764212, NTI33554439), value: []}, NTI1191182468);
+
+  return result_620764216;
+
+}
+      expected_620764192 = nimCopy(null, expected_620764192, NTI33554439);
+      
+function HEX3Aanonymous_620764219(input_620764220) {
+              var Temporary1;
+
+        var result_620764222 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+        BeforeRet: do {
+          var succeed_620764223 = succeedImpl_620764204;
+          var fail_620764224 = failImpl_620764211;
+          var result1_620764237 = parse_620758790(p_620764189, input_620764220);
+          switch (result1_620764237.kind) {
+          case 1:
+            result_620764222 = nimCopy(result_620764222, result1_620764237, NTI1191182468);
+            break BeforeRet;
+            break;
+          case 0:
+              var Temporary1 = result1_620764237;
+              if (ConstSet78[Temporary1.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary1.kind, NTI1191182357)); }
+            if (fn_620764191(Temporary1.value)) {
+            result_620764222 = nimCopy(result_620764222, result1_620764237, NTI1191182468);
+            break BeforeRet;
+            }
+            
+            result_620764222 = nimCopy(result_620764222, fail_620764224(input_620764220, [nimCopy(null, expected_620764192, NTI33554439)], input_620764220), NTI1191182468);
+            break BeforeRet;
+            break;
+          }
+        } while (false);
+
+        return result_620764222;
+
+      }
+
+  var result_620764193 = null;
+
+    Label1: do {
+    } while (false);
+    result_620764193 = {body: HEX3Aanonymous_620764219};
+
+  return result_620764193;
+
+}
+
+function parse_620763134(p_620763136, input_620763137) {
+  var result_620763138 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+  BeforeRet: do {
+    if ((p_620763136.body == null)) {
+    result_620763138 = nimCopy(result_620763138, {kind: 1, expected: [makeNimstrLit("forward-declared parser to be initialized with .become(Parser)")], tail: nimCopy(null, input_620763137, NTI33554439), fromInput: nimCopy(null, input_620763137, NTI33554439), value: []}, NTI620761192);
+    break BeforeRet;
+    }
+    
+    result_620763138 = nimCopy(result_620763138, p_620763136.body(input_620763137), NTI620761192);
+  } while (false);
+
+  return result_620763138;
+
+}
+
+function map_620764053(a_620764056, fn_620764058) {
+
+function succeedImpl_620764070(inputInHEX60gensym127_620764071, valueInHEX60gensym127_620764072, tailInHEX60gensym127_620764073) {
+  var result_620764075 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620764075 = nimCopy(result_620764075, {kind: 0, value: nimCopy(null, valueInHEX60gensym127_620764072, NTI33554439), tail: nimCopy(null, tailInHEX60gensym127_620764073, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym127_620764071, NTI33554439), expected: []}, NTI1191182468);
+
+  return result_620764075;
+
+}
+
+function failImpl_620764077(inputInHEX60gensym127_620764078, expectedInHEX60gensym127_620764079, tailInHEX60gensym127_620764080) {
+  var result_620764082 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620764082 = nimCopy(result_620764082, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym127_620764079, NTI620762364), tail: nimCopy(null, tailInHEX60gensym127_620764080, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym127_620764078, NTI33554439), value: []}, NTI1191182468);
+
+  return result_620764082;
 
 }
       
-function HEX3Aanonymous_620758974(input_620758975) {
-          var Temporary1;
-          var Temporary2;
+function HEX3Aanonymous_620764085(input_620764086) {
+            var Temporary2;
+          var Temporary3;
 
-        var result_620758977 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+        var result_620764088 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620758978 = succeedImpl_620758959;
-          var fail_620758979 = failImpl_620758966;
-          var result1_620758992 = parse_620758704(a_620758946, input_620758975);
-          if ((result1_620758992.kind == 0)) {
-          result_620758977 = nimCopy(result_620758977, result1_620758992, NTI1090519172);
+          var succeed_620764089 = succeedImpl_620764070;
+          var fail_620764090 = failImpl_620764077;
+          Label1: do {
+            var tempHEX60gensym24_620764103 = parse_620763134(a_620764056, input_620764086);
+            if ((tempHEX60gensym24_620764103.kind == 1)) {
+            var Temporary2 = tempHEX60gensym24_620764103;
+            if (ConstSet79[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620764088 = nimCopy(result_620764088, {kind: 1, fromInput: nimCopy(null, input_620764086, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym24_620764103.tail, NTI33554439), value: []}, NTI1191182468);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result1_620764109 = nimCopy(null, tempHEX60gensym24_620764103, NTI620761192);
+          var Temporary3 = result1_620764109;
+          if (ConstSet80[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+          result_620764088 = nimCopy(result_620764088, succeed_620764089(input_620764086, fn_620764058(Temporary3.value), result1_620764109.tail), NTI1191182468);
           break BeforeRet;
-          }
-          
-          var result2_620759009 = parse_620758704(b_620758947, input_620758975);
-          if ((result2_620759009.kind == 0)) {
-          result_620758977 = nimCopy(result_620758977, result2_620759009, NTI1090519172);
-          break BeforeRet;
-          }
-          
-          var Temporary1 = result1_620758992;
-          if (ConstSet80[Temporary1.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary1.kind, NTI1090519061)); }
-          var Temporary2 = result2_620759009;
-          if (ConstSet81[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-          result_620758977 = nimCopy(result_620758977, fail_620758979(input_620758975, HEX26_687865962(Temporary1.expected, Temporary2.expected), input_620758975), NTI1090519172);
         } while (false);
 
-        return result_620758977;
+        return result_620764088;
 
       }
 
-  var result_620758948 = null;
+  var result_620764059 = null;
 
     Label1: do {
     } while (false);
-    result_620758948 = {body: HEX3Aanonymous_620758974};
+    result_620764059 = {body: HEX3Aanonymous_620764085};
 
-  return result_620758948;
+  return result_620764059;
 
 }
 
-function lookupTableParser_620758564(table_620758565, flag_620758566) {
-    
-function HEX3Aanonymous_620758577(entry_620758580) {
-        var Temporary1;
-        
-function HEX3Aanonymous_620758756(x_620758772) {
-          var result_620758775 = [];
+function HEX3EHEX3E_620763925(a_620763928, b_620763929) {
 
-            result_620758775 = nimCopy(null, val_620758585, NTI33554439);
+function succeedImpl_620763941(inputInHEX60gensym126_620763942, valueInHEX60gensym126_620763943, tailInHEX60gensym126_620763944) {
+  var result_620763946 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-          return result_620758775;
+    result_620763946 = nimCopy(result_620763946, {kind: 0, value: nimCopy(null, valueInHEX60gensym126_620763943, NTI620761186), tail: nimCopy(null, tailInHEX60gensym126_620763944, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym126_620763942, NTI33554439), expected: []}, NTI620761192);
 
-        }
-          
-function HEX3Aanonymous_620758844(x_620758860) {
-            var result_620758863 = [];
+  return result_620763946;
 
-              result_620758863 = nimCopy(null, val_620758585, NTI33554439);
+}
 
-            return result_620758863;
+function failImpl_620763948(inputInHEX60gensym126_620763949, expectedInHEX60gensym126_620763950, tailInHEX60gensym126_620763951) {
+  var result_620763953 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-          }
+    result_620763953 = nimCopy(result_620763953, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym126_620763950, NTI620762273), tail: nimCopy(null, tailInHEX60gensym126_620763951, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym126_620763949, NTI33554439), value: []}, NTI620761192);
 
-      var result_620758583 = null;
+  return result_620763953;
 
-        var colontmp__620767602 = nimCopy(null, entry_620758580, NTI620757833);
-        var key_620758584 = nimCopy(null, colontmp__620767602["Field0"], NTI33554439);
-        var val_620758585 = nimCopy(null, colontmp__620767602["Field1"], NTI33554439);
-        if ((key_620758584[chckIndx(0, 0, (key_620758584).length - 1)] == 92)) {
-        Temporary1 = map_620758777(HEX3CHEX3C_620758659(s_1090519151(key_620758584), HEX21_620758602(letter_1090520228)), HEX3Aanonymous_620758756);
-        }
-        else {
-        Temporary1 = map_620758777(s_1090519151(key_620758584), HEX3Aanonymous_620758844);
-        }
-        
-        result_620758583 = Temporary1;
+}
+      
+function HEX3Aanonymous_620763956(input_620763957) {
+            var Temporary2;
+            var Temporary4;
+          var Temporary5;
 
-      return result_620758583;
+        var result_620763959 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    }
-    
-function HEX3Aanonymous_620759026(s_620759041) {
-      var result_620759044 = ({rows: [], baseline: 0, width: 0, flag: 0});
+        BeforeRet: do {
+          var succeed_620763960 = succeedImpl_620763941;
+          var fail_620763961 = failImpl_620763948;
+          Label1: do {
+            var tempHEX60gensym34_620763974 = parse_1191183306(a_620763928, input_620763957);
+            if ((tempHEX60gensym34_620763974.kind == 1)) {
+            var Temporary2 = tempHEX60gensym34_620763974;
+            if (ConstSet81[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620763959 = nimCopy(result_620763959, {kind: 1, fromInput: nimCopy(null, input_620763957, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym34_620763974.tail, NTI33554439), value: []}, NTI620761192);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result1_620763980 = nimCopy(null, tempHEX60gensym34_620763974, NTI1191182566);
+          Label3: do {
+            var tempHEX60gensym36_620763993 = parse_620763134(b_620763929, result1_620763980.tail);
+            if ((tempHEX60gensym36_620763993.kind == 1)) {
+            var Temporary4 = tempHEX60gensym36_620763993;
+            if (ConstSet82[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620763959 = nimCopy(result_620763959, {kind: 1, fromInput: nimCopy(null, input_620763957, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym36_620763993.tail, NTI33554439), value: []}, NTI620761192);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result2_620763999 = nimCopy(null, tempHEX60gensym36_620763993, NTI620761192);
+          var Temporary5 = result2_620763999;
+          if (ConstSet83[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          result_620763959 = nimCopy(result_620763959, succeed_620763960(input_620763957, Temporary5.value, result2_620763999.tail), NTI620761192);
+          break BeforeRet;
+        } while (false);
 
-        result_620759044 = nimCopy(result_620759044, toTextRect_687865909(s_620759041, 0, flag_620758566), NTI687865860);
+        return result_620763959;
 
-      return result_620759044;
+      }
 
-    }
+  var result_620763930 = null;
 
-  var result_620758576 = null;
-
-    var sHEX60gensym24_620758916 = map_620758881(table_620758565, HEX3Aanonymous_620758577);
-    var nHEX60gensym24_620758921 = (sHEX60gensym24_620758916).length;
-    if (!((0 < nHEX60gensym24_620758921))) {
-    failedAssertImpl_218103864(makeNimstrLit("sequtils.nim(965, 10) `n`gensym24 > 0` Can\'t fold empty sequences"));
-    }
-    
-    var resultHEX60gensym24_620758927 = sHEX60gensym24_620758916[chckIndx(subInt(nHEX60gensym24_620758921, 1), 0, (sHEX60gensym24_620758916).length - 1)];
     Label1: do {
-      var iHEX60gensym24_620758933 = 0;
-      var colontmp__620767593 = 0;
-      colontmp__620767593 = subInt(nHEX60gensym24_620758921, 2);
-      var res_620767594 = colontmp__620767593;
-      Label2: do {
-          Label3: while (true) {
-          if (!(0 <= res_620767594)) break Label3;
-            iHEX60gensym24_620758933 = res_620767594;
-            var a_620758934 = sHEX60gensym24_620758916[chckIndx(iHEX60gensym24_620758933, 0, (sHEX60gensym24_620758916).length - 1)];
-            var b_620758935 = resultHEX60gensym24_620758927;
-            resultHEX60gensym24_620758927 = HEX7C_620758944(a_620758934, b_620758935);
-            res_620767594 = subInt(res_620767594, 1);
-          }
-      } while (false);
     } while (false);
-    result_620758576 = map_620759045(resultHEX60gensym24_620758927, HEX3Aanonymous_620759026);
+    result_620763930 = {body: HEX3Aanonymous_620763956};
 
-  return result_620758576;
+  return result_620763930;
 
 }
 
-function map_620763155(s_620763158, op_620763160) {
-  var result_620763161 = [];
+function parse_620763650(p_620763652, input_620763653) {
+  var result_620763654 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620763161 = new Array(chckRange((s_620763158).length, 0, 2147483647)); for (var i = 0 ; i < chckRange((s_620763158).length, 0, 2147483647) ; ++i) { result_620763161[i] = null; }    Label1: do {
-      var i_620763177 = 0;
-      var colontmp__620767611 = 0;
-      colontmp__620767611 = (s_620763158).length;
-      var i_620767612 = 0;
+  BeforeRet: do {
+    if ((p_620763652.body == null)) {
+    result_620763654 = nimCopy(result_620763654, {kind: 1, expected: [makeNimstrLit("forward-declared parser to be initialized with .become(Parser)")], tail: nimCopy(null, input_620763653, NTI33554439), fromInput: nimCopy(null, input_620763653, NTI33554439), value: []}, NTI620761638);
+    break BeforeRet;
+    }
+    
+    result_620763654 = nimCopy(result_620763654, p_620763652.body(input_620763653), NTI620761638);
+  } while (false);
+
+  return result_620763654;
+
+}
+
+function map_620763860(a_620763863, fn_620763865) {
+
+function succeedImpl_620763877(inputInHEX60gensym125_620763878, valueInHEX60gensym125_620763879, tailInHEX60gensym125_620763880) {
+  var result_620763882 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620763882 = nimCopy(result_620763882, {kind: 0, value: nimCopy(null, valueInHEX60gensym125_620763879, NTI620762132), tail: nimCopy(null, tailInHEX60gensym125_620763880, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym125_620763878, NTI33554439), expected: []}, NTI620761192);
+
+  return result_620763882;
+
+}
+
+function failImpl_620763884(inputInHEX60gensym125_620763885, expectedInHEX60gensym125_620763886, tailInHEX60gensym125_620763887) {
+  var result_620763889 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620763889 = nimCopy(result_620763889, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym125_620763886, NTI620762226), tail: nimCopy(null, tailInHEX60gensym125_620763887, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym125_620763885, NTI33554439), value: []}, NTI620761192);
+
+  return result_620763889;
+
+}
+      
+function HEX3Aanonymous_620763892(input_620763893) {
+            var Temporary2;
+          var Temporary3;
+
+        var result_620763895 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+        BeforeRet: do {
+          var succeed_620763896 = succeedImpl_620763877;
+          var fail_620763897 = failImpl_620763884;
+          Label1: do {
+            var tempHEX60gensym24_620763910 = parse_620763650(a_620763863, input_620763893);
+            if ((tempHEX60gensym24_620763910.kind == 1)) {
+            var Temporary2 = tempHEX60gensym24_620763910;
+            if (ConstSet84[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620763895 = nimCopy(result_620763895, {kind: 1, fromInput: nimCopy(null, input_620763893, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym24_620763910.tail, NTI33554439), value: []}, NTI620761192);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result1_620763916 = nimCopy(null, tempHEX60gensym24_620763910, NTI620761638);
+          var Temporary3 = result1_620763916;
+          if (ConstSet85[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+          result_620763895 = nimCopy(result_620763895, succeed_620763896(input_620763893, fn_620763865(Temporary3.value), result1_620763916.tail), NTI620761192);
+          break BeforeRet;
+        } while (false);
+
+        return result_620763895;
+
+      }
+
+  var result_620763866 = null;
+
+    Label1: do {
+    } while (false);
+    result_620763866 = {body: HEX3Aanonymous_620763892};
+
+  return result_620763866;
+
+}
+
+function HEX26_620763692(x_620763694, y_620763695) {
+  var result_620763696 = [];
+
+    result_620763696 = new Array(chckRange(addInt((x_620763694).length, (y_620763695).length), 0, 2147483647)); for (var i = 0 ; i < chckRange(addInt((x_620763694).length, (y_620763695).length), 0, 2147483647) ; ++i) { result_620763696[i] = []; }    Label1: do {
+      var i_620763715 = 0;
+      var colontmp__620768402 = 0;
+      colontmp__620768402 = subInt((x_620763694).length, 1);
+      var res_620768403 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(i_620767612 < colontmp__620767611)) break Label3;
-            i_620763177 = i_620767612;
-            result_620763161[chckIndx(i_620763177, 0, (result_620763161).length - 1)] = op_620763160(s_620763158[chckIndx(i_620763177, 0, (s_620763158).length - 1)]);
-            i_620767612 = addInt(i_620767612, 1);
+          if (!(res_620768403 <= colontmp__620768402)) break Label3;
+            i_620763715 = res_620768403;
+            result_620763696[chckIndx(i_620763715, 0, (result_620763696).length - 1)] = nimCopy(null, x_620763694[chckIndx(i_620763715, 0, (x_620763694).length - 1)], NTI620761186);
+            res_620768403 = addInt(res_620768403, 1);
+          }
+      } while (false);
+    } while (false);
+    Label4: do {
+      var i_620763723 = 0;
+      var colontmp__620768406 = 0;
+      colontmp__620768406 = subInt((y_620763695).length, 1);
+      var res_620768407 = 0;
+      Label5: do {
+          Label6: while (true) {
+          if (!(res_620768407 <= colontmp__620768406)) break Label6;
+            i_620763723 = res_620768407;
+            result_620763696[chckIndx(addInt(i_620763723, (x_620763694).length), 0, (result_620763696).length - 1)] = nimCopy(null, y_620763695[chckIndx(i_620763723, 0, (y_620763695).length - 1)], NTI620761186);
+            res_620768407 = addInt(res_620768407, 1);
           }
       } while (false);
     } while (false);
 
-  return result_620763161;
+  return result_620763696;
 
 }
 
-function map_620763088(a_620763091, fn_620763093) {
+function HEX26_620763597(a_620763602, b_620763606) {
 
-function succeedImpl_620763105(inputInHEX60gensym106_620763106, valueInHEX60gensym106_620763107, tailInHEX60gensym106_620763108) {
-  var result_620763110 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+function succeedImpl_620763621(inputInHEX60gensym119_620763622, valueInHEX60gensym119_620763623, tailInHEX60gensym119_620763624) {
+  var result_620763626 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620763110 = nimCopy(result_620763110, {kind: 0, value: nimCopy(null, valueInHEX60gensym106_620763107, NTI687865860), tail: nimCopy(null, tailInHEX60gensym106_620763108, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym106_620763106, NTI33554439), expected: []}, NTI620757844);
+    result_620763626 = nimCopy(result_620763626, {kind: 0, value: nimCopy(null, valueInHEX60gensym119_620763623, NTI620762022), tail: nimCopy(null, tailInHEX60gensym119_620763624, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym119_620763622, NTI33554439), expected: []}, NTI620761638);
+
+  return result_620763626;
+
+}
+
+function failImpl_620763628(inputInHEX60gensym119_620763629, expectedInHEX60gensym119_620763630, tailInHEX60gensym119_620763631) {
+  var result_620763633 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620763633 = nimCopy(result_620763633, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym119_620763630, NTI620762028), tail: nimCopy(null, tailInHEX60gensym119_620763631, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym119_620763629, NTI33554439), value: []}, NTI620761638);
+
+  return result_620763633;
+
+}
+      
+function HEX3Aanonymous_620763636(input_620763637) {
+            var Temporary2;
+            var Temporary4;
+          var Temporary5;
+          var Temporary6;
+
+        var result_620763639 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+        BeforeRet: do {
+          var succeed_620763640 = succeedImpl_620763621;
+          var fail_620763641 = failImpl_620763628;
+          Label1: do {
+            var tempHEX60gensym26_620763666 = parse_620763650(a_620763602, input_620763637);
+            if ((tempHEX60gensym26_620763666.kind == 1)) {
+            var Temporary2 = tempHEX60gensym26_620763666;
+            if (ConstSet86[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620763639 = nimCopy(result_620763639, {kind: 1, fromInput: nimCopy(null, input_620763637, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym26_620763666.tail, NTI33554439), value: []}, NTI620761638);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result1_620763672 = nimCopy(null, tempHEX60gensym26_620763666, NTI620761638);
+          Label3: do {
+            var tempHEX60gensym28_620763685 = parse_620763650(b_620763606, result1_620763672.tail);
+            if ((tempHEX60gensym28_620763685.kind == 1)) {
+            var Temporary4 = tempHEX60gensym28_620763685;
+            if (ConstSet87[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620763639 = nimCopy(result_620763639, {kind: 1, fromInput: nimCopy(null, input_620763637, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym28_620763685.tail, NTI33554439), value: []}, NTI620761638);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result2_620763691 = nimCopy(null, tempHEX60gensym28_620763685, NTI620761638);
+          var Temporary5 = result1_620763672;
+          if (ConstSet88[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          var Temporary6 = result2_620763691;
+          if (ConstSet89[Temporary6.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary6.kind, NTI1191182357)); }
+          result_620763639 = nimCopy(result_620763639, succeed_620763640(input_620763637, HEX26_620763692(Temporary5.value, Temporary6.value), result2_620763691.tail), NTI620761638);
+          break BeforeRet;
+        } while (false);
+
+        return result_620763639;
+
+      }
+
+  var result_620763610 = null;
+
+    Label1: do {
+    } while (false);
+    result_620763610 = {body: HEX3Aanonymous_620763636};
+
+  return result_620763610;
+
+}
+
+function map_620763360(a_620763363, fn_620763365) {
+
+function succeedImpl_620763377(inputInHEX60gensym115_620763378, valueInHEX60gensym115_620763379, tailInHEX60gensym115_620763380) {
+  var result_620763382 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620763382 = nimCopy(result_620763382, {kind: 0, value: nimCopy(null, valueInHEX60gensym115_620763379, NTI620761747), tail: nimCopy(null, tailInHEX60gensym115_620763380, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym115_620763378, NTI33554439), expected: []}, NTI620761638);
+
+  return result_620763382;
+
+}
+
+function failImpl_620763384(inputInHEX60gensym115_620763385, expectedInHEX60gensym115_620763386, tailInHEX60gensym115_620763387) {
+  var result_620763389 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620763389 = nimCopy(result_620763389, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym115_620763386, NTI620761790), tail: nimCopy(null, tailInHEX60gensym115_620763387, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym115_620763385, NTI33554439), value: []}, NTI620761638);
+
+  return result_620763389;
+
+}
+      
+function HEX3Aanonymous_620763392(input_620763393) {
+            var Temporary2;
+          var Temporary3;
+
+        var result_620763395 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+        BeforeRet: do {
+          var succeed_620763396 = succeedImpl_620763377;
+          var fail_620763397 = failImpl_620763384;
+          Label1: do {
+            var tempHEX60gensym24_620763410 = parse_620763134(a_620763363, input_620763393);
+            if ((tempHEX60gensym24_620763410.kind == 1)) {
+            var Temporary2 = tempHEX60gensym24_620763410;
+            if (ConstSet90[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620763395 = nimCopy(result_620763395, {kind: 1, fromInput: nimCopy(null, input_620763393, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym24_620763410.tail, NTI33554439), value: []}, NTI620761638);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result1_620763416 = nimCopy(null, tempHEX60gensym24_620763410, NTI620761192);
+          var Temporary3 = result1_620763416;
+          if (ConstSet91[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+          result_620763395 = nimCopy(result_620763395, succeed_620763396(input_620763393, fn_620763365(Temporary3.value), result1_620763416.tail), NTI620761638);
+          break BeforeRet;
+        } while (false);
+
+        return result_620763395;
+
+      }
+
+  var result_620763366 = null;
+
+    Label1: do {
+    } while (false);
+    result_620763366 = {body: HEX3Aanonymous_620763392};
+
+  return result_620763366;
+
+}
+
+function nop_620762715() {
+
+function succeedImpl_620762728(inputInHEX60gensym105_620762729, valueInHEX60gensym105_620762730, tailInHEX60gensym105_620762731) {
+  var result_620762733 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620762733 = nimCopy(result_620762733, {kind: 0, value: nimCopy(null, valueInHEX60gensym105_620762730, NTI620761235), tail: nimCopy(null, tailInHEX60gensym105_620762731, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym105_620762729, NTI33554439), expected: []}, NTI620761192);
+
+  return result_620762733;
+
+}
+
+function failImpl_620762756(inputInHEX60gensym105_620762757, expectedInHEX60gensym105_620762758, tailInHEX60gensym105_620762759) {
+  var result_620762761 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620762761 = nimCopy(result_620762761, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym105_620762758, NTI620761268), tail: nimCopy(null, tailInHEX60gensym105_620762759, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym105_620762757, NTI33554439), value: []}, NTI620761192);
+
+  return result_620762761;
+
+}
+      
+function HEX3Aanonymous_620762764(input_620762765) {
+        var result_620762767 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+          var succeed_620762768 = succeedImpl_620762728;
+          var fail_620762769 = failImpl_620762756;
+          result_620762767 = nimCopy(result_620762767, succeed_620762768(input_620762765, [], input_620762765), NTI620761192);
+
+        return result_620762767;
+
+      }
+
+  var result_620762717 = null;
+
+    Label1: do {
+    } while (false);
+    result_620762717 = {body: HEX3Aanonymous_620762764};
+
+  return result_620762717;
+
+}
+
+function map_620762870(a_620762873, fn_620762875) {
+
+function succeedImpl_620762887(inputInHEX60gensym107_620762888, valueInHEX60gensym107_620762889, tailInHEX60gensym107_620762890) {
+  var result_620762892 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620762892 = nimCopy(result_620762892, {kind: 0, value: nimCopy(null, valueInHEX60gensym107_620762889, NTI620761337), tail: nimCopy(null, tailInHEX60gensym107_620762890, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym107_620762888, NTI33554439), expected: []}, NTI620761192);
+
+  return result_620762892;
+
+}
+
+function failImpl_620762894(inputInHEX60gensym107_620762895, expectedInHEX60gensym107_620762896, tailInHEX60gensym107_620762897) {
+  var result_620762899 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620762899 = nimCopy(result_620762899, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym107_620762896, NTI620761380), tail: nimCopy(null, tailInHEX60gensym107_620762897, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym107_620762895, NTI33554439), value: []}, NTI620761192);
+
+  return result_620762899;
+
+}
+      
+function HEX3Aanonymous_620762902(input_620762903) {
+            var Temporary2;
+          var Temporary3;
+
+        var result_620762905 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+        BeforeRet: do {
+          var succeed_620762906 = succeedImpl_620762887;
+          var fail_620762907 = failImpl_620762894;
+          Label1: do {
+            var tempHEX60gensym24_620762920 = parse_1191183306(a_620762873, input_620762903);
+            if ((tempHEX60gensym24_620762920.kind == 1)) {
+            var Temporary2 = tempHEX60gensym24_620762920;
+            if (ConstSet92[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620762905 = nimCopy(result_620762905, {kind: 1, fromInput: nimCopy(null, input_620762903, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym24_620762920.tail, NTI33554439), value: []}, NTI620761192);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result1_620762926 = nimCopy(null, tempHEX60gensym24_620762920, NTI1191182566);
+          var Temporary3 = result1_620762926;
+          if (ConstSet93[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+          result_620762905 = nimCopy(result_620762905, succeed_620762906(input_620762903, fn_620762875(Temporary3.value), result1_620762926.tail), NTI620761192);
+          break BeforeRet;
+        } while (false);
+
+        return result_620762905;
+
+      }
+
+  var result_620762876 = null;
+
+    Label1: do {
+    } while (false);
+    result_620762876 = {body: HEX3Aanonymous_620762902};
+
+  return result_620762876;
+
+}
+
+function HEX2A_620762707(a_620762709, n_620762710) {
+    var Temporary1;
+      
+function HEX3Aanonymous_620762832(x_620762861) {
+        var result_620762864 = [];
+
+          result_620762864 = nimCopy(null, [x_620762861], NTI620761337);
+
+        return result_620762864;
+
+      }
+
+function succeedImpl_620762937(inputInHEX60gensym108_620762938, valueInHEX60gensym108_620762939, tailInHEX60gensym108_620762940) {
+  var result_620762942 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620762942 = nimCopy(result_620762942, {kind: 0, value: nimCopy(null, valueInHEX60gensym108_620762939, NTI620761420), tail: nimCopy(null, tailInHEX60gensym108_620762940, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym108_620762938, NTI33554439), expected: []}, NTI620761192);
+
+  return result_620762942;
+
+}
+
+function failImpl_620762944(inputInHEX60gensym108_620762945, expectedInHEX60gensym108_620762946, tailInHEX60gensym108_620762947) {
+  var result_620762949 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620762949 = nimCopy(result_620762949, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym108_620762946, NTI620761426), tail: nimCopy(null, tailInHEX60gensym108_620762947, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym108_620762945, NTI33554439), value: []}, NTI620761192);
+
+  return result_620762949;
+
+}
+        
+function HEX3Aanonymous_620762952(input_620762953) {
+              var Temporary2;
+            var Temporary3;
+                      var Temporary8;
+                    var Temporary9;
+
+          var result_620762955 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+          BeforeRet: do {
+            var succeed_620762956 = succeedImpl_620762937;
+            var fail_620762957 = failImpl_620762944;
+            Label1: do {
+              var tempHEX60gensym38_620762970 = parse_1191183306(a_620762709, input_620762953);
+              if ((tempHEX60gensym38_620762970.kind == 1)) {
+              var Temporary2 = tempHEX60gensym38_620762970;
+              if (ConstSet94[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+              result_620762955 = nimCopy(result_620762955, {kind: 1, fromInput: nimCopy(null, input_620762953, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym38_620762970.tail, NTI33554439), value: []}, NTI620761192);
+              break BeforeRet;
+              }
+              
+            } while (false);
+            var result1_620762976 = nimCopy(null, tempHEX60gensym38_620762970, NTI1191182566);
+            var Temporary3 = result1_620762976;
+            if (ConstSet95[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+            var outputs_620762981 = [Temporary3.value];
+            var lastTail_620762982 = nimCopy(null, result1_620762976.tail, NTI33554439);
+            Label4: do {
+              var i_620762988 = 0;
+              var res_620768415 = 2;
+              Label5: do {
+                  Label6: while (true) {
+                  if (!(res_620768415 <= n_620762710)) break Label6;
+                    i_620762988 = res_620768415;
+                    Label7: do {
+                      var tempHEX60gensym40_620763001 = parse_1191183306(a_620762709, result1_620762976.tail);
+                      if ((tempHEX60gensym40_620763001.kind == 1)) {
+                      var Temporary8 = tempHEX60gensym40_620763001;
+                      if (ConstSet96[Temporary8.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary8.kind, NTI1191182357)); }
+                      result_620762955 = nimCopy(result_620762955, {kind: 1, fromInput: nimCopy(null, input_620762953, NTI33554439), expected: nimCopy(null, Temporary8.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym40_620763001.tail, NTI33554439), value: []}, NTI620761192);
+                      break BeforeRet;
+                      }
+                      
+                    } while (false);
+                    result1_620762976 = nimCopy(result1_620762976, tempHEX60gensym40_620763001, NTI1191182566);
+                    if (eqStrings(result1_620762976.tail, lastTail_620762982)) {
+                    break Label4;
+                    }
+                    
+                    lastTail_620762982 = nimCopy(null, result1_620762976.tail, NTI33554439);
+                    var Temporary9 = result1_620762976;
+                    if (ConstSet97[Temporary9.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary9.kind, NTI1191182357)); }
+                    outputs_620762981.push(Temporary9.value);;
+                    res_620768415 = addInt(res_620768415, 1);
+                  }
+              } while (false);
+            } while (false);
+            result_620762955 = nimCopy(result_620762955, succeed_620762956(input_620762953, outputs_620762981, result1_620762976.tail), NTI620761192);
+          } while (false);
+
+          return result_620762955;
+
+        }
+
+  var result_620762714 = null;
+
+  BeforeRet: do {
+    switch (n_620762710) {
+    case 0:
+      result_620762714 = nop_620762715();
+      break BeforeRet;
+      break;
+    case 1:
+      result_620762714 = map_620762870(a_620762709, HEX3Aanonymous_620762832);
+      break BeforeRet;
+      break;
+    default: 
+      Label2: do {
+      } while (false);
+      Temporary1 = {body: HEX3Aanonymous_620762952};
+      break;
+    }
+    result_620762714 = Temporary1;
+  } while (false);
+
+  return result_620762714;
+
+}
+
+function nop_620763205() {
+
+function succeedImpl_620763218(inputInHEX60gensym113_620763219, valueInHEX60gensym113_620763220, tailInHEX60gensym113_620763221) {
+  var result_620763223 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620763223 = nimCopy(result_620763223, {kind: 0, value: nimCopy(null, valueInHEX60gensym113_620763220, NTI620761645), tail: nimCopy(null, tailInHEX60gensym113_620763221, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym113_620763219, NTI33554439), expected: []}, NTI620761638);
+
+  return result_620763223;
+
+}
+
+function failImpl_620763246(inputInHEX60gensym113_620763247, expectedInHEX60gensym113_620763248, tailInHEX60gensym113_620763249) {
+  var result_620763251 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620763251 = nimCopy(result_620763251, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym113_620763248, NTI620761678), tail: nimCopy(null, tailInHEX60gensym113_620763249, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym113_620763247, NTI33554439), value: []}, NTI620761638);
+
+  return result_620763251;
+
+}
+      
+function HEX3Aanonymous_620763254(input_620763255) {
+        var result_620763257 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+          var succeed_620763258 = succeedImpl_620763218;
+          var fail_620763259 = failImpl_620763246;
+          result_620763257 = nimCopy(result_620763257, succeed_620763258(input_620763255, [], input_620763255), NTI620761638);
+
+        return result_620763257;
+
+      }
+
+  var result_620763207 = null;
+
+    Label1: do {
+    } while (false);
+    result_620763207 = {body: HEX3Aanonymous_620763254};
+
+  return result_620763207;
+
+}
+
+function HEX2A_620763192(a_620763194, n_620763195) {
+    var Temporary1;
+      
+function HEX3Aanonymous_620763322(x_620763351) {
+        var result_620763354 = [];
+
+          result_620763354 = nimCopy(null, [nimCopy(null, x_620763351, NTI620761186)], NTI620761747);
+
+        return result_620763354;
+
+      }
+
+function succeedImpl_620763427(inputInHEX60gensym116_620763428, valueInHEX60gensym116_620763429, tailInHEX60gensym116_620763430) {
+  var result_620763432 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620763432 = nimCopy(result_620763432, {kind: 0, value: nimCopy(null, valueInHEX60gensym116_620763429, NTI620761830), tail: nimCopy(null, tailInHEX60gensym116_620763430, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym116_620763428, NTI33554439), expected: []}, NTI620761638);
+
+  return result_620763432;
+
+}
+
+function failImpl_620763434(inputInHEX60gensym116_620763435, expectedInHEX60gensym116_620763436, tailInHEX60gensym116_620763437) {
+  var result_620763439 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620763439 = nimCopy(result_620763439, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym116_620763436, NTI620761836), tail: nimCopy(null, tailInHEX60gensym116_620763437, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym116_620763435, NTI33554439), value: []}, NTI620761638);
+
+  return result_620763439;
+
+}
+        
+function HEX3Aanonymous_620763442(input_620763443) {
+              var Temporary2;
+            var Temporary3;
+                      var Temporary8;
+                    var Temporary9;
+
+          var result_620763445 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+          BeforeRet: do {
+            var succeed_620763446 = succeedImpl_620763427;
+            var fail_620763447 = failImpl_620763434;
+            Label1: do {
+              var tempHEX60gensym38_620763460 = parse_620763134(a_620763194, input_620763443);
+              if ((tempHEX60gensym38_620763460.kind == 1)) {
+              var Temporary2 = tempHEX60gensym38_620763460;
+              if (ConstSet98[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+              result_620763445 = nimCopy(result_620763445, {kind: 1, fromInput: nimCopy(null, input_620763443, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym38_620763460.tail, NTI33554439), value: []}, NTI620761638);
+              break BeforeRet;
+              }
+              
+            } while (false);
+            var result1_620763466 = nimCopy(null, tempHEX60gensym38_620763460, NTI620761192);
+            var Temporary3 = result1_620763466;
+            if (ConstSet99[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+            var outputs_620763471 = [nimCopy(null, Temporary3.value, NTI620761186)];
+            var lastTail_620763472 = nimCopy(null, result1_620763466.tail, NTI33554439);
+            Label4: do {
+              var i_620763478 = 0;
+              var res_620768424 = 2;
+              Label5: do {
+                  Label6: while (true) {
+                  if (!(res_620768424 <= n_620763195)) break Label6;
+                    i_620763478 = res_620768424;
+                    Label7: do {
+                      var tempHEX60gensym40_620763491 = parse_620763134(a_620763194, result1_620763466.tail);
+                      if ((tempHEX60gensym40_620763491.kind == 1)) {
+                      var Temporary8 = tempHEX60gensym40_620763491;
+                      if (ConstSet100[Temporary8.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary8.kind, NTI1191182357)); }
+                      result_620763445 = nimCopy(result_620763445, {kind: 1, fromInput: nimCopy(null, input_620763443, NTI33554439), expected: nimCopy(null, Temporary8.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym40_620763491.tail, NTI33554439), value: []}, NTI620761638);
+                      break BeforeRet;
+                      }
+                      
+                    } while (false);
+                    result1_620763466 = nimCopy(result1_620763466, tempHEX60gensym40_620763491, NTI620761192);
+                    if (eqStrings(result1_620763466.tail, lastTail_620763472)) {
+                    break Label4;
+                    }
+                    
+                    lastTail_620763472 = nimCopy(null, result1_620763466.tail, NTI33554439);
+                    var Temporary9 = result1_620763466;
+                    if (ConstSet101[Temporary9.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary9.kind, NTI1191182357)); }
+                    var Temporary10 = nimCopy(null, Temporary9.value, NTI620761186);
+                    outputs_620763471.push(Temporary10);;
+                    res_620768424 = addInt(res_620768424, 1);
+                  }
+              } while (false);
+            } while (false);
+            result_620763445 = nimCopy(result_620763445, succeed_620763446(input_620763443, outputs_620763471, result1_620763466.tail), NTI620761638);
+          } while (false);
+
+          return result_620763445;
+
+        }
+
+  var result_620763204 = null;
+
+  BeforeRet: do {
+    switch (n_620763195) {
+    case 0:
+      result_620763204 = nop_620763205();
+      break BeforeRet;
+      break;
+    case 1:
+      result_620763204 = map_620763360(a_620763194, HEX3Aanonymous_620763322);
+      break BeforeRet;
+      break;
+    default: 
+      Label2: do {
+      } while (false);
+      Temporary1 = {body: HEX3Aanonymous_620763442};
+      break;
+    }
+    result_620763204 = Temporary1;
+  } while (false);
+
+  return result_620763204;
+
+}
+
+function HEX7C_620763090(a_620763092, b_620763093) {
+
+function succeedImpl_620763105(inputInHEX60gensym112_620763106, valueInHEX60gensym112_620763107, tailInHEX60gensym112_620763108) {
+  var result_620763110 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620763110 = nimCopy(result_620763110, {kind: 0, value: nimCopy(null, valueInHEX60gensym112_620763107, NTI620761186), tail: nimCopy(null, tailInHEX60gensym112_620763108, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym112_620763106, NTI33554439), expected: []}, NTI620761192);
 
   return result_620763110;
 
 }
 
-function failImpl_620763112(inputInHEX60gensym106_620763113, expectedInHEX60gensym106_620763114, tailInHEX60gensym106_620763115) {
-  var result_620763117 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+function failImpl_620763112(inputInHEX60gensym112_620763113, expectedInHEX60gensym112_620763114, tailInHEX60gensym112_620763115) {
+  var result_620763117 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    result_620763117 = nimCopy(result_620763117, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym106_620763114, NTI620761490), tail: nimCopy(null, tailInHEX60gensym106_620763115, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym106_620763113, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
+    result_620763117 = nimCopy(result_620763117, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym112_620763114, NTI620761582), tail: nimCopy(null, tailInHEX60gensym112_620763115, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym112_620763113, NTI33554439), value: []}, NTI620761192);
 
   return result_620763117;
 
 }
       
 function HEX3Aanonymous_620763120(input_620763121) {
-            var Temporary2;
-          var Temporary3;
+          var Temporary1;
+          var Temporary2;
 
-        var result_620763123 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+        var result_620763123 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
           var succeed_620763124 = succeedImpl_620763105;
           var fail_620763125 = failImpl_620763112;
-          Label1: do {
-            var tempHEX60gensym24_620763138 = parse_620760599(a_620763091, input_620763121);
-            if ((tempHEX60gensym24_620763138.kind == 1)) {
-            var Temporary2 = tempHEX60gensym24_620763138;
-            if (ConstSet82[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620763123 = nimCopy(result_620763123, {kind: 1, fromInput: nimCopy(null, input_620763121, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym24_620763138.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result1_620763144 = nimCopy(null, tempHEX60gensym24_620763138, NTI620757844);
-          var Temporary3 = result1_620763144;
-          if (ConstSet83[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-          result_620763123 = nimCopy(result_620763123, succeed_620763124(input_620763121, fn_620763093(Temporary3.value), result1_620763144.tail), NTI620757844);
+          var result1_620763150 = parse_620763134(a_620763092, input_620763121);
+          if ((result1_620763150.kind == 0)) {
+          result_620763123 = nimCopy(result_620763123, result1_620763150, NTI620761192);
           break BeforeRet;
+          }
+          
+          var result2_620763167 = parse_620763134(b_620763093, input_620763121);
+          if ((result2_620763167.kind == 0)) {
+          result_620763123 = nimCopy(result_620763123, result2_620763167, NTI620761192);
+          break BeforeRet;
+          }
+          
+          var Temporary1 = result1_620763150;
+          if (ConstSet102[Temporary1.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary1.kind, NTI1191182357)); }
+          var Temporary2 = result2_620763167;
+          if (ConstSet103[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+          result_620763123 = nimCopy(result_620763123, fail_620763125(input_620763121, HEX26_654311539(Temporary1.expected, Temporary2.expected), input_620763121), NTI620761192);
         } while (false);
 
         return result_620763123;
@@ -5824,147 +6364,74 @@ function HEX3Aanonymous_620763120(input_620763121) {
 
 }
 
-function HEX3EHEX3E_620762984(a_620762987, b_620762988) {
+function newSeq_620763748(len_620763750) {
+  var result_620763751 = [];
 
-function succeedImpl_620763000(inputInHEX60gensym105_620763001, valueInHEX60gensym105_620763002, tailInHEX60gensym105_620763003) {
-  var result_620763005 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-    result_620763005 = nimCopy(result_620763005, {kind: 0, value: nimCopy(null, valueInHEX60gensym105_620763002, NTI687865860), tail: nimCopy(null, tailInHEX60gensym105_620763003, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym105_620763001, NTI33554439), expected: []}, NTI620757844);
-
-  return result_620763005;
+    result_620763751 = new Array(len_620763750); for (var i = 0 ; i < len_620763750 ; ++i) { result_620763751[i] = 0; }
+  return result_620763751;
 
 }
 
-function failImpl_620763007(inputInHEX60gensym105_620763008, expectedInHEX60gensym105_620763009, tailInHEX60gensym105_620763010) {
-  var result_620763012 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+function HEX26_620763783(x_620763785, y_620763786) {
+  var result_620763787 = [];
 
-    result_620763012 = nimCopy(result_620763012, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym105_620763009, NTI620761411), tail: nimCopy(null, tailInHEX60gensym105_620763010, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym105_620763008, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-
-  return result_620763012;
-
-}
-      
-function HEX3Aanonymous_620763015(input_620763016) {
-            var Temporary2;
-            var Temporary4;
-          var Temporary5;
-
-        var result_620763018 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-        BeforeRet: do {
-          var succeed_620763019 = succeedImpl_620763000;
-          var fail_620763020 = failImpl_620763007;
-          Label1: do {
-            var tempHEX60gensym34_620763033 = parse_620759604(a_620762987, input_620763016);
-            if ((tempHEX60gensym34_620763033.kind == 1)) {
-            var Temporary2 = tempHEX60gensym34_620763033;
-            if (ConstSet84[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620763018 = nimCopy(result_620763018, {kind: 1, fromInput: nimCopy(null, input_620763016, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym34_620763033.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result1_620763039 = nimCopy(null, tempHEX60gensym34_620763033, NTI620758259);
-          Label3: do {
-            var tempHEX60gensym36_620763052 = parse_620760599(b_620762988, result1_620763039.tail);
-            if ((tempHEX60gensym36_620763052.kind == 1)) {
-            var Temporary4 = tempHEX60gensym36_620763052;
-            if (ConstSet85[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1090519061)); }
-            result_620763018 = nimCopy(result_620763018, {kind: 1, fromInput: nimCopy(null, input_620763016, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym36_620763052.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result2_620763058 = nimCopy(null, tempHEX60gensym36_620763052, NTI620757844);
-          var Temporary5 = result2_620763058;
-          if (ConstSet86[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1090519061)); }
-          result_620763018 = nimCopy(result_620763018, succeed_620763019(input_620763016, Temporary5.value, result2_620763058.tail), NTI620757844);
-          break BeforeRet;
-        } while (false);
-
-        return result_620763018;
-
-      }
-
-  var result_620762989 = null;
-
-    Label1: do {
+    result_620763787 = new Array(chckRange(addInt((x_620763785).length, (y_620763786).length), 0, 2147483647)); for (var i = 0 ; i < chckRange(addInt((x_620763785).length, (y_620763786).length), 0, 2147483647) ; ++i) { result_620763787[i] = 0; }    Label1: do {
+      var i_620763806 = 0;
+      var colontmp__620768434 = 0;
+      colontmp__620768434 = subInt((x_620763785).length, 1);
+      var res_620768435 = 0;
+      Label2: do {
+          Label3: while (true) {
+          if (!(res_620768435 <= colontmp__620768434)) break Label3;
+            i_620763806 = res_620768435;
+            result_620763787[chckIndx(i_620763806, 0, (result_620763787).length - 1)] = x_620763785[chckIndx(i_620763806, 0, (x_620763785).length - 1)];
+            res_620768435 = addInt(res_620768435, 1);
+          }
+      } while (false);
     } while (false);
-    result_620762989 = {body: HEX3Aanonymous_620763015};
-
-  return result_620762989;
-
-}
-
-function HEX3EHEX3E_620762888(a_620762891, b_620762892) {
-
-function succeedImpl_620762904(inputInHEX60gensym104_620762905, valueInHEX60gensym104_620762906, tailInHEX60gensym104_620762907) {
-  var result_620762909 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
-
-    result_620762909 = nimCopy(result_620762909, {kind: 0, value: valueInHEX60gensym104_620762906, tail: nimCopy(null, tailInHEX60gensym104_620762907, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym104_620762905, NTI33554439), expected: []}, NTI1090519270);
-
-  return result_620762909;
-
-}
-
-function failImpl_620762911(inputInHEX60gensym104_620762912, expectedInHEX60gensym104_620762913, tailInHEX60gensym104_620762914) {
-  var result_620762916 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
-
-    result_620762916 = nimCopy(result_620762916, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym104_620762913, NTI620761345), tail: nimCopy(null, tailInHEX60gensym104_620762914, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym104_620762912, NTI33554439), value: 0}, NTI1090519270);
-
-  return result_620762916;
-
-}
-      
-function HEX3Aanonymous_620762919(input_620762920) {
-            var Temporary2;
-            var Temporary4;
-          var Temporary5;
-
-        var result_620762922 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
-
-        BeforeRet: do {
-          var succeed_620762923 = succeedImpl_620762904;
-          var fail_620762924 = failImpl_620762911;
-          Label1: do {
-            var tempHEX60gensym34_620762937 = parse_620758704(a_620762891, input_620762920);
-            if ((tempHEX60gensym34_620762937.kind == 1)) {
-            var Temporary2 = tempHEX60gensym34_620762937;
-            if (ConstSet87[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620762922 = nimCopy(result_620762922, {kind: 1, fromInput: nimCopy(null, input_620762920, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym34_620762937.tail, NTI33554439), value: 0}, NTI1090519270);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result1_620762943 = nimCopy(null, tempHEX60gensym34_620762937, NTI1090519172);
-          Label3: do {
-            var tempHEX60gensym36_620762956 = parse_1090520010(b_620762892, result1_620762943.tail);
-            if ((tempHEX60gensym36_620762956.kind == 1)) {
-            var Temporary4 = tempHEX60gensym36_620762956;
-            if (ConstSet88[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1090519061)); }
-            result_620762922 = nimCopy(result_620762922, {kind: 1, fromInput: nimCopy(null, input_620762920, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym36_620762956.tail, NTI33554439), value: 0}, NTI1090519270);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result2_620762962 = nimCopy(null, tempHEX60gensym36_620762956, NTI1090519270);
-          var Temporary5 = result2_620762962;
-          if (ConstSet89[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1090519061)); }
-          result_620762922 = nimCopy(result_620762922, succeed_620762923(input_620762920, Temporary5.value, result2_620762962.tail), NTI1090519270);
-          break BeforeRet;
-        } while (false);
-
-        return result_620762922;
-
-      }
-
-  var result_620762893 = null;
-
-    Label1: do {
+    Label4: do {
+      var i_620763814 = 0;
+      var colontmp__620768438 = 0;
+      colontmp__620768438 = subInt((y_620763786).length, 1);
+      var res_620768439 = 0;
+      Label5: do {
+          Label6: while (true) {
+          if (!(res_620768439 <= colontmp__620768438)) break Label6;
+            i_620763814 = res_620768439;
+            result_620763787[chckIndx(addInt(i_620763814, (x_620763785).length), 0, (result_620763787).length - 1)] = y_620763786[chckIndx(i_620763814, 0, (y_620763786).length - 1)];
+            res_620768439 = addInt(res_620768439, 1);
+          }
+      } while (false);
     } while (false);
-    result_620762893 = {body: HEX3Aanonymous_620762919};
 
-  return result_620762893;
+  return result_620763787;
+
+}
+
+function join_620764015(a_620764017, sep_620764018) {
+  var result_620764019 = [];
+
+    result_620764019 = nimCopy(null, [], NTI33554439);
+    Label1: do {
+      var i_620764033 = 0;
+      var x_620764034 = 0;
+      var i_620768443 = 0;
+      Label2: do {
+          Label3: while (true) {
+          if (!(i_620768443 < (a_620764017).length)) break Label3;
+            i_620764033 = i_620768443;
+            x_620764034 = a_620764017[chckIndx(i_620768443, 0, (a_620764017).length - 1)];
+            if ((0 < i_620764033)) {
+            result_620764019.push.apply(result_620764019, sep_620764018);;
+            }
+            
+            result_620764019.push.apply(result_620764019, nimCharToStr(x_620764034));;
+            i_620768443 = addInt(i_620768443, 1);
+          }
+      } while (false);
+    } while (false);
+
+  return result_620764019;
 
 }
 
@@ -5974,394 +6441,869 @@ function raiseDivByZero() {
   
 }
 
-function nucRepeatRune(c_654317799, count_654317800) {
-  var result_654317801 = [];
+function imul_1107296546(a_1107296547, b_1107296548) {
+  var result_1107296549 = 0;
 
-    var s_654317802 = HEX24_654312015(c_654317799);
-    result_654317801 = nimCopy(null, mnewString(0), NTI33554439);
+    var mask_1107296550 = 65535;
+    var aHi_1107296555 = ((a_1107296547 >>> 16) & mask_1107296550);
+    var aLo_1107296556 = (a_1107296547 & mask_1107296550);
+    var bHi_1107296561 = ((b_1107296548 >>> 16) & mask_1107296550);
+    var bLo_1107296562 = (b_1107296548 & mask_1107296550);
+    result_1107296549 = ((((aLo_1107296556 * bLo_1107296562) >>> 0) + (((((aHi_1107296555 * bLo_1107296562) >>> 0) + ((aLo_1107296556 * bHi_1107296561) >>> 0)) >>> 0) << 16)) >>> 0);
+
+  return result_1107296549;
+
+}
+
+function rotl32_1107296567(x_1107296568, r_1107296569) {
+  var result_1107296570 = 0;
+
+    result_1107296570 = ((x_1107296568 << r_1107296569) | (x_1107296568 >>> subInt(32, r_1107296569)));
+
+  return result_1107296570;
+
+}
+
+function murmurHash_1107296579(x_1107296580) {
+  var result_1107296581 = 0;
+
+  BeforeRet: do {
+    var size_1107296590 = (x_1107296580).length;
+    var stepSize_1107296591 = 4;
+    var n_1107296592 = divInt(size_1107296590, stepSize_1107296591);
+    var h1_1107296593 = 0;
+    var i_1107296594 = 0;
     Label1: do {
-      var i_654317807 = 0;
-      var colontmp__620767635 = 0;
-      colontmp__620767635 = count_654317800;
-      var i_620767636 = 0;
+        Label2: while (true) {
+        if (!(i_1107296594 < mulInt(n_1107296592, stepSize_1107296591))) break Label2;
+          var k1_1107296595 = 0;
+          var j_1107296596 = stepSize_1107296591;
+          Label3: do {
+              Label4: while (true) {
+              if (!(0 < j_1107296596)) break Label4;
+                j_1107296596 = subInt(j_1107296596, 1);
+                k1_1107296595 = ((k1_1107296595 << 8) | x_1107296580[chckIndx(addInt(i_1107296594, j_1107296596), 0, (x_1107296580).length - 1)]);
+              }
+          } while (false);
+          i_1107296594 = addInt(i_1107296594, stepSize_1107296591);
+          k1_1107296595 = imul_1107296546(k1_1107296595, 3432918353);
+          k1_1107296595 = rotl32_1107296567(k1_1107296595, 15);
+          k1_1107296595 = imul_1107296546(k1_1107296595, 461845907);
+          h1_1107296593 = (h1_1107296593 ^ k1_1107296595);
+          h1_1107296593 = rotl32_1107296567(h1_1107296593, 13);
+          h1_1107296593 = ((((h1_1107296593 * 5) >>> 0) + 3864292196) >>> 0);
+        }
+    } while (false);
+    var k1_1107296613 = 0;
+    var rem_1107296614 = modInt(size_1107296590, stepSize_1107296591);
+    Label5: do {
+        Label6: while (true) {
+        if (!(0 < rem_1107296614)) break Label6;
+          rem_1107296614 = subInt(rem_1107296614, 1);
+          k1_1107296613 = ((k1_1107296613 << 8) | x_1107296580[chckIndx(addInt(i_1107296594, rem_1107296614), 0, (x_1107296580).length - 1)]);
+        }
+    } while (false);
+    k1_1107296613 = imul_1107296546(k1_1107296613, 3432918353);
+    k1_1107296613 = rotl32_1107296567(k1_1107296613, 15);
+    k1_1107296613 = imul_1107296546(k1_1107296613, 461845907);
+    h1_1107296593 = (h1_1107296593 ^ k1_1107296613);
+    h1_1107296593 = (h1_1107296593 ^ size_1107296590);
+    h1_1107296593 = (h1_1107296593 ^ (h1_1107296593 >>> 16));
+    h1_1107296593 = imul_1107296546(h1_1107296593, 2246822507);
+    h1_1107296593 = (h1_1107296593 ^ (h1_1107296593 >>> 13));
+    h1_1107296593 = imul_1107296546(h1_1107296593, 3266489909);
+    h1_1107296593 = (h1_1107296593 ^ (h1_1107296593 >>> 16));
+    result_1107296581 = (h1_1107296593 | 0);
+    break BeforeRet;
+  } while (false);
+
+  return result_1107296581;
+
+}
+
+function hash_1107296678(x_1107296679) {
+  var result_1107296680 = 0;
+
+    result_1107296680 = murmurHash_1107296579((x_1107296679.slice(0, (x_1107296679).length - 1 + 1)));
+
+  return result_1107296680;
+
+}
+
+function isFilled_1090519071(hcode_1090519072) {
+  var result_1090519073 = false;
+
+    result_1090519073 = !((hcode_1090519072 == 0));
+
+  return result_1090519073;
+
+}
+
+function nextTry_1090519074(h_1090519075, maxHash_1090519076) {
+  var result_1090519077 = 0;
+
+    result_1090519077 = (addInt(h_1090519075, 1) & maxHash_1090519076);
+
+  return result_1090519077;
+
+}
+
+function rawGet_637534715(t_637534718, key_637534719, hc_637534720, hc_637534720_Idx) {
+            var Temporary3;
+
+  var result_637534721 = 0;
+
+  BeforeRet: do {
+    hc_637534720[hc_637534720_Idx] = hash_1107296678(key_637534719);
+    if ((hc_637534720[hc_637534720_Idx] == 0)) {
+    hc_637534720[hc_637534720_Idx] = 314159265;
+    }
+    
+    if (((t_637534718.data).length == 0)) {
+    result_637534721 = -1;
+    break BeforeRet;
+    }
+    
+    var h_637534772 = (hc_637534720[hc_637534720_Idx] & (t_637534718.data).length - 1);
+    Label1: do {
+        Label2: while (true) {
+        if (!isFilled_1090519071(t_637534718.data[chckIndx(h_637534772, 0, (t_637534718.data).length - 1)].Field0)) break Label2;
+            if (!(t_637534718.data[chckIndx(h_637534772, 0, (t_637534718.data).length - 1)].Field0 == hc_637534720[hc_637534720_Idx])) Temporary3 = false; else {              Temporary3 = eqStrings(t_637534718.data[chckIndx(h_637534772, 0, (t_637534718.data).length - 1)].Field1, key_637534719);            }          if (Temporary3) {
+          result_637534721 = h_637534772;
+          break BeforeRet;
+          }
+          
+          h_637534772 = nextTry_1090519074(h_637534772, (t_637534718.data).length - 1);
+        }
+    } while (false);
+    result_637534721 = subInt(-1, h_637534772);
+  } while (false);
+
+  return result_637534721;
+
+}
+
+function hasKey_620764173(t_620764176, key_620764177) {
+  var result_620764178 = false;
+
+    var hc_620764179 = [0];
+    result_620764178 = (0 <= rawGet_637534715(t_620764176, key_620764177, hc_620764179, 0));
+
+  return result_620764178;
+
+}
+
+function contains_620764167(t_620764170, key_620764171) {
+  var result_620764172 = false;
+
+  BeforeRet: do {
+    result_620764172 = hasKey_620764173(t_620764170, key_620764171);
+    break BeforeRet;
+  } while (false);
+
+  return result_620764172;
+
+}
+
+function raiseKeyError_1207961319(key_1207961321) {
+    raiseException({message: (makeNimstrLit("key not found: ") || []).concat(key_1207961321 || []), parent: null, m_type: NTI33555126, name: null, trace: [], up: null}, "KeyError");
+
+  
+}
+
+function HEX5BHEX5D_620764310(t_620764313, key_620764314) {
+  var result_620764315 = ({rows: [], baseline: 0, width: 0, flag: 0});
+
+    var hcHEX60gensym20_620764316 = [0];
+    var indexHEX60gensym20_620764323 = rawGet_637534715(t_620764313, key_620764314, hcHEX60gensym20_620764316, 0);
+    if ((0 <= indexHEX60gensym20_620764323)) {
+    result_620764315 = nimCopy(result_620764315, t_620764313.data[chckIndx(indexHEX60gensym20_620764323, 0, (t_620764313.data).length - 1)].Field2, NTI654311428);
+    }
+    else {
+    raiseKeyError_1207961319(key_620764314);
+    }
+    
+
+  return result_620764315;
+
+}
+
+function map_620764851(s_620764854, op_620764856) {
+  var result_620764857 = [];
+
+    result_620764857 = new Array(chckRange((s_620764854).length, 0, 2147483647)); for (var i = 0 ; i < chckRange((s_620764854).length, 0, 2147483647) ; ++i) { result_620764857[i] = null; }    Label1: do {
+      var i_620764873 = 0;
+      var colontmp__620768450 = 0;
+      colontmp__620768450 = (s_620764854).length;
+      var i_620768451 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(i_620767636 < colontmp__620767635)) break Label3;
-            i_654317807 = i_620767636;
-            result_654317801.push.apply(result_654317801, s_654317802);;
-            i_620767636 = addInt(i_620767636, 1);
+          if (!(i_620768451 < colontmp__620768450)) break Label3;
+            i_620764873 = i_620768451;
+            result_620764857[chckIndx(i_620764873, 0, (result_620764857).length - 1)] = op_620764856(s_620764854[chckIndx(i_620764873, 0, (s_620764854).length - 1)]);
+            i_620768451 = addInt(i_620768451, 1);
           }
       } while (false);
     } while (false);
 
-  return result_654317801;
+  return result_620764857;
 
 }
 
-function center_687866726(s_687866727, width_687866728, padding_687866729) {
+function map_620764784(a_620764787, fn_620764789) {
+
+function succeedImpl_620764801(inputInHEX60gensym137_620764802, valueInHEX60gensym137_620764803, tailInHEX60gensym137_620764804) {
+  var result_620764806 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+    result_620764806 = nimCopy(result_620764806, {kind: 0, value: nimCopy(null, valueInHEX60gensym137_620764803, NTI654311428), tail: nimCopy(null, tailInHEX60gensym137_620764804, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym137_620764802, NTI33554439), expected: []}, NTI620758888);
+
+  return result_620764806;
+
+}
+
+function failImpl_620764808(inputInHEX60gensym137_620764809, expectedInHEX60gensym137_620764810, tailInHEX60gensym137_620764811) {
+  var result_620764813 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+    result_620764813 = nimCopy(result_620764813, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym137_620764810, NTI620762806), tail: nimCopy(null, tailInHEX60gensym137_620764811, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym137_620764809, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+
+  return result_620764813;
+
+}
+      
+function HEX3Aanonymous_620764816(input_620764817) {
+            var Temporary2;
+          var Temporary3;
+
+        var result_620764819 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+        BeforeRet: do {
+          var succeed_620764820 = succeedImpl_620764801;
+          var fail_620764821 = failImpl_620764808;
+          Label1: do {
+            var tempHEX60gensym24_620764834 = parse_620760023(a_620764787, input_620764817);
+            if ((tempHEX60gensym24_620764834.kind == 1)) {
+            var Temporary2 = tempHEX60gensym24_620764834;
+            if (ConstSet104[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620764819 = nimCopy(result_620764819, {kind: 1, fromInput: nimCopy(null, input_620764817, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym24_620764834.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result1_620764840 = nimCopy(null, tempHEX60gensym24_620764834, NTI620758888);
+          var Temporary3 = result1_620764840;
+          if (ConstSet105[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+          result_620764819 = nimCopy(result_620764819, succeed_620764820(input_620764817, fn_620764789(Temporary3.value), result1_620764840.tail), NTI620758888);
+          break BeforeRet;
+        } while (false);
+
+        return result_620764819;
+
+      }
+
+  var result_620764790 = null;
+
+    Label1: do {
+    } while (false);
+    result_620764790 = {body: HEX3Aanonymous_620764816};
+
+  return result_620764790;
+
+}
+
+function HEX3EHEX3E_620764680(a_620764683, b_620764684) {
+
+function succeedImpl_620764696(inputInHEX60gensym136_620764697, valueInHEX60gensym136_620764698, tailInHEX60gensym136_620764699) {
+  var result_620764701 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+    result_620764701 = nimCopy(result_620764701, {kind: 0, value: nimCopy(null, valueInHEX60gensym136_620764698, NTI654311428), tail: nimCopy(null, tailInHEX60gensym136_620764699, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym136_620764697, NTI33554439), expected: []}, NTI620758888);
+
+  return result_620764701;
+
+}
+
+function failImpl_620764703(inputInHEX60gensym136_620764704, expectedInHEX60gensym136_620764705, tailInHEX60gensym136_620764706) {
+  var result_620764708 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+    result_620764708 = nimCopy(result_620764708, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym136_620764705, NTI620762727), tail: nimCopy(null, tailInHEX60gensym136_620764706, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym136_620764704, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+
+  return result_620764708;
+
+}
+      
+function HEX3Aanonymous_620764711(input_620764712) {
+            var Temporary2;
+            var Temporary4;
+          var Temporary5;
+
+        var result_620764714 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+        BeforeRet: do {
+          var succeed_620764715 = succeedImpl_620764696;
+          var fail_620764716 = failImpl_620764703;
+          Label1: do {
+            var tempHEX60gensym34_620764729 = parse_620759020(a_620764683, input_620764712);
+            if ((tempHEX60gensym34_620764729.kind == 1)) {
+            var Temporary2 = tempHEX60gensym34_620764729;
+            if (ConstSet106[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620764714 = nimCopy(result_620764714, {kind: 1, fromInput: nimCopy(null, input_620764712, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym34_620764729.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result1_620764735 = nimCopy(null, tempHEX60gensym34_620764729, NTI620757839);
+          Label3: do {
+            var tempHEX60gensym36_620764748 = parse_620760023(b_620764684, result1_620764735.tail);
+            if ((tempHEX60gensym36_620764748.kind == 1)) {
+            var Temporary4 = tempHEX60gensym36_620764748;
+            if (ConstSet107[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620764714 = nimCopy(result_620764714, {kind: 1, fromInput: nimCopy(null, input_620764712, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym36_620764748.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result2_620764754 = nimCopy(null, tempHEX60gensym36_620764748, NTI620758888);
+          var Temporary5 = result2_620764754;
+          if (ConstSet108[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          result_620764714 = nimCopy(result_620764714, succeed_620764715(input_620764712, Temporary5.value, result2_620764754.tail), NTI620758888);
+          break BeforeRet;
+        } while (false);
+
+        return result_620764714;
+
+      }
+
+  var result_620764685 = null;
+
+    Label1: do {
+    } while (false);
+    result_620764685 = {body: HEX3Aanonymous_620764711};
+
+  return result_620764685;
+
+}
+
+function HEX3EHEX3E_620764584(a_620764587, b_620764588) {
+
+function succeedImpl_620764600(inputInHEX60gensym135_620764601, valueInHEX60gensym135_620764602, tailInHEX60gensym135_620764603) {
+  var result_620764605 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+
+    result_620764605 = nimCopy(result_620764605, {kind: 0, value: valueInHEX60gensym135_620764602, tail: nimCopy(null, tailInHEX60gensym135_620764603, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym135_620764601, NTI33554439), expected: []}, NTI1191182566);
+
+  return result_620764605;
+
+}
+
+function failImpl_620764607(inputInHEX60gensym135_620764608, expectedInHEX60gensym135_620764609, tailInHEX60gensym135_620764610) {
+  var result_620764612 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+
+    result_620764612 = nimCopy(result_620764612, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym135_620764609, NTI620762661), tail: nimCopy(null, tailInHEX60gensym135_620764610, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym135_620764608, NTI33554439), value: 0}, NTI1191182566);
+
+  return result_620764612;
+
+}
+      
+function HEX3Aanonymous_620764615(input_620764616) {
+            var Temporary2;
+            var Temporary4;
+          var Temporary5;
+
+        var result_620764618 = ({kind: 0, value: 0, expected: [], tail: [], fromInput: []});
+
+        BeforeRet: do {
+          var succeed_620764619 = succeedImpl_620764600;
+          var fail_620764620 = failImpl_620764607;
+          Label1: do {
+            var tempHEX60gensym34_620764633 = parse_620758790(a_620764587, input_620764616);
+            if ((tempHEX60gensym34_620764633.kind == 1)) {
+            var Temporary2 = tempHEX60gensym34_620764633;
+            if (ConstSet109[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620764618 = nimCopy(result_620764618, {kind: 1, fromInput: nimCopy(null, input_620764616, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym34_620764633.tail, NTI33554439), value: 0}, NTI1191182566);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result1_620764639 = nimCopy(null, tempHEX60gensym34_620764633, NTI1191182468);
+          Label3: do {
+            var tempHEX60gensym36_620764652 = parse_1191183306(b_620764588, result1_620764639.tail);
+            if ((tempHEX60gensym36_620764652.kind == 1)) {
+            var Temporary4 = tempHEX60gensym36_620764652;
+            if (ConstSet110[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620764618 = nimCopy(result_620764618, {kind: 1, fromInput: nimCopy(null, input_620764616, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym36_620764652.tail, NTI33554439), value: 0}, NTI1191182566);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result2_620764658 = nimCopy(null, tempHEX60gensym36_620764652, NTI1191182566);
+          var Temporary5 = result2_620764658;
+          if (ConstSet111[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          result_620764618 = nimCopy(result_620764618, succeed_620764619(input_620764616, Temporary5.value, result2_620764658.tail), NTI1191182566);
+          break BeforeRet;
+        } while (false);
+
+        return result_620764618;
+
+      }
+
+  var result_620764589 = null;
+
+    Label1: do {
+    } while (false);
+    result_620764589 = {body: HEX3Aanonymous_620764615};
+
+  return result_620764589;
+
+}
+
+function nucRepeatRune(c_973084886, count_973084887) {
+  var result_973084888 = [];
+
+    var s_973084889 = HEX24_973079119(c_973084886);
+    result_973084888 = nimCopy(null, mnewString(0), NTI33554439);
+    Label1: do {
+      var i_973084894 = 0;
+      var colontmp__620768474 = 0;
+      colontmp__620768474 = count_973084887;
+      var i_620768475 = 0;
+      Label2: do {
+          Label3: while (true) {
+          if (!(i_620768475 < colontmp__620768474)) break Label3;
+            i_973084894 = i_620768475;
+            result_973084888.push.apply(result_973084888, s_973084889);;
+            i_620768475 = addInt(i_620768475, 1);
+          }
+      } while (false);
+    } while (false);
+
+  return result_973084888;
+
+}
+
+function center_654312303(s_654312304, width_654312305, padding_654312306) {
     var Temporary1;
 
-  var result_687866730 = [];
+  var result_654312307 = [];
 
-    var sLen_687866731 = nucruneLen(s_687866727);
-    if ((width_687866728 <= sLen_687866731)) {
-    Temporary1 = s_687866727;
+    var sLen_654312308 = nucruneLen(s_654312304);
+    if ((width_654312305 <= sLen_654312308)) {
+    Temporary1 = s_654312304;
     }
     else {
-      var diff_687866732 = subInt(width_687866728, sLen_687866731);
-      var left_687866733 = divInt(diff_687866732, 2);
-      var right_687866734 = subInt(diff_687866732, left_687866733);
-    Temporary1 = (nucRepeatRune(padding_687866729, chckRange(left_687866733, 0, 2147483647)) || []).concat(s_687866727 || [],nucRepeatRune(padding_687866729, chckRange(right_687866734, 0, 2147483647)) || []);
+      var diff_654312309 = subInt(width_654312305, sLen_654312308);
+      var left_654312310 = divInt(diff_654312309, 2);
+      var right_654312311 = subInt(diff_654312309, left_654312310);
+    Temporary1 = (nucRepeatRune(padding_654312306, chckRange(left_654312310, 0, 2147483647)) || []).concat(s_654312304 || [],nucRepeatRune(padding_654312306, chckRange(right_654312311, 0, 2147483647)) || []);
     }
     
-    result_687866730 = nimCopy(null, Temporary1, NTI33554439);
+    result_654312307 = nimCopy(null, Temporary1, NTI33554439);
 
-  return result_687866730;
-
-}
-
-function HEX3Aanonymous_687866753(s_687866754, width_687866755) {
-  var result_687866756 = [];
-
-    result_687866756 = nimCopy(null, center_687866726(s_687866754, chckRange(width_687866755, 0, 2147483647), 32), NTI33554439);
-
-  return result_687866756;
+  return result_654312307;
 
 }
 
-function alignLeft_654317821(s_654317822, count_654317823, padding_654317824) {
-  var result_654317825 = [];
+function HEX3Aanonymous_654312330(s_654312331, width_654312332) {
+  var result_654312333 = [];
 
-    var sLen_654317826 = nucruneLen(s_654317822);
-    if ((sLen_654317826 < count_654317823)) {
-    var padStr_654317827 = HEX24_654312015(padding_654317824);
-    result_654317825 = nimCopy(null, mnewString(0), NTI33554439);
-    result_654317825.push.apply(result_654317825, s_654317822);;
+    result_654312333 = nimCopy(null, center_654312303(s_654312331, chckRange(width_654312332, 0, 2147483647), 32), NTI33554439);
+
+  return result_654312333;
+
+}
+
+function alignLeft_973084908(s_973084909, count_973084910, padding_973084911) {
+  var result_973084912 = [];
+
+    var sLen_973084913 = nucruneLen(s_973084909);
+    if ((sLen_973084913 < count_973084910)) {
+    var padStr_973084914 = HEX24_973079119(padding_973084911);
+    result_973084912 = nimCopy(null, mnewString(0), NTI33554439);
+    result_973084912.push.apply(result_973084912, s_973084909);;
     Label1: do {
-      var i_654317832 = 0;
-      var colontmp__620767639 = 0;
-      colontmp__620767639 = count_654317823;
-      var i_620767640 = sLen_654317826;
+      var i_973084919 = 0;
+      var colontmp__620768478 = 0;
+      colontmp__620768478 = count_973084910;
+      var i_620768479 = sLen_973084913;
       Label2: do {
           Label3: while (true) {
-          if (!(i_620767640 < colontmp__620767639)) break Label3;
-            i_654317832 = i_620767640;
-            result_654317825.push.apply(result_654317825, padStr_654317827);;
-            i_620767640 = addInt(i_620767640, 1);
+          if (!(i_620768479 < colontmp__620768478)) break Label3;
+            i_973084919 = i_620768479;
+            result_973084912.push.apply(result_973084912, padStr_973084914);;
+            i_620768479 = addInt(i_620768479, 1);
           }
       } while (false);
     } while (false);
     }
     else {
-      result_654317825 = nimCopy(null, s_654317822, NTI33554439);
+      result_973084912 = nimCopy(null, s_973084909, NTI33554439);
     }
     
 
-  return result_654317825;
+  return result_973084912;
 
 }
 
-function HEX3Aanonymous_687866757(s_687866758, width_687866759) {
-  var result_687866760 = [];
+function HEX3Aanonymous_654312334(s_654312335, width_654312336) {
+  var result_654312337 = [];
 
-    result_687866760 = nimCopy(null, alignLeft_654317821(s_687866758, chckRange(width_687866759, 0, 2147483647), 32), NTI33554439);
+    result_654312337 = nimCopy(null, alignLeft_973084908(s_654312335, chckRange(width_654312336, 0, 2147483647), 32), NTI33554439);
 
-  return result_687866760;
+  return result_654312337;
 
 }
 
-function nucAlignString(s_654317809, count_654317810, padding_654317811) {
-  var result_654317812 = [];
+function nucAlignString(s_973084896, count_973084897, padding_973084898) {
+  var result_973084899 = [];
 
-    var sLen_654317813 = nucruneLen(s_654317809);
-    if ((sLen_654317813 < count_654317810)) {
-    var padStr_654317814 = HEX24_654312015(padding_654317811);
-    result_654317812 = nimCopy(null, mnewString(0), NTI33554439);
-    var spaces_654317815 = subInt(count_654317810, sLen_654317813);
+    var sLen_973084900 = nucruneLen(s_973084896);
+    if ((sLen_973084900 < count_973084897)) {
+    var padStr_973084901 = HEX24_973079119(padding_973084898);
+    result_973084899 = nimCopy(null, mnewString(0), NTI33554439);
+    var spaces_973084902 = subInt(count_973084897, sLen_973084900);
     Label1: do {
-      var i_654317820 = 0;
-      var i_620767643 = 0;
+      var i_973084907 = 0;
+      var i_620768482 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(i_620767643 < spaces_654317815)) break Label3;
-            i_654317820 = i_620767643;
-            result_654317812.push.apply(result_654317812, padStr_654317814);;
-            i_620767643 = addInt(i_620767643, 1);
+          if (!(i_620768482 < spaces_973084902)) break Label3;
+            i_973084907 = i_620768482;
+            result_973084899.push.apply(result_973084899, padStr_973084901);;
+            i_620768482 = addInt(i_620768482, 1);
           }
       } while (false);
     } while (false);
-    result_654317812.push.apply(result_654317812, s_654317809);;
+    result_973084899.push.apply(result_973084899, s_973084896);;
     }
     else {
-      result_654317812 = nimCopy(null, s_654317809, NTI33554439);
+      result_973084899 = nimCopy(null, s_973084896, NTI33554439);
     }
     
 
-  return result_654317812;
+  return result_973084899;
 
 }
 
-function HEX3Aanonymous_687866761(s_687866762, width_687866763) {
-  var result_687866764 = [];
+function HEX3Aanonymous_654312338(s_654312339, width_654312340) {
+  var result_654312341 = [];
 
-    result_687866764 = nimCopy(null, nucAlignString(s_687866762, chckRange(width_687866763, 0, 2147483647), 32), NTI33554439);
+    result_654312341 = nimCopy(null, nucAlignString(s_654312339, chckRange(width_654312340, 0, 2147483647), 32), NTI33554439);
 
-  return result_687866764;
+  return result_654312341;
 
 }
 
-function stack_687866775(rects_687866776, baseline_687866777, alignment_687866778) {
-  var result_687866779 = ({rows: [], baseline: 0, width: 0, flag: 0});
+function stack_654312352(rects_654312353, baseline_654312354, alignment_654312355) {
+  var result_654312356 = ({rows: [], baseline: 0, width: 0, flag: 0});
 
     Label1: do {
-      var iHEX60gensym44_687866801 = 0;
-      var resultHEX60gensym44_687866808 = newSeq_687866494(chckRange((rects_687866776).length, 0, 2147483647));
+      var iHEX60gensym44_654312378 = 0;
+      var resultHEX60gensym44_654312385 = newSeq_654312071(chckRange((rects_654312353).length, 0, 2147483647));
       Label2: do {
-        var it_687866812 = ({rows: [], baseline: 0, width: 0, flag: 0});
-        var i_620767625 = 0;
+        var it_654312389 = ({rows: [], baseline: 0, width: 0, flag: 0});
+        var i_620768464 = 0;
         Label3: do {
             Label4: while (true) {
-            if (!(i_620767625 < (rects_687866776).length)) break Label4;
-              it_687866812 = rects_687866776[chckIndx(i_620767625, 0, (rects_687866776).length - 1)];
-              resultHEX60gensym44_687866808[chckIndx(iHEX60gensym44_687866801, 0, (resultHEX60gensym44_687866808).length - 1)] = it_687866812.width;
-              iHEX60gensym44_687866801 = addInt(iHEX60gensym44_687866801, 1);
-              i_620767625 = addInt(i_620767625, 1);
+            if (!(i_620768464 < (rects_654312353).length)) break Label4;
+              it_654312389 = rects_654312353[chckIndx(i_620768464, 0, (rects_654312353).length - 1)];
+              resultHEX60gensym44_654312385[chckIndx(iHEX60gensym44_654312378, 0, (resultHEX60gensym44_654312385).length - 1)] = it_654312389.width;
+              iHEX60gensym44_654312378 = addInt(iHEX60gensym44_654312378, 1);
+              i_620768464 = addInt(i_620768464, 1);
             }
         } while (false);
       } while (false);
     } while (false);
-    var width_687866820 = max_687866520(resultHEX60gensym44_687866808);
-    var alignFunc_687866821 = alignFuncs_687866765[chckIndx(alignment_687866778, 0, (alignFuncs_687866765).length - 1)];
+    var width_654312397 = max_654312097(resultHEX60gensym44_654312385);
+    var alignFunc_654312398 = alignFuncs_654312342[chckIndx(alignment_654312355, 0, (alignFuncs_654312342).length - 1)];
     Label5: do {
-      var rect_687866825 = ({rows: [], baseline: 0, width: 0, flag: 0});
-      var i_620767632 = 0;
+      var rect_654312402 = ({rows: [], baseline: 0, width: 0, flag: 0});
+      var i_620768471 = 0;
       Label6: do {
           Label7: while (true) {
-          if (!(i_620767632 < (rects_687866776).length)) break Label7;
-            rect_687866825 = rects_687866776[chckIndx(i_620767632, 0, (rects_687866776).length - 1)];
+          if (!(i_620768471 < (rects_654312353).length)) break Label7;
+            rect_654312402 = rects_654312353[chckIndx(i_620768471, 0, (rects_654312353).length - 1)];
             Label8: do {
-              var row_687866829 = [];
-              var i_620767629 = 0;
-              var L_620767630 = (rect_687866825.rows).length;
+              var row_654312406 = [];
+              var i_620768468 = 0;
+              var L_620768469 = (rect_654312402.rows).length;
               Label9: do {
                   Label10: while (true) {
-                  if (!(i_620767629 < L_620767630)) break Label10;
-                    row_687866829 = rect_687866825.rows[chckIndx(i_620767629, 0, (rect_687866825.rows).length - 1)];
-                    result_687866779.rows.push(alignFunc_687866821(row_687866829, width_687866820));;
-                    i_620767629 = addInt(i_620767629, 1);
-                    if (!(((rect_687866825.rows).length == L_620767630))) {
+                  if (!(i_620768468 < L_620768469)) break Label10;
+                    row_654312406 = rect_654312402.rows[chckIndx(i_620768468, 0, (rect_654312402.rows).length - 1)];
+                    result_654312356.rows.push(alignFunc_654312398(row_654312406, width_654312397));;
+                    i_620768468 = addInt(i_620768468, 1);
+                    if (!(((rect_654312402.rows).length == L_620768469))) {
                     failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                     }
                     
                   }
               } while (false);
             } while (false);
-            i_620767632 = addInt(i_620767632, 1);
+            i_620768471 = addInt(i_620768471, 1);
           }
       } while (false);
     } while (false);
-    result_687866779.baseline = baseline_687866777;
-    result_687866779.width = width_687866820;
+    result_654312356.baseline = baseline_654312354;
+    result_654312356.width = width_654312397;
 
-  return result_687866779;
-
-}
-
-function HEX3EHEX3E_620763552(a_620763555, b_620763556) {
-
-function succeedImpl_620763568(inputInHEX60gensym115_620763569, valueInHEX60gensym115_620763570, tailInHEX60gensym115_620763571) {
-  var result_620763573 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-    result_620763573 = nimCopy(result_620763573, {kind: 0, value: nimCopy(null, valueInHEX60gensym115_620763570, NTI687865860), tail: nimCopy(null, tailInHEX60gensym115_620763571, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym115_620763569, NTI33554439), expected: []}, NTI620757844);
-
-  return result_620763573;
+  return result_654312356;
 
 }
 
-function failImpl_620763575(inputInHEX60gensym115_620763576, expectedInHEX60gensym115_620763577, tailInHEX60gensym115_620763578) {
-  var result_620763580 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+function HEX3EHEX3E_620765318(a_620765321, b_620765322) {
 
-    result_620763580 = nimCopy(result_620763580, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym115_620763577, NTI620761847), tail: nimCopy(null, tailInHEX60gensym115_620763578, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym115_620763576, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
+function succeedImpl_620765334(inputInHEX60gensym147_620765335, valueInHEX60gensym147_620765336, tailInHEX60gensym147_620765337) {
+  var result_620765339 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
 
-  return result_620763580;
+    result_620765339 = nimCopy(result_620765339, {kind: 0, value: nimCopy(null, valueInHEX60gensym147_620765336, NTI654311428), tail: nimCopy(null, tailInHEX60gensym147_620765337, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym147_620765335, NTI33554439), expected: []}, NTI620758888);
+
+  return result_620765339;
+
+}
+
+function failImpl_620765341(inputInHEX60gensym147_620765342, expectedInHEX60gensym147_620765343, tailInHEX60gensym147_620765344) {
+  var result_620765346 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+    result_620765346 = nimCopy(result_620765346, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym147_620765343, NTI620763208), tail: nimCopy(null, tailInHEX60gensym147_620765344, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym147_620765342, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+
+  return result_620765346;
 
 }
       
-function HEX3Aanonymous_620763583(input_620763584) {
+function HEX3Aanonymous_620765349(input_620765350) {
             var Temporary2;
             var Temporary4;
           var Temporary5;
 
-        var result_620763586 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+        var result_620765352 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620763587 = succeedImpl_620763568;
-          var fail_620763588 = failImpl_620763575;
+          var succeed_620765353 = succeedImpl_620765334;
+          var fail_620765354 = failImpl_620765341;
           Label1: do {
-            var tempHEX60gensym34_620763601 = parse_620758704(a_620763555, input_620763584);
-            if ((tempHEX60gensym34_620763601.kind == 1)) {
-            var Temporary2 = tempHEX60gensym34_620763601;
-            if (ConstSet90[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620763586 = nimCopy(result_620763586, {kind: 1, fromInput: nimCopy(null, input_620763584, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym34_620763601.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
+            var tempHEX60gensym34_620765367 = parse_620758790(a_620765321, input_620765350);
+            if ((tempHEX60gensym34_620765367.kind == 1)) {
+            var Temporary2 = tempHEX60gensym34_620765367;
+            if (ConstSet112[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620765352 = nimCopy(result_620765352, {kind: 1, fromInput: nimCopy(null, input_620765350, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym34_620765367.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
             break BeforeRet;
             }
             
           } while (false);
-          var result1_620763607 = nimCopy(null, tempHEX60gensym34_620763601, NTI1090519172);
+          var result1_620765373 = nimCopy(null, tempHEX60gensym34_620765367, NTI1191182468);
           Label3: do {
-            var tempHEX60gensym36_620763620 = parse_620760599(b_620763556, result1_620763607.tail);
-            if ((tempHEX60gensym36_620763620.kind == 1)) {
-            var Temporary4 = tempHEX60gensym36_620763620;
-            if (ConstSet91[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1090519061)); }
-            result_620763586 = nimCopy(result_620763586, {kind: 1, fromInput: nimCopy(null, input_620763584, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym36_620763620.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
+            var tempHEX60gensym36_620765386 = parse_620760023(b_620765322, result1_620765373.tail);
+            if ((tempHEX60gensym36_620765386.kind == 1)) {
+            var Temporary4 = tempHEX60gensym36_620765386;
+            if (ConstSet113[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620765352 = nimCopy(result_620765352, {kind: 1, fromInput: nimCopy(null, input_620765350, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym36_620765386.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
             break BeforeRet;
             }
             
           } while (false);
-          var result2_620763626 = nimCopy(null, tempHEX60gensym36_620763620, NTI620757844);
-          var Temporary5 = result2_620763626;
-          if (ConstSet92[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1090519061)); }
-          result_620763586 = nimCopy(result_620763586, succeed_620763587(input_620763584, Temporary5.value, result2_620763626.tail), NTI620757844);
+          var result2_620765392 = nimCopy(null, tempHEX60gensym36_620765386, NTI620758888);
+          var Temporary5 = result2_620765392;
+          if (ConstSet114[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          result_620765352 = nimCopy(result_620765352, succeed_620765353(input_620765350, Temporary5.value, result2_620765392.tail), NTI620758888);
           break BeforeRet;
         } while (false);
 
-        return result_620763586;
+        return result_620765352;
 
       }
 
-  var result_620763557 = null;
+  var result_620765323 = null;
 
     Label1: do {
     } while (false);
-    result_620763557 = {body: HEX3Aanonymous_620763583};
+    result_620765323 = {body: HEX3Aanonymous_620765349};
 
-  return result_620763557;
-
-}
-
-function HEX26_620763378(a_620763383, b_620763387) {
-
-function succeedImpl_620763402(inputInHEX60gensym114_620763403, valueInHEX60gensym114_620763404, tailInHEX60gensym114_620763405) {
-  var result_620763407 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620763407 = nimCopy(result_620763407, {kind: 0, value: nimCopy(null, valueInHEX60gensym114_620763404, NTI620761732), tail: nimCopy(null, tailInHEX60gensym114_620763405, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym114_620763403, NTI33554439), expected: []}, NTI620759300);
-
-  return result_620763407;
+  return result_620765323;
 
 }
 
-function failImpl_620763409(inputInHEX60gensym114_620763410, expectedInHEX60gensym114_620763411, tailInHEX60gensym114_620763412) {
-  var result_620763414 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function HEX7C_620764918(a_620764920, b_620764921) {
 
-    result_620763414 = nimCopy(result_620763414, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym114_620763411, NTI620761738), tail: nimCopy(null, tailInHEX60gensym114_620763412, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym114_620763410, NTI33554439), value: []}, NTI620759300);
+function succeedImpl_620764933(inputInHEX60gensym142_620764934, valueInHEX60gensym142_620764935, tailInHEX60gensym142_620764936) {
+  var result_620764938 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-  return result_620763414;
+    result_620764938 = nimCopy(result_620764938, {kind: 0, value: nimCopy(null, valueInHEX60gensym142_620764935, NTI33554439), tail: nimCopy(null, tailInHEX60gensym142_620764936, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym142_620764934, NTI33554439), expected: []}, NTI1191182468);
+
+  return result_620764938;
+
+}
+
+function failImpl_620764940(inputInHEX60gensym142_620764941, expectedInHEX60gensym142_620764942, tailInHEX60gensym142_620764943) {
+  var result_620764945 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620764945 = nimCopy(result_620764945, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym142_620764942, NTI620762893), tail: nimCopy(null, tailInHEX60gensym142_620764943, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym142_620764941, NTI33554439), value: []}, NTI1191182468);
+
+  return result_620764945;
 
 }
       
-function HEX3Aanonymous_620763417(input_620763418) {
+function HEX3Aanonymous_620764948(input_620764949) {
+          var Temporary1;
+          var Temporary2;
+
+        var result_620764951 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+        BeforeRet: do {
+          var succeed_620764952 = succeedImpl_620764933;
+          var fail_620764953 = failImpl_620764940;
+          var result1_620764966 = parse_620758790(a_620764920, input_620764949);
+          if ((result1_620764966.kind == 0)) {
+          result_620764951 = nimCopy(result_620764951, result1_620764966, NTI1191182468);
+          break BeforeRet;
+          }
+          
+          var result2_620764983 = parse_620758790(b_620764921, input_620764949);
+          if ((result2_620764983.kind == 0)) {
+          result_620764951 = nimCopy(result_620764951, result2_620764983, NTI1191182468);
+          break BeforeRet;
+          }
+          
+          var Temporary1 = result1_620764966;
+          if (ConstSet115[Temporary1.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary1.kind, NTI1191182357)); }
+          var Temporary2 = result2_620764983;
+          if (ConstSet116[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+          result_620764951 = nimCopy(result_620764951, fail_620764953(input_620764949, HEX26_654311539(Temporary1.expected, Temporary2.expected), input_620764949), NTI1191182468);
+        } while (false);
+
+        return result_620764951;
+
+      }
+
+  var result_620764922 = null;
+
+    Label1: do {
+    } while (false);
+    result_620764922 = {body: HEX3Aanonymous_620764948};
+
+  return result_620764922;
+
+}
+
+function HEX26_620765144(a_620765149, b_620765153) {
+
+function succeedImpl_620765168(inputInHEX60gensym146_620765169, valueInHEX60gensym146_620765170, tailInHEX60gensym146_620765171) {
+  var result_620765173 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620765173 = nimCopy(result_620765173, {kind: 0, value: nimCopy(null, valueInHEX60gensym146_620765170, NTI620763093), tail: nimCopy(null, tailInHEX60gensym146_620765171, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym146_620765169, NTI33554439), expected: []}, NTI620758903);
+
+  return result_620765173;
+
+}
+
+function failImpl_620765175(inputInHEX60gensym146_620765176, expectedInHEX60gensym146_620765177, tailInHEX60gensym146_620765178) {
+  var result_620765180 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+    result_620765180 = nimCopy(result_620765180, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym146_620765177, NTI620763099), tail: nimCopy(null, tailInHEX60gensym146_620765178, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym146_620765176, NTI33554439), value: []}, NTI620758903);
+
+  return result_620765180;
+
+}
+      
+function HEX3Aanonymous_620765183(input_620765184) {
             var Temporary2;
             var Temporary4;
           var Temporary5;
           var Temporary6;
 
-        var result_620763420 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+        var result_620765186 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
         BeforeRet: do {
-          var succeed_620763421 = succeedImpl_620763402;
-          var fail_620763422 = failImpl_620763409;
+          var succeed_620765187 = succeedImpl_620765168;
+          var fail_620765188 = failImpl_620765175;
           Label1: do {
-            var tempHEX60gensym26_620763435 = parse_620760829(a_620763383, input_620763418);
-            if ((tempHEX60gensym26_620763435.kind == 1)) {
-            var Temporary2 = tempHEX60gensym26_620763435;
-            if (ConstSet93[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620763420 = nimCopy(result_620763420, {kind: 1, fromInput: nimCopy(null, input_620763418, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym26_620763435.tail, NTI33554439), value: []}, NTI620759300);
+            var tempHEX60gensym26_620765201 = parse_620760265(a_620765149, input_620765184);
+            if ((tempHEX60gensym26_620765201.kind == 1)) {
+            var Temporary2 = tempHEX60gensym26_620765201;
+            if (ConstSet117[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620765186 = nimCopy(result_620765186, {kind: 1, fromInput: nimCopy(null, input_620765184, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym26_620765201.tail, NTI33554439), value: []}, NTI620758903);
             break BeforeRet;
             }
             
           } while (false);
-          var result1_620763441 = nimCopy(null, tempHEX60gensym26_620763435, NTI620759300);
+          var result1_620765207 = nimCopy(null, tempHEX60gensym26_620765201, NTI620758903);
           Label3: do {
-            var tempHEX60gensym28_620763454 = parse_620760829(b_620763387, result1_620763441.tail);
-            if ((tempHEX60gensym28_620763454.kind == 1)) {
-            var Temporary4 = tempHEX60gensym28_620763454;
-            if (ConstSet94[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1090519061)); }
-            result_620763420 = nimCopy(result_620763420, {kind: 1, fromInput: nimCopy(null, input_620763418, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym28_620763454.tail, NTI33554439), value: []}, NTI620759300);
+            var tempHEX60gensym28_620765220 = parse_620760265(b_620765153, result1_620765207.tail);
+            if ((tempHEX60gensym28_620765220.kind == 1)) {
+            var Temporary4 = tempHEX60gensym28_620765220;
+            if (ConstSet118[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620765186 = nimCopy(result_620765186, {kind: 1, fromInput: nimCopy(null, input_620765184, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym28_620765220.tail, NTI33554439), value: []}, NTI620758903);
             break BeforeRet;
             }
             
           } while (false);
-          var result2_620763460 = nimCopy(null, tempHEX60gensym28_620763454, NTI620759300);
-          var Temporary5 = result1_620763441;
-          if (ConstSet95[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1090519061)); }
-          var Temporary6 = result2_620763460;
-          if (ConstSet96[Temporary6.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary6.kind, NTI1090519061)); }
-          result_620763420 = nimCopy(result_620763420, succeed_620763421(input_620763418, HEX26_620761473(Temporary5.value, Temporary6.value), result2_620763460.tail), NTI620759300);
+          var result2_620765226 = nimCopy(null, tempHEX60gensym28_620765220, NTI620758903);
+          var Temporary5 = result1_620765207;
+          if (ConstSet119[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          var Temporary6 = result2_620765226;
+          if (ConstSet120[Temporary6.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary6.kind, NTI1191182357)); }
+          result_620765186 = nimCopy(result_620765186, succeed_620765187(input_620765184, HEX26_620760909(Temporary5.value, Temporary6.value), result2_620765226.tail), NTI620758903);
           break BeforeRet;
         } while (false);
 
-        return result_620763420;
+        return result_620765186;
 
       }
 
-  var result_620763391 = null;
+  var result_620765157 = null;
 
     Label1: do {
     } while (false);
-    result_620763391 = {body: HEX3Aanonymous_620763417};
+    result_620765157 = {body: HEX3Aanonymous_620765183};
 
-  return result_620763391;
+  return result_620765157;
 
 }
 
-function max_620763482(x_620763484, y_620763485) {
+function max_620765248(x_620765250, y_620765251) {
     var Temporary1;
 
-  var result_620763486 = 0;
+  var result_620765252 = 0;
 
-    if ((y_620763485 <= x_620763484)) {
-    Temporary1 = x_620763484;
+    if ((y_620765251 <= x_620765250)) {
+    Temporary1 = x_620765250;
     }
     else {
-    Temporary1 = y_620763485;
+    Temporary1 = y_620765251;
     }
     
-    result_620763486 = Temporary1;
+    result_620765252 = Temporary1;
 
-  return result_620763486;
+  return result_620765252;
 
 }
 
-function nsuRepeatStr(s_704644100, n_704644101) {
-  var result_704644102 = [];
+function nsuRepeatStr(s_671089668, n_671089669) {
+  var result_671089670 = [];
 
-    result_704644102 = nimCopy(null, mnewString(0), NTI33554439);
+    result_671089670 = nimCopy(null, mnewString(0), NTI33554439);
     Label1: do {
-      var i_704644107 = 0;
-      var colontmp__620767652 = 0;
-      colontmp__620767652 = n_704644101;
-      var res_620767653 = 1;
+      var i_671089675 = 0;
+      var colontmp__620768492 = 0;
+      colontmp__620768492 = n_671089669;
+      var res_620768493 = 1;
       Label2: do {
           Label3: while (true) {
-          if (!(res_620767653 <= colontmp__620767652)) break Label3;
-            i_704644107 = res_620767653;
-            result_704644102.push.apply(result_704644102, s_704644100);;
-            res_620767653 = addInt(res_620767653, 1);
+          if (!(res_620768493 <= colontmp__620768492)) break Label3;
+            i_671089675 = res_620768493;
+            result_671089670.push.apply(result_671089670, s_671089668);;
+            res_620768493 = addInt(res_620768493, 1);
           }
       } while (false);
     } while (false);
 
-  return result_704644102;
+  return result_671089670;
 
 }
 
-function withFlag_687866861(rect_687866862, flag_687866863) {
-  var result_687866864 = ({rows: [], baseline: 0, width: 0, flag: 0});
+function withFlag_654312438(rect_654312439, flag_654312440) {
+  var result_654312441 = ({rows: [], baseline: 0, width: 0, flag: 0});
 
-    result_687866864 = nimCopy(result_687866864, rect_687866862, NTI687865860);
-    result_687866864.flag = flag_687866863;
+    result_654312441 = nimCopy(result_654312441, rect_654312439, NTI654311428);
+    result_654312441.flag = flag_654312440;
 
-  return result_687866864;
+  return result_654312441;
 
 }
 
@@ -6371,120 +7313,13 @@ function HEX5BHEX5DHEX3D_620758398(s_620758400, i_620758401, x_620758402) {
   
 }
 
-function imul_1140850978(a_1140850979, b_1140850980) {
-  var result_1140850981 = 0;
-
-    var mask_1140850982 = 65535;
-    var aHi_1140850987 = ((a_1140850979 >>> 16) & mask_1140850982);
-    var aLo_1140850988 = (a_1140850979 & mask_1140850982);
-    var bHi_1140850993 = ((b_1140850980 >>> 16) & mask_1140850982);
-    var bLo_1140850994 = (b_1140850980 & mask_1140850982);
-    result_1140850981 = ((((aLo_1140850988 * bLo_1140850994) >>> 0) + (((((aHi_1140850987 * bLo_1140850994) >>> 0) + ((aLo_1140850988 * bHi_1140850993) >>> 0)) >>> 0) << 16)) >>> 0);
-
-  return result_1140850981;
-
-}
-
-function rotl32_1140850999(x_1140851000, r_1140851001) {
-  var result_1140851002 = 0;
-
-    result_1140851002 = ((x_1140851000 << r_1140851001) | (x_1140851000 >>> subInt(32, r_1140851001)));
-
-  return result_1140851002;
-
-}
-
-function murmurHash_1140851011(x_1140851012) {
-  var result_1140851013 = 0;
-
-  BeforeRet: do {
-    var size_1140851022 = (x_1140851012).length;
-    var stepSize_1140851023 = 4;
-    var n_1140851024 = divInt(size_1140851022, stepSize_1140851023);
-    var h1_1140851025 = 0;
-    var i_1140851026 = 0;
-    Label1: do {
-        Label2: while (true) {
-        if (!(i_1140851026 < mulInt(n_1140851024, stepSize_1140851023))) break Label2;
-          var k1_1140851027 = 0;
-          var j_1140851028 = stepSize_1140851023;
-          Label3: do {
-              Label4: while (true) {
-              if (!(0 < j_1140851028)) break Label4;
-                j_1140851028 = subInt(j_1140851028, 1);
-                k1_1140851027 = ((k1_1140851027 << 8) | x_1140851012[chckIndx(addInt(i_1140851026, j_1140851028), 0, (x_1140851012).length - 1)]);
-              }
-          } while (false);
-          i_1140851026 = addInt(i_1140851026, stepSize_1140851023);
-          k1_1140851027 = imul_1140850978(k1_1140851027, 3432918353);
-          k1_1140851027 = rotl32_1140850999(k1_1140851027, 15);
-          k1_1140851027 = imul_1140850978(k1_1140851027, 461845907);
-          h1_1140851025 = (h1_1140851025 ^ k1_1140851027);
-          h1_1140851025 = rotl32_1140850999(h1_1140851025, 13);
-          h1_1140851025 = ((((h1_1140851025 * 5) >>> 0) + 3864292196) >>> 0);
-        }
-    } while (false);
-    var k1_1140851045 = 0;
-    var rem_1140851046 = modInt(size_1140851022, stepSize_1140851023);
-    Label5: do {
-        Label6: while (true) {
-        if (!(0 < rem_1140851046)) break Label6;
-          rem_1140851046 = subInt(rem_1140851046, 1);
-          k1_1140851045 = ((k1_1140851045 << 8) | x_1140851012[chckIndx(addInt(i_1140851026, rem_1140851046), 0, (x_1140851012).length - 1)]);
-        }
-    } while (false);
-    k1_1140851045 = imul_1140850978(k1_1140851045, 3432918353);
-    k1_1140851045 = rotl32_1140850999(k1_1140851045, 15);
-    k1_1140851045 = imul_1140850978(k1_1140851045, 461845907);
-    h1_1140851025 = (h1_1140851025 ^ k1_1140851045);
-    h1_1140851025 = (h1_1140851025 ^ size_1140851022);
-    h1_1140851025 = (h1_1140851025 ^ (h1_1140851025 >>> 16));
-    h1_1140851025 = imul_1140850978(h1_1140851025, 2246822507);
-    h1_1140851025 = (h1_1140851025 ^ (h1_1140851025 >>> 13));
-    h1_1140851025 = imul_1140850978(h1_1140851025, 3266489909);
-    h1_1140851025 = (h1_1140851025 ^ (h1_1140851025 >>> 16));
-    result_1140851013 = (h1_1140851025 | 0);
-    break BeforeRet;
-  } while (false);
-
-  return result_1140851013;
-
-}
-
-function hash_1140851110(x_1140851111) {
-  var result_1140851112 = 0;
-
-    result_1140851112 = murmurHash_1140851011((x_1140851111.slice(0, (x_1140851111).length - 1 + 1)));
-
-  return result_1140851112;
-
-}
-
-function isFilled_1124073503(hcode_1124073504) {
-  var result_1124073505 = false;
-
-    result_1124073505 = !((hcode_1124073504 == 0));
-
-  return result_1124073505;
-
-}
-
-function nextTry_1124073506(h_1124073507, maxHash_1124073508) {
-  var result_1124073509 = 0;
-
-    result_1124073509 = (addInt(h_1124073507, 1) & maxHash_1124073508);
-
-  return result_1124073509;
-
-}
-
 function rawGet_620757153(t_620757156, key_620757157, hc_620757158, hc_620757158_Idx) {
             var Temporary3;
 
   var result_620757159 = 0;
 
   BeforeRet: do {
-    hc_620757158[hc_620757158_Idx] = hash_1140851110(key_620757157);
+    hc_620757158[hc_620757158_Idx] = hash_1107296678(key_620757157);
     if ((hc_620757158[hc_620757158_Idx] == 0)) {
     hc_620757158[hc_620757158_Idx] = 314159265;
     }
@@ -6497,13 +7332,13 @@ function rawGet_620757153(t_620757156, key_620757157, hc_620757158, hc_620757158
     var h_620757210 = (hc_620757158[hc_620757158_Idx] & (t_620757156.data).length - 1);
     Label1: do {
         Label2: while (true) {
-        if (!isFilled_1124073503(t_620757156.data[chckIndx(h_620757210, 0, (t_620757156.data).length - 1)].Field0)) break Label2;
+        if (!isFilled_1090519071(t_620757156.data[chckIndx(h_620757210, 0, (t_620757156.data).length - 1)].Field0)) break Label2;
             if (!(t_620757156.data[chckIndx(h_620757210, 0, (t_620757156.data).length - 1)].Field0 == hc_620757158[hc_620757158_Idx])) Temporary3 = false; else {              Temporary3 = eqStrings(t_620757156.data[chckIndx(h_620757210, 0, (t_620757156.data).length - 1)].Field1, key_620757157);            }          if (Temporary3) {
           result_620757159 = h_620757210;
           break BeforeRet;
           }
           
-          h_620757210 = nextTry_1124073506(h_620757210, (t_620757156.data).length - 1);
+          h_620757210 = nextTry_1090519074(h_620757210, (t_620757156.data).length - 1);
         }
     } while (false);
     result_620757159 = subInt(-1, h_620757210);
@@ -6511,12 +7346,6 @@ function rawGet_620757153(t_620757156, key_620757157, hc_620757158, hc_620757158
 
   return result_620757159;
 
-}
-
-function raiseKeyError_1107298023(key_1107298025) {
-    raiseException({message: (makeNimstrLit("key not found: ") || []).concat(key_1107298025 || []), parent: null, m_type: NTI33555126, name: null, trace: [], up: null}, "KeyError");
-
-  
 }
 
 function HEX5BHEX5D_620758481(t_620758484, key_620758485) {
@@ -6528,7 +7357,7 @@ function HEX5BHEX5D_620758481(t_620758484, key_620758485) {
     result_620758486 = nimCopy(result_620758486, t_620758484.data[chckIndx(indexHEX60gensym20_620758494, 0, (t_620758484.data).length - 1)].Field2, NTI620756998);
     }
     else {
-    raiseKeyError_1107298023(key_620758485);
+    raiseKeyError_1207961319(key_620758485);
     }
     
 
@@ -6552,15 +7381,15 @@ function bigDelimiter_620757000(delimiter_620757001, height_620757002, baseline_
         result_620757004.rows[chckIndx(0, 0, (result_620757004.rows).length - 1)] = nimCopy(null, makeNimstrLit("\xE2\x8E\xA7"), NTI33554439);
         Label1: do {
           var i_620758397 = 0;
-          var colontmp__620767656 = 0;
-          colontmp__620767656 = subInt(height_620757002, 1);
-          var i_620767657 = 1;
+          var colontmp__620768496 = 0;
+          colontmp__620768496 = subInt(height_620757002, 1);
+          var i_620768497 = 1;
           Label2: do {
               Label3: while (true) {
-              if (!(i_620767657 < colontmp__620767656)) break Label3;
-                i_620758397 = i_620767657;
+              if (!(i_620768497 < colontmp__620768496)) break Label3;
+                i_620758397 = i_620768497;
                 result_620757004.rows[chckIndx(i_620758397, 0, (result_620757004.rows).length - 1)] = nimCopy(null, makeNimstrLit("\xE2\x8E\xAA"), NTI33554439);
-                i_620767657 = addInt(i_620767657, 1);
+                i_620768497 = addInt(i_620768497, 1);
               }
           } while (false);
         } while (false);
@@ -6578,15 +7407,15 @@ function bigDelimiter_620757000(delimiter_620757001, height_620757002, baseline_
         result_620757004.rows[chckIndx(0, 0, (result_620757004.rows).length - 1)] = nimCopy(null, makeNimstrLit("\xE2\x8E\xAB"), NTI33554439);
         Label4: do {
           var i_620758410 = 0;
-          var colontmp__620767660 = 0;
-          colontmp__620767660 = subInt(height_620757002, 1);
-          var i_620767661 = 1;
+          var colontmp__620768500 = 0;
+          colontmp__620768500 = subInt(height_620757002, 1);
+          var i_620768501 = 1;
           Label5: do {
               Label6: while (true) {
-              if (!(i_620767661 < colontmp__620767660)) break Label6;
-                i_620758410 = i_620767661;
+              if (!(i_620768501 < colontmp__620768500)) break Label6;
+                i_620758410 = i_620768501;
                 result_620757004.rows[chckIndx(i_620758410, 0, (result_620757004.rows).length - 1)] = nimCopy(null, makeNimstrLit("\xE2\x8E\xAA"), NTI33554439);
-                i_620767661 = addInt(i_620767661, 1);
+                i_620768501 = addInt(i_620768501, 1);
               }
           } while (false);
         } while (false);
@@ -6604,16 +7433,16 @@ function bigDelimiter_620757000(delimiter_620757001, height_620757002, baseline_
       
       Label7: do {
         var i_620758421 = 0;
-        var colontmp__620767664 = 0;
-        colontmp__620767664 = divInt(height_620757002, 2);
-        var i_620767665 = 0;
+        var colontmp__620768504 = 0;
+        colontmp__620768504 = divInt(height_620757002, 2);
+        var i_620768505 = 0;
         Label8: do {
             Label9: while (true) {
-            if (!(i_620767665 < colontmp__620767664)) break Label9;
-              i_620758421 = i_620767665;
+            if (!(i_620768505 < colontmp__620768504)) break Label9;
+              i_620758421 = i_620768505;
               result_620757004.rows[chckIndx(i_620758421, 0, (result_620757004.rows).length - 1)] = nimCopy(null, (nsuRepeatStr(makeNimstrLit(" "), chckRange(subInt(widthDec_620758416, i_620758421), 0, 2147483647)) || []).concat(makeNimstrLit("\xE2\x95\xB1") || [],nsuRepeatStr(makeNimstrLit(" "), chckRange(i_620758421, 0, 2147483647)) || []), NTI33554439);
               result_620757004.rows[chckIndx(subInt(subInt(height_620757002, 1), i_620758421), 0, (result_620757004.rows).length - 1)] = nimCopy(null, (nsuRepeatStr(makeNimstrLit(" "), chckRange(subInt(widthDec_620758416, i_620758421), 0, 2147483647)) || []).concat(makeNimstrLit("\xE2\x95\xB2") || [],nsuRepeatStr(makeNimstrLit(" "), chckRange(i_620758421, 0, 2147483647)) || []), NTI33554439);
-              i_620767665 = addInt(i_620767665, 1);
+              i_620768505 = addInt(i_620768505, 1);
             }
         } while (false);
       } while (false);
@@ -6627,37 +7456,37 @@ function bigDelimiter_620757000(delimiter_620757001, height_620757002, baseline_
       
       Label10: do {
         var i_620758427 = 0;
-        var colontmp__620767668 = 0;
-        colontmp__620767668 = divInt(height_620757002, 2);
-        var i_620767669 = 0;
+        var colontmp__620768508 = 0;
+        colontmp__620768508 = divInt(height_620757002, 2);
+        var i_620768509 = 0;
         Label11: do {
             Label12: while (true) {
-            if (!(i_620767669 < colontmp__620767668)) break Label12;
-              i_620758427 = i_620767669;
+            if (!(i_620768509 < colontmp__620768508)) break Label12;
+              i_620758427 = i_620768509;
               result_620757004.rows[chckIndx(i_620758427, 0, (result_620757004.rows).length - 1)] = nimCopy(null, (nsuRepeatStr(makeNimstrLit(" "), chckRange(i_620758427, 0, 2147483647)) || []).concat(makeNimstrLit("\xE2\x95\xB2") || [],nsuRepeatStr(makeNimstrLit(" "), chckRange(subInt(widthDec_620758422, i_620758427), 0, 2147483647)) || []), NTI33554439);
               result_620757004.rows[chckIndx(subInt(subInt(height_620757002, 1), i_620758427), 0, (result_620757004.rows).length - 1)] = nimCopy(null, (nsuRepeatStr(makeNimstrLit(" "), chckRange(i_620758427, 0, 2147483647)) || []).concat(makeNimstrLit("\xE2\x95\xB1") || [],nsuRepeatStr(makeNimstrLit(" "), chckRange(subInt(widthDec_620758422, i_620758427), 0, 2147483647)) || []), NTI33554439);
-              i_620767669 = addInt(i_620767669, 1);
+              i_620768509 = addInt(i_620768509, 1);
             }
         } while (false);
       } while (false);
       break;
     default: 
-      var colontmp__620767675 = HEX5BHEX5D_620758481(delimiterParts_620758385, delimiter_620757001);
-      var top_620758551 = nimCopy(null, colontmp__620767675["Field0"], NTI33554439);
-      var mid_620758552 = nimCopy(null, colontmp__620767675["Field1"], NTI33554439);
-      var bottom_620758553 = nimCopy(null, colontmp__620767675["Field2"], NTI33554439);
+      var colontmp__620768515 = HEX5BHEX5D_620758481(delimiterParts_620758385, delimiter_620757001);
+      var top_620758551 = nimCopy(null, colontmp__620768515["Field0"], NTI33554439);
+      var mid_620758552 = nimCopy(null, colontmp__620768515["Field1"], NTI33554439);
+      var bottom_620758553 = nimCopy(null, colontmp__620768515["Field2"], NTI33554439);
       result_620757004.rows[chckIndx(0, 0, (result_620757004.rows).length - 1)] = nimCopy(null, top_620758551, NTI33554439);
       Label13: do {
         var i_620758558 = 0;
-        var colontmp__620767672 = 0;
-        colontmp__620767672 = subInt(height_620757002, 1);
-        var i_620767673 = 1;
+        var colontmp__620768512 = 0;
+        colontmp__620768512 = subInt(height_620757002, 1);
+        var i_620768513 = 1;
         Label14: do {
             Label15: while (true) {
-            if (!(i_620767673 < colontmp__620767672)) break Label15;
-              i_620758558 = i_620767673;
+            if (!(i_620768513 < colontmp__620768512)) break Label15;
+              i_620758558 = i_620768513;
               result_620757004.rows[chckIndx(i_620758558, 0, (result_620757004.rows).length - 1)] = nimCopy(null, mid_620758552, NTI33554439);
-              i_620767673 = addInt(i_620767673, 1);
+              i_620768513 = addInt(i_620768513, 1);
             }
         } while (false);
       } while (false);
@@ -6669,1594 +7498,1083 @@ function bigDelimiter_620757000(delimiter_620757001, height_620757002, baseline_
 
 }
 
-function HEX3EHEX3E_620764598(a_620764601, b_620764602) {
-
-function succeedImpl_620764614(inputInHEX60gensym146_620764615, valueInHEX60gensym146_620764616, tailInHEX60gensym146_620764617) {
-  var result_620764619 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620764619 = nimCopy(result_620764619, {kind: 0, value: nimCopy(null, valueInHEX60gensym146_620764616, NTI620761708), tail: nimCopy(null, tailInHEX60gensym146_620764617, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym146_620764615, NTI33554439), expected: []}, NTI620759300);
-
-  return result_620764619;
-
-}
-
-function failImpl_620764621(inputInHEX60gensym146_620764622, expectedInHEX60gensym146_620764623, tailInHEX60gensym146_620764624) {
-  var result_620764626 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620764626 = nimCopy(result_620764626, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym146_620764623, NTI620762736), tail: nimCopy(null, tailInHEX60gensym146_620764624, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym146_620764622, NTI33554439), value: []}, NTI620759300);
-
-  return result_620764626;
-
-}
-      
-function HEX3Aanonymous_620764629(input_620764630) {
-            var Temporary2;
-            var Temporary4;
-          var Temporary5;
-
-        var result_620764632 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-        BeforeRet: do {
-          var succeed_620764633 = succeedImpl_620764614;
-          var fail_620764634 = failImpl_620764621;
-          Label1: do {
-            var tempHEX60gensym34_620764647 = parse_620759604(a_620764601, input_620764630);
-            if ((tempHEX60gensym34_620764647.kind == 1)) {
-            var Temporary2 = tempHEX60gensym34_620764647;
-            if (ConstSet97[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620764632 = nimCopy(result_620764632, {kind: 1, fromInput: nimCopy(null, input_620764630, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym34_620764647.tail, NTI33554439), value: []}, NTI620759300);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result1_620764653 = nimCopy(null, tempHEX60gensym34_620764647, NTI620758259);
-          Label3: do {
-            var tempHEX60gensym36_620764666 = parse_620760829(b_620764602, result1_620764653.tail);
-            if ((tempHEX60gensym36_620764666.kind == 1)) {
-            var Temporary4 = tempHEX60gensym36_620764666;
-            if (ConstSet98[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1090519061)); }
-            result_620764632 = nimCopy(result_620764632, {kind: 1, fromInput: nimCopy(null, input_620764630, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym36_620764666.tail, NTI33554439), value: []}, NTI620759300);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result2_620764672 = nimCopy(null, tempHEX60gensym36_620764666, NTI620759300);
-          var Temporary5 = result2_620764672;
-          if (ConstSet99[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1090519061)); }
-          result_620764632 = nimCopy(result_620764632, succeed_620764633(input_620764630, Temporary5.value, result2_620764672.tail), NTI620759300);
-          break BeforeRet;
-        } while (false);
-
-        return result_620764632;
-
-      }
-
-  var result_620764603 = null;
-
-    Label1: do {
-    } while (false);
-    result_620764603 = {body: HEX3Aanonymous_620764629};
-
-  return result_620764603;
-
-}
-
-function HEX3CHEX3C_620764806(a_620764809, b_620764810) {
-
-function succeedImpl_620764822(inputInHEX60gensym150_620764823, valueInHEX60gensym150_620764824, tailInHEX60gensym150_620764825) {
-  var result_620764827 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-    result_620764827 = nimCopy(result_620764827, {kind: 0, value: nimCopy(null, valueInHEX60gensym150_620764824, NTI687865860), tail: nimCopy(null, tailInHEX60gensym150_620764825, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym150_620764823, NTI33554439), expected: []}, NTI620757844);
-
-  return result_620764827;
-
-}
-
-function failImpl_620764829(inputInHEX60gensym150_620764830, expectedInHEX60gensym150_620764831, tailInHEX60gensym150_620764832) {
-  var result_620764834 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-    result_620764834 = nimCopy(result_620764834, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym150_620764831, NTI620762883), tail: nimCopy(null, tailInHEX60gensym150_620764832, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym150_620764830, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-
-  return result_620764834;
-
-}
-      
-function HEX3Aanonymous_620764837(input_620764838) {
-            var Temporary2;
-            var Temporary4;
-          var Temporary5;
-
-        var result_620764840 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-        BeforeRet: do {
-          var succeed_620764841 = succeedImpl_620764822;
-          var fail_620764842 = failImpl_620764829;
-          Label1: do {
-            var tempHEX60gensym30_620764855 = parse_620760599(a_620764809, input_620764838);
-            if ((tempHEX60gensym30_620764855.kind == 1)) {
-            var Temporary2 = tempHEX60gensym30_620764855;
-            if (ConstSet100[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620764840 = nimCopy(result_620764840, {kind: 1, fromInput: nimCopy(null, input_620764838, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym30_620764855.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result1_620764861 = nimCopy(null, tempHEX60gensym30_620764855, NTI620757844);
-          Label3: do {
-            var tempHEX60gensym32_620764874 = parse_1090520010(b_620764810, result1_620764861.tail);
-            if ((tempHEX60gensym32_620764874.kind == 1)) {
-            var Temporary4 = tempHEX60gensym32_620764874;
-            if (ConstSet101[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1090519061)); }
-            result_620764840 = nimCopy(result_620764840, {kind: 1, fromInput: nimCopy(null, input_620764838, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym32_620764874.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result2_620764880 = nimCopy(null, tempHEX60gensym32_620764874, NTI1090519270);
-          var Temporary5 = result1_620764861;
-          if (ConstSet102[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1090519061)); }
-          result_620764840 = nimCopy(result_620764840, succeed_620764841(input_620764838, Temporary5.value, result2_620764880.tail), NTI620757844);
-          break BeforeRet;
-        } while (false);
-
-        return result_620764840;
-
-      }
-
-  var result_620764811 = null;
-
-    Label1: do {
-    } while (false);
-    result_620764811 = {body: HEX3Aanonymous_620764837};
-
-  return result_620764811;
-
-}
-
-function HEX3EHEX3E_620764723(a_620764726, b_620764727) {
-
-function succeedImpl_620764739(inputInHEX60gensym149_620764740, valueInHEX60gensym149_620764741, tailInHEX60gensym149_620764742) {
-  var result_620764744 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-    result_620764744 = nimCopy(result_620764744, {kind: 0, value: nimCopy(null, valueInHEX60gensym149_620764741, NTI687865860), tail: nimCopy(null, tailInHEX60gensym149_620764742, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym149_620764740, NTI33554439), expected: []}, NTI620757844);
-
-  return result_620764744;
-
-}
-
-function failImpl_620764746(inputInHEX60gensym149_620764747, expectedInHEX60gensym149_620764748, tailInHEX60gensym149_620764749) {
-  var result_620764751 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-    result_620764751 = nimCopy(result_620764751, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym149_620764748, NTI620762822), tail: nimCopy(null, tailInHEX60gensym149_620764749, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym149_620764747, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-
-  return result_620764751;
-
-}
-      
-function HEX3Aanonymous_620764754(input_620764755) {
-            var Temporary2;
-            var Temporary4;
-          var Temporary5;
-
-        var result_620764757 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-        BeforeRet: do {
-          var succeed_620764758 = succeedImpl_620764739;
-          var fail_620764759 = failImpl_620764746;
-          Label1: do {
-            var tempHEX60gensym34_620764772 = parse_1090520010(a_620764726, input_620764755);
-            if ((tempHEX60gensym34_620764772.kind == 1)) {
-            var Temporary2 = tempHEX60gensym34_620764772;
-            if (ConstSet103[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620764757 = nimCopy(result_620764757, {kind: 1, fromInput: nimCopy(null, input_620764755, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym34_620764772.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result1_620764778 = nimCopy(null, tempHEX60gensym34_620764772, NTI1090519270);
-          Label3: do {
-            var tempHEX60gensym36_620764791 = parse_620760599(b_620764727, result1_620764778.tail);
-            if ((tempHEX60gensym36_620764791.kind == 1)) {
-            var Temporary4 = tempHEX60gensym36_620764791;
-            if (ConstSet104[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1090519061)); }
-            result_620764757 = nimCopy(result_620764757, {kind: 1, fromInput: nimCopy(null, input_620764755, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym36_620764791.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result2_620764797 = nimCopy(null, tempHEX60gensym36_620764791, NTI620757844);
-          var Temporary5 = result2_620764797;
-          if (ConstSet105[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1090519061)); }
-          result_620764757 = nimCopy(result_620764757, succeed_620764758(input_620764755, Temporary5.value, result2_620764797.tail), NTI620757844);
-          break BeforeRet;
-        } while (false);
-
-        return result_620764757;
-
-      }
-
-  var result_620764728 = null;
-
-    Label1: do {
-    } while (false);
-    result_620764728 = {body: HEX3Aanonymous_620764754};
-
-  return result_620764728;
-
-}
-
-function HEX3CHEX3C_620765070(a_620765073, b_620765074) {
-
-function succeedImpl_620765086(inputInHEX60gensym151_620765087, valueInHEX60gensym151_620765088, tailInHEX60gensym151_620765089) {
-  var result_620765091 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-    result_620765091 = nimCopy(result_620765091, {kind: 0, value: nimCopy(null, valueInHEX60gensym151_620765088, NTI687865860), tail: nimCopy(null, tailInHEX60gensym151_620765089, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym151_620765087, NTI33554439), expected: []}, NTI620757844);
-
-  return result_620765091;
-
-}
-
-function failImpl_620765093(inputInHEX60gensym151_620765094, expectedInHEX60gensym151_620765095, tailInHEX60gensym151_620765096) {
-  var result_620765098 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-    result_620765098 = nimCopy(result_620765098, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym151_620765095, NTI620763034), tail: nimCopy(null, tailInHEX60gensym151_620765096, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym151_620765094, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-
-  return result_620765098;
-
-}
-      
-function HEX3Aanonymous_620765101(input_620765102) {
-            var Temporary2;
-            var Temporary4;
-          var Temporary5;
-
-        var result_620765104 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-        BeforeRet: do {
-          var succeed_620765105 = succeedImpl_620765086;
-          var fail_620765106 = failImpl_620765093;
-          Label1: do {
-            var tempHEX60gensym30_620765119 = parse_620760599(a_620765073, input_620765102);
-            if ((tempHEX60gensym30_620765119.kind == 1)) {
-            var Temporary2 = tempHEX60gensym30_620765119;
-            if (ConstSet106[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620765104 = nimCopy(result_620765104, {kind: 1, fromInput: nimCopy(null, input_620765102, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym30_620765119.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result1_620765125 = nimCopy(null, tempHEX60gensym30_620765119, NTI620757844);
-          Label3: do {
-            var tempHEX60gensym32_620765138 = parse_620759604(b_620765074, result1_620765125.tail);
-            if ((tempHEX60gensym32_620765138.kind == 1)) {
-            var Temporary4 = tempHEX60gensym32_620765138;
-            if (ConstSet107[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1090519061)); }
-            result_620765104 = nimCopy(result_620765104, {kind: 1, fromInput: nimCopy(null, input_620765102, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym32_620765138.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result2_620765144 = nimCopy(null, tempHEX60gensym32_620765138, NTI620758259);
-          var Temporary5 = result1_620765125;
-          if (ConstSet108[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1090519061)); }
-          result_620765104 = nimCopy(result_620765104, succeed_620765105(input_620765102, Temporary5.value, result2_620765144.tail), NTI620757844);
-          break BeforeRet;
-        } while (false);
-
-        return result_620765104;
-
-      }
-
-  var result_620765075 = null;
-
-    Label1: do {
-    } while (false);
-    result_620765075 = {body: HEX3Aanonymous_620765101};
-
-  return result_620765075;
-
-}
-
-function parse_620765669(p_620765671, input_620765672) {
-  var result_620765673 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+function substrEq_671088869(s_671088870, pos_671088871, substr_671088872) {
+  var result_671088873 = false;
 
   BeforeRet: do {
-    if ((p_620765671.body == null)) {
-    result_620765673 = nimCopy(result_620765673, {kind: 1, expected: [makeNimstrLit("forward-declared parser to be initialized with .become(Parser)")], tail: nimCopy(null, input_620765672, NTI33554439), fromInput: nimCopy(null, input_620765672, NTI33554439), value: []}, NTI620763109);
+    var i_671088874 = 0;
+    var length_671088875 = (substr_671088872).length;
+    Label1: do {
+        Label2: while (true) {
+        if (!(((i_671088874 < length_671088875) && (addInt(pos_671088871, i_671088874) < (s_671088870).length)) && (s_671088870[chckIndx(addInt(pos_671088871, i_671088874), 0, (s_671088870).length - 1)] == substr_671088872[chckIndx(i_671088874, 0, (substr_671088872).length - 1)]))) break Label2;
+          i_671088874 = addInt(i_671088874, 1);
+        }
+    } while (false);
+    result_671088873 = (i_671088874 == length_671088875);
+    break BeforeRet;
+  } while (false);
+
+  return result_671088873;
+
+}
+
+function nsuSplitString(s_671089161, sep_671089162, maxsplit_671089163) {
+  var result_671089164 = [];
+
+    if (!((0 < (sep_671089162).length))) {
+    failedAssertImpl_218103864(makeNimstrLit("strutils.nim(739, 11) `sep.len > 0` "));
+    }
+    
+    result_671089164 = nimCopy(null, [], NTI671089014);
+    Label1: do {
+      var xHEX60gensym72_671089175 = [];
+      var lastHEX60gensym41_637534310 = 0;
+      var splitsHEX60gensym41_637534311 = maxsplit_671089163;
+      Label2: do {
+          Label3: while (true) {
+          if (!(lastHEX60gensym41_637534310 <= (s_671089161).length)) break Label3;
+            var firstHEX60gensym41_637534313 = lastHEX60gensym41_637534310;
+            Label4: do {
+                Label5: while (true) {
+                if (!((lastHEX60gensym41_637534310 < (s_671089161).length) && !(substrEq_671088869(s_671089161, lastHEX60gensym41_637534310, sep_671089162)))) break Label5;
+                  lastHEX60gensym41_637534310 = addInt(lastHEX60gensym41_637534310, 1);
+                }
+            } while (false);
+            if ((splitsHEX60gensym41_637534311 == 0)) {
+            lastHEX60gensym41_637534310 = (s_671089161).length;
+            }
+            
+            xHEX60gensym72_671089175 = substr_33557922(s_671089161, firstHEX60gensym41_637534313, subInt(lastHEX60gensym41_637534310, 1));
+            var Temporary6 = nimCopy(null, xHEX60gensym72_671089175, NTI33554439);
+            result_671089164.push(Temporary6);;
+            if ((splitsHEX60gensym41_637534311 == 0)) {
+            break Label2;
+            }
+            
+            splitsHEX60gensym41_637534311 = subInt(splitsHEX60gensym41_637534311, 1);
+            lastHEX60gensym41_637534310 = addInt(lastHEX60gensym41_637534310, (sep_671089162).length);
+          }
+      } while (false);
+    } while (false);
+
+  return result_671089164;
+
+}
+
+function toTextRect_654311477(s_654311478, baseline_654311479, flag_654311480) {
+  var result_654311481 = ({rows: [], baseline: 0, width: 0, flag: 0});
+
+  BeforeRet: do {
+    if (eqStrings(s_654311478, [])) {
+    result_654311481.flag = flag_654311480;
     break BeforeRet;
     }
     
-    result_620765673 = nimCopy(result_620765673, p_620765671.body(input_620765672), NTI620763109);
-  } while (false);
-
-  return result_620765673;
-
-}
-
-function map_620766487(a_620766490, fn_620766492) {
-
-function succeedImpl_620766504(inputInHEX60gensym176_620766505, valueInHEX60gensym176_620766506, tailInHEX60gensym176_620766507) {
-  var result_620766509 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-    result_620766509 = nimCopy(result_620766509, {kind: 0, value: nimCopy(null, valueInHEX60gensym176_620766506, NTI687865860), tail: nimCopy(null, tailInHEX60gensym176_620766507, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym176_620766505, NTI33554439), expected: []}, NTI620757844);
-
-  return result_620766509;
-
-}
-
-function failImpl_620766511(inputInHEX60gensym176_620766512, expectedInHEX60gensym176_620766513, tailInHEX60gensym176_620766514) {
-  var result_620766516 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-    result_620766516 = nimCopy(result_620766516, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym176_620766513, NTI620764210), tail: nimCopy(null, tailInHEX60gensym176_620766514, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym176_620766512, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-
-  return result_620766516;
-
-}
-      
-function HEX3Aanonymous_620766519(input_620766520) {
-            var Temporary2;
-          var Temporary3;
-
-        var result_620766522 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-        BeforeRet: do {
-          var succeed_620766523 = succeedImpl_620766504;
-          var fail_620766524 = failImpl_620766511;
-          Label1: do {
-            var tempHEX60gensym24_620766537 = parse_620765669(a_620766490, input_620766520);
-            if ((tempHEX60gensym24_620766537.kind == 1)) {
-            var Temporary2 = tempHEX60gensym24_620766537;
-            if (ConstSet109[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620766522 = nimCopy(result_620766522, {kind: 1, fromInput: nimCopy(null, input_620766520, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym24_620766537.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result1_620766543 = nimCopy(null, tempHEX60gensym24_620766537, NTI620763109);
-          var Temporary3 = result1_620766543;
-          if (ConstSet110[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-          result_620766522 = nimCopy(result_620766522, succeed_620766523(input_620766520, fn_620766492(Temporary3.value), result1_620766543.tail), NTI620757844);
-          break BeforeRet;
-        } while (false);
-
-        return result_620766522;
-
-      }
-
-  var result_620766493 = null;
-
+    result_654311481.rows = nimCopy(null, nsuSplitString(s_654311478, makeNimstrLit("\x0A"), -1), NTI671089002);
+    result_654311481.width = chckRange(nucruneLen(result_654311481.rows[chckIndx(0, 0, (result_654311481.rows).length - 1)]), 0, 2147483647);
     Label1: do {
-    } while (false);
-    result_620766493 = {body: HEX3Aanonymous_620766519};
-
-  return result_620766493;
-
-}
-
-function parse_620766185(p_620766187, input_620766188) {
-  var result_620766189 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-  BeforeRet: do {
-    if ((p_620766187.body == null)) {
-    result_620766189 = nimCopy(result_620766189, {kind: 1, expected: [makeNimstrLit("forward-declared parser to be initialized with .become(Parser)")], tail: nimCopy(null, input_620766188, NTI33554439), fromInput: nimCopy(null, input_620766188, NTI33554439), value: []}, NTI620763555);
-    break BeforeRet;
-    }
-    
-    result_620766189 = nimCopy(result_620766189, p_620766187.body(input_620766188), NTI620763555);
-  } while (false);
-
-  return result_620766189;
-
-}
-
-function map_620766395(a_620766398, fn_620766400) {
-
-function succeedImpl_620766412(inputInHEX60gensym175_620766413, valueInHEX60gensym175_620766414, tailInHEX60gensym175_620766415) {
-  var result_620766417 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620766417 = nimCopy(result_620766417, {kind: 0, value: nimCopy(null, valueInHEX60gensym175_620766414, NTI620764049), tail: nimCopy(null, tailInHEX60gensym175_620766415, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym175_620766413, NTI33554439), expected: []}, NTI620763109);
-
-  return result_620766417;
-
-}
-
-function failImpl_620766419(inputInHEX60gensym175_620766420, expectedInHEX60gensym175_620766421, tailInHEX60gensym175_620766422) {
-  var result_620766424 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620766424 = nimCopy(result_620766424, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym175_620766421, NTI620764143), tail: nimCopy(null, tailInHEX60gensym175_620766422, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym175_620766420, NTI33554439), value: []}, NTI620763109);
-
-  return result_620766424;
-
-}
-      
-function HEX3Aanonymous_620766427(input_620766428) {
-            var Temporary2;
-          var Temporary3;
-
-        var result_620766430 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-        BeforeRet: do {
-          var succeed_620766431 = succeedImpl_620766412;
-          var fail_620766432 = failImpl_620766419;
-          Label1: do {
-            var tempHEX60gensym24_620766445 = parse_620766185(a_620766398, input_620766428);
-            if ((tempHEX60gensym24_620766445.kind == 1)) {
-            var Temporary2 = tempHEX60gensym24_620766445;
-            if (ConstSet111[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620766430 = nimCopy(result_620766430, {kind: 1, fromInput: nimCopy(null, input_620766428, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym24_620766445.tail, NTI33554439), value: []}, NTI620763109);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result1_620766451 = nimCopy(null, tempHEX60gensym24_620766445, NTI620763555);
-          var Temporary3 = result1_620766451;
-          if (ConstSet112[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-          result_620766430 = nimCopy(result_620766430, succeed_620766431(input_620766428, fn_620766400(Temporary3.value), result1_620766451.tail), NTI620763109);
-          break BeforeRet;
-        } while (false);
-
-        return result_620766430;
-
-      }
-
-  var result_620766401 = null;
-
-    Label1: do {
-    } while (false);
-    result_620766401 = {body: HEX3Aanonymous_620766427};
-
-  return result_620766401;
-
-}
-
-function HEX26_620766227(x_620766229, y_620766230) {
-  var result_620766231 = [];
-
-    result_620766231 = new Array(chckRange(addInt((x_620766229).length, (y_620766230).length), 0, 2147483647)); for (var i = 0 ; i < chckRange(addInt((x_620766229).length, (y_620766230).length), 0, 2147483647) ; ++i) { result_620766231[i] = []; }    Label1: do {
-      var i_620766250 = 0;
-      var colontmp__620767722 = 0;
-      colontmp__620767722 = subInt((x_620766229).length, 1);
-      var res_620767723 = 0;
+      var row_654311502 = [];
+      var i_637534304 = 0;
+      var L_637534305 = (result_654311481.rows).length;
       Label2: do {
           Label3: while (true) {
-          if (!(res_620767723 <= colontmp__620767722)) break Label3;
-            i_620766250 = res_620767723;
-            result_620766231[chckIndx(i_620766250, 0, (result_620766231).length - 1)] = nimCopy(null, x_620766229[chckIndx(i_620766250, 0, (x_620766229).length - 1)], NTI620763103);
-            res_620767723 = addInt(res_620767723, 1);
-          }
-      } while (false);
-    } while (false);
-    Label4: do {
-      var i_620766258 = 0;
-      var colontmp__620767726 = 0;
-      colontmp__620767726 = subInt((y_620766230).length, 1);
-      var res_620767727 = 0;
-      Label5: do {
-          Label6: while (true) {
-          if (!(res_620767727 <= colontmp__620767726)) break Label6;
-            i_620766258 = res_620767727;
-            result_620766231[chckIndx(addInt(i_620766258, (x_620766229).length), 0, (result_620766231).length - 1)] = nimCopy(null, y_620766230[chckIndx(i_620766258, 0, (y_620766230).length - 1)], NTI620763103);
-            res_620767727 = addInt(res_620767727, 1);
-          }
-      } while (false);
-    } while (false);
-
-  return result_620766231;
-
-}
-
-function HEX26_620766132(a_620766137, b_620766141) {
-
-function succeedImpl_620766156(inputInHEX60gensym169_620766157, valueInHEX60gensym169_620766158, tailInHEX60gensym169_620766159) {
-  var result_620766161 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620766161 = nimCopy(result_620766161, {kind: 0, value: nimCopy(null, valueInHEX60gensym169_620766158, NTI620763939), tail: nimCopy(null, tailInHEX60gensym169_620766159, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym169_620766157, NTI33554439), expected: []}, NTI620763555);
-
-  return result_620766161;
-
-}
-
-function failImpl_620766163(inputInHEX60gensym169_620766164, expectedInHEX60gensym169_620766165, tailInHEX60gensym169_620766166) {
-  var result_620766168 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620766168 = nimCopy(result_620766168, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym169_620766165, NTI620763945), tail: nimCopy(null, tailInHEX60gensym169_620766166, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym169_620766164, NTI33554439), value: []}, NTI620763555);
-
-  return result_620766168;
-
-}
-      
-function HEX3Aanonymous_620766171(input_620766172) {
-            var Temporary2;
-            var Temporary4;
-          var Temporary5;
-          var Temporary6;
-
-        var result_620766174 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-        BeforeRet: do {
-          var succeed_620766175 = succeedImpl_620766156;
-          var fail_620766176 = failImpl_620766163;
-          Label1: do {
-            var tempHEX60gensym26_620766201 = parse_620766185(a_620766137, input_620766172);
-            if ((tempHEX60gensym26_620766201.kind == 1)) {
-            var Temporary2 = tempHEX60gensym26_620766201;
-            if (ConstSet113[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620766174 = nimCopy(result_620766174, {kind: 1, fromInput: nimCopy(null, input_620766172, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym26_620766201.tail, NTI33554439), value: []}, NTI620763555);
-            break BeforeRet;
+          if (!(i_637534304 < L_637534305)) break Label3;
+            row_654311502 = result_654311481.rows[chckIndx(i_637534304, 0, (result_654311481.rows).length - 1)];
+            if (!((nucruneLen(row_654311502) == result_654311481.width))) {
+            raiseException({message: makeNimstrLit("All rows of a TextRect must be the same width"), parent: null, m_type: NTI33555125, name: null, trace: [], up: null}, "ValueError");
             }
             
-          } while (false);
-          var result1_620766207 = nimCopy(null, tempHEX60gensym26_620766201, NTI620763555);
-          Label3: do {
-            var tempHEX60gensym28_620766220 = parse_620766185(b_620766141, result1_620766207.tail);
-            if ((tempHEX60gensym28_620766220.kind == 1)) {
-            var Temporary4 = tempHEX60gensym28_620766220;
-            if (ConstSet114[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1090519061)); }
-            result_620766174 = nimCopy(result_620766174, {kind: 1, fromInput: nimCopy(null, input_620766172, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym28_620766220.tail, NTI33554439), value: []}, NTI620763555);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result2_620766226 = nimCopy(null, tempHEX60gensym28_620766220, NTI620763555);
-          var Temporary5 = result1_620766207;
-          if (ConstSet115[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1090519061)); }
-          var Temporary6 = result2_620766226;
-          if (ConstSet116[Temporary6.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary6.kind, NTI1090519061)); }
-          result_620766174 = nimCopy(result_620766174, succeed_620766175(input_620766172, HEX26_620766227(Temporary5.value, Temporary6.value), result2_620766226.tail), NTI620763555);
-          break BeforeRet;
-        } while (false);
-
-        return result_620766174;
-
-      }
-
-  var result_620766145 = null;
-
-    Label1: do {
-    } while (false);
-    result_620766145 = {body: HEX3Aanonymous_620766171};
-
-  return result_620766145;
-
-}
-
-function map_620765895(a_620765898, fn_620765900) {
-
-function succeedImpl_620765912(inputInHEX60gensym165_620765913, valueInHEX60gensym165_620765914, tailInHEX60gensym165_620765915) {
-  var result_620765917 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620765917 = nimCopy(result_620765917, {kind: 0, value: nimCopy(null, valueInHEX60gensym165_620765914, NTI620763664), tail: nimCopy(null, tailInHEX60gensym165_620765915, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym165_620765913, NTI33554439), expected: []}, NTI620763555);
-
-  return result_620765917;
-
-}
-
-function failImpl_620765919(inputInHEX60gensym165_620765920, expectedInHEX60gensym165_620765921, tailInHEX60gensym165_620765922) {
-  var result_620765924 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620765924 = nimCopy(result_620765924, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym165_620765921, NTI620763707), tail: nimCopy(null, tailInHEX60gensym165_620765922, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym165_620765920, NTI33554439), value: []}, NTI620763555);
-
-  return result_620765924;
-
-}
-      
-function HEX3Aanonymous_620765927(input_620765928) {
-            var Temporary2;
-          var Temporary3;
-
-        var result_620765930 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-        BeforeRet: do {
-          var succeed_620765931 = succeedImpl_620765912;
-          var fail_620765932 = failImpl_620765919;
-          Label1: do {
-            var tempHEX60gensym24_620765945 = parse_620765669(a_620765898, input_620765928);
-            if ((tempHEX60gensym24_620765945.kind == 1)) {
-            var Temporary2 = tempHEX60gensym24_620765945;
-            if (ConstSet117[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620765930 = nimCopy(result_620765930, {kind: 1, fromInput: nimCopy(null, input_620765928, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym24_620765945.tail, NTI33554439), value: []}, NTI620763555);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result1_620765951 = nimCopy(null, tempHEX60gensym24_620765945, NTI620763109);
-          var Temporary3 = result1_620765951;
-          if (ConstSet118[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-          result_620765930 = nimCopy(result_620765930, succeed_620765931(input_620765928, fn_620765900(Temporary3.value), result1_620765951.tail), NTI620763555);
-          break BeforeRet;
-        } while (false);
-
-        return result_620765930;
-
-      }
-
-  var result_620765901 = null;
-
-    Label1: do {
-    } while (false);
-    result_620765901 = {body: HEX3Aanonymous_620765927};
-
-  return result_620765901;
-
-}
-
-function nop_620765250() {
-
-function succeedImpl_620765263(inputInHEX60gensym155_620765264, valueInHEX60gensym155_620765265, tailInHEX60gensym155_620765266) {
-  var result_620765268 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620765268 = nimCopy(result_620765268, {kind: 0, value: nimCopy(null, valueInHEX60gensym155_620765265, NTI620763152), tail: nimCopy(null, tailInHEX60gensym155_620765266, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym155_620765264, NTI33554439), expected: []}, NTI620763109);
-
-  return result_620765268;
-
-}
-
-function failImpl_620765291(inputInHEX60gensym155_620765292, expectedInHEX60gensym155_620765293, tailInHEX60gensym155_620765294) {
-  var result_620765296 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620765296 = nimCopy(result_620765296, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym155_620765293, NTI620763185), tail: nimCopy(null, tailInHEX60gensym155_620765294, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym155_620765292, NTI33554439), value: []}, NTI620763109);
-
-  return result_620765296;
-
-}
-      
-function HEX3Aanonymous_620765299(input_620765300) {
-        var result_620765302 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-          var succeed_620765303 = succeedImpl_620765263;
-          var fail_620765304 = failImpl_620765291;
-          result_620765302 = nimCopy(result_620765302, succeed_620765303(input_620765300, [], input_620765300), NTI620763109);
-
-        return result_620765302;
-
-      }
-
-  var result_620765252 = null;
-
-    Label1: do {
-    } while (false);
-    result_620765252 = {body: HEX3Aanonymous_620765299};
-
-  return result_620765252;
-
-}
-
-function map_620765405(a_620765408, fn_620765410) {
-
-function succeedImpl_620765422(inputInHEX60gensym157_620765423, valueInHEX60gensym157_620765424, tailInHEX60gensym157_620765425) {
-  var result_620765427 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620765427 = nimCopy(result_620765427, {kind: 0, value: nimCopy(null, valueInHEX60gensym157_620765424, NTI620763254), tail: nimCopy(null, tailInHEX60gensym157_620765425, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym157_620765423, NTI33554439), expected: []}, NTI620763109);
-
-  return result_620765427;
-
-}
-
-function failImpl_620765429(inputInHEX60gensym157_620765430, expectedInHEX60gensym157_620765431, tailInHEX60gensym157_620765432) {
-  var result_620765434 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620765434 = nimCopy(result_620765434, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym157_620765431, NTI620763297), tail: nimCopy(null, tailInHEX60gensym157_620765432, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym157_620765430, NTI33554439), value: []}, NTI620763109);
-
-  return result_620765434;
-
-}
-      
-function HEX3Aanonymous_620765437(input_620765438) {
-            var Temporary2;
-          var Temporary3;
-
-        var result_620765440 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-        BeforeRet: do {
-          var succeed_620765441 = succeedImpl_620765422;
-          var fail_620765442 = failImpl_620765429;
-          Label1: do {
-            var tempHEX60gensym24_620765455 = parse_1090520010(a_620765408, input_620765438);
-            if ((tempHEX60gensym24_620765455.kind == 1)) {
-            var Temporary2 = tempHEX60gensym24_620765455;
-            if (ConstSet119[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620765440 = nimCopy(result_620765440, {kind: 1, fromInput: nimCopy(null, input_620765438, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym24_620765455.tail, NTI33554439), value: []}, NTI620763109);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result1_620765461 = nimCopy(null, tempHEX60gensym24_620765455, NTI1090519270);
-          var Temporary3 = result1_620765461;
-          if (ConstSet120[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-          result_620765440 = nimCopy(result_620765440, succeed_620765441(input_620765438, fn_620765410(Temporary3.value), result1_620765461.tail), NTI620763109);
-          break BeforeRet;
-        } while (false);
-
-        return result_620765440;
-
-      }
-
-  var result_620765411 = null;
-
-    Label1: do {
-    } while (false);
-    result_620765411 = {body: HEX3Aanonymous_620765437};
-
-  return result_620765411;
-
-}
-
-function HEX2A_620765242(a_620765244, n_620765245) {
-    var Temporary1;
-      
-function HEX3Aanonymous_620765367(x_620765396) {
-        var result_620765399 = [];
-
-          result_620765399 = nimCopy(null, [x_620765396], NTI620763254);
-
-        return result_620765399;
-
-      }
-
-function succeedImpl_620765472(inputInHEX60gensym158_620765473, valueInHEX60gensym158_620765474, tailInHEX60gensym158_620765475) {
-  var result_620765477 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620765477 = nimCopy(result_620765477, {kind: 0, value: nimCopy(null, valueInHEX60gensym158_620765474, NTI620763337), tail: nimCopy(null, tailInHEX60gensym158_620765475, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym158_620765473, NTI33554439), expected: []}, NTI620763109);
-
-  return result_620765477;
-
-}
-
-function failImpl_620765479(inputInHEX60gensym158_620765480, expectedInHEX60gensym158_620765481, tailInHEX60gensym158_620765482) {
-  var result_620765484 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620765484 = nimCopy(result_620765484, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym158_620765481, NTI620763343), tail: nimCopy(null, tailInHEX60gensym158_620765482, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym158_620765480, NTI33554439), value: []}, NTI620763109);
-
-  return result_620765484;
-
-}
-        
-function HEX3Aanonymous_620765487(input_620765488) {
-              var Temporary2;
-            var Temporary3;
-                      var Temporary8;
-                    var Temporary9;
-
-          var result_620765490 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-          BeforeRet: do {
-            var succeed_620765491 = succeedImpl_620765472;
-            var fail_620765492 = failImpl_620765479;
-            Label1: do {
-              var tempHEX60gensym38_620765505 = parse_1090520010(a_620765244, input_620765488);
-              if ((tempHEX60gensym38_620765505.kind == 1)) {
-              var Temporary2 = tempHEX60gensym38_620765505;
-              if (ConstSet121[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-              result_620765490 = nimCopy(result_620765490, {kind: 1, fromInput: nimCopy(null, input_620765488, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym38_620765505.tail, NTI33554439), value: []}, NTI620763109);
-              break BeforeRet;
-              }
-              
-            } while (false);
-            var result1_620765511 = nimCopy(null, tempHEX60gensym38_620765505, NTI1090519270);
-            var Temporary3 = result1_620765511;
-            if (ConstSet122[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-            var outputs_620765516 = [Temporary3.value];
-            var lastTail_620765517 = nimCopy(null, result1_620765511.tail, NTI33554439);
-            Label4: do {
-              var i_620765523 = 0;
-              var res_620767735 = 2;
-              Label5: do {
-                  Label6: while (true) {
-                  if (!(res_620767735 <= n_620765245)) break Label6;
-                    i_620765523 = res_620767735;
-                    Label7: do {
-                      var tempHEX60gensym40_620765536 = parse_1090520010(a_620765244, result1_620765511.tail);
-                      if ((tempHEX60gensym40_620765536.kind == 1)) {
-                      var Temporary8 = tempHEX60gensym40_620765536;
-                      if (ConstSet123[Temporary8.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary8.kind, NTI1090519061)); }
-                      result_620765490 = nimCopy(result_620765490, {kind: 1, fromInput: nimCopy(null, input_620765488, NTI33554439), expected: nimCopy(null, Temporary8.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym40_620765536.tail, NTI33554439), value: []}, NTI620763109);
-                      break BeforeRet;
-                      }
-                      
-                    } while (false);
-                    result1_620765511 = nimCopy(result1_620765511, tempHEX60gensym40_620765536, NTI1090519270);
-                    if (eqStrings(result1_620765511.tail, lastTail_620765517)) {
-                    break Label4;
-                    }
-                    
-                    lastTail_620765517 = nimCopy(null, result1_620765511.tail, NTI33554439);
-                    var Temporary9 = result1_620765511;
-                    if (ConstSet124[Temporary9.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary9.kind, NTI1090519061)); }
-                    outputs_620765516.push(Temporary9.value);;
-                    res_620767735 = addInt(res_620767735, 1);
-                  }
-              } while (false);
-            } while (false);
-            result_620765490 = nimCopy(result_620765490, succeed_620765491(input_620765488, outputs_620765516, result1_620765511.tail), NTI620763109);
-          } while (false);
-
-          return result_620765490;
-
-        }
-
-  var result_620765249 = null;
-
-  BeforeRet: do {
-    switch (n_620765245) {
-    case 0:
-      result_620765249 = nop_620765250();
-      break BeforeRet;
-      break;
-    case 1:
-      result_620765249 = map_620765405(a_620765244, HEX3Aanonymous_620765367);
-      break BeforeRet;
-      break;
-    default: 
-      Label2: do {
-      } while (false);
-      Temporary1 = {body: HEX3Aanonymous_620765487};
-      break;
-    }
-    result_620765249 = Temporary1;
-  } while (false);
-
-  return result_620765249;
-
-}
-
-function nop_620765740() {
-
-function succeedImpl_620765753(inputInHEX60gensym163_620765754, valueInHEX60gensym163_620765755, tailInHEX60gensym163_620765756) {
-  var result_620765758 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620765758 = nimCopy(result_620765758, {kind: 0, value: nimCopy(null, valueInHEX60gensym163_620765755, NTI620763562), tail: nimCopy(null, tailInHEX60gensym163_620765756, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym163_620765754, NTI33554439), expected: []}, NTI620763555);
-
-  return result_620765758;
-
-}
-
-function failImpl_620765781(inputInHEX60gensym163_620765782, expectedInHEX60gensym163_620765783, tailInHEX60gensym163_620765784) {
-  var result_620765786 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620765786 = nimCopy(result_620765786, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym163_620765783, NTI620763595), tail: nimCopy(null, tailInHEX60gensym163_620765784, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym163_620765782, NTI33554439), value: []}, NTI620763555);
-
-  return result_620765786;
-
-}
-      
-function HEX3Aanonymous_620765789(input_620765790) {
-        var result_620765792 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-          var succeed_620765793 = succeedImpl_620765753;
-          var fail_620765794 = failImpl_620765781;
-          result_620765792 = nimCopy(result_620765792, succeed_620765793(input_620765790, [], input_620765790), NTI620763555);
-
-        return result_620765792;
-
-      }
-
-  var result_620765742 = null;
-
-    Label1: do {
-    } while (false);
-    result_620765742 = {body: HEX3Aanonymous_620765789};
-
-  return result_620765742;
-
-}
-
-function HEX2A_620765727(a_620765729, n_620765730) {
-    var Temporary1;
-      
-function HEX3Aanonymous_620765857(x_620765886) {
-        var result_620765889 = [];
-
-          result_620765889 = nimCopy(null, [nimCopy(null, x_620765886, NTI620763103)], NTI620763664);
-
-        return result_620765889;
-
-      }
-
-function succeedImpl_620765962(inputInHEX60gensym166_620765963, valueInHEX60gensym166_620765964, tailInHEX60gensym166_620765965) {
-  var result_620765967 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620765967 = nimCopy(result_620765967, {kind: 0, value: nimCopy(null, valueInHEX60gensym166_620765964, NTI620763747), tail: nimCopy(null, tailInHEX60gensym166_620765965, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym166_620765963, NTI33554439), expected: []}, NTI620763555);
-
-  return result_620765967;
-
-}
-
-function failImpl_620765969(inputInHEX60gensym166_620765970, expectedInHEX60gensym166_620765971, tailInHEX60gensym166_620765972) {
-  var result_620765974 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620765974 = nimCopy(result_620765974, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym166_620765971, NTI620763753), tail: nimCopy(null, tailInHEX60gensym166_620765972, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym166_620765970, NTI33554439), value: []}, NTI620763555);
-
-  return result_620765974;
-
-}
-        
-function HEX3Aanonymous_620765977(input_620765978) {
-              var Temporary2;
-            var Temporary3;
-                      var Temporary8;
-                    var Temporary9;
-
-          var result_620765980 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-          BeforeRet: do {
-            var succeed_620765981 = succeedImpl_620765962;
-            var fail_620765982 = failImpl_620765969;
-            Label1: do {
-              var tempHEX60gensym38_620765995 = parse_620765669(a_620765729, input_620765978);
-              if ((tempHEX60gensym38_620765995.kind == 1)) {
-              var Temporary2 = tempHEX60gensym38_620765995;
-              if (ConstSet125[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-              result_620765980 = nimCopy(result_620765980, {kind: 1, fromInput: nimCopy(null, input_620765978, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym38_620765995.tail, NTI33554439), value: []}, NTI620763555);
-              break BeforeRet;
-              }
-              
-            } while (false);
-            var result1_620766001 = nimCopy(null, tempHEX60gensym38_620765995, NTI620763109);
-            var Temporary3 = result1_620766001;
-            if (ConstSet126[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1090519061)); }
-            var outputs_620766006 = [nimCopy(null, Temporary3.value, NTI620763103)];
-            var lastTail_620766007 = nimCopy(null, result1_620766001.tail, NTI33554439);
-            Label4: do {
-              var i_620766013 = 0;
-              var res_620767744 = 2;
-              Label5: do {
-                  Label6: while (true) {
-                  if (!(res_620767744 <= n_620765730)) break Label6;
-                    i_620766013 = res_620767744;
-                    Label7: do {
-                      var tempHEX60gensym40_620766026 = parse_620765669(a_620765729, result1_620766001.tail);
-                      if ((tempHEX60gensym40_620766026.kind == 1)) {
-                      var Temporary8 = tempHEX60gensym40_620766026;
-                      if (ConstSet127[Temporary8.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary8.kind, NTI1090519061)); }
-                      result_620765980 = nimCopy(result_620765980, {kind: 1, fromInput: nimCopy(null, input_620765978, NTI33554439), expected: nimCopy(null, Temporary8.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym40_620766026.tail, NTI33554439), value: []}, NTI620763555);
-                      break BeforeRet;
-                      }
-                      
-                    } while (false);
-                    result1_620766001 = nimCopy(result1_620766001, tempHEX60gensym40_620766026, NTI620763109);
-                    if (eqStrings(result1_620766001.tail, lastTail_620766007)) {
-                    break Label4;
-                    }
-                    
-                    lastTail_620766007 = nimCopy(null, result1_620766001.tail, NTI33554439);
-                    var Temporary9 = result1_620766001;
-                    if (ConstSet128[Temporary9.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary9.kind, NTI1090519061)); }
-                    var Temporary10 = nimCopy(null, Temporary9.value, NTI620763103);
-                    outputs_620766006.push(Temporary10);;
-                    res_620767744 = addInt(res_620767744, 1);
-                  }
-              } while (false);
-            } while (false);
-            result_620765980 = nimCopy(result_620765980, succeed_620765981(input_620765978, outputs_620766006, result1_620766001.tail), NTI620763555);
-          } while (false);
-
-          return result_620765980;
-
-        }
-
-  var result_620765739 = null;
-
-  BeforeRet: do {
-    switch (n_620765730) {
-    case 0:
-      result_620765739 = nop_620765740();
-      break BeforeRet;
-      break;
-    case 1:
-      result_620765739 = map_620765895(a_620765729, HEX3Aanonymous_620765857);
-      break BeforeRet;
-      break;
-    default: 
-      Label2: do {
-      } while (false);
-      Temporary1 = {body: HEX3Aanonymous_620765977};
-      break;
-    }
-    result_620765739 = Temporary1;
-  } while (false);
-
-  return result_620765739;
-
-}
-
-function HEX7C_620765625(a_620765627, b_620765628) {
-
-function succeedImpl_620765640(inputInHEX60gensym162_620765641, valueInHEX60gensym162_620765642, tailInHEX60gensym162_620765643) {
-  var result_620765645 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620765645 = nimCopy(result_620765645, {kind: 0, value: nimCopy(null, valueInHEX60gensym162_620765642, NTI620763103), tail: nimCopy(null, tailInHEX60gensym162_620765643, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym162_620765641, NTI33554439), expected: []}, NTI620763109);
-
-  return result_620765645;
-
-}
-
-function failImpl_620765647(inputInHEX60gensym162_620765648, expectedInHEX60gensym162_620765649, tailInHEX60gensym162_620765650) {
-  var result_620765652 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-    result_620765652 = nimCopy(result_620765652, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym162_620765649, NTI620763499), tail: nimCopy(null, tailInHEX60gensym162_620765650, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym162_620765648, NTI33554439), value: []}, NTI620763109);
-
-  return result_620765652;
-
-}
-      
-function HEX3Aanonymous_620765655(input_620765656) {
-          var Temporary1;
-          var Temporary2;
-
-        var result_620765658 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
-
-        BeforeRet: do {
-          var succeed_620765659 = succeedImpl_620765640;
-          var fail_620765660 = failImpl_620765647;
-          var result1_620765685 = parse_620765669(a_620765627, input_620765656);
-          if ((result1_620765685.kind == 0)) {
-          result_620765658 = nimCopy(result_620765658, result1_620765685, NTI620763109);
-          break BeforeRet;
-          }
-          
-          var result2_620765702 = parse_620765669(b_620765628, input_620765656);
-          if ((result2_620765702.kind == 0)) {
-          result_620765658 = nimCopy(result_620765658, result2_620765702, NTI620763109);
-          break BeforeRet;
-          }
-          
-          var Temporary1 = result1_620765685;
-          if (ConstSet129[Temporary1.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary1.kind, NTI1090519061)); }
-          var Temporary2 = result2_620765702;
-          if (ConstSet130[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-          result_620765658 = nimCopy(result_620765658, fail_620765660(input_620765656, HEX26_687865962(Temporary1.expected, Temporary2.expected), input_620765656), NTI620763109);
-        } while (false);
-
-        return result_620765658;
-
-      }
-
-  var result_620765629 = null;
-
-    Label1: do {
-    } while (false);
-    result_620765629 = {body: HEX3Aanonymous_620765655};
-
-  return result_620765629;
-
-}
-
-function newSeq_620766283(len_620766285) {
-  var result_620766286 = [];
-
-    result_620766286 = new Array(len_620766285); for (var i = 0 ; i < len_620766285 ; ++i) { result_620766286[i] = 0; }
-  return result_620766286;
-
-}
-
-function HEX26_620766318(x_620766320, y_620766321) {
-  var result_620766322 = [];
-
-    result_620766322 = new Array(chckRange(addInt((x_620766320).length, (y_620766321).length), 0, 2147483647)); for (var i = 0 ; i < chckRange(addInt((x_620766320).length, (y_620766321).length), 0, 2147483647) ; ++i) { result_620766322[i] = 0; }    Label1: do {
-      var i_620766341 = 0;
-      var colontmp__620767754 = 0;
-      colontmp__620767754 = subInt((x_620766320).length, 1);
-      var res_620767755 = 0;
-      Label2: do {
-          Label3: while (true) {
-          if (!(res_620767755 <= colontmp__620767754)) break Label3;
-            i_620766341 = res_620767755;
-            result_620766322[chckIndx(i_620766341, 0, (result_620766322).length - 1)] = x_620766320[chckIndx(i_620766341, 0, (x_620766320).length - 1)];
-            res_620767755 = addInt(res_620767755, 1);
-          }
-      } while (false);
-    } while (false);
-    Label4: do {
-      var i_620766349 = 0;
-      var colontmp__620767758 = 0;
-      colontmp__620767758 = subInt((y_620766321).length, 1);
-      var res_620767759 = 0;
-      Label5: do {
-          Label6: while (true) {
-          if (!(res_620767759 <= colontmp__620767758)) break Label6;
-            i_620766349 = res_620767759;
-            result_620766322[chckIndx(addInt(i_620766349, (x_620766320).length), 0, (result_620766322).length - 1)] = y_620766321[chckIndx(i_620766349, 0, (y_620766321).length - 1)];
-            res_620767759 = addInt(res_620767759, 1);
-          }
-      } while (false);
-    } while (false);
-
-  return result_620766322;
-
-}
-
-function nop_620766607() {
-
-function succeedImpl_620766620(inputInHEX60gensym178_620766621, valueInHEX60gensym178_620766622, tailInHEX60gensym178_620766623) {
-  var result_620766625 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-    result_620766625 = nimCopy(result_620766625, {kind: 0, value: nimCopy(null, valueInHEX60gensym178_620766622, NTI687865860), tail: nimCopy(null, tailInHEX60gensym178_620766623, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym178_620766621, NTI33554439), expected: []}, NTI620757844);
-
-  return result_620766625;
-
-}
-
-function failImpl_620766627(inputInHEX60gensym178_620766628, expectedInHEX60gensym178_620766629, tailInHEX60gensym178_620766630) {
-  var result_620766632 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-    result_620766632 = nimCopy(result_620766632, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym178_620766629, NTI620764288), tail: nimCopy(null, tailInHEX60gensym178_620766630, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym178_620766628, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-
-  return result_620766632;
-
-}
-      
-function HEX3Aanonymous_620766635(input_620766636) {
-        var result_620766638 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-          var succeed_620766639 = succeedImpl_620766620;
-          var fail_620766640 = failImpl_620766627;
-          result_620766638 = nimCopy(result_620766638, succeed_620766639(input_620766636, ({rows: [], baseline: 0, width: 0, flag: 0}), input_620766636), NTI620757844);
-
-        return result_620766638;
-
-      }
-
-  var result_620766609 = null;
-
-    Label1: do {
-    } while (false);
-    result_620766609 = {body: HEX3Aanonymous_620766635};
-
-  return result_620766609;
-
-}
-
-function HEX26_687866713(left_687866714, right_687866715) {
-  var result_687866716 = ({rows: [], baseline: 0, width: 0, flag: 0});
-
-    result_687866716 = nimCopy(result_687866716, join_687866063([nimCopy(null, left_687866714, NTI687865860), nimCopy(null, right_687866715, NTI687865860)]), NTI687865860);
-
-  return result_687866716;
-
-}
-
-function HEX3CHEX3C_620767194(a_620767197, b_620767198) {
-
-function succeedImpl_620767210(inputInHEX60gensym196_620767211, valueInHEX60gensym196_620767212, tailInHEX60gensym196_620767213) {
-  var result_620767215 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-    result_620767215 = nimCopy(result_620767215, {kind: 0, value: nimCopy(null, valueInHEX60gensym196_620767212, NTI687865860), tail: nimCopy(null, tailInHEX60gensym196_620767213, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym196_620767211, NTI33554439), expected: []}, NTI620757844);
-
-  return result_620767215;
-
-}
-
-function failImpl_620767217(inputInHEX60gensym196_620767218, expectedInHEX60gensym196_620767219, tailInHEX60gensym196_620767220) {
-  var result_620767222 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-    result_620767222 = nimCopy(result_620767222, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym196_620767219, NTI620764823), tail: nimCopy(null, tailInHEX60gensym196_620767220, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym196_620767218, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-
-  return result_620767222;
-
-}
-      
-function HEX3Aanonymous_620767225(input_620767226) {
-            var Temporary2;
-            var Temporary4;
-          var Temporary5;
-
-        var result_620767228 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
-
-        BeforeRet: do {
-          var succeed_620767229 = succeedImpl_620767210;
-          var fail_620767230 = failImpl_620767217;
-          Label1: do {
-            var tempHEX60gensym30_620767243 = parse_620760599(a_620767197, input_620767226);
-            if ((tempHEX60gensym30_620767243.kind == 1)) {
-            var Temporary2 = tempHEX60gensym30_620767243;
-            if (ConstSet134[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-            result_620767228 = nimCopy(result_620767228, {kind: 1, fromInput: nimCopy(null, input_620767226, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym30_620767243.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result1_620767249 = nimCopy(null, tempHEX60gensym30_620767243, NTI620757844);
-          Label3: do {
-            var tempHEX60gensym32_620767262 = parse_620758704(b_620767198, result1_620767249.tail);
-            if ((tempHEX60gensym32_620767262.kind == 1)) {
-            var Temporary4 = tempHEX60gensym32_620767262;
-            if (ConstSet135[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1090519061)); }
-            result_620767228 = nimCopy(result_620767228, {kind: 1, fromInput: nimCopy(null, input_620767226, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1090519075), tail: nimCopy(null, tempHEX60gensym32_620767262.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620757844);
-            break BeforeRet;
-            }
-            
-          } while (false);
-          var result2_620767268 = nimCopy(null, tempHEX60gensym32_620767262, NTI1090519172);
-          var Temporary5 = result1_620767249;
-          if (ConstSet136[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1090519061)); }
-          result_620767228 = nimCopy(result_620767228, succeed_620767229(input_620767226, Temporary5.value, result2_620767268.tail), NTI620757844);
-          break BeforeRet;
-        } while (false);
-
-        return result_620767228;
-
-      }
-
-  var result_620767199 = null;
-
-    Label1: do {
-    } while (false);
-    result_620767199 = {body: HEX3Aanonymous_620767225};
-
-  return result_620767199;
-
-}
-
-function HEX3Aanonymous_620760010(x_620760030) {
-  var result_620760033 = [];
-
-    result_620760033 = nimCopy(null, [nimCopy(null, x_620760030, NTI620758302)], NTI620758807);
-
-  return result_620760033;
-
-}
-
-function HEX3Aanonymous_620759514(x_620759534) {
-  var result_620759537 = [];
-
-    result_620759537 = nimCopy(null, [nimCopy(null, x_620759534, NTI33554439)], NTI1090519234);
-
-  return result_620759537;
-
-}
-
-function HEX3Aanonymous_620760209(x_620760270) {
-  var result_620760273 = [];
-
-    var resultHEX60gensym53_620760282 = newSeq_452985301(0);
-    Label1: do {
-      var xHEX60gensym53_620760286 = [];
-      var i_620767413 = 0;
-      var L_620767414 = (x_620760270).length;
-      Label2: do {
-          Label3: while (true) {
-          if (!(i_620767413 < L_620767414)) break Label3;
-            xHEX60gensym53_620760286 = x_620760270[chckIndx(i_620767413, 0, (x_620760270).length - 1)];
-            var a_620760287 = nimCopy(null, resultHEX60gensym53_620760282, NTI452985127);
-            var b_620760288 = nimCopy(null, xHEX60gensym53_620760286, NTI620758253);
-            resultHEX60gensym53_620760282 = nimCopy(null, HEX26_687865962(a_620760287, b_620760288), NTI687865915);
-            i_620767413 = addInt(i_620767413, 1);
-            if (!(((x_620760270).length == L_620767414))) {
+            i_637534304 = addInt(i_637534304, 1);
+            if (!(((result_654311481.rows).length == L_637534305))) {
             failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
             
           }
       } while (false);
     } while (false);
-    result_620760273 = nimCopy(null, resultHEX60gensym53_620760282, NTI452985127);
+    result_654311481.baseline = baseline_654311479;
+    result_654311481.flag = flag_654311480;
+  } while (false);
 
-  return result_620760273;
-
-}
-
-function HEX3Aanonymous_620761235(x_620761255) {
-  var result_620761258 = [];
-
-    result_620761258 = nimCopy(null, [nimCopy(null, x_620761255, NTI620759343)], NTI620759871);
-
-  return result_620761258;
+  return result_654311481;
 
 }
 
-function HEX3Aanonymous_620760739(x_620760759) {
-  var result_620760762 = [];
+function HEX3EHEX3E_620766345(a_620766348, b_620766349) {
 
-    result_620760762 = nimCopy(null, [nimCopy(null, x_620760759, NTI687865860)], NTI620759450);
+function succeedImpl_620766361(inputInHEX60gensym178_620766362, valueInHEX60gensym178_620766363, tailInHEX60gensym178_620766364) {
+  var result_620766366 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-  return result_620760762;
+    result_620766366 = nimCopy(result_620766366, {kind: 0, value: nimCopy(null, valueInHEX60gensym178_620766363, NTI620763069), tail: nimCopy(null, tailInHEX60gensym178_620766364, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym178_620766362, NTI33554439), expected: []}, NTI620758903);
+
+  return result_620766366;
 
 }
 
-function HEX3Aanonymous_620761434(x_620761525) {
-  var result_620761528 = [];
+function failImpl_620766368(inputInHEX60gensym178_620766369, expectedInHEX60gensym178_620766370, tailInHEX60gensym178_620766371) {
+  var result_620766373 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
 
-    var resultHEX60gensym79_620761537 = newSeq_687866191(0);
+    result_620766373 = nimCopy(result_620766373, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym178_620766370, NTI620764086), tail: nimCopy(null, tailInHEX60gensym178_620766371, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym178_620766369, NTI33554439), value: []}, NTI620758903);
+
+  return result_620766373;
+
+}
+      
+function HEX3Aanonymous_620766376(input_620766377) {
+            var Temporary2;
+            var Temporary4;
+          var Temporary5;
+
+        var result_620766379 = ({kind: 0, value: [], expected: [], tail: [], fromInput: []});
+
+        BeforeRet: do {
+          var succeed_620766380 = succeedImpl_620766361;
+          var fail_620766381 = failImpl_620766368;
+          Label1: do {
+            var tempHEX60gensym34_620766394 = parse_620759020(a_620766348, input_620766377);
+            if ((tempHEX60gensym34_620766394.kind == 1)) {
+            var Temporary2 = tempHEX60gensym34_620766394;
+            if (ConstSet121[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620766379 = nimCopy(result_620766379, {kind: 1, fromInput: nimCopy(null, input_620766377, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym34_620766394.tail, NTI33554439), value: []}, NTI620758903);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result1_620766400 = nimCopy(null, tempHEX60gensym34_620766394, NTI620757839);
+          Label3: do {
+            var tempHEX60gensym36_620766413 = parse_620760265(b_620766349, result1_620766400.tail);
+            if ((tempHEX60gensym36_620766413.kind == 1)) {
+            var Temporary4 = tempHEX60gensym36_620766413;
+            if (ConstSet122[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620766379 = nimCopy(result_620766379, {kind: 1, fromInput: nimCopy(null, input_620766377, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym36_620766413.tail, NTI33554439), value: []}, NTI620758903);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result2_620766419 = nimCopy(null, tempHEX60gensym36_620766413, NTI620758903);
+          var Temporary5 = result2_620766419;
+          if (ConstSet123[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          result_620766379 = nimCopy(result_620766379, succeed_620766380(input_620766377, Temporary5.value, result2_620766419.tail), NTI620758903);
+          break BeforeRet;
+        } while (false);
+
+        return result_620766379;
+
+      }
+
+  var result_620766350 = null;
+
     Label1: do {
-      var xHEX60gensym79_620761541 = [];
-      var i_620767452 = 0;
-      var L_620767453 = (x_620761525).length;
+    } while (false);
+    result_620766350 = {body: HEX3Aanonymous_620766376};
+
+  return result_620766350;
+
+}
+
+function HEX3CHEX3C_620766553(a_620766556, b_620766557) {
+
+function succeedImpl_620766569(inputInHEX60gensym182_620766570, valueInHEX60gensym182_620766571, tailInHEX60gensym182_620766572) {
+  var result_620766574 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+    result_620766574 = nimCopy(result_620766574, {kind: 0, value: nimCopy(null, valueInHEX60gensym182_620766571, NTI654311428), tail: nimCopy(null, tailInHEX60gensym182_620766572, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym182_620766570, NTI33554439), expected: []}, NTI620758888);
+
+  return result_620766574;
+
+}
+
+function failImpl_620766576(inputInHEX60gensym182_620766577, expectedInHEX60gensym182_620766578, tailInHEX60gensym182_620766579) {
+  var result_620766581 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+    result_620766581 = nimCopy(result_620766581, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym182_620766578, NTI620764233), tail: nimCopy(null, tailInHEX60gensym182_620766579, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym182_620766577, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+
+  return result_620766581;
+
+}
+      
+function HEX3Aanonymous_620766584(input_620766585) {
+            var Temporary2;
+            var Temporary4;
+          var Temporary5;
+
+        var result_620766587 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+        BeforeRet: do {
+          var succeed_620766588 = succeedImpl_620766569;
+          var fail_620766589 = failImpl_620766576;
+          Label1: do {
+            var tempHEX60gensym30_620766602 = parse_620760023(a_620766556, input_620766585);
+            if ((tempHEX60gensym30_620766602.kind == 1)) {
+            var Temporary2 = tempHEX60gensym30_620766602;
+            if (ConstSet124[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620766587 = nimCopy(result_620766587, {kind: 1, fromInput: nimCopy(null, input_620766585, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym30_620766602.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result1_620766608 = nimCopy(null, tempHEX60gensym30_620766602, NTI620758888);
+          Label3: do {
+            var tempHEX60gensym32_620766621 = parse_1191183306(b_620766557, result1_620766608.tail);
+            if ((tempHEX60gensym32_620766621.kind == 1)) {
+            var Temporary4 = tempHEX60gensym32_620766621;
+            if (ConstSet125[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620766587 = nimCopy(result_620766587, {kind: 1, fromInput: nimCopy(null, input_620766585, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym32_620766621.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result2_620766627 = nimCopy(null, tempHEX60gensym32_620766621, NTI1191182566);
+          var Temporary5 = result1_620766608;
+          if (ConstSet126[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          result_620766587 = nimCopy(result_620766587, succeed_620766588(input_620766585, Temporary5.value, result2_620766627.tail), NTI620758888);
+          break BeforeRet;
+        } while (false);
+
+        return result_620766587;
+
+      }
+
+  var result_620766558 = null;
+
+    Label1: do {
+    } while (false);
+    result_620766558 = {body: HEX3Aanonymous_620766584};
+
+  return result_620766558;
+
+}
+
+function HEX3EHEX3E_620766470(a_620766473, b_620766474) {
+
+function succeedImpl_620766486(inputInHEX60gensym181_620766487, valueInHEX60gensym181_620766488, tailInHEX60gensym181_620766489) {
+  var result_620766491 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+    result_620766491 = nimCopy(result_620766491, {kind: 0, value: nimCopy(null, valueInHEX60gensym181_620766488, NTI654311428), tail: nimCopy(null, tailInHEX60gensym181_620766489, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym181_620766487, NTI33554439), expected: []}, NTI620758888);
+
+  return result_620766491;
+
+}
+
+function failImpl_620766493(inputInHEX60gensym181_620766494, expectedInHEX60gensym181_620766495, tailInHEX60gensym181_620766496) {
+  var result_620766498 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+    result_620766498 = nimCopy(result_620766498, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym181_620766495, NTI620764172), tail: nimCopy(null, tailInHEX60gensym181_620766496, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym181_620766494, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+
+  return result_620766498;
+
+}
+      
+function HEX3Aanonymous_620766501(input_620766502) {
+            var Temporary2;
+            var Temporary4;
+          var Temporary5;
+
+        var result_620766504 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+        BeforeRet: do {
+          var succeed_620766505 = succeedImpl_620766486;
+          var fail_620766506 = failImpl_620766493;
+          Label1: do {
+            var tempHEX60gensym34_620766519 = parse_1191183306(a_620766473, input_620766502);
+            if ((tempHEX60gensym34_620766519.kind == 1)) {
+            var Temporary2 = tempHEX60gensym34_620766519;
+            if (ConstSet127[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620766504 = nimCopy(result_620766504, {kind: 1, fromInput: nimCopy(null, input_620766502, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym34_620766519.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result1_620766525 = nimCopy(null, tempHEX60gensym34_620766519, NTI1191182566);
+          Label3: do {
+            var tempHEX60gensym36_620766538 = parse_620760023(b_620766474, result1_620766525.tail);
+            if ((tempHEX60gensym36_620766538.kind == 1)) {
+            var Temporary4 = tempHEX60gensym36_620766538;
+            if (ConstSet128[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620766504 = nimCopy(result_620766504, {kind: 1, fromInput: nimCopy(null, input_620766502, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym36_620766538.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result2_620766544 = nimCopy(null, tempHEX60gensym36_620766538, NTI620758888);
+          var Temporary5 = result2_620766544;
+          if (ConstSet129[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          result_620766504 = nimCopy(result_620766504, succeed_620766505(input_620766502, Temporary5.value, result2_620766544.tail), NTI620758888);
+          break BeforeRet;
+        } while (false);
+
+        return result_620766504;
+
+      }
+
+  var result_620766475 = null;
+
+    Label1: do {
+    } while (false);
+    result_620766475 = {body: HEX3Aanonymous_620766501};
+
+  return result_620766475;
+
+}
+
+function HEX3CHEX3C_620766757(a_620766760, b_620766761) {
+
+function succeedImpl_620766773(inputInHEX60gensym183_620766774, valueInHEX60gensym183_620766775, tailInHEX60gensym183_620766776) {
+  var result_620766778 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+    result_620766778 = nimCopy(result_620766778, {kind: 0, value: nimCopy(null, valueInHEX60gensym183_620766775, NTI654311428), tail: nimCopy(null, tailInHEX60gensym183_620766776, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym183_620766774, NTI33554439), expected: []}, NTI620758888);
+
+  return result_620766778;
+
+}
+
+function failImpl_620766780(inputInHEX60gensym183_620766781, expectedInHEX60gensym183_620766782, tailInHEX60gensym183_620766783) {
+  var result_620766785 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+    result_620766785 = nimCopy(result_620766785, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym183_620766782, NTI620764354), tail: nimCopy(null, tailInHEX60gensym183_620766783, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym183_620766781, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+
+  return result_620766785;
+
+}
+      
+function HEX3Aanonymous_620766788(input_620766789) {
+            var Temporary2;
+            var Temporary4;
+          var Temporary5;
+
+        var result_620766791 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+        BeforeRet: do {
+          var succeed_620766792 = succeedImpl_620766773;
+          var fail_620766793 = failImpl_620766780;
+          Label1: do {
+            var tempHEX60gensym30_620766806 = parse_620760023(a_620766760, input_620766789);
+            if ((tempHEX60gensym30_620766806.kind == 1)) {
+            var Temporary2 = tempHEX60gensym30_620766806;
+            if (ConstSet130[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620766791 = nimCopy(result_620766791, {kind: 1, fromInput: nimCopy(null, input_620766789, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym30_620766806.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result1_620766812 = nimCopy(null, tempHEX60gensym30_620766806, NTI620758888);
+          Label3: do {
+            var tempHEX60gensym32_620766825 = parse_620759020(b_620766761, result1_620766812.tail);
+            if ((tempHEX60gensym32_620766825.kind == 1)) {
+            var Temporary4 = tempHEX60gensym32_620766825;
+            if (ConstSet131[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620766791 = nimCopy(result_620766791, {kind: 1, fromInput: nimCopy(null, input_620766789, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym32_620766825.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result2_620766831 = nimCopy(null, tempHEX60gensym32_620766825, NTI620757839);
+          var Temporary5 = result1_620766812;
+          if (ConstSet132[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          result_620766791 = nimCopy(result_620766791, succeed_620766792(input_620766789, Temporary5.value, result2_620766831.tail), NTI620758888);
+          break BeforeRet;
+        } while (false);
+
+        return result_620766791;
+
+      }
+
+  var result_620766762 = null;
+
+    Label1: do {
+    } while (false);
+    result_620766762 = {body: HEX3Aanonymous_620766788};
+
+  return result_620766762;
+
+}
+
+function map_620767240(a_620767243, fn_620767245) {
+
+function succeedImpl_620767257(inputInHEX60gensym195_620767258, valueInHEX60gensym195_620767259, tailInHEX60gensym195_620767260) {
+  var result_620767262 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+    result_620767262 = nimCopy(result_620767262, {kind: 0, value: nimCopy(null, valueInHEX60gensym195_620767259, NTI654311428), tail: nimCopy(null, tailInHEX60gensym195_620767260, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym195_620767258, NTI33554439), expected: []}, NTI620758888);
+
+  return result_620767262;
+
+}
+
+function failImpl_620767264(inputInHEX60gensym195_620767265, expectedInHEX60gensym195_620767266, tailInHEX60gensym195_620767267) {
+  var result_620767269 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+    result_620767269 = nimCopy(result_620767269, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym195_620767266, NTI620764760), tail: nimCopy(null, tailInHEX60gensym195_620767267, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym195_620767265, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+
+  return result_620767269;
+
+}
+      
+function HEX3Aanonymous_620767272(input_620767273) {
+            var Temporary2;
+          var Temporary3;
+
+        var result_620767275 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+        BeforeRet: do {
+          var succeed_620767276 = succeedImpl_620767257;
+          var fail_620767277 = failImpl_620767264;
+          Label1: do {
+            var tempHEX60gensym24_620767290 = parse_620763134(a_620767243, input_620767273);
+            if ((tempHEX60gensym24_620767290.kind == 1)) {
+            var Temporary2 = tempHEX60gensym24_620767290;
+            if (ConstSet133[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620767275 = nimCopy(result_620767275, {kind: 1, fromInput: nimCopy(null, input_620767273, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym24_620767290.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result1_620767296 = nimCopy(null, tempHEX60gensym24_620767290, NTI620761192);
+          var Temporary3 = result1_620767296;
+          if (ConstSet134[Temporary3.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary3.kind, NTI1191182357)); }
+          result_620767275 = nimCopy(result_620767275, succeed_620767276(input_620767273, fn_620767245(Temporary3.value), result1_620767296.tail), NTI620758888);
+          break BeforeRet;
+        } while (false);
+
+        return result_620767275;
+
+      }
+
+  var result_620767246 = null;
+
+    Label1: do {
+    } while (false);
+    result_620767246 = {body: HEX3Aanonymous_620767272};
+
+  return result_620767246;
+
+}
+
+function nop_620767360() {
+
+function succeedImpl_620767373(inputInHEX60gensym197_620767374, valueInHEX60gensym197_620767375, tailInHEX60gensym197_620767376) {
+  var result_620767378 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+    result_620767378 = nimCopy(result_620767378, {kind: 0, value: nimCopy(null, valueInHEX60gensym197_620767375, NTI654311428), tail: nimCopy(null, tailInHEX60gensym197_620767376, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym197_620767374, NTI33554439), expected: []}, NTI620758888);
+
+  return result_620767378;
+
+}
+
+function failImpl_620767380(inputInHEX60gensym197_620767381, expectedInHEX60gensym197_620767382, tailInHEX60gensym197_620767383) {
+  var result_620767385 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+    result_620767385 = nimCopy(result_620767385, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym197_620767382, NTI620764838), tail: nimCopy(null, tailInHEX60gensym197_620767383, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym197_620767381, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+
+  return result_620767385;
+
+}
+      
+function HEX3Aanonymous_620767388(input_620767389) {
+        var result_620767391 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+          var succeed_620767392 = succeedImpl_620767373;
+          var fail_620767393 = failImpl_620767380;
+          result_620767391 = nimCopy(result_620767391, succeed_620767392(input_620767389, ({rows: [], baseline: 0, width: 0, flag: 0}), input_620767389), NTI620758888);
+
+        return result_620767391;
+
+      }
+
+  var result_620767362 = null;
+
+    Label1: do {
+    } while (false);
+    result_620767362 = {body: HEX3Aanonymous_620767388};
+
+  return result_620767362;
+
+}
+
+function HEX26_654312290(left_654312291, right_654312292) {
+  var result_654312293 = ({rows: [], baseline: 0, width: 0, flag: 0});
+
+    result_654312293 = nimCopy(result_654312293, join_654311640([nimCopy(null, left_654312291, NTI654311428), nimCopy(null, right_654312292, NTI654311428)]), NTI654311428);
+
+  return result_654312293;
+
+}
+
+function HEX3CHEX3C_620767947(a_620767950, b_620767951) {
+
+function succeedImpl_620767963(inputInHEX60gensym215_620767964, valueInHEX60gensym215_620767965, tailInHEX60gensym215_620767966) {
+  var result_620767968 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+    result_620767968 = nimCopy(result_620767968, {kind: 0, value: nimCopy(null, valueInHEX60gensym215_620767965, NTI654311428), tail: nimCopy(null, tailInHEX60gensym215_620767966, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym215_620767964, NTI33554439), expected: []}, NTI620758888);
+
+  return result_620767968;
+
+}
+
+function failImpl_620767970(inputInHEX60gensym215_620767971, expectedInHEX60gensym215_620767972, tailInHEX60gensym215_620767973) {
+  var result_620767975 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+    result_620767975 = nimCopy(result_620767975, {kind: 1, expected: nimCopy(null, expectedInHEX60gensym215_620767972, NTI620765373), tail: nimCopy(null, tailInHEX60gensym215_620767973, NTI33554439), fromInput: nimCopy(null, inputInHEX60gensym215_620767971, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+
+  return result_620767975;
+
+}
+      
+function HEX3Aanonymous_620767978(input_620767979) {
+            var Temporary2;
+            var Temporary4;
+          var Temporary5;
+
+        var result_620767981 = ({kind: 0, value: ({rows: [], baseline: 0, width: 0, flag: 0}), expected: [], tail: [], fromInput: []});
+
+        BeforeRet: do {
+          var succeed_620767982 = succeedImpl_620767963;
+          var fail_620767983 = failImpl_620767970;
+          Label1: do {
+            var tempHEX60gensym30_620767996 = parse_620760023(a_620767950, input_620767979);
+            if ((tempHEX60gensym30_620767996.kind == 1)) {
+            var Temporary2 = tempHEX60gensym30_620767996;
+            if (ConstSet138[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+            result_620767981 = nimCopy(result_620767981, {kind: 1, fromInput: nimCopy(null, input_620767979, NTI33554439), expected: nimCopy(null, Temporary2.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym30_620767996.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result1_620768002 = nimCopy(null, tempHEX60gensym30_620767996, NTI620758888);
+          Label3: do {
+            var tempHEX60gensym32_620768015 = parse_620758790(b_620767951, result1_620768002.tail);
+            if ((tempHEX60gensym32_620768015.kind == 1)) {
+            var Temporary4 = tempHEX60gensym32_620768015;
+            if (ConstSet139[Temporary4.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'expected\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary4.kind, NTI1191182357)); }
+            result_620767981 = nimCopy(result_620767981, {kind: 1, fromInput: nimCopy(null, input_620767979, NTI33554439), expected: nimCopy(null, Temporary4.expected, NTI1191182371), tail: nimCopy(null, tempHEX60gensym32_620768015.tail, NTI33554439), value: ({rows: [], baseline: 0, width: 0, flag: 0})}, NTI620758888);
+            break BeforeRet;
+            }
+            
+          } while (false);
+          var result2_620768021 = nimCopy(null, tempHEX60gensym32_620768015, NTI1191182468);
+          var Temporary5 = result1_620768002;
+          if (ConstSet140[Temporary5.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary5.kind, NTI1191182357)); }
+          result_620767981 = nimCopy(result_620767981, succeed_620767982(input_620767979, Temporary5.value, result2_620768021.tail), NTI620758888);
+          break BeforeRet;
+        } while (false);
+
+        return result_620767981;
+
+      }
+
+  var result_620767952 = null;
+
+    Label1: do {
+    } while (false);
+    result_620767952 = {body: HEX3Aanonymous_620767978};
+
+  return result_620767952;
+
+}
+
+function HEX3Aanonymous_620759426(x_620759446) {
+  var result_620759449 = [];
+
+    result_620759449 = nimCopy(null, [nimCopy(null, x_620759446, NTI620757882)], NTI620758399);
+
+  return result_620759449;
+
+}
+
+function HEX3Aanonymous_620758930(x_620758950) {
+  var result_620758953 = [];
+
+    result_620758953 = nimCopy(null, [nimCopy(null, x_620758950, NTI33554439)], NTI654311478);
+
+  return result_620758953;
+
+}
+
+function HEX3Aanonymous_620759625(x_620759686) {
+  var result_620759689 = [];
+
+    var resultHEX60gensym42_620759698 = newSeq_452985301(0);
+    Label1: do {
+      var xHEX60gensym42_620759702 = [];
+      var i_620768200 = 0;
+      var L_620768201 = (x_620759686).length;
       Label2: do {
           Label3: while (true) {
-          if (!(i_620767452 < L_620767453)) break Label3;
-            xHEX60gensym79_620761541 = x_620761525[chckIndx(i_620767452, 0, (x_620761525).length - 1)];
-            var a_620761542 = nimCopy(null, resultHEX60gensym79_620761537, NTI687866058);
-            var b_620761543 = nimCopy(null, xHEX60gensym79_620761541, NTI620759294);
-            resultHEX60gensym79_620761537 = nimCopy(null, HEX26_620761473(a_620761542, b_620761543), NTI620760276);
-            i_620767452 = addInt(i_620767452, 1);
-            if (!(((x_620761525).length == L_620767453))) {
+          if (!(i_620768200 < L_620768201)) break Label3;
+            xHEX60gensym42_620759702 = x_620759686[chckIndx(i_620768200, 0, (x_620759686).length - 1)];
+            var a_620759703 = nimCopy(null, resultHEX60gensym42_620759698, NTI452985127);
+            var b_620759704 = nimCopy(null, xHEX60gensym42_620759702, NTI620757833);
+            resultHEX60gensym42_620759698 = nimCopy(null, HEX26_654311539(a_620759703, b_620759704), NTI654311493);
+            i_620768200 = addInt(i_620768200, 1);
+            if (!(((x_620759686).length == L_620768201))) {
             failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
             
           }
       } while (false);
     } while (false);
-    result_620761528 = nimCopy(null, resultHEX60gensym79_620761537, NTI687866058);
+    result_620759689 = nimCopy(null, resultHEX60gensym42_620759698, NTI452985127);
 
-  return result_620761528;
-
-}
-
-function HEX3Aanonymous_620761614(atoms_620761630) {
-  var result_620761633 = ({rows: [], baseline: 0, width: 0, flag: 0});
-
-    result_620761633 = nimCopy(result_620761633, join_687866063(atoms_620761630), NTI687865860);
-
-  return result_620761633;
+  return result_620759689;
 
 }
 
-function HEX3Aanonymous_620761729(ch_620761745) {
-  var result_620761748 = ({rows: [], baseline: 0, width: 0, flag: 0});
+function HEX3Aanonymous_620760671(x_620760691) {
+  var result_620760694 = [];
 
-    result_620761748 = nimCopy(result_620761748, toTextRect_687865909(nimCharToStr(ch_620761745), 0, 1), NTI687865860);
+    result_620760694 = nimCopy(null, [nimCopy(null, x_620760691, NTI620758946)], NTI620759482);
 
-  return result_620761748;
-
-}
-
-function HEX3Aanonymous_620761816(letter_620761832) {
-  var result_620761835 = ({rows: [], baseline: 0, width: 0, flag: 0});
-
-    result_620761835 = nimCopy(result_620761835, toTextRect_687865909(inFont_637534317(letter_620761832, 0), 0, 1), NTI687865860);
-
-  return result_620761835;
+  return result_620760694;
 
 }
 
-function HEX3Aanonymous_620761859(pair_620761862) {
+function HEX3Aanonymous_620760175(x_620760195) {
+  var result_620760198 = [];
+
+    result_620760198 = nimCopy(null, [nimCopy(null, x_620760195, NTI654311428)], NTI620759053);
+
+  return result_620760198;
+
+}
+
+function HEX3Aanonymous_620760870(x_620760961) {
+  var result_620760964 = [];
+
+    var resultHEX60gensym68_620760973 = newSeq_654311768(0);
+    Label1: do {
+      var xHEX60gensym68_620760977 = [];
+      var i_620768239 = 0;
+      var L_620768240 = (x_620760961).length;
+      Label2: do {
+          Label3: while (true) {
+          if (!(i_620768239 < L_620768240)) break Label3;
+            xHEX60gensym68_620760977 = x_620760961[chckIndx(i_620768239, 0, (x_620760961).length - 1)];
+            var a_620760978 = nimCopy(null, resultHEX60gensym68_620760973, NTI654311636);
+            var b_620760979 = nimCopy(null, xHEX60gensym68_620760977, NTI620758897);
+            resultHEX60gensym68_620760973 = nimCopy(null, HEX26_620760909(a_620760978, b_620760979), NTI620759887);
+            i_620768239 = addInt(i_620768239, 1);
+            if (!(((x_620760961).length == L_620768240))) {
+            failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while (false);
+    } while (false);
+    result_620760964 = nimCopy(null, resultHEX60gensym68_620760973, NTI654311636);
+
+  return result_620760964;
+
+}
+
+function HEX3Aanonymous_620761050(atoms_620761066) {
+  var result_620761069 = ({rows: [], baseline: 0, width: 0, flag: 0});
+
+    result_620761069 = nimCopy(result_620761069, join_654311640(atoms_620761066), NTI654311428);
+
+  return result_620761069;
+
+}
+
+function HEX3Aanonymous_620761201(ch_620761217) {
+  var result_620761220 = ({rows: [], baseline: 0, width: 0, flag: 0});
+
+    result_620761220 = nimCopy(result_620761220, toTextRectOneLine_654311513(nimCharToStr(ch_620761217), 0, 1), NTI654311428);
+
+  return result_620761220;
+
+}
+
+function HEX3Aanonymous_620761288(letter_620761304) {
+  var result_620761307 = ({rows: [], baseline: 0, width: 0, flag: 0});
+
+    result_620761307 = nimCopy(result_620761307, toTextRectOneLine_654311513(inFont_637534392(letter_620761304, 0), 0, 1), NTI654311428);
+
+  return result_620761307;
+
+}
+
+function HEX3Aanonymous_620761331(pair_620761334) {
     
-function HEX3Aanonymous_620762473(x_620762493) {
-      var result_620762496 = [];
+function HEX3Aanonymous_620761945(x_620761965) {
+      var result_620761968 = [];
 
-        result_620762496 = nimCopy(null, [nimCopy(null, x_620762493, NTI620758302)], NTI620758807);
+        result_620761968 = nimCopy(null, [nimCopy(null, x_620761965, NTI620757882)], NTI620758399);
 
-      return result_620762496;
+      return result_620761968;
 
     }
     
-function HEX3Aanonymous_620762370(x_620762390) {
-      var result_620762393 = [];
+function HEX3Aanonymous_620761842(x_620761862) {
+      var result_620761865 = [];
 
-        result_620762393 = nimCopy(null, [nimCopy(null, x_620762390, NTI33554439)], NTI1090519234);
+        result_620761865 = nimCopy(null, [nimCopy(null, x_620761862, NTI33554439)], NTI654311478);
 
-      return result_620762393;
+      return result_620761865;
 
     }
     
-function HEX3Aanonymous_620762555(x_620762590) {
-      var result_620762593 = [];
+function HEX3Aanonymous_620762027(x_620762062) {
+      var result_620762065 = [];
 
-        var resultHEX60gensym98_620762602 = newSeq_452985301(0);
+        var resultHEX60gensym87_620762074 = newSeq_452985301(0);
         Label1: do {
-          var xHEX60gensym98_620762606 = [];
-          var i_620767589 = 0;
-          var L_620767590 = (x_620762590).length;
+          var xHEX60gensym87_620762078 = [];
+          var i_620768376 = 0;
+          var L_620768377 = (x_620762062).length;
           Label2: do {
               Label3: while (true) {
-              if (!(i_620767589 < L_620767590)) break Label3;
-                xHEX60gensym98_620762606 = x_620762590[chckIndx(i_620767589, 0, (x_620762590).length - 1)];
-                var a_620762607 = nimCopy(null, resultHEX60gensym98_620762602, NTI452985127);
-                var b_620762608 = nimCopy(null, xHEX60gensym98_620762606, NTI620758253);
-                resultHEX60gensym98_620762602 = nimCopy(null, HEX26_687865962(a_620762607, b_620762608), NTI687865915);
-                i_620767589 = addInt(i_620767589, 1);
-                if (!(((x_620762590).length == L_620767590))) {
+              if (!(i_620768376 < L_620768377)) break Label3;
+                xHEX60gensym87_620762078 = x_620762062[chckIndx(i_620768376, 0, (x_620762062).length - 1)];
+                var a_620762079 = nimCopy(null, resultHEX60gensym87_620762074, NTI452985127);
+                var b_620762080 = nimCopy(null, xHEX60gensym87_620762078, NTI620757833);
+                resultHEX60gensym87_620762074 = nimCopy(null, HEX26_654311539(a_620762079, b_620762080), NTI654311493);
+                i_620768376 = addInt(i_620768376, 1);
+                if (!(((x_620762062).length == L_620768377))) {
                 failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                 }
                 
               }
           } while (false);
         } while (false);
-        result_620762593 = nimCopy(null, resultHEX60gensym98_620762602, NTI452985127);
+        result_620762065 = nimCopy(null, resultHEX60gensym87_620762074, NTI452985127);
 
-      return result_620762593;
+      return result_620762065;
 
     }
     
-function HEX3Aanonymous_620762658(letter_620762673) {
-      var result_620762676 = ({rows: [], baseline: 0, width: 0, flag: 0});
+function HEX3Aanonymous_620762130(letter_620762145) {
+      var result_620762148 = ({rows: [], baseline: 0, width: 0, flag: 0});
 
-        result_620762676 = nimCopy(result_620762676, toTextRect_687865909(inFont_637534317(letter_620762673, font_620761867), 0, 1), NTI687865860);
+        result_620762148 = nimCopy(result_620762148, toTextRectOneLine_654311513(inFont_637534392(letter_620762145, font_620761339), 0, 1), NTI654311428);
 
-      return result_620762676;
+      return result_620762148;
 
     }
 
-  var result_620761865 = null;
+  var result_620761337 = null;
 
-    var colontmp__620767569 = nimCopy(null, pair_620761862, NTI637534600);
-    var name_620761866 = nimCopy(null, colontmp__620767569["Field0"], NTI33554439);
-    var font_620761867 = colontmp__620767569["Field1"];
-    result_620761865 = map_620761750(HEX7C_1090520154(HEX3CHEX3C_620762221(HEX3CHEX3C_620762138(HEX3EHEX3E_620761959(HEX3EHEX3E_620762042(HEX3EHEX3E_620761959(HEX3EHEX3E_620761876(s_1090519151(name_620761866), ws_620760351), c_1090519273(123)), ws_620760351), alpha_620761715), ws_620760351), c_1090519273(125)), HEX3EHEX3E_620761959(HEX3EHEX3E_620761876(s_1090519151(name_620761866), map_620760294(HEX26_620760067(map_620759830(HEX2A_620759204(whitespace_1090520135, HEX2EHEX2E_654312275(1, 2147483647).a), HEX3Aanonymous_620762473), HEX2A_620759662(HEX7C_620759560(map_620759340(whitespace_1090520135, HEX3Aanonymous_620762370), nop_620759212()), subInt(HEX2EHEX2E_654312275(1, 2147483647).b, HEX2EHEX2E_654312275(1, 2147483647).a))), HEX3Aanonymous_620762555)), alpha_620761715)), HEX3Aanonymous_620762658);
+    var colontmp__620768356 = nimCopy(null, pair_620761334, NTI637534724);
+    var name_620761338 = nimCopy(null, colontmp__620768356["Field0"], NTI33554439);
+    var font_620761339 = colontmp__620768356["Field1"];
+    result_620761337 = map_620761222(HEX7C_1191183450(HEX3CHEX3C_620761693(HEX3CHEX3C_620761610(HEX3EHEX3E_620761431(HEX3EHEX3E_620761514(HEX3EHEX3E_620761431(HEX3EHEX3E_620761348(s_1191182447(name_620761338), ws_620759767), c_1191182569(123)), ws_620759767), alpha_620761187), ws_620759767), c_1191182569(125)), HEX3EHEX3E_620761431(HEX3EHEX3E_620761348(s_1191182447(name_620761338), map_620759710(HEX26_620759483(map_620759246(HEX2A_620758608(whitespace_1191183431, HEX2EHEX2E_973079379(1, 2147483647).a), HEX3Aanonymous_620761945), HEX2A_620759078(HEX7C_620758976(map_620758744(whitespace_1191183431, HEX3Aanonymous_620761842), nop_620758616()), subInt(HEX2EHEX2E_973079379(1, 2147483647).b, HEX2EHEX2E_973079379(1, 2147483647).a))), HEX3Aanonymous_620762027)), alpha_620761187)), HEX3Aanonymous_620762130);
 
-  return result_620761865;
+  return result_620761337;
 
 }
 
-function HEX3Aanonymous_620762860(entry_620762863) {
+function HEX3Aanonymous_620762317(entry_620762320) {
+    var Temporary1;
     
-function HEX3Aanonymous_620763067(rect_620763083) {
+function HEX3Aanonymous_620762484(x_620762500) {
+      var result_620762503 = ({rows: [], baseline: 0, width: 0, flag: 0});
+
+        result_620762503 = nimCopy(result_620762503, val_620762325, NTI654311428);
+
+      return result_620762503;
+
+    }
+      
+function HEX3Aanonymous_620762572(x_620762588) {
+        var result_620762591 = ({rows: [], baseline: 0, width: 0, flag: 0});
+
+          result_620762591 = nimCopy(result_620762591, val_620762325, NTI654311428);
+
+        return result_620762591;
+
+      }
+
+  var result_620762323 = null;
+
+    var colontmp__620768383 = nimCopy(null, entry_620762320, NTI637534217);
+    var key_620762324 = nimCopy(null, colontmp__620768383["Field0"], NTI33554439);
+    var val_620762325 = nimCopy(null, colontmp__620768383["Field1"], NTI654311428);
+    if ((key_620762324[chckIndx(0, 0, (key_620762324).length - 1)] == 92)) {
+    Temporary1 = map_620762505(HEX3CHEX3C_620762399(s_1191182447(key_620762324), HEX21_620762342(letter_1191183524)), HEX3Aanonymous_620762484);
+    }
+    else {
+    Temporary1 = map_620762505(s_1191182447(key_620762324), HEX3Aanonymous_620762572);
+    }
+    
+    result_620762323 = Temporary1;
+
+  return result_620762323;
+
+}
+
+function HEX3Aanonymous_620763540(x_620763560) {
+  var result_620763563 = [];
+
+    result_620763563 = nimCopy(null, [nimCopy(null, x_620763560, NTI620761224)], NTI620761747);
+
+  return result_620763563;
+
+}
+
+function HEX3Aanonymous_620763044(x_620763064) {
+  var result_620763067 = [];
+
+    result_620763067 = nimCopy(null, [x_620763064], NTI620761337);
+
+  return result_620763067;
+
+}
+
+function HEX3Aanonymous_620763739(x_620763836) {
+  var result_620763839 = [];
+
+    var resultHEX60gensym124_620763848 = newSeq_620763748(0);
+    Label1: do {
+      var xHEX60gensym124_620763852 = [];
+      var i_620768430 = 0;
+      var L_620768431 = (x_620763836).length;
+      Label2: do {
+          Label3: while (true) {
+          if (!(i_620768430 < L_620768431)) break Label3;
+            xHEX60gensym124_620763852 = x_620763836[chckIndx(i_620768430, 0, (x_620763836).length - 1)];
+            var a_620763853 = nimCopy(null, resultHEX60gensym124_620763848, NTI620762132);
+            var b_620763854 = nimCopy(null, xHEX60gensym124_620763852, NTI620761186);
+            resultHEX60gensym124_620763848 = nimCopy(null, HEX26_620763783(a_620763853, b_620763854), NTI620762155);
+            i_620768430 = addInt(i_620768430, 1);
+            if (!(((x_620763836).length == L_620768431))) {
+            failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while (false);
+    } while (false);
+    result_620763839 = nimCopy(null, resultHEX60gensym124_620763848, NTI620762132);
+
+  return result_620763839;
+
+}
+
+function HEX3Aanonymous_620764008(chars_620764044) {
+  var result_620764047 = [];
+
+    result_620764047 = nimCopy(null, join_620764015(chars_620764044, []), NTI33554439);
+
+  return result_620764047;
+
+}
+
+function HEX3Aanonymous_620764118(name_620764121) {
+  var result_620764124 = false;
+
+    result_620764124 = contains_620764167(commands_637535932, name_620764121);
+
+  return result_620764124;
+
+}
+
+function HEX3Aanonymous_620764250(name_620764389) {
+  var result_620764392 = ({rows: [], baseline: 0, width: 0, flag: 0});
+
+    result_620764392 = nimCopy(result_620764392, HEX5BHEX5D_620764310(commands_637535932, name_620764389), NTI654311428);
+
+  return result_620764392;
+
+}
+
+function HEX3Aanonymous_620764459(entry_620764462) {
+    
+function HEX3Aanonymous_620764478(x_620764494) {
+      var result_620764497 = ({rows: [], baseline: 0, width: 0, flag: 0});
+
+        result_620764497 = nimCopy(result_620764497, val_620764467, NTI654311428);
+
+      return result_620764497;
+
+    }
+
+  var result_620764465 = null;
+
+    var colontmp__620768448 = nimCopy(null, entry_620764462, NTI637534222);
+    var key_620764466 = nimCopy(null, colontmp__620768448["Field0"], NTI33554439);
+    var val_620764467 = nimCopy(null, colontmp__620768448["Field1"], NTI654311428);
+    result_620764465 = map_620762505(s_1191182447(key_620764466), HEX3Aanonymous_620764478);
+
+  return result_620764465;
+
+}
+
+function HEX3Aanonymous_620764556(entry_620764559) {
+    
+function HEX3Aanonymous_620764763(rect_620764779) {
         var Temporary1;
           var Temporary2;
 
-      var result_620763086 = ({rows: [], baseline: 0, width: 0, flag: 0});
+      var result_620764782 = ({rows: [], baseline: 0, width: 0, flag: 0});
 
-        var rect_620763087 = nimCopy(null, rect_620763083, NTI687865860);
-          if (!(rect_620763087.width == 1)) Temporary2 = false; else {            Temporary2 = (height_687865900(rect_620763087) == 1);          }        if (Temporary2) {
-        rect_620763087.rows[chckIndx(0, 0, (rect_620763087.rows).length - 1)].push.apply(rect_620763087.rows[chckIndx(0, 0, (rect_620763087.rows).length - 1)], val_620762868.Field0);;
-        Temporary1 = rect_620763087;
+        var rect_620764783 = nimCopy(null, rect_620764779, NTI654311428);
+          if (!(rect_620764783.width == 1)) Temporary2 = false; else {            Temporary2 = (height_654311468(rect_620764783) == 1);          }        if (Temporary2) {
+        rect_620764783.rows[chckIndx(0, 0, (rect_620764783.rows).length - 1)].push.apply(rect_620764783.rows[chckIndx(0, 0, (rect_620764783.rows).length - 1)], val_620764564.Field0);;
+        Temporary1 = rect_620764783;
         }
         else {
-        Temporary1 = stack_687866775([toTextRect_687865909(val_620762868.Field1, 0, 0), nimCopy(null, rect_620763087, NTI687865860)], addInt(1, rect_620763087.baseline), 0);
+        Temporary1 = stack_654312352([toTextRectOneLine_654311513(val_620764564.Field1, 0, 0), nimCopy(null, rect_620764783, NTI654311428)], addInt(1, rect_620764783.baseline), 0);
         }
         
-        result_620763086 = nimCopy(result_620763086, Temporary1, NTI687865860);
+        result_620764782 = nimCopy(result_620764782, Temporary1, NTI654311428);
 
-      return result_620763086;
+      return result_620764782;
 
     }
 
-  var result_620762866 = null;
+  var result_620764562 = null;
 
-    var colontmp__620767614 = nimCopy(null, entry_620762863, NTI637534909);
-    var key_620762867 = nimCopy(null, colontmp__620767614["Field0"], NTI33554439);
-    var val_620762868 = nimCopy(null, colontmp__620767614["Field1"], NTI637534910);
-    result_620762866 = map_620763088(HEX3EHEX3E_620762984(HEX3EHEX3E_620762042(HEX3EHEX3E_620762888(s_1090519151(key_620762867), HEX21_620758602(letter_1090520228)), ws_620760351), atom_620760354[0]), HEX3Aanonymous_620763067);
+    var colontmp__620768453 = nimCopy(null, entry_620764559, NTI637535031);
+    var key_620764563 = nimCopy(null, colontmp__620768453["Field0"], NTI33554439);
+    var val_620764564 = nimCopy(null, colontmp__620768453["Field1"], NTI637535032);
+    result_620764562 = map_620764784(HEX3EHEX3E_620764680(HEX3EHEX3E_620761514(HEX3EHEX3E_620764584(s_1191182447(key_620764563), HEX21_620762342(letter_1191183524)), ws_620759767), atom_620759778[0]), HEX3Aanonymous_620764763);
 
-  return result_620762866;
-
-}
-
-function HEX3Aanonymous_620763274(x_620763294) {
-  var result_620763297 = [];
-
-    result_620763297 = nimCopy(null, [nimCopy(null, x_620763294, NTI687865860)], NTI620759450);
-
-  return result_620763297;
+  return result_620764562;
 
 }
 
-function HEX3Aanonymous_620763329(x_620763349) {
-  var result_620763352 = [];
+function HEX3Aanonymous_620765040(x_620765060) {
+  var result_620765063 = [];
 
-    result_620763352 = nimCopy(null, [nimCopy(null, x_620763349, NTI687865860)], NTI620759450);
+    result_620765063 = nimCopy(null, [nimCopy(null, x_620765060, NTI654311428)], NTI620759053);
 
-  return result_620763352;
+  return result_620765063;
 
 }
 
-function HEX3Aanonymous_620763473(fraction_620763516) {
+function HEX3Aanonymous_620765095(x_620765115) {
+  var result_620765118 = [];
+
+    result_620765118 = nimCopy(null, [nimCopy(null, x_620765115, NTI654311428)], NTI620759053);
+
+  return result_620765118;
+
+}
+
+function HEX3Aanonymous_620765239(fraction_620765282) {
       var Temporary1;
       var Temporary2;
         var Temporary3;
 
-  var result_620763519 = ({rows: [], baseline: 0, width: 0, flag: 0});
+  var result_620765285 = ({rows: [], baseline: 0, width: 0, flag: 0});
 
-    var numerator_620763520 = nimCopy(null, fraction_620763516[chckIndx(0, 0, (fraction_620763516).length - 1)], NTI687865860);
-    var denominator_620763521 = nimCopy(null, fraction_620763516[chckIndx(1, 0, (fraction_620763516).length - 1)], NTI687865860);
-    var width_620763526 = max_620763482(numerator_620763520.width, denominator_620763521.width);
-    var fractionLine_620763527 = nsuRepeatStr(makeNimstrLit("\xE2\x94\x80"), width_620763526);
-    var flag_620763528 = 5;
-      if (!(numerator_620763520.flag == 5)) Temporary2 = false; else {        Temporary2 = (numerator_620763520.width == width_620763526);      }      if (Temporary2) Temporary1 = true; else {        if (!(denominator_620763521.flag == 5)) Temporary3 = false; else {          Temporary3 = (denominator_620763521.width == width_620763526);        }        Temporary1 = Temporary3;      }    if (Temporary1) {
-    fractionLine_620763527 = nimCopy(null, (makeNimstrLit("\xE2\x95\xB6") || []).concat(fractionLine_620763527 || [],makeNimstrLit("\xE2\x95\xB4") || []), NTI33554439);
-    flag_620763528 = 0;
+    var numerator_620765286 = nimCopy(null, fraction_620765282[chckIndx(0, 0, (fraction_620765282).length - 1)], NTI654311428);
+    var denominator_620765287 = nimCopy(null, fraction_620765282[chckIndx(1, 0, (fraction_620765282).length - 1)], NTI654311428);
+    var width_620765292 = max_620765248(numerator_620765286.width, denominator_620765287.width);
+    var fractionLine_620765293 = nsuRepeatStr(makeNimstrLit("\xE2\x94\x80"), width_620765292);
+    var flag_620765294 = 5;
+      if (!(numerator_620765286.flag == 5)) Temporary2 = false; else {        Temporary2 = (numerator_620765286.width == width_620765292);      }      if (Temporary2) Temporary1 = true; else {        if (!(denominator_620765287.flag == 5)) Temporary3 = false; else {          Temporary3 = (denominator_620765287.width == width_620765292);        }        Temporary1 = Temporary3;      }    if (Temporary1) {
+    fractionLine_620765293 = nimCopy(null, (makeNimstrLit("\xE2\x95\xB6") || []).concat(fractionLine_620765293 || [],makeNimstrLit("\xE2\x95\xB4") || []), NTI33554439);
+    flag_620765294 = 0;
     }
     
-    result_620763519 = nimCopy(result_620763519, withFlag_687866861(stack_687866775([nimCopy(null, numerator_620763520, NTI687865860), toTextRect_687865909(fractionLine_620763527, 0, 0), nimCopy(null, denominator_620763521, NTI687865860)], height_687865900(numerator_620763520), 0), flag_620763528), NTI687865860);
+    result_620765285 = nimCopy(result_620765285, withFlag_654312438(stack_654312352([nimCopy(null, numerator_620765286, NTI654311428), toTextRectOneLine_654311513(fractionLine_620765293, 0, 0), nimCopy(null, denominator_620765287, NTI654311428)], height_654311468(numerator_620765286), 0), flag_620765294), NTI654311428);
 
-  return result_620763519;
-
-}
-
-function HEX3Aanonymous_620763688(x_620763708) {
-  var result_620763711 = [];
-
-    result_620763711 = nimCopy(null, [nimCopy(null, x_620763708, NTI687865860)], NTI620759450);
-
-  return result_620763711;
+  return result_620765285;
 
 }
 
-function HEX3Aanonymous_620763743(x_620763763) {
-  var result_620763766 = [];
+function HEX3Aanonymous_620765454(x_620765474) {
+  var result_620765477 = [];
 
-    result_620763766 = nimCopy(null, [nimCopy(null, x_620763763, NTI687865860)], NTI620759450);
+    result_620765477 = nimCopy(null, [nimCopy(null, x_620765474, NTI654311428)], NTI620759053);
 
-  return result_620763766;
-
-}
-
-function HEX3Aanonymous_620763813(nk_620763832) {
-  var result_620763835 = ({rows: [], baseline: 0, width: 0, flag: 0});
-
-    var n_620763836 = nimCopy(null, nk_620763832[chckIndx(0, 0, (nk_620763832).length - 1)], NTI687865860);
-    var k_620763837 = nimCopy(null, nk_620763832[chckIndx(1, 0, (nk_620763832).length - 1)], NTI687865860);
-    var inside_620763838 = stack_687866775([nimCopy(null, n_620763836, NTI687865860), nimCopy(null, k_620763837, NTI687865860)], height_687865900(n_620763836), 0);
-    result_620763835 = nimCopy(result_620763835, join_687866063([bigDelimiter_620757000(makeNimstrLit("("), height_687865900(inside_620763838), chckRange(inside_620763838.baseline, 0, 2147483647)), nimCopy(null, inside_620763838, NTI687865860), bigDelimiter_620757000(makeNimstrLit(")"), height_687865900(inside_620763838), chckRange(inside_620763838.baseline, 0, 2147483647))]), NTI687865860);
-
-  return result_620763835;
+  return result_620765477;
 
 }
 
-function HEX3Aanonymous_620763868(arg_620763910) {
-  var result_620763913 = ({rows: [], baseline: 0, width: 0, flag: 0});
+function HEX3Aanonymous_620765509(x_620765529) {
+  var result_620765532 = [];
 
-    var horizontal_620763914 = toTextRect_687865909(nsuRepeatStr(makeNimstrLit("\xE2\x94\x80"), arg_620763910.width), 0, 0);
-    var sandwich_620763915 = stack_687866775([nimCopy(null, horizontal_620763914, NTI687865860), nimCopy(null, arg_620763910, NTI687865860), nimCopy(null, horizontal_620763914, NTI687865860)], addInt(arg_620763910.baseline, 1), 1);
-    var left_620763916 = ({rows: [], baseline: 0, width: 0, flag: 0});
-    left_620763916.rows = nimCopy(null, newSeq_452985301(height_687865900(sandwich_620763915)), NTI452985127);
-    left_620763916.width = 1;
-    left_620763916.baseline = sandwich_620763915.baseline;
+    result_620765532 = nimCopy(null, [nimCopy(null, x_620765529, NTI654311428)], NTI620759053);
+
+  return result_620765532;
+
+}
+
+function HEX3Aanonymous_620765579(nk_620765598) {
+  var result_620765601 = ({rows: [], baseline: 0, width: 0, flag: 0});
+
+    var n_620765602 = nimCopy(null, nk_620765598[chckIndx(0, 0, (nk_620765598).length - 1)], NTI654311428);
+    var k_620765603 = nimCopy(null, nk_620765598[chckIndx(1, 0, (nk_620765598).length - 1)], NTI654311428);
+    var inside_620765604 = stack_654312352([nimCopy(null, n_620765602, NTI654311428), nimCopy(null, k_620765603, NTI654311428)], height_654311468(n_620765602), 0);
+    result_620765601 = nimCopy(result_620765601, join_654311640([bigDelimiter_620757000(makeNimstrLit("("), height_654311468(inside_620765604), chckRange(inside_620765604.baseline, 0, 2147483647)), nimCopy(null, inside_620765604, NTI654311428), bigDelimiter_620757000(makeNimstrLit(")"), height_654311468(inside_620765604), chckRange(inside_620765604.baseline, 0, 2147483647))]), NTI654311428);
+
+  return result_620765601;
+
+}
+
+function HEX3Aanonymous_620765634(arg_620765676) {
+  var result_620765679 = ({rows: [], baseline: 0, width: 0, flag: 0});
+
+    var horizontal_620765680 = toTextRectOneLine_654311513(nsuRepeatStr(makeNimstrLit("\xE2\x94\x80"), arg_620765676.width), 0, 0);
+    var sandwich_620765681 = stack_654312352([nimCopy(null, horizontal_620765680, NTI654311428), nimCopy(null, arg_620765676, NTI654311428), nimCopy(null, horizontal_620765680, NTI654311428)], addInt(arg_620765676.baseline, 1), 1);
+    var left_620765682 = ({rows: [], baseline: 0, width: 0, flag: 0});
+    left_620765682.rows = nimCopy(null, newSeq_452985301(height_654311468(sandwich_620765681)), NTI452985127);
+    left_620765682.width = 1;
+    left_620765682.baseline = sandwich_620765681.baseline;
     Label1: do {
-      var i_620763928 = 0;
-      var colontmp__620767680 = 0;
-      colontmp__620767680 = subInt(height_687865900(sandwich_620763915), 1);
-      var i_620767681 = 1;
+      var i_620765694 = 0;
+      var colontmp__620768517 = 0;
+      colontmp__620768517 = subInt(height_654311468(sandwich_620765681), 1);
+      var i_620768518 = 1;
       Label2: do {
           Label3: while (true) {
-          if (!(i_620767681 < colontmp__620767680)) break Label3;
-            i_620763928 = i_620767681;
-            left_620763916.rows[chckIndx(i_620763928, 0, (left_620763916.rows).length - 1)] = nimCopy(null, makeNimstrLit("\xE2\x94\x82"), NTI33554439);
-            i_620767681 = addInt(i_620767681, 1);
+          if (!(i_620768518 < colontmp__620768517)) break Label3;
+            i_620765694 = i_620768518;
+            left_620765682.rows[chckIndx(i_620765694, 0, (left_620765682.rows).length - 1)] = nimCopy(null, makeNimstrLit("\xE2\x94\x82"), NTI33554439);
+            i_620768518 = addInt(i_620768518, 1);
           }
       } while (false);
     } while (false);
-    var right_620763929 = nimCopy(null, left_620763916, NTI687865860);
-    left_620763916.rows[chckIndx(0, 0, (left_620763916.rows).length - 1)] = nimCopy(null, makeNimstrLit("\xE2\x94\x8C"), NTI33554439);
-    HEX5BHEX5DHEX3D_620758398(left_620763916.rows, 1, makeNimstrLit("\xE2\x94\x94"));
-    right_620763929.rows[chckIndx(0, 0, (right_620763929.rows).length - 1)] = nimCopy(null, makeNimstrLit("\xE2\x94\x90"), NTI33554439);
-    HEX5BHEX5DHEX3D_620758398(right_620763929.rows, 1, makeNimstrLit("\xE2\x94\x98"));
-    result_620763913 = nimCopy(result_620763913, join_687866063([nimCopy(null, left_620763916, NTI687865860), nimCopy(null, sandwich_620763915, NTI687865860), nimCopy(null, right_620763929, NTI687865860)]), NTI687865860);
+    var right_620765695 = nimCopy(null, left_620765682, NTI654311428);
+    left_620765682.rows[chckIndx(0, 0, (left_620765682.rows).length - 1)] = nimCopy(null, makeNimstrLit("\xE2\x94\x8C"), NTI33554439);
+    HEX5BHEX5DHEX3D_620758398(left_620765682.rows, 1, makeNimstrLit("\xE2\x94\x94"));
+    right_620765695.rows[chckIndx(0, 0, (right_620765695.rows).length - 1)] = nimCopy(null, makeNimstrLit("\xE2\x94\x90"), NTI33554439);
+    HEX5BHEX5DHEX3D_620758398(right_620765695.rows, 1, makeNimstrLit("\xE2\x94\x98"));
+    result_620765679 = nimCopy(result_620765679, join_654311640([nimCopy(null, left_620765682, NTI654311428), nimCopy(null, sandwich_620765681, NTI654311428), nimCopy(null, right_620765695, NTI654311428)]), NTI654311428);
 
-  return result_620763913;
+  return result_620765679;
 
 }
 
-function HEX3Aanonymous_620763969(arg_620764153) {
+function HEX3Aanonymous_620765735(arg_620765900) {
     var Temporary1;
 
-  var result_620764156 = ({rows: [], baseline: 0, width: 0, flag: 0});
+  var result_620765903 = ({rows: [], baseline: 0, width: 0, flag: 0});
 
-    var overbar_620764157 = toTextRect_687865909(nsuRepeatStr(makeNimstrLit("_"), arg_620764153.width), 0, 0);
-    if ((height_687865900(arg_620764153) == 1)) {
+    var overbar_620765904 = toTextRectOneLine_654311513(nsuRepeatStr(makeNimstrLit("_"), arg_620765900.width), 0, 0);
+    if ((height_654311468(arg_620765900) == 1)) {
     Temporary1 = {rows: [makeNimstrLit("\xE2\x88\x9A")], baseline: 0, width: 1, flag: 0};
     }
     else {
       Label2: do {
-        var resultHEX60gensym133_620764172 = [];
+        var resultHEX60gensym165_620765919 = [];
         Label3: do {
-          var xHEX60gensym133_620764173 = 0;
-          var colontmp__620767685 = 0;
-          colontmp__620767685 = divInt(height_687865900(arg_620764153), 2);
-          var res_620767686 = colontmp__620767685;
+          var xHEX60gensym165_620765920 = 0;
+          var colontmp__620768522 = 0;
+          colontmp__620768522 = divInt(height_654311468(arg_620765900), 2);
+          var res_620768523 = colontmp__620768522;
           Label4: do {
               Label5: while (true) {
-              if (!(1 <= res_620767686)) break Label5;
-                xHEX60gensym133_620764173 = res_620767686;
-                resultHEX60gensym133_620764172.push(xHEX60gensym133_620764173);;
-                res_620767686 = subInt(res_620767686, 1);
+              if (!(1 <= res_620768523)) break Label5;
+                xHEX60gensym165_620765920 = res_620768523;
+                resultHEX60gensym165_620765919.push(xHEX60gensym165_620765920);;
+                res_620768523 = subInt(res_620768523, 1);
               }
           } while (false);
         } while (false);
-        var HEX3Atmp_620764197 = nimCopy(null, resultHEX60gensym133_620764172, NTI620762358);
-        var iHEX60gensym134_620764200 = 0;
-        var resultHEX60gensym134_620764207 = newSeq_687866191(chckRange((HEX3Atmp_620764197).length, 0, 2147483647));
+        var HEX3Atmp_620765944 = nimCopy(null, resultHEX60gensym165_620765919, NTI620763708);
+        var iHEX60gensym166_620765947 = 0;
+        var resultHEX60gensym166_620765954 = newSeq_654311768(chckRange((HEX3Atmp_620765944).length, 0, 2147483647));
         Label6: do {
-          var it_620764211 = 0;
-          var i_620767690 = 0;
-          var L_620767691 = (HEX3Atmp_620764197).length;
+          var it_620765958 = 0;
+          var i_620768527 = 0;
+          var L_620768528 = (HEX3Atmp_620765944).length;
           Label7: do {
               Label8: while (true) {
-              if (!(i_620767690 < L_620767691)) break Label8;
-                it_620764211 = HEX3Atmp_620764197[chckIndx(i_620767690, 0, (HEX3Atmp_620764197).length - 1)];
-                resultHEX60gensym134_620764207[chckIndx(iHEX60gensym134_620764200, 0, (resultHEX60gensym134_620764207).length - 1)] = nimCopy(resultHEX60gensym134_620764207[chckIndx(iHEX60gensym134_620764200, 0, (resultHEX60gensym134_620764207).length - 1)], toTextRect_687865909(makeNimstrLit("\xE2\x95\xB2"), addInt(subInt(arg_620764153.baseline, height_687865900(arg_620764153)), it_620764211), 0), NTI687865860);
-                iHEX60gensym134_620764200 = addInt(iHEX60gensym134_620764200, 1);
-                i_620767690 = addInt(i_620767690, 1);
-                if (!(((HEX3Atmp_620764197).length == L_620767691))) {
+              if (!(i_620768527 < L_620768528)) break Label8;
+                it_620765958 = HEX3Atmp_620765944[chckIndx(i_620768527, 0, (HEX3Atmp_620765944).length - 1)];
+                resultHEX60gensym166_620765954[chckIndx(iHEX60gensym166_620765947, 0, (resultHEX60gensym166_620765954).length - 1)] = nimCopy(resultHEX60gensym166_620765954[chckIndx(iHEX60gensym166_620765947, 0, (resultHEX60gensym166_620765954).length - 1)], toTextRect_654311477(makeNimstrLit("\xE2\x95\xB2"), addInt(subInt(arg_620765900.baseline, height_654311468(arg_620765900)), it_620765958), 0), NTI654311428);
+                iHEX60gensym166_620765947 = addInt(iHEX60gensym166_620765947, 1);
+                i_620768527 = addInt(i_620768527, 1);
+                if (!(((HEX3Atmp_620765944).length == L_620768528))) {
                 failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                 }
                 
@@ -8265,36 +8583,36 @@ function HEX3Aanonymous_620763969(arg_620764153) {
         } while (false);
       } while (false);
       Label9: do {
-        var resultHEX60gensym137_620764230 = [];
+        var resultHEX60gensym169_620765977 = [];
         Label10: do {
-          var xHEX60gensym137_620764231 = 0;
-          var colontmp__620767695 = 0;
-          colontmp__620767695 = height_687865900(arg_620764153);
-          var res_620767696 = 1;
+          var xHEX60gensym169_620765978 = 0;
+          var colontmp__620768532 = 0;
+          colontmp__620768532 = height_654311468(arg_620765900);
+          var res_620768533 = 1;
           Label11: do {
               Label12: while (true) {
-              if (!(res_620767696 <= colontmp__620767695)) break Label12;
-                xHEX60gensym137_620764231 = res_620767696;
-                resultHEX60gensym137_620764230.push(xHEX60gensym137_620764231);;
-                res_620767696 = addInt(res_620767696, 1);
+              if (!(res_620768533 <= colontmp__620768532)) break Label12;
+                xHEX60gensym169_620765978 = res_620768533;
+                resultHEX60gensym169_620765977.push(xHEX60gensym169_620765978);;
+                res_620768533 = addInt(res_620768533, 1);
               }
           } while (false);
         } while (false);
-        var HEX3Atmp_620764255 = nimCopy(null, resultHEX60gensym137_620764230, NTI620762413);
-        var iHEX60gensym138_620764258 = 0;
-        var resultHEX60gensym138_620764265 = newSeq_687866191(chckRange((HEX3Atmp_620764255).length, 0, 2147483647));
+        var HEX3Atmp_620766002 = nimCopy(null, resultHEX60gensym169_620765977, NTI620763763);
+        var iHEX60gensym170_620766005 = 0;
+        var resultHEX60gensym170_620766012 = newSeq_654311768(chckRange((HEX3Atmp_620766002).length, 0, 2147483647));
         Label13: do {
-          var it_620764269 = 0;
-          var i_620767699 = 0;
-          var L_620767700 = (HEX3Atmp_620764255).length;
+          var it_620766016 = 0;
+          var i_620768536 = 0;
+          var L_620768537 = (HEX3Atmp_620766002).length;
           Label14: do {
               Label15: while (true) {
-              if (!(i_620767699 < L_620767700)) break Label15;
-                it_620764269 = HEX3Atmp_620764255[chckIndx(i_620767699, 0, (HEX3Atmp_620764255).length - 1)];
-                resultHEX60gensym138_620764265[chckIndx(iHEX60gensym138_620764258, 0, (resultHEX60gensym138_620764265).length - 1)] = nimCopy(resultHEX60gensym138_620764265[chckIndx(iHEX60gensym138_620764258, 0, (resultHEX60gensym138_620764265).length - 1)], toTextRect_687865909(makeNimstrLit("\xE2\x95\xB1"), addInt(subInt(arg_620764153.baseline, height_687865900(arg_620764153)), it_620764269), 0), NTI687865860);
-                iHEX60gensym138_620764258 = addInt(iHEX60gensym138_620764258, 1);
-                i_620767699 = addInt(i_620767699, 1);
-                if (!(((HEX3Atmp_620764255).length == L_620767700))) {
+              if (!(i_620768536 < L_620768537)) break Label15;
+                it_620766016 = HEX3Atmp_620766002[chckIndx(i_620768536, 0, (HEX3Atmp_620766002).length - 1)];
+                resultHEX60gensym170_620766012[chckIndx(iHEX60gensym170_620766005, 0, (resultHEX60gensym170_620766012).length - 1)] = nimCopy(resultHEX60gensym170_620766012[chckIndx(iHEX60gensym170_620766005, 0, (resultHEX60gensym170_620766012).length - 1)], toTextRect_654311477(makeNimstrLit("\xE2\x95\xB1"), addInt(subInt(arg_620765900.baseline, height_654311468(arg_620765900)), it_620766016), 0), NTI654311428);
+                iHEX60gensym170_620766005 = addInt(iHEX60gensym170_620766005, 1);
+                i_620768536 = addInt(i_620768536, 1);
+                if (!(((HEX3Atmp_620766002).length == L_620768537))) {
                 failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                 }
                 
@@ -8302,355 +8620,397 @@ function HEX3Aanonymous_620763969(arg_620764153) {
           } while (false);
         } while (false);
       } while (false);
-    Temporary1 = join_687866063(HEX26_620761473(resultHEX60gensym134_620764207, resultHEX60gensym138_620764265));
+    Temporary1 = join_654311640(HEX26_620760909(resultHEX60gensym166_620765954, resultHEX60gensym170_620766012));
     }
     
-    var symbol_620764278 = nimCopy(null, Temporary1, NTI687865860);
-    result_620764156 = nimCopy(result_620764156, join_687866063([nimCopy(null, symbol_620764278, NTI687865860), stack_687866775([nimCopy(null, overbar_620764157, NTI687865860), nimCopy(null, arg_620764153, NTI687865860)], addInt(arg_620764153.baseline, 1), 1)]), NTI687865860);
+    var symbol_620766025 = nimCopy(null, Temporary1, NTI654311428);
+    result_620765903 = nimCopy(result_620765903, join_654311640([nimCopy(null, symbol_620766025, NTI654311428), stack_654312352([nimCopy(null, overbar_620765904, NTI654311428), nimCopy(null, arg_620765900, NTI654311428)], addInt(arg_620765900.baseline, 1), 1)]), NTI654311428);
 
-  return result_620764156;
-
-}
-
-function HEX3Aanonymous_620764350(x_620764370) {
-  var result_620764373 = [];
-
-    result_620764373 = nimCopy(null, [nimCopy(null, x_620764370, NTI687865860)], NTI620759450);
-
-  return result_620764373;
+  return result_620765903;
 
 }
 
-function HEX3Aanonymous_620764405(x_620764425) {
-  var result_620764428 = [];
+function HEX3Aanonymous_620766097(x_620766117) {
+  var result_620766120 = [];
 
-    result_620764428 = nimCopy(null, [nimCopy(null, x_620764425, NTI687865860)], NTI620759450);
+    result_620766120 = nimCopy(null, [nimCopy(null, x_620766117, NTI654311428)], NTI620759053);
 
-  return result_620764428;
-
-}
-
-function HEX3Aanonymous_620764528(x_620764548) {
-  var result_620764551 = [];
-
-    result_620764551 = nimCopy(null, [nimCopy(null, x_620764548, NTI687865860)], NTI620759450);
-
-  return result_620764551;
+  return result_620766120;
 
 }
 
-function HEX3Aanonymous_620764681(things_620764700) {
-  var result_620764703 = ({rows: [], baseline: 0, width: 0, flag: 0});
+function HEX3Aanonymous_620766152(x_620766172) {
+  var result_620766175 = [];
 
-    var inside_620764704 = nimCopy(null, things_620764700[chckIndx(1, 0, (things_620764700).length - 1)], NTI687865860);
-    var left_620764705 = nimCopy(null, things_620764700[chckIndx(0, 0, (things_620764700).length - 1)], NTI687865860);
-    var right_620764706 = nimCopy(null, things_620764700[chckIndx(2, 0, (things_620764700).length - 1)], NTI687865860);
-    if ((1 < height_687865900(inside_620764704))) {
-    left_620764705 = nimCopy(left_620764705, bigDelimiter_620757000(left_620764705.rows[chckIndx(0, 0, (left_620764705.rows).length - 1)], height_687865900(inside_620764704), chckRange(inside_620764704.baseline, 0, 2147483647)), NTI687865860);
-    right_620764706 = nimCopy(right_620764706, bigDelimiter_620757000(right_620764706.rows[chckIndx(0, 0, (right_620764706.rows).length - 1)], height_687865900(inside_620764704), chckRange(inside_620764704.baseline, 0, 2147483647)), NTI687865860);
+    result_620766175 = nimCopy(null, [nimCopy(null, x_620766172, NTI654311428)], NTI620759053);
+
+  return result_620766175;
+
+}
+
+function HEX3Aanonymous_620766275(x_620766295) {
+  var result_620766298 = [];
+
+    result_620766298 = nimCopy(null, [nimCopy(null, x_620766295, NTI654311428)], NTI620759053);
+
+  return result_620766298;
+
+}
+
+function HEX3Aanonymous_620766428(things_620766447) {
+  var result_620766450 = ({rows: [], baseline: 0, width: 0, flag: 0});
+
+    var inside_620766451 = nimCopy(null, things_620766447[chckIndx(1, 0, (things_620766447).length - 1)], NTI654311428);
+    var left_620766452 = nimCopy(null, things_620766447[chckIndx(0, 0, (things_620766447).length - 1)], NTI654311428);
+    var right_620766453 = nimCopy(null, things_620766447[chckIndx(2, 0, (things_620766447).length - 1)], NTI654311428);
+    if ((1 < height_654311468(inside_620766451))) {
+    left_620766452 = nimCopy(left_620766452, bigDelimiter_620757000(left_620766452.rows[chckIndx(0, 0, (left_620766452.rows).length - 1)], height_654311468(inside_620766451), chckRange(inside_620766451.baseline, 0, 2147483647)), NTI654311428);
+    right_620766453 = nimCopy(right_620766453, bigDelimiter_620757000(right_620766453.rows[chckIndx(0, 0, (right_620766453.rows).length - 1)], height_654311468(inside_620766451), chckRange(inside_620766451.baseline, 0, 2147483647)), NTI654311428);
     }
     
-    result_620764703 = nimCopy(result_620764703, join_687866063([nimCopy(null, left_620764705, NTI687865860), nimCopy(null, inside_620764704, NTI687865860), nimCopy(null, right_620764706, NTI687865860)]), NTI687865860);
+    result_620766450 = nimCopy(result_620766450, join_654311640([nimCopy(null, left_620766452, NTI654311428), nimCopy(null, inside_620766451, NTI654311428), nimCopy(null, right_620766453, NTI654311428)]), NTI654311428);
 
-  return result_620764703;
-
-}
-
-function HEX3Aanonymous_620765167(sup_620765183) {
-  var result_620765186 = ({rows: [], baseline: 0, width: 0, flag: 0});
-
-    result_620765186 = nimCopy(result_620765186, withFlag_687866861(sup_620765183, 7), NTI687865860);
-
-  return result_620765186;
+  return result_620766450;
 
 }
 
-function HEX3Aanonymous_620766075(x_620766095) {
-  var result_620766098 = [];
+function HEX3Aanonymous_620766854(sup_620766870) {
+  var result_620766873 = ({rows: [], baseline: 0, width: 0, flag: 0});
 
-    result_620766098 = nimCopy(null, [nimCopy(null, x_620766095, NTI620763141)], NTI620763664);
+    result_620766873 = nimCopy(result_620766873, withFlag_654312438(sup_620766870, 7), NTI654311428);
 
-  return result_620766098;
-
-}
-
-function HEX3Aanonymous_620765579(x_620765599) {
-  var result_620765602 = [];
-
-    result_620765602 = nimCopy(null, [x_620765599], NTI620763254);
-
-  return result_620765602;
+  return result_620766873;
 
 }
 
-function HEX3Aanonymous_620766274(x_620766371) {
-  var result_620766374 = [];
+function HEX3Aanonymous_620767058(x_620767078) {
+  var result_620767081 = [];
 
-    var resultHEX60gensym174_620766383 = newSeq_620766283(0);
+    result_620767081 = nimCopy(null, [nimCopy(null, x_620767078, NTI620761224)], NTI620761747);
+
+  return result_620767081;
+
+}
+
+function HEX3Aanonymous_620766955(x_620766975) {
+  var result_620766978 = [];
+
+    result_620766978 = nimCopy(null, [x_620766975], NTI620761337);
+
+  return result_620766978;
+
+}
+
+function HEX3Aanonymous_620767140(x_620767175) {
+  var result_620767178 = [];
+
+    var resultHEX60gensym194_620767187 = newSeq_620763748(0);
     Label1: do {
-      var xHEX60gensym174_620766387 = [];
-      var i_620767750 = 0;
-      var L_620767751 = (x_620766371).length;
+      var xHEX60gensym194_620767191 = [];
+      var i_620768554 = 0;
+      var L_620768555 = (x_620767175).length;
       Label2: do {
           Label3: while (true) {
-          if (!(i_620767750 < L_620767751)) break Label3;
-            xHEX60gensym174_620766387 = x_620766371[chckIndx(i_620767750, 0, (x_620766371).length - 1)];
-            var a_620766388 = nimCopy(null, resultHEX60gensym174_620766383, NTI620764049);
-            var b_620766389 = nimCopy(null, xHEX60gensym174_620766387, NTI620763103);
-            resultHEX60gensym174_620766383 = nimCopy(null, HEX26_620766318(a_620766388, b_620766389), NTI620764072);
-            i_620767750 = addInt(i_620767750, 1);
-            if (!(((x_620766371).length == L_620767751))) {
+          if (!(i_620768554 < L_620768555)) break Label3;
+            xHEX60gensym194_620767191 = x_620767175[chckIndx(i_620768554, 0, (x_620767175).length - 1)];
+            var a_620767192 = nimCopy(null, resultHEX60gensym194_620767187, NTI620762132);
+            var b_620767193 = nimCopy(null, xHEX60gensym194_620767191, NTI620761186);
+            resultHEX60gensym194_620767187 = nimCopy(null, HEX26_620763783(a_620767192, b_620767193), NTI620762155);
+            i_620768554 = addInt(i_620768554, 1);
+            if (!(((x_620767175).length == L_620768555))) {
             failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
             
           }
       } while (false);
     } while (false);
-    result_620766374 = nimCopy(null, resultHEX60gensym174_620766383, NTI620764049);
+    result_620767178 = nimCopy(null, resultHEX60gensym194_620767187, NTI620762132);
 
-  return result_620766374;
-
-}
-
-function HEX3Aanonymous_620766460(primes_620766479) {
-  var result_620766482 = ({rows: [], baseline: 0, width: 0, flag: 0});
-
-    result_620766482 = nimCopy(result_620766482, withFlag_687866861(toTextRect_687865909(nsuRepeatStr(makeNimstrLit("\xE2\x80\xB2"), chckRange((primes_620766479).length, 0, 2147483647)), 0, 0), 7), NTI687865860);
-
-  return result_620766482;
+  return result_620767178;
 
 }
 
-function HEX3Aanonymous_620766570(sub_620766586) {
-  var result_620766589 = ({rows: [], baseline: 0, width: 0, flag: 0});
+function HEX3Aanonymous_620767213(primes_620767232) {
+  var result_620767235 = ({rows: [], baseline: 0, width: 0, flag: 0});
 
-    result_620766589 = nimCopy(result_620766589, withFlag_687866861(sub_620766586, 6), NTI687865860);
+    result_620767235 = nimCopy(result_620767235, withFlag_654312438(toTextRectOneLine_654311513(nsuRepeatStr(makeNimstrLit("\xE2\x80\xB2"), chckRange((primes_620767232).length, 0, 2147483647)), 0, 0), 7), NTI654311428);
 
-  return result_620766589;
-
-}
-
-function HEX3Aanonymous_620767007(x_620767027) {
-  var result_620767030 = [];
-
-    result_620767030 = nimCopy(null, [nimCopy(null, x_620767027, NTI687865860)], NTI620759450);
-
-  return result_620767030;
+  return result_620767235;
 
 }
 
-function HEX3Aanonymous_620766683(x_620766703) {
-  var result_620766706 = [];
+function HEX3Aanonymous_620767323(sub_620767339) {
+  var result_620767342 = ({rows: [], baseline: 0, width: 0, flag: 0});
 
-    result_620766706 = nimCopy(null, [nimCopy(null, x_620766703, NTI687865860)], NTI620759450);
+    result_620767342 = nimCopy(result_620767342, withFlag_654312438(sub_620767339, 6), NTI654311428);
 
-  return result_620766706;
-
-}
-
-function HEX3Aanonymous_620766738(x_620766758) {
-  var result_620766761 = [];
-
-    result_620766761 = nimCopy(null, [nimCopy(null, x_620766758, NTI687865860)], NTI620759450);
-
-  return result_620766761;
+  return result_620767342;
 
 }
 
-function HEX3Aanonymous_620766847(x_620766867) {
-  var result_620766870 = [];
+function HEX3Aanonymous_620767760(x_620767780) {
+  var result_620767783 = [];
 
-    result_620766870 = nimCopy(null, [nimCopy(null, x_620766867, NTI687865860)], NTI620759450);
+    result_620767783 = nimCopy(null, [nimCopy(null, x_620767780, NTI654311428)], NTI620759053);
 
-  return result_620766870;
-
-}
-
-function HEX3Aanonymous_620766902(x_620766922) {
-  var result_620766925 = [];
-
-    result_620766925 = nimCopy(null, [nimCopy(null, x_620766922, NTI687865860)], NTI620759450);
-
-  return result_620766925;
+  return result_620767783;
 
 }
 
-function HEX3Aanonymous_620767085(operands_620767142) {
+function HEX3Aanonymous_620767436(x_620767456) {
+  var result_620767459 = [];
+
+    result_620767459 = nimCopy(null, [nimCopy(null, x_620767456, NTI654311428)], NTI620759053);
+
+  return result_620767459;
+
+}
+
+function HEX3Aanonymous_620767491(x_620767511) {
+  var result_620767514 = [];
+
+    result_620767514 = nimCopy(null, [nimCopy(null, x_620767511, NTI654311428)], NTI620759053);
+
+  return result_620767514;
+
+}
+
+function HEX3Aanonymous_620767600(x_620767620) {
+  var result_620767623 = [];
+
+    result_620767623 = nimCopy(null, [nimCopy(null, x_620767620, NTI654311428)], NTI620759053);
+
+  return result_620767623;
+
+}
+
+function HEX3Aanonymous_620767655(x_620767675) {
+  var result_620767678 = [];
+
+    result_620767678 = nimCopy(null, [nimCopy(null, x_620767675, NTI654311428)], NTI620759053);
+
+  return result_620767678;
+
+}
+
+function HEX3Aanonymous_620767838(operands_620767895) {
       var Temporary1;
         var Temporary2;
       var Temporary3;
 
-  var result_620767145 = ({rows: [], baseline: 0, width: 0, flag: 0});
+  var result_620767898 = ({rows: [], baseline: 0, width: 0, flag: 0});
 
-    var base_620767146 = nimCopy(null, operands_620767142[chckIndx(0, 0, (operands_620767142).length - 1)], NTI687865860);
-    var flag_620767147 = base_620767146.flag;
-    base_620767146.flag = 0;
-    switch ((operands_620767142).length) {
+    var base_620767899 = nimCopy(null, operands_620767895[chckIndx(0, 0, (operands_620767895).length - 1)], NTI654311428);
+    var flag_620767900 = base_620767899.flag;
+    base_620767899.flag = 0;
+    switch ((operands_620767895).length) {
     case 1:
-      result_620767145 = nimCopy(result_620767145, base_620767146, NTI687865860);
+      result_620767898 = nimCopy(result_620767898, base_620767899, NTI654311428);
       break;
     case 2:
-      var script_620767151 = nimCopy(null, operands_620767142[chckIndx(1, 0, (operands_620767142).length - 1)], NTI687865860);
-      if ((ConstSet131[flag_620767147] != undefined)) {
-      if ((script_620767151.flag == 7)) {
-      Temporary1 = stack_687866775([nimCopy(null, script_620767151, NTI687865860), nimCopy(null, base_620767146, NTI687865860)], addInt(base_620767146.baseline, height_687865900(script_620767151)), 0);
+      var script_620767904 = nimCopy(null, operands_620767895[chckIndx(1, 0, (operands_620767895).length - 1)], NTI654311428);
+      if ((ConstSet135[flag_620767900] != undefined)) {
+      if ((script_620767904.flag == 7)) {
+      Temporary1 = stack_654312352([nimCopy(null, script_620767904, NTI654311428), nimCopy(null, base_620767899, NTI654311428)], addInt(base_620767899.baseline, height_654311468(script_620767904)), 0);
       }
       else {
-      Temporary1 = stack_687866775([nimCopy(null, base_620767146, NTI687865860), nimCopy(null, script_620767151, NTI687865860)], base_620767146.baseline, 0);
+      Temporary1 = stack_654312352([nimCopy(null, base_620767899, NTI654311428), nimCopy(null, script_620767904, NTI654311428)], base_620767899.baseline, 0);
       }
       
-      result_620767145 = nimCopy(result_620767145, Temporary1, NTI687865860);
+      result_620767898 = nimCopy(result_620767898, Temporary1, NTI654311428);
       }
       else {
-        if ((script_620767151.flag == 7)) {
-        Temporary2 = addInt(base_620767146.baseline, height_687865900(script_620767151));
+        if ((script_620767904.flag == 7)) {
+        Temporary2 = addInt(base_620767899.baseline, height_654311468(script_620767904));
         }
         else {
-        Temporary2 = subInt(base_620767146.baseline, height_687865900(base_620767146));
+        Temporary2 = subInt(base_620767899.baseline, height_654311468(base_620767899));
         }
         
-        script_620767151.baseline = Temporary2;
-        result_620767145 = nimCopy(result_620767145, HEX26_687866713(base_620767146, script_620767151), NTI687865860);
+        script_620767904.baseline = Temporary2;
+        result_620767898 = nimCopy(result_620767898, HEX26_654312290(base_620767899, script_620767904), NTI654311428);
       }
       
       break;
     case 3:
-      if ((operands_620767142[chckIndx(1, 0, (operands_620767142).length - 1)].flag == 7)) {
-      Temporary3 = {Field0: nimCopy(null, operands_620767142[chckIndx(1, 0, (operands_620767142).length - 1)], NTI687865860), Field1: nimCopy(null, operands_620767142[chckIndx(2, 0, (operands_620767142).length - 1)], NTI687865860)};
+      if ((operands_620767895[chckIndx(1, 0, (operands_620767895).length - 1)].flag == 7)) {
+      Temporary3 = {Field0: nimCopy(null, operands_620767895[chckIndx(1, 0, (operands_620767895).length - 1)], NTI654311428), Field1: nimCopy(null, operands_620767895[chckIndx(2, 0, (operands_620767895).length - 1)], NTI654311428)};
       }
       else {
-      Temporary3 = {Field0: nimCopy(null, operands_620767142[chckIndx(2, 0, (operands_620767142).length - 1)], NTI687865860), Field1: nimCopy(null, operands_620767142[chckIndx(1, 0, (operands_620767142).length - 1)], NTI687865860)};
+      Temporary3 = {Field0: nimCopy(null, operands_620767895[chckIndx(2, 0, (operands_620767895).length - 1)], NTI654311428), Field1: nimCopy(null, operands_620767895[chckIndx(1, 0, (operands_620767895).length - 1)], NTI654311428)};
       }
       
-      var colontmp__620767762 = nimCopy(null, Temporary3, NTI620764784);
-      var sup_620767168 = nimCopy(null, colontmp__620767762["Field0"], NTI687865860);
-      var sub_620767169 = nimCopy(null, colontmp__620767762["Field1"], NTI687865860);
-      if ((ConstSet132[flag_620767147] != undefined)) {
-      result_620767145 = nimCopy(result_620767145, stack_687866775([nimCopy(null, sup_620767168, NTI687865860), nimCopy(null, base_620767146, NTI687865860), nimCopy(null, sub_620767169, NTI687865860)], addInt(base_620767146.baseline, height_687865900(sup_620767168)), 0), NTI687865860);
+      var colontmp__620768558 = nimCopy(null, Temporary3, NTI620765334);
+      var sup_620767921 = nimCopy(null, colontmp__620768558["Field0"], NTI654311428);
+      var sub_620767922 = nimCopy(null, colontmp__620768558["Field1"], NTI654311428);
+      if ((ConstSet136[flag_620767900] != undefined)) {
+      result_620767898 = nimCopy(result_620767898, stack_654312352([nimCopy(null, sup_620767921, NTI654311428), nimCopy(null, base_620767899, NTI654311428), nimCopy(null, sub_620767922, NTI654311428)], addInt(base_620767899.baseline, height_654311468(sup_620767921)), 0), NTI654311428);
       }
       else {
-        result_620767145 = nimCopy(result_620767145, HEX26_687866713(base_620767146, stack_687866775([extendDown_687865996(sup_620767168, height_687865900(base_620767146)), nimCopy(null, sub_620767169, NTI687865860)], addInt(base_620767146.baseline, height_687865900(sup_620767168)), 1)), NTI687865860);
+        result_620767898 = nimCopy(result_620767898, HEX26_654312290(base_620767899, stack_654312352([extendDown_654311573(sup_620767921, height_654311468(base_620767899)), nimCopy(null, sub_620767922, NTI654311428)], addInt(base_620767899.baseline, height_654311468(sup_620767921)), 1)), NTI654311428);
       }
       
       break;
     default: 
       break;
     }
-    if ((ConstSet133[flag_620767147] != undefined)) {
-    result_620767145.flag = flag_620767147;
+    if ((ConstSet137[flag_620767900] != undefined)) {
+    result_620767898.flag = flag_620767900;
     }
     
 
-  return result_620767145;
+  return result_620767898;
 
 }
-var ws_620760351 = map_620760294(HEX26_620760067(map_620759830(HEX2A_620759204(whitespace_1090520135, HEX2EHEX2E_654312275(0, 2147483647).a), HEX3Aanonymous_620760010), HEX2A_620759662(HEX7C_620759560(map_620759340(whitespace_1090520135, HEX3Aanonymous_620759514), nop_620759212()), subInt(HEX2EHEX2E_654312275(0, 2147483647).b, HEX2EHEX2E_654312275(0, 2147483647).a))), HEX3Aanonymous_620760209);
-var atom_620760354 = [{body: null}];
-var expr_620761692 = map_620761635(map_620761549(HEX26_620761292(map_620761055(HEX2A_620760399(atom_620760354[0], HEX2EHEX2E_654312275(0, 2147483647).a), HEX3Aanonymous_620761235), HEX2A_620760887(HEX7C_620760785(map_620760553(atom_620760354[0], HEX3Aanonymous_620760739), nop_620760407()), subInt(HEX2EHEX2E_654312275(0, 2147483647).b, HEX2EHEX2E_654312275(0, 2147483647).a))), HEX3Aanonymous_620761434), HEX3Aanonymous_620761614);
-var alpha_620761715 = HEX7C_1090520154(c_1090519479(HEX2EHEX2E_637534344(65, 90)), c_1090519479(HEX2EHEX2E_637534344(97, 122)));
-var digit_620761807 = map_620761750(c_1090519479(HEX2EHEX2E_637534344(48, 57)), HEX3Aanonymous_620761729);
-var sHEX60gensym99_620762737 = map_620762702(fontsByName_637534222, HEX3Aanonymous_620761859);
-if (!((0 < (sHEX60gensym99_620762737).length))) {
-failedAssertImpl_218103864(makeNimstrLit("sequtils.nim(895, 10) `s`gensym99.len > 0` Can\'t fold empty sequences"));
+var ws_620759767 = map_620759710(HEX26_620759483(map_620759246(HEX2A_620758608(whitespace_1191183431, HEX2EHEX2E_973079379(0, 2147483647).a), HEX3Aanonymous_620759426), HEX2A_620759078(HEX7C_620758976(map_620758744(whitespace_1191183431, HEX3Aanonymous_620758930), nop_620758616()), subInt(HEX2EHEX2E_973079379(0, 2147483647).b, HEX2EHEX2E_973079379(0, 2147483647).a))), HEX3Aanonymous_620759625);
+var atom_620759778 = [{body: null}];
+var expr_620761164 = map_620761071(map_620760985(HEX26_620760728(map_620760491(HEX2A_620759823(atom_620759778[0], HEX2EHEX2E_973079379(0, 2147483647).a), HEX3Aanonymous_620760671), HEX2A_620760323(HEX7C_620760221(map_620759977(atom_620759778[0], HEX3Aanonymous_620760175), nop_620759831()), subInt(HEX2EHEX2E_973079379(0, 2147483647).b, HEX2EHEX2E_973079379(0, 2147483647).a))), HEX3Aanonymous_620760870), HEX3Aanonymous_620761050);
+var alpha_620761187 = HEX7C_1191183450(c_1191182775(HEX2EHEX2E_637534419(65, 90)), c_1191182775(HEX2EHEX2E_637534419(97, 122)));
+var digit_620761279 = map_620761222(c_1191182775(HEX2EHEX2E_637534419(48, 57)), HEX3Aanonymous_620761201);
+var sHEX60gensym88_620762209 = map_620762174(fontsByName_637534324, HEX3Aanonymous_620761331);
+if (!((0 < (sHEX60gensym88_620762209).length))) {
+failedAssertImpl_218103864(makeNimstrLit("sequtils.nim(895, 10) `s`gensym88.len > 0` Can\'t fold empty sequences"));
 }
 
-var resultHEX60gensym99_620762747 = [null];
-resultHEX60gensym99_620762747[0] = sHEX60gensym99_620762737[chckIndx(0, 0, (sHEX60gensym99_620762737).length - 1)];
+var resultHEX60gensym88_620762219 = [null];
+resultHEX60gensym88_620762219[0] = sHEX60gensym88_620762209[chckIndx(0, 0, (sHEX60gensym88_620762209).length - 1)];
 Label9: do {
-  var iHEX60gensym99_620762755 = [0];
-  var colontmp__620767370 = 0;
-  colontmp__620767370 = (sHEX60gensym99_620762737).length;
-  var i_620767371 = 1;
+  var iHEX60gensym88_620762227 = [0];
+  var colontmp__620768150 = 0;
+  colontmp__620768150 = (sHEX60gensym88_620762209).length;
+  var i_620768151 = 1;
   Label10: do {
       Label11: while (true) {
-      if (!(i_620767371 < colontmp__620767370)) break Label11;
-        iHEX60gensym99_620762755[0] = i_620767371;
-        var a_620762756 = resultHEX60gensym99_620762747[0];
-        var b_620762757 = sHEX60gensym99_620762737[chckIndx(iHEX60gensym99_620762755[0], 0, (sHEX60gensym99_620762737).length - 1)];
-        resultHEX60gensym99_620762747[0] = HEX7C_620762766(a_620762756, b_620762757);
-        i_620767371 = addInt(i_620767371, 1);
+      if (!(i_620768151 < colontmp__620768150)) break Label11;
+        iHEX60gensym88_620762227[0] = i_620768151;
+        var a_620762228 = resultHEX60gensym88_620762219[0];
+        var b_620762229 = sHEX60gensym88_620762209[chckIndx(iHEX60gensym88_620762227[0], 0, (sHEX60gensym88_620762209).length - 1)];
+        resultHEX60gensym88_620762219[0] = HEX7C_620762238(a_620762228, b_620762229);
+        i_620768151 = addInt(i_620768151, 1);
       }
   } while (false);
 } while (false);
-var latinLetter_620762844 = HEX7C_620762766(map_620761750(alpha_620761715, HEX3Aanonymous_620761816), resultHEX60gensym99_620762747[0]);
-var bigOp_620762845 = lookupTableParser_620758564(bigOperators_637534219, 3);
-var binaryOp_620762846 = lookupTableParser_620758564(binaryOperators_637534220, 2);
-var delimiter_620762847 = lookupTableParser_620758564(delimiters_637534221, 0);
-var otherLetter_620762848 = lookupTableParser_620758564(letters_637534412, 1);
-var punct_620762849 = lookupTableParser_620758564(punctuation_637534413, 8);
-var symbol_620762850 = lookupTableParser_620758564(symbols_637534435, 0);
-var textOp_620762851 = lookupTableParser_620758564(textOperators_637534436, 4);
-var sHEX60gensym107_620763182 = map_620763155(simpleDiacritics_637534434, HEX3Aanonymous_620762860);
-var nHEX60gensym107_620763186 = (sHEX60gensym107_620763182).length;
-if (!((0 < nHEX60gensym107_620763186))) {
-failedAssertImpl_218103864(makeNimstrLit("sequtils.nim(965, 10) `n`gensym107 > 0` Can\'t fold empty sequences"));
+var latinLetter_620762316 = HEX7C_620762238(map_620761222(alpha_620761187, HEX3Aanonymous_620761288), resultHEX60gensym88_620762219[0]);
+var sHEX60gensym98_620762635 = map_620762609(delimiters_637534323, HEX3Aanonymous_620762317);
+var nHEX60gensym98_620762639 = (sHEX60gensym98_620762635).length;
+if (!((0 < nHEX60gensym98_620762639))) {
+failedAssertImpl_218103864(makeNimstrLit("sequtils.nim(965, 10) `n`gensym98 > 0` Can\'t fold empty sequences"));
 }
 
-var resultHEX60gensym107_620763192 = [sHEX60gensym107_620763182[chckIndx(subInt(nHEX60gensym107_620763186, 1), 0, (sHEX60gensym107_620763182).length - 1)]];
+var resultHEX60gensym98_620762645 = [sHEX60gensym98_620762635[chckIndx(subInt(nHEX60gensym98_620762639, 1), 0, (sHEX60gensym98_620762635).length - 1)]];
 Label12: do {
-  var iHEX60gensym107_620763198 = [0];
-  var colontmp__620767374 = 0;
-  colontmp__620767374 = subInt(nHEX60gensym107_620763186, 2);
-  var res_620767376 = colontmp__620767374;
+  var iHEX60gensym98_620762651 = [0];
+  var colontmp__620768154 = 0;
+  colontmp__620768154 = subInt(nHEX60gensym98_620762639, 2);
+  var res_620768156 = colontmp__620768154;
   Label13: do {
       Label14: while (true) {
-      if (!(0 <= res_620767376)) break Label14;
-        iHEX60gensym107_620763198[0] = res_620767376;
-        var a_620763199 = sHEX60gensym107_620763182[chckIndx(iHEX60gensym107_620763198[0], 0, (sHEX60gensym107_620763182).length - 1)];
-        var b_620763200 = resultHEX60gensym107_620763192[0];
-        resultHEX60gensym107_620763192[0] = HEX7C_620762766(a_620763199, b_620763200);
-        res_620767376 = subInt(res_620767376, 1);
+      if (!(0 <= res_620768156)) break Label14;
+        iHEX60gensym98_620762651[0] = res_620768156;
+        var a_620762652 = sHEX60gensym98_620762635[chckIndx(iHEX60gensym98_620762651[0], 0, (sHEX60gensym98_620762635).length - 1)];
+        var b_620762653 = resultHEX60gensym98_620762645[0];
+        resultHEX60gensym98_620762645[0] = HEX7C_620762238(a_620762652, b_620762653);
+        res_620768156 = subInt(res_620768156, 1);
       }
   } while (false);
 } while (false);
-var simpleDiacritic_620763213 = resultHEX60gensym107_620763192[0];
-var frac_620763627 = HEX3EHEX3E_620763552(HEX7C_620758944(HEX7C_620758944(HEX7C_620758944(s_1090519151(makeNimstrLit("\\frac")), s_1090519151(makeNimstrLit("\\tfrac"))), s_1090519151(makeNimstrLit("\\dfrac"))), s_1090519151(makeNimstrLit("\\cfrac"))), map_620761635(HEX26_620763378(map_620760553(atom_620760354[0], HEX3Aanonymous_620763274), map_620760553(atom_620760354[0], HEX3Aanonymous_620763329)), HEX3Aanonymous_620763473));
-var binom_620763859 = HEX3EHEX3E_620763552(HEX7C_620758944(HEX7C_620758944(HEX7C_620758944(s_1090519151(makeNimstrLit("\\binom")), s_1090519151(makeNimstrLit("\\tbinom"))), s_1090519151(makeNimstrLit("\\dbinom"))), s_1090519151(makeNimstrLit("\\cbinom"))), map_620761635(HEX26_620763378(map_620760553(atom_620760354[0], HEX3Aanonymous_620763688), map_620760553(atom_620760354[0], HEX3Aanonymous_620763743)), HEX3Aanonymous_620763813));
-var boxed_620763960 = HEX3EHEX3E_620763552(s_1090519151(makeNimstrLit("\\boxed")), map_620763088(atom_620760354[0], HEX3Aanonymous_620763868));
-var sqrt_620764299 = HEX3EHEX3E_620763552(s_1090519151(makeNimstrLit("\\sqrt")), map_620763088(atom_620760354[0], HEX3Aanonymous_620763969));
-var leftright_620764714 = map_620761635(HEX3EHEX3E_620764598(HEX3EHEX3E_620761876(s_1090519151(makeNimstrLit("\\left")), ws_620760351), HEX26_620763378(HEX26_620763378(map_620760553(delimiter_620762847, HEX3Aanonymous_620764350), map_620760553(HEX3EHEX3E_620762984(ws_620760351, expr_620761692), HEX3Aanonymous_620764405)), map_620760553(HEX3EHEX3E_620762984(HEX3EHEX3E_620761876(s_1090519151(makeNimstrLit("\\right")), ws_620760351), delimiter_620762847), HEX3Aanonymous_620764528))), HEX3Aanonymous_620764681);
-var bracedExpr_620764881 = HEX3CHEX3C_620764806(HEX3EHEX3E_620764723(c_1090519273(123), expr_620761692), c_1090519273(125));
-var atom1_620765145 = HEX3CHEX3C_620765070(HEX7C_620762766(HEX7C_620762766(HEX7C_620762766(HEX7C_620762766(HEX7C_620762766(HEX7C_620762766(HEX7C_620762766(HEX7C_620762766(HEX7C_620762766(HEX7C_620762766(HEX7C_620762766(HEX7C_620762766(HEX7C_620762766(HEX7C_620762766(HEX7C_620762766(bracedExpr_620764881, leftright_620764714), digit_620761807), latinLetter_620762844), otherLetter_620762848), bigOp_620762845), binaryOp_620762846), delimiter_620762847), punct_620762849), symbol_620762850), textOp_620762851), simpleDiacritic_620763213), frac_620763627), binom_620763859), sqrt_620764299), boxed_620763960), ws_620760351);
-var superscript_620766548 = HEX7C_620762766(map_620763088(HEX3EHEX3E_620764723(c_1090519273(94), atom1_620765145), HEX3Aanonymous_620765167), map_620766487(map_620766395(HEX26_620766132(map_620765895(HEX2A_620765242(c_1090519273(39), HEX2EHEX2E_654312275(1, 2147483647).a), HEX3Aanonymous_620766075), HEX2A_620765727(HEX7C_620765625(map_620765405(c_1090519273(39), HEX3Aanonymous_620765579), nop_620765250()), subInt(HEX2EHEX2E_654312275(1, 2147483647).b, HEX2EHEX2E_654312275(1, 2147483647).a))), HEX3Aanonymous_620766274), HEX3Aanonymous_620766460));
-var subscript_620766597 = map_620763088(HEX3EHEX3E_620764723(c_1090519273(95), atom1_620765145), HEX3Aanonymous_620766570);
-atom_620760354[0].body = map_620761635(HEX26_620763378(map_620760553(atom1_620765145, HEX3Aanonymous_620767007), HEX7C_620760785(HEX7C_620760785(HEX26_620763378(map_620760553(superscript_620766548, HEX3Aanonymous_620766683), map_620760553(HEX7C_620762766(subscript_620766597, nop_620766607()), HEX3Aanonymous_620766738)), HEX26_620763378(map_620760553(subscript_620766597, HEX3Aanonymous_620766847), map_620760553(HEX7C_620762766(superscript_620766548, nop_620766607()), HEX3Aanonymous_620766902))), nop_620760407())), HEX3Aanonymous_620767085).body;
-var completeExpr_620767269 = HEX3CHEX3C_620767194(expr_620761692, eof_1090520133);
+var delimiter_620762666 = resultHEX60gensym98_620762645[0];
+var command_620764458 = map_620762505(validate_620764187(map_620764053(HEX3EHEX3E_620763925(c_1191182569(92), map_620763860(HEX26_620763597(map_620763360(HEX2A_620762707(letter_1191183524, HEX2EHEX2E_973079379(1, 2147483647).a), HEX3Aanonymous_620763540), HEX2A_620763192(HEX7C_620763090(map_620762870(letter_1191183524, HEX3Aanonymous_620763044), nop_620762715()), subInt(HEX2EHEX2E_973079379(1, 2147483647).b, HEX2EHEX2E_973079379(1, 2147483647).a))), HEX3Aanonymous_620763739)), HEX3Aanonymous_620764008), HEX3Aanonymous_620764118, makeNimstrLit("a command")), HEX3Aanonymous_620764250);
+var sHEX60gensym131_620764516 = map_620762609(nonCommands_637535956, HEX3Aanonymous_620764459);
+var nHEX60gensym131_620764520 = (sHEX60gensym131_620764516).length;
+if (!((0 < nHEX60gensym131_620764520))) {
+failedAssertImpl_218103864(makeNimstrLit("sequtils.nim(965, 10) `n`gensym131 > 0` Can\'t fold empty sequences"));
+}
 
-function HEX24_687865888(rect_687865889) {
-  var result_687865890 = [];
+var resultHEX60gensym131_620764526 = [sHEX60gensym131_620764516[chckIndx(subInt(nHEX60gensym131_620764520, 1), 0, (sHEX60gensym131_620764516).length - 1)]];
+Label15: do {
+  var iHEX60gensym131_620764532 = [0];
+  var colontmp__620768159 = 0;
+  colontmp__620768159 = subInt(nHEX60gensym131_620764520, 2);
+  var res_620768160 = colontmp__620768159;
+  Label16: do {
+      Label17: while (true) {
+      if (!(0 <= res_620768160)) break Label17;
+        iHEX60gensym131_620764532[0] = res_620768160;
+        var a_620764533 = sHEX60gensym131_620764516[chckIndx(iHEX60gensym131_620764532[0], 0, (sHEX60gensym131_620764516).length - 1)];
+        var b_620764534 = resultHEX60gensym131_620764526[0];
+        resultHEX60gensym131_620764526[0] = HEX7C_620762238(a_620764533, b_620764534);
+        res_620768160 = subInt(res_620768160, 1);
+      }
+  } while (false);
+} while (false);
+var nonCommand_620764547 = resultHEX60gensym131_620764526[0];
+var sHEX60gensym138_620764878 = map_620764851(simpleDiacritics_637534551, HEX3Aanonymous_620764556);
+var nHEX60gensym138_620764882 = (sHEX60gensym138_620764878).length;
+if (!((0 < nHEX60gensym138_620764882))) {
+failedAssertImpl_218103864(makeNimstrLit("sequtils.nim(965, 10) `n`gensym138 > 0` Can\'t fold empty sequences"));
+}
 
-    result_687865890 = nimCopy(null, nsuJoinSep(rect_687865889.rows, makeNimstrLit("\x0A")), NTI33554439);
+var resultHEX60gensym138_620764888 = [sHEX60gensym138_620764878[chckIndx(subInt(nHEX60gensym138_620764882, 1), 0, (sHEX60gensym138_620764878).length - 1)]];
+Label18: do {
+  var iHEX60gensym138_620764894 = [0];
+  var colontmp__620768163 = 0;
+  colontmp__620768163 = subInt(nHEX60gensym138_620764882, 2);
+  var res_620768164 = colontmp__620768163;
+  Label19: do {
+      Label20: while (true) {
+      if (!(0 <= res_620768164)) break Label20;
+        iHEX60gensym138_620764894[0] = res_620768164;
+        var a_620764895 = sHEX60gensym138_620764878[chckIndx(iHEX60gensym138_620764894[0], 0, (sHEX60gensym138_620764878).length - 1)];
+        var b_620764896 = resultHEX60gensym138_620764888[0];
+        resultHEX60gensym138_620764888[0] = HEX7C_620762238(a_620764895, b_620764896);
+        res_620768164 = subInt(res_620768164, 1);
+      }
+  } while (false);
+} while (false);
+var simpleDiacritic_620764909 = resultHEX60gensym138_620764888[0];
+var frac_620765393 = HEX3EHEX3E_620765318(HEX7C_620764918(HEX7C_620764918(HEX7C_620764918(s_1191182447(makeNimstrLit("\\frac")), s_1191182447(makeNimstrLit("\\tfrac"))), s_1191182447(makeNimstrLit("\\dfrac"))), s_1191182447(makeNimstrLit("\\cfrac"))), map_620761071(HEX26_620765144(map_620759977(atom_620759778[0], HEX3Aanonymous_620765040), map_620759977(atom_620759778[0], HEX3Aanonymous_620765095)), HEX3Aanonymous_620765239));
+var binom_620765625 = HEX3EHEX3E_620765318(HEX7C_620764918(HEX7C_620764918(HEX7C_620764918(s_1191182447(makeNimstrLit("\\binom")), s_1191182447(makeNimstrLit("\\tbinom"))), s_1191182447(makeNimstrLit("\\dbinom"))), s_1191182447(makeNimstrLit("\\cbinom"))), map_620761071(HEX26_620765144(map_620759977(atom_620759778[0], HEX3Aanonymous_620765454), map_620759977(atom_620759778[0], HEX3Aanonymous_620765509)), HEX3Aanonymous_620765579));
+var boxed_620765726 = HEX3EHEX3E_620765318(s_1191182447(makeNimstrLit("\\boxed")), map_620764784(atom_620759778[0], HEX3Aanonymous_620765634));
+var sqrt_620766046 = HEX3EHEX3E_620765318(s_1191182447(makeNimstrLit("\\sqrt")), map_620764784(atom_620759778[0], HEX3Aanonymous_620765735));
+var leftright_620766461 = map_620761071(HEX3EHEX3E_620766345(HEX3EHEX3E_620761348(s_1191182447(makeNimstrLit("\\left")), ws_620759767), HEX26_620765144(HEX26_620765144(map_620759977(delimiter_620762666, HEX3Aanonymous_620766097), map_620759977(HEX3EHEX3E_620764680(ws_620759767, expr_620761164), HEX3Aanonymous_620766152)), map_620759977(HEX3EHEX3E_620764680(HEX3EHEX3E_620761348(s_1191182447(makeNimstrLit("\\right")), ws_620759767), delimiter_620762666), HEX3Aanonymous_620766275))), HEX3Aanonymous_620766428);
+var bracedExpr_620766628 = HEX3CHEX3C_620766553(HEX3EHEX3E_620766470(c_1191182569(123), expr_620761164), c_1191182569(125));
+var atom1_620766832 = HEX3CHEX3C_620766757(HEX7C_620762238(HEX7C_620762238(HEX7C_620762238(HEX7C_620762238(HEX7C_620762238(HEX7C_620762238(HEX7C_620762238(HEX7C_620762238(HEX7C_620762238(HEX7C_620762238(bracedExpr_620766628, leftright_620766461), digit_620761279), latinLetter_620762316), command_620764458), nonCommand_620764547), simpleDiacritic_620764909), frac_620765393), binom_620765625), sqrt_620766046), boxed_620765726), ws_620759767);
+var superscript_620767301 = HEX7C_620762238(map_620764784(HEX3EHEX3E_620766470(c_1191182569(94), atom1_620766832), HEX3Aanonymous_620766854), map_620767240(map_620763860(HEX26_620763597(map_620763360(HEX2A_620762707(c_1191182569(39), HEX2EHEX2E_973079379(1, 2147483647).a), HEX3Aanonymous_620767058), HEX2A_620763192(HEX7C_620763090(map_620762870(c_1191182569(39), HEX3Aanonymous_620766955), nop_620762715()), subInt(HEX2EHEX2E_973079379(1, 2147483647).b, HEX2EHEX2E_973079379(1, 2147483647).a))), HEX3Aanonymous_620767140), HEX3Aanonymous_620767213));
+var subscript_620767350 = map_620764784(HEX3EHEX3E_620766470(c_1191182569(95), atom1_620766832), HEX3Aanonymous_620767323);
+atom_620759778[0].body = map_620761071(HEX26_620765144(map_620759977(atom1_620766832, HEX3Aanonymous_620767760), HEX7C_620760221(HEX7C_620760221(HEX26_620765144(map_620759977(superscript_620767301, HEX3Aanonymous_620767436), map_620759977(HEX7C_620762238(subscript_620767350, nop_620767360()), HEX3Aanonymous_620767491)), HEX26_620765144(map_620759977(subscript_620767350, HEX3Aanonymous_620767600), map_620759977(HEX7C_620762238(superscript_620767301, nop_620767360()), HEX3Aanonymous_620767655))), nop_620759831())), HEX3Aanonymous_620767838).body;
+var completeExpr_620768022 = HEX3CHEX3C_620767947(expr_620761164, eof_1191183429);
 
-  return result_687865890;
+function HEX24_654311456(rect_654311457) {
+  var result_654311458 = [];
+
+    result_654311458 = nimCopy(null, nsuJoinSep(rect_654311457.rows, makeNimstrLit("\x0A")), NTI33554439);
+
+  return result_654311458;
 
 }
 
-function render_620767766(latex_620767767) {
+function render_620768562(latex_620768563) {
     var Temporary1;
     var Temporary2;
 
-  var result_620767768 = [];
+  var result_620768564 = [];
 
-    var parsed_620767781 = parse_620760599(completeExpr_620767269, latex_620767767);
-    if ((parsed_620767781.kind == 0)) {
-    var Temporary2 = parsed_620767781;
-    if (ConstSet137[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1090519061)); }
-    Temporary1 = HEX24_687865888(Temporary2.value);
+    var parsed_620768577 = parse_620760023(completeExpr_620768022, latex_620768563);
+    if ((parsed_620768577.kind == 0)) {
+    var Temporary2 = parsed_620768577;
+    if (ConstSet141[Temporary2.kind]===undefined) { raiseFieldError2(makeNimstrLit("field \'value\' is not accessible for type \'ParseResult\' using \'kind = "), reprDiscriminant(Temporary2.kind, NTI1191182357)); }
+    Temporary1 = HEX24_654311456(Temporary2.value);
     }
     else {
       raiseException({message: makeNimstrLit("Can\'t parse expression"), parent: null, m_type: NTI33555125, name: null, trace: [], up: null}, "ValueError");
     }
     
-    result_620767768 = nimCopy(null, Temporary1, NTI33554439);
+    result_620768564 = nimCopy(null, Temporary1, NTI33554439);
 
-  return result_620767768;
+  return result_620768564;
 
 }
 
 function matext(latex_486539267) {
   var result_486539268 = null;
 
-    result_486539268 = toJSStr(render_620767766(cstrToNimstr(latex_486539267)));
+    result_486539268 = toJSStr(render_620768562(cstrToNimstr(latex_486539267)));
 
   return result_486539268;
 
