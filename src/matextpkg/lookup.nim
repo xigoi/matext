@@ -14,7 +14,7 @@ type
 func textRects(flag: TextRectFlag, table: openArray[(string, string)]): seq[(string, TextRect)] =
   table.mapIt((it[0], it[1].toTextRect(flag = flag)))
 
-const bigOperators* = textRects(trfBigOperator, {
+const bigOperators = textRects(trfBigOperator, {
   "\\sum": "∑", "\\prod": "∏", "\\bigotimes": "⨂", "\\bigvee": "⋁",
   "\\int": "∫", "\\coprod": "∐", "\\bigoplus": "⨁", "\\bigwedge": "⋀",
   "\\iint": "∬", "\\intop": "∫", "\\bigodot": "⨀", "\\bigcap": "⋂",
@@ -22,7 +22,7 @@ const bigOperators* = textRects(trfBigOperator, {
   "\\oint": "∮", "\\oiint": "∯", "\\oiiint": "∰", "\\bigsqcup": "⨆",
 })
 
-const binaryOperators* = textRects(trfOperator, {
+const binaryOperators = textRects(trfOperator, {
   "+": "+", "-": "−", "*": "∗", "/": "/",
   "\\cdot": "⋅", "\\gtrdot": "⋗",
   "\\cdotp": "⋅", "\\intercal": "⊺",
@@ -223,7 +223,7 @@ func inFont*(letter: char, font: Font): string =
   return $Rune(fontStarts[font] + letter.ord - shift)
 
 # TODO: make Greek letters italic
-const letters* = textRects(trfAlnum, {
+const letters = textRects(trfAlnum, {
   "\\Alpha": "A", "\\Beta": "B", "\\Gamma": "Γ", "\\Delta": "Δ",
   "\\Epsilon": "E", "\\Zeta": "Z", "\\Eta": "H", "\\Theta": "Θ",
   "\\Iota": "I", "\\Kappa": "K", "\\Lambda": "Λ", "\\Mu": "M",
@@ -253,7 +253,7 @@ const letters* = textRects(trfAlnum, {
   "\\eth": "ð", "\\hslash": "ℏ", "\\reals": "R", "\\oe": "œ",
 })
 
-const punctuation* = textRects(trfPunctuation, {
+const punctuation = textRects(trfPunctuation, {
   ",": ",",
   ":": ":",
 })
@@ -272,7 +272,7 @@ const simpleDiacritics* = {
   "\\vec": (combining: "\u20D7", low: "→")
 }
 
-const symbols* = textRects(trfNone, {
+const symbols = textRects(trfNone, {
   "\\dots": "…", "\\KaTeX": "K T X\n A E ",
   "\\%": "%", "\\cdots": "⋯", "\\LaTeX": "L T X\n A E ",
   "\\#": "#", "\\ddots": "⋱", "\\TeX": "T X\n E ",
@@ -313,7 +313,7 @@ const symbols* = textRects(trfNone, {
   "\\maltese": "✠", "\\minuso": "⦵",
 })
 
-const textOperators* = textRects(trfWord, {
+const textOperators = textRects(trfWord, {
   "\\arcsin": "arcsin", "\\cosec": "cosec", "\\deg": "deg", "\\sec": "sec",
   "\\arccos": "arccos", "\\cosh": "cosh", "\\dim": "dim", "\\sin": "sin",
   "\\arctan": "arctan", "\\cot": "cot", "\\exp": "exp", "\\sinh": "sinh",
