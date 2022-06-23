@@ -1,5 +1,7 @@
 image: alpine/edge
+oauth: pages.sr.ht/PAGES:RW
 packages:
+  - hut
   - nim
   - nimble
   - pcre
@@ -7,3 +9,8 @@ tasks:
   - test: |
       cd matext
       nimble test -y
+  - package: |
+      cd matext/site
+      tar -cvz . > ../../site.tar.gz
+  - upload: |
+      hut pages publish -d xigoi.srht.site -s matext site.tar.gz
