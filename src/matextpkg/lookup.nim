@@ -329,11 +329,14 @@ const textOperators = textRects(trfWord, {
   "\\inf": "inf", "\\max": "max", "\\sup": "sup",
 })
 
+func isCommand(key: string): bool =
+  key[0] == '\\' and (key[1] in 'a'..'z' or key[1] in 'A'..'Z')
+
 const commands* = block:
   var commands = initTable[string, TextRect]()
   proc extractCommands(table: openArray[(string, TextRect)]) =
     for (key, val) in table:
-      if key[0] == '\\':
+      if key.isCommand:
         commands[key[1..^1]] = val
   extractCommands bigOperators
   extractCommands binaryOperators
@@ -348,7 +351,7 @@ const nonCommands* = block:
   var nonCommands = newSeq[(string, TextRect)]()
   proc extractNonCommands(table: openArray[(string, TextRect)]) =
     for (key, val) in table:
-      if key[0] != '\\':
+      if not key.isCommand:
         nonCommands.add((key, val))
   extractNonCommands bigOperators
   extractNonCommands binaryOperators

@@ -83,3 +83,10 @@ test "Limit of a sequence":
   ∀ ε ∈ ℝ , ∃ 𝑛  ∈ ℕ, ∀ 𝑛 ∈ ℕ, 𝑛 ≥ 𝑛 : 𝑎  ∈ (𝐴 − ε, 𝐴 + ε)
                0                    0   𝑛
   """
+
+test "Definition of percent":
+  checkRender r"\% \coloneqq \frac1{100}", """
+       1
+  % ≔ ───
+      100
+  """
