@@ -2,6 +2,7 @@ import ./lookup
 import ./textrect
 import honeycomb
 import std/sequtils
+import std/strformat
 import std/strutils
 import std/sugar
 import std/tables
@@ -109,7 +110,7 @@ let simpleDiacritic = simpleDiacritics.map(entry => (
     else:
       stack(val.low.toTextRectOneLine, rect, 1 + rect.baseline, saCenter)
   ))
-  )).foldr(a | b)
+)).foldr(a | b)
 
 let frac = (s"\frac" | s"\tfrac" | s"\dfrac" | s"\cfrac") >> (atom & atom).map(fraction => (
   let numerator = fraction[0]
@@ -237,4 +238,6 @@ proc render*(latex: string): string =
   if parsed.kind == success:
     $parsed.value
   else:
-    raise newException(ValueError, "Can't parse expression")
+    let (lnNum, colNum) = parsed.lineInfo
+    let showing = "    " & latex.splitLines[lnNum - 1] & "\n" & ' '.repeat(colNum + 3) & "^"
+    raise newException(ValueError, &"Parse error at line {lnNum}, column {colNum}\n{showing}")
