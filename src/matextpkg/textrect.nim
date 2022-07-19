@@ -30,6 +30,15 @@ using rect: TextRect
 func `$`*(rect): string =
   rect.rows.join("\n")
 
+func row*(rect): string =
+  rect.rows[0]
+
+func rowAsAtom*(rect): string =
+  if rect.rows[0].runeLen == 1:
+    rect.rows[0]
+  else:
+    "(" & rect.rows[0] & ")"
+
 func height*(rect): Natural =
   rect.rows.len
 

@@ -6,12 +6,12 @@ when defined(js):
   {.emit: "export default matext;".}
 elif isMainModule:
   import cligen
-  proc matext(args: seq[string]): string =
+  proc matext(args: seq[string], oneLine = false): string =
     try:
       for arg in args:
-        stdout.writeLine arg.render
+        stdout.writeLine arg.render(oneLine = oneLine)
       if args.len == 0:
-        stdout.writeLine stdin.readAll.render
+        stdout.writeLine stdin.readAll.render(oneLine = oneLine)
     except ValueError:
       stderr.writeLine "matext: error: " & getCurrentExceptionMsg()
   dispatch matext
