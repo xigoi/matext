@@ -1,11 +1,13 @@
 import ./lookup
 import ./textrect
 import honeycomb
+import std/options
 import std/sequtils
 import std/strformat
 import std/strutils
 import std/sugar
 import std/tables
+import std/unicode
 
 proc render*(latex: string, oneLine = false): string =
 
@@ -207,6 +209,10 @@ proc render*(latex: string, oneLine = false): string =
     boxed
   ) << ws
 
+  func translateIfPossible(str: string, table: Table[Rune, string]): Option[string] =
+    let runes = str.runes.toSeq
+    if runes.allIt(it in table):
+      return some(runes.mapIt(table[it]).join)
   let superscript = (c('^') >> atom1).map(sup => sup.withFlag(trfSup)) |
     c('\'').atLeast(1).map(primes => "′".repeat(primes.len).toTextRectOneLine.withFlag(trfSup))
   let subscript = (c('_') >> atom1).map(sub => sub.withFlag(trfSub))
@@ -214,37 +220,29 @@ proc render*(latex: string, oneLine = false): string =
     var base = operands[0]
     let flag = base.flag
     base.flag = trfNone
-    case operands.len
-    of 1:
-      result = base
-    of 2:
-      var script = operands[1]
-      if flag in {trfBigOperator, trfWord}:
-        result =
-          if script.flag == trfSup:
-            stack(script, base, base.baseline + script.height, saCenter)
+    (case operands.len
+      of 1:
+        base
+      of 3:
+        let (sup, sub) =
+          if operands[1].flag == trfSup:
+            (operands[1], operands[2])
           else:
-            stack(base, script, base.baseline, saCenter)
-      else:
-        script.baseline =
-          if script.flag == trfSup:
-            base.baseline + script.height
-          else:
-            base.baseline - base.height
-        result = base & script
-    of 3:
-      let (sup, sub) =
-        if operands[1].flag == trfSup:
-          (operands[1], operands[2])
+            (operands[2], operands[1])
+        if oneLine:
+          var str = base.row
+          if not sub.isEmpty:
+            str.add sub.row.translateIfPossible(subscripts).get("_" & sub.rowAsAtom)
+          if not sup.isEmpty:
+            str.add sup.row.translateIfPossible(superscripts).get("^" & sup.rowAsAtom)
+          str.toTextRectOneLine
+        elif flag in {trfBigOperator, trfWord}:
+          stack(sup, base, sub, base.baseline + sup.height, saCenter)
         else:
-          (operands[2], operands[1])
-      if flag in {trfBigOperator, trfWord}:
-        result = stack(sup, base, sub, base.baseline + sup.height, saCenter)
+          base & stack(sup.extendDown(base.height), sub, base.baseline + sup.height, saLeft)
       else:
-        result = base & stack(sup.extendDown(base.height), sub, base.baseline + sup.height, saLeft)
-    else:
-      discard
-    result.flag = flag
+        TextRect.default
+    ).withFlag(flag)
   ))
 
   let completeExpr = expr << eof

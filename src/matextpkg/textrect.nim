@@ -42,7 +42,7 @@ func rowAsAtom*(rect): string =
 func height*(rect): Natural =
   rect.rows.len
 
-func isEmpty(rect): bool =
+func isEmpty*(rect): bool =
   rect.height == 0
 
 func toTextRect*(s: string, baseline: int = 0, flag = trfNone): TextRect =
