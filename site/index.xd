@@ -43,6 +43,10 @@
   [rule #latex;
     [: width; 100%]
     [: height; 4em]
+    [: border; 2px solid #ddd]
+  ]
+  [rule #latex.error;
+    [: border-color; #f22]
   ]
   [rule #output;
     [: line-height; 1.0]
@@ -54,18 +58,29 @@
 [p Unlike other [LaTeX] renderers, the output of maTeXt can be used in any medium that permits blocks of monospace text, including e-mails, [link Gemtext; https://gemini.circumlunar.space/], etc.]
 [p See it in action here:]
 [<textarea> #latex; \exists e \in \mathbb{R}, \forall \varepsilon \in \mathbb{R}^+, \exists n_0 \in \mathbb{N}, \forall n \in \mathbb{N}, n \ge n_0: e - \varepsilon < \left(1 + \frac{1}{n}\right)^n < e + \varepsilon]
+[<div>
+  [<input> #one-line; type="checkbox"]
+  [<label> for="one-line"; One-line mode]
+]
 [<pre> #output; [<noscript> The live preview requires JavaScript.]]
 [js-module [raw
   import matext from "./matext.min.js";
   const latex = document.getElementById("latex");
+  const oneLineInput = document.getElementById("one-line");
   const output = document.getElementById("output");
   const update = () => {
     try {
-      output.innerText = matext(latex.value);
+      output.innerText = matext(latex.value, {
+        oneLine: oneLineInput.checked,
+      });
+      latex.classList.remove("error");
     } catch {
+      latex.classList.add("error");
     }
   }
-  latex.addEventListener("input", update);
+  for (const input of [latex, oneLineInput]) {
+    input.addEventListener("input", update);
+  }
   update();
 ]]
 
