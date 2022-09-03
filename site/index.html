@@ -1,21 +1,21 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="generator" content="xidoc"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:," /><title>maTeXt</title><script type="module">import matext from "./matext.min.js";
-  const latex = document.getElementById("latex");
-  const oneLineInput = document.getElementById("one-line");
-  const output = document.getElementById("output");
-  const update = () => {
-    try {
-      output.innerText = matext(latex.value, {
-        oneLine: oneLineInput.checked,
-      });
-      latex.classList.remove("error");
-    } catch {
-      latex.classList.add("error");
-    }
+const latex = document.getElementById("latex");
+const oneLineInput = document.getElementById("one-line");
+const output = document.getElementById("output");
+const update = () => {
+  try {
+    output.innerText = matext(latex.value, {
+      oneLine: oneLineInput.checked,
+    });
+    latex.classList.remove("error");
+  } catch {
+    latex.classList.add("error");
   }
-  for (const input of [latex, oneLineInput]) {
-    input.addEventListener("input", update);
-  }
-  update();</script><style>@font-face{font-family:Fira Code Regular;
+}
+for (const input of [latex, oneLineInput]) {
+  input.addEventListener("input", update);
+}
+update();</script><style>@font-face{font-family:Fira Code Regular;
 src:url("FiraCode-Regular.woff2");}
 :root{--serif:Constantia,"Lucida Bright",Lucidabright,"Lucida Serif",Lucida,"DejaVu Serif","Bitstream Vera Serif","Liberation Serif",Georgia,serif}
 :root{--sans-serif:-apple-system,BlinkMacSystemFont,"Avenir Next",Avenir,"Nimbus Sans L",Roboto,Noto,"Segoe UI",Arial,Helvetica,"Helvetica Neue",sans-serif}
@@ -53,31 +53,35 @@ border:2px solid #ddd;}
 <label for="one-line">One-line mode</label></div>
 <pre id="output"><noscript>The live preview requires JavaScript.</noscript></pre>
 <section><h2 class="xd-section-heading">Installation</h2><p>You need to have <a href="https://nim-lang.org/">Nim</a> and Nimble installed.</p>
-<section><h3 class="xd-section-heading">From <a href="https://nimble.directory/">Nimble</a></h3><pre class="language-bash"><code class="language-bash">nimble <span class="token function">install</span> matext</code></pre></section>
+<section><h3 class="xd-section-heading">From <a href="https://nimble.directory/">Nimble</a></h3><pre class="language-bash"><code class="language-bash">nimble <span class="token function">install</span> matext
+</code></pre></section>
 <section><h3 class="xd-section-heading">From source</h3><pre class="language-bash"><code class="language-bash"><span class="token function">git</span> clone https://git.sr.ht/~xigoi/matext
 <span class="token builtin class-name">cd</span> matext
-nimble <span class="token function">install</span></code></pre></section></section>
+nimble <span class="token function">install</span>
+</code></pre></section></section>
 <section><h2 class="xd-section-heading">Usage</h2><section><h3 class="xd-section-heading">CLI</h3><p>Simply invoke <code class="language-bash">matext</code> and give it LaTeX math, either on STDIN or in a command line argument:</p>
 <pre class="language-bash"><code class="language-bash">$ matext <span class="token string">'\left(1 + \frac{1}{n}\right)^n'</span>
-       𝑛
+      𝑛
 ⎛    <span class="token number">1</span>⎞
 ⎜1 + ─⎟
 ⎝    𝑛⎠
 
 $ matext <span class="token operator">&lt;&lt;</span> <span class="token string">END
-\left(1 + <span class="token entity" title="\f">\f</span>rac{1}{n}<span class="token entity" title="\r">\r</span>ight)^n
+\left(1 + <span class="token entity">\f</span>rac{1}{n}<span class="token entity">\r</span>ight)^n
 END</span>
-       𝑛
+      𝑛
 ⎛    <span class="token number">1</span>⎞
 ⎜1 + ─⎟
-⎝    𝑛⎠</code></pre></section>
+⎝    𝑛⎠
+</code></pre></section>
 <section><h3 class="xd-section-heading">Nim library</h3><pre class="language-nim"><code class="language-nim"><span class="token keyword">import</span> matext
 <span class="token keyword">let</span> latex <span class="token operator">=</span> <span class="token string">"\\left(1 + \\frac{1}{n}\\right)^n"</span>
 echo latex<span class="token operator">.</span>matext
 <span class="token comment">#        𝑛</span>
 <span class="token comment"># ⎛    1⎞</span>
 <span class="token comment"># ⎜1 + ─⎟</span>
-<span class="token comment"># ⎝    𝑛⎠</span></code></pre></section></section>
+<span class="token comment"># ⎝    𝑛⎠</span>
+</code></pre></section></section>
 <section><h2 class="xd-section-heading">Supported features</h2><p>The goal is to mostly match <a href="https://katex.org/docs/supported.html">KaTeX's list of supported functions</a>. Features which are not planned to be supported are marked with a cross.</p>
 <ul class="xd-checkboxes"><li class="xd-checkbox-checked">digits, English letters</li>
 <li>accents
@@ -109,7 +113,7 @@ echo latex<span class="token operator">.</span>matext
 <ul class="xd-checkboxes"><li class="xd-checkbox-checked">big operators</li>
 <li class="xd-checkbox-checked">binary operators</li>
 <li class="xd-checkbox-checked">logic &amp; set theory</li>
-<li class="xd-checkbox-checked"><code class="language-latex"><span class="token function selector">\frac</span></code>, <code class="language-latex"><span class="token function selector">\binom</span></code>
+<li class="xd-checkbox-checked"><code class="language-latex"><span class="token function selector">\frac</span></code>, <code class="language-latex"><span class="token function selector">\binom</span></code></li>
 <li class="xd-checkbox-unchecked"><code class="language-latex"><span class="token function selector">\over</span></code>, <code class="language-latex"><span class="token function selector">\choose</span></code></li>
 <li class="xd-checkbox-checked">text operators</li>
 <li class="xd-checkbox-checked">square root</li>
@@ -118,7 +122,7 @@ echo latex<span class="token operator">.</span>matext
 <li class="xd-checkbox-checked">negated relations</li>
 <li class="xd-checkbox-checked">simple arrows</li>
 <li class="xd-checkbox-unchecked">extensible arrows</li>
-<li class="xd-checkbox-unchecked">bra-ket notation</li></li></ul></li>
+<li class="xd-checkbox-unchecked">bra-ket notation</li></ul></li>
 <li class="xd-checkbox-crossed">color</li>
 <li class="xd-checkbox-checked">fonts (only for one letter)</li>
 <li class="xd-checkbox-crossed">font size</li>
