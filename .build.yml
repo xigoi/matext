@@ -9,8 +9,8 @@ tasks:
   - test: |
       cd matext
       nimble test -y
-  - package: |
-      cd matext/site
-      tar -cvz . > ../../site.tar.gz
   - upload: |
-      hut pages publish -d xigoi.srht.site -s matext site.tar.gz
+      if test "$(git -C matext rev-parse HEAD)" = "$(git -C matext rev-parse master)"; then
+        tar -cvzC matext/site . -f site.tar.gz
+        hut pages publish -d xigoi.srht.site -s matext site.tar.gz
+      fi
