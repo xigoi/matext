@@ -5,6 +5,7 @@ import std/unicode
 
 type
   Font* = enum
+    fNone
     fItalic
     fBold
     fScript
@@ -166,6 +167,7 @@ const delimiters* = textRects(trfNone, {
 })
 
 const fontsByName* = {
+  "\\mathrm": fNone,
   "\\mathit": fItalic,
   "\\mathbf": fBold,
   "\\mathcal": fScript,
@@ -216,6 +218,8 @@ const fontExceptions* = [
 ]
 
 func inFont*(letter: char, font: Font): string =
+  if font == fNone:
+    return $letter
   for (lhs, rhs) in fontExceptions[font]:
     if letter == lhs:
       return rhs

@@ -1,5 +1,5 @@
 [set-doc-lang english]
-[set-syntax-highlighting-theme funky-x]
+[set syntax-highlighting-theme; funky-x]
 [style
   [rule @font-face;
     [: font-family; Fira Code Regular]
@@ -52,7 +52,7 @@
     [: line-height; 1.0]
   ]
 ]
-[add-to-head [<link> rel="icon"; href="data:,"]]
+[empty-favicon]
 [title maTeXt]
 [p [bf maTeXt] is a program and Nim library for rendering [LaTeX] math as multiline Unicode text.]
 [p Unlike other [LaTeX] renderers, the output of maTeXt can be used in any medium that permits blocks of monospace text, including e-mails, [link Gemtext; https://gemini.circumlunar.space/], etc. Using the one-line mode, it can even be used in environments that don't support preformatted blocks.]
