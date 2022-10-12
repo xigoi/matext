@@ -1,6 +1,6 @@
 # Package
 
-version       = "2022.7.20"
+version       = "2022.10.12"
 author        = "Adam Blažek"
 description   = "Render LaTeX math as multiline Unicode text"
 license       = "GPL-3.0-or-later"
