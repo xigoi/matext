@@ -50,9 +50,9 @@ test "Binomial formula":
   """
 
 test "Stokes' theorem":
-  checkRender r"\iint_\Sigma \left(\nabla \times F\right) \cdot d^2 \Sigma = \oint_{\partial \Sigma} F \cdot d\Gamma", """
+  checkRender r"\iint_\Sigma \left(\nabla \times F\right) \cdot \mathrm d^2 \Sigma = \oint_{\partial \Sigma} F \cdot \mathrm d\Gamma", """
                2
-  ∬ (∇ × 𝐹) ⋅ 𝑑 Σ = ∮  𝐹 ⋅ 𝑑Γ
+  ∬ (∇ × 𝐹) ⋅ d Σ = ∮  𝐹 ⋅ dΓ
   Σ                 ∂Σ
   """
 
