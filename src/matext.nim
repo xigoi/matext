@@ -1,9 +1,14 @@
 import matextpkg/render
 
+# Nim library
+when not isMainModule:
+  proc matext*(latex: string, oneLine = false): string =
+    latex.render(oneLine = oneLine)
+
 # JavaScript module
 when defined(js):
   import std/jsffi
-  proc matext*(latex: cstring, opts: JsObject): cstring {.exportc.} =
+  proc matextJs(latex: cstring, opts: JsObject): cstring {.exportc: "matext".} =
     var opts = opts
     if opts == jsUndefined:
       opts = newJsObject()
@@ -24,8 +29,3 @@ elif isMainModule:
   dispatch matext, short = {"oneLine": '1'}, help = {
     "oneLine": "force the output to be on one line by mangling vertical notation"
   }
-
-# Nim library
-else:
-  proc matext*(latex: string, oneLine = false): string =
-    latex.render(oneLine = oneLine)

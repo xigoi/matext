@@ -63,7 +63,7 @@
   [<label> for="one-line"; One-line mode]
 ]
 [<pre> #output; [<noscript> The live preview requires JavaScript.]]
-[js-module [raw
+[js-module [raw<
   import matext from "./matext.min.js";
   const latex = document.getElementById("latex");
   const oneLineInput = document.getElementById("one-line");
@@ -87,15 +87,15 @@
 [section Installation;
   [p You need to have [link Nim; https://nim-lang.org/] and Nimble installed.]
   [section From [link Nimble; https://nimble.directory/];
-    [code-block bash; [raw
-nimble install matext
+    [code-block bash; [raw<
+      nimble install matext
     ]]
   ]
   [section From source;
-    [code-block bash; [raw
-git clone https://git.sr.ht/~xigoi/matext
-cd matext
-nimble install
+    [code-block bash; [raw<
+      git clone https://git.sr.ht/~xigoi/matext
+      cd matext
+      nimble install
     ]]
   ]
 ]
@@ -103,31 +103,31 @@ nimble install
 [section Usage;
   [section CLI;
     [p Simply invoke [code bash; matext] and give it LaTeX math, either on STDIN or in a command line argument:]
-    [code-block bash; [raw
-$ matext '\left(1 + \frac{1}{n}\right)^n'
-       𝑛
-⎛    1⎞
-⎜1 + ─⎟
-⎝    𝑛⎠
+    [code-block bash; [raw<
+      $ matext '\left(1 + \frac{1}{n}\right)^n'
+            𝑛
+      ⎛    1⎞
+      ⎜1 + ─⎟
+      ⎝    𝑛⎠
 
-$ matext << END
-\left(1 + \frac{1}{n}\right)^n
-END
-       𝑛
-⎛    1⎞
-⎜1 + ─⎟
-⎝    𝑛⎠
+      $ matext << END
+      \left(1 + \frac{1}{n}\right)^n
+      END
+            𝑛
+      ⎛    1⎞
+      ⎜1 + ─⎟
+      ⎝    𝑛⎠
     ]]
   ]
   [section Nim library;
-    [code-block nim; [raw
-import matext
-let latex = "\\left(1 + \\frac{1}{n}\\right)^n"
-echo latex.matext
-#        𝑛
-# ⎛    1⎞
-# ⎜1 + ─⎟
-# ⎝    𝑛⎠
+    [code-block nim; [raw<
+      import matext
+      let latex = "\\left(1 + \\frac{1}{n}\\right)^n"
+      echo latex.matext
+      #        𝑛
+      # ⎛    1⎞
+      # ⎜1 + ─⎟
+      # ⎝    𝑛⎠
     ]]
   ]
 ]
@@ -174,7 +174,7 @@ echo latex.matext
         [v big operators]
         [v binary operators]
         [v logic & set theory]
-        [v [code latex; \frac], [code latex; \binom]
+        [v [code latex; \frac], [code latex; \binom]]
         [- [code latex; \over], [code latex; \choose]]
         [v text operators]
         [v square root]
@@ -184,7 +184,7 @@ echo latex.matext
         [v simple arrows]
         [- extensible arrows]
         [- bra-ket notation]
-    ]]]
+    ]]
     [x color]
     [v fonts (only for one letter)]
     [x font size]
