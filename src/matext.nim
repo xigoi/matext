@@ -1,4 +1,5 @@
 import matextpkg/render
+import std/strutils
 
 # Nim library
 when not isMainModule:
@@ -18,14 +19,17 @@ when defined(js):
 # Command-line application
 elif isMainModule:
   import cligen
-  proc matext(args: seq[string], oneLine = false): string =
+  proc matext(args: seq[string], oneLine = false, suppressNewline = false) =
     try:
-      for arg in args:
-        stdout.writeLine arg.render(oneLine = oneLine)
       if args.len == 0:
-        stdout.writeLine stdin.readAll.render(oneLine = oneLine)
+        stdout.write stdin.readAll.render(oneLine = oneLine)
+      else:
+        stdout.write args.join(" ").render(oneLine = oneLine)
+      if not suppressNewline:
+        stdout.writeLine ""
     except ValueError:
       stderr.writeLine "matext: error: " & getCurrentExceptionMsg()
-  dispatch matext, short = {"oneLine": '1'}, help = {
-    "oneLine": "force the output to be on one line by mangling vertical notation"
+  dispatch matext, short = {"one-line": '1', "suppress-newline": 'n'}, help = {
+    "one-line": "force the output to be on one line by mangling vertical notation",
+    "suppress-newline": "don't add a trailing newline",
   }
