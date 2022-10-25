@@ -1,5 +1,6 @@
 import ./textrect
 import std/sequtils
+import std/strformat
 import std/tables
 import std/unicode
 
@@ -11,9 +12,17 @@ type
     fScript
     fFraktur
     fDoubleStruck
+  LetterType = enum
+    ltLatin
+    ltGreek
 
 func textRects(flag: TextRectFlag, table: openArray[(string, string)]): seq[(string, TextRect)] =
   table.mapIt((it[0], it[1].toTextRect(flag = flag)))
+
+func rune*(s: string): Rune =
+  s.runeAt(0)
+
+func `<=`(a, b: Rune): bool {.borrow.}
 
 const bigOperators = textRects(trfBigOperator, {
   "\\sum": "∑", "\\prod": "∏", "\\bigotimes": "⨂", "\\bigvee": "⋁",
@@ -176,55 +185,72 @@ const fontsByName* = {
 }
 
 const fontStarts* = [
-  fItalic: 119860,
-  fBold: 119808,
-  fScript: 119964,
-  fFraktur: 120068,
-  fDoubleStruck: 120120,
+  ltLatin: [
+    fItalic: 119860,
+    fBold: 119808,
+    fScript: 119964,
+    fFraktur: 120068,
+    fDoubleStruck: 120120,
+  ],
+  ltGreek: [
+    fItalic: 120546,
+    fBold: 120488,
+    fScript: 0,
+    fFraktur: 0,
+    fDoubleStruck: 0,
+  ],
 ]
 
 const fontExceptions* = [
-  fItalic: @{'h': "ℎ"},
+  fItalic: @{rune"h": "ℎ"},
   fBold: @[],
   fScript: @{
-    'B': "ℬ",
-    'E': "ℰ",
-    'F': "ℱ",
-    'H': "ℋ",
-    'I': "ℐ",
-    'L': "ℒ",
-    'M': "ℳ",
-    'R': "ℛ",
-    'e': "ℯ",
-    'g': "ℊ",
-    'o': "ℴ",
+    rune"B": "ℬ",
+    rune"E": "ℰ",
+    rune"F": "ℱ",
+    rune"H": "ℋ",
+    rune"I": "ℐ",
+    rune"L": "ℒ",
+    rune"M": "ℳ",
+    rune"R": "ℛ",
+    rune"e": "ℯ",
+    rune"g": "ℊ",
+    rune"o": "ℴ",
   },
   fFraktur: @{
-    'C': "ℭ",
-    'H': "ℌ",
-    'I': "ℑ",
-    'R': "ℜ",
-    'Z': "ℨ",
+    rune"C": "ℭ",
+    rune"H": "ℌ",
+    rune"I": "ℑ",
+    rune"R": "ℜ",
+    rune"Z": "ℨ",
   },
   fDoubleStruck: @{
-    'C': "ℂ",
-    'H': "ℍ",
-    'N': "ℕ",
-    'P': "ℙ",
-    'Q': "ℚ",
-    'R': "ℝ",
-    'Z': "ℤ",
+    rune"C": "ℂ",
+    rune"H": "ℍ",
+    rune"N": "ℕ",
+    rune"P": "ℙ",
+    rune"Q": "ℚ",
+    rune"R": "ℝ",
+    rune"Z": "ℤ",
   },
 ]
 
-func inFont*(letter: char, font: Font): string =
+func inFont*(letter: Rune, font: Font): string =
   if font == fNone:
     return $letter
   for (lhs, rhs) in fontExceptions[font]:
     if letter == lhs:
       return rhs
-  let shift = if letter in 'A'..'Z': 65 else: 71
-  return $Rune(fontStarts[font] + letter.ord - shift)
+  let (typ, shift) = case letter
+    of rune"A" .. rune"Z": (ltLatin, 65)
+    of rune"a" .. rune"z": (ltLatin, 71)
+    of rune"Α" .. rune"Ω": (ltGreek, 913)
+    of rune"α" .. rune"ω": (ltGreek, 919)
+    else: raise newException(ValueError, &"Invalid letter: {letter}")
+  let fontStart = fontStarts[typ][font]
+  if fontStart == 0:
+    raise newException(ValueError, &"Letter {letter} can't be rendered in font {font}")
+  return $Rune(fontStart + letter.ord - shift)
 
 # TODO: make Greek letters italic
 const letters = textRects(trfAlnum, {
@@ -277,65 +303,65 @@ const simpleDiacritics* = {
 }
 
 const superscripts* = {
-  "0".runeAt(0): "⁰",
-  "1".runeAt(0): "¹",
-  "2".runeAt(0): "²",
-  "3".runeAt(0): "³",
-  "4".runeAt(0): "⁴",
-  "5".runeAt(0): "⁵",
-  "6".runeAt(0): "⁶",
-  "7".runeAt(0): "⁷",
-  "8".runeAt(0): "⁸",
-  "9".runeAt(0): "⁹",
-  "+".runeAt(0): "⁺",
-  "−".runeAt(0): "⁻",
-  "=".runeAt(0): "⁼",
-  "(".runeAt(0): "⁽",
-  ")".runeAt(0): "⁾",
-  "i".runeAt(0): "ⁱ",
-  "n".runeAt(0): "ⁿ",
-  " ".runeAt(0): "",
+  rune"0": "⁰",
+  rune"1": "¹",
+  rune"2": "²",
+  rune"3": "³",
+  rune"4": "⁴",
+  rune"5": "⁵",
+  rune"6": "⁶",
+  rune"7": "⁷",
+  rune"8": "⁸",
+  rune"9": "⁹",
+  rune"+": "⁺",
+  rune"−": "⁻",
+  rune"=": "⁼",
+  rune"(": "⁽",
+  rune")": "⁾",
+  rune"i": "ⁱ",
+  rune"n": "ⁿ",
+  rune" ": "",
 }.toTable
 
 const subscripts* = {
-  "0".runeAt(0): "₀",
-  "1".runeAt(0): "₁",
-  "2".runeAt(0): "₂",
-  "3".runeAt(0): "₃",
-  "4".runeAt(0): "₄",
-  "5".runeAt(0): "₅",
-  "6".runeAt(0): "₆",
-  "7".runeAt(0): "₇",
-  "8".runeAt(0): "₈",
-  "9".runeAt(0): "₉",
-  "+".runeAt(0): "₊",
-  "-".runeAt(0): "₋",
-  "=".runeAt(0): "₌",
-  "(".runeAt(0): "₍",
-  ")".runeAt(0): "₎",
-  "a".runeAt(0): "ₐ",
-  "e".runeAt(0): "ₑ",
-  "o".runeAt(0): "ₒ",
-  "x".runeAt(0): "ₓ",
-  "h".runeAt(0): "ₕ",
-  "k".runeAt(0): "ₖ",
-  "l".runeAt(0): "ₗ",
-  "m".runeAt(0): "ₘ",
-  "n".runeAt(0): "ₙ",
-  "p".runeAt(0): "ₚ",
-  "s".runeAt(0): "ₛ",
-  "t".runeAt(0): "ₜ",
-  "i".runeAt(0): "ᵢ",
-  "r".runeAt(0): "ᵣ",
-  "j".runeAt(0): "ⱼ",
-  "u".runeAt(0): "ᵤ",
-  "β".runeAt(0): "ᵦ",
-  "v".runeAt(0): "ᵥ",
-  "χ".runeAt(0): "ᵪ",
-  "γ".runeAt(0): "ᵧ",
-  "ρ".runeAt(0): "ᵨ",
-  "φ".runeAt(0): "ᵩ",
-  " ".runeAt(0): "",
+  rune"0": "₀",
+  rune"1": "₁",
+  rune"2": "₂",
+  rune"3": "₃",
+  rune"4": "₄",
+  rune"5": "₅",
+  rune"6": "₆",
+  rune"7": "₇",
+  rune"8": "₈",
+  rune"9": "₉",
+  rune"+": "₊",
+  rune"-": "₋",
+  rune"=": "₌",
+  rune"(": "₍",
+  rune")": "₎",
+  rune"a": "ₐ",
+  rune"e": "ₑ",
+  rune"o": "ₒ",
+  rune"x": "ₓ",
+  rune"h": "ₕ",
+  rune"k": "ₖ",
+  rune"l": "ₗ",
+  rune"m": "ₘ",
+  rune"n": "ₙ",
+  rune"p": "ₚ",
+  rune"s": "ₛ",
+  rune"t": "ₜ",
+  rune"i": "ᵢ",
+  rune"r": "ᵣ",
+  rune"j": "ⱼ",
+  rune"u": "ᵤ",
+  rune"β": "ᵦ",
+  rune"v": "ᵥ",
+  rune"χ": "ᵪ",
+  rune"γ": "ᵧ",
+  rune"ρ": "ᵨ",
+  rune"φ": "ᵩ",
+  rune" ": "",
 }.toTable
 
 const symbols = textRects(trfNone, {

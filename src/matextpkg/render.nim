@@ -79,12 +79,12 @@ proc render*(latex: string, oneLine = false): string =
   let alpha = c('A'..'Z') | c('a'..'z')
 
   let digit = c('0'..'9').map(ch => ($ch).toTextRectOneLine(0, trfAlnum))
-  let latinLetter = alpha.map(letter => letter.inFont(fItalic).toTextRectOneLine(0, trfAlnum)) |
+  let latinLetter = alpha.map(letter => letter.Rune.inFont(fItalic).toTextRectOneLine(0, trfAlnum)) |
     fontsByName.map(pair => (
       let (name, font) = pair
       ((s(name) >> ws >> c('{') >> ws >> alpha << ws << c('}')) |
       (s(name) >> whitespace.atLeast(1) >> alpha))
-      .map(letter => letter.inFont(font).toTextRectOneLine(0, trfAlnum))
+      .map(letter => letter.Rune.inFont(font).toTextRectOneLine(0, trfAlnum))
     )).foldl(a | b)
 
   let delimiter =

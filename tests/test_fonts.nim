@@ -7,12 +7,12 @@ proc testFont(font: Font; upper, lower: string) =
     block uppercase:
       var ascii = 'A'
       for rune in upper.runes:
-        check ascii.inFont(font) == $rune
+        check ascii.Rune.inFont(font) == $rune
         ascii.inc
     block lowercase:
       var ascii = 'a'
       for rune in lower.runes:
-        check ascii.inFont(font) == $rune
+        check ascii.Rune.inFont(font) == $rune
         ascii.inc
 
 testFont(fNone,
