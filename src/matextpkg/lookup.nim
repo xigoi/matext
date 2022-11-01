@@ -175,6 +175,28 @@ const delimiters* = textRects(trfNone, {
   "\\rrbracket": "⟧",
 })
 
+const extensibleArrowParts* = {
+  "\\xleftarrow": ("←", "←", "─", "─"),
+  "\\xLeftarrow": ("⇐", "⇐", "═", "═"),
+  "\\xleftrightarrow": ("↔", "←", "─", "→"),
+  "\\xhookleftarrow": ("↩", "←", "─", "╯"),
+  "\\xtwoheadleftarrow": ("↞", "↞", "─", "─"),
+  "\\xleftharpoonup": ("↼", "↼", "─", "─"),
+  "\\xleftharpoondown": ("↽", "↽", "─", "─"),
+  "\\xleftrightharpoons": ("⇋", "⥪", "═", "⥭"),
+  "\\xtofrom": ("⇄", "←", "═", "→"),
+  "\\xlongequal": ("=", "═", "═", "═"),
+  "\\xrightarrow": ("→", "─", "─", "→"),
+  "\\xRightarrow": ("⇒", "═", "═", "⇒"),
+  "\\xLeftrightarrow": ("⇔", "⇐", "═", "⇒"),
+  "\\xhookrightarrow": ("↪", "╰", "─", "→"),
+  "\\xtwoheadrightarrow": ("↠", "─", "─", "↠"),
+  "\\xrightharpoonup": ("⇀", "─", "─", "⇀"),
+  "\\xrightharpoondown": ("⇁", "─", "─", "⇁"),
+  "\\xrightleftharpoons": ("⇌", "⥫", "═", "⥬"),
+  "\\xmapsto": ("↦", "├", "─", "→"),
+}
+
 const fontsByName* = {
   "\\mathrm": fNone,
   "\\mathit": fItalic,

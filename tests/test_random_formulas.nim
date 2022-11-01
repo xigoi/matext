@@ -90,3 +90,10 @@ test "Definition of percent":
   % ≔ ───
       100
   """
+
+test "Limit of 1/n":
+  checkRender r"\frac1{n} \xrightarrow{n\to\infty} 0", """
+  1 𝑛 → ∞
+  ─ ────→ 0
+  𝑛
+  """

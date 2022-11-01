@@ -148,6 +148,22 @@ proc render*(latex: string, oneLine = false): string =
       )
   ))
 
+  let sqrt = s"\sqrt" >> atom.map(arg => (
+    if oneLine:
+      fmt"√{arg.rowAsAtom}".toTextRectOneLine
+    else:
+      let overbar = "_".repeat(arg.width).toTextRectOneLine
+      let symbol =
+        if arg.height == 1:
+          "√".toTextRectOneLine
+        else:
+          join(
+            countdown(arg.height div 2, 1).toSeq.mapIt("╲".toTextRect(arg.baseline - arg.height + it)) &
+            countup(1, arg.height).toSeq.mapIt("╱".toTextRect(arg.baseline - arg.height + it))
+          )
+      join(symbol, stack(overbar, arg, arg.baseline + 1, saLeft))
+  ))
+
   let boxed = s"\boxed" >> atom.map(arg => (
     if oneLine:
       fmt"[{arg.row}]".toTextRectOneLine
@@ -168,21 +184,23 @@ proc render*(latex: string, oneLine = false): string =
       join(left, sandwich, right)
   ))
 
-  let sqrt = s"\sqrt" >> atom.map(arg => (
-    if oneLine:
-      fmt"√{arg.rowAsAtom}".toTextRectOneLine
-    else:
-      let overbar = "_".repeat(arg.width).toTextRectOneLine
-      let symbol =
-        if arg.height == 1:
-          "√".toTextRectOneLine
-        else:
-          join(
-            countdown(arg.height div 2, 1).toSeq.mapIt("╲".toTextRect(arg.baseline - arg.height + it)) &
-            countup(1, arg.height).toSeq.mapIt("╱".toTextRect(arg.baseline - arg.height + it))
-          )
-      join(symbol, stack(overbar, arg, arg.baseline + 1, saLeft))
-  ))
+  let extensibleArrow = extensibleArrowParts.map(entry => (
+    let (key, val) = entry
+    let (one, left, middle, right) = val
+    (s(key) >> atom).map(rect => (
+      var rect = rect
+      if oneLine:
+        fmt"{one}[{rect.row}]".toTextRectOneLine
+      elif rect.width <= 1:
+        stack(rect, one.toTextRectOneLine, rect.height, saCenter).withFlag(trfOperator)
+      else:
+        var arrow = left.toTextRectOneLine
+        for _ in 0 ..< rect.width - 2:
+          arrow &= middle.toTextRectOneLine
+        arrow &= right.toTextRectOneLine
+        stack(rect, arrow, rect.height, saCenter).withFlag(trfOperator)
+    ))
+  )).foldr(a | b)
 
   let leftright = (s"\left" >> ws >> delimiter & (ws >> expr) & (s"\right" >> ws >> delimiter)).map(things => (
     let inside = things[1]
@@ -206,7 +224,8 @@ proc render*(latex: string, oneLine = false): string =
     frac |
     binom |
     sqrt |
-    boxed
+    boxed |
+    extensibleArrow
   ) << ws
 
   func translateIfPossible(str: string, table: Table[Rune, string]): Option[string] =

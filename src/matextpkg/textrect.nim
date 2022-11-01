@@ -123,6 +123,9 @@ func join*(rects: varargs[TextRect]): TextRect =
 func `&`*(left, right: TextRect): TextRect =
   join(left, right)
 
+func `&=`*(left: var TextRect, right: TextRect) =
+  left = join(left, right)
+
 func center(s: string, width: Natural, padding = ' '.Rune): string =
   let sLen = s.runeLen
   if sLen >= width:
