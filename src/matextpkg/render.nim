@@ -106,7 +106,7 @@ proc render*(latex: string, oneLine = false): string =
 
   let simpleDiacritic = simpleDiacritics.map(entry => (
     let (key, val) = entry
-    (s(key) >> !letter >> ws >> atom).map(rect => (
+    (s(key) >> !letter >> atom).map(rect => (
       var rect = rect
       if rect.width == 1 and rect.height == 1:
         rect.rows[0] &= val.combining
@@ -118,7 +118,7 @@ proc render*(latex: string, oneLine = false): string =
     ))
   )).foldr(a | b)
 
-  let frac = (s"\frac" | s"\tfrac" | s"\dfrac" | s"\cfrac") >> (atom & atom).map(fraction => (
+  let frac = (s"\frac" | s"\tfrac" | s"\dfrac" | s"\cfrac") >> !letter >> (atom & atom).map(fraction => (
     let numerator = fraction[0]
     let denominator = fraction[1]
     if oneLine:
@@ -134,7 +134,7 @@ proc render*(latex: string, oneLine = false): string =
       stack(numerator, fractionLine.toTextRectOneLine, denominator, numerator.height, saCenter).withFlag(flag)
   ))
 
-  let binom = (s"\binom" | s"\tbinom" | s"\dbinom" | s"\cbinom") >> (atom & atom).map(nk => (
+  let binom = (s"\binom" | s"\tbinom" | s"\dbinom" | s"\cbinom") >> !letter >> (atom & atom).map(nk => (
     let n = nk[0]
     let k = nk[1]
     if oneLine:
@@ -148,7 +148,7 @@ proc render*(latex: string, oneLine = false): string =
       )
   ))
 
-  let sqrt = s"\sqrt" >> atom.map(arg => (
+  let sqrt = s"\sqrt" >> !letter >> atom.map(arg => (
     if oneLine:
       fmt"√{arg.rowAsAtom}".toTextRectOneLine
     else:
@@ -164,7 +164,7 @@ proc render*(latex: string, oneLine = false): string =
       join(symbol, stack(overbar, arg, arg.baseline + 1, saLeft))
   ))
 
-  let boxed = s"\boxed" >> atom.map(arg => (
+  let boxed = s"\boxed" >> !letter >> atom.map(arg => (
     if oneLine:
       fmt"[{arg.row}]".toTextRectOneLine
     else:
@@ -187,18 +187,19 @@ proc render*(latex: string, oneLine = false): string =
   let extensibleArrow = extensibleArrowParts.map(entry => (
     let (key, val) = entry
     let (one, left, middle, right) = val
-    (s(key) >> atom).map(rect => (
+    (s(key) >> !letter >> atom).map(rect => (
       var rect = rect
-      if oneLine:
+      (if oneLine:
         fmt"{one}[{rect.row}]".toTextRectOneLine
       elif rect.width <= 1:
-        stack(rect, one.toTextRectOneLine, rect.height, saCenter).withFlag(trfOperator)
+        stack(rect, one.toTextRectOneLine, rect.height, saCenter)
       else:
         var arrow = left.toTextRectOneLine
         for _ in 0 ..< rect.width - 2:
           arrow &= middle.toTextRectOneLine
         arrow &= right.toTextRectOneLine
-        stack(rect, arrow, rect.height, saCenter).withFlag(trfOperator)
+        stack(rect, arrow, rect.height, saCenter)
+      ).withFlag(trfOperator)
     ))
   )).foldr(a | b)
 
@@ -235,7 +236,7 @@ proc render*(latex: string, oneLine = false): string =
   let superscript = (c('^') >> atom1).map(sup => sup.withFlag(trfSup)) |
     c('\'').atLeast(1).map(primes => "′".repeat(primes.len).toTextRectOneLine.withFlag(trfSup))
   let subscript = (c('_') >> atom1).map(sub => sub.withFlag(trfSub))
-  atom.become (atom1 & ((superscript & subscript.optional) | (subscript & superscript.optional)).optional).map(operands => (
+  atom.become ws >> (atom1 & ((superscript & subscript.optional) | (subscript & superscript.optional)).optional).map(operands => (
     var base = operands[0]
     let flag = base.flag
     base.flag = trfNone
