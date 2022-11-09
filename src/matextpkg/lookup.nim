@@ -294,15 +294,15 @@ const letters = textRects(trfAlnum, {
   "\\varepsilon": "ε", "\\varkappa": "ϰ", "\\vartheta": "ϑ", "\\thetasym": "ϑ",
   "\\varpi": "ϖ", "\\varrho": "ϱ", "\\varsigma": "ς", "\\varphi": "φ",
   "\\digamma": "ϝ",
-  "\\imath": "", "\\nabla": "∇", "\\Im": "ℑ", "\\Reals": "R", "\\OE": "Œ",
+  "\\imath": "", "\\nabla": "∇", "\\Im": "ℑ", "\\Reals": "ℝ", "\\OE": "Œ",
   "\\jmath": "ȷ", "\\partial": "∂", "\\image": "ℑ", "\\wp": "℘", "\\o": "ø",
   "\\aleph": "ℵ", "\\Game": "⅁", "\\Bbbk": "k", "\\weierp": "℘", "\\O": "Ø",
-  "\\alef": "ℵ", "\\Finv": "Ⅎ", "\\N": "N", "\\Z": "Z", "\\ss": "ß",
-  "\\alefsym": "ℵ", "\\cnums": "C", "\\natnums": "N", "\\aa": "å", "\\i": "ı",
-  "\\beth": "ℶ", "\\Complex": "C", "\\R": "R", "\\AA": "Å", "\\j": "ȷ",
+  "\\alef": "ℵ", "\\Finv": "Ⅎ", "\\N": "ℕ", "\\Z": "ℤ", "\\ss": "ß",
+  "\\alefsym": "ℵ", "\\cnums": "ℂ", "\\natnums": "ℕ", "\\aa": "å", "\\i": "ı",
+  "\\beth": "ℶ", "\\Complex": "ℂ", "\\R": "ℝ", "\\AA": "Å", "\\j": "ȷ",
   "\\gimel": "ℷ", "\\ell": "ℓ", "\\Re": "ℜ", "\\ae": "æ",
   "\\daleth": "ℸ", "\\hbar": "ℏ", "\\real": "ℜ", "\\AE": "Æ",
-  "\\eth": "ð", "\\hslash": "ℏ", "\\reals": "R", "\\oe": "œ",
+  "\\eth": "ð", "\\hslash": "ℏ", "\\reals": "ℝ", "\\oe": "œ",
 })
 
 const punctuation = textRects(trfPunctuation, {

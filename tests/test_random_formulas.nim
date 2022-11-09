@@ -97,3 +97,8 @@ test "Limit of 1/n":
   ─ ────→ 0
   𝑛
   """
+
+test "Subset relations between number sets":
+  checkRender r"\mathbb P \sub \N \sub \Z \sub \mathbb{Q} \sub \R \sub \Complex", """
+    ℙ ⊂ ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ
+  """
